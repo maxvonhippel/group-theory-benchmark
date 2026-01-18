@@ -33,10 +33,23 @@ setup:
 	@echo "Step 6: Building GAP..."
 	cd gap && $(MAKE)
 	@echo ""
-	@echo "Step 7: Downloading and building GAP packages..."
+	@echo "Step 7: Downloading essential GAP packages..."
+	@mkdir -p gap/pkg
+	cd gap/pkg && \
+		curl -L -o GAPDoc.tar.gz http://www.math.rwth-aachen.de/~Frank.Luebeck/GAPDoc/GAPDoc-1.6.7.tar.gz && \
+		tar xzf GAPDoc.tar.gz && rm GAPDoc.tar.gz && \
+		curl -L -o SmallGrp.tar.gz https://github.com/gap-packages/SmallGrp/releases/download/v1.5.4/SmallGrp-1.5.4.tar.gz && \
+		tar xzf SmallGrp.tar.gz && rm SmallGrp.tar.gz && \
+		curl -L -o primgrp.tar.gz https://github.com/gap-packages/primgrp/releases/download/v3.4.4/primgrp-3.4.4.tar.gz && \
+		tar xzf primgrp.tar.gz && rm primgrp.tar.gz && \
+		curl -L -o transgrp.tar.gz https://www.math.colostate.edu/~hulpke/transgrp/transgrp3.6.5.tar.gz && \
+		tar xzf transgrp.tar.gz && rm transgrp.tar.gz
+	@echo "Packages: GAPDoc, SmallGrp, primgrp, transgrp installed"
+	@echo ""
+	@echo "Step 8: Building GAP packages..."
 	cd gap && ./bin/BuildPackages.sh --with-gaproot=$$(pwd) --strict || echo "Note: Some optional packages may have failed"
 	@echo ""
-	@echo "Step 8: Syncing AI configuration..."
+	@echo "Step 9: Syncing AI configuration..."
 	$(MAKE) ai
 	@echo ""
 	@echo "=== Setup complete ==="

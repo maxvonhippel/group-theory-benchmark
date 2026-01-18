@@ -142,10 +142,8 @@ class Gap:
         if not command.rstrip().endswith(';'):
             command = command.rstrip() + ';'
         
-        # Send 'return;' twice to exit any nested break loops, then execute command
+        # Execute command and print result
         script = f"""
-return;
-return;
 _result_ := {command};
 if IsBound(_result_) then
     if IsInt(_result_) or IsBool(_result_) or IsString(_result_) then
@@ -173,17 +171,36 @@ QUIT;
             
             # Filter out GAP info messages and error prompts
             filtered_lines = []
+            in_error = False
             for line in lines:
                 stripped = line.strip()
-                # Skip info messages, error messages, and prompts
-                if any([
+
+                # Detect start of error messages
+                if 'Error,' in stripped or 'failed to load' in stripped:
+                    in_error = True
+
+                # Detect end of error messages (when we see a real result or prompt)
+                if in_error and (stripped.startswith('gap>') or (stripped and not any([
+                    'Error,' in stripped,
+                    'failed' in stripped,
+                    'called from' in stripped,
+                    stripped.startswith('at /'),
+                    stripped.startswith(')'),
+                    stripped.startswith('func('),
+                    'CallAndInstallPostRestore' in stripped,
+                    'package' in stripped.lower(),
+                ]))):
+                    in_error = False
+
+                # Skip if in error block or matches filter patterns
+                if in_error or any([
                     stripped.startswith('#I'),
                     'package is not available' in stripped,
                     'cannot be loaded' in stripped,
                     'you can' in stripped.lower(),
-                    'Error,' in stripped and 'failed to load' in stripped,
                     'called from' in stripped,
                     'Options stack has been reset' in stripped,
+                    'CallAndInstallPostRestore' in stripped,
                     stripped.startswith('at /'),
                     not stripped  # skip empty lines
                 ]):

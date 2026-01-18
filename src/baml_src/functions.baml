@@ -1,3 +1,155 @@
+// GAP Code Generation Functions
+
+function GenerateGAPCode(query: string) -> GAPCode {
+  client GPT4o
+  prompt #"
+    You are an expert at writing GAP (Groups, Algorithms, Programming) code for computational group theory.
+
+    {{ _.role("system") }}
+
+    # GAP SYNTAX REFERENCE
+
+    ## Core Constructs
+    - Functions end with semicolon: `Size(G);`
+    - Control flow: `if...then...elif...else...fi`, `for...in...do...od`, `while...do...od`
+    - Function definition: `name := function(args) ... end;`
+    - Comments: `# comment text`
+
+    ## Common Group Constructors
+    - `SymmetricGroup(n)` - Symmetric group Sₙ
+    - `AlternatingGroup(n)` - Alternating group Aₙ
+    - `CyclicGroup(n)` - Cyclic group Cₙ
+    - `DihedralGroup(n)` - Dihedral group Dₙ
+    - `SmallGroup(order, index)` - Group from library (e.g., `SmallGroup(8, 3)`)
+    - `DirectProduct(G1, G2)` - Direct product
+
+    ## Property Checks (return true/false)
+    - `IsAbelian(G)` - Is group abelian?
+    - `IsCyclic(G)` - Is group cyclic?
+    - `IsSimple(G)` - Is group simple?
+    - `IsSolvable(G)` - Is group solvable?
+    - `IsNilpotent(G)` - Is group nilpotent?
+    - `IsPerfect(G)` - Is group perfect?
+
+    ## Group Invariants
+    - `Size(G)` - Order of group
+    - `Centre(G)` or `Center(G)` - Center of group (returns subgroup)
+    - `DerivedSubgroup(G)` - Commutator subgroup
+    - `ConjugacyClasses(G)` - List of conjugacy classes
+    - `CharacterTable(G)` - Character table
+
+    ## SmallGroups Library (requires LoadPackage("SmallGrp"))
+    - `NrSmallGroups(n)` - Number of groups of order n
+    - `SmallGroup(n, i)` - ith group of order n
+    - `IdGroup(G)` - [order, index] identifying G in library
+    - `AllSmallGroups(n)` - All groups of order n
+
+    ## Lists and Filtering
+    - `List([1..10], x -> x^2)` - Map function over list
+    - `Filtered(list, predicate)` - Filter list
+    - `[1..10]` - Range from 1 to 10
+    - `First(list, predicate)` - Find first matching element
+
+    ## Operator Precedence (highest to lowest)
+    1. `^` (power)
+    2. Unary `+`, `-`
+    3. `*`, `/`, `mod`
+    4. Binary `+`, `-`
+    5. `=`, `<>`, `<`, `>`, `in`
+    6. `not`
+    7. `and`, `or`
+
+    ## Examples
+
+    Query: "Is S_4 abelian?"
+    Code: `IsAbelian(SymmetricGroup(4));`
+
+    Query: "What is the order of the center of A_5?"
+    Code: `Size(Centre(AlternatingGroup(5)));`
+
+    Query: "How many groups of order 12 are there?"
+    Code: `LoadPackage("SmallGrp"); NrSmallGroups(12);`
+
+    Query: "Find all non-abelian groups of order 8"
+    Code: `LoadPackage("SmallGrp"); Filtered([1..NrSmallGroups(8)], i -> not IsAbelian(SmallGroup(8, i)));`
+
+    Query: "Is the symmetric group S_3 isomorphic to the dihedral group D_3?"
+    Code: `IsomorphismGroups(SymmetricGroup(3), DihedralGroup(6)) <> fail;`
+
+    Query: "What are the orders of all conjugacy classes in A_4?"
+    Code: `List(ConjugacyClasses(AlternatingGroup(4)), Size);`
+
+    {{ _.role("user") }}
+
+    Generate GAP code to answer this query:
+    {{ query }}
+
+    IMPORTANT:
+    - Return ONLY valid GAP code that can be executed directly
+    - Code must end with semicolon
+    - If using SmallGroups library, include `LoadPackage("SmallGrp");` first
+    - Keep it concise - one or two lines maximum
+    - Make sure syntax is correct
+
+    {{ ctx.output_format }}
+  "#
+}
+
+function FixGAPCode(
+  original_code: string,
+  error_message: string,
+  previous_attempts: string[]
+) -> GAPCodeFix {
+  client GPT4o
+  prompt #"
+    You are an expert GAP programmer debugging failing code.
+
+    {{ _.role("system") }}
+
+    # GAP SYNTAX REFERENCE (abbreviated)
+
+    ## Common Mistakes
+    - Missing semicolons
+    - Wrong function names (e.g., `Center` vs `Centre`)
+    - Incorrect argument types
+    - Using undefined variables
+    - Missing package loads (e.g., SmallGroups needs `LoadPackage("SmallGrp")`)
+    - Wrong operator precedence
+    - Using expressions in statement context
+
+    ## Debugging Tips
+    - Check capitalization: `IsAbelian` not `isAbelian`
+    - GAP uses `Centre` not `Center` (but accepts both)
+    - List indices start at 1, not 0
+    - `<>` means "not equal", not `!=`
+    - `and`/`or` not `&&`/`||`
+    - Ranges: `[1..10]` not `range(1,10)`
+
+    {{ _.role("user") }}
+
+    The following GAP code failed:
+    ```gap
+    {{ original_code }}
+    ```
+
+    Error message:
+    ```
+    {{ error_message }}
+    ```
+
+    {% if previous_attempts|length > 0 %}
+    Previous failed attempts (DO NOT repeat these):
+    {% for attempt in previous_attempts %}
+    Attempt {{ loop.index }}: {{ attempt }}
+    {% endfor %}
+    {% endif %}
+
+    Fix the code. Provide corrected GAP code and explain what was wrong.
+
+    {{ ctx.output_format }}
+  "#
+}
+
 // Function to extract math problems from a PDF page
 
 function ExtractProblems(page_text: string, page_number: int) -> PageProblems {

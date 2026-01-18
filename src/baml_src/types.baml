@@ -11,3 +11,15 @@ class MathProblem {
 class PageProblems {
   problems MathProblem[] @description("List of 0 to N math problems found on this page. Empty list if no problems found.")
 }
+
+// GAP code generation types
+
+class GAPCode {
+  code string @description("The GAP code to execute. Should be a single expression or statement, ending with semicolon. Example: 'Size(Centre(SymmetricGroup(4)));'")
+  explanation string @description("Brief explanation of what this code does and why it answers the query")
+}
+
+class GAPCodeFix {
+  fixed_code string @description("The corrected GAP code that should fix the error")
+  reasoning string @description("Explanation of what was wrong and how this fixes it")
+}

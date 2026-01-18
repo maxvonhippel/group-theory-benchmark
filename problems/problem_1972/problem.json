@@ -1,0 +1,6 @@
+{
+  "page_number": 276,
+  "problem_number": "18.75",
+  "problem_text": "18.75.\nDoes every finite solvable group G have the following property: there is a number d = d(G) such that G is a homomorphic image of every group with d generators and one relation?\nThis property holds for finite nilpotent groups and does not hold for every non-solvable finite group; see (S. A. Za\u02d8\u0131tsev, Moscow Univ. Math. Bull., 52, no. 4 (1997), 42\u201344).\nA. Yu. Olshanskii",
+  "answer": "Yes, it does (N. Nikolov, D. Segal, Bull. London Math. Soc., 39, no. 2 (2007), 209\u2013213)."
+}

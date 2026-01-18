@@ -1,0 +1,6 @@
+{
+  "page_number": 281,
+  "problem_number": "19.101",
+  "problem_text": "19.101. The maximum length of a chain of nested centralizers of a group is called its c-dimension. Let G be a locally finite group of finite c-dimension k, and let S be the preimage in G of the socle of G/R, where R is the locally solvable radical of G. Is it true that the factor group G/S contains an abelian subgroup of index bounded by a function of k?\nA. V. Vasil\u2019ev",
+  "answer": "Yes, it is true (A. A. Buturlakin, J. Algebra Appl., 18, no. 12 (2019), 1950223, 12 pp)."
+}

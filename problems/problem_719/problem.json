@@ -1,0 +1,5 @@
+{
+  "page_number": 101,
+  "problem_number": "16.77",
+  "problem_text": "It is known that in every Noetherian group the nilpotent radical coincides with the collection of all Engel elements (R. Baer, Math. Ann., 133 (1957), 256\u2013270; B. I. Plotkin, Izv. Vys\u02c7s. U\u02c7cebn. Zaved. Mat., 1958, no. 1(2), 130\u2013135 (Russian)). It would be nice to find a similar characterization of the solvable radical of a finite group. More precisely, let u = u(x, y) be a sequence of words satisfying 15.75. We say that an element g \u2208 G is u-Engel if there exists n = n(g) such that u_n(x, g) = 1 for every element x \u2208 G. Does there exist a sequence u = u(x, y) such that the solvable radical of a finite group coincides with the set of all u-Engel elements?\nB. I. Plotkin"
+}

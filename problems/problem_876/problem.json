@@ -1,0 +1,5 @@
+{
+  "page_number": 120,
+  "problem_number": "18.43",
+  "problem_text": "18.43. a) Do there exist elements u, v of a 2-generator free group F(a, b) such that u, v are not conjugate in F(a, b) but for any matrices A, B \u2208GL(3, C) we have trace(u(A, B)) = trace(v(A, B))?\n b) The same question if we replace GL(3, C) by SL(3, C).\n I. Kapovich"
+}

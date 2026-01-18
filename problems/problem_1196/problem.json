@@ -1,0 +1,5 @@
+{
+  "page_number": 167,
+  "problem_number": "21.38",
+  "problem_text": "21.38. (S. Harper, C. Donoven). The spread of a group G is the greatest nonnegative integer k such that for all nontrivial elements x1, . . . , xk \u2208 G there exists y \u2208 G such that \u27e8x1, y\u27e9 = \u00b7 \u00b7 \u00b7 = \u27e8xk, y\u27e9 = G, or is \u221e in case there is no such maximum. Does there exist a group with spread equal to 1?\nSuch a group must be infinite if it exists (T. C. Burness, R. M. Guralnick, S. Harper, Ann. Math., 193 (2021), 619\u2013687).\nS. Corson"
+}

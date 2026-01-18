@@ -1,0 +1,6 @@
+{
+  "page_number": 281,
+  "problem_number": "19.90",
+  "problem_text": "19.90. A skew brace is a set B equipped with two operations + and \u00b7 such that (B, +) is an additively written (but not necessarily abelian) group, (B, \u00b7) is a multiplicatively written group, and a \u00b7 (b + c) = ab \u2212a + ac for any a, b, c \u2208B.\n(a) Is there a skew brace with soluble additive group but non-soluble multiplicative group?\n(d) Is there a finite skew brace with non-soluble additive group but nilpotent multiplicative group?\nA. Smoktunowicz, L. Vendramin",
+  "answer": "(a) Yes, there is (T. Nasybullov, J. Algebra, 540 (2019), 156\u2013167).\n(d) No, there is not (C. Tsang, Q. Chao, Int. J. Algebra Comput., 30, no. 2 (2020), 253\u2013265)."
+}

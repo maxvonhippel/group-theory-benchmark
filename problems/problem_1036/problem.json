@@ -1,0 +1,5 @@
+{
+  "page_number": 143,
+  "problem_number": "20.4",
+  "problem_text": "A finite group G is said to be cut (or inverse semi-rational) if \u27e8x\u27e9 = \u27e8y\u27e9 implies that x is conjugate to y or to y\u22121 for all x, y \u2208 G.\na) Let Q(G) denote the field extension of the rationals obtained by adjoining all entries of the ordinary character table of G. Is there c > 0 such that |Q(G) : Q| \u2a7d c for all cut groups? This is true if one assumes in addition that G is solvable (J. F. Tent, J. Algebra, 363 (2012), 73\u201382).\nb) Is a Sylow 3-subgroup of a cut group also a cut group?\nc) Let Op(G) denote the largest normal p-subgroup of G. Let G be a solvable cut group. Is it true that for p \u2208 {5, 7} the exponent of Op(G) divides p?\nFor additional information and some positive results see (Adv. Group Theory Appl., 8B, 2020, 157\u2013160 or https://arxiv.org/abs/2001.02637).\nA. B\u00a8achle"
+}

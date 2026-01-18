@@ -1,0 +1,5 @@
+{
+  "page_number": 93,
+  "problem_number": "15.94",
+  "problem_text": "Define the weight of a group G to be the minimum number of generators of G as a normal subgroup of itself. Let G = G1 \u2217 \u00b7 \u00b7 \u00b7 \u2217 Gn be a free product of n nontrivial groups.\na) Is it true that the weight of G is at least n/2?\nb) Is it true if the Gi are cyclic?\nc) Is it true for n = 3 (without assuming the Gi cyclic)?\nProblem 5.53 in Archive (now answered in the affirmative) is the special case with n = 3 and all the Gi cyclic.\nJ. Howie"
+}

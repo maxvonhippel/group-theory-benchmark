@@ -1,0 +1,5 @@
+{
+  "page_number": 171,
+  "problem_number": "21.68",
+  "problem_text": "21.68. A finite group G is said to be semi-abelian if it has a sequence of subgroups 1 = G0 \u2a7d G1 \u2a7d \u00b7 \u00b7 \u00b7 \u2a7d Gn = G such that for every i the subgroup Gi+1 is isomorphic to a quotient of a semidirect product Ai \u22ca Gi for some abelian group Ai.\nConjecture: Semi-abelian finite groups are monomial.\nM. Kida"
+}

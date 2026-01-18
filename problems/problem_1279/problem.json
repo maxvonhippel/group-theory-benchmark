@@ -1,0 +1,5 @@
+{
+  "page_number": 179,
+  "problem_number": "21.121",
+  "problem_text": "Let p be a prime number. A group \u0393 is called p-Jordan if there exist constants J and e such that any finite subgroup G \u2282 \u0393 contains a normal abelian subgroup of order coprime to p and of index at most J \u00b7 |G(p)|^e. (For example by the results of Brauer\u2013Feit and Larsen\u2013Pink, for any field K of characteristic p the group GLn(K) is p-Jordan with e = 3.) Let the p-Jordan exponent e(\u0393) of the group \u0393 be the infimum of all constants e for which the above bound holds for some constant J = J(e).\n a) Is it true that this infimum is always attained?\n b) Is it true that e(\u0393) \u2a7d 3 for any p-Jordan group \u0393?\nC. Shramov"
+}

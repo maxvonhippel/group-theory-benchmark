@@ -1,0 +1,6 @@
+{
+  "page_number": 242,
+  "problem_number": "11.75",
+  "problem_text": "Let us consider the class of groups with n generators and m relators. A sub-\nclass of this class is called dense if the ratio of the number of presentations of the\nform \u27e8a1, . . . , an | R1, . . . , Rm\u27e9(where |Ri| = di) for groups from this subclass to the\nnumber of all such presentations converges to 1 when d1 + \u00b7 \u00b7 \u00b7 + dm tends to infin-\nity. Prove that for every k < m and for any n the subclass of groups all of whose\nk-generator subgroups are free is dense.\nA. Yu. Olshanskii",
+  "answer": "This is proved (G. N. Arzhantseva, A. Yu. Olshanskii, Math. Notes, 59, no. 4 (1996),\n350\u2013355)."
+}

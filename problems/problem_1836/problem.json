@@ -1,0 +1,6 @@
+{
+  "page_number": 255,
+  "problem_number": "14.50",
+  "problem_text": "14.50. (Z. I. Borevich). A subgroup A of a group G is said to be paranormal (respec-\ntively, polynormal) if Ax \u2a7d \u27e8Au | u \u2208 \u27e8A, Ax\u27e9\u27e9\u27e9 (respectively, Ax \u2a7d Au | u \u2208 A\u27e8x\u27e9) for any x \u2208 G. Is every polynormal subgroup of a finite group paranormal?\nA. S. Kondratiev",
+  "answer": "Not always (V. I. Mysovskikh, Dokl. Math., 60 (1999), 71\u201372)."
+}

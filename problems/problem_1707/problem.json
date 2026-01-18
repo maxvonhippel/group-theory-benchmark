@@ -1,0 +1,6 @@
+{
+  "page_number": 237,
+  "problem_number": "10.69",
+  "problem_text": "Suppose that S is a closed oriented surface of genus g > 1 and G = \u03c01S = G1 \u2217A G2, where G1 \u0338= A \u0338= G2 and the subgroup A is finitely generated (and hence free). Is this decomposition geometrical, that is, do there exist connected surfaces S1, S2, T such that S = S1 \u222aS2, S1 \u2229S2 = T, Gi = \u03c01Si, A = \u03c01T and embeddings Si \u2282S, T \u2282S induce, in a natural way, embeddings Gi \u2282G, A \u2282G? This is true for A = Z. H. Zieschang",
+  "answer": "No, not always (O. V. Bogopolski, Geom. Dedicata, 94 (2002), 63\u201389)."
+}

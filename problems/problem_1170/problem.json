@@ -1,0 +1,5 @@
+{
+  "page_number": 163,
+  "problem_number": "21.12",
+  "problem_text": "Suppose that U is a nonprincipal ultrafilter on \u03c9, and B is a group such that every element b \u2208 B belongs to a subgroup of B that is a homomorphic image of Z^\u03c9/U.\nMust B then be a homomorphic image of an ultraproduct group (\u220f_{i\u2208\u03c9} Gi)/U for some groups Gi?\nThis is Question 19 in (G. M. Bergman, Pacific J. Math., 274 (2015) 451\u2013495).\nAn affirmative answer would imply that every torsion group was such a homomorphic image for every U, and so would give positive answers to both parts of 21.11.\nG. M. Bergman"
+}

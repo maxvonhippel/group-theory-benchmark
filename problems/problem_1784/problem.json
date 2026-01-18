@@ -1,0 +1,6 @@
+{
+  "page_number": 248,
+  "problem_number": "12.71",
+  "problem_text": "Let d(G) denote the smallest cardinality of a generating set of the group G. Let A and B be finite groups. Is there a finite group G such that A, B \u2a7d G, G = \u27e8A, B\u27e9, and d(G) = d(A)+d(B)? The corresponding question has negative answer in the class of solvable groups (L. G. Kov\u00b4acs, H.-S. Sim, Indag. Math., 2, no. 2 (1991), 229\u2013232). L. Ribes",
+  "answer": "No, not always (A. Lucchini, J. Group Theory, 4, no. 1 (2001), 53\u201358)."
+}

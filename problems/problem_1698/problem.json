@@ -1,0 +1,6 @@
+{
+  "page_number": 235,
+  "problem_number": "10.30",
+  "problem_text": "Does there exist a non-right-orderable group which is residually finite p-group for a finite set of prime numbers p containing at least two different primes? If a group is residually finite p-group for an infinite set of primes p, then it admits a linear order (A. H. Rhemtulla, Proc. Amer. Math. Soc., 41, no. 1 (1973), 31\u201333).\nN. Ya. Medvedev",
+  "answer": "Yes, there does (P. A. Linnell, J. Algebra, 248 (2002) 605\u2013607)."
+}

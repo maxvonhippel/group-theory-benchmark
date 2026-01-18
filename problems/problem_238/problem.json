@@ -1,0 +1,5 @@
+{
+  "page_number": 34,
+  "problem_number": "9.41",
+  "problem_text": "9.41. Let \u2126 be a countably infinite set. For k \u2a7e 2 define a k-section of \u2126 to be a partition of \u2126 as union of k infinite sets.\nb) Does there exist a group that is transitive on k-sections but not on (k + 1)-sections?\n\u2217c) Does there exist a transitive permutation group on \u2126 that is transitive on \u21350-sections but which is a proper subgroup of Sym(\u2126)?\nP. M. Neumann\n\u2217c) An affirmative answer is consistent with the ZFC axioms of set theory (S. M. Corson, S. Shelah, Preprint, 2025, https://arxiv.org/abs/2503.12997)."
+}

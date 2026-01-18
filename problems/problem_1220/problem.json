@@ -1,0 +1,5 @@
+{
+  "page_number": 170,
+  "problem_number": "21.62",
+  "problem_text": "Is the uniform subgroup membership problem decidable for (finitely generated free)-by-cyclic groups? That is, for a fixed group G = Fn \u22ca Z, is there an algorithm that, given elements w, h1, . . . , hk \u2208 G, decides whether or not w belongs to the subgroup H = \u27e8h1, . . . , hk\u27e9?\nI. Kapovich"
+}

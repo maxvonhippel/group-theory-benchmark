@@ -1,0 +1,6 @@
+{
+  "page_number": 153,
+  "problem_number": "20.74",
+  "problem_text": "20.74. a) Conjecture: there are only finitely many nonabelian finite simple groups G that have a normal subset S closed under inversion such that |S| > |G|/ log2 |G| and S2 \u0338= G. Comment of 2024: This is true for the class of alternating groups (M. Larsen, P. H. Tiep, Preprint, 2023, arXiv:2305.04806) and for any class of groups of Lie type of bounded Lie rank (S. V. Skresanov, Preprint, 2024, https://arxiv.org/abs/2406.12506).\n\u2217b) The same conjecture for the groups PSL(2, p).\nL. Pyber",
+  "answer": "\u2217b) The conjecture is proved for the groups PSL(2, p) (S. V. Skresanov, Preprint, 2024, https://arxiv.org/abs/2406.12506)."
+}

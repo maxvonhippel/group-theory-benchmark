@@ -1,0 +1,6 @@
+{
+  "page_number": 193,
+  "problem_number": "2.30",
+  "problem_text": "Does there exist a finite group in which a Sylow p-subgroup is covered by other Sylow p-subgroups?\nP. G. Kontorovich, A. L. Starostin",
+  "answer": "Yes, there does, for any prime p (V. D. Mazurov, Ural Gos. Univ. Mat. Zap., 7, no. 3 (1969/70), 129\u2013132 (Russian))."
+}

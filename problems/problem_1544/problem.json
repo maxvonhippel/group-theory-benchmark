@@ -1,0 +1,6 @@
+{
+  "page_number": 214,
+  "problem_number": "5.49",
+  "problem_text": "Let Am,n be the group of all automorphisms of the free soluble group of derived length n and rank m. Is it true that\na) Am,n is finitely generated for any m and n?\nb) every automorphism in Am,n is induced by some automorphism in Am,n+1?\nV. N. Remeslennikov",
+  "answer": "a) No: A3,2 is not finitely generated, although Am,2 is whenever m \u0338= 3 (S. Bachmuth, H. Y. Mochizuki, Trans. Amer. Math. Soc., 270 (1982), 693\u2013700, 292 (1985), 81\u2013101).\nb) No (V. Shpilrain, Int. J. Algebra and Comput., 1, no. 2 (1991), 177\u2013184)."
+}

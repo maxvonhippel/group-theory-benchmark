@@ -1,0 +1,5 @@
+{
+  "page_number": 152,
+  "problem_number": "20.65",
+  "problem_text": "20.65. Given a complex irreducible character \u03c7 \u2208Irr(G) of a finite group G, let Q(\u03c7) denote the field extension of Q obtained by adjoining to Q all the values of \u03c7. We say that a finite group G is k-rational if |Q(\u03c7) : Q| divides k for every \u03c7 \u2208Irr(G). Does there exist a real-valued function f such that if p is the order of a cyclic composition factor of a k-rational group G, then p \u2a7df(k)?\nIf k = 1, then we know that p \u2a7d11 by a theorem of J. G. Thompson (J. Algebra, 319 (2008), 558\u2013594).\nA. Moret\u00b4o"
+}

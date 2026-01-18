@@ -1,0 +1,6 @@
+{
+  "page_number": 246,
+  "problem_number": "12.31",
+  "problem_text": "For relatively free groups G, prove or disprove the following conjecture of P. Hall: if a word v takes only finitely many values on G then the verbal subgroup vG is finite.\nS. V. Ivanov",
+  "answer": "The conjecture is disproved (A. Storozhev, Proc. Amer. Math. Soc., 124, no. 10 (1996), 2953\u20132954)."
+}

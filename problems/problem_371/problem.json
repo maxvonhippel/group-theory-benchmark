@@ -1,0 +1,5 @@
+{
+  "page_number": 53,
+  "problem_number": "11.78",
+  "problem_text": "11.78. An isomorphism of groups of points of algebraic groups is called semialgebraic\nif it can be represented as a composition of an isomorphism of translation of the field\nof definition and a rational morphism.\na) Is it true that the existence of an isomorphism of groups of points of two directly\nundecomposable algebraic groups with trivial centres over an algebraically closed field\nimplies the existence of a semialgebraic isomorphism of the groups of points?\nb) Is it true that every isomorphism of groups of points of directly undecomposable\nalgebraic groups with trivial centres defined over algebraic fields is semialgebraic?\nA field is called algebraic if all its elements are algebraic over the prime subfield.\nK. N. Ponomar\u00a8ev"
+}

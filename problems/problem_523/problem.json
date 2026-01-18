@@ -1,0 +1,5 @@
+{
+  "page_number": 73,
+  "problem_number": "14.14",
+  "problem_text": "(C. C. Edmunds, G. Rosenberger). We call a pair of natural numbers (k, m) admissible if in the derived subgroup F\u20322 of a free group F2 there is an element w such that the commutator length of the element w^m is equal to k. Find all admissible pairs. It is known that every pair (k, 2), k \u2a7e 2, is admissible (V. G. Bardakov, Algebra and Logic, 39 (2000), 224\u2013251). V. G. Bardakov"
+}

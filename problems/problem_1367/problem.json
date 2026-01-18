@@ -1,0 +1,6 @@
+{
+  "page_number": 189,
+  "problem_number": "1.89",
+  "problem_text": "Is the following assertion true? Let G be a free soluble group, and a and b elements of G whose normal closures coincide. Then there is an element x \u2208 G such that b\u00b11 = x\u22121ax.\nA. L. Shmel\u2019kin",
+  "answer": "No (A. L. Shmel\u2019kin, Algebra i Logika, 6, no. 2 (1967), 95\u2013109 (Russian))."
+}

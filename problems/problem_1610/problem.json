@@ -1,0 +1,6 @@
+{
+  "page_number": 224,
+  "problem_number": "7.57",
+  "problem_text": "7.57. A set of generators of a finitely presented group G that consists of the least possible number d(G) of generators is called a basis for G. Let rM(G) be the least number of relations necessary to define G in the basis M, and r(G) the minimum of rM(G) over all bases M for G. Let G1, G2 be any non-trivial groups.\nb) Is it true that rM1\u222aM2(G1 \u2217G2) = rM1(G1) + rM2(G2) for any bases M1, M2 of G1, G2, respectively?\nc) Is it true that r(G1 \u2217G2) = r(G1) + r(G2)?\nV. A. Churkin",
+  "answer": "b) Not always; c) not always (C. Hog, M. Lusztig, W. Metzler, in: Presentation classes, 3-manifolds and free products (Lecture Notes in Math., 1167), Springer, Berlin, 1985, 154\u2013167)."
+}

@@ -1,0 +1,5 @@
+{
+  "page_number": 96,
+  "problem_number": "16.15",
+  "problem_text": "16.15. An element g of a group G is an Engel element if for every h \u2208 G there exists\nk such that [h, g, . . . , g] = 1, where g occurs k times; if there is such k independent of\nh, then g is said to be boundedly Engel.\nb) Does the set of boundedly Engel elements form a subgroup in a torsion-free\ngroup?\nc) The same question for right-ordered groups.\nd) The same question for linearly ordered groups.\nV. V. Bludov"
+}

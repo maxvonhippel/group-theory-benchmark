@@ -1,0 +1,6 @@
+{
+  "page_number": 200,
+  "problem_number": "3.11",
+  "problem_text": "An element g of a group G is said to be generalized periodic if there exist x1, . . . , xn \u2208 G such that x\u22121_1 g x1 \u00b7 \u00b7 \u00b7 x\u22121_n g xn = 1. Does there exist a finitely generated torsion-free group all of whose elements are generalized periodic?\nYu. M. Gorchakov",
+  "answer": "Yes, there does (A. P. Goryushkin, Siberian Math. J., 14 (1973), 146\u2013148). Another example is G = \u27e8a, b | (b^2)^a = b^\u22122, (a^2)^b = a^\u22122\u27e9. Then N = \u27e8a^2, b^2, (ab)^2\u27e9 is an abelian normal subgroup of G and G/N is non-cyclic of order 4. If a^2l b^2m (ab)^2n = 1, then after conjugating by a we get a^2l b^\u22122m (ab)^\u22122n = 1, whence a^4l = 1. In view of the obvious homomorphism G \u2192 Z(Aut Z) that maps a to the number 1 \u2208 Z we have l = 0. Similarly, m = n = 0. Hence N is free abelian of rank 3. The squares of elements outside of N are non-trivial; for example, (a a^2l b^2m (ab)^2n)^2 = a^2 a^\u22121(a^2l b^2m (ab)^2n) a a^2l b^2m (ab)^2n = a^(4l+2) \u2260 1. Hence G is torsion-free. Since the square of any element x \u2208 G belongs to N, we have x^2 (x^2)^a (x^2)^b (x^2)^(ab) = 1. (V. A. Churkin, 1973.)"
+}

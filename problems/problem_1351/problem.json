@@ -1,0 +1,6 @@
+{
+  "page_number": 187,
+  "problem_number": "1.68",
+  "problem_text": "(A. Tarski). Let K be a class of groups and QK the class of all homomorphic images of groups from K. If K is axiomatizable, does it follow that QK is?\nYu. I. Merzlyakov",
+  "answer": "Not always (F. Clare, Algebra Universalis, 5 (1975), 120\u2013124)."
+}

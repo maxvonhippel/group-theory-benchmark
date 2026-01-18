@@ -1,0 +1,5 @@
+{
+  "page_number": 176,
+  "problem_number": "21.107",
+  "problem_text": "21.107. A sequence {Fn} of pairwise disjoint finite subsets of a topological group is\ncalled expansive if for every open subset U there is a number m such that Fn \u2229U \u0338= \u2205\nfor all n > m. Suppose that a countable group G can be partitioned into countably\nmany dense subsets. Is it true that in G there exists an expansive sequence? Cf. 15.80.\nI. V. Protasov"
+}

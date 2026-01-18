@@ -1,0 +1,5 @@
+{
+  "page_number": 75,
+  "problem_number": "14.41",
+  "problem_text": "A group G is said to be para-free if all factors \u03b3i(G)/\u03b3i+1(G) of its lower central series are isomorphic to the corresponding lower central factors of some free group, and \u22c2\u221e i=1 \u03b3i(G) = 1. Is an arbitrary para-free group representable by matrices over a commutative-associative ring with 1?\nA. N. Zubkov"
+}

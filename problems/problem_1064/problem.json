@@ -1,0 +1,5 @@
+{
+  "page_number": 148,
+  "problem_number": "20.32",
+  "problem_text": "(E. Rapaport Strasser). The Lov\u00e1sz conjecture states that a vertex-transitive connected graph is Hamiltonian. In the special case of Cayley graphs, one can ask the following. Consider a set A which generates a group G and is symmetric (x \u2208 A implies x^{-1} \u2208 A). Is there a list a1, a2, . . . , an of elements of A such that a1, a1a2, a1a2a3, . . . , a1a2 \u00b7 \u00b7 \u00b7 an is a complete list of the elements of G?\nB. Green"
+}

@@ -1,0 +1,5 @@
+{
+  "page_number": 171,
+  "problem_number": "21.65",
+  "problem_text": "21.65. Suppose that \u03c6 is an automorphism of a finite soluble group G. Must G contain a subgroup of index bounded in terms of |\u03c6| and |CG(\u03c6)| whose Fitting height is bounded\n(a) in terms of |\u03c6|?\n(b) or even in terms of the composition length of \u27e8\u03c6\u27e9?\nAn affirmative answer to part (b) is known when |\u03c6| is a prime power (B. Hartley\u2013V. Turau), or when (|G|, |\u03c6|) = 1 (A. Turull, B. Hartley\u2013I. M. Isaacs). Also cf. 19.43.\nE. I. Khukhro"
+}

@@ -1,0 +1,6 @@
+{
+  "page_number": 227,
+  "problem_number": "8.68",
+  "problem_text": "Let G = \u27e8a, b | r = 1\u27e9 where r is a cyclically reduced word that is not a proper power of any word in a, b. If G is residually finite, is Gt = \u27e8a, b | rt = 1\u27e9, t > 1, residually finite?\nEditors\u2019 comment: An analogous fact was proved for relative one-relator groups (S. J. Pride, Proc. Amer. Math. Soc., 136, no. 2 (2008), 377\u2013386).\nC. Y. Tang",
+  "answer": "Yes, it is (D. T. Wise, The structure of groups with a quasiconvex hierarchy, Annals of Mathematics Studies, 209, Princeton University Press, Princeton, NJ, 2021)."
+}

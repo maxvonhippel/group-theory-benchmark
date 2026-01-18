@@ -1,0 +1,6 @@
+{
+  "page_number": 242,
+  "problem_number": "11.88",
+  "problem_text": "We define the length l(g) of an Engel element g of a group G to be the\nsmallest number l such that [h, g; l] = 1 for all h \u2208G. Here [h, g; 1] = [h, g] and\n[h, g; i + 1] = [[h, g; i], g]. Does there exist a polynomial function \u03c6(x, y) such that\nl(uv) \u2a7d\u03c6(l(u), l(v))? Up to now, it is unknown whether a product of Engel elements\nis again an Engel element.\nV. A. Roman\u2019kov",
+  "answer": "No, it does not (L. V. Dolbak, Siberian Math. J., 47, no. 1 (2006), 55\u201357)."
+}

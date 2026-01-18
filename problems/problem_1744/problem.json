@@ -1,0 +1,6 @@
+{
+  "page_number": 242,
+  "problem_number": "11.82",
+  "problem_text": "Let R be the normal closure of an element r in a free group F with the natural\nlength function and suppose that s is an element of minimal length in R. Is it true\nthat s is conjugate to one of the following elements: r, r\u22121, [r, f], [r\u22121, f] for some\nf \u2208F?\nV. N. Remeslennikov",
+  "answer": "No, not always (J. McCool, Glasgow Math. J., 43, no. 1 (2001), 123\u2013124)."
+}

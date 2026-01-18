@@ -1,0 +1,6 @@
+{
+  "page_number": 60,
+  "problem_number": "12.41",
+  "problem_text": "Let F be a free group on two generators x, y and let \u03c6 be the automorphism of F defined by x \u2192 y, y \u2192 xy. Let G be a semidirect product of F/(F \u2032\u2032(F \u2032)2) and \u27e8\u03c6\u27e9. Then G is just-non-polycyclic. What is the cohomological dimension of G over Q? (It is either 3 or 4.)\nP. H. Kropholler",
+  "answer": "It is 4, because G is not constructible, and then its cohomological dimension is equal to the homological dimension plus 1 by Theorem III.8 in (M. R. Bridson, P. H. Kropholler, J. Reine Angew. Math., 699 (2015), 217\u2013243), while the homological dimension is equal to the Hirsch length by (U. Stammbach, J. London Math. Soc. (2), 2 (1970), 567\u2013570)."
+}

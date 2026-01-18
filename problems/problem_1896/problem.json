@@ -1,0 +1,6 @@
+{
+  "page_number": 264,
+  "problem_number": "16.35",
+  "problem_text": "Is every finitely presented soluble group nilpotent-by-nilpotent-by-finite?\nJ. R. J. Groves",
+  "answer": "No: for a prime p the group G = \u27e8a, b, c, d | ba = bp, ca = cp, da = d, cb = c, dc = ddb, [d, db] = 1, dp = 1\u27e9 is soluble of derived length 3, but is not metanilpotent-by-finite. (V. V. Bludov, Letter of 27 April 2007.)"
+}

@@ -1,0 +1,5 @@
+{
+  "page_number": 124,
+  "problem_number": "18.83",
+  "problem_text": "18.83. A generating system X of a group G is fast if there is an integer n such that every element of G can be expressed as a product of at most n elements of X or their inverses. If not, we say that it is slow. For instance, in (Z, +), the squares are fast, but the powers of 2 are slow.\nDo there exist countable infinite groups without an infinite slow generating set? Uncountable ones do exist.\nB. Poizat"
+}

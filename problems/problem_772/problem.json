@@ -1,0 +1,5 @@
+{
+  "page_number": 107,
+  "problem_number": "17.45",
+  "problem_text": "17.45. c) A subgroup H of a group G is called pronormal if H and H^g are conjugate in \u27e8H, H^g\u27e9 for every g \u2208 G. We say that H is strongly pronormal if L^g is conjugate to a subgroup of H in \u27e8H, L^g\u27e9 for every L \u2a7d H and g \u2208 G.\nIn a finite group, is a Hall subgroup with a Sylow tower always strongly pronormal?\nNotice that there exist finite (non-simple) groups with a non-pronormal Hall subgroup. Hall subgroups with a Sylow tower are known to be pronormal.\nE. P. Vdovin, D. O. Revin"
+}

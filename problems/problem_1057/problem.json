@@ -1,0 +1,5 @@
+{
+  "page_number": 147,
+  "problem_number": "20.25",
+  "problem_text": "Let n = k2. Let \u03c3 \u2208 Sn be the product of k disjoint cycles, of lengths 1, 3, 5, . . . , 2k \u2212 1. Find the limiting proportion of odd entries in the \u03c3-column of the character table of Sn.\nFor some background, see pages 1005\u20131006 in (D. Gluck, Proc. Amer. Math. Soc., 147 (2019), 1005\u20131011).\nD. Gluck"
+}

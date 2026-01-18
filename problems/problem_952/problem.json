@@ -1,0 +1,5 @@
+{
+  "page_number": 130,
+  "problem_number": "19.11",
+  "problem_text": "19.11. Does there exist a constant c such that the number of conjugacy classes in a finite group G is always at least c log2 |G|?\nEditors\u2019 comment of 2021: It is proved that every group G contains at least \u03b5 log |G|/(log log |G|)8 conjugacy classes for some fixed \u03b5 > 0 (L. Pyber, J. London Math. Soc. (2), 46, no. 2 (1992), 239\u2013249). It is also proved that for every \u03b5 > 0 there exists \u03b4 > 0 such that every finite group G of order at least 3 has at least \u03b4 log2 |G|/(log2 log2 |G|)3+\u03b5 conjugacy classes (B. Baumeister, A. Mar\u00b4oti, H. P. Tong-Viet, Forum Math., 29, no. 2 (2017), 259\u2013275).\nE. Bertram"
+}

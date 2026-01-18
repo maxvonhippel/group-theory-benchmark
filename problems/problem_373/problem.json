@@ -1,0 +1,5 @@
+{
+  "page_number": 53,
+  "problem_number": "11.81",
+  "problem_text": "11.81. A topological group is said to be F-balanced if for any subset X and any\nneighborhood of the identity U there is a neighborhood of the identity V such that\nV X \u2286XU.\nIs every F-balanced group balanced, that is, does it have a basis of\nneighborhoods of the identity consisting of invariant sets?\nI. V. Protasov"
+}

@@ -1,0 +1,6 @@
+{
+  "page_number": 278,
+  "problem_number": "19.36",
+  "problem_text": "Let G be a periodic group and let I = {x \u2208 G | x^2 = 1 \u2260 x} be the set of its involutions. Let D be a non-empty set of odd integers greater than 1; then G is called a group with D-involutions if G = \u27e8I\u27e9 and for x, y \u2208 I the order of xy is in the set {1, 2} \u222a D and all these values actually occur. It is clear that if G is a group with D-involutions, then I is a single conjugacy class.\nConjecture:\nIf G is a group with {3, 5}-involutions, then G \u2243 A5 or G \u2243 PSU(3, 4).\nE. Jabara",
+  "answer": "The conjecture is proved, even without using the hypothesis that the group G is periodic (E. Bettio, J. Group Theory, 24 (2021), 1055\u20131067)."
+}

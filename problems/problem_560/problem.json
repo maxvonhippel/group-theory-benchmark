@@ -1,0 +1,5 @@
+{
+  "page_number": 77,
+  "problem_number": "14.61",
+  "problem_text": "Determine all pairs (S, G), where S is a semipartial geometry and G is\nan almost simple flag-transitive group of automorphisms of S. A system of points\nand lines (P, B) is a semipartial geometry with parameters (\u03b1, s, t, \u00b5) if every point\nbelongs to exactly t + 1 lines (two different points belong to at most one line); every\nline contains exactly s + 1 points; for any anti-flag (a, l) \u2208 (P, B) the number of lines\ncontaining a and intersecting l is either 0 or \u03b1; and for any non-collinear points a, b\nthere are exactly \u00b5 points collinear with a and with b.\nA. A. Makhn\u00a8ev"
+}

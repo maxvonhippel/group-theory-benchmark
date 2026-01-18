@@ -1,0 +1,6 @@
+{
+  "page_number": 158,
+  "problem_number": "20.101",
+  "problem_text": "Let G be a finitely generated branch group. Are all finite-index maximal subgroups of G necessarily normal?\nCf. 18.81.\nA. Thillaisundaram",
+  "answer": "No, not necessarily (P. Neumann, Illinois J. Math., 30 (1986), 301\u2013316). Moreover, there are finitely generated branch groups all of whose maximal subgroups are of finite index but not all of them are normal (M. Garciarena, M. Petschick, Preprint, 2024, https://arxiv.org/abs/2410.06783)."
+}

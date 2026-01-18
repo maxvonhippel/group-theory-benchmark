@@ -1,0 +1,5 @@
+{
+  "page_number": 159,
+  "problem_number": "20.108",
+  "problem_text": "The holomorph Hol(G) of a group G can be defined as the normalizer of the subgroup of left translations in the group of all permutations of the set G. The multiple holomorph NHol(G) of G is the normalizer of the holomorph. Set T(G) = NHol(G)/Hol(G).\na) Is there a centerless group G for which T(G) is not an elementary abelian 2-group?\nb) Is there a finite centerless group G for which T(G) is not an elementary abelian 2-group?\nc) (A. Caranti). Is there a finite p-group G for which the order of T(G) has a prime divisor not dividing (p \u2212 1)p?\nC. Tsang"
+}

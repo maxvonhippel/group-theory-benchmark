@@ -1,0 +1,5 @@
+{
+  "page_number": 173,
+  "problem_number": "21.84",
+  "problem_text": "For \u03c3 \u2208 Sn and \u03c4 \u2208 Sm, where n \u2a7d m, let\ndflex_n(\u03c3, \u03c4) = (1/n) \u00b7 (|{x \u2208 {1, . . . , n} | \u03c3(x) \u0338= \u03c4(x)}| + (m \u2212 n)).\nAn almost-homomorphism {fn} is said to be flexibly close to a homomorphism if there is a sequence of group homomorphisms \u03c1n : G \u2192 Smn with n \u2a7d mn such that dflex_n(\u03c1n(g), fn(g)) \u2192 0 as n \u2192 \u221e for all g \u2208 G. The group G is said to be flexibly permutation stable if every almost-homomorphism of G is flexibly close to a homomorphism.\nIs SLn(Z) flexibly permutation-stable?\nA. Lubotzky"
+}

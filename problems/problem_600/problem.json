@@ -1,0 +1,6 @@
+{
+  "page_number": 85,
+  "problem_number": "15.19",
+  "problem_text": "15.19. Let p be a prime, and Fp the class of finitely generated groups acting faithfully on a p-regular rooted tree by finite automata. Any group in Fp is residually-p (residually in the class of finite p-groups) and has word problem that is solvable in (at worst) exponential time. There exist therefore groups that are residually-p, have a solvable word problem, and do not belong to Fp; though no concrete example is known. For instance:\na) Is it true that some (or even all) the groups given in (R. I. Grigorchuk, Math. USSR\u2013Sb., 54 (1986), 185\u2013205) do not belong to Fp when the sequence \u03c9 is computable, but not periodic?\n\u2217b) Does Z \u2240(Z \u2240Z) belong to F2? (Here the wreath products are restricted.)\nSee (A. M. Brunner, S. Sidki, J. Algebra, 257 (2002), 51\u201364) and (R. I. Grigorchuk, V. V. Nekrashevich, V. I. Sushchanski\u02d8\u0131, in: Dynamical systems, automata, and infinite groups. Proc. Steklov Inst. Math., 231 (2000), 128\u2013203).\nL. Bartholdi, S. Sidki",
+  "answer": "\u2217b) Yes, it does (A. C. Dantas, J. R. Oliveira, T. M. G. Santos, Preprint, 2024, https://arxiv.org/pdf/2405.16678)."
+}

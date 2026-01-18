@@ -1,0 +1,5 @@
+{
+  "page_number": 172,
+  "problem_number": "21.76",
+  "problem_text": "Let \u03c3 = (\u03c3ij), 1 \u2a7d i \u0338= j \u2a7d n, be an irreducible elementary net (carpet) of order n \u2a7e 3 over a field K (see 19.48).\nThe net \u03c3 is said to be closed if the elementary net subgroup E(\u03c3) does not contain new elementary transvections. The net \u03c3 is said to be completable if its diagonal can be supplemented with subgroups to a complete net. Completable elementary nets are closed. It is known that over fields of characteristic 0 and 2 there exist irreducible closed elementary nets that are not completable (V. A. Koibaev, Trudy Inst. Mat. Mekh. Ural Div. Ross. Akad. Nauk, 17, no. 4 (2011), 134\u2013141 (Russian); V. A. Koibaev, Siberian Math. J., 62, no. 2 (2021), 262\u2013266).\nDo there exist irreducible closed elementary nets of order n \u2a7e 3 over a field of odd characteristic that are not completable?\nV. A. Koibaev"
+}

@@ -1,0 +1,6 @@
+{
+  "page_number": 239,
+  "problem_number": "11.26",
+  "problem_text": "Does there exist a group which is not isomorphic to outer automorphism group of a metabelian group with trivial center?\nR. G\u00a8obel",
+  "answer": "No, given any group G there is a metabelian group M with trivial center such that Out M \u223c= G (R. G\u00a8obel, A. Paras, J. Pure Appl. Algebra, 149, no. 3 (2000) 251\u2013266), and if G is finite or countable then M above can be chosen countable (R. G\u00a8obel, A. Paras, in: Abelian Groups and Modules, Proc. Int. Conf. Dublin, 1998, Birkh\u00a8auser, Basel, 1999, 309\u2013317)."
+}

@@ -1,0 +1,5 @@
+{
+  "page_number": 78,
+  "problem_number": "14.65",
+  "problem_text": "(Well-known problem). For a finite group G let \u03c1(G) denote the set of prime numbers dividing the order of some conjugacy class, and \u03c3(G) the maximum number of primes dividing the order of some conjugacy class. Is it true that |\u03c1(G)| \u2a7d 3\u03c3(G)? A possible linear bound for |\u03c1(G)| in terms of \u03c3(G) cannot be better than 3\u03c3(G), since there is a family of groups {Gn} such that limn\u2192\u221e |\u03c1(Gn)|/\u03c3(Gn) = 3 (C. Casolo, S. Dolfi, Rend. Sem. Mat. Univ. Padova, 96 (1996), 121\u2013130). Comment of 2009: A quadratic bound was obtained in (A. Moret\u00b4o, Int. Math. Res. Not., 2005, no. 54, 3375\u20133383), and a linear bound in (C. Casolo, S. Dolfi, J. Group Theory, 10, no. 5 (2007), 571\u2013583). A. Moret\u00b4o"
+}

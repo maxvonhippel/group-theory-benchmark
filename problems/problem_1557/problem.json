@@ -1,0 +1,6 @@
+{
+  "page_number": 215,
+  "problem_number": "6.4",
+  "problem_text": "6.4. A group G is called of type (FP)\u221eif the trivial G-module Z has a resolution by finitely generated projective G-modules. Is it true that every torsion-free group of type (FP)\u221ehas finite cohomological dimension?\nR. Bieri",
+  "answer": "No (K. S. Brown, R. Geoghegan, Invent. Math., 77 (1984), 367\u2013381)."
+}

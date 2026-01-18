@@ -1,0 +1,5 @@
+{
+  "page_number": 173,
+  "problem_number": "21.83",
+  "problem_text": "The function dn(\u03c3, \u03c4) = (1/n)\u00b7|{x \u2208 {1, . . . , n} | \u03c3(x) \u0338= \u03c4(x)}| is a distance on the symmetric group Sn. For a finitely generated group G, an almost-homomorphism is a sequence of set-theoretic maps fn : G \u2192 Sn satisfying dn(fn(g)fn(h), fn(gh)) \u2192 0 as n \u2192 \u221e for all g, h \u2208 G. An almost-homomorphism {fn} is said to be close to a homomorphism if there is a sequence of group homomorphisms \u03c1n : G \u2192 Sn such that dn(\u03c1n(g), fn(g)) \u2192 0 as n \u2192 \u221e for all g \u2208 G. The group G is said to be permutation stable if every almost-homomorphism of G is close to a homomorphism.\nConjecture: Metabelian groups are permutation-stable.\nA. Lubotzky"
+}

@@ -1,0 +1,6 @@
+{
+  "page_number": 277,
+  "problem_number": "18.115",
+  "problem_text": "Let G be a finite simple group, and let X, Y be isomorphic simple maximal subgroups of G. Are X and Y conjugate in Aut G? P. Schmid",
+  "answer": "No, not always. For example, there are two Aut G-classes of M12 in E6(5) (P. B. Kleidman, R. A. Wilson, J. London Math. Soc., 42 (1990), 555\u2013561); other counterexamples in E6(q) for certain q include two classes of PSL2(11), and two of PSL2(19) (D. A. Craven, Invent. Math., 234, no. 2 (2023), 637\u2013719). (D. A. Craven Letter of 8 September 2021)."
+}

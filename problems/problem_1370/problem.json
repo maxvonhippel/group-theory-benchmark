@@ -1,0 +1,6 @@
+{
+  "page_number": 190,
+  "problem_number": "2.2",
+  "problem_text": "A quasigroup is a groupoid Q(\u00b7) in which the equations ax = b and ya = b have a unique solution for any a, b \u2208 Q. Two quasigroups Q(\u00b7) and Q(\u25e6) are isotopic if there are bijections \u03b1, \u03b2, \u03b3 of the set Q onto itself such that x \u25e6 y = \u03b3(\u03b1x \u00b7 \u03b2y) for all x, y \u2208 Q. It is well-known that all quasigroups that are isotopic to groups form a variety G. Let V be a variety of quasigroups. Characterize the class of groups isotopic to quasigroups in G \u2229 V. For which identities characterizing V is every group isotopic to a quasigroup in G \u2229 V? Under what conditions on V does any group isotopic to a quasigroup in G \u2229 V consist of a single element?\nV. D. Belousov, A. A. Gvaramiya",
+  "answer": "Every part is answered (A. A. Gvaramiya, Dep. no. 6704-V84, VINITI, Moscow, 1984 (Russian))."
+}

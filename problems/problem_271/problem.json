@@ -1,0 +1,5 @@
+{
+  "page_number": 38,
+  "problem_number": "10.13",
+  "problem_text": "10.13. Does there exist a massive set of independent elements in a free group F2 on free generators a, b, that is, a set E of irreducible words on the alphabet a, b, a\u22121, b\u22121 such that 1) no element w \u2208 E belongs to the normal closure of E \\ {w}, and 2) the massiveness condition is satisfied: lim_{n\u2192\u221e} (n^p/|E_n|) = 3, where E_n is the set of all words of length n in E? R. I. Grigorchuk"
+}

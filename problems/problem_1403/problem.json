@@ -1,0 +1,6 @@
+{
+  "page_number": 196,
+  "problem_number": "2.49",
+  "problem_text": "(A. Selberg). Let G be a connected semisimple linear Lie group whose corresponding symmetric space has rank greater than 1, and let \u0393 be an irreducible discrete subgroup of G such that G/\u0393 has finite volume. Does it follow that \u0393 is an arithmetic subgroup?\nV. P. Platonov",
+  "answer": "Yes, it does (G. A. Margulis, Functional Anal. Appl., 8 (1974), 258\u2013259)."
+}

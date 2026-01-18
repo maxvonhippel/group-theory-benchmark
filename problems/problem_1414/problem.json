@@ -1,0 +1,6 @@
+{
+  "page_number": 197,
+  "problem_number": "2.64",
+  "problem_text": "Does the set of nil-elements of a finite-dimensional linear group coincide with its locally nilpotent radical?\nB. I. Plotkin",
+  "answer": "Not always. The non-nilpotent 3-generator nilgroup of E. S. Golod constructed by an algebra over Q is residually torsion-free nilpotent; hence it is orderable and therefore it is embeddable into GLn over some skew field by Mal\u2019cev\u2019s theorem (V. A. Roman\u2019kov, 1978)."
+}

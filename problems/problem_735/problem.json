@@ -1,0 +1,5 @@
+{
+  "page_number": 103,
+  "problem_number": "16.98",
+  "problem_text": "Suppose that G is a solvable finite group and A is a group of automorphisms of G of relatively prime order. Is there a bound for the Fitting height h(G) of G in terms of A and h(CG(A)), or even in terms of the length l(A) of the longest chain of nested subgroups of A and h(CG(A))?\nWhen A is solvable, it is proved in (A. Turull, J. Algebra, 86 (1984), 555\u2013566) that h(G) \u2a7d h(CG(A)) + 2l(A) and this bound is best possible for h(CG(A)) > 0.\nFor A non-solvable some results are in (H. Kurzweil, Manuscripta Math., 41 (1983), 233\u2013305).\nA. Turull"
+}

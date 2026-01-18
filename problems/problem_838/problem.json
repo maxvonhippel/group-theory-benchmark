@@ -1,0 +1,5 @@
+{
+  "page_number": 115,
+  "problem_number": "17.125",
+  "problem_text": "Does every finite group G contain a pair of conjugate elements a, b such that \u03c0(G) = \u03c0(\u27e8a, b\u27e9)? This is true for soluble groups.\nComment of 2013: it was proved in (A. Lucchini, M. Morigi, P. Shumyatsky, Forum Math., 24 (2012), 875\u2013887) that every finite group G contains a 2-generator subgroup H such that \u03c0(G) = \u03c0(H).\nP. Shumyatsky"
+}

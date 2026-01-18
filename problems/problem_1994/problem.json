@@ -1,0 +1,6 @@
+{
+  "page_number": 280,
+  "problem_number": "19.85",
+  "problem_text": "Suppose that every Schmidt subgroup of a finite group G is \u03c3-subnormal in G (see Archive 19.84). Is it true that then there is a normal \u03c3-nilpotent subgroup N \u2a7d G such that G/N is cyclic?\n\nAn affirmative answer is known if \u03c3 = {{2}, {3}, . . .}. A. N. Skiba",
+  "answer": "Yes, it is true (X. Yi, S. F. Kamornikov, J. Algebra, 560 (2020), 181\u2013191)."
+}

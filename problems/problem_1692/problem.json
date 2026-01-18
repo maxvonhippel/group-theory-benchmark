@@ -1,0 +1,6 @@
+{
+  "page_number": 234,
+  "problem_number": "10.14",
+  "problem_text": "a) Does every group satisfying the minimum condition on subgroups satisfy the weak maximum condition on subgroups?\nb) Does every group satisfying the maximum condition on subgroups satisfy the weak minimum condition on subgroups?\nD. I. Zaitsev",
+  "answer": "a) No, not always (V. N. Obraztsov, Math. USSR\u2013Sb., 66, no. 2 (1990), 541\u2013553).\nb) No, not always (V. N. Obraztsov, Siberian Math. J., 32, no. 1 (1991), 79\u201384)."
+}

@@ -1,0 +1,6 @@
+{
+  "page_number": 247,
+  "problem_number": "12.70",
+  "problem_text": "Let p be a prime number, F a free pro-p-group of finite rank, and \u2206 \u0338= 1 an automorphism of F whose order is a power of p. Is the rank of FixF (\u2206) = {x \u2208 F | \u2206(x) = x} finite? If the order of \u2206 is prime to p, then FixF (\u2206) has infinite rank (W. Herfort, L. Ribes, Proc. Amer. Math. Soc., 108 (1990), 287\u2013295).\nL. Ribes",
+  "answer": "Yes, it is finite (C. Scheiderer, Proc. Amer. Math. Soc., 127, no. 3 (1999), 695\u2013700). Moreover, in (W. N. Herfort, L. Ribes, P. A. Zalesskii, Forum Math., 11, no. 1 (1999), 49\u201361) it is proved that if P is a finite p-group of automorphisms of a free pro-p group F of arbitrary rank, then the group of fixed points of P is a free factor of F and the latter result has been extended in (P. A. Zalesskii, J. Reine Angew. Math., 572 (2004), 97\u2013110) to the situation of a free pro-p group of arbitrary rank."
+}

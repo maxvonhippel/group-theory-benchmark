@@ -1,0 +1,6 @@
+{
+  "page_number": 205,
+  "problem_number": "4.14",
+  "problem_text": "Let p be a prime number. What are necessary and sufficient conditions for a finite group G in order that the group algebra of G over a field of characteristic p be indecomposable as a two-sided ideal? There exist some nontrivial examples, for instance, the group algebra of the Mathieu group M24 is indecomposable when p is 2.\n\nR. Brauer",
+  "answer": "A necessary and sufficient condition can be extracted from (G. R. Robinson, J. Algebra, 84 (1983), 493\u2013502); another solution, which requires considering fewer subgroups, can be extracted from (B. K\u00a8ulshammer, Arch. Math. (Basel), 56 (1991), 313\u2013319)."
+}

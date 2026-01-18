@@ -1,0 +1,5 @@
+{
+  "page_number": 134,
+  "problem_number": "19.47",
+  "problem_text": "19.47. Let K be a finite extension of degree n of a field k of odd characteristic. The multiplicative group K\u2217 embeds into the group of all k-linear automorphisms Autk(K) by the rule t(x) = tx for all x \u2208 K. For a fixed basis of K over k, the group Autk(K) is isomorphic to GL(n, k). The image of K\u2217 is called a nonsplit maximal torus corresponding to the extension K/k and is denoted by T(K/k). A subgroup of GL(n, k) is said to be rich in transvections if it contains all elementary transvections. Let H be a subgroup of GL(n, k) which contains T(K/k) and a one-dimensional transformation. Is H rich in transvections?\n\nV. A. Ko\u02d8\u0131baev"
+}

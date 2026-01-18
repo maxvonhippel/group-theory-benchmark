@@ -1,0 +1,6 @@
+{
+  "page_number": 245,
+  "problem_number": "12.25",
+  "problem_text": "Let G be a finite group acting irreducibly on a vector space V . An orbit \u03b1G for \u03b1 \u2208 V is said to be p-regular if the stabilizer of \u03b1 in G is a p\u2032-subgroup. Does G have a regular orbit on V if it has a p-regular orbit for every prime p? Jiping Zhang",
+  "answer": "No, not always. For example, let H = A4\u2240Z5, V = O2(H), and G be a complement to V in H, G acting on V by conjugation. (V. I. Zenkov, Letter of February, 11, 1994.)"
+}

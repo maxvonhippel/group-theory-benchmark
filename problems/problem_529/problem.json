@@ -1,0 +1,6 @@
+{
+  "page_number": 74,
+  "problem_number": "\u221714.20",
+  "problem_text": "Does a free product of two groups have the Noetherian Equation Property\nif this property is enjoyed by the factors?\nG. Baumslag, A. G. Myasnikov, V. N. Remeslennikov",
+  "answer": "Yes, it does (Z. Sela, Preprint, 2010, https://arxiv.org/abs/1012.0044). Note also that a free product of arbitrarily many equationally Noetherian groups need not be equationally Noetherian (D. Groves, M. Hull, Trans. Amer. Math. Soc., 372 (2019), 7141\u20137190)."
+}

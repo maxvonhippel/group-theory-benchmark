@@ -1,0 +1,6 @@
+{
+  "page_number": 202,
+  "problem_number": "\u22173.22",
+  "problem_text": "Let \u03be = {G\u03b1, \u03c0\u03b1\n\u03b2 | \u03b1, \u03b2 \u2208 I} be a projective system (over a directed set I) of finitely generated free abelian groups. If all the projections \u03c0\u03b1\n\u03b2 are epimorphisms and all the G\u03b1 are non-zero, does it follow that lim\n\u2190\u2212 \u03be \u2260 0? Equivalently, suppose every finite set of elements of an abelian group A is contained in a pure finitely-generated free subgroup of A. Then does it follow that A has a direct summand isomorphic to the infinite cyclic group?\nV. I. Kuz\u2019minov",
+  "answer": "Under the assumption of the continuum hypothesis, not always (E. A. Palyutin, Siberian Math. J., 19 (1978), 1415\u20131417). Another example, not using the continuum hypothesis, is given by the abelian group A = Z\u21351/N where N is the subgroup consisting of elements having countable support. Every countable subgroup of A is free abelian, which means that each finite subset of A is contained in a pure finitely generated free abelian subgroup. But A has no direct summand isomorphic to Z. Both properties can be verified using the standard ZFC axioms of set theory. (S. Corson, Letter of 26 August 2024)."
+}

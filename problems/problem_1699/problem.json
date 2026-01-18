@@ -1,0 +1,6 @@
+{
+  "page_number": 235,
+  "problem_number": "10.33",
+  "problem_text": "For HNN-extensions of the form G = \u27e8 t, A | t\u22121Bt = C, \u03c6 \u27e9, where A is a finitely generated abelian group and \u03c6 : B \u2192 C is an isomorphism of two of its subgroups, find\na) a criterion to be residually finite;\nb) a criterion to be Hopfian.\nYu. I. Merzlyakov",
+  "answer": "a) Such a criterion is found (S. Andreadakis, E. Raptis, D. Varsos, Arch. Math., 50 (1988), 495\u2013501.\nb) Such a criterion is found (S. Andreadakis, E. Raptis, D. Varsos, Commun. Algebra, 20 (1992), 1511\u20131533)."
+}

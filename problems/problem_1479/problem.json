@@ -1,0 +1,6 @@
+{
+  "page_number": 206,
+  "problem_number": "4.23",
+  "problem_text": "Let G be a finite simple group, \u03c4 some element of prime order, and \u03b1 an automorphism of G whose order is coprime to |G|. Suppose \u03b1 centralizes CG(\u03c4). Is \u03b1 = 1? G. Glauberman",
+  "answer": "Not always; for example, G = Sz(8), |\u03c4| = 5, |\u03b1| = 3 (N. D. Podufalov, Letter of September, 3, 1975)."
+}

@@ -1,0 +1,6 @@
+{
+  "page_number": 200,
+  "problem_number": "3.14",
+  "problem_text": "Let G be a finite group of n \u00d7 n matrices over a skew field T of characteristic zero. Prove that G has a soluble normal subgroup H whose index in G is not greater than some number f(n) not depending on G or T. This problem is related to the representation theory of finite groups (the Schur index).\nA. E. Zalesski\u02d8\u0131",
+  "answer": "This is proved mod CFSG (B. Hartley, M. A. Shahabi Shojaei, Math. Proc. Cambridge Phil. Soc., 92 (1982), 55\u201364)."
+}

@@ -1,0 +1,5 @@
+{
+  "page_number": 135,
+  "problem_number": "19.51",
+  "problem_text": "A finite group is monomial if each irreducible character of it is induced from a linear character of some subgroup. Monomial groups are soluble (Taketa). The group is normally (subnormally) monomial if each irreducible character is induced from a linear character of some normal (respectively, subnormal) subgroup. Metabelian groups are normally monomial, and abelian-by-nilpotent groups are subnormally monomial. In the other direction, it is known that there exist normally monomial groups of arbitrarily large derived length.\na) For a given prime p, do there exist normally monomial finite p-groups of arbitrarily large derived length?\nb) Do there exist subnormally monomial groups of arbitrarily large nilpotence length?\nA. Mann"
+}

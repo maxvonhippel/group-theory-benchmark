@@ -1,0 +1,5 @@
+{
+  "page_number": 126,
+  "problem_number": "18.103",
+  "problem_text": "A group is said to be minimax if it has a finite subnormal series each of\nwhose factors satisfies either the minimum or the maximum condition on subgroups.\nIs it true that in the class of nilpotent minimax groups only finitely generated groups\nmay have faithful irreducible primitive representations over a finitely generated field\nof characteristic zero?\nA. V. Tushev"
+}

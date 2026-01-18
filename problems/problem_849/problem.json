@@ -1,0 +1,5 @@
+{
+  "page_number": 116,
+  "problem_number": "18.8",
+  "problem_text": "Let X be a class of finite simple groups such that \u03c0(X) = char(X). A formation of finite groups F is said to be X-saturated if a finite group G belongs to F whenever the factor group G/\u03a6(OX(G)) is in F, where OX(G) is the largest normal subgroup of G whose composition factors are in X. Is every X-saturated formation X-local in the sense of F\u00f6rster? (See the definition in (P. F\u00f6rster, Publ. Sec. Mat. Univ. Aut\u00f2noma Barcelona, 29, no. 2\u20133 (1985), 39\u201376).)\nA. Ballester-Bolinches"
+}

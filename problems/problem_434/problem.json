@@ -1,0 +1,5 @@
+{
+  "page_number": 60,
+  "problem_number": "12.48",
+  "problem_text": "Let G be a sharply doubly transitive permutation group on a set \u2126 (see Archive 11.52 for a definition).\n(a) Does G possess a regular normal subgroup if a point stabilizer is locally finite?\n(b) Does G possess a regular normal subgroup if a point stabilizer has an abelian subgroup of finite index?\nComments of 2022: an affirmative answer to part (b) is obtained in permutation characteristic 0 (F. O. Wagner, Preprint, 2022, https://hal.archives-ouvertes.fr/hal-03590818).\nV. D. Mazurov"
+}

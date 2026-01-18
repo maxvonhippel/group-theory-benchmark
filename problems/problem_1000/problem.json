@@ -1,0 +1,5 @@
+{
+  "page_number": 138,
+  "problem_number": "19.69",
+  "problem_text": "(P. Wesolek). The acronym tdlc stands for totally disconnected and locally compact, and tdlcsc for tdlc and second countable. Let Res(G) denote the intersection of all open normal subgroups of a topological group G. The class of elementary tdlcsc groups is defined as the smallest class E of tdlcsc groups such that (1) E contains all second countable profinite groups and countable discrete groups; (2) E is closed under taking closed subgroups, Hausdorff quotients, directed unions of open subgroups, and group extensions. This class admits a well-behaved, ordinal-valued decomposition rank \u03be defined recursively as follows: \u03be({1}) = 1, and if G \u2208 E is a union of an increasing sequence (Oi) of compactly generated open subgroups, then \u03be(G) = supi{\u03be(Res(Oi))} + 1. What is the supremum of the decomposition ranks of elementary tdlcsc groups? In particular, is it countable? C. Reid"
+}

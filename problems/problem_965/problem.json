@@ -1,0 +1,5 @@
+{
+  "page_number": 132,
+  "problem_number": "19.26",
+  "problem_text": "19.26. (Y. O. Hamidoune). Suppose that A and B are finite subsets of a group G such that |A| \u2a7e 2 and |B| \u2a7e 2, and let A \u00b72 B denote the set of elements of G which can be expressed in the form ab for at least two different (a, b) \u2208 A \u00d7 B. Is it true that |A| + |B| \u2212 (1/2)|AB| \u2212 (1/2)|A \u00b72 B| \u2a7d max{2, |gH| : H \u2a7d G, g \u2208 G, gH \u2286 A \u00b72 B}?\nThis is proved if G is abelian.\nW. Dicks"
+}

@@ -1,0 +1,6 @@
+{
+  "page_number": 263,
+  "problem_number": "16.2",
+  "problem_text": "A group G is subgroup-separable if for any subgroup H \u2a7d G and element x \u2208 G\\H there is a homomorphism to a finite group f : G \u2192 F such that f(x) \u0338\u2208 f(H). Is it true that a finitely generated solvable group is locally subgroup-separable if and only if it does not contain a solvable Baumslag\u2013Solitar group? Solvable Baumslag\u2013Solitar groups are BS(1, n) = \u27e8a, b | bab\u22121 = an\u27e9 for n > 1. Background: It is known that a finitely generated solvable group is subgroup-separable if and only if it is polycyclic (R. C. Alperin, in: Groups\u2013Korea\u201998 (Pusan), de Gruyter, Berlin, 2000, 1\u20135). R. C. Alperin",
+  "answer": "No, it is not (J. O. Button, Ricerche di Matematica, 61, no. 1 (2012), 139\u2013145)."
+}

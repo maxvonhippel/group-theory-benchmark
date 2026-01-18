@@ -1,0 +1,5 @@
+{
+  "page_number": 127,
+  "problem_number": "18.110",
+  "problem_text": "The non-p-soluble length of a finite group G is the number of non-p-soluble factors in a shortest normal series each of whose factors either is p-soluble or is a direct product of non-abelian simple groups of order divisible by p. For a given prime p and a given proper group variety V, is there a bound for the non-p-soluble length of finite groups whose Sylow p-subgroups belong to V?\nComment of 2021: the existence of such a bound is proved for p = 2 (F. Fumagalli, F. Leinen, O. Puglisi, Proc. London Math. Soc. (3), 125, no. 5 (2022), 1066\u20131082).\nE. I. Khukhro, P. Shumyatsky"
+}

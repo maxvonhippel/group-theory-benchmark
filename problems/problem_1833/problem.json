@@ -1,0 +1,6 @@
+{
+  "page_number": 255,
+  "problem_number": "14.34",
+  "problem_text": "14.34. By definition, a locally compact group has the Kazhdan T-property if the trivial representation is an isolated point in the natural topological space of unitary representations of the group. Does there exist a profinite group with two dense discrete subgroups one of which is amenable, and the other has the Kazhdan T-property?\nSee (A. Lubotzky, Discrete groups, expanding graphs and invariant measures (Progress in Mathematics, Boston, Mass., 125), Birkh\u00e4user, Basel, 1994) for further motivation.\nR. I. Grigorchuk, A. Lubotzky",
+  "answer": "Yes, there does (M. Kassabov, Invent. Math., 170 (2007), 297\u2013326; M. Ershov, A. Jaikin-Zapirain, Invent. Math., 179, 303\u2013347)."
+}

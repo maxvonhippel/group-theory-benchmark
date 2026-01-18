@@ -1,0 +1,5 @@
+{
+  "page_number": 178,
+  "problem_number": "21.115",
+  "problem_text": "Let C1, . . . , Cn be (left or right) cosets of a finite group G such that U := C1 \u222a\u00b7 \u00b7 \u00b7 \u222aCn is not G. Is it always true that |G \\ U| \u2a7e|G|/2n?\nAffirmative answers are known in some special cases (B. Sambale, M. T\u02d8arn\u02d8auceanu, J. Algebraic Combin., 55 (2022), 979\u2013987).\nB. Sambale"
+}

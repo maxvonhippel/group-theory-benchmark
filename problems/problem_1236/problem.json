@@ -1,0 +1,5 @@
+{
+  "page_number": 172,
+  "problem_number": "21.78",
+  "problem_text": "Let p be a prime and let G be a pro-p group. Suppose that all of the (continuous Galois) cohomology groups H^n(G, F_p) of G with coefficients in the field of p elements are finite. Does it necessarily follow that the cohomology ring H*(G, F_p) is finitely generated?\nThe answer is known to be \u2018yes\u2019 if G is abelian-by-(p-adic analytic), as follows from (J. King, Commun. Algebra, 27, no. 10 (1999), 4969\u20134991).\nP. Kropholler"
+}

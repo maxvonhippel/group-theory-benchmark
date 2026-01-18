@@ -1,0 +1,6 @@
+{
+  "page_number": 206,
+  "problem_number": "4.27",
+  "problem_text": "Describe all finite simple groups G which can be represented in the form G = ABA, where A and B are abelian subgroups. I. P. Doktorov",
+  "answer": "They are described mod CFSG (D. L. Zagorin, L. S. Kazarin, Dokl. Math., 53, no. 2 (1996), 237\u2013239; D. L. Zagorin, Some problems of ABA-factorizations of permutation groups and classical groups (Cand. Diss.), Yaroslavl\u2019, 1994 (Russian); D. L. Zagorin, L. S. Kazarin, Problems in algebra, Gomel\u2019 Univ., Gomel\u2019, no. 11 (1997), 27\u201341 (Russian); E. P. Vdovin, Algebra and Logic, 38, no. 2 (1999), 67\u201383)."
+}

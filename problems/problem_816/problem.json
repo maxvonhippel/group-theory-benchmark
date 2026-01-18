@@ -1,0 +1,5 @@
+{
+  "page_number": 112,
+  "problem_number": "17.99",
+  "problem_text": "Consider the group B = \u27e8a, b | (bab\u22121)a(bab\u22121)\u22121 = a2\u27e9 introduced by Baumslag in 1969. The same relation is satisfied by the functions f(x) = 2x and g(x) = 2x under the operation of composition in the group of germs of monotonically increasing to \u221e continuous functions on (0, \u221e), where two functions are identified if they coincide for all sufficiently large arguments. Is the representation a \u2192 f, b \u2192 g of the group B faithful?\nA. Yu. Olshanskii"
+}

@@ -1,0 +1,6 @@
+{
+  "page_number": 185,
+  "problem_number": "1.35",
+  "problem_text": "A group is called pro-orderable if every partial ordering of the group extends\nto a linear ordering.\na) Is the wreath product of two arbitrary pro-orderable groups again pro-orderable?\nb) (A. I. Mal\u2019cev). Is every subgroup of a pro-orderable group again pro-orderable?\nM. I. Kargapolov",
+  "answer": "Not always, in both cases (V. M. Kopytov, Algebra i Logika, 5, no. 6 (1966), 27\u201331\n(Russian))."
+}

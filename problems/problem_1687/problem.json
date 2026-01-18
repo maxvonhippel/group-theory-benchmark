@@ -1,0 +1,6 @@
+{
+  "page_number": 234,
+  "problem_number": "9.82",
+  "problem_text": "An infinite group, all of whose proper subgroups are finite, is called quasi-finite. Is it true that an element of a quasi-finite group G is central if and only if it is contained in infinitely many subgroups of G?\nV. P. Shunkov",
+  "answer": "No (K. I. Lossov, Dep. no. 5529-V89, VINITI, Moscow, 1988 (Russian))."
+}

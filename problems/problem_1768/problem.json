@@ -1,0 +1,6 @@
+{
+  "page_number": 245,
+  "problem_number": "12.24",
+  "problem_text": "Given a ring R with identity, the automorphisms of R[[x]] sending x to x (1 + P\u221e i=1 aixi), ai \u2208 R, form a group N(R). We know that N(Z) contains a copy of the free group F2 of rank 2 and, from work of A. Weiss, that N(Z/pZ) contains a copy of every finite p-group (but not of Zp\u221e), p a prime. Does N(Z/pZ) contain a copy of F2? D. L. Johnson",
+  "answer": "Yes, it does (R. Camina, J. Algebra, 196, no. 1 (1997), 101\u2013113). I. B. Fesenko noted that this fact might have been known to specialists in the theory of fields of norms back in 1985 (J.-P. Wintenberger, J.-M. Fontaine, F. Laubie); however a proof based on this theory first appeared only in (I. B. Fesenko, Preprint, Nottingham Univ., 1998)."
+}

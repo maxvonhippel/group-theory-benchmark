@@ -1,0 +1,5 @@
+{
+  "page_number": 25,
+  "problem_number": "7.57",
+  "problem_text": "a) A set of generators of a finitely generated group G consisting of the least possible number d(G) of elements is called a basis of G. Let rM(G) be the least number of relations necessary to define G in the basis M and let r(G) be the minimum of the numbers rM(G) over all bases M of G. It is known that rM(G) \u2a7d d(G) + r(G) for any basis M. Does there exist a finitely presented group G for which the inequality becomes equality for some basis M? V. A. Churkin"
+}

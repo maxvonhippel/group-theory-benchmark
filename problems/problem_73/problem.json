@@ -1,0 +1,5 @@
+{
+  "page_number": 13,
+  "problem_number": "4.34",
+  "problem_text": "4.34. Let v be a group word, and let Kv be the class of groups G such that there exists a positive integer n = n(G) such that each element of the verbal subgroup vG can be represented as a product of n values of the word v on the group G.\na) For which v do all finitely generated soluble groups belong to the class Kv?\nb) Does the word v(x, y) = x\u22121y\u22121xy satisfy this condition?\nM. I. Kargapolov"
+}

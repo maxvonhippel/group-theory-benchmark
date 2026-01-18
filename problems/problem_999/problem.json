@@ -1,0 +1,5 @@
+{
+  "page_number": 137,
+  "problem_number": "19.68",
+  "problem_text": "For a finite group G and a permutation group K, let bG(K) denote the number of conjugacy classes of regular subgroups of K isomorphic to G. Does there exist a function f such that bG(K) \u2a7d n f(r) for every abelian group G of order n and rank r, and every group K such that K(2) = K? (See Archive 19.67 for the definition of K(2).)\nI. Ponomarenko"
+}

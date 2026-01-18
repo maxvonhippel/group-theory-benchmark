@@ -1,0 +1,6 @@
+{
+  "page_number": 230,
+  "problem_number": "9.25",
+  "problem_text": "Find an algorithm which recognizes, by an equation w(x1, . . . , xn) = 1 in a free group F and by a list of finitely generated subgroups H1, . . . , Hn of F, whether there is a solution of this equation satisfying the condition x1 \u2208 H1, . . . , xn \u2208 Hn.\nG. S. Makanin",
+  "answer": "Such an algorithm is found in (V. Diekert, C. Guti\u00b4errez, C. Hagenah, Inf. Comput., 202, no. 2 (2005), 105\u2013140)."
+}

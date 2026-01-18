@@ -1,0 +1,6 @@
+{
+  "page_number": 219,
+  "problem_number": "6.52",
+  "problem_text": "Let f be a local screen of a formation which contains all finite nilpotent groups and let A be a group of automorphisms of a finite group G. Suppose that A acts f-stably on the socle of G/\u03a6(G). Is it true that A acts f-stably on \u03a6(G)?\nL. A. Shemetkov",
+  "answer": "No, not always (A. N. Skiba, Siber. Math. J., 34 (1993), 953\u2013958)."
+}

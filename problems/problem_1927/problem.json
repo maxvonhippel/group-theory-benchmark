@@ -1,0 +1,6 @@
+{
+  "page_number": 269,
+  "problem_number": "16.109",
+  "problem_text": "Is there a polynomial time algorithm for solving the word problem in the group Aut Fn (with respect to some particular finite presentation), where Fn is the free group of rank n \u2a7e2?\nV. E. Shpilrain",
+  "answer": "Yes, there is (S. Schleimer, Comment. Math. Helv., 83 (2008), 741\u2013765)."
+}

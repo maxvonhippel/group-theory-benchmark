@@ -1,0 +1,5 @@
+{
+  "page_number": 147,
+  "problem_number": "20.26",
+  "problem_text": "Let \u03d5 be the Euler totient function. Does there exist a constant a > 0 such that |Aut(G)| \u2a7e \u03d5(|G|)a\n a) for every finite group G?\n b) for every finite nilpotent group G?\nIf such a constant a exists, then a \u2a7d 40/41 (J. Gonz\u00b4alez-S\u00b4anchez, A. Jaikin-Zapirain, Forum Math. Sigma, 3, Article ID e7, 11 p., electronic only (2015)). Also cf. Archive 12.77.\nJ. Gonz\u00b4alez-S\u00b4anchez, A. Jaikin-Zapirain"
+}

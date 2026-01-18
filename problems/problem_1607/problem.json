@@ -1,0 +1,6 @@
+{
+  "page_number": 223,
+  "problem_number": "7.44",
+  "problem_text": "Does a normal subgroup H in a finite group G possess a complement in G if each Sylow subgroups of H is a direct factor in some Sylow subgroup of G? V. I. Sergiyenko",
+  "answer": "Yes, it does, mod CFSG (W. Xiao, J. Pure Appl. Algebra, 87, no. 1 (1993), 97\u201398)."
+}

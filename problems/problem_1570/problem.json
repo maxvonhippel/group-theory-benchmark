@@ -1,0 +1,6 @@
+{
+  "page_number": 217,
+  "problem_number": "6.22",
+  "problem_text": "Construct a braid that belongs to the derived subgroup of the braid group but is not a commutator. G. S. Makanin",
+  "answer": "Let x = \u03c31, y = \u03c32 be the standard generators of the braid group B3; then the braid (xyxyx)12(xy)\u221212(xyx)\u221212 belongs to the derived subgroup of B3 but is not a commutator (Yu. S. Sem\u00a8enov, Abstracts of the 10th All-Union Sympos. on Group Theory, Minsk, 1986, p. 207 (Russian))."
+}

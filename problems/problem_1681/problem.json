@@ -1,0 +1,6 @@
+{
+  "page_number": 233,
+  "problem_number": "9.67",
+  "problem_text": "(A. Tarski). Let F_n be a free group of rank n; is it true that Th(F_2) = Th(F_3)?\nA. D. Taimanov",
+  "answer": "Yes, it is (O. Kharlampovich, A. Myasnikov, J. Algebra, 302, (2006), 451\u2013552; Z. Sela, Geom. Funct. Anal., 16 (2006), 707\u2013730)."
+}

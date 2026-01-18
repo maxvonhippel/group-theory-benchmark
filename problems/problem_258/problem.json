@@ -1,0 +1,5 @@
+{
+  "page_number": 36,
+  "problem_number": "9.76",
+  "problem_text": "We define a Golod group to be the r-generated, r \u2a7e2, subgroup \u27e81 + x1 + I, 1 + x2 + I, . . . , 1 + xr + I\u27e9of the adjoint group 1 + F/I of the factor-algebra F/I, where F is a free algebra of polynomials without constant terms in non-commuting variables x1, x2, . . . , xr over a field of characteristic p > 0, and I is an ideal of F such that F/I is a non-nilpotent nil-algebra (see E. S. Golod, Amer. Math. Soc. Transl. (2), 48 (1965), 103\u2013106). Prove that in Golod groups the centralizer of every element is infinite.\nNote that Golod groups with infinite centre were constructed by A. V. Timofeenko (Math. Notes, 39, no. 5 (1986), 353\u2013355); independently by other methods the same result was obtained in the 90s by L. Hammoudi.\nV. P. Shunkov"
+}

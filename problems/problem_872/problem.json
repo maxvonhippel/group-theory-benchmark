@@ -1,0 +1,5 @@
+{
+  "page_number": 119,
+  "problem_number": "18.39",
+  "problem_text": "Conjecture: Let G be a hyperbolic group. Then every 2-dimensional rational homology class is virtually represented by a sum of closed surface subgroups, that is, for any \u03b1 \u2208 H2(G; Q) there are finitely many closed oriented surfaces Si and injective homomorphisms \u03c1i : \u03c01(Si) \u2192 G such that \u2211i[Si] = n\u03b1, where [Si] denotes the image of the fundamental class of Si in H2(G).\nD. Calegari"
+}

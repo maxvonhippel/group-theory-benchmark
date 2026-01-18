@@ -1,0 +1,5 @@
+{
+  "page_number": 147,
+  "problem_number": "20.28",
+  "problem_text": "Let L be a non-abelian finite simple group, and let H(L) = M(L).L be the universal perfect central extension, where M(L) is the Schur multiplier of L. Suppose that G is a finite group such that the set of class sizes of G is the same as the set of class sizes of H(L). Is it true that G \u2243 H(L) \u00d7 A, where A is an abelian group?\nThis is proved for L = Alt5 in (J. Algebra Appl., 21, no. 11 (2022), Article ID 2250226, 8 p.).\nI. B. Gorshkov"
+}

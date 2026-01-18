@@ -1,0 +1,6 @@
+{
+  "page_number": 218,
+  "problem_number": "6.35",
+  "problem_text": "(R. Bieri, R. Strebel). Let o be an associative ring with identity distinct from zero. A group G is said to be almost finitely presented over o if it has a presentation G = F/R where F is a finitely generated free group and the oG-module R/[R, R]\u2297Z o is finitely generated. It is easy to see that every finitely presented group G is almost finitely presented over Z and therefore also over an arbitrary ring o. Is the converse true?\nYu. I. Merzlyakov",
+  "answer": "No, it is not true (M. Bestvina, N. Brady, Invent. Math., 129, no. 3 (1997), 445\u2013470)."
+}

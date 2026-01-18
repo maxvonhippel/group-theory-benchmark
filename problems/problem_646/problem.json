@@ -1,0 +1,5 @@
+{
+  "page_number": 91,
+  "problem_number": "15.77",
+  "problem_text": "15.77. Elements a, b of a group G are said to be symmetric with respect to an element g \u2208G if a = gb\u22121g. Let G be an infinite abelian group, \u03b1 a cardinal, \u03b1 < |G|. Is it true that for any n-colouring \u03c7 : G \u2192{0, 1, . . . , n \u22121} there exists a monochrome subset of cardinality \u03b1 that is symmetric with respect to some element of G? This is known to be true for n \u2a7d3.\nI. V. Protasov"
+}

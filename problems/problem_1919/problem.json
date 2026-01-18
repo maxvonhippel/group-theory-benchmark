@@ -1,0 +1,6 @@
+{
+  "page_number": 268,
+  "problem_number": "16.83",
+  "problem_text": "a) Let En be a free locally nilpotent n-Engel group on countably many generators, and let \u03c0(En) be the set of prime divisors of the orders of elements of the periodic part of En. It is known that 2, 3, 5 \u2208 \u03c0(E4). Does there exist n for which 7 \u2208 \u03c0(En)? Yu. V. Sosnovski\u02d8\u0131",
+  "answer": "a) Yes, n = 6, since the 2-generator free nilpotent 6-Engel group has an element of order 7 (W. Nickel, J. Austral. Math. Soc., Ser. A, 67, no. 2 (1999), 214\u2013222; http://www.mathematik.tu-darmstadt.de/~nickel/Engel/Engel.html). (A. Abdollahi, Letter of 19 August 2011.)"
+}

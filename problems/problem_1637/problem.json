@@ -1,0 +1,6 @@
+{
+  "page_number": 227,
+  "problem_number": "8.61",
+  "problem_text": "Suppose that a locally compact group G contains a subgroup that is topologically isomorphic to the additve group of the field of real numbers with natural topology. Is the space of all closed subgroups of G connected in the Chabauty topology?\nI. V. Protasov",
+  "answer": "No, not always: let H be the group of matrices of the form ( (1 z1 r), (0 1 z2), (0 0 1) ), where z1, z2 \u2208 Z and r \u2208 R. Then H is locally compact in the natural topology and contains a central subgroup topologically isomorphic to R, but L(H) is not connected (Yu. V. Tsybenko, Abstracts of 17th All-USSR Algebraic Conf., Part 1, Minsk, 1983, 213 (Russian))."
+}

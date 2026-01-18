@@ -1,0 +1,6 @@
+{
+  "page_number": 156,
+  "problem_number": "20.88",
+  "problem_text": "\u221720.88. Let u be an element of a free group Fr. Is it true that there is v \u2208 Fr (that depends on u) that cannot be a subword of any cyclically reduced word \u03c6(u), where \u03c6 is an automorphism of Fr?\nV. Shpilrain",
+  "answer": "Yes, it is true (L. Koch-Hyde, S. O\u2019Connor, E. Olive, V. Shpilrain, Preprint, 2025, https://arxiv.org/abs/2505.00477)."
+}

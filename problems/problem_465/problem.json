@@ -1,0 +1,5 @@
+{
+  "page_number": 64,
+  "problem_number": "12.101",
+  "problem_text": "12.101. We call a group G containing an involution i a T0-group if\n1) the order of the product of any two involutions conjugate to i is finite;\n2) all 2-subgroups of G are either cyclic or generalized quaternion;\n3) the centralizer C of the involution i in G is infinite, distinct from G, and has finite periodic part;\n4) the normalizer of any non-trivial i-invariant finite subgroup in G either is contained in C or has periodic part which is a Frobenius group (see 6.55) with abelian kernel and finite complement of even order;\n5) for every element c not contained in C for which ci is an involution there is an element s of C such that \u27e8c, cs\u27e9 is an infinite subgroup.\nDoes there exist a simple T0-group?\nV. P. Shunkov"
+}

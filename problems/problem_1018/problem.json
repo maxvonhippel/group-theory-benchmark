@@ -1,0 +1,5 @@
+{
+  "page_number": 140,
+  "problem_number": "19.94",
+  "problem_text": "19.94. By definition two elements g1 and g2 of a free metabelian group F with basis {x1, . . . , xn} have the same distribution if the equations g1(x1, . . . , xn) = g and g2(x1, . . . , xn) = g have the same number of solutions in any finite metabelian group G for every g \u2208G. Is it true that elements g1 and g2 have the same distribution if and only if they are conjugate by some automorphism of F?\nE. I. Timoshenko"
+}

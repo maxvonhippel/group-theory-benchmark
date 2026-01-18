@@ -1,0 +1,5 @@
+{
+  "page_number": 42,
+  "problem_number": "10.54",
+  "problem_text": "(R. G\u00a8obel). For a cardinal number \u00b5, let\nZ<\u00b5 = {f \u2208Z\u00b5 | |supp (f)| < \u00b5}\nand\nG\u00b5 = Z\u00b5/Z<\u00b5.\na) Find a non-zero direct summand D of G\u03c91 such that D \u0338\u223c= G\u03c91.\nb) Investigate the structure of G\u00b5 (the structure of G\u03c90 is well known).\nS. V. Rychkov"
+}

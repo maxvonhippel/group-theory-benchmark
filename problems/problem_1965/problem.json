@@ -1,0 +1,6 @@
+{
+  "page_number": 275,
+  "problem_number": "18.31",
+  "problem_text": "Let \u03c0 be a set of primes. Is it true that in any D\u03c0-group G (see Archive, 3.62) there are three Hall \u03c0-subgroups whose intersection coincides with O\u03c0(G)?\nE. P. Vdovin, D. O. Revin",
+  "answer": "No, it is not true, for example, for G being an extension of L2(27) by a field automorphism of order 3, in which H is an extension of a Borel subgroup of L2(27) by a field automorphism of order 3 (V. I. Zenkov, Siberian Math. J., 63, no. 4 (2022), 720\u2013722)."
+}

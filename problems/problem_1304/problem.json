@@ -1,0 +1,5 @@
+{
+  "page_number": 181,
+  "problem_number": "Well-known problem",
+  "problem_text": "(Well-known problem). A classifying space for a group G is a connected CW-complex with fundamental group G and all higher homotopy groups trivial. A group is of type Fn if it has a classifying space with finite n-skeleton. For example, type F1 is equivalent to finite generation, and type F2 is equivalent to finite presentability. Type F\u221e means type Fn for all n.\nFor n \u2a7e 3, does every group of type Fn\u22121 embed as a subgroup of a group of type Fn? Or even in a group of type F\u221e?\nM. C. B. Zaremsky"
+}

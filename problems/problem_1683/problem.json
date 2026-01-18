@@ -1,0 +1,6 @@
+{
+  "page_number": 233,
+  "problem_number": "9.74",
+  "problem_text": "Find all local formations F of finite groups such that every finite minimal non-F-group is either a Shmidt group (that is, a non-nilpotent finite group all of whose proper subgroups are nilpotent) or a group of prime order.\nL. A. Shemetkov",
+  "answer": "They are found (S. F. Kamornikov, Siberian Math. J., 35, no. 4 (1994), 713\u2013721)."
+}

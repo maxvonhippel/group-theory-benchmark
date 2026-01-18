@@ -1,0 +1,6 @@
+{
+  "page_number": 266,
+  "problem_number": "16.65",
+  "problem_text": "Does there exist a finitely presented residually torsion-free nilpotent group with a free presentation G = F/R such that the group F/[F, R] is not residually nilpotent?\nR. Mikhailov, I. B. S. Passi",
+  "answer": "Yes, there does (V. V. Bludov, J. Group Theory, 12, no. 4 (2009), 579\u2013590)."
+}

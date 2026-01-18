@@ -1,0 +1,6 @@
+{
+  "page_number": 274,
+  "problem_number": "18.15",
+  "problem_text": "For an automorphism \u03c6 \u2208 Aut(G) of a group G, let [e]_\u03c6 = {g\u22121g^\u03c6 | g \u2208 G}. Is it true that if a group G has trivial center, then there is an inner automorphism \u03c6 such that [e]_\u03c6 is not a subgroup?\nV. G. Bardakov, M. V. Neshchadim, T. R. Nasybullov",
+  "answer": "No, not always; see V. V. Bludov\u2019s Example 2 in (D. Gon\u00b8calves, T. Nasybullov, Commun. Algebra, 47, no. 3 (2019), 930\u2013944)."
+}

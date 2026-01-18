@@ -1,0 +1,6 @@
+{
+  "page_number": 227,
+  "problem_number": "8.53",
+  "problem_text": "b) Let n be a sufficiently large odd number. Is it true that every non-cyclic subgroup of B(m, n) has a subgroup isomorphic to B(2, n)?\nA. Yu. Olshanskii",
+  "answer": "Yes, it is true for odd n \u2a7e 1003 (V. S. Atabekyan, Izv. Math., 73, no. 5 (2009), 861\u2013892)."
+}

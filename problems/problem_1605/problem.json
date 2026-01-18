@@ -1,0 +1,6 @@
+{
+  "page_number": 223,
+  "problem_number": "7.40",
+  "problem_text": "Describe the (lattice of) subgroups of a given classical matrix group over a ring which contain the subgroup consisting of all matrices in that group with coefficients in some subring (see Ju. I. Merzljakov, J. Soviet Math., 1 (1973), 571\u2013593). Yu. I. Merzlyakov",
+  "answer": "If the root system has single edges (Al, Dl, El) and the larger ring is not quasi-algebraic over the smaller one, then it is shown that the lattice in question contains the lattice of subgroups of a free product containing one of the factors (A. V. Stepanov, J. Algebra, 324, no. 7 (2010), 1549\u20131557), which means that a reasonable description is unfeasible. In almsot all other cases a good description was obtained in (R. A. Schmidt, Zap. Nauchn. Semin. Leningr. Otd. Mat. Inst. Steklova, 94 (1979), 119\u2013130 (Russian); Ya. N. Nuzhin, Algebra Logic, 22 (1983), 378\u2013389; Ya. N. Nuzhin, A. V. Yakushevich, Algebra Logic, 39 (2000), 199\u2013206; A. Stepanov, J. Algebra, 362 (2012), 12\u201329; Ya. N. Nuzhin, Siberian Math. J., 54, no. 1 (2013), 119\u2013123; A. Stepanov, A. Bak, St. Petersburg Math. J., 28, no. 4 (2017), 47\u201361)."
+}

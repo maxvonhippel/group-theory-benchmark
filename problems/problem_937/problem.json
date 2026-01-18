@@ -1,0 +1,5 @@
+{
+  "page_number": 128,
+  "problem_number": "18.116",
+  "problem_text": "Given a finite 2-group G of order 2n, does there exist a finite set S of rational primes such that |S| \u2a7d n and G is a quotient group of the absolute Galois group of the maximal 2-extension of Q unramified outside S \u222a {\u221e}?\nThis is true for p-groups, p odd, as noted by Serre.\nP. Schmid"
+}

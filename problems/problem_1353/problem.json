@@ -1,0 +1,6 @@
+{
+  "page_number": 188,
+  "problem_number": "1.70",
+  "problem_text": "Let p be a prime number and let G be the group of all matrices of the form\n( 1 + p\u03b1   p\u03b2\n  p\u03b3      1 + p\u03b4 ),\nwhere \u03b1, \u03b2, \u03b3, \u03b4 are rational numbers with denominators coprime to p. Does G have the property RN?\nYu. I. Merzlyakov",
+  "answer": "Yes, it does (G. A. Noskov, Siberian Math. J., 14 (1973), 475\u2013477)."
+}

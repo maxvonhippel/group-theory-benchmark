@@ -1,0 +1,6 @@
+{
+  "page_number": 257,
+  "problem_number": "14.92",
+  "problem_text": "(I. D. Macdonald). Every finite p-group has at least p \u22121 conjugacy classes of maximum size. I. D. Macdonald (Proc. Edinburgh Math. Soc., 26 (1983), 233\u2013239) constructed groups of order 2n for any n \u2a7e7 with just one conjugacy class of maximum size. Are there any examples with exactly p \u22121 conjugacy classes of maximum size for odd p?\nG. Fern\u00b4andez\u2013Alcober",
+  "answer": "Yes, there are, for p = 3 (A. Jaikin-Zapirain, M. F. Newman, E. A. O\u2019Brien, Israel J. Math., 172, no. 1 (2009), 119\u2013123)."
+}

@@ -1,0 +1,5 @@
+{
+  "page_number": 169,
+  "problem_number": "21.56",
+  "problem_text": "Let \u2113(X) denote the composition length of a finite group X. Let A be a finite nilpotent group acting by automorphisms on a finite soluble group G. Let c(G, A) be the number of trivial A-modules in a given A-composition series of G. (Note that c(G, A) = \u2113(C_G(A)) if (|A|, |G|) = 1.)\nConjecture: there are absolute constants C1 and C2 such that the Fitting height of G is at most C1\u2113(A) + C2c(G, A).\n\u0130. G\u00fcl\u043e\u011flu"
+}

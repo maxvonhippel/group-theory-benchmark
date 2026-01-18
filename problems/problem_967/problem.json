@@ -1,0 +1,5 @@
+{
+  "page_number": 132,
+  "problem_number": "19.28",
+  "problem_text": "19.28. Let G be a group, and \u03c6 an automorphism of G. Elements x, y \u2208 G are said to be \u03c6-conjugate if x = z\u22121y\u03c6(z) for some z \u2208 G. The \u03c6-conjugacy is an equivalence relation; the number of \u03c6-conjugacy classes is denoted by R(\u03c6).\nConjecture: If a finitely generated residually finite group G has an automorphism \u03c6 such that R(\u03c6) is finite, then G has a soluble subgroup of finite index.\nThe conjecture is proved if \u03c6 has prime order (E. Jabara, J. Algebra, 320, no. 10 (2008), 3671\u20133679). If G is infinitely generated, then G does not have to be almost solvable (K. Dekimpe, D. Gon\u00b8calves, Bull. London Math. Soc., 46, no. 4 (2014), 737\u2013746), but if it is of finite upper rank, then it has to be almost solvable (E. Troitsky, J. Group Theory, 28, no. 1 (2025), 151\u2013164).\nA. L. Fel\u2019shtyn, E. V. Troitsky"
+}

@@ -1,0 +1,6 @@
+{
+  "page_number": 253,
+  "problem_number": "14.1",
+  "problem_text": "Suppose that G is a finite group with no non-trivial normal subgroups of odd order, and \u03c6 is its 2-automorphism centralizing a Sylow 2-subgroup of G. Is it true that \u03c62 is an inner automorphism of G?\nR. Zh. Aleev",
+  "answer": "Yes, it is true (G. Glauberman, Math. Z., 107 (1968), 1\u201320)."
+}

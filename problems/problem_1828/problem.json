@@ -1,0 +1,6 @@
+{
+  "page_number": 254,
+  "problem_number": "14.13",
+  "problem_text": "a) By definition the commutator length of an element z of the derived subgroup of a group G is the least possible number of commutators from G whose product is equal to z. Does there exist a simple group on which the commutator length is not bounded?\nb) Does there exist a finitely presented simple group on which the commutator length is not bounded?\nV. G. Bardakov",
+  "answer": "a) Simple groups with this property were constructed in (J. Barge, \u00b4E. Ghys, Math. Ann., 294 (1992), 235\u2013265), and finitely generated simple ones in (A. Muranov, Int. J. Algebra Comput., 17 (2007), 607\u2013659).\nb) Yes, there does (P.-E. Caprace, K. Fujiwara, Geom. Funct. Anal., 19 (2010), 1296\u20131319)."
+}

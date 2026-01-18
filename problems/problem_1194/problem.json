@@ -1,0 +1,5 @@
+{
+  "page_number": 167,
+  "problem_number": "21.36",
+  "problem_text": "21.36. Kropholler\u2019s hierarchy (see 15.45) is closed under finite extensions, that is, (H\u03b1F)F \u2286 H\u03b1F for every \u03b1 (P. Kropholler, J. Pure Appl. Algebra, 90 (1993), 55\u201367). Let a hierarchy of tdlc groups HK be defined analogously to Kropholler\u2019s hierarchy in 15.45, with K being the class of profinite groups and with the cell stabilisers of the admissible action required to be open.\nIs it true that HK is closed under profinite extensions, that is, (H\u03b1K)K \u2286 H\u03b1K for every \u03b1?\nG. C. Cook"
+}

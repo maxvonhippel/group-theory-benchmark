@@ -1,0 +1,6 @@
+{
+  "page_number": 214,
+  "problem_number": "5.53",
+  "problem_text": "(P. Scott). Let p, q, r be distinct prime numbers. Prove that the free product G = Cp \u2217Cq \u2217Cr of cyclics of orders p, q, r is not the normal closure of a single element. By Lemma 3.1 of (J. Wiegold, J. Austral. Math. Soc., 17, no. 2 (1974), 133\u2013141), every soluble image, and every finite image, of G is the normal closure of a single element.\nJ. Wiegold",
+  "answer": "This is proved in (J. Howie, J. Pure Appl. Algebra, 173, no. 2 (2002), 167\u2013176)."
+}

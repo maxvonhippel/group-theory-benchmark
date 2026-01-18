@@ -1,0 +1,5 @@
+{
+  "page_number": 56,
+  "problem_number": "Well-known problem",
+  "problem_text": "For a given group G, define the following sequence of groups: A1(G) = G, Ai+1(G) = Aut (Ai(G)). Does there exist a finite group G for which this sequence contains infinitely many non-isomorphic groups?\nM. Short"
+}

@@ -1,0 +1,6 @@
+{
+  "page_number": 224,
+  "problem_number": "8.10",
+  "problem_text": "8.10. Is the group G = \u27e8a, b | a^n = 1, ab = b^3 a^3\u27e9 finite or infinite for n = 7, n = 9, and n = 15? All other cases known, see Archive, 7.7.\nD. L. Johnson",
+  "answer": "Infinite in all three cases. For n = 15 by (D. J. Seal, Proc. Roy. Soc. Edinburgh (A), 92 (1982), 181\u2013192). For n = 9 (and 15) by (M. I. Prishchepov, Commun. Algebra, 23 (1995), 5095\u20135117). For n = 7, because it contains the Fibonacci group F(3, 7) as an index 7 subgroup, as follows from Theorem 3.0 of (C. P. Chalk, Commun. Algebra 26, no. 5 (1998), 1511\u20131546) by standard technique for working with Fibonacci groups (G. Williams, Letter of 6 October 2015)."
+}

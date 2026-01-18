@@ -1,0 +1,5 @@
+{
+  "page_number": 139,
+  "problem_number": "19.89",
+  "problem_text": "19.89. A permutation group is subdegree-finite if every orbit of every point stabiliser\nis finite.\nLet \u2126 be countably infinite, and let G be a closed and subdegree-finite\nsubgroup of Sym(\u2126) regarded as a topological group under the topology of pointwise\nconvergence.\nConjecture: If the minimal degree of G is infinite, then there is some subset of \u2126\nwhose setwise stabiliser in G is trivial.\nNote that this conjecture implies Tom Tucker\u2019s well-known Infinite Motion Con-\njecture for graphs.\nS. M. Smith"
+}

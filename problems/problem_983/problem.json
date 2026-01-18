@@ -1,0 +1,5 @@
+{
+  "page_number": 135,
+  "problem_number": "19.48",
+  "problem_text": "A system of additive subgroups \u03c3ij, 1 \u2a7d i, j \u2a7d n, of a field K is called a net (or a carpet) of order n if \u03c3ir\u03c3rj \u2282 \u03c3ij for all i, r, j. A net that does not contain the diagonal is called an elementary net. A net \u03c3 = (\u03c3ij) is said to be irreducible if all \u03c3ij are nontrivial. An elementary net \u03c3 is said to be closed if the elementary net subgroup E(\u03c3) does not contain additional elementary transvections.\nLet R be a principal ideals domain with 1 \u2208 R, let k be the field of fractions of R, and K an algebraic extension of the field k. Let \u03c3 = (\u03c3ij) be an irreducible elementary net \u03c3 = (\u03c3ij) over K such that all \u03c3ij are R-modules. Is the net \u03c3 closed?\nV. A. Ko\u02d8\u0131baev"
+}

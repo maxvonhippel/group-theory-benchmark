@@ -1,0 +1,5 @@
+{
+  "page_number": 176,
+  "problem_number": "21.105",
+  "problem_text": "21.105. (D. Segal). A group word w is said to be concise in a class C of groups if for\nevery group G in C such that the set Gw of word values of w in G is finite, the verbal\nsubgroup w(G) = \u27e8Gw\u27e9is also finite (see also Archive 2.45). Is every word concise in\nthe class of residually finite groups?\nSee (D. Segal, Words. Notes on verbal width in groups, Cambridge Univ. Press,\n2009) for a partial solution.\nM. Petschick"
+}

@@ -1,0 +1,5 @@
+{
+  "page_number": 180,
+  "problem_number": "21.130",
+  "problem_text": "Conjecture: Let G be a finite additive abelian group of odd order. Then any subset A of G with |A| = n > 2 can be written as {a1, . . . , an} in such a way that A = {a1 + a2, a2 + a3, . . . , an\u22121 + an, an + a1}.\nZ. W. Sun"
+}

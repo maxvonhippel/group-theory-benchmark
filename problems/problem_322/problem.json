@@ -1,0 +1,5 @@
+{
+  "page_number": 46,
+  "problem_number": "11.8. b)",
+  "problem_text": "For a finite group X, let \u03c71(X) denote the totality of the degrees of all irreducible complex characters of X with allowance for their multiplicities. Suppose that \u03c71(G) = \u03c71(H) for groups G and H. Clearly, then |G| = |H|. Is it true that H is soluble if G is soluble?\nIt is known that H is a Frobenius group if G is a Frobenius group.\nYa. G. Berkovich"
+}

@@ -1,0 +1,6 @@
+{
+  "page_number": 203,
+  "problem_number": "3.50",
+  "problem_text": "Let G be a group of order p\u03b1 \u00b7 m, where p is a prime, p and m are coprime, and let k be an algebraically closed field of characteristic p. Is it true that if the indecomposable projective module corresponding to the 1-representation of G has k-dimension p\u03b1, then G has a Hall p\u2032-subgroup? The converse is trivially true. A. I. Saksonov",
+  "answer": "No, not always: see Example 4.5 in (W. Willems, Math. Z., 171 (1980), 163\u2013174)."
+}

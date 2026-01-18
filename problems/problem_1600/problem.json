@@ -1,0 +1,6 @@
+{
+  "page_number": 222,
+  "problem_number": "7.22",
+  "problem_text": "Suppose that a finite group G is realized as the automorphism group of some torsion-free abelian group. Is it true that for every infinite cardinal m there exist 2m non-isomorphic torsion-free abelian groups of cardinality m whose automorphism groups are isomorphic to G?\nS. F. Kozhukhov",
+  "answer": "Yes, this is true in the Zermelo\u2013Frenkel system with axioms of choice and \u2018weak diamond\u2019 (M. Dugas, R. Go\u0308bel, Proc. London Math. Soc. (3), 45, no. 2 (1982), 319\u2013336), or if m is smaller than the first measurable cardinal (V. A. Nikiforov, Mat. Zametki, 39, no. 5 (1986), 641\u2013646 (Russian))."
+}

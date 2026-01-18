@@ -1,0 +1,5 @@
+{
+  "page_number": 137,
+  "problem_number": "19.66",
+  "problem_text": "We say that a variety \u0398 is of Tarski type if any two non-abelian \u0398-free groups of finite rank are elementarily equivalent.\na) Find examples of Tarski type varieties distinct from the variety of all groups.\nb) Is it true that the Burnside variety Bn of all groups of exponent n, where n is big enough, is of Tarski type?\nc) Is it true that the n-Engel variety En of all groups satisfying the identity\n[[[x, y], y], . . . , y | {z} n ] \u2261 1, where n is big enough, is of Tarski type?\nB. I. Plotkin, E. B. Plotkin"
+}

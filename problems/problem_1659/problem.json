@@ -1,0 +1,6 @@
+{
+  "page_number": 230,
+  "problem_number": "9.21",
+  "problem_text": "Let P be a maximal parabolic subgroup of the smallest index in a finite group G of Lie type E6, E7, E8, or 2E6 and let X be a subgroup such that PX = G. Is it true that X = G?\nV. D. Mazurov",
+  "answer": "Yes, it is true (mod CFSG) (C. Hering, M. W. Liebeck, J. Saxl, J. Algebra, 106, no. 2 (1987), 517\u2013527)."
+}

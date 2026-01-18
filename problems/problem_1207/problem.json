@@ -1,0 +1,5 @@
+{
+  "page_number": 168,
+  "problem_number": "21.49",
+  "problem_text": "An isometric action of a group G on a metric space S is called acylindrical if for every \u03b5 > 0 there exist R, N > 0 such that for every two points x, y with d(x, y) \u2a7e R, there are at most N elements g \u2208 G satisfying d(x, gx) \u2a7d \u03b5 and d(y, gy) \u2a7d \u03b5. A group is said to be acylindrically hyperbolic if it is not virtually cyclic and admits an acylindrical action on a hyperbolic space with unbounded orbits. Is the automorphism group of a finitely generated acylindrically hyperbolic group also acylindrically hyperbolic?\nA. Genevois"
+}

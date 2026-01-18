@@ -1,0 +1,5 @@
+{
+  "page_number": 88,
+  "problem_number": "15.52",
+  "problem_text": "(Well-known problem). By a famous theorem of Wielandt the sequence G0 = G, G1, . . ., where Gi+1 = Aut Gi, stabilizes for any finite group G with trivial centre. Does there exist a function f of natural argument such that |Gi| \u2a7d f(|G|) for all i = 0, 1, . . . for an arbitrary finite group G and the same kind of sequence?\nV. D. Mazurov"
+}

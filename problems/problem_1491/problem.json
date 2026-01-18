@@ -1,0 +1,6 @@
+{
+  "page_number": 207,
+  "problem_number": "4.45",
+  "problem_text": "Let G be a free product amalgamating proper subgroups H and K of A and B, respectively.\n a) Suppose that H, K are finite and |A : H| > 2, |B : K| \u2a7e 2. Is G SQ-universal?\n b) Suppose that A, B, H, K are free groups of finite ranks. Can G be simple?\nP. M. Neumann",
+  "answer": "a) Yes, it is (K. I. Lossov, Siberian Math. J., 27, no. 6 (1986), 890\u2013899).\n b) Yes, it can (M. Burger, S. Mozes, Inst. Hautes \u00b4Etudes Sci. Publ. Math., 92 (2000), 151\u2013194). But if one of the indices |A : H|, |B : K| is infinite, then no, it cannot (S. V. Ivanov, P. E. Schupp, in: Algorithmic problems in groups and semigroups, Int. Conf., Lincoln, NE, 1998, Boston MA, Birkh\u00a8auser, 2000, 139\u2013142)."
+}

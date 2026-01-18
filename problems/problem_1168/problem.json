@@ -1,0 +1,5 @@
+{
+  "page_number": 163,
+  "problem_number": "21.10",
+  "problem_text": "We call a group presentation finite if it represents a finite group. We say that a presentation is just finite if it is finite and is no longer finite on removal of any relation from it. Is it true that every finite group has a just finite presentation?\nNote that if a group has a balanced presentation, then it is just finite. A similar argument can be applied for some p-groups using the Golod\u2013Shafarevich inequality.\nY. Barnea"
+}

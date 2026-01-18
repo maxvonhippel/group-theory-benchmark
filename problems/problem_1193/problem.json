@@ -1,0 +1,5 @@
+{
+  "page_number": 167,
+  "problem_number": "21.35",
+  "problem_text": "21.35. Let G be a finite group, w a multilinear commutator group-word, and p a prime. Suppose that p divides the order |xy| whenever x is a w-value of p\u2032-order in G and y is a w-value in G of order divisible by p. Is it true that then the verbal subgroup w(G) must be p-nilpotent?\nWithout the assumption that w be multilinear, the answer is negative. An affirmative answer has been obtained in several special cases (J. Algebra, 609 (2022), 926\u2013936).\nY. Contreras Rojas, V. Grazian, C. Monetta"
+}

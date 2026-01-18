@@ -1,0 +1,6 @@
+{
+  "page_number": 198,
+  "problem_number": "2.75",
+  "problem_text": "Let G be a periodic group containing an infinite family of finite subgroups whose intersection contains non-trivial elements. Does G contain a non-trivial element with infinite centralizer?\nS. P. Strunkov",
+  "answer": "Not always (K. I. Lossov, Dep. no. 5528-V88, VINITI, Moscow, 1988 (Russian))."
+}

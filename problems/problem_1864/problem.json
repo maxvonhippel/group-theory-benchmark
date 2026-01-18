@@ -1,0 +1,6 @@
+{
+  "page_number": 259,
+  "problem_number": "15.17",
+  "problem_text": "An infinite group is just infinite if all of its proper quotients are finite. Is every finitely generated just infinite group of intermediate growth necessarily a branch group? L. Bartholdi, R. I. Grigorchuk, Z. \u02c7Suni\u00b4k",
+  "answer": "No, not every; there exist simple finitely generated groups of intermediate growth (V. Nekrashevych, Ann. Math., 87, no. 3 (2018), 667\u2013719)."
+}

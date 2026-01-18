@@ -1,0 +1,6 @@
+{
+  "page_number": 252,
+  "problem_number": "13.39",
+  "problem_text": "13.39. Let A be an associative ring with unity and with torsion-free additive group, and let F A be the tensor product of a free group F by A (A. G. Myasnikov, V. N. Remeslennikov, Siberian Math. J., 35, no. 5 (1994), 986\u2013996); then F A is a free exponential group over A; in (A. G. Myasnikov, V. N. Remeslennikov, Int. J. Algebra Comput., 6 (1996), 687\u2013711), it is shown how to construct F A in terms of free products with amalgamation.\n\na) (G. Baumslag). Is F A residually nilpotent torsion-free?\n\nc) (G. Baumslag). Is the Magnus homomorphism of F Q into the group of power series over the rational number field Q faithful or not?\n\nA. G. Myasnikov, V. N. Remeslennikov",
+  "answer": "a) Yes, it is (A. Jaikin-Zapirain, Ann. Sci. \u00b4Ec. Norm. Sup\u00b4er. (4), 57, no. 4 (2024), 1101\u20131133).\n\nc) Yes, it is faithful (A. Jaikin-Zapirain, Ann. Sci. \u00b4Ec. Norm. Sup\u00b4er. (4), 57, no. 4 (2024), 1101\u20131133)."
+}

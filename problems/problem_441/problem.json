@@ -1,0 +1,5 @@
+{
+  "page_number": 61,
+  "problem_number": "12.56",
+  "problem_text": "Let \u27e8X | R\u27e9 be a finite presentation (the words in R are assumed cyclically reduced).\nDefine the length of the presentation to be the sum of the number of generators and the lengths of the relators. Let F(n) be the number of (isomorphism types of) groups that have a presentation of length at most n. What can one say about the function F(n)? It can be shown that F(n) is not recursive (D. Segal) and it is at least exponential (L. Pyber).\nA. Mann"
+}

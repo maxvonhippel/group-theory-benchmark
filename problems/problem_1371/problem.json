@@ -1,0 +1,6 @@
+{
+  "page_number": 190,
+  "problem_number": "2.3",
+  "problem_text": "A finite group is called quasi-nilpotent (\u0393-quasi-nilpotent) if any two of its (maximal) subgroups A and B satisfy one of the conditions 1) A \u2a7d B, 2) B \u2a7d A, 3) N_A(A \u2229 B) \u0338= A \u2229 B \u0338= N_B(A \u2229 B). Do the classes of quasi-nilpotent and \u0393-quasi-nilpotent groups coincide?\nYa. G. Berkovich, M. I. Kravchuk",
+  "answer": "No. The group G = \u27e8x, y, z, t | x4 = y4 = z2 = t3 = 1, [x, y] = z, [x, z] = [y, z] = 1, x^t = y, y^t = x\u22121y\u22121\u27e9 is \u0393-quasi-nilpotent, but not quasi-nilpotent. Since G/\u03a6(G) \u223c= A4, the intersection of any two maximal subgroups A and B of G equals \u03a6(G), whence N_A(A \u2229 B) \u0338= A \u2229 B \u0338= N_B(A \u2229 B); thus G is \u0393-quasi-nilpotent. On the other hand, if A1 = \u27e8zx2, zy2, t\u27e9 and B1 = \u27e8z, t\u27e9, then N_{A1}(A1 \u2229 B1) = A1 \u2229 B1 = \u27e8t\u27e9; hence G is not quasi-nilpotent. (V. D. Mazurov, 1973.)"
+}

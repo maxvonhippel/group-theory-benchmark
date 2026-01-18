@@ -1,0 +1,6 @@
+{
+  "page_number": 232,
+  "problem_number": "9.56",
+  "problem_text": "Find all finite groups with the property that the tensor square of any ordinary irreducible character is multiplicity free.\nJ. Saxl",
+  "answer": "Such groups are shown to be soluble (L. S. Kazarin, E. I. Chankov, Sb. Math., 201, no. 5 (2010), 655\u2013668), and abundance of examples shows that a classification of such soluble groups is not feasible."
+}

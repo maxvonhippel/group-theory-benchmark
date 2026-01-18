@@ -1,0 +1,5 @@
+{
+  "page_number": 57,
+  "problem_number": "12.8",
+  "problem_text": "Let V be a non-trivial variety of groups and let a1, . . . , ar freely generate a free group Fr(V) in V. We say Fr(V) strongly discriminates V just in case every finite system of inequalities wi(a1, . . . , ar, x1, . . . , xk) \u2260 1 for 1 \u2a7d i \u2a7d n having a solution in some Fs(V) containing Fr(V) as a varietally free factor in the sense of V, already has a solution in Fr(V). Does there exist V such that for some integer r > 0, Fr(V) discriminates but does not strongly discriminate V? What about the analogous question for general algebras in the context of universal algebra?\nA. M. Gaglione, D. Spellman"
+}

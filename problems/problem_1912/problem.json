@@ -1,0 +1,6 @@
+{
+  "page_number": 266,
+  "problem_number": "16.67",
+  "problem_text": "Conjecture: Given any integer k, there exists an integer n0 = n0(k) such that if n \u2a7en0 then the symmetric group of degree n has at least k different ordinary irreducible characters of equal degrees.\nA. Moret\u00b4o",
+  "answer": "This is proved (D. Craven, Proc. London Math. Soc., 96 (2008), 26\u201350)."
+}

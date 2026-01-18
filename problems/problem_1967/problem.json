@@ -1,0 +1,6 @@
+{
+  "page_number": 275,
+  "problem_number": "18.33",
+  "problem_text": "A group in which the derived subgroup of every 2-generated subgroup is cyclic is called an Alperin group. Is there a bound for the derived length of finite Alperin groups?\nG. Higman proved that finite Alperin groups are soluble, and finite Alperin p-groups have bounded derived length, see Archive 17.46.\nB. M. Veretennikov",
+  "answer": "Yes, there is: it is at most 6. Indeed, in (P. Longobardi, M. Maj, H. Smith, Rend. Semin. Mat. Univ. Padova, 115 (2006), 29\u201340) it was proved that finite Alperin groups of odd order are metabelian, and any finite Alperin group is supersoluble, so the elements of odd order form a metabelian normal subgroup, while finite Alperin 2-groups have derived length at most 4 by (B. Wilkens, J. Group Theory, 17, no. 1 (2014), 151\u2013174)."
+}

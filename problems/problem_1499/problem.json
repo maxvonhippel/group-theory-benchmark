@@ -1,0 +1,6 @@
+{
+  "page_number": 208,
+  "problem_number": "4.57",
+  "problem_text": "Let a group G be the product of two of its abelian minimax subgroups A and B. Prove or refute the following statements:\na) A0B0 \u0338= 1, where A0 = T x\u2208G Ax and similarly for B0;\nb) the derived subgroup of G is a minimax subgroup.\nN. F. Sesekin",
+  "answer": "Both parts were proved (D. I. Zaitsev, Algebra and Logic, 19 (1980), 94\u2013106)."
+}

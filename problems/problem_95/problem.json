@@ -1,0 +1,5 @@
+{
+  "page_number": 16,
+  "problem_number": "5.30",
+  "problem_text": "(Well-known problem). Suppose that G is a finite soluble group, A \u2a7d Aut G, C_G(A) = 1, the orders of G and A are coprime, and let |A| be the product of n not necessarily distinct prime numbers. Is the nilpotent length of G bounded above by n? This is proved for large classes of groups (E. Shult, F. Gross, T. Berger, A. Turull), and there is a bound in terms of n if A is soluble (J. G. Thompson\u2019s \u2a7d5n, H. Kurzweil\u2019s \u2a7d4n, A. Turull\u2019s \u2a7d2n), but the problem remains open. V. D. Mazurov"
+}

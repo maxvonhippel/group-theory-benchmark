@@ -1,0 +1,6 @@
+{
+  "page_number": 252,
+  "problem_number": "13.45",
+  "problem_text": "13.45. Every infinite group G of regular cardinality m can be partitioned into two subsets G = A1 \u222aA2 so that A1F \u0338= G and A2F \u0338= G for every subset F \u2282G of cardinality less than m. Is this statement true for groups of singular cardinality?\nI. V. Protasov",
+  "answer": "No, not always. The answer depends on the algebraic structure of G. In particular, this is true for a free group, but the statement does not hold for every Abelian group G of singular cardinality (I. Protasov, S. Slobodianiuk, Quest. Answers Gen. Topology, 33, no. 2 (2015), 61\u201370)."
+}

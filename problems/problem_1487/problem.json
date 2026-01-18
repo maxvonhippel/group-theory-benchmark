@@ -1,0 +1,6 @@
+{
+  "page_number": 207,
+  "problem_number": "4.37",
+  "problem_text": "Is there an infinite locally finite simple group G that cannot be represented by matrices over a field and is such that for some prime p the p-subgroups of G are either of bounded derived length or of finite exponent?\nO. H. Kegel",
+  "answer": "No (mod CFSG) by Theorem 4.8 of (O. H. Kegel, B. A. F. Wehrfritz, Locally finite groups, North Holland, Amsterdam, 1973)."
+}

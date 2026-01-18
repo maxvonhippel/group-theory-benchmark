@@ -1,0 +1,5 @@
+{
+  "page_number": 127,
+  "problem_number": "18.107",
+  "problem_text": "Is there a finitely generated infinite residually finite p-group such that every subgroup of infinite index is cyclic?\nThe answer is known to be negative for p = 2. Note that in (M. Ershov, A. Jaikin-Zapirain, J. Reine Angew. Math., 677 (2013), 71\u2013134) it is shown that for every prime p there is a finitely generated infinite residually finite p-group such that every finitely generated subgroup of infinite index is finite.\nA. Jaikin-Zapirain"
+}

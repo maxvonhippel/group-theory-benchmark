@@ -1,0 +1,6 @@
+{
+  "page_number": 213,
+  "problem_number": "5.23",
+  "problem_text": "Is it true that a free lattice-ordered group of the variety of lattice-ordered groups defined by the law x\u22121|y|x \u226a|y|2 (or, equivalently, by the law |[x, y]| \u226a|x|), is residually linearly ordered nilpotent?\nV. M. Kopytov",
+  "answer": "No, it is not (V. V. Bludov, A. M. W. Glass, Trans. Amer. Math. Soc., 358 (2006), 5179\u20135192)."
+}

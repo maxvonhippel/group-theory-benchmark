@@ -1,0 +1,5 @@
+{
+  "page_number": 93,
+  "problem_number": "15.95",
+  "problem_text": "(A. Mann, Ch. Praeger). Suppose that all fixed-point-free elements of a transitive permutation group G have prime order p. If G is a finite p-group, must G have exponent p?\nThis is true for p = 2, 3; it is also known that the exponent of G is bounded in terms of p (A. Hassani, M. Khayaty, E. I. Khukhro, C. E. Praeger, J. Algebra, 214, no. 1 (1999), 317\u2013337).\nE. I. Khukhro"
+}

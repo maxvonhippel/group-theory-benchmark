@@ -1,0 +1,5 @@
+{
+  "page_number": 178,
+  "problem_number": "21.114",
+  "problem_text": "A finite group G is called weakly ab-maximal if |H : [H, H]| \u2a7d|G : [G, G]| for all H \u2a7dG. Do weakly ab-maximal groups have bounded derived length?\nIt is known that weakly ab-maximal groups are direct products of weakly ab-maximal p-groups (F. Lisi, L. Sabatini, J. Group Theory, 27 (2024), 1203\u20131217).\nL. Sabatini"
+}

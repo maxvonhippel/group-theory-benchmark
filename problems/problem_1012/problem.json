@@ -1,0 +1,5 @@
+{
+  "page_number": 139,
+  "problem_number": "19.86",
+  "problem_text": "19.86. Suppose that a finite group G has a \u03c3i-Hall subgroup for every i \u2208 I. Suppose\nthat a subgroup A \u2a7d G is such that A \u2229 H is a \u03c3i-Hall subgroup of A for every i \u2208 I\nand every \u03c3i-Hall subgroup H of G (see 19.84 in Archive). Is it true that then A is\n\u03c3-subnormal in G?\nAn affirmative answer is known if \u03c3 = {{2}, {3}, . . .} and if G is \u03c3-soluble.\nA. N. Skiba"
+}

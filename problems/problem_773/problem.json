@@ -1,0 +1,5 @@
+{
+  "page_number": 108,
+  "problem_number": "17.47",
+  "problem_text": "Let G be a nilpotent group in which every coset x[G, G] for x \u0338\u2208[G, G] coincides with the conjugacy class xG. Is there a bound for the nilpotency class of G?\nIf G is finite, then its class is at most 3 (R. Dark, C. Scoppola, J. Algebra, 181, no. 3 (1996), 787\u2013802).\nS. H. Ghate, A. S. Muktibodh"
+}

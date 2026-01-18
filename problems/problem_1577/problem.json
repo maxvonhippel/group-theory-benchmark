@@ -1,0 +1,6 @@
+{
+  "page_number": 218,
+  "problem_number": "6.37",
+  "problem_text": "(H. Wielandt, O. H. Kegel). Is a finite group G soluble if it has soluble subgroups A, B, C such that G = AB = AC = BC?\nV. S. Monakhov",
+  "answer": "Yes, it is (mod CFSG) (L. S. Kazarin, Ukrain. Math. J., 43 (1991), 883\u2013886)."
+}

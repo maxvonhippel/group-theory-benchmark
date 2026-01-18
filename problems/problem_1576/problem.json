@@ -1,0 +1,6 @@
+{
+  "page_number": 218,
+  "problem_number": "6.36",
+  "problem_text": "(J. W. Grossman). The nilpotent-completion diagram of a group G is as follows: G/\u03b31G \u2190 G/\u03b32G \u2190 \u00b7 \u00b7 \u00b7 , where \u03b3iG is the ith term of the lower central series and the arrows are natural homomorphisms. It is easy to see that every nilpotent-completion diagram G1 \u2190 G2 \u2190 \u00b7 \u00b7 \u00b7 is a \u03b3-diagram, that is, every sequence 1 \u2192 \u03b3sGs+1 \u2192 Gs+1 \u2192 Gs \u2192 1, s = 1, 2, . . ., is exact. Do \u03b3-diagrams exist that are not nilpotent-completion diagrams?\nYu. I. Merzlyakov",
+  "answer": "Yes, such \u03b3-diagrams exist (N. S. Romanovski\u02d8\u0131, Sibirsk. Mat. Zh., 26, no. 4 (1985), 194\u2013195 (Russian))."
+}

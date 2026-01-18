@@ -1,0 +1,6 @@
+{
+  "page_number": 253,
+  "problem_number": "13.56",
+  "problem_text": "(A. Shalev). Let G be a finite p-group of sectional rank r, and \u03c6 an automorphism of G having exactly m fixed points. Is the derived length of G bounded by a function depending on r and m only?\nE. I. Khukhro",
+  "answer": "Yes, it is (A. Jaikin-Zapirain, Israel J. Math., 129 (2002), 209\u2013220)."
+}

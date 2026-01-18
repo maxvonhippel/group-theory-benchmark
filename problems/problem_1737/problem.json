@@ -1,0 +1,6 @@
+{
+  "page_number": 241,
+  "problem_number": "11.57",
+  "problem_text": "An upper composition factor of a group G is a composition factor of some finite quotient of G. Is there any restriction on the set of non-abelian upper composition factors of a finitely generated group?\nA. Mann, D. Segal",
+  "answer": "There are no restrictions: any set of non-abelian finite simple groups can be the set of upper composition factors of a 63-generator group; if we allow the group to have also abelian upper composition factors, the number of generators can be reduced to 3 (D. Segal, Proc. London Math. Soc. (3), 82 (2001), 597\u2013613)."
+}

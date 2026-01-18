@@ -1,0 +1,5 @@
+{
+  "page_number": 10,
+  "problem_number": "3.3. (Well-known problem)",
+  "problem_text": "Describe the automorphism group of the free associative algebra with n generators, n \u2a7e2.\nIt is known that all automorphisms are tame for n = 2 (A. J. Czerniakiewicz,\nTrans. Amer. Math. Soc., 160 (1971), 393\u2013401; 171 (1972), 309\u2013315; L. G. Makar-\nLimanov, Funct. Anal. Appl., 4 (1971), 262\u2013264). For n = 3, the Anick automor-\nphism is wild (U. U. Umirbaev, J. Reine Angew. Math., 605 (2007), 165\u2013178). There\nis an algorithm for recognizing automorphisms among endomorphisms of free associa-\ntive algebras of finite rank over constructive fields (A. V. Jagzhev, Siberian. Math. J.,\n21 (1980), 142\u2013146).\nL. A. Bokut\u2019"
+}

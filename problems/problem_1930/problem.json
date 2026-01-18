@@ -1,0 +1,6 @@
+{
+  "page_number": 269,
+  "problem_number": "17.12",
+  "problem_text": "Are there functions e, c : N \u2192N such that if in a nilpotent group G a normal subgroup H consists of right n-Engel elements of G, then He(n) \u2a7e\u03b6c(n)(G)?\nA. Abdollahi",
+  "answer": "Yes, there are (P. G. Crosby, G. Traustason, J. Algebra, 324 (2010), 875\u2013883)."
+}

@@ -1,0 +1,6 @@
+{
+  "page_number": 279,
+  "problem_number": "19.67",
+  "problem_text": "19.67. Let G \u2a7d Sym(\u2126), where \u2126 is finite. The 2-closure G(2) of the group G is defined to be the largest subgroup of Sym(\u2126) containing G which has the same orbits as G in the induced action on \u2126 \u00d7 \u2126. Is it true that if G is solvable, then every composition factor of G(2) is either a cyclic or an alternating group?\nI. Ponomarenko",
+  "answer": "No, it is not true (S. V. Skresanov, Algebra Logic, 58, no. 3 (2019), 249\u2013253)."
+}

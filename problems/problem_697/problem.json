@@ -1,0 +1,5 @@
+{
+  "page_number": 98,
+  "problem_number": "16.39",
+  "problem_text": "16.39. (J. E. Humphreys, D. N. Verma). Let G be a semisimple algebraic group over an algebraically closed field k of characteristic p > 0. Let g be the Lie algebra of G and let u = u(g) be the restricted enveloping algebra of g. By a theorem of Curtis every irreducible restricted u-module (i. e. every irreducible restricted g-module) is the restriction to g of a (rational) G-module. Is it also true that every projective indecomposable u-module is the restriction of a rational G-module? This is true if p \u2a7e2h \u22122 (where h is the Coxeter number of G) by results of Jantzen. S. Donkin"
+}

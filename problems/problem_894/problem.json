@@ -1,0 +1,5 @@
+{
+  "page_number": 122,
+  "problem_number": "18.64",
+  "problem_text": "(K. Harada). Conjecture: Let G be a finite group, p a prime, and B a p-block of G. If J is a non-empty subset of Irr(B) such that \u2211_{\u03c7\u2208J} \u03c7(1)\u03c7(g) = 0 for every p-singular element g \u2208 G, then J = Irr(B).\nV. D. Mazurov"
+}

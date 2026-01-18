@@ -1,0 +1,6 @@
+{
+  "page_number": 245,
+  "problem_number": "12.26",
+  "problem_text": "(Shi Shengming). Is it true that a finite p-soluble group G has a p-block of defect zero if and only if there exists an element x \u2208 Op\u2032(G) such that CG(x) is a p\u2032-subgroup? Jiping Zhang",
+  "answer": "No, it is not. The group 32.GL2(3) has a 2-block of defect 0, but the centralizer of every element from O(G) has even order (V. I. Zenkov, in: Trudy Inst. Matem. i Mekh. UrO RAN, 3 (1995), 36\u201340 (Russian))."
+}

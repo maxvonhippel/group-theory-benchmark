@@ -1,0 +1,6 @@
+{
+  "page_number": 278,
+  "problem_number": "19.37",
+  "problem_text": "a) Does there exist an absolute constant k such that for any nilpotent injector H of an arbitrary finite group G there are k conjugates of H the intersection of which is equal to the Fitting subgroup F(G) of G?\nb) Can one choose k = 3 as such a constant? This is true for finite soluble groups (D. S. Passman, Trans. Amer. Math. Soc., 123, no. 1 (1966), 99\u2013111; A. Mann, Proc. Amer. Math. Soc., 53, no. 1 (1975), 262\u2013264).\nS. F. Kamornikov",
+  "answer": "Yes, one can choose k = 3 as such a constant, mod CFSG (V. I. Zenkov, Siberian Math. J., 62, no. 4 (2021), 621\u2013637)."
+}

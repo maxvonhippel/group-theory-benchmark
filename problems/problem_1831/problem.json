@@ -1,0 +1,6 @@
+{
+  "page_number": 254,
+  "problem_number": "14.32",
+  "problem_text": "Extending the classical definition of formations, let us define a formation of (not necessarily finite) groups as a nonempty class of groups closed under taking homomorphic images and subdirect products with finitely many factors. Must every first order axiomatizable formation of groups be a variety?\nA. M. Gaglione, D. Spellman",
+  "answer": "No, every variety of groups that contains a finite nonsolvable member contains an axiomatic subformation that is not a variety (K. A. Kearnes, J. Group Theory, 13, No. 2 (2010), 233\u2013241)."
+}

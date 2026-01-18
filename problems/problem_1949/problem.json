@@ -1,0 +1,6 @@
+{
+  "page_number": 272,
+  "problem_number": "17.72",
+  "problem_text": "a) Let AB be a Frobenius group with kernel A and complement B. Suppose that AB acts on a finite group G so that GA is also a Frobenius group with kernel G and complement A. Is the nilpotency class of G bounded in terms of |B| and the class of CG(B)?\nV. D. Mazurov",
+  "answer": "a) Yes, it is (N. Yu. Makarenko, P. Shumyatsky, Proc. Amer. Math. Soc., 138 (2010), 3425\u20133436)."
+}

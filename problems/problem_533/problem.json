@@ -1,0 +1,5 @@
+{
+  "page_number": 74,
+  "problem_number": "14.24",
+  "problem_text": "Let Aut Fn be the automorphism group of a free group of rank n with norm\n|| \u00b7 || as in 14.23.\nDoes there exist a recursive function f : N \u00d7 N \u2192N with the\nfollowing property: for any two conjugate elements \u03b1, \u03b2 \u2208Aut Fn there is an element\n\u03b3 \u2208Aut Fn such that \u03b3\u22121\u03b1\u03b3 = \u03b2 and ||\u03b3|| \u2a7df(||\u03b1||, ||\u03b2||)?\nO. V. Bogopolski"
+}

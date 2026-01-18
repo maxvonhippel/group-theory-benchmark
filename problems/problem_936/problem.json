@@ -1,0 +1,5 @@
+{
+  "page_number": 128,
+  "problem_number": "18.114",
+  "problem_text": "Does there exist an irreducible 5\u2032-subgroup G of GL(V ) for some finite F5-space V such that the number of conjugacy classes of the semidirect product V G is equal to |V| but G is not cyclic?\nSuch a subgroup exists if 5 is replaced by p = 2, 3 but does not exist for primes p > 5 (J. Group Theory, 14 (2011), 175\u2013199).\nP. Schmid"
+}

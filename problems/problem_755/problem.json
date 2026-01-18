@@ -1,0 +1,5 @@
+{
+  "page_number": 105,
+  "problem_number": "17.18",
+  "problem_text": "17.18. Let A be the class of compact groups A with the property that whenever two compact groups B and C contain A, they can be embedded in a common compact group D by embeddings agreeing on A. I showed (Manuscr. Math., 58 (1987) 253\u2013281) that all members of A are (not necessarily connected) finite-dimensional compact Lie groups satisfying a strong \u201clocal simplicity\u201d property, and that all finite groups do belong to A.\na) Is it true that R/Z \u2208 A?\nb) Do any nonabelian connected compact Lie groups belong to A?\nc) If A belongs to A, must the connected component of the identity in A belong to A?\nG. M. Bergman"
+}

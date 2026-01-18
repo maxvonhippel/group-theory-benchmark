@@ -1,0 +1,6 @@
+{
+  "page_number": 221,
+  "problem_number": "7.16",
+  "problem_text": "7.16. If H is a proper subgroup of the finite group G, is there always an element of\nprime-power order not conjugate to an element of H?\nR. L. Griess",
+  "answer": "Yes, always (mod CFSG) (B. Fein, W. M. Kantor, M. Schacher, J. Reine Angew.\nMath., 328 (1981), 39\u201357)."
+}

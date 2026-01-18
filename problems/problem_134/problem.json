@@ -1,0 +1,5 @@
+{
+  "page_number": 20,
+  "problem_number": "6.59",
+  "problem_text": "6.59. A group G is said to be (conjugacy, p-conjugacy) biprimitively finite if, for any finite subgroup H, any two elements of prime order (any two conjugate elements of prime order, of prime order p) in N_G(H)/H generate a finite subgroup. Prove that an arbitrary periodic (conjugacy) biprimitively finite group (in particular, having no involutions) of finite rank is locally finite. V. P. Shunkov"
+}

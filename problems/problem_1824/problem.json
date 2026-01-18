@@ -1,0 +1,6 @@
+{
+  "page_number": 253,
+  "problem_number": "13.63",
+  "problem_text": "Let \u03c0e(G) denote the set of orders of elements of a group G. For \u0393 \u2286 N let h(\u0393) denote the number of non-isomorphic finite groups G with \u03c0e(G) = \u0393. Is there a number k such that, for every \u0393, either h(\u0393) \u2a7d k, or h(\u0393) = \u221e?\nW. J. Shi",
+  "answer": "No, there is no such number: h(\u03c0e(L3(73r))) = r+1 for any r \u2a7e 0 (A. V. Zavarnitsine, J. Group Theory, 7, no. 1 (2004), 81\u201397)."
+}

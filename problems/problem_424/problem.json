@@ -1,0 +1,5 @@
+{
+  "page_number": 59,
+  "problem_number": "12.28",
+  "problem_text": "Let G be a group. A function f : G \u2192 C is called\n1) normed if f(1) = 1;\n2) central if f(gh) = f(hg) for all g, h \u2208 G;\n3) positive-definite if \u2211_{k,l} f(g_k^{-1} g_l) c_k \\overline{c_l} \u2a7e 0 for any g1, . . . , gn \u2208 G and any c1, . . . , cn \u2208 C.\nClassify the infinite simple locally finite groups G which possess functions satisfying 1)\u20133).\nThe simple Chevalley groups are known to have no such functions, while such functions exist on locally matrix (or stable) classical groups over finite fields. The question is motivated by the theory of C*-algebras, see \u00a7 9 in (A. M. Vershik, S. V. Kerov, J. Sov. Math., 38 (1987), 1701\u20131733). Partial results see in (F. Leinen, O. Puglisi, J. Pure Appl. Algebra, 208 (2007), 1003\u20131021, J. London Math. Soc., 70 (2004), 678\u2013690).\nA. E. Zalesski\u012d"
+}

@@ -1,0 +1,6 @@
+{
+  "page_number": 241,
+  "problem_number": "11.55",
+  "problem_text": "Is it true that extraction of roots in the group of coloured braids is uniquely determined?\nG. S. Makanin",
+  "answer": "The answers to both 11.54 and 11.55 are affirmative, since the group Kn of coloured braids is embeddable into the group of those automorphisms of the free group Fn that act trivially modulo the derived subgroup of Fn, and this group is residually in the class of torsion-free nilpotent groups, for which the corresponding assertions are true (V. A. Roman\u2019kov, Letter of October, 3, 1990). See also (V. G. Bardakov, Russ. Acad. Sci. Sbornik Math., 76, no. 1 (1993), 123\u2013153)."
+}

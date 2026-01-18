@@ -1,0 +1,6 @@
+{
+  "page_number": 107,
+  "problem_number": "17.42",
+  "problem_text": "\u221717.42. Let G be a simple algebraic group of adjoint type over the algebraic closure F\u0304p of a finite field Fp of prime order p, and \u03c3 a Frobenius map (that is, a surjective homomorphism such that G\u03c3 = CG(\u03c3) is finite). Then G = Op\u2032(G\u03c3) is a finite group of Lie type. For a maximal \u03c3-stable torus T of G, let N = NG(T) \u2229 G. Assume also that G is simple and G \u0338\u223c= SL3(2). Does there always exist x \u2208 G such that N \u2229 N^x is a p-group?\nE. P. Vdovin\n\u2217A definitive answer for a stronger question on the size of a base has been obtained in (T. C. Burness, A. R. Thomas, J. Algebra, 619 (2023), 459\u2013504), which implies the following answer (in the notation therein): there is x \u2208 G such that N \u2229 N^x is a p-group if and only if (G, N) is not one of the following: (L3(2), 7:3), (U4(2), 33:S4), (U5(2), 34:S5).",
+  "answer": "There is x \u2208 G such that N \u2229 N^x is a p-group if and only if (G, N) is not one of the following: (L3(2), 7:3), (U4(2), 33:S4), (U5(2), 34:S5)."
+}

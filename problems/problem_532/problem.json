@@ -1,0 +1,5 @@
+{
+  "page_number": 74,
+  "problem_number": "14.23",
+  "problem_text": "Let Fn be a free group with basis {x1, . . . , xn}, and let |\u00b7| be the length function\nwith respect to this basis. For \u03b1 \u2208Aut Fn we put ||\u03b1|| = max{|\u03b1(x1)|, . . . , |\u03b1(xn)|}.\nIs it true that there is a recursive function f : N \u2192N with the following property:\nfor any \u03b1 \u2208Aut Fn there is a basis {y1, . . . , yk} of Fix(\u03b1) = {x | \u03b1(x) = x} such that\n|yi| \u2a7df(||\u03b1||) for all i = 1, . . . , k?\nO. V. Bogopolski"
+}

@@ -1,0 +1,6 @@
+{
+  "page_number": 269,
+  "problem_number": "17.14",
+  "problem_text": "Can the braid group Bn for n \u2a7e4 be embedded into the automorphism group Aut(Fn\u22122) of a free group Fn\u22122 of rank n \u22122?\nArtin\u2019s theorem implies that Bn can be embedded into Aut(Fn), and an embedding of Bn, n \u2a7e3, into Aut(Fn\u22121) was constructed in (B. Perron, J. P. Vannier, Math. Ann., 306 (1996), 231\u2013245).\nV. G. Bardakov",
+  "answer": "No, it cannot for n = 4 (V. G. Bardakov, P. Bellingeri, in Knot theory and its applications. ICTS program knot theory and its applications (KTH-2013), IISER Mohali, India, December 10\u201320, 2013, Amer. Math. Soc., Contemporary Mathematics, 670 (2016), 285\u2013298)."
+}

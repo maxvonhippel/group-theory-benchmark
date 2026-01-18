@@ -1,0 +1,6 @@
+{
+  "page_number": 211,
+  "problem_number": "5.9",
+  "problem_text": "Let 1 \u2192 Ri \u03c0i \u2212\u2192 F \u2192 G \u21921, i = 1, 2, be two exact sequences of groups with G finite and F free of finite rank d(F). If we assume that d(F) = d(G) + 1 (where d(G) is the minimum number of generators of G), are the corresponding abelianized extensions isomorphic?\nK. W. Gruenberg",
+  "answer": "Yes, they are (P. A. Linnell, J. Pure Appl. Algebra, 22 (1981), 143\u2013166)."
+}

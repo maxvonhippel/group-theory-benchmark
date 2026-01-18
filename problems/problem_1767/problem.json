@@ -1,0 +1,6 @@
+{
+  "page_number": 245,
+  "problem_number": "12.22",
+  "problem_text": "Let \u2206(G) be the augmentation ideal of the integer group ring of an arbitrary group G. Then Dn(G) = G \u2229(1 + \u2206n(G)) contains the nth lower central subgroup \u03b3n(G) of G.\n a) Is it true that Dn(G)/\u03b3n(G) is central in G/\u03b3n(G)?\n b) Is it true that Dn(G)/\u03b3n(G) has exponent dividing 2?\nN. D. Gupta, Yu. V. Kuz\u2019min",
+  "answer": "a) No, not always; moreover, Dn(G)/\u03b3n(G) need not be contained in any term of the upper central series of G/\u03b3n(G) with fixed number (N. D. Gupta, Yu. V. Kuz\u2019min, J. Pure Appl. Algebra, 104, no. 1 (1995), 191\u2013197).\n b) No, not always (L. Bartholdi, R. Mikhailov, J. Topology, 16, no. 2 (2023), 822\u2013853)."
+}

@@ -1,0 +1,6 @@
+{
+  "page_number": 194,
+  "problem_number": "2.40",
+  "problem_text": "The I-theory (Q-theory) of a class K of universal algebras is the totality of all identities (quasi-identities) that are true on all the algebras in K. Does there exist a finitely axiomatizable variety of\na) groups,\nb) semigroups,\nc) (1) rings\n(2) of associative rings\n(i) whose I-theory is non-decidable?\n(ii) whose Q-theory is non-decidable?\n(3) of Lie rings\n(ii) whose Q-theory is non-decidable?\nwhose I-theory (Q-theory) is non-decidable?\nA. I. Mal\u2019cev",
+  "answer": "a) Yes (Yu. G. Kleiman, Trans. Moscow Math. Soc., 1983, no. 2, 63\u2013110).\nb) Yes (V. L. Murski\u012d, Math. Notes, 3 (1968), 423\u2013427).\nc) (1) Yes (V. Yu. Popov, Math. Notes, 67 (2000), 495\u2013504). (2i) No, it does not (A. Ya. Belov, Izv. Math. 74, no. 1 (2010), 1\u2013126).\n(2ii) and (3ii): Yes, it exists (A. I. Budkin, Izv. Altai Univ., 65, no. 1 (2010), 15\u201317 (Russian))."
+}

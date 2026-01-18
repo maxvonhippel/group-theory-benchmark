@@ -1,0 +1,5 @@
+{
+  "page_number": 73,
+  "problem_number": "14.18",
+  "problem_text": "We say that a family of groups D discriminates a group G if for any finite subset {a1, . . . , an} \u2286 G \\ {1} there exists a group D \u2208 D and a homomorphism \u03c6 : G \u2192 D such that aj\u03c6 \u2260 1 for all j = 1, . . . , n. Is every finitely generated group acting freely on some \u039b-tree discriminated by torsion-free hyperbolic groups? G. Baumslag, A. G. Myasnikov, V. N. Remeslennikov"
+}

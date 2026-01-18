@@ -1,0 +1,6 @@
+{
+  "page_number": 183,
+  "problem_number": "1.2",
+  "problem_text": "Let G be a group, F a free group with free generators x1, . . . , xn, and R the free product of G and F. An equation (in the unknowns x1, . . . , xn) over G is an expression of the form v(x1, . . . xn) = 1, where on the left is an element of R not conjugate in R to any element of G. We call G algebraically closed if every equation over G has a solution in G. Do there exist algebraically closed groups? L. A. Bokut\u2019",
+  "answer": "Yes, such groups do exist (S. D. Brodski\u02d8\u0131, Dep. no. 2214-80, VINITI, Moscow, 1980 (Russian))."
+}

@@ -1,0 +1,6 @@
+{
+  "page_number": 201,
+  "problem_number": "3.17",
+  "problem_text": "3.17. a) Is a non-abelian group with a unique linear ordering necessarily simple?\nb) Is a non-commutative orderable group simple if it has no non-trivial normal relatively convex subgroups?\nA. I. Kokorin",
+  "answer": "Not always, in both cases (V. V. Bludov, Algebra and Logic, 13 (1974), 343\u2013360)."
+}

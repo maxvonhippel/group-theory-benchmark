@@ -1,0 +1,6 @@
+{
+  "page_number": 54,
+  "problem_number": "11.96",
+  "problem_text": "\u2217(a) Is it true that, for a given number n, there exist only finitely many finite simple groups each of which contains an involution which commutes with at most n involutions of the group?\n(b) Is it true that there are no infinite simple groups satisfying this condition?\nS. P. Strunkov",
+  "answer": "\u2217(a) Yes, it is true (mod CFSG); moreover, if a locally finite group has such an involution, then it is finite of n-bounded order (S. V. Skresanov, J. Group Theory, 27, no. 6 (2024), 1197\u20131202).\n\u2217(b) No, since PSL2(R) is an infinite simple group, which contains an involution but does not contain a subgroup isomorphic to the Klein 4-group (S. V. Skresanov, J. Group Theory, 27, no. 6 (2024), 1197\u20131202)."
+}

@@ -1,0 +1,6 @@
+{
+  "page_number": 99,
+  "problem_number": "*16.51",
+  "problem_text": "Do there exist groups that can be right-ordered in infinitely countably many ways? There exist groups that can be fully ordered in infinitely countably many ways (R. Buttsworth). V. M. Kopytov, N. Ya. Medvedev",
+  "answer": "No, there are no such groups (A. Clay, Preprint, 2009, http://arxiv.org/abs/0909.0273; A. Navas, C. Rivas, Algebr. Geom. Topol., 9 (2009), 2079\u20132100, with an appendix by A. Clay; P. A. Linnell, Bull. London Math. Soc., 43 (2011), 200\u2013202, based on (A. V. Zenkov, Sibirsk. Mat. Zh., 38 (1997), 90\u201392 (Russian), English transl., Siberian Math. J., 38, no. 1 (1997), 76\u201377), where this was proved for locally indicable groups.)"
+}

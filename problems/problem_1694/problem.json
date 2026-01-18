@@ -1,0 +1,6 @@
+{
+  "page_number": 234,
+  "problem_number": "10.24",
+  "problem_text": "A braid is said to be coloured if its strings represent the identity permutation. Is it true that links obtained by closing coloured braids are equivalent if and only if the original braids are conjugate in the braid group?\nG. S. Makanin",
+  "answer": "No. For non-oriented links: the braid words \u03c31^2 and \u03c31^{-2} both represent the Hopf link but are not conjugate in the braid group (easy to see using the Burau representation). For oriented links see Example 4 in (J. Birman, Braids, links, and mapping class groups (Ann. Math. Stud. Princeton, 82), Princeton, NJ, 1975, p. 100). (V. Shpilrain, Letters of May, 28, 1998 and January, 20, 2002)."
+}

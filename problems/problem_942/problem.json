@@ -1,0 +1,5 @@
+{
+  "page_number": 129,
+  "problem_number": "19.1",
+  "problem_text": "An element g of a group G is a non-near generator of G if for every subset S \u2286 G such that |G : \u27e8g, S\u27e9| < \u221e it follows that |G : \u27e8S\u27e9| < \u221e. The set of all non-near generators of G forms a characteristic subgroup of G called the lower near Frattini subgroup of G, denoted by \u03bb(G). A subgroup M \u2a7d G is nearly maximal in G if it is maximal with respect to being of infinite index in G. The intersection of all nearly maximal subgroups forms a characteristic subgroup called the upper near Frattini subgroup of G, denoted by \u00b5(G). In general, \u03bb(G) \u2a7d \u00b5(G). If \u03bb(G) = \u00b5(G), then this subgroup is called the near Frattini subgroup of G, denoted by \u03c8(G).\n\na) Is it true that \u03c8(G) = 1 if G is the knot group of any product of knots?\n\nb) Is it true that \u03c8(G) = 1 if G is a cable knot group?\n\nM. K. Azarian"
+}

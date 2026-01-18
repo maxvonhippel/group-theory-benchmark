@@ -1,0 +1,6 @@
+{
+  "page_number": 258,
+  "problem_number": "14.104",
+  "problem_text": "An infinite group G is called a monster of the first kind if it has elements of order > 2 and for any such an element a and for any proper subgroup H of G, there is an element g in G \\ H, such that \u27e8a, ag\u27e9 = G. A. Yu. Olshanskii showed that there are continuously many monsters of the first kind (see Archive, 6.63). Does there exist, for any such a monster, a torsion-free group which is a central extension of a cyclic group by the given monster?\nV. P. Shunkov",
+  "answer": "No, not always, since for such an extension to exist it is necessary that every finite subgroup of the monster is cyclic, but this is not always true (A. I. Sozutov, Letter of November, 20, 2001)."
+}

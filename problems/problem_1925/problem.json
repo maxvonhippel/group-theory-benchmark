@@ -1,0 +1,6 @@
+{
+  "page_number": 269,
+  "problem_number": "16.106",
+  "problem_text": "Let \u03c0e(G) denote the set of orders of elements of a group G, and h(\u0393) the number of non-isomorphic finite groups G with \u03c0e(G) = \u0393. Do there exist two finite groups G1, G2 such that \u03c0e(G1) = \u03c0e(G2), h(\u03c0e(G1)) < \u221e, and neither of the two groups G1, G2 is isomorphic to a subgroup or a quotient of a normal subgroup of the other?\nW. J. Shi",
+  "answer": "Yes, there do: for example, G1 = L15(260).3 and G2 = L15(260).5 (M. A. Grechkoseeva, Algebra and Logic, 47, no. 4 (2008), 229\u2013241)."
+}

@@ -1,0 +1,5 @@
+{
+  "page_number": 89,
+  "problem_number": "15.59",
+  "problem_text": "15.59. Does there exist a profinite group G that is not free but can be represented as a projective limit G = lim\u2190\u2212(G/N\u03b1), where all the G/N\u03b1 are free profinite groups of finite ranks?\nThe finiteness condition on the ranks of the G/N\u03b1 is essential. Such a group G cannot satisfy the first axiom of countability (O. V. Mel\u2019nikov, Dokl. AN BSSR, 24, no. 11 (1980), 968\u2013970 (Russian)). O. V. Mel\u2019nikov"
+}

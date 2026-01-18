@@ -1,0 +1,6 @@
+{
+  "page_number": 211,
+  "problem_number": "5.7",
+  "problem_text": "An algebraic variety X over a field k is called rational if the field of functions k(X) is purely transcendental over k, and it is called stably rational if k(X) becomes purely transcendental after adjoining finitely many independent variables. Let T be a stably rational torus over a field k. Is T rational? Other formulations of this question and some related results see in (V. E. Voskresenski\u02d8\u0131, Russ. Math. Surveys, 28, no. 4 (1973), 79\u2013105).\nV. E. Voskresenski\u02d8\u0131",
+  "answer": "Yes, it is (V. E. Voskresenskii, J. Math. Sci. (N. Y.), 161, no. 1 (2009), 176\u2013180)."
+}

@@ -1,0 +1,6 @@
+{
+  "page_number": 206,
+  "problem_number": "4.24",
+  "problem_text": "Suppose that T is a non-abelian Sylow 2-subgroup of a finite simple group G.\n b) Is it possible that T is the direct product of two proper subgroups?\n c) Is T \u2032 = \u03a6(T)?\nD. Goldschmidt",
+  "answer": "b) Yes, it is. For example, the Sylow 2-subgroups of the alternating groups A14 and A15 are isomorphic to the Sylow 2-subgroup of S4 \u00d7 S8. The Sylow 2-subgroups of D4(q) for q odd are also decomposable into direct products (A. S. Kondratiev, Letter of October, 13, 1977).\n c) Not always; for example, for G = PSL3(q) with q \u22611 (mod 4) (A. S. Kondratiev)."
+}

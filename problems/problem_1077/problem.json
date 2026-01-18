@@ -1,0 +1,5 @@
+{
+  "page_number": 150,
+  "problem_number": "20.45",
+  "problem_text": "Let n be a positive integer, and let G \u2a7d GL(n, Z) be finitely generated. Given a bound b \u2208 N, let e_b be the number of elements of G all of whose matrix entries have absolute value \u2a7d b. Does the limit\nlim_{b\u2192\u221e} ln e_b / ln b\nalways exist?\nS. Kohl"
+}

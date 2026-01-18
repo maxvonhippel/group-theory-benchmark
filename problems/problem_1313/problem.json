@@ -1,0 +1,6 @@
+{
+  "page_number": 183,
+  "problem_number": "1.10",
+  "problem_text": "An automorphism \u03c6 of a group G is called splitting if gg\u03c6 \u00b7 \u00b7 \u00b7 g\u03c6n\u22121 = 1 for any element g \u2208G, where n is the order of \u03c6. Is a soluble group admitting a regular splitting automorphism of prime order necessarily nilpotent?\nYu. M. Gorchakov",
+  "answer": "Yes, it is (E. I. Khukhro, Algebra and Logic, 17 (1978), 402\u2013406) and even without the regularity condition on the automorphism (E. I. Khukhro, Algebra and Logic, 19 (1980), 77\u201384)."
+}

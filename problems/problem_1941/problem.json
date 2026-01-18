@@ -1,0 +1,6 @@
+{
+  "page_number": 271,
+  "problem_number": "17.40",
+  "problem_text": "Let N be a nilpotent subgroup of a finite group G. Do there always exist elements x, y \u2208 G such that N \u2229 N^x \u2229 N^y \u2a7d F(G)?\nE. P. Vdovin",
+  "answer": "Yes, such elements always exist, mod CFSG (V. I. Zenkov, Siberian Math. J., 62, no. 4 (2021), 621\u2013637)."
+}

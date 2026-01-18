@@ -1,0 +1,6 @@
+{
+  "page_number": 266,
+  "problem_number": "16.59",
+  "problem_text": "Given a finite group K, does there exist a finite group G such that\nK \u223c= Out G = Aut G/Inn G?\n(It is known that an infinite group G exists with this property.)\nD. MacHale",
+  "answer": "Yes, it does (Y. Cornulier, https://mathoverflow.net/questions/372480/is-every-finite-group-the-outer-automorphism-group-of-a-finite-group/372563)."
+}

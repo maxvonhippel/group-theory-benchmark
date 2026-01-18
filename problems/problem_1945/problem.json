@@ -1,0 +1,6 @@
+{
+  "page_number": 271,
+  "problem_number": "17.50",
+  "problem_text": "Is it true that for every finite group G, there is a finite group F and a surjective homomorphism f : F \u2192 G such that for each nontrivial subgroup H of F, the restriction f|_H is not injective?\nIt is known that for every finite group G there is a finite group F and a surjective homomorphism f : F \u2192 G such that for each subgroup H of F the restriction f|_H is not bijective.\nE. G. Zelenyuk",
+  "answer": "Yes, it is (V. P. Burichenko, Math. Notes, 92, no. 3 (2012), 327\u2013332)."
+}

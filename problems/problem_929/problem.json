@@ -1,0 +1,5 @@
+{
+  "page_number": 127,
+  "problem_number": "18.106",
+  "problem_text": "Let R be a group that acts coprimely on the finite group G. Let p be a prime, let P be the unique maximal RCG(R)-invariant p-subgroup of G and assume that CG(Op(G)) \u2a7d Op(G). If p > 3 then P contains a nontrivial characteristic subgroup that is normal in G (P. Flavell, J. Algebra, 257 (2002), 249\u2013264). Does the same result hold for the primes 2 and 3?\nP. Flavell"
+}

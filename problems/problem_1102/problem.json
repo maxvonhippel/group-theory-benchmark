@@ -1,0 +1,5 @@
+{
+  "page_number": 153,
+  "problem_number": "20.70",
+  "problem_text": "20.70. As a strengthening of the Burnside restriction, for every pair (k, n) of positive integers, let a group G satisfy condition Ck,n if every k-generated subgroup of G is finite of order at most n.\na) Does there exist k \u2a7e2 such that for any n all groups with condition Ck,n are locally finite?\nb) In particular, is it true that for any n the condition C2,n implies local finiteness?\nc) Find possibly more pairs (k, n) for which groups with condition Ck,n are locally finite. (For example, all groups with condition C2,20 are metabelian, and therefore locally finite.)\nA. Yu. Olshanskii"
+}

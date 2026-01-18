@@ -1,0 +1,6 @@
+{
+  "page_number": 262,
+  "problem_number": "15.75",
+  "problem_text": "15.75. a) Does there exist a sequence of identities in two variables u1 = 1, u2 = 1, . . . with the following properties:\n1) each of these identities implies the next one, and\n2) an arbitrary finite group is soluble if and only if it satisfies one of the identities un = 1?\nB. I. Plotkin",
+  "answer": "Yes, such sequences exist (T. Bandman, F. Grunewald, G.-M. Greuel, B. Kunyavskii, G. Pfister, E. Plotkin, Compositio Math., 142 (2006), 734\u2013764; J. N. Bray, J. S. Wilson, R. A. Wilson, Bull. Lond. Math. Soc., 37 (2005) 179\u2013186; E. Ribnere, Monatsh. Math., 157 (2009), 387\u2013401)."
+}

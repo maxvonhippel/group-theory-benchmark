@@ -1,0 +1,6 @@
+{
+  "page_number": 238,
+  "problem_number": "11.13",
+  "problem_text": "Suppose that G is a periodic group with an involution i such that ig \u00b7 i has odd order for any g \u2208G. Is it true that the image of i in G/O(G) belongs to the centre of G/O(G)?\nA. V. Borovik",
+  "answer": "No, not always (E. B. Durakov, A. I. Sozutov, Algebra Logic, 52, no. 5 (2013), 422\u2013425)."
+}

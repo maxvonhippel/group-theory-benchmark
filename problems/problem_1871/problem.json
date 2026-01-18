@@ -1,0 +1,6 @@
+{
+  "page_number": 261,
+  "problem_number": "15.35",
+  "problem_text": "Let F be the free group of finite rank r with basis {x1, . . . , xr}. Is it true that there exists a number C = C(r) such that any reduced word of length n > 1 in the xi lies outside some subgroup of F of index at most C log n? O. V. Bogopolski",
+  "answer": "No, it is not true (K. Bou-Rabee, D. B. McReynolds, Bull. London Math. Soc., 43, no. 6 (2011), 1059\u20131068)."
+}

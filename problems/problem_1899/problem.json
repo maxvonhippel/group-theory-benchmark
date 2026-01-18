@@ -1,0 +1,6 @@
+{
+  "page_number": 265,
+  "problem_number": "16.42",
+  "problem_text": "Is a topological Abelian group (G, \u03c4) compact if every group topology \u03c4\u2032 \u2286 \u03c4 on G is complete? (The answer is yes if every continuous homomorphic image of (G, \u03c4) is complete.)\nE. G. Zelenyuk",
+  "answer": "Yes, it is (T. Banakh, Topology Appl., 271 (2020), Article ID 106983, 17 p.)."
+}

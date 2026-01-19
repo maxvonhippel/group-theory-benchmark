@@ -197,7 +197,7 @@ async def check_lean_code(code: str, imports: str = "") -> dict:
         diagnostics = client.get_diagnostics(rel_path, inactivity_timeout=5.0)
         
         # Close file
-        client.close_file(rel_path, blocking=True)
+        client.close_files([rel_path])
         
         # Parse diagnostics
         errors = []
@@ -323,7 +323,7 @@ async def call_tool(name: str, arguments: dict) -> list[TextContent]:
                 goal = client.get_goal(rel_path, line, character)
                 
                 # Close file
-                client.close_file(rel_path, blocking=True)
+                client.close_files([rel_path])
                 
                 if goal:
                     return [TextContent(

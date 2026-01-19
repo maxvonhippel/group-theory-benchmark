@@ -92,8 +92,9 @@ class TestLeanToolCalls:
 
     async def test_verify_proof_nat_addition(self):
         """Test verifying a Nat addition proof."""
+        # Note: n + 0 = n works with rfl, but 0 + n = n requires induction
         result = await call_tool("verify_proof", {
-            "theorem": "theorem zero_add (n : Nat) : 0 + n = n := by rfl"
+            "theorem": "theorem add_zero (n : Nat) : n + 0 = n := by rfl"
         })
 
         assert len(result) == 1

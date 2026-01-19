@@ -4,7 +4,8 @@
 include make/ai.mk
 include make/docs.mk
 include make/tests.mk
-
+include make/ai.mk
+include make/watch.mk
 .PHONY: setup update-gap clean install help extract-test extract-all problems problems-test clean-problems
 
 # Complete project setup

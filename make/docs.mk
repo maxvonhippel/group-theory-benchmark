@@ -97,6 +97,25 @@ readme:
 		echo '' >> README.md.new; \
 		echo 'See `examples/test_query_agent.py` and `examples/test_mcp_real_problems.py` for more examples.' >> README.md.new; \
 		echo '' >> README.md.new; \
+		echo '## Automated Problem Solving' >> README.md.new; \
+		echo '' >> README.md.new; \
+		echo 'Watch Claude attempt to solve random Kourovka problems using the MCP tools:' >> README.md.new; \
+		echo '' >> README.md.new; \
+		echo '```bash' >> README.md.new; \
+		echo 'make watch-solve' >> README.md.new; \
+		echo '```' >> README.md.new; \
+		echo '' >> README.md.new; \
+		echo 'This will:' >> README.md.new; \
+		echo '1. Load GAP and Lean MCP servers' >> README.md.new; \
+		echo '2. Select a random open problem' >> README.md.new; \
+		echo '3. Launch Claude (Opus) to attempt solving it' >> README.md.new; \
+		echo '' >> README.md.new; \
+		echo 'You can watch Claude use computational methods (GAP) and formal proofs (Lean) in real-time.' >> README.md.new; \
+		echo '' >> README.md.new; \
+		echo '**Helper commands:**' >> README.md.new; \
+		echo '- `make problem-prompt` - Preview a random problem prompt without launching Claude' >> README.md.new; \
+		echo '- `make mcp-config` - View the MCP server configuration' >> README.md.new; \
+		echo '' >> README.md.new; \
 		echo '## Available MCP Tools' >> README.md.new; \
 		echo '' >> README.md.new; \
 		echo 'This project exposes computational tools via Model Context Protocol (MCP) servers.' >> README.md.new; \
@@ -104,7 +123,7 @@ readme:
 		uv run python make/extract_mcp_tools.py >> README.md.new 2>/dev/null || echo 'Error extracting MCP tools' >> README.md.new; \
 		echo '' >> README.md.new; \
 		if grep -q "^## " README.md 2>/dev/null; then \
-			awk 'BEGIN{found=0} /^## (Structure|Problems|Using the MCP Server|Available MCP Tools)$$/{found=1; next} found && /^## /{found=0} !found && /^## /{print}' README.md >> README.md.new; \
+			awk 'BEGIN{found=0} /^## (Structure|Problems|Using the MCP Server|Automated Problem Solving|Available MCP Tools)$$/{found=1; next} found && /^## /{found=0} !found && /^## /{print}' README.md >> README.md.new; \
 		fi; \
 		mv README.md.new README.md; \
 		rm -f tree_output.tmp; \

@@ -38,9 +38,12 @@ gap-agent/
 │   ├── ai.mk
 │   ├── docs.mk
 │   ├── extract_mcp_tools.py
+│   ├── generate_mcp_config.py
+│   ├── generate_problem_prompt.py
 │   ├── print_problems.py  # Print open or closed problems from the extraction.
 │   ├── tests.mk
-│   └── tree_with_comments.py  # Generate a tree structure of the project with comments from Python files.
+│   ├── tree_with_comments.py  # Generate a tree structure of the project with comments from Python files.
+│   └── watch.mk
 ├── pkg
 ├── src
 │   ├── baml_src
@@ -152,6 +155,25 @@ print(result.final_code)    # IsSimple(AlternatingGroup(5));
 ```
 
 See `examples/test_query_agent.py` and `examples/test_mcp_real_problems.py` for more examples.
+
+## Automated Problem Solving
+
+Watch Claude attempt to solve random Kourovka problems using the MCP tools:
+
+```bash
+make watch-solve
+```
+
+This will:
+1. Load GAP and Lean MCP servers
+2. Select a random open problem
+3. Launch Claude (Opus) to attempt solving it
+
+You can watch Claude use computational methods (GAP) and formal proofs (Lean) in real-time.
+
+**Helper commands:**
+- `make problem-prompt` - Preview a random problem prompt without launching Claude
+- `make mcp-config` - View the MCP server configuration
 
 ## Available MCP Tools
 

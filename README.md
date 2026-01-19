@@ -33,6 +33,7 @@ gap-agent/
 ├── make
 │   ├── ai.mk
 │   ├── docs.mk
+│   ├── extract_mcp_tools.py
 │   ├── print_problems.py  # Print open or closed problems from the extraction.
 │   ├── tests.mk
 │   └── tree_with_comments.py  # Generate a tree structure of the project with comments from Python files.
@@ -146,4 +147,31 @@ print(result.final_code)    # IsSimple(AlternatingGroup(5));
 ```
 
 See `examples/test_query_agent.py` and `examples/test_mcp_real_problems.py` for more examples.
+
+## Available MCP Tools
+
+This project exposes computational tools via Model Context Protocol (MCP) servers.
+
+### Gap-Server MCP Server
+
+**Tools:** 8
+
+1. **`check_group_property`** - Check if a group satisfies a specific property.
+2. **`find_counterexample`** - Search for a counterexample to a conjecture about groups.
+3. **`compute_group_invariants`** - Compute important invariants and properties of a group.
+4. **`test_conjecture_on_small_groups`** - Test a conjecture on all groups of small order.
+5. **`search_small_groups`** - Search the SmallGroups library for groups matching specific criteria.
+6. **`compare_groups`** - Compare two groups by checking if they are isomorphic and listing their properties.
+7. **`evaluate_gap`** - Evaluate raw GAP code.
+8. **`query_gap`** - Answer questions about group theory in plain English.
+
+### Lean-Server MCP Server
+
+**Tools:** 4
+
+1. **`check_theorem`** - Check if a Lean theorem statement is valid and type-checks.
+2. **`verify_proof`** - Verify a complete Lean proof.
+3. **`get_proof_state`** - Get the current proof state (goals) at a specific point in a proof.
+4. **`evaluate_lean`** - Evaluate arbitrary Lean code.
+
 

@@ -19,6 +19,15 @@ gap-agent/
 │   ├── doc
 │   ├── lib
 │   └── gap
+├── lean_scratch
+│   ├── LeanScratch
+│   │   └── Basic.lean
+│   ├── LeanScratch.lean
+│   ├── Main.lean
+│   ├── README.md
+│   ├── lake-manifest.json
+│   ├── lakefile.toml
+│   └── lean-toolchain
 ├── lit
 │   └── 1401.0300.pdf
 ├── make
@@ -42,6 +51,7 @@ gap-agent/
 │       ├── gap.py  # Python interface to GAP (Groups, Algorithms, Programming) system.
 │       ├── gap_mcp_server.py  # GAP MCP Server - Model Context Protocol server for GAP (Groups, Algorithms, Programming).
 │       ├── gap_query_agent.py  # GAP Query Agent - Iteratively generates and executes GAP code from English queries.
+│       ├── lean_mcp_server.py  # Lean MCP Server - Model Context Protocol server for Lean 4 theorem prover.
 │       └── test_gap.py
 ├── tests
 │   ├── test_gap.py  # Tests for GAP Python interface.
@@ -49,7 +59,6 @@ gap-agent/
 ├── .cursorrules
 ├── AGENTS.md
 ├── CLAUDE.md
-├── MCP_README.md
 ├── Makefile
 ├── README.md
 ├── pyproject.toml

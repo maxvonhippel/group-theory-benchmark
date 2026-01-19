@@ -194,6 +194,30 @@ class TestToolCalls:
         assert data["data"]["statistics"]["total_tested"] > 0
         assert 0 <= data["data"]["percentage_satisfying"] <= 100
 
+    async def test_query_gap(self):
+        """Test natural language query to GAP."""
+        result = await call_tool("query_gap", {
+            "question": "What is the order of the symmetric group S_4?"
+        })
+
+        assert len(result) == 1
+        data = json.loads(result[0].text)
+        assert data["success"] is True
+        assert data["data"]["answer"] == 24
+        assert "SymmetricGroup(4)" in data["data"]["gap_code"]
+
+    async def test_query_gap_center(self):
+        """Test query about group center."""
+        result = await call_tool("query_gap", {
+            "question": "What is the order of the center of D_4?"
+        })
+
+        assert len(result) == 1
+        data = json.loads(result[0].text)
+        assert data["success"] is True
+        # D_4 (dihedral group of order 8) has center of order 2
+        assert data["data"]["answer"] == 2
+
 
 if __name__ == "__main__":
     pytest.main([__file__, "-v"])

@@ -91,5 +91,5 @@ def print_tree(directory: Path, prefix: str = "", max_depth: int = 3, current_de
 
 if __name__ == "__main__":
     project_root = Path(__file__).parent.parent
-    print(f"{project_root.name}/")
+    print("group-theory-benchmark/")
     print_tree(project_root, "", max_depth=4)

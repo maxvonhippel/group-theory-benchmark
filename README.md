@@ -1,19 +1,15 @@
 # Group Theory Benchmark
 
-A benchmark repository containing both solved and unsolved group theory problems from the Kourovka Notebook, along with computational tools for attempting these problems.
+Benchmark with 1237 open and 763 solved problems from the Kourovka Notebook. Includes [GAP](https://www.gap-system.org/) and [Lean 4](https://lean-lang.org/) MCP servers for computational/formal approaches.
 
-**Tools provided:**
-- [GAP (Groups, Algorithms, Programming)](https://www.gap-system.org/) MCP server for computational group theory
-- [Lean 4](https://lean-lang.org/) MCP server for formal theorem proving
-
-**Inspiration:** [Using GAP to find counterexamples in topology (arXiv:2107.06982)](https://arxiv.org/pdf/2107.06982) demonstrates that computational approaches can tackle some low-hanging fruit in mathematical research.
+Inspired by [arXiv:2107.06982](https://arxiv.org/pdf/2107.06982) - computational approaches can solve mathematical research problems.
 
 ## Structure
 
 The structure of this project is organized as follows:
 
 ```
-gap-agent/
+group-theory-benchmark/
 ├── examples
 │   ├── demo_gap_mcp.py  # Demo script showing how to use the GAP MCP server tools.
 │   ├── test_mcp_real_problems.py  # Test the GAP MCP on real Kourovka Notebook problems.

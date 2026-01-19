@@ -1,3 +1,9 @@
+# GAP Agent
+
+A computational group theory agent powered by [GAP (Groups, Algorithms, Programming)](https://www.gap-system.org/).
+
+**Inspired by:** [Using GAP to find counterexamples in topology](https://arxiv.org/pdf/2107.06982) - This paper demonstrates how computational algebra systems like GAP can systematically search for counterexamples to mathematical conjectures. The authors used GAP's SmallGroup library to discover the first counterexamples to the free extension conjecture, specifically groups of order 243.
+
 ## Structure
 
 The structure of this project is organized as follows:

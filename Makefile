@@ -13,8 +13,24 @@ setup:
 	@echo "Step 1: Initializing git submodule (full clone)..."
 	git submodule update --init --recursive
 	@echo ""
-	@echo "Step 2: Installing Python dependencies..."
+	@echo "Step 2: Installing Python dependencies (including lean-lsp-mcp)..."
 	uv sync
+	@echo ""
+	@echo "Step 2a: Setting up Lean 4 environment..."
+	@if ! command -v brew >/dev/null 2>&1; then \
+		echo "Warning: Homebrew not found. Lean setup requires elan (install manually or via homebrew)"; \
+	elif ! command -v elan >/dev/null 2>&1; then \
+		echo "Installing elan via Homebrew..."; \
+		brew install elan-init; \
+	else \
+		echo "Elan already installed"; \
+	fi
+	@if command -v elan >/dev/null 2>&1; then \
+		echo "Setting default Lean version..."; \
+		elan default leanprover/lean4:stable || true; \
+		echo "Creating Lean scratch project..."; \
+		mkdir -p lean_scratch && cd lean_scratch && lake init LeanScratch 2>/dev/null || echo "Lean scratch project already exists"; \
+	fi
 	@echo ""
 	@echo "Step 3: Checking for GAP build dependencies..."
 	@if ! command -v brew >/dev/null 2>&1; then \

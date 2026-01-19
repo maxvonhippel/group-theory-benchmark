@@ -1,0 +1,10 @@
+name = "LeanScratch"
+version = "0.1.0"
+defaultTargets = ["leanscratch"]
+
+[[lean_lib]]
+name = "LeanScratch"
+
+[[lean_exe]]
+name = "leanscratch"
+root = "Main"

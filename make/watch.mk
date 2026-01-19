@@ -17,7 +17,7 @@ watch-solve:
 	@echo ""
 	@echo "========================================"
 	@echo ""
-	@claude --model opus --mcp-config /tmp/claude_mcp_config.json "$$(cat /tmp/claude_problem_prompt.txt)"
+	@cat /tmp/claude_problem_prompt.txt | claude --model opus --mcp-config /tmp/claude_mcp_config.json
 
 # Just generate the prompt without launching
 .PHONY: problem-prompt

@@ -1,8 +1,12 @@
-# GAP Agent
+# Group Theory Benchmark
 
-A computational group theory agent powered by [GAP (Groups, Algorithms, Programming)](https://www.gap-system.org/).
+A benchmark repository containing both solved and unsolved group theory problems from the Kourovka Notebook, along with computational tools for attempting these problems.
 
-**Inspired by:** [Using GAP to find counterexamples in topology](https://arxiv.org/pdf/2107.06982) - This paper demonstrates how computational algebra systems like GAP can systematically search for counterexamples to mathematical conjectures. The authors used GAP's SmallGroup library to discover the first counterexamples to the free extension conjecture, specifically groups of order 243.
+**Tools provided:**
+- [GAP (Groups, Algorithms, Programming)](https://www.gap-system.org/) MCP server for computational group theory
+- [Lean 4](https://lean-lang.org/) MCP server for formal theorem proving
+
+**Inspiration:** [Using GAP to find counterexamples in topology (arXiv:2107.06982)](https://arxiv.org/pdf/2107.06982) demonstrates that computational approaches can tackle some low-hanging fruit in mathematical research.
 
 ## Structure
 
@@ -56,7 +60,8 @@ gap-agent/
 │       └── test_gap.py
 ├── tests
 │   ├── test_gap.py  # Tests for GAP Python interface.
-│   └── test_gap_mcp.py  # Tests for the GAP MCP server.
+│   ├── test_gap_mcp.py  # Tests for the GAP MCP server.
+│   └── test_lean_mcp.py  # Tests for the Lean MCP server.
 ├── .cursorrules
 ├── AGENTS.md
 ├── CLAUDE.md

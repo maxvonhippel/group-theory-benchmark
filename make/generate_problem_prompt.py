@@ -18,8 +18,8 @@ def load_open_problems():
 
 def generate_prompt(problem):
     """Generate a solving prompt for Claude."""
-    problem_num = problem.get('id', problem.get('number', 'unknown'))
-    problem_text = problem.get('text', problem.get('problem', 'No problem text'))
+    problem_num = problem.get('problem_number', 'unknown')
+    problem_text = problem.get('problem_text', 'No problem text')
     
     prompt = f"""You are solving Kourovka Notebook problem #{problem_num}.
 

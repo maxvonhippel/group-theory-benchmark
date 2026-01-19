@@ -3,9 +3,9 @@
 Generate a prompt from a random open problem for Claude to solve.
 """
 
+import ast
 import json
 import random
-import re
 from pathlib import Path
 
 
@@ -18,29 +18,35 @@ def load_open_problems():
 
 
 def extract_tool_docs(mcp_server_path):
-    """Extract tool documentation from an MCP server file."""
+    """Extract tool documentation from an MCP server file using AST."""
     with open(mcp_server_path) as f:
         content = f.read()
     
+    tree = ast.parse(content)
     tools = []
     
-    # Find all tool definitions
-    tool_pattern = r'@server\.call_tool\(\)\s+async def (\w+)\((.*?)\):'
-    doc_pattern = r'"""(.*?)"""'
-    
-    for match in re.finditer(tool_pattern, content, re.DOTALL):
-        tool_name = match.group(1)
-        
-        # Find the docstring after the function definition
-        func_start = match.end()
-        remaining = content[func_start:func_start+2000]
-        doc_match = re.search(doc_pattern, remaining, re.DOTALL)
-        
-        if doc_match:
-            docstring = doc_match.group(1).strip()
-            # Get first paragraph only
-            first_para = docstring.split('\n\n')[0].replace('\n', ' ')
-            tools.append(f"  - `{tool_name}`: {first_para}")
+    # Find the list_tools function
+    for node in ast.walk(tree):
+        if isinstance(node, ast.AsyncFunctionDef) and node.name == 'list_tools':
+            # Look for return statement with list of Tool objects
+            for stmt in ast.walk(node):
+                if isinstance(stmt, ast.Return) and isinstance(stmt.value, ast.List):
+                    for tool_call in stmt.value.elts:
+                        if isinstance(tool_call, ast.Call):
+                            tool_name = None
+                            tool_desc = None
+                            for keyword in tool_call.keywords:
+                                if keyword.arg == 'name':
+                                    tool_name = ast.literal_eval(keyword.value)
+                                elif keyword.arg == 'description':
+                                    tool_desc = ast.literal_eval(keyword.value)
+                            
+                            if tool_name and tool_desc:
+                                # Get first sentence
+                                desc = tool_desc.strip()
+                                if '. ' in desc:
+                                    desc = desc.split('. ')[0] + '.'
+                                tools.append(f"  - `{tool_name}`: {desc}")
     
     return tools
 

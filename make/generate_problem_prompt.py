@@ -75,6 +75,8 @@ def generate_prompt(problem):
     """Generate a solving prompt for Claude."""
     problem_num = problem.get('problem_number', 'unknown')
     problem_text = problem.get('problem_text', 'No problem text')
+    project_root = Path(__file__).parent.parent
+    solution_file = f"scratch/solutions/problem_{problem_num}.lean"
     
     # Get tool documentation
     tool_docs = generate_tool_documentation()
@@ -84,18 +86,44 @@ def generate_prompt(problem):
 **Problem Statement:**
 {problem_text}
 
-**Your Task:**
-Use the available MCP tools to attempt to solve this problem.
+**Your Goal:**
+Produce a VERIFIED formal proof in Lean 4 that solves this problem.
+
+**Success Criteria:**
+1. Write a complete Lean proof to: {solution_file}
+2. The proof must compile without errors
+3. No 'sorry', 'admit', or axioms allowed
+4. Must include actual theorem/lemma statements and proofs
+
+**How Your Work Will Be Tested:**
+After you finish, the system will run:
+```bash
+lean --make {solution_file}
+```
+
+The solution is considered successful ONLY if:
+- The file compiles with exit code 0
+- Contains no 'sorry' or 'admit'
+- Contains actual theorem/lemma/definition with proof
+
+DO NOT EXIT until either:
+1. Your solution passes these tests, OR
+2. You explicitly declare you cannot solve the problem
 
 {tool_docs}
 
-**Approach:**
-1. Analyze the problem and determine if it's amenable to computational or formal methods
-2. Use GAP to search for counterexamples or gather computational evidence
-3. Use Lean to formalize and prove results if possible
-4. Report your findings - counterexample, proof, or explanation of where you got stuck
+**Required Workflow:**
+1. Use GAP tools to explore the problem computationally
+2. Use Lean tools to develop and verify your formal proof
+3. Iteratively refine until the proof compiles without errors
+4. Use `verify_proof` to confirm your solution before finishing
 
-Work step-by-step. Begin your investigation now."""
+**Important:**
+- Natural language proofs DO NOT count - you must produce verified Lean code
+- Test your proof multiple times with `verify_proof` before declaring success
+- If you find a counterexample with GAP, formalize it in Lean as a counterexample proof
+
+Begin your investigation now. Use the tools actively."""
 
     return prompt
 

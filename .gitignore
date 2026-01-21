@@ -5,6 +5,9 @@ __pycache__/
 
 # Session logs
 logs/
+
+# Scratch work and solutions
+scratch/
 *.so
 .Python
 build/

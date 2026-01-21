@@ -98,7 +98,7 @@ Produce a VERIFIED formal proof in Lean 4 that solves this problem.
 **How Your Work Will Be Tested:**
 After you finish, the system will run:
 ```bash
-lean --make {solution_file}
+lean {solution_file}
 ```
 
 The solution is considered successful ONLY if:

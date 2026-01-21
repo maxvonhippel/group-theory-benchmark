@@ -23,7 +23,7 @@ watch-solve:
 	echo "Launching Claude (Opus) with MCP tools..."; \
 	echo "========================================"; \
 	echo ""; \
-	claude --model opus --mcp-config /tmp/claude_mcp_config.json < /tmp/claude_problem_prompt.txt; \
+	claude --model opus --mcp-config /tmp/claude_mcp_config.json --dangerously-skip-permissions < /tmp/claude_problem_prompt.txt; \
 	echo ""; \
 	echo "========================================"; \
 	echo ""; \

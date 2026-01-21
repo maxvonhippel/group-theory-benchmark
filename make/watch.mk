@@ -12,7 +12,7 @@ watch-solve:
 	@uv run python make/generate_problem_prompt.py > /tmp/claude_problem_prompt.txt
 	@TIMESTAMP=$$(date +%Y%m%d_%H%M%S); \
 	PROBLEM_NUM=$$(grep -o 'problem #[0-9.]*' /tmp/claude_problem_prompt.txt | head -1 | sed 's/problem #//'); \
-	SAFE_PROBLEM_NUM=$$(echo "$$PROBLEM_NUM" | tr '.' '_'); \
+	SAFE_PROBLEM_NUM=$$(echo "$$PROBLEM_NUM" | tr '.' '_' | sed 's/_$$//'); \
 	SOLUTION_FILE="scratch/solutions/problem_$${SAFE_PROBLEM_NUM}.lean"; \
 	LOGFILE="logs/$${TIMESTAMP}_problem_$${SAFE_PROBLEM_NUM}.log"; \
 	echo ""; \
@@ -23,19 +23,13 @@ watch-solve:
 	echo "Launching Claude (Opus) with MCP tools..."; \
 	echo "========================================"; \
 	echo ""; \
-	cat /tmp/claude_problem_prompt.txt; \
-	echo ""; \
-	echo "========================================"; \
-	echo ""; \
-	{ \
-		echo "SESSION START: $$TIMESTAMP"; \
-		echo ""; \
-		cat /tmp/claude_problem_prompt.txt; \
-		echo ""; \
-		echo "========================================"; \
-		echo ""; \
-		cat /tmp/claude_problem_prompt.txt | stdbuf -oL claude --model opus --mcp-config /tmp/claude_mcp_config.json 2>&1; \
-	} | tee "$$LOGFILE"; \
+	echo "SESSION START: $$TIMESTAMP" | tee "$$LOGFILE"; \
+	echo "" | tee -a "$$LOGFILE"; \
+	cat /tmp/claude_problem_prompt.txt | tee -a "$$LOGFILE"; \
+	echo "" | tee -a "$$LOGFILE"; \
+	echo "========================================" | tee -a "$$LOGFILE"; \
+	echo "" | tee -a "$$LOGFILE"; \
+	cat /tmp/claude_problem_prompt.txt | unbuffer claude --model opus --mcp-config /tmp/claude_mcp_config.json 2>&1 | tee -a "$$LOGFILE"; \
 	echo "" | tee -a "$$LOGFILE"; \
 	echo "SESSION END: $$(date +%Y%m%d_%H%M%S)" | tee -a "$$LOGFILE"; \
 	echo "" | tee -a "$$LOGFILE"; \

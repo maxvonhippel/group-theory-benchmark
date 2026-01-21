@@ -76,8 +76,8 @@ def generate_prompt(problem):
     problem_num = problem.get('problem_number', 'unknown')
     problem_text = problem.get('problem_text', 'No problem text')
     project_root = Path(__file__).parent.parent
-    # Sanitize problem number for filename (replace dots with underscores)
-    safe_problem_num = str(problem_num).replace('.', '_')
+    # Sanitize problem number for filename (replace dots with underscores, remove trailing periods)
+    safe_problem_num = str(problem_num).replace('.', '_').rstrip('_')
     solution_file = f"scratch/solutions/problem_{safe_problem_num}.lean"
     
     # Get tool documentation

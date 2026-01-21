@@ -76,7 +76,9 @@ def generate_prompt(problem):
     problem_num = problem.get('problem_number', 'unknown')
     problem_text = problem.get('problem_text', 'No problem text')
     project_root = Path(__file__).parent.parent
-    solution_file = f"scratch/solutions/problem_{problem_num}.lean"
+    # Sanitize problem number for filename (replace dots with underscores)
+    safe_problem_num = str(problem_num).replace('.', '_')
+    solution_file = f"scratch/solutions/problem_{safe_problem_num}.lean"
     
     # Get tool documentation
     tool_docs = generate_tool_documentation()
@@ -95,20 +97,27 @@ Produce a VERIFIED formal proof in Lean 4 that solves this problem.
 3. No 'sorry', 'admit', or axioms allowed
 4. Must include actual theorem/lemma statements and proofs
 
+**For Open/Unsolvable Problems:**
+If this is an open research problem with no known solution:
+1. Declare it unsolvable and explain why
+2. Provide a formalization of the problem statement in Lean (definitions, types)
+3. Optionally include partial results or related lemmas
+4. The formalization must still compile without 'sorry'
+
 **How Your Work Will Be Tested:**
 After you finish, the system will run:
 ```bash
 lean {solution_file}
 ```
 
-The solution is considered successful ONLY if:
+The solution is considered successful if:
 - The file compiles with exit code 0
-- Contains no 'sorry' or 'admit'
-- Contains actual theorem/lemma/definition with proof
+- Contains no 'sorry' or 'admit' 
+- Contains either: a complete proof OR a formalization with unsolvability declaration
 
 DO NOT EXIT until either:
 1. Your solution passes these tests, OR
-2. You explicitly declare you cannot solve the problem
+2. You explicitly declare you cannot solve the problem (with formalization)
 
 {tool_docs}
 

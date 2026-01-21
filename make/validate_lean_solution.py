@@ -34,10 +34,14 @@ def validate_solution(solution_path: Path) -> tuple[bool, str]:
     if not re.search(r'\b(theorem|lemma|def)\b', content):
         return False, "Solution contains no theorem, lemma, or definition"
     
-    # Try to compile with Lean (Lean 4 doesn't use --make)
+    # Try to compile with Lean using lake build
+    # Solutions are in scratch/solutions which should be a Lean project
     try:
+        # Get the module name from the filename
+        module_name = solution_path.stem
+        
         result = subprocess.run(
-            ["lean", str(solution_path)],
+            ["lake", "build", module_name],
             capture_output=True,
             text=True,
             timeout=60,
@@ -45,7 +49,7 @@ def validate_solution(solution_path: Path) -> tuple[bool, str]:
         )
         
         if result.returncode != 0:
-            return False, f"Lean compilation failed:\n{result.stderr}"
+            return False, f"Lean compilation failed:\n{result.stderr}\n{result.stdout}"
         
         return True, "Solution validated successfully"
         

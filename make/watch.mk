@@ -21,7 +21,6 @@ watch-solve:
 	echo "Log file: $$LOGFILE"; \
 	echo ""; \
 	echo "Launching Claude (Opus) with MCP tools..."; \
-	echo "Note: Progress will be logged. This may take several minutes."; \
 	echo "========================================"; \
 	echo "SESSION START: $$TIMESTAMP" | tee "$$LOGFILE"; \
 	echo "" | tee -a "$$LOGFILE"; \
@@ -29,8 +28,7 @@ watch-solve:
 	echo "" | tee -a "$$LOGFILE"; \
 	echo "========================================" | tee -a "$$LOGFILE"; \
 	echo "" | tee -a "$$LOGFILE"; \
-	echo "Working..." | tee -a "$$LOGFILE"; \
-	cat /tmp/claude_problem_prompt.txt | claude --model opus --mcp-config /tmp/claude_mcp_config.json 2>&1 | tee -a "$$LOGFILE"; \
+	claude --model opus --mcp-config /tmp/claude_mcp_config.json < /tmp/claude_problem_prompt.txt 2>&1 | tee -a "$$LOGFILE"; \
 	echo "" | tee -a "$$LOGFILE"; \
 	echo "SESSION END: $$(date +%Y%m%d_%H%M%S)" | tee -a "$$LOGFILE"; \
 	echo "" | tee -a "$$LOGFILE"; \

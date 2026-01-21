@@ -22,36 +22,22 @@ watch-solve:
 	echo ""; \
 	echo "Launching Claude (Opus) with MCP tools..."; \
 	echo "========================================"; \
-	{ \
-		echo "SESSION START: $$TIMESTAMP"; \
-		echo ""; \
-		cat /tmp/claude_problem_prompt.txt; \
-		echo ""; \
-		echo "========================================"; \
-		echo ""; \
-	} | tee "$$LOGFILE"; \
-	claude --model opus --mcp-config /tmp/claude_mcp_config.json < /tmp/claude_problem_prompt.txt 2>&1; \
-	echo "" | tee -a "$$LOGFILE"; \
-	echo "" | tee -a "$$LOGFILE"; \
-	echo "SESSION END: $$(date +%Y%m%d_%H%M%S)" | tee -a "$$LOGFILE"; \
-	echo "" | tee -a "$$LOGFILE"; \
-	echo "" | tee -a "$$LOGFILE"; \
-	echo "========================================" | tee -a "$$LOGFILE"; \
-	echo "VALIDATING SOLUTION" | tee -a "$$LOGFILE"; \
-	echo "========================================" | tee -a "$$LOGFILE"; \
-	echo "" | tee -a "$$LOGFILE"; \
+	echo ""; \
+	claude --model opus --mcp-config /tmp/claude_mcp_config.json < /tmp/claude_problem_prompt.txt; \
+	echo ""; \
+	echo "========================================"; \
+	echo ""; \
+	echo "VALIDATING SOLUTION"; \
+	echo "========================================"; \
 	if [ -f "$$SOLUTION_FILE" ]; then \
-		echo "Solution file found: $$SOLUTION_FILE" | tee -a "$$LOGFILE"; \
-		echo "" | tee -a "$$LOGFILE"; \
-		if uv run python make/validate_lean_solution.py "$$SOLUTION_FILE" 2>&1 | tee -a "$$LOGFILE"; then \
-			echo "" | tee -a "$$LOGFILE"; \
-			echo "✓ SOLUTION VALIDATED SUCCESSFULLY" | tee -a "$$LOGFILE"; \
+		echo "Solution file found: $$SOLUTION_FILE"; \
+		if uv run python make/validate_lean_solution.py "$$SOLUTION_FILE"; then \
+			echo "✓ SOLUTION VALIDATED SUCCESSFULLY"; \
 		else \
-			echo "" | tee -a "$$LOGFILE"; \
-			echo "✗ SOLUTION VALIDATION FAILED" | tee -a "$$LOGFILE"; \
+			echo "✗ SOLUTION VALIDATION FAILED"; \
 		fi; \
 	else \
-		echo "✗ No solution file produced: $$SOLUTION_FILE" | tee -a "$$LOGFILE"; \
+		echo "✗ No solution file produced: $$SOLUTION_FILE"; \
 	fi
 
 # Just generate the prompt without launching

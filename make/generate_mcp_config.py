@@ -15,12 +15,12 @@ def generate_mcp_config():
         "mcpServers": {
             "gap-server": {
                 "command": "uv",
-                "args": ["run", "python", str(project_root / "src/tools/gap_mcp_server.py")],
+                "args": ["run", "python", "-m", "src.tools.gap_mcp_server"],
                 "cwd": str(project_root)
             },
             "lean-server": {
                 "command": "uv",
-                "args": ["run", "python", str(project_root / "src/tools/lean_mcp_server.py")],
+                "args": ["run", "python", "-m", "src.tools.lean_mcp_server"],
                 "cwd": str(project_root)
             }
         }

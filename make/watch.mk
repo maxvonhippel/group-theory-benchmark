@@ -19,16 +19,32 @@ watch-solve:
 	fi
 	@PROBLEM_NUM=$$(grep -o 'problem #[0-9.]*' /tmp/claude_problem_prompt.txt | head -1 | sed 's/problem #//'); \
 	PROBLEM_DIR="problems/$$PROBLEM_NUM"; \
+	AI_BACKEND="claude"; \
+	AI_MODEL="opus"; \
+	if echo "$(ARGS)" | grep -q -- '--codex'; then \
+		AI_BACKEND="codex"; \
+		AI_MODEL=""; \
+	elif echo "$(ARGS)" | grep -q -- '--opencode'; then \
+		AI_BACKEND="opencode"; \
+		AI_MODEL=""; \
+	fi; \
 	echo ""; \
 	echo "Problem: #$$PROBLEM_NUM"; \
 	echo "Problem directory: $$PROBLEM_DIR"; \
+	echo "AI Backend: $$AI_BACKEND"; \
 	echo ""; \
 	echo "Creating problem directory..."; \
 	mkdir -p "$$PROBLEM_DIR"; \
-	echo "Launching Claude (Opus) with MCP tools..."; \
+	echo "Launching $$AI_BACKEND with MCP tools..."; \
 	echo "========================================"; \
 	echo ""; \
-	claude --model opus --mcp-config /tmp/claude_mcp_config.json --dangerously-skip-permissions < /tmp/claude_problem_prompt.txt; \
+	if [ "$$AI_BACKEND" = "claude" ]; then \
+		claude --model opus --mcp-config /tmp/claude_mcp_config.json --dangerously-skip-permissions < /tmp/claude_problem_prompt.txt; \
+	elif [ "$$AI_BACKEND" = "codex" ]; then \
+		codex --mcp-config /tmp/claude_mcp_config.json < /tmp/claude_problem_prompt.txt; \
+	elif [ "$$AI_BACKEND" = "opencode" ]; then \
+		opencode --mcp-config /tmp/claude_mcp_config.json < /tmp/claude_problem_prompt.txt; \
+	fi; \
 	echo ""; \
 	echo "========================================"
 

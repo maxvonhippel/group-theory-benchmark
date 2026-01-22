@@ -65,7 +65,20 @@ setup:
 	@echo "Step 8: Building GAP packages..."
 	cd gap && ./bin/BuildPackages.sh --with-gaproot=$$(pwd) --strict || echo "Note: Some optional packages may have failed"
 	@echo ""
-	@echo "Step 9: Syncing AI configuration..."
+	@echo "Step 9: Installing AI CLI tools..."
+	@if ! command -v opencode >/dev/null 2>&1; then \
+		echo "Installing OpenCode..."; \
+		curl -fsSL https://opencode.ai/install | bash; \
+	else \
+		echo "OpenCode already installed"; \
+	fi
+	@if ! command -v codex >/dev/null 2>&1; then \
+		echo "Note: Codex CLI not found. Install manually if needed."; \
+	else \
+		echo "Codex already installed"; \
+	fi
+	@echo ""
+	@echo "Step 10: Syncing AI configuration..."
 	$(MAKE) ai
 	@echo ""
 	@echo "=== Setup complete ==="

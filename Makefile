@@ -13,7 +13,7 @@ setup:
 	@echo "Step 1: Initializing git submodule (full clone)..."
 	git submodule update --init --recursive
 	@echo ""
-	@echo "Step 2: Installing Python dependencies (including lean-lsp-mcp)..."
+	@echo "Step 2: Installing Python dependencies..."
 	uv sync
 	@echo ""
 	@echo "Step 2a: Setting up Lean 4 environment..."
@@ -30,6 +30,19 @@ setup:
 		elan default leanprover/lean4:stable || true; \
 		echo "Creating Lean scratch project..."; \
 		mkdir -p lean_scratch && cd lean_scratch && lake init LeanScratch 2>/dev/null || echo "Lean scratch project already exists"; \
+	fi
+	@echo ""
+	@echo "Step 2b: Installing Lean 4 skills for Claude Code..."
+	@if command -v claude >/dev/null 2>&1; then \
+		echo "Installing lean4-skills marketplace and plugins..."; \
+		claude plugin marketplace add cameronfreer/lean4-skills 2>/dev/null || echo "Marketplace already added or claude not available"; \
+		claude plugin install lean4-theorem-proving@lean4-skills --scope project 2>/dev/null || echo "lean4-theorem-proving already installed or claude not available"; \
+		claude plugin install lean4-subagents@lean4-skills --scope project 2>/dev/null || echo "lean4-subagents already installed or claude not available"; \
+	else \
+		echo "Claude Code CLI not found. To install Lean 4 skills manually, run:"; \
+		echo "  claude plugin marketplace add cameronfreer/lean4-skills"; \
+		echo "  claude plugin install lean4-theorem-proving@lean4-skills --scope project"; \
+		echo "  claude plugin install lean4-subagents@lean4-skills --scope project"; \
 	fi
 	@echo ""
 	@echo "Step 3: Checking for GAP build dependencies..."

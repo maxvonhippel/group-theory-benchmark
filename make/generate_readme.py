@@ -5,19 +5,53 @@ Generate README.md with automated solution tracking table.
 from pathlib import Path
 
 
+# Status values for notes.txt STATUS field
+STATUS_NEW_COUNTEREXAMPLE = "NEW_COUNTEREXAMPLE"
+STATUS_NEW_PROOF = "NEW_PROOF"
+STATUS_PRIOR_RESULT_VERIFIED = "PRIOR_RESULT_VERIFIED"
+STATUS_FORMALIZED_UNSOLVED = "FORMALIZED_UNSOLVED"
+STATUS_COULD_NOT_FORMALIZE = "COULD_NOT_FORMALIZE"
+
+
+def parse_notes_file(notes_path: Path) -> dict:
+    """Parse notes.txt file for metadata."""
+    info = {
+        'status': None,
+        'category': None,
+        'reference': None,
+        'summary': None
+    }
+
+    if not notes_path.exists():
+        return info
+
+    content = notes_path.read_text()
+    lines = content.split('\n')
+
+    for line in lines:
+        if line.startswith('STATUS:'):
+            info['status'] = line.split(':', 1)[1].strip()
+        elif line.startswith('CATEGORY:'):
+            info['category'] = line.split(':', 1)[1].strip()
+        elif line.startswith('REFERENCE:'):
+            info['reference'] = line.split(':', 1)[1].strip()
+
+    return info
+
+
 def scan_problem_solutions():
     """Scan problems/ directory for solution artifacts."""
     problems_dir = Path(__file__).parent.parent / "problems"
     solutions = []
-    
+
     # Get all problem directories
     if not problems_dir.exists():
         return solutions
-    
+
     for problem_dir in sorted(problems_dir.iterdir()):
         if not problem_dir.is_dir() or problem_dir.name == "all_problems.json":
             continue
-        
+
         problem_num = problem_dir.name
         solution_info = {
             'number': problem_num,
@@ -25,7 +59,10 @@ def scan_problem_solutions():
             'proof': None,
             'formalization': None,
             'attempt_summary': None,
-            'review': None
+            'review': None,
+            'notes': None,
+            'status': None,
+            'reference': None
         }
 
         # Check for solution artifacts
@@ -34,6 +71,7 @@ def scan_problem_solutions():
         formalization_file = problem_dir / "problem.lean"
         attempt_summary_file = problem_dir / "formalization_attempt_summary.txt"
         review_file = problem_dir / "review.txt"
+        notes_file = problem_dir / "notes.txt"
 
         if disproof_file.exists():
             solution_info['disproof'] = 'disproof.py'
@@ -43,7 +81,14 @@ def scan_problem_solutions():
             solution_info['formalization'] = 'problem.lean'
         if attempt_summary_file.exists():
             solution_info['attempt_summary'] = 'formalization_attempt_summary.txt'
-        
+
+        # Parse notes.txt for metadata
+        if notes_file.exists():
+            solution_info['notes'] = 'notes.txt'
+            notes_info = parse_notes_file(notes_file)
+            solution_info['status'] = notes_info.get('status')
+            solution_info['reference'] = notes_info.get('reference')
+
         # Check for human review
         if review_file.exists():
             review_text = review_file.read_text().strip()
@@ -51,47 +96,79 @@ def scan_problem_solutions():
                 solution_info['review'] = review_text[:10].strip() + "..."
             else:
                 solution_info['review'] = review_text
-        
+
         # Only include if there's at least one artifact
-        if any([solution_info['disproof'], solution_info['proof'], solution_info['formalization'], solution_info['attempt_summary']]):
+        if any([solution_info['disproof'], solution_info['proof'],
+                solution_info['formalization'], solution_info['attempt_summary']]):
             solutions.append(solution_info)
-    
+
     return solutions
+
+
+def get_status_display(sol: dict) -> str:
+    """Get display string for solution status."""
+    status = sol.get('status')
+
+    if status == STATUS_NEW_COUNTEREXAMPLE:
+        return "NEW counterexample"
+    elif status == STATUS_NEW_PROOF:
+        return "NEW proof"
+    elif status == STATUS_PRIOR_RESULT_VERIFIED:
+        return "Prior result verified"
+    elif status == STATUS_FORMALIZED_UNSOLVED:
+        return "Formalized (unsolved)"
+    elif status == STATUS_COULD_NOT_FORMALIZE:
+        return "Could not formalize"
+    else:
+        # Infer from artifacts if no explicit status
+        if sol['disproof']:
+            return "Counterexample (unverified)"
+        elif sol['proof']:
+            return "Proof (unverified)"
+        elif sol['formalization']:
+            return "Formalized (unsolved)"
+        elif sol['attempt_summary']:
+            return "Could not formalize"
+        return "Unknown"
 
 
 def generate_solution_table(solutions):
     """Generate markdown table for solutions."""
     if not solutions:
         return ""
-    
+
     table = "\n## AI-Generated Solutions\n\n"
-    table += "**⚠️ WARNING**: [No AI-generated proof should be trusted without human review, no matter how formal.] "
+    table += "**Warning**: "
+    table += "[No AI-generated proof should be trusted without human review, no matter how formal.]"
     table += "(https://www.lesswrong.com/posts/rhAPh3YzhPoBNpgHg/lies-damned-lies-and-proofs-formal-methods-are-not-slopless)\n\n"
-    
-    table += "| Problem | Artifact | Human Review |\n"
-    table += "|---------|----------|-------------|\n"
-    
+
+    table += "| Problem | Artifact | Status | Human Review |\n"
+    table += "|---------|----------|--------|-------------|\n"
+
     for sol in solutions:
-        # Determine solution type
+        # Determine artifact type
         if sol['disproof']:
-            solution = f"`{sol['disproof']}` (GAP counterexample)"
+            artifact = f"`{sol['disproof']}`"
         elif sol['proof']:
-            solution = f"`{sol['proof']}` (Lean proof)"
+            artifact = f"`{sol['proof']}`"
         elif sol['formalization']:
-            solution = f"`{sol['formalization']}` (formalization only)"
+            artifact = f"`{sol['formalization']}`"
         elif sol['attempt_summary']:
-            solution = f"`{sol['attempt_summary']}` (could not formalize)"
+            artifact = f"`{sol['attempt_summary']}`"
         else:
-            solution = "N/A"
-        
+            artifact = "N/A"
+
+        # Get status display
+        status = get_status_display(sol)
+
         # Human review status
         if sol['review']:
             review = sol['review']
         else:
-            review = "❌"
-        
-        table += f"| {sol['number']} | {solution} | {review} |\n"
-    
+            review = "Pending"
+
+        table += f"| {sol['number']} | {artifact} | {status} | {review} |\n"
+
     return table
 
 

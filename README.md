@@ -14,12 +14,12 @@ This project was inspired by the paper [Disproof of the Mertens Conjecture](http
 
 ## AI-Generated Solutions
 
-**⚠️ WARNING**: [No AI-generated proof should be trusted without human review, no matter how formal.] (https://www.lesswrong.com/posts/rhAPh3YzhPoBNpgHg/lies-damned-lies-and-proofs-formal-methods-are-not-slopless)
+**Warning**: [No AI-generated proof should be trusted without human review, no matter how formal.](https://www.lesswrong.com/posts/rhAPh3YzhPoBNpgHg/lies-damned-lies-and-proofs-formal-methods-are-not-slopless)
 
-| Problem | Artifact | Human Review |
-|---------|----------|-------------|
-| 15.26 | `problem.lean` (formalization only) | ❌ |
-| 18.59. | `problem.lean` (formalization only) | ❌ |
+| Problem | Artifact | Status | Human Review |
+|---------|----------|--------|-------------|
+| 18.87 | `disproof.py` | Prior result verified | Pending |
+| 19.33 | `problem.lean` | Formalized (unsolved) | Pending |
 
 ## Setup
 

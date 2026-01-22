@@ -1,0 +1,15 @@
+{
+  "extraKnownMarketplaces": {
+    "lean4-skills": {
+      "source": {
+        "type": "github",
+        "owner": "cameronfreer",
+        "repo": "lean4-skills"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "lean4-theorem-proving@lean4-skills": true,
+    "lean4-subagents@lean4-skills": true
+  }
+}

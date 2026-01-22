@@ -46,14 +46,14 @@ def load_open_problems():
     return [p for p in data if not p.get('answer')]
 
 
-def extract_tool_docs(mcp_server_path):
-    """Extract tool documentation from an MCP server file using AST."""
+def extract_gap_tool_docs(mcp_server_path):
+    """Extract tool documentation from the GAP MCP server file using AST."""
     with open(mcp_server_path) as f:
         content = f.read()
-    
+
     tree = ast.parse(content)
     tools = []
-    
+
     # Find the list_tools function
     for node in ast.walk(tree):
         if isinstance(node, ast.AsyncFunctionDef) and node.name == 'list_tools':
@@ -69,34 +69,47 @@ def extract_tool_docs(mcp_server_path):
                                     tool_name = ast.literal_eval(keyword.value)
                                 elif keyword.arg == 'description':
                                     tool_desc = ast.literal_eval(keyword.value)
-                            
+
                             if tool_name and tool_desc:
                                 # Get first sentence
                                 desc = tool_desc.strip()
                                 if '. ' in desc:
                                     desc = desc.split('. ')[0] + '.'
                                 tools.append(f"  - `{tool_name}`: {desc}")
-    
+
     return tools
 
 
 def generate_tool_documentation():
-    """Generate documentation for all available MCP tools."""
+    """Generate documentation for all available tools."""
     project_root = Path(__file__).parent.parent
-    
-    gap_tools = extract_tool_docs(project_root / "src/tools/gap_mcp_server.py")
-    lean_tools = extract_tool_docs(project_root / "src/tools/lean_mcp_server.py")
-    
-    doc = "**Available MCP Tools:**\n\n"
-    
+
+    gap_tools = extract_gap_tool_docs(project_root / "src/tools/gap_mcp_server.py")
+
+    doc = "**Available Tools:**\n\n"
+
     if gap_tools:
-        doc += "GAP Server (computational group theory):\n"
+        doc += "GAP MCP Server (computational group theory):\n"
         doc += "\n".join(gap_tools) + "\n\n"
-    
-    if lean_tools:
-        doc += "Lean Server (formal theorem proving):\n"
-        doc += "\n".join(lean_tools)
-    
+
+    # Lean 4 skills (Claude Code plugins from cameronfreer/lean4-skills)
+    doc += """Lean 4 Skills (theorem proving via Claude Code plugins):
+  Commands (use these directly):
+  - `/lean4-theorem-proving:build-lean`: Compile Lean project with categorized error analysis
+  - `/lean4-theorem-proving:fill-sorry [file:line]`: Interactive guidance for completing proofs
+  - `/lean4-theorem-proving:analyze-sorries`: Identify incomplete proofs and categorize by difficulty
+  - `/lean4-theorem-proving:check-axioms`: Verify proofs use only standard axioms
+  - `/lean4-theorem-proving:search-mathlib`: Find relevant lemmas in mathlib
+  - `/lean4-theorem-proving:golf-proofs`: Optimize proof size (use after successful compilation)
+  - `/lean4-theorem-proving:clean-warnings`: Address linter warnings systematically
+  - `/lean4-theorem-proving:refactor-have`: Extract have-blocks into separate lemmas
+
+  Subagents (for automated proof work):
+  - Proof repair agent: Automatically fix broken proofs
+  - Sorry filling agent: Complete proofs with sorry placeholders
+  - Axiom elimination agent: Remove unnecessary axioms
+  - Proof golfing agent: Optimize proof length"""
+
     return doc
 
 
@@ -121,46 +134,71 @@ Determine if this problem can be solved, and produce the appropriate artifact.
 **Output Directory:**
 {problem_dir}/
 
-**Four Possible Outcomes:**
+**Five Possible Outcomes:**
 
-1. **Found a Counterexample (via GAP)**
+1. **Found a NEW Counterexample (via GAP)**
    - Write Python/GAP code to: {problem_dir}/disproof.py
    - Must generate and verify a concrete counterexample
    - Include comments explaining why it's a counterexample
+   - Use STATUS: NEW_COUNTEREXAMPLE in notes.txt
 
-2. **Proved the Theorem (via Lean)**
+2. **Verified a PRIOR Counterexample or Result**
+   - If you find the problem was already solved in published literature:
+   - Write verification code to: {problem_dir}/disproof.py (for counterexamples)
+     or {problem_dir}/proof.lean (for proofs)
+   - Cite the original source
+   - Use STATUS: PRIOR_RESULT_VERIFIED in notes.txt
+
+3. **Proved the Theorem (via Lean)**
    - Write Lean proof to: {problem_dir}/proof.lean
    - Must compile without errors
    - No 'sorry' or 'admit' allowed
+   - Use STATUS: NEW_PROOF in notes.txt
 
-3. **Formalized but Unsolved**
+4. **Formalized but Unsolved**
    - Write formalization to: {problem_dir}/problem.lean
    - Include definitions, types, and problem statement
    - Use 'sorry' for unsolved parts
    - Add comments explaining what you tried and why it's hard
+   - Use STATUS: FORMALIZED_UNSOLVED in notes.txt
 
-4. **Could Not Formalize**
+5. **Could Not Formalize**
    - Write summary to: {problem_dir}/formalization_attempt_summary.txt
    - Use this when the problem is too open-ended, vague, or requires
      mathematical infrastructure beyond what's available in Lean
    - Explain what aspects made formalization difficult
    - Document any partial progress or insights gained
-   - This is a valid outcome for problems that are inherently hard to state formally
+   - Use STATUS: COULD_NOT_FORMALIZE in notes.txt
+
+**REQUIRED: Always create notes.txt**
+
+You MUST create {problem_dir}/notes.txt with this format:
+
+```
+STATUS: <one of: NEW_COUNTEREXAMPLE, NEW_PROOF, PRIOR_RESULT_VERIFIED, FORMALIZED_UNSOLVED, COULD_NOT_FORMALIZE>
+CATEGORY: <counterexample|proof|formalization|summary>
+REFERENCE: <citation if verifying prior work, otherwise "N/A">
+
+<Your detailed summary of the problem, findings, and approach>
+```
 
 {tool_docs}
 
 **Workflow:**
-1. Use GAP tools to search for counterexamples first
-2. If no counterexample found, attempt Lean proof
-3. If proof is too difficult, provide formalization with sorry
-4. If formalization itself is infeasible, write formalization_attempt_summary.txt
+1. Search literature/web for existing results on this problem
+2. Use GAP tools to search for counterexamples
+3. If no counterexample found, attempt Lean proof
+4. If proof is too difficult, provide formalization with sorry
+5. If formalization itself is infeasible, write formalization_attempt_summary.txt
+6. ALWAYS write notes.txt with your findings
 
 **Success Criteria:**
-- Exactly ONE of: disproof.py, proof.lean, problem.lean, or formalization_attempt_summary.txt exists when done
+- Exactly ONE of: disproof.py, proof.lean, problem.lean, or formalization_attempt_summary.txt exists
+- notes.txt MUST exist with proper STATUS field
 - File compiles/runs without errors (except sorry in problem.lean)
-- Clear explanation of your approach
+- Clear explanation of your approach in notes.txt
 
-DO NOT EXIT until you have created one artifact file in {problem_dir}/
+DO NOT EXIT until you have created BOTH an artifact file AND notes.txt in {problem_dir}/
 
 Begin your investigation now. Use the tools actively."""
 

@@ -1,6 +1,0 @@
-{
-  "page_number": 216,
-  "problem_number": "6.13",
-  "problem_text": "Is it true that if a non-abelian Sylow 2-subgroup of a finite group G has a non-trivial abelian direct factor, then G is not simple? A. S. Kondratiev",
-  "answer": "Yes, it is, mod CFSG (V. V. Kabanov, A. S. Kondratiev, Sylow 2-subgroups of finite groups (a survey), Inst. Math. Mech. UNC AN SSSR, Sverdlovsk, 1979 (Russian))."
-}

@@ -1,6 +1,0 @@
-{
-  "page_number": 266,
-  "problem_number": "16.62",
-  "problem_text": "Let G be a group such that every \u03b1 \u2208Aut G fixes every conjugacy class of G (setwise). Must Aut G = Inn G?\nD. MacHale",
-  "answer": "Not necessarily: the paper (H. Heineken, Arch. Math. (Basel), 33 (1979/80), no. 6, 497\u2013503), in particular, produces finite p-groups all of whose automorphisms preserve all the conjugacy classes, while by Gasch\u00fctz\u2019 theorem every finite p-group has outer automorphisms (A. Mann, Letter of 20 April 2006)."
-}

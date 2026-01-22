@@ -1,6 +1,0 @@
-{
-  "page_number": 233,
-  "problem_number": "9.64",
-  "problem_text": "Is it true that, in a group of the form G = AB, every subgroup N of A \u2229 B which is subnormal both in A and in B is subnormal in G? The answer is affirmative in the case of finite groups (H. Wielandt).\nYa. P. Sysak",
-  "answer": "No, not always (C. Casolo, U. Dardano, J. Group Theory, 7 (2004), 507\u2013520)."
-}

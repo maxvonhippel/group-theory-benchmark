@@ -1,6 +1,0 @@
-{
-  "page_number": 242,
-  "problem_number": "11.97",
-  "problem_text": "Are there only finitely many finite simple groups with a given set of all\ndifferent values of irreducible characters on a single element?\nS. P. Strunkov",
-  "answer": "No; all complex irreducible characters of the groups L2(2m), m \u2a7e2, take the values\n0, \u00b11 on involutions (V. D. Mazurov)."
-}

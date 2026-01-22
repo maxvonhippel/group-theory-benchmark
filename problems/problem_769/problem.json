@@ -1,5 +1,0 @@
-{
-  "page_number": 107,
-  "problem_number": "17.41",
-  "problem_text": "17.41. Let S be a solvable subgroup of a finite group G that has no nontrivial solvable normal subgroups.\n(a) (L. Babai, A. J. Goodman, L. Pyber). Do there always exist seven conjugates of S whose intersection is trivial?\n(b) Do there always exist five conjugates of S whose intersection is trivial?\nEditors\u2019 comments: Reduction of part (b) to almost simple group G is obtained in (E. P. Vdovin, J. Algebra Appl., 11, no. 1 (2012), 1250015 (14 pages)). An affirmative answer to (b) has been obtained for almost simple groups with socle isomorphic to an alternating group (A. A. Baikalov, Algebra Logic, 56 (2017), 87\u201397), to a sporadic simple group (T. C. Burness, Israel J. Math., 254 (2023), 313\u2013340), to PSL(n, q) (A. A. Baykalov, J. Group Theory, 28 (2025), 1003\u20131077), to PSU(n, q) or PSp(n, q)\u2032 (A. A. Baykalov, Int. J. Algebra Comput., 35, no. 06 (2025), 823\u2013908). Part (b) also has an affirmative answer if S is a maximal subgroup of G (T. C. Burness, Algebra Number Theory, 15, no. 7 (2021), 1755\u20131807).\nE. P. Vdovin"
-}

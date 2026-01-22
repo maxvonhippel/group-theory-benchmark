@@ -1,5 +1,0 @@
-{
-  "page_number": 100,
-  "problem_number": "16.68",
-  "problem_text": "Let W(x, y) be a non-trivial reduced group word, and G one of the groups PSL(2, R), PSL(2, C), or SO(3, R). Are all the maps W : G \u00d7 G \u2192 G surjective?\nFor SL(2, R), SL(2, C), GL(2, C), and for the group S3 of quaternions of norm 1 there exist non-surjective words; see (J. Mycielski, Amer. Math. Monthly, 84 (1977), 723\u2013726; 85 (1978), 263\u2013264).\nJ. Mycielski"
-}

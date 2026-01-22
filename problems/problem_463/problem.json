@@ -1,5 +1,0 @@
-{
-  "page_number": 63,
-  "problem_number": "12.95",
-  "problem_text": "Let G be a finitely generated pro-p-group and let g1, . . . , gn \u2208 G. Let H be an open subgroup of G, and suppose there exists a non-trivial word w = w(X1, . . . , Xn) such that w(a1, . . . , an) = 1 whenever a1 \u2208 g1H, . . . , an \u2208 gnH (that is, G satisfies a coset identity). Does it follow that G satisfies some non-trivial identity?\nA positive answer to this question would imply that an analogue of the Tits Alternative holds for finitely generated pro-p-groups.\nNote that J. S. Wilson and E. I. Zelmanov (J. Pure Appl. Algebra, 81 (1992), 103\u2013109) showed that the graded Lie algebra Lp(G) with respect to the dimension subgroups of G in characteristic p satisfies a polynomial identity.\nComment of 2017: This has been shown to be true for finitely generated linear groups (M. Larsen, A. Shalev, Algebra Number Theory, 10, no. 6 (2016), 1359\u20131371).\nA. Shalev"
-}

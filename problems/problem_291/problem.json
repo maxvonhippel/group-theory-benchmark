@@ -1,5 +1,0 @@
-{
-  "page_number": 41,
-  "problem_number": "10.44",
-  "problem_text": "Prove that every standard homomorphism \u039b of En(R) \u2282 GLn(R) = GL(V) into Em(S) \u2282 GLm(S) = GL(W) originates from a collineation and a correlation, that is, has the form \u039bx = (g\u22121xg)f + (h\u22121xh)(1 \u2212 f), where g is a semilinear isomorphism VR \u2192 WS (collineation) and h is a semilinear isomorphism VR \u2192S W\u2032S0 (correlation). V. M. Petechuk"
-}

@@ -1,5 +1,0 @@
-{
-  "page_number": 174,
-  "problem_number": "21.90",
-  "problem_text": "21.90. Let \u0393 be a graph of diameter d. For i \u2208 {1, 2, . . . , d}, let \u0393_i be the graph on the same vertex set as \u0393 with vertices u, w adjacent in \u0393_i if and only if d_\u0393(u, w) = i. Does there exist a Q-polynomial distance-regular graph \u0393 of diameter 3 such that \u0393_2 and \u0393_3 are strongly regular? A. A. Makhn\u00a8ev"
-}

@@ -1,5 +1,0 @@
-{
-  "page_number": 126,
-  "problem_number": "18.102",
-  "problem_text": "(E. C. Dade). Let C be a Carter subgroup of a finite solvable group G, and\nlet \u2113(C) be the number of primes dividing |C| counting multiplicities. It was proved\nin (E. C. Dade, Illinois J. Math., 13 (1969), 449\u2013514) that there is an exponential\nfunction f such that the nilpotent length of G is at most f(\u2113(C)). Is there a linear\n(or at least a polynomial) function f with this property?\nEditors\u2019 comment: A quadratic function with that property was proved to exist in\nthe special case where G = H \u22ca C and C is a cyclic subgroup such that C_H(C) = 1,\n(E. Jabara, J. Algebra, 487 (2017), 161\u2013172).\nA. Turull"
-}

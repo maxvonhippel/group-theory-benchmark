@@ -1,5 +1,0 @@
-{
-  "page_number": 13,
-  "problem_number": "4.42",
-  "problem_text": "4.42. For what natural numbers n does the following equality hold:\nGLn(R) = Dn(R) \u00b7 On(R) \u00b7 UTn(R) \u00b7 GLn(Z)?\nFor notation, see, for instance, (M. I. Kargapolov, Ju. I. Merzljakov, Fundamentals of the Theory of Groups, Springer, New York, 1979).\nFor given n this equality implies the affirmative solution of Minkowski\u2019s problem on the product of n linear forms (A. M. Macbeath, Proc. Glasgow Math. Assoc., 5, no. 2 (1961), 86\u201389), which remains open for n \u2a7e6. It is known that the equality holds for n \u2a7d3 (Kh. N. Narzullayev, Math. Notes, 18 (1975), 713\u2013719); on the other hand, it does not hold for all sufficientibly large n (N. S. Akhmedov, Zapiski Nauchn. Seminarov LOMI, 67 (1977), 86\u2013107 (Russian)).\nYu. I. Merzlyakov"
-}

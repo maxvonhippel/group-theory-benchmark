@@ -1,5 +1,0 @@
-{
-  "page_number": 165,
-  "problem_number": "21.24",
-  "problem_text": "For a finite group G, the power graph P(G) is the graph with vertex set G and edges {x, y} for all x \u0338= y \u2208 G such that either x \u2208 \u27e8y\u27e9 or y \u2208 \u27e8x\u27e9. Is it true that, for every finite group G, if P(G) is a cograph, then P(G) is chordal? Cf. 21.23.\nThis holds if every element of G has prime power order (D. Bubboloni, F. Fumagalli, C. E. Praeger, Preprint, 2025, https://arxiv.org/abs/2510.18073) and if G is a nonabelian simple group (J. Cameron, P. Manna, R. Mehatari, J. Algebra, 591 (2022), 59\u201374; J. Brachter, E. Kaja, J. Algebr. Comb., 58 (2023), 1095\u20131124).\nD. Bubboloni, F. Fumagalli, C. E. Praeger"
-}

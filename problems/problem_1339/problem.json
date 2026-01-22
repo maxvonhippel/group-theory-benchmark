@@ -1,6 +1,0 @@
-{
-  "page_number": 186,
-  "problem_number": "1.47",
-  "problem_text": "A subgroup H of a group G is said to be strictly isolated if, whenever xg\u22121\n1 xg1 \u00b7 \u00b7 \u00b7 g\u22121\nn xgn belongs to H, so do x and each g\u22121\ni xgi. A group in which the identity subgroup is strictly isolated is called an S-group. Do there exist S-groups that are not orderable groups?\nA. I. Kokorin",
-  "answer": "Yes, such groups do exist (V. V. Bludov, Algebra and Logic, 13 (1974), 343\u2013360)."
-}

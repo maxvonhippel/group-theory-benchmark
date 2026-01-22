@@ -1,5 +1,0 @@
-{
-  "page_number": 89,
-  "problem_number": "15.61",
-  "problem_text": "15.61. Is it true that ln\u03c0(G) \u2a7d n(G\u03c0)\u22121 + maxp\u2208\u03c0 lp(G) for any \u03c0-soluble group G?\nHere n(G\u03c0) is the nilpotent length of a Hall \u03c0-subgroup G\u03c0 of the group G and ln\u03c0(G) is the nilpotent \u03c0-length of G, that is, the minimum number of \u03c0-factors in those normal series of G whose factors are either \u03c0\u2032-groups, or nilpotent \u03c0-groups. The answer is known to be affirmative in the case when all proper subgroups of G\u03c0 are supersoluble. V. S. Monakhov"
-}

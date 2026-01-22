@@ -1,6 +1,0 @@
-{
-  "page_number": 233,
-  "problem_number": "9.63",
-  "problem_text": "Is a finite group of the form G = ABA soluble if A is an abelian subgroup and B is a cyclic subgroup?\nYa. P. Sysak",
-  "answer": "Yes, it is soluble (mod CFSG) (D. L. Zagorin, L. S. Kazarin, Dokl. Math., 53, no. 2 (1996), 237\u2013239)."
-}

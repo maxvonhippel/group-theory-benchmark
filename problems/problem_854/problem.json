@@ -1,6 +1,0 @@
-{
-  "page_number": 117,
-  "problem_number": "*18.14",
-  "problem_text": "For an automorphism \u03c6 \u2208 Aut(G) of a group G, let [e]\u03c6 = {g\u22121g\u03c6 | g \u2208 G}. Conjecture: If [e]\u03c6 is a subgroup for every \u03c6 \u2208 Aut(G), then the group G is nilpotent. If in addition G is finitely generated, then G is abelian.\nV. G. Bardakov, M. V. Neshchadim, T. R. Nasybullov\n*The conjecture is disproved (C. Nicotera, Arch. Math., 123, no. 3 (2024), 225\u2013232).",
-  "answer": "The conjecture is disproved (C. Nicotera, Arch. Math., 123, no. 3 (2024), 225\u2013232)."
-}

@@ -1,5 +1,0 @@
-{
-  "page_number": 106,
-  "problem_number": "17.32",
-  "problem_text": "Is the following analogue of the Cayley\u2013Hamilton theorem true for the free group Fn of rank n: If w \u2208 Fn and \u03c6 \u2208 Aut Fn are such that \u27e8w, \u03c6(w), . . . , \u03c6n(w)\u27e9 = Fn, then \u27e8w, \u03c6(w), . . . , \u03c6n\u22121(w)\u27e9 = Fn?\nO. V. Bogopolski"
-}

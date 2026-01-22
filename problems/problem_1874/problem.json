@@ -1,6 +1,0 @@
-{
-  "page_number": 261,
-  "problem_number": "15.43",
-  "problem_text": "Let G be a finite group of order n. a) Is it true that |Aut G| \u2a7e \u03c6(n) where \u03c6 is Euler\u2019s function? b) Is it true that G is cyclic if |Aut G| = \u03c6(n)? M. Deaconescu",
-  "answer": "Both questions have negative answers; moreover, |Aut G|/\u03c6(|G|) can be made arbitrarily small (J. N. Bray, R. A. Wilson, Bull. London Math. Soc., 37, no. 3 (2005), 381\u2013385)."
-}

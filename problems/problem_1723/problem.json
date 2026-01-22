@@ -1,6 +1,0 @@
-{
-  "page_number": 239,
-  "problem_number": "11.29",
-  "problem_text": "f) Let F be a free group and f = ZF(F \u22121) the augmentation ideal of the integral group ring ZF. For any normal subgroup R of F define the corresponding ideal r = ZF(R\u22121) = id(r \u22121 | r \u2208 R). One may identify, for instance, F \u2229 (1+rf) = R\u2032, where F is naturally imbedded into ZF and 1 + rf = {1 + a | a \u2208 rf}. Is the quotient group (F \u2229 (1 + r + fn))/R \u00b7 \u03b3n(F) always abelian?\nN. D. Gupta",
-  "answer": "Yes, it is (N. D. Gupta, Yu. V. Kuz\u2019min, J. Pure Appl. Algebra, 78, no. 1 (1992), 165\u2013172)."
-}

@@ -1,6 +1,0 @@
-{
-  "page_number": 238,
-  "problem_number": "11.21",
-  "problem_text": "Let Np denote the formation of all finite p-groups, for a given prime number p. Is it true that, for every subformation F of Np, there exists a variety M such that F = Np \u2229M?\nA. F. Vasil\u2019yev",
-  "answer": "No, it is not true. There is a natural one-to-one correspondence between formations of finite p-groups and varieties of pro-p-groups: for every variety V of pro-p-groups the class of all finite groups in V is a formation of p-groups and every formation of p-groups arises in this way. There are continuously many varieties of nilpotent pro-p-groups of class at most 6 (A. N. Zubkov, Siberian Math. J., 29, no. 3 (1988), 491\u2013494) and only countably many varieties of nilpotent groups of class at most 6. (A. N. Krasil\u2019nikov, Letter of July, 17th, 1998.)"
-}

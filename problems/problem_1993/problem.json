@@ -1,6 +1,0 @@
-{
-  "page_number": 280,
-  "problem_number": "19.84",
-  "problem_text": "Let P be the set of all primes, and let \u03c3 = {\u03c3i | i \u2208 I} be some partition of P into disjoint subsets. A finite group G is said to be \u03c3-primary if G is a \u03c3i-group for some i; \u03c3-nilpotent if G is a direct product of \u03c3-primary groups; \u03c3-soluble if every chief factor of G is \u03c3-primary. A subgroup A of a finite group G is said to be \u03c3-subnormal in G if there is a chain A = A0 \u2a7d A1 \u2a7d \u00b7 \u00b7 \u00b7 \u2a7d An = G such that for every i either Ai\u22121 \u22b4 Ai or Ai/(Ai\u22121)Ai is \u03c3-primary, where (Ai\u22121)Ai is the largest normal subgroup of Ai contained in Ai\u22121.\n\nSuppose that a subgroup A of a finite group G is \u03c3-subnormal in \u27e8A, Ax\u27e9 for all x \u2208 G. Is it true that then A is \u03c3-subnormal in G?\n\nAn affirmative answer is known if \u03c3 = {{2}, {3}, . . .} (Wielandt). A. N. Skiba",
-  "answer": "No, not always. For example, in G = S5 with partition \u03c3 = {2, 3} \u222a {5} the subgroup A = \u27e8(12)\u27e9 is \u03c3-subnormal in \u27e8A, Ax\u27e9 for every x \u2208 G, but it is not \u03c3-subnormal in G. (V. N. Tyutyanov, Letter of 28 August 2019.)"
-}

@@ -1,5 +1,0 @@
-{
-  "page_number": 24,
-  "problem_number": "7.38",
-  "problem_text": "7.38. A variety of profinite groups is a non-empty class of profinite groups closed under taking subgroups, factor-groups, and Tikhonov products. A subvariety V of the variety N of all pronilpotent groups is said to be (locally) nilpotent if all (finitely generated) groups in V are nilpotent.\na) Is it true that any non-nilpotent subvariety of N contains a non-nilpotent locally nilpotent subvariety?\nb) The same problem for the variety of all pro-p-groups (for a given prime p).\nO. V. Mel\u2019nikov"
-}

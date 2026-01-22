@@ -1,6 +1,0 @@
-{
-  "page_number": 244,
-  "problem_number": "11.128",
-  "problem_text": "A group G is said to be a K-group if for every subgroup A \u2a7d G there exists a subgroup B \u2a7d G such that A \u2229 B = 1 and \u27e8A, B\u27e9 = G. Is it true that normal subgroups of K-groups are also K-groups?\nM. Emaldi",
-  "answer": "No, it is not (V. N. Obraztsov, J. Austral. Math. Soc. (Ser. A), 61, no. 2 (1996), 267\u2013288)."
-}

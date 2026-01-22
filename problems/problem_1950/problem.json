@@ -1,6 +1,0 @@
-{
-  "page_number": 272,
-  "problem_number": "17.73",
-  "problem_text": "Let G be a finite simple group of Lie type defined over a field of characteristic p, and V an absolutely irreducible G-module over a field of the same characteristic. Is it true that in the following cases the split extension of V by G must contain an element whose order is distinct from the order of any element of G?\na) G = U4(q);\nb) G = S2n(q), n \u2a7e3;\nc) G = O2n+1(q), n \u2a7e3;\nd) G = O+ 2n(q), n \u2a7e4;\ne) G = O\u2212 2n(q), n \u2a7e4;\nf) G = 3D4(q), q \u0338= 2;\ng) G = E6(q);\nh) G = 2E6(q);\ni) G = E7(q);\nj) G = G2(2m).\nV. D. Mazurov",
-  "answer": "Yes, it is true: a) (M. A. Grechkoseeva, S. V. Skresanov, Siberian Electron. Math. Rep., 17 (2020), 585\u2013589); b)\u2013i) (M. A. Grechkoseeva, J. Algebra Appl., 14, no. 4 (2015), Article ID 1550056); j) (A. V. Vasil\u2019ev, A. M. Staroletov, Algebra Logic, 52, no. 1 (2013), 1\u201314)."
-}

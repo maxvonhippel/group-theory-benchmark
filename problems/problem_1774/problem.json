@@ -1,6 +1,0 @@
-{
-  "page_number": 246,
-  "problem_number": "12.38",
-  "problem_text": "(J. G. Thompson). For a finite group G, we denote by N(G) the set of all orders of the conjugacy classes of G. Is it true that if G is a finite non-abelian simple group, H a finite group with trivial centre and N(G) = N(H), then G and H are isomorphic?\nA. S. Kondratiev, W. J. Shi",
-  "answer": "Yes, it is true. The final step of the proof is in the paper (I. B. Gorshkov, Commun. Algebra, 47, no. 12 (2019), 5192\u20135206), which contains references to the previous steps by M. Ahanjideh, N. Ahanjideh, S. H. Alavi, G. Y. Chen, A. Daneshkhah, M. R. Darafsheh, I. B. Gorshkov, A. Iranmanesh, I. Kaygorodov, Behn. Khosravi, Behr. Khosravi, A. Kukharev, W. Shi, A. Shlepkin, A. V. Vasil\u2019ev, L. Wang, M. Xu."
-}

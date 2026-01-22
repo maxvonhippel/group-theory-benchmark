@@ -1,6 +1,0 @@
-{
-  "page_number": 248,
-  "problem_number": "12.78",
-  "problem_text": "(M. J. Curran). a) Does there exist a group of order p6 (here p is a prime number), whose automorphism group has also order p6? b) Is it true that for p \u2261 1 (mod 3), the smallest order of a p-group that is the automorphism group of a p-group is p7? c) The same question for p = 3 with 39 replacing p7. A. I. Starostin",
-  "answer": "a) No, there is no such a group; b) yes, it is true; c) no, it is not true (S. Yu, G. Ban, J. Zhang, Algebra Colloq., 3, no. 2 (1996), 97\u2013106)."
-}

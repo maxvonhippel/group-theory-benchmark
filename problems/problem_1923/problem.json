@@ -1,6 +1,0 @@
-{
-  "page_number": 268,
-  "problem_number": "16.103",
-  "problem_text": "Is there a rank analogue of the Leedham-Green\u2013McKay\u2013Shepherd theorem on p-groups of maximal class? More precisely, suppose that P is a 2-generator finite p-group whose lower central quotients \u03b3i(P)/\u03b3i+1(P) are cyclic for all i \u2a7e 2. Is it true that P contains a normal subgroup N of nilpotency class \u2a7d 2 such that the rank of P/N is bounded in terms of p only? E. I. Khukhro",
-  "answer": "No, moreover, there are no functions d(p) and r(p) such that a group with these properties would necessarily have a normal subgroup of derived length \u2a7d d(p) with quotient of rank \u2a7d r(p) (E. I. Khukhro, Siber. Math. J., 54, no. 1 (2013), 174\u2013184)."
-}

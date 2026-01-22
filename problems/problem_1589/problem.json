@@ -1,6 +1,0 @@
-{
-  "page_number": 220,
-  "problem_number": "6.63",
-  "problem_text": "An infinite group G is called a monster of the first kind if it has elements of\norder > 2 and for any such an element a and for any proper subgroup H of G, there\nis an element g in G \\ H, such that \u27e8a, ag\u27e9= G. Classify the monsters of the first\nkind all of whose proper subgroups are finite.\nV. P. Shunkov",
-  "answer": "The centre of such a group coincides with the set of elements of order \u2a7d2\n(V. P. Shunkov, Algebra and Logic, 7 (1968), no. 1 (1970), 66\u201369). An infinite group\nall of whose proper subgroups are finite is a monster of the first kind if its centre\ncoincides with the set of elements of order \u2a7d2 (A. I. Sozutov, Algebra and Logic, 36,\nno. 5 (1997), 336\u2013348). There are continuously many such groups (A. Yu. Olshanskii,\nGeometry of defining relations in groups, Kluwer, Dordrecht, 1991)."
-}

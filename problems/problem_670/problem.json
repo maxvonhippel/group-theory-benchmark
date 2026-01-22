@@ -1,5 +1,0 @@
-{
-  "page_number": 94,
-  "problem_number": "15.104",
-  "problem_text": "15.104.\nLet n be a positive integer and let w be a group word in the variables x1, x2, . . .. Suppose that a residually finite group G satisfies the identity wn = 1. Does it follow that the verbal subgroup w(G) is locally finite?\nThis is the Restricted Burnside Problem if w = x1. A positive answer was obtained also in a number of other particular cases (P. V. Shumyatsky, Quart. J. Math., 51, no. 4 (2000), 523\u2013528).\nP. V. Shumyatsky"
-}

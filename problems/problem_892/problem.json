@@ -1,5 +1,0 @@
-{
-  "page_number": 122,
-  "problem_number": "18.62",
-  "problem_text": "The spectrum of a finite group is the set of orders of its elements. Let \u03c9 be a finite set of positive integers. A group G is said to be \u03c9-critical if the spectrum of G coincides with \u03c9, but the spectrum of every proper section of G is not equal to \u03c9.\na) Does there exist a number n such that for every finite simple group G the number of \u03c9(G)-critical groups is less than n?\nb) For every finite simple group G, find all \u03c9(G)-critical groups.\nV. D. Mazurov"
-}

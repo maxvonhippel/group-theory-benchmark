@@ -1,6 +1,0 @@
-{
-  "page_number": 32,
-  "problem_number": "9.11",
-  "problem_text": "Is an abelian minimal normal subgroup A of a group G an elementary p-group if the factor-group G/A is a soluble group of finite rank? The answer is affirmative under the additional hypothesis that G/A is locally polycyclic (D. I. Zaitsev, Algebra and Logic, 19, no. 2 (1980), 94\u2013105).\nD. I. Zaitsev",
-  "answer": "The answer is affirmative under the additional hypothesis that G/A is locally polycyclic (D. I. Zaitsev, Algebra and Logic, 19, no. 2 (1980), 94\u2013105)."
-}

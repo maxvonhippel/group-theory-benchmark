@@ -1,5 +1,0 @@
-{
-  "page_number": 61,
-  "problem_number": "12.58",
-  "problem_text": "A generalized quadrangle GQ(s, t) with parameters s, t is by definition an incidence system consisting of points and lines in which every line consists of s + 1 points, every two different lines have at most one common point, each point belongs to t + 1 lines, and for any point a not lying on a line L there is a unique line containing a and intersecting L.\na) Does GQ(4, 11) exist?\nb) Can the automorphism group of a hypothetical GQ(5, 7) contain involutions?\nA. A. Makhn\u00ebv"
-}

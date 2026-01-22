@@ -1,5 +1,0 @@
-{
-  "page_number": 165,
-  "problem_number": "21.23",
-  "problem_text": "A graph is called a cograph if it has no induced subgraph isomorphic to a path with 4 vertices. A graph is said to be chordal if it has no induced cycles with n vertices for every n \u2a7e 4. For a finite group G, the enhanced power graph E(G) is the graph with vertex set G and edges {x, y} for all x \u0338= y \u2208 G such that \u27e8x, y\u27e9 is cyclic.\n(a) For a given integer n \u2a7e 4, determine the set of all finite nonabelian simple groups G such that E(G) has no induced cycles with n vertices.\n(b) Determine the set of all finite nonabelian simple groups G such that E(G) is chordal.\nIn (Preprint, 2025, https://arxiv.org/abs/2510.18073) we proved that if the enhanced power graph of a given finite group is a cograph, then it is also chordal. Also the finite nonabelian simple groups whose enhanced power graph is a cograph are described, and additional information is obtained on finite nonabelian simple groups whose enhanced power graph has no induced cycles with 4 vertices.\nD. Bubboloni, F. Fumagalli, C. E. Praeger"
-}

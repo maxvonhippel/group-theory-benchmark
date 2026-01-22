@@ -1,6 +1,0 @@
-{
-  "page_number": 190,
-  "problem_number": "2.4",
-  "problem_text": "(S. Chase). Suppose that an abelian group A can be written as the union of pure subgroups A\u03b1, \u03b1 \u2208 \u2126, where \u2126 is the first non-denumerable ordinal, A\u03b1 is a free abelian group of denumerable rank, and, if \u03b2 < \u03b1, then A\u03b2 is a direct summand of A\u03b1. Does it follow that A is a free abelian group?\nYu. A. Bogan",
-  "answer": "Not always (P. A. Griffith, Pacific J. Math., 29 (1969), 279\u2013284)."
-}

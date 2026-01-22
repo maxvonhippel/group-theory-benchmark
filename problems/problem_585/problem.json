@@ -1,6 +1,0 @@
-{
-  "page_number": 81,
-  "problem_number": "14.98",
-  "problem_text": "We say that a metric space is a 2-end one (a narrow one), if it is quasiisometric to the real line R (respectively, to a subset of R). All other spaces are said to be wide. Suppose that the Caley graph \u0393 = \u0393(G, A) of a group G with a finite set of generators A in the natural metric contains a 2-end subset, and suppose that there is \u03b5 > 0 such that the complement in \u0393 to the \u03b5-neighbourhood of any connected 2-end subset contains exactly two wide connected components. Is it true that the group G in the word metric is quasiisometric to the Euclidean or hyperbolic plane?\nV. A. Churkin",
-  "answer": "Yes, it is true (J. MacManus, Preprint, 2025, https://arxiv.org/abs/2511.\n10759)."
-}

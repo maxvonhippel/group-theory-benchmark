@@ -1,5 +1,0 @@
-{
-  "page_number": 34,
-  "problem_number": "9.39",
-  "problem_text": "9.39. Let \u2126 be a countable set and m a cardinal number such that \u21350 \u2a7d m \u2a7d 2^\u21350 (we assume Axiom of Choice but not Continuum Hypothesis). Does there exist a permutation group G on \u2126 that has exactly m orbits on the power set P(\u2126)?\nComment of 2001: It is proved (S. Shelah, S. Thomas, Bull. London Math. Soc., 20, no. 4 (1988), 313\u2013318) that the answer is positive in set theory with Martin\u2019s Axiom. The question is still open in ZFC.\nP. M. Neumann"
-}

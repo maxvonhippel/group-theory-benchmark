@@ -1,5 +1,0 @@
-{
-  "page_number": 171,
-  "problem_number": "21.71",
-  "problem_text": "21.71. For a ring R, we say that a group G is of type FL(R) if the trivial RG-module R admits a finite resolution by finitely generated free modules. If R is a field, we define the Euler characteristic of G over R to be the alternating sum of R-ranks of homology groups Hi(G; R).\nDoes there exist a group of type FL(Fi) for two fields F1 and F2 such that the Euler characteristics of the group over the fields F1 and F2 differ?\nD. Kielak"
-}

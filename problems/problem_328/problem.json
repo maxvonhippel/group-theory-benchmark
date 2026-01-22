@@ -1,5 +1,0 @@
-{
-  "page_number": 47,
-  "problem_number": "11.16",
-  "problem_text": "Let Vr be the class of all finite groups G satisfying a law [x, ry] = [x, sy] for some s = s(G) > r. Here [x, 1y] = [x, y] and [x, i+1y] = [[x, iy], y].\n(a) Is there a function f such that every soluble group in Vr has Fitting length < f(r)? For r < 3 see (R. Brandl, Bull. Austral. Math. Soc., 28 (1983), 101\u2013110).\n(b) Is it true that Vr contains only finitely many nonabelian simple groups? This is true for r < 4.\nR. Brandl"
-}

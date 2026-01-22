@@ -1,6 +1,0 @@
-{
-  "page_number": 238,
-  "problem_number": "11.11",
-  "problem_text": "The well-known Baer\u2013Suzuki theorem states that if every two conjugates of an element a of a finite group G generate a finite p-subgroup, then a is contained in a normal p-subgroup.\na) Does such a theorem hold in the class of periodic groups? The case p = 2 is of particular interest.\nb) Does such a theorem hold in the class of binary finite groups?\nA. V. Borovik",
-  "answer": "a) No, it does not hold for p = 2 (V. D. Mazurov, A. Yu. Olshanskii, A. I. Sozutov, Algebra and Logic, 54, no. 2 (2015), 161\u2013166).\nb) Yes, such a theorem does hold for binary finite groups. By the Baer\u2013Suzuki theorem \u27e8a1, b\u27e9is a finite p-group for any element a1 \u2208aG = {ag | g \u2208G} and for any p-element b \u2208G. Now induction on n yields that the product a1 \u00b7 \u00b7 \u00b7 an is a p-element for any a1, . . . , an \u2208aG. (A. I. Sozutov, Siberian Math. J., 41, no. 3 (2000), 561\u2013562.)"
-}

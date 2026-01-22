@@ -1,5 +1,0 @@
-{
-  "page_number": 149,
-  "problem_number": "20.39",
-  "problem_text": "Let F be a non-abelian finitely generated free group, 1 \u0338= w \u2208 F, and n \u2a7e 1. Is the group \u27e8F, t | t^n = w\u27e9 linear of degree 2 over a field of characteristic 0 if w is not a proper power in F?\nThis question is motivated by the following well-known question: is it true that the free Q-group F^Q is linear over a field? (See 13.39(b).)\nA. Jaikin-Zapirain"
-}

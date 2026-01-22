@@ -1,5 +1,0 @@
-{
-  "page_number": 156,
-  "problem_number": "20.86",
-  "problem_text": "20.86. Suppose G is a finite group and p a prime such that the number sp(G) = 1+kp of Sylow p-subgroups P of G is greater than 1. By a theorem of Frobenius the set Gp of all p-elements in G has cardinality |Gp| = |P| \u00b7 fp(G) for some positive integer fp(G), and one easily gets that fp(G) = 1 + \u2113(p \u22121) \u2a7d k \u2212 k\u22121/(p\u22121). Usually, \u2113 < k (but \u2113 = k if k < p). Is always \u2113p \u2a7e kp\u22121?\nRecently P. Gheri showed that fp(G)p \u2a7e sp(G)p\u22121 if G is p-solvable (Ann. Mat. Pura Appl. (4), 200 (2021), 1231\u20131243).\nP. Schmid"
-}

@@ -1,5 +1,0 @@
-{
-  "page_number": 127,
-  "problem_number": "18.108",
-  "problem_text": "A group G is said to have property (\u03c4) if its trivial representation is an isolated point in the subspace of irreducible representations with finite images (in the topological unitary dual space of G). Is it true that there exists a finitely generated group satisfying property (\u03c4) that homomorphically maps onto every finite simple group?\nThe motivation is the theorem in (E. Breuillard, B. Green, M. Kassabov, A. Lubotzky, N. Nikolov, T. Tao) saying that there are \u03f5 > 0 and k such that every finite simple group G contains a generating set S with at most k elements such that the Cayley graph of G with respect to S is an \u03f5-expander. In (M. Ershov, A. Jaikin-Zapirain, M. Kassabov, Mem. Amer. Math. Soc., 1186, 2017) it is proved that there exists a group with Kazhdan\u2019s property (T) that maps onto every simple group of Lie type of rank \u2a7e 2. (A group G is said to have Kazhdan\u2019s property (T) if its trivial representation is an isolated point in the unitary dual space of G.)\nA. Jaikin-Zapirain"
-}

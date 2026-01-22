@@ -1,5 +1,0 @@
-{
-  "page_number": 178,
-  "problem_number": "21.120",
-  "problem_text": "A pro-p group is (relatively) strictly finitely presented if it is the pro-p completion of a group that is finitely presented (respectively, finitely presented in some finitely-based variety of groups). A pro-p group is finitely axiomatizable if it is determined up to isomorphism by a single sentence in the first-order language of group theory.\n(a) Does there exist a (relatively) strictly finitely presented pro-p group that is not finitely axiomatizable in the class of all pro-p groups?\n(b) In particular, is every finitely generated free pro-p group finitely axiomatizable?\nSee (A. Nies, K. Tent, D. Segal, Proc. London Math. Soc. (3), 123 (2021), 597\u2013635; D. Segal, Preprint, 2025, https://arxiv.org/abs/2505.04816).\nD. Segal"
-}

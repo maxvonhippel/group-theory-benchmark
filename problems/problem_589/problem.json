@@ -1,6 +1,0 @@
-{
-  "page_number": 82,
-  "problem_number": "14.102",
-  "problem_text": "(V. Lin). Let Bn be the braid group on n strings, and let n > 4.\na) Does Bn have any non-trivial non-injective endomorphisms with non-cyclic images?\nb) Is it true that every non-trivial endomorphism of the derived subgroup [Bn, Bn] is an automorphism?\nV. Shpilrain",
-  "answer": "*a) No, for n \u2a7e5 any non-injective homomorphism Bn \u2192Bn has cyclic image (F. Castel, Geometric representations of the braid groups, (Aste\u0301risque, 378), Paris, 2016, for n \u2a7e6, and L. Chen, K. Kordek, D. Margalit, Preprint, 2019, https://arxiv.org/abs/1910.00712 for n = 5).\n*b) Yes, it is true for n \u2a7e5 (S. Orevkov, Ann. Fac. Sci. Toulouse. Math., 33, no. 1 (2024), 105\u2013121, extending the result for n \u2a7e7 in K. Kordek, D. Margalit, Bull. London Math. Soc., 54, no. 1 (2022), 95\u2013111)."
-}

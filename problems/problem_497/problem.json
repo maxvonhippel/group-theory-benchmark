@@ -1,6 +1,0 @@
-{
-  "page_number": 68,
-  "problem_number": "13.43",
-  "problem_text": "\u221713.43. (G. R. Robinson). Let G be a finite group and B be a p-block of characters\nof G. Conjecture: If the defect group D = D(B) of the block B is non-abelian, and\nif |D : Z(D)| = p^a, then each character in B has height strictly less than a.\nG. R. Robinson\u2019s comment of 2020: the conjecture is proved mod CFSG for p \u2260 2\nin (Z. Feng, C. Li, Y. Liu, G. Malle, J. Zhang, Compos. Math., 155, no. 6 (2019),\n1098\u20131117).\nJ. Olsson\n\u2217The conjecture is proved (R. Kessar, G. Malle, J. London Math. Soc. (2), 111,\nno. 2 (2025), Article ID e70076, https://arxiv.org/abs/2311.13510).",
-  "answer": "The conjecture is proved (R. Kessar, G. Malle, J. London Math. Soc. (2), 111, no. 2 (2025), Article ID e70076, https://arxiv.org/abs/2311.13510)."
-}

@@ -1,5 +1,0 @@
-{
-  "page_number": 72,
-  "problem_number": "14.7",
-  "problem_text": "14.7. Let \u0393g be the fundamental group of a closed surface of genus g \u2a7e 2. For each finite system S of generators of \u0393g, let \u03b2S(n) denote the number of elements of \u0393g which can be written as products of at most n elements of S \u222a S\u22121, and let \u03c9(\u0393g, S) = lim sup n\u2192\u221e np \u03b2S(n) be the growth rate of the sequence (\u03b2S(n))n\u2a7e0. Compute the infimum \u03c9(\u0393g) of the \u03c9(\u0393g, S) over all finite sets of generators of \u0393g.\nIt is easy to see that, for a free group Fk of rank k \u2a7e 2, the corresponding infimum is \u03c9(Fk) = 2k \u2212 1 (M. Gromov, Structures m\u00e9triques pour les vari\u00e9t\u00e9s riemanniennes, Cedic/F. Nathan, Paris, 1981, Ex. 5.13). As any generating set of \u0393g contains a subset of 2g \u2212 1 elements generating a subgroup of infinite index in \u0393g with abelianization Z2g\u22121, hence a subgroup which is free of rank 2g \u2212 1, it follows that \u03c9(\u0393g) \u2a7e 4g \u2212 3.\nP. de la Harpe"
-}

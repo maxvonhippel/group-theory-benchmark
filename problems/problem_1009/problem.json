@@ -1,5 +1,0 @@
-{
-  "page_number": 139,
-  "problem_number": "19.79",
-  "problem_text": "19.79. (T. Springer). Let G be a group. Suppose that for every integer n > 0 the\ngroup G has a unique (up to isomorphism) irreducible complex linear representation\nof dimension n. (Note that G = SL(2, Q) has these properties, by a theorem of Borel\u2013\nTits (Ann. Math., 97 (1973), 499\u2013571).) Is it true that G has a normal subgroup N\nsuch that G/N is isomorphic to SL(2, Q)?\nJ.-P. Serre"
-}

@@ -1,6 +1,0 @@
-{
-  "page_number": 236,
-  "problem_number": "10.48",
-  "problem_text": "Let V be a vector space of finite dimension over a field of prime order. A subset R of GL(V ) \u222a{0} is called regular if |R| = |V |, 0, 1 \u2208 R and vx \u0338= vy for any non-trivial vector v \u2208 V and any distinct elements x, y \u2208 R. It is obvious that \u03c4, \u03b5, \u00b5g transform a regular set into a regular one, where x\u03c4 = x\u22121 for x \u0338= 0 and 0\u03c4 = 0, x\u03b5 = 1 \u2212 x, x\u00b5g = xg\u22121 and g is a non-zero element of the set being transformed. We say that two regular subsets are equivalent if one can be obtained from the other by a sequence of such transformations.\n\na) Study the equivalence classes of regular subsets.\n\nb) Is every regular subset equivalent to a subgroup of GL(V ) together with 0?\n\nN. D. Podufalov",
-  "answer": "a) They were studied (N. D. Podufalov, Algebra and Logic, 30, no. 1 (1991), 62\u201369).\n\nb) No. A regular set is closed with respect to multiplication if and only if the corresponding (\u03b3, \u03b3)-transitive plane is defined over a near-field. (N. D. Podufalov, Letter of February, 13, 1989.)"
-}

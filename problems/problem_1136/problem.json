@@ -1,5 +1,0 @@
-{
-  "page_number": 158,
-  "problem_number": "20.104",
-  "problem_text": "(Well-known questions). Suppose that a group G is finitely generated and decomposable into a direct product G = G1 \u00d7 G2.\na) Is it true that the elementary theory of G is decidable if and only if the elementary theories of the groups G1 and G2 are decidable?\nb) Is it true that the universal theory of G is decidable if and only if the universal theories of the groups G1 and G2 are decidable?\nAn affirmative answer to question a) for almost soluble groups follows from (G. A. Noskov, Izv. Akad. Nauk SSSR, Ser. Mat., 47, no. 3 (1983), 498\u2013517).\nE. I. Timoshenko"
-}

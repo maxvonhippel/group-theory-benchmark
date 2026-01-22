@@ -1,6 +1,0 @@
-{
-  "page_number": 277,
-  "problem_number": "18.94",
-  "problem_text": "Let G be a group without involutions, a an element of it that is not a square of any element of G, and n an odd positive integer. Is it true that the quotient G/\u27e8(a^n)^G\u27e9 does not contain involutions? A. I. Sozutov",
-  "answer": "No, not always, as shown by an example of V. I. Trofimov; another example: the quotient of G = \u27e8a, b | a^2 = b^2\u27e9 by \u27e8a^G\u27e9 has order 2."
-}

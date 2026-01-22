@@ -1,5 +1,0 @@
-{
-  "page_number": 99,
-  "problem_number": "16.60",
-  "problem_text": "If G is a finite group, let T(G) be the sum of the degrees of the irreducible complex representations of G, T(G) = \u2211_{i=1}^{k(G)} d_i, where G has k(G) conjugacy classes. If \u03b1 \u2208 Aut G, let S_\u03b1 = {g \u2208 G | \u03b1(g) = g^{-1}}. Is it true that T(G) \u2a7e |S_\u03b1| for all \u03b1 \u2208 Aut G? D. MacHale"
-}

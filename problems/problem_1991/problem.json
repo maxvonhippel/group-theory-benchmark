@@ -1,6 +1,0 @@
-{
-  "page_number": 279,
-  "problem_number": "19.80",
-  "problem_text": "19.80. For a periodic group G, let \u03c0e(G) denote the set of orders of elements of G. A periodic group G is said to be an OCn-group if \u03c0e(G) = {1, 2, . . . , n}. Is it true that every OC7-group is isomorphic to the alternating group A7?\nFor finite groups, the answer is affirmative.\nW. J. Shi",
-  "answer": "Yes, it is true (E. Jabara, A. S. Mamontov, Siberian Math. J., 62, no. 1 (2021), 94\u2013104)."
-}

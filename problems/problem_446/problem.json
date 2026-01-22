@@ -1,5 +1,0 @@
-{
-  "page_number": 61,
-  "problem_number": "12.62",
-  "problem_text": "A Frobenius group is a transitive permutation group in which the stabilizer of any two points is trivial. Does there exist a Frobenius group of infinite degree which is primitive as permutation group, and in which the stabilizer of a point is cyclic and has only finitely many orbits?\nConjecture:\nNo.\nNote that such a group cannot be 2-transitive (Gy. K\u00e1rolyi, S. J. Kov\u00e1cs, P. P. P\u00e1lfy, Aequationes Math., 39 (1990), 161\u2013166; V. D. Mazurov, Siberian Math. J., 31 (1990), 615\u2013617; P. M. Neumann, P. J. Rowley, in: Geometry and cohomology in group theory (London Math. Soc. Lect. Note Ser., 252), Cambridge Univ. Press, 1998, 291\u2013295).\nP. M. Neumann"
-}

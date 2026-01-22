@@ -1,6 +1,0 @@
-{
-  "page_number": 183,
-  "problem_number": "1.13",
-  "problem_text": "(J. Stallings). If a finitely presented group is trivial, is it always possible to replace one of the defining words by a primitive element without changing the group?\nM. D. Greendlinger",
-  "answer": "No, not always (S. V. Ivanov, Invent. Math., 165, no. 3 (2006), 525\u2013549)."
-}

@@ -1,5 +1,0 @@
-{
-  "page_number": 168,
-  "problem_number": "21.48",
-  "problem_text": "A quasimorphism on a group G is a function f : G \u2192 R such that the quantity sup_{g,h} |f(g) + f(h) \u2212 f(gh)| is finite. A quasimorphism is homogeneous if it restricts to a homomorphism on every cyclic subgroup of G. Let G be a group admitting an unbounded homogeneous quasimorphism G \u2192 R that is not a homomorphism. Must G contain a non-abelian free subgroup?\nF. Fournier-Facio"
-}

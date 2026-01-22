@@ -1,5 +1,0 @@
-{
-  "page_number": 141,
-  "problem_number": "19.107",
-  "problem_text": "Let A E be the smallest class of locally compact groups such that\n(1) A E contains the compact groups and the discrete amenable groups;\n(2) A E is closed under taking closed subgroups, Hausdorff quotients, directed unions of open subgroups, and group extensions.\nIs every amenable locally compact group an element of A E ?\n(A negative answer would follow from a positive answer to 19.21.)\nP. Wesolek"
-}

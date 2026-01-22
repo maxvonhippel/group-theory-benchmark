@@ -1,6 +1,0 @@
-{
-  "page_number": 211,
-  "problem_number": "5.6",
-  "problem_text": "If R is a finitely generated integral domain of characteristic p > 0, does the profinite (ideal) topology of R induce the profinite topology on the group of units of R? It does for p = 0.\nB. A. F. Wehrfritz",
-  "answer": "Yes, it does (D. Segal, Bull. London Math. Soc., 11 (1979), 186\u2013190)."
-}

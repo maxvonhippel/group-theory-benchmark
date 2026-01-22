@@ -1,5 +1,0 @@
-{
-  "page_number": 88,
-  "problem_number": "15.48",
-  "problem_text": "Let G be any non-trivial finite group, and let X be any generating set for G. Is it true that every element of G can be obtained from X using fewer than 2 log2 |G| multiplications? (When counting the number of mutiplications on a path from the generators to a given element, at each step one can use the elements obtained at previous steps.)\nC. R. Leedham-Green"
-}

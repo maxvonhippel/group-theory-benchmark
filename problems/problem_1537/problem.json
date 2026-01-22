@@ -1,6 +1,0 @@
-{
-  "page_number": 213,
-  "problem_number": "5.29",
-  "problem_text": "Consider a group G given by a presentation with m generators and n defining relations, where m \u2a7en.\nDo some m \u2212n of the given generators generate a free subgroup of G?\nR. C. Lyndon",
-  "answer": "Yes, they do (N. S. Romanovski\u02d8\u0131, Algebra and Logic, 16 (1977), 62\u201368)."
-}

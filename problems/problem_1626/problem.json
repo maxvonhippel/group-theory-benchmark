@@ -1,6 +1,0 @@
-{
-  "page_number": 226,
-  "problem_number": "8.32",
-  "problem_text": "Suppose G is a finitely generated group such that, for any set \u03c0 of primes and any subgroup H of G, if G/HG\u03c0 is a finite \u03c0-group then |G : H| is a finite \u03c0-number. Is G nilpotent? This is true for finitely generated soluble groups.\nJ. C. Lennox",
-  "answer": "Not always (V. N. Obraztsov, J. Austral. Math. Soc. (A), 61, no. 2 (1996), 267\u2013288)."
-}

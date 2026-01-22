@@ -1,5 +1,0 @@
-{
-  "page_number": 41,
-  "problem_number": "10.40",
-  "problem_text": "(H. Bass). Let G be a group, e an idempotent matrix over ZG and let tr e = P g\u2208G egg, eg \u2208 Z. Strong conjecture: for any non-trivial x \u2208 G, the equation P g\u223cx eg = 0 holds where \u223c denotes conjugacy in G. Weak conjecture: P g\u2208G eg = 0. The strong conjecture has been proved for finite, abelian and linear groups and the weak conjecture has been proved for residually finite groups. H. Bass\u2019 Comment of 2005: Significant progress has been made; a good up-to-date account is in the paper (A. J. Berrick, I. Chatterji, G. Mislin, Math. Ann., 329 (2004), 597\u2013621). G. A. Noskov"
-}

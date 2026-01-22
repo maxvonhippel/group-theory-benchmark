@@ -1,5 +1,0 @@
-{
-  "page_number": 47,
-  "problem_number": "11.15",
-  "problem_text": "It is known that for each prime number p there exists a series a1, a2, . . . of words in two variables such that the finite group G has abelian Sylow p-subgroups if and only if ak(G) = 1 for almost all k. For p = 2 such a series is known explicitly (R. Brandl, J. Austral. Math. Soc., 31 (1981), 464\u2013469). What about p > 2?\nR. Brandl"
-}

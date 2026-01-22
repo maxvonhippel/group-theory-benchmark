@@ -1,5 +1,0 @@
-{
-  "page_number": 121,
-  "problem_number": "18.50",
-  "problem_text": "18.50. Let n \u2208 N. Is it true that for every k \u2208 {1, . . . , n!} there is some group G and pairwise distinct elements g1, . . . , gn \u2208 G such that the set {g\u03c3(1) \u00b7 \u00b7 \u00b7 g\u03c3(n) | \u03c3 \u2208 Sn} of all products of the gi obtained by permuting the factors has cardinality k?\nS. Kohl"
-}

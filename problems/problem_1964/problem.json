@@ -1,6 +1,0 @@
-{
-  "page_number": 275,
-  "problem_number": "18.30",
-  "problem_text": "A subgroup H of a group G is called P-subnormal in G if either H = G, or there is a chain of subgroups H0 \u2282 H1 \u2282 \u00b7 \u00b7 \u00b7 \u2282 Hn\u22121 \u2282 Hn = G such that |Hi : Hi\u22121| is a prime for all i = 1, . . . , n. Must a finite group be soluble if every Shmidt subgroup of it is P-subnormal?\nA. F. Vasil\u2019ev, T. I. Vasil\u2019eva, V. N. Tyutyanov",
-  "answer": "Yes, it must (V. N. Tyutyanov, Probl. Fiz. Mat. Tekhn., 2015, no. 1 (22), 88\u201391 (Russian))."
-}

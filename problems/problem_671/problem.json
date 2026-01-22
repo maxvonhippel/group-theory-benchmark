@@ -1,5 +1,0 @@
-{
-  "page_number": 95,
-  "problem_number": "16.1",
-  "problem_text": "16.1. Let G be a finite non-abelian group, and Z(G) its centre. One can associate a graph \u0393G with G as follows: take G\\Z(G) as vertices of \u0393G and join two vertices x and y if xy \u0338= yx. Let H be a finite non-abelian group such that \u0393G \u223c= \u0393H.\n\nb) If H is nilpotent, is it true that G is nilpotent?\nComment of 2009:\nThis is true if |H| = |G| (A. Abdollahi, S. Akbari, H. R. Maimani, J. Algebra, 298 (2006), 468\u2013492).\nComments of 2023: This is true if |Z(H)| \u2a7e|Z(G)| (H. Shahverdi, J. Algebra, 642 (2024), 60\u201364), using the earlier result under the additional assumption that the centralizer of every non-central element in H is abelian (V. Grazian, C. Monetta, J. Algebra, 633 (2023), 389\u2013402).\n\nc) If H is solvable, is it true that G is solvable?\nA. Abdollahi, S. Akbari, H. R. Maimani"
-}

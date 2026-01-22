@@ -1,6 +1,0 @@
-{
-  "page_number": 205,
-  "problem_number": "4.20",
-  "problem_text": "a) Let F be a free group, and N a normal subgroup of it. Is it true that the Cartesian square of N is m-reducible to N (that is, there is an algorithm that from a pair of words w1, w2 \u2208F constructs a word w \u2208F such that w1 \u2208N and w2 \u2208N if and only if w \u2208N)?\n\nb) (Well-known problem). Do there exist finitely presented groups in which the word problem has an arbitrary pre-assigned recursively enumerable m-degree of unsolvability?\n\nM. K. Valiev",
-  "answer": "a) No, it is not true (O. V. Belegradek, Siberian Math. J., 19 (1978), 867\u2013870).\n\nb) No, there exist m-degrees which do not contain the word problem of any recursively presented cancellation semigroup (C. G. Jockusch, jr., Z. Math. Logik Grundlag. Math., 26, no. 1 (1980), 93\u201395)."
-}

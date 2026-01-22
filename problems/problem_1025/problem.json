@@ -1,6 +1,0 @@
-{
-  "page_number": 141,
-  "problem_number": "19.103",
-  "problem_text": "Is it true that an intersection of compressed subgroups is compressed?\nIt is known that arbitrary intersections of inert subgroups are inert.\nE. Ventura",
-  "answer": "Yes, it is true (A. Jaikin-Zapirain, Preprint, 2024, https://arxiv.org/pdf/2403.09515)."
-}

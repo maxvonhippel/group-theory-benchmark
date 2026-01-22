@@ -1,6 +1,0 @@
-{
-  "page_number": 239,
-  "problem_number": "11.24",
-  "problem_text": "A Fitting class F is said to be local if there exists a group function f (for definition see (L. A. Shemetkov, Formations of Finite Groups, Moscow, Nauka, 1978 (Russian)) such that f(p) is a Fitting class for every prime number p and F = G\u03c0(F) T(T p\u2208\u03c0(F) f(p)NpGp\u2032). Is every hereditary Fitting class of finite groups local?\nN. T. Vorob\u2019\u00a8ev",
-  "answer": "No, not every (L. A. Shemetkov, A. F. Vasil'yev, Abstracts of the Conf. of Mathematicians of Belarus\u2019, Part 1, Grodno, 1992, p. 56 (Russian); S. F. Kamornikov, Math. Notes, 55, no. 6 (1994), 586\u2013588)."
-}

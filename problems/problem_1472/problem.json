@@ -1,6 +1,0 @@
-{
-  "page_number": 205,
-  "problem_number": "4.10",
-  "problem_text": "A group G is called locally indicable if every non-trivial finitely generated subgroup of G has an infinite cyclic factor group. Is every torsion-free one-relator group locally indicable?\n\nG. Baumslag",
-  "answer": "Yes, it is (S. D. Brodski\u02d8\u0131, Dep. no. 2214-80, VINITI, Moscow, 1980 (Russian))."
-}

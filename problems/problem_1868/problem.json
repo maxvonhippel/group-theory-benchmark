@@ -1,6 +1,0 @@
-{
-  "page_number": 260,
-  "problem_number": "15.27",
-  "problem_text": "15.27. Is it possible that Aut G \u223c= Aut H for a finite p-group G of order > 2 and a\nproper subgroup H < G?\nYa. G. Berkovich",
-  "answer": "Yes, it is possible (T. Li, Arch. Math., 92 (2009), 287\u2013290) for |G| = 2|H| = 32."
-}

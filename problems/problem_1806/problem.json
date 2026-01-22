@@ -1,6 +1,0 @@
-{
-  "page_number": 250,
-  "problem_number": "13.26",
-  "problem_text": "Is it true that a countable topological group of exponent 2 with unique free ultrafilter converging to the identity has a basis of neighborhoods of the identity consisting of subgroups?\nE. G. Zelenyuk, I. V. Protasov",
-  "answer": "Assuming Martin\u2019s Axiom, the answer is \u201cNo\u201d (Ye. Zelenyuk, Adv. Math., 229, no. 4 (2012), 2415\u20132426)."
-}

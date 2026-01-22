@@ -1,5 +1,0 @@
-{
-  "page_number": 80,
-  "problem_number": "14.83",
-  "problem_text": "We say that an infinite simple group G is a monster of the third kind if for every non-trivial elements a, b, of which at least one is not an involution, there are infinitely many elements g \u2208 G such that \u27e8a, bg\u27e9 = G. (Compare with V. P. Shunkov\u2019s definitions in Archive, 6.63, 6.64.) Is it true that every simple quasi-Chernikov group is a monster of the third kind? This is true for quasi-finite groups (A. I. Sozutov, Algebra and Logic, 36, no. 5 (1997), 336\u2013348). (We say that a non-\u03c3 group is quasi-\u03c3 if all of its proper subgroups have the property \u03c3.)\nA. I. Sozutov"
-}

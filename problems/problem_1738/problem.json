@@ -1,6 +1,0 @@
-{
-  "page_number": 241,
-  "problem_number": "11.64",
-  "problem_text": "Let \u03c0(G) denote the set of prime divisors of the order of a finite group G. Are there only finitely many finite simple groups G, different from alternating groups, which have a proper subgroup H such that \u03c0(H) = \u03c0(G)?\nV. S. Monakhov",
-  "answer": "No, there are infinitely many such groups. If G = S4k(2s) and H \u223c= \u2126\u22124k(2s), then \u03c0(G) = \u03c0(H) (V. I. Zenkov, Letter of March, 10, 1994.)"
-}

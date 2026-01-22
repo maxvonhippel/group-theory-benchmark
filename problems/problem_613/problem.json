@@ -1,6 +1,0 @@
-{
-  "page_number": 86,
-  "problem_number": "*15.40",
-  "problem_text": "Let N be a nilpotent subgroup of a finite simple group G. Is it true that there exists a subgroup N1 conjugate to N such that N \u2229 N1 = 1?\nThe answer is known to be affirmative if N is a p-group. Comment of 2013: an affirmative answer for alternating groups is obtained in (R. K. Kurmazov, Siberian Math. J., 54, no. 1 (2013), 73\u201377).\nE. P. Vdovin",
-  "answer": "Yes it is true; moreover, for any two nilpotent subgroups H, K of a (non-abelian) finite simple group G there is g \u2208 G such that H \u2229 K^g = 1 (T. C. Burness, H. Y. Huang, Preprint, 2025, https://arxiv.org/abs/2508.03479)."
-}

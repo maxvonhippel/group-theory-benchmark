@@ -1,6 +1,0 @@
-{
-  "page_number": 221,
-  "problem_number": "7.8",
-  "problem_text": "7.8. Suppose that H is a normal subgroup of a group G, where H and G are subdirect\nproducts of the same n groups G1, . . . , Gn. Does the nilpotency class of G/H increase\nwith n?\nYu. M. Gorchakov",
-  "answer": "Yes, it does (E. I. Khukhro, Sibirsk. Mat. Zh., 23, no. 6 (1982), 178\u2013180 (Russian))."
-}

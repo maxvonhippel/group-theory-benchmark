@@ -1,6 +1,0 @@
-{
-  "page_number": 280,
-  "problem_number": "19.81",
-  "problem_text": "(Well-known problem). Is the conjugacy problem in the braid group Bn in the class NP (that is, decidable in nondeterministic polynomial time with respect to the maximum of the lengths |u|, |v|, where u, v are the input braid words)? A stronger question: given two conjugate elements of Bn represented by braid words of lengths \u2a7d m, is there a conjugator whose length is bounded by a polynomial function of m? V. Shpilrain",
-  "answer": "Yes, there is such a conjugator, even for any mapping class groups (J. Tao, Geom. Funct. Anal., 23, no. 1 (2013), 415\u2013466)."
-}

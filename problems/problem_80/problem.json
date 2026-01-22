@@ -1,5 +1,0 @@
-{
-  "page_number": 14,
-  "problem_number": "4.55",
-  "problem_text": "Let G be a finite group, and Z(p) the localization at p. Can every projective Z(p)G-module be uniquely, up to permutations and isomorphisms, written as a direct sum of indecomposable projective Z(p)G-modules?\nIt is known that the category of finitely generated projective Z(p)G-modules is not a Krull\u2013Schmidt category (S. M. Woods, Canadian J. Math., 26, no. 1 (1974), 121\u2013129). See also (D. Johnston, D. Rumynin, J. Algebra, to appear, https://arxiv.org/pdf/2507.21316).\nK. W. Roggenkamp"
-}

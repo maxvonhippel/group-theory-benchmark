@@ -1,6 +1,0 @@
-{
-  "page_number": 130,
-  "problem_number": "19.8",
-  "problem_text": "19.8. A word in an alphabet A = {a1, a2, . . . , an} is called a palindrome if it reads the same from left to right and from right to left.\nLet k a non-negative integer.\nA word in the alphabet A is called an almost k-palindrome if it can be transformed into a palindrome by changing \u2a7dk letters in it. (So an almost 0-palindrome is a palindrome.) Let elements of a free group F2 = \u27e8x, y\u27e9 be represented as words in the alphabet {x\u00b11, y\u00b11}. Do there exist positive integers m and c such that every element in F2 is a product of \u2a7dc almost m-palindromes?\nIt is known that for m = 0 there is no such a number c.\nV. G. Bardakov",
-  "answer": "No, there are no such integers (M. Staiger, J. Algebra, 659 (2024), 475\u2013481)."
-}

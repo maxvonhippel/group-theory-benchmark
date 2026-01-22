@@ -1,5 +1,0 @@
-{
-  "page_number": 55,
-  "problem_number": "11.116",
-  "problem_text": "The dimension of a partially ordered set \u27e8P, \u2a7d\u27e9 is, by definition, the least cardinal number \u03b4 such that the relation \u2a7d is an intersection of \u03b4 relations of linear order on P. Is it true that, for any Chernikov group which does not contain a direct product of two quasicyclic groups over the same prime number, the subgroup lattice has finite dimension? Expected answer: yes.\nL. N. Shevrin"
-}

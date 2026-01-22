@@ -1,6 +1,0 @@
-{
-  "page_number": 235,
-  "problem_number": "10.26",
-  "problem_text": "a) Does there exist an algorithm which decides, for given elements a, b and an automorphism \u03c6 of a free group, whether the equation ax\u03c6 = xb is soluble in this group? This question seems to be useful for solving the problem of equivalence of two knots.\nG. S. Makanin",
-  "answer": "a) Yes, it does (O. Bogopolski, A. Martino, O. Maslakova, E. Ventura, Bull. London Math. Soc., 38, no. 5 (2006), 787\u2013794); further generalizations and applications are in (O. Bogopolski, A. Martino, E. Ventura, Trans. Amer. Math. Soc., 362 (2010), 2003\u20132036)."
-}

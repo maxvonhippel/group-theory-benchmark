@@ -1,6 +1,0 @@
-{
-  "page_number": 255,
-  "problem_number": "14.33",
-  "problem_text": "14.33. Does there exist a finitely presented pro-p-group (p being a prime) which contains an isomorphic copy of every countably based pro-p-group?\nR. I. Grigorchuk",
-  "answer": "Yes, there does: the Nottingham group over Fp for p > 2, which was shown to be finitely presented in (M. V. Ershov, J. London Math. Soc., 71 (2005), 362\u2013378). (M. Ershov, Letter of 19.10.2009.)"
-}

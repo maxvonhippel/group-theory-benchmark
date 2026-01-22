@@ -1,5 +1,0 @@
-{
-  "page_number": 43,
-  "problem_number": "10.61",
-  "problem_text": "Suppose that H is a proper subgroup of a group G, a \u2208 H, a^2 \u0338= 1 and for every g \u2208 G \\ H the subgroup \u27e8a, ag\u27e9 is a Frobenius group whose complement contains a. Does the set-theoretic union of the kernels of all Frobenius subgroups of G with complement \u27e8a\u27e9 constitute a subgroup? For definitions see 6.55; see also (A. I. Sozutov, Algebra and Logic, 34, no. 5 (1995), 295\u2013305). Editors\u2019 comment (2005): The answer is affirmative if the order of a is even (A. M. Popov, A. I. Sozutov, Algebra and Logic, 44, no. 1 (2005), 40\u201345) or if the order of a is not 3 or 5 and the group \u27e8a, ag\u27e9 is finite for any g \u0338\u2208 H (A. M. Popov, Algebra and Logic, 43, no. 2 (2004), 123\u2013127). A. I. Sozutov"
-}

@@ -1,5 +1,0 @@
-{
-  "page_number": 52,
-  "problem_number": "11.69",
-  "problem_text": "A group G acting on a set \u2126 will be said to be 1-{2}-transitive if it acts transitively on the set \u21261,{2} = {(\u03b1, {\u03b2, \u03b3}) | \u03b1, \u03b2, \u03b3 distinct}. Thus G is 1-{2}-transitive if and only if it is transitive and a stabilizer G\u03b1 is 2-homogeneous on \u2126\\ {\u03b1}. The problem is to classify all (infinite) permutation groups that are 1-{2}-transitive but not 3-transitive.\nP. M. Neumann"
-}

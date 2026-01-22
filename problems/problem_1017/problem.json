@@ -1,5 +1,0 @@
-{
-  "page_number": 140,
-  "problem_number": "19.93",
-  "problem_text": "19.93. Conjecture: There exists a function f : N \u00d7 N \u2192N such that, if G is a finite p-group with d generators and G has no epimorphic images isomorphic to the wreath product Cp \u2240Cp, then each factor of the p-lower central series of G has order bounded above by f(p, d).\nIt is interesting to compare this conjecture with the celebrated characterization of Aner Shalev of finitely generated p-adic analytic pro-p-groups.\nP. Spiga"
-}

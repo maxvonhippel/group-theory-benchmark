@@ -1,5 +1,0 @@
-{
-  "page_number": 32,
-  "problem_number": "9.1",
-  "problem_text": "A group G is said to be potent if, to each x \u2208 G and each positive integer n dividing the order of x (we suppose \u221e is divisible by every positive integer), there exists a finite homomorphic image of G in which the image of x has order precisely n. Is the free product of two potent groups again potent?\nR. B. J. T. Allenby"
-}

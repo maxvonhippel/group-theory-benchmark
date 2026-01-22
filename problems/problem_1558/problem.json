@@ -1,6 +1,0 @@
-{
-  "page_number": 216,
-  "problem_number": "6.6",
-  "problem_text": "Let P, Q be permutation representations of a finite group G with the same character. Suppose P(G) is a primitive permutation group. Is Q(G) necessarily primitive? The answer is known to be affirmative if G is soluble. H. Wielandt",
-  "answer": "No, not necessarily (mod CFSG) (R. M. Guralnick, J. Saxl, in: Groups, Combinatorics, Geometry, Proc. Durham, 1990, Cambridge Univ. Press, 1992, 364\u2013367)."
-}

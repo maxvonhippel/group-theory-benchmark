@@ -1,6 +1,0 @@
-{
-  "page_number": 203,
-  "problem_number": "3.40",
-  "problem_text": "(I. R. Shafarevich). Let SL2(Z)\u02c6and SL2(Z)\u2212denote the completions of SL2(Z) determined by all subgroups of finite index and all congruence subgroups, respectively, and let \u03c8 : SL2(Z)\u02c6 \u2192 SL2(Z)\u2212 be the natural homomorphism. Is Ker \u03c8 a free profinite group? V. P. Platonov",
-  "answer": "Yes, it is (O. V. Mel\u2019nikov, Soviet Math. Dokl., 17 (1976), 867\u2013870)."
-}

@@ -1,5 +1,0 @@
-{
-  "page_number": 175,
-  "problem_number": "21.94",
-  "problem_text": "21.94. The Gruenberg\u2013Kegel graph (or the prime graph) GK(G) of a finite group G is a labelled graph with vertex set consisting of all prime divisors of the order of G in which different vertices p and q are adjacent if and only if G contains an element of order pq. Let GK(G) denote the abstract graph obtained from GK(G) by removing all labels. A finite group G is said to be recognizable by the isomorphism type of its Gruenberg\u2013Kegel graph if there are no finite groups H \u0338\u223c= G with GK(H) isomorphic to GK(G).\nAre there infinitely many (pairwise non-isomorphic) finite groups which are recognizable by the isomorphism type of the Gruenberg\u2013Kegel graph?\nN. V. Maslova"
-}

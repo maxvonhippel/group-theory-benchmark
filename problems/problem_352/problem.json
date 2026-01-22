@@ -1,5 +1,0 @@
-{
-  "page_number": 50,
-  "problem_number": "11.50",
-  "problem_text": "11.50. Let A, C be abelian groups. If A[n] = 0, i. e. for a \u2208A, na = 0 implies a = 0, then the sequence\nHom (C, A)\nnHom (C, A)\n\u21a3Hom\n( C/nC , A/nA )\n\u21a0Ext (C, A)[n]\nis exact. Given f \u2208Hom ( C, A/nA ) = Hom ( C/nC , A/nA ) the corresponding extension Xf is obtained as a pull-back\nA \u21a3 Xf \u21a0 C\n\u2193   \u2193   \u2193\nA \u21a3 A \u21a0 A/nA .\nUse this scheme to classify certain extensions of A by C. The case nC = 0, A being torsion-free is interesting. Here Ext (C, A)[n] = Ext (C, A). (See E. L. Lady, A. Mader, J. Algebra, 140 (1991), 36\u201364.)\nA. Mader"
-}

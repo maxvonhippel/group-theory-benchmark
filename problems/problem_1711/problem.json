@@ -1,6 +1,0 @@
-{
-  "page_number": 237,
-  "problem_number": "11.4",
-  "problem_text": "Is it true that the lattice of centralizers in a group is modular if it is a sublattice of the lattice of all subgroups? This is true for finite groups. V. A. Antonov",
-  "answer": "No, not always (V. N. Obraztsov, J. Algebra, 199, no. 1 (1998), 337\u2013343)."
-}

@@ -1,5 +1,0 @@
-{
-  "page_number": 102,
-  "problem_number": "16.88",
-  "problem_text": "(G. M. Bergman). The width of a group G with respect to a generating set X means the supremum over all g \u2208 G of the least length of a group word in elements of X expressing g. A group G has finite width if the width of G with respect to every generating set is finite. Does there exist a countably infinite group of finite width? All known infinite groups of finite width (infinite permutation groups, infinite-dimensional general linear groups, and some other groups) are uncountable (G. M. Bergman, Bull. London Math. Soc., 38 (2006), 429\u2013440, and references therein). V. Tolstykh"
-}

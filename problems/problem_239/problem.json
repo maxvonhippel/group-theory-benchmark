@@ -1,5 +1,0 @@
-{
-  "page_number": 34,
-  "problem_number": "9.42",
-  "problem_text": "\u22179.42. Let \u2126 be a countable set and let D be the set of total order relations on \u2126 for which \u2126 is order-isomorphic with Q. Does there exist a transitive proper subgroup G of Sym(\u2126) which is transitive on D?\nP. M. Neumann\n\u2217An affirmative answer is consistent with the ZFC axioms of set theory (S. M. Corson, S. Shelah, Preprint, 2025, https://arxiv.org/abs/2503.12997)."
-}

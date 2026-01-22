@@ -1,5 +1,0 @@
-{
-  "page_number": 149,
-  "problem_number": "20.37",
-  "problem_text": "Is it true that for every finite group G and every factorization |G| = ab there exist subsets A, B \u2286 G with |A| = a and |B| = b such that G = AB? Cf. 19.35 in Archive.\nComment of 2025: any minimal counterexample G must be a simple group without prime-index subgroups (R. R. Bildanov, V. A. Goryachenko, A. V. Vasil\u2019ev, Siberian Electron. Math. Rep., 17 (2020), 683\u2013689; M. H. Hooshmand, Commun. Algebra, 49, no. 7 (2021), 2927\u20132933).\nM. H. Hooshmand"
-}

@@ -1,6 +1,0 @@
-{
-  "page_number": 224,
-  "problem_number": "8.5",
-  "problem_text": "8.5. Prove that if X is a finite group, F is any field, and M is a non-trivial irreducible FX-module then\n(1/|X|) \\sum_{x\\in X} dim fix(x) \\le (1/2) dim M.\nM. R. Vaughan-Lee",
-  "answer": "Proved, even with ... \u2264 (1/p) dim M, where p is the least prime divisor of |G| (R. M. Guralnick, A. Mar\u00b4oti, Adv. Math., 226, no. 1 (2011), 298\u2013308)."
-}

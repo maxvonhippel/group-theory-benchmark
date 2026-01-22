@@ -1,5 +1,0 @@
-{
-  "page_number": 63,
-  "problem_number": "12.92",
-  "problem_text": "For a field K of characteristic 2, each finite group G = {g1, . . . , gn} of odd order n is determined up to isomorphism by its group determinant (Formanek\u2013Sibley, 1990) and even by its reduced norm which is defined as the last coefficient sm(x) of the minimal polynomial \u03c6(\u03bb; x) = \u03bbm \u2212 s1(x)\u03bbm\u22121 + \u00b7 \u00b7 \u00b7 + (\u22121)msm(x) for the generic element x = x1g1 + \u00b7 \u00b7 \u00b7 + xngn of the group ring KG (Hoehnke, 1991). Is it possible in this theorem to replace sm(x) by some other coefficients si(x), i < m? For notation see (G. Frobenius, Sitzungsber. Preuss. Akad. Wiss. Berlin, 1896, 1343\u20131382) and (K. W. Johnson, Math. Proc. Cambridge Phil. Soc., 109 (1991), 299\u2013311).\nH.-J. Hoehnke"
-}

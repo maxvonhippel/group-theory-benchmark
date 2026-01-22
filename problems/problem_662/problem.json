@@ -1,5 +1,0 @@
-{
-  "page_number": 94,
-  "problem_number": "15.96",
-  "problem_text": "15.96. An automorphism \u03c6 of a group G is called a splitting automorphism of order n if \u03c6n = 1 and xx\u03c6x\u03c62 \u00b7 \u00b7 \u00b7 x\u03c6n\u22121 = 1 for any x \u2208 G.\na) Is it true that the derived length of a d-generated nilpotent p-group admitting a splitting automorphism of order pn is bounded by a function of d, p, and n? This is true for n = 1, see Archive, 7.53.\nb) The same question for pn = 4.\nE. I. Khukhro"
-}

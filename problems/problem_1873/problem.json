@@ -1,6 +1,0 @@
-{
-  "page_number": 261,
-  "problem_number": "15.39",
-  "problem_text": "Axiomatizing the basic properties of subnormal subgroups, we say that a functor \u03c4 associating with every finite group G some non-empty set \u03c4(G) of its subgroups is an ETP-functor if 1) \u03c4(A)\u03c6 \u2286 \u03c4(B) and \u03c4(B)\u03c6\u22121 \u2286 \u03c4(A) for any epimorphism \u03c6 : A 7\u2212\u2192 B, as well as {H \u2229 R | R \u2208 \u03c4(G)} \u2286 \u03c4(H) for any subgroup H \u2a7d G; 2) \u03c4(H) \u2286 \u03c4(G) for any subgroup H \u2208 \u03c4(G); 3) \u03c4(G) is a sublattice of the lattice of all subgroups of G. Let \u03c4 be an ETP-functor. Does there exist a hereditary formation F such that \u03c4(G) coincides with the set of all F-subnormal subgroups in any finite group G? This is true for finite soluble groups (A. F. Vasil\u2019ev, S. F. Kamornikov, Siberian Math. J., 42, no. 1 (2001), 25\u201333). A. F. Vasil\u2019ev, S. F. Kamornikov",
-  "answer": "Not always (S. F. Kamornikov, Math. Notes, 89, no. 3\u20134 (2011), 340\u2013348)."
-}

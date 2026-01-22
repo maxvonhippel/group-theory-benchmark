@@ -1,5 +1,0 @@
-{
-  "page_number": 148,
-  "problem_number": "Well-known problem",
-  "problem_text": "Let S be a connected orientable hyperbolic surface of finite type and complexity at least 2. Does its mapping class group MCG(S) have a non-elementary hyperbolic quotient?\nAn affirmative answer is known when S is a closed genus-2 surface (https://arxiv.org/pdf/2005.00567.pdf), and in the same paper it is shown that the answer will be affirmative provided certain hyperbolic groups are residually finite. See also a closely related question 16.108 about braid groups.\nM. Hagen"
-}

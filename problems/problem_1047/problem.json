@@ -1,5 +1,0 @@
-{
-  "page_number": 145,
-  "problem_number": "20.15",
-  "problem_text": "20.15. Let \u03ba be an infinite cardinal. If a residually finite group G is embeddable in the full permutation group of a set of cardinality \u03ba, must it be embeddable in the direct product of \u03ba finite groups? See (G. M. Bergman, Indag. Math., 18 (2007), 349\u2013403).\nThe converse is true: any such direct product is residually finite and embeddable in the indicated permutation group. Also, the statement asked for becomes true if one replaces \u201cdirect product of \u03ba finite groups\u201d by \u201cdirect product of 2\u03ba finite groups\u201d, since G has cardinality at most 2\u03ba, hence homomorphisms to that many finite groups can be chosen which, together, separate each element of G from e. G. M. Bergman"
-}

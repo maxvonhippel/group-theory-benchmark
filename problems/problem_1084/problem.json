@@ -1,5 +1,0 @@
-{
-  "page_number": 151,
-  "problem_number": "20.52",
-  "problem_text": "A famous result of Burnside states that if k(G) is the number of conjugacy classes of a finite group G of odd order, then |G| \u2212 k(G) is divisible by 16. Is it true that for every integer m > 0 there exists a finite non-abelian group G(m) of odd order such that |G(m)| \u2212 k(G(m)) = 16m?\nD. MacHale"
-}

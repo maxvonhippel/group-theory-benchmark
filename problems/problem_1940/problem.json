@@ -1,6 +1,0 @@
-{
-  "page_number": 270,
-  "problem_number": "17.36",
-  "problem_text": "Two groups are called isospectral if they have the same set of element orders. Find all finite non-abelian simple groups G for which there is a finite group H isospectral to G and containing a proper normal subgroup isomorphic to G. For every simple group G determine all groups H satisfying this condition.\nIt is easy to show that a group H must satisfy the condition G < H \u2a7d Aut G.\nA. V. Vasil\u2019ev",
-  "answer": "All such groups are determined: for exceptional groups of Lie type in (M. A. Zvezdina, Algebra Logic, 55, no. 5 (2016), 354\u2013366); for the other simple groups in (M. A. Grechkoseeva, Siberian Math. J., 59, no. 4 (2018), 623\u2013640)."
-}

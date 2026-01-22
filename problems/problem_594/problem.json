@@ -1,5 +1,0 @@
-{
-  "page_number": 84,
-  "problem_number": "15.9",
-  "problem_text": "An automorphism \u03c6 of the free group Fn on the free generators x1, x2, . . . , xn is called conjugating if x\u03c6_i = t\u22121_i x\u03c0(i)ti, i = 1, 2, . . . , n, for some permutation \u03c0 \u2208 Sn and some elements ti \u2208 Fn. The set of conjugating automorphisms fixing the product x1x2 \u00b7 \u00b7 \u00b7 xn forms the braid group Bn. The group Bn is linear for any n \u2a7e 2, while the group of all automorphisms Aut Fn is not linear for n \u2a7e 3. Is the group of all conjugating automorphisms linear for n \u2a7e 3?\nV. G. Bardakov"
-}

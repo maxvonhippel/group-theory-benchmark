@@ -1,6 +1,0 @@
-{
-  "page_number": 266,
-  "problem_number": "16.58",
-  "problem_text": "Is SU2(C) the only group that has just one irreducible complex representation of dimension n for each n = 1, 2, . . .?\n(If R[n] is the n-dimensional irreducible complex representation of SU2(C), then R[2] is the natural two-dimensional representation, and R[2]\u2297R[n] = R[n\u22121]+R[n+1] for n > 1.)\nJ. McKay",
-  "answer": "No, it is not. It is known that C has infinitely many (discrete) automorphisms. For \u03c6 \u2208Aut(C) and a matrix x, let x\u03c6 denote the matrix obtained from x by applying \u03c6 to each element. Then T\u03c6 : x 7\u2192x\u03c6 is an irreducible representation of SU2(C). It is easy to show that among these representations there are infinitely many pairwise non-equivalent ones. Therefore the group SU2(C) itself does not satisfy the condition of the problem. (This observation belongs to von Neumann.) One can show that any group satisfying the condition of the problem is isomorphic to a subgroup of SL2(Q) satisfying the condition of Problem 15.57. On the other hand, E. Cartan proved that a unitary representation of a simple compact Lie group is always continuous. Hence, if we restrict ourselves to the unitary representations, then SU2(C) does satisfy the condition of the problem. (V. P. Burichenko, Letter of 16 July 2013.)"
-}

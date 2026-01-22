@@ -1,6 +1,0 @@
-{
-  "page_number": 265,
-  "problem_number": "16.49",
-  "problem_text": "Is it true that a free product of groups without generalized torsion is a group without generalized torsion?\nV. M. Kopytov, N. Ya. Medvedev",
-  "answer": "Yes, it is true; moreover, the generalized torsion in a free product of torsion-free groups is conjugate to a generalized torsion of one of its factor groups (T. Ito, K. Motegi, M. Teragaito, Proc. Amer. Math. Soc., 147, no. 11 (2019), 4999\u20135008)."
-}

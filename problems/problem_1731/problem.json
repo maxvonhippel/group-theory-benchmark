@@ -1,6 +1,0 @@
-{
-  "page_number": 240,
-  "problem_number": "11.46. c)",
-  "problem_text": "Does there exist a 2-Engel finite p-group G of nilpotency class greater than 2 such that Aut G = AutcG\u00b7Inn G, where AutcG is the group of central automorphisms of G? A. Caranti",
-  "answer": "Yes, it does (A. Abdollahi, A. Faghihi, S. A. Linton, E. A. O\u2019Brien, Arch. Math. (Basel), 95, no. 1 (2010), 1\u20137)."
-}

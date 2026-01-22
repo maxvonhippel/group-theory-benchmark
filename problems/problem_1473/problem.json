@@ -1,6 +1,0 @@
-{
-  "page_number": 205,
-  "problem_number": "4.12",
-  "problem_text": "Let G be a finite group and A a group of automorphisms of G stabilizing a series of subgroups beginning with G and ending with its Frattini subgroup. Then is A nilpotent?\n\nYa. G. Berkovich",
-  "answer": "Yes, it is (P. Schmid, Math. Ann., 202 (1973), 57\u201369)."
-}

@@ -1,5 +1,0 @@
-{
-  "page_number": 92,
-  "problem_number": "15.84",
-  "problem_text": "Yu. I. Merzlyakov (Sov. Math. Dokl., 19 (1978), 64\u201368) proved that if the complex numbers \u03b1, \u03b2, \u03b3 are each at least 3 in absolute value, then the matrices\n( 1  \u03b1 ; 0  1 ),\n( 1  0 ; \u03b2  1 ), and\n( 1 \u2212\u03b3 ; \u2212\u03b3  \u03b3  1 + \u03b3 )\ngenerate a free group of rank three.\nAre there rational numbers \u03b1, \u03b2, \u03b3, each less than 3 in absolute value, with the same property?\nYu. V. Sosnovski\u02d8\u0131"
-}

@@ -1,6 +1,0 @@
-{
-  "page_number": 250,
-  "problem_number": "13.18",
-  "problem_text": "Let F be a finitely generated non-Abelian free group and let G be the Cartesian (unrestricted) product of countable infinity of copies of F. Must the Abelianization G/G\u2032 of G be torsion-free?\nA. M. Gaglione, D. Spellman",
-  "answer": "No, it may contain elements of order 2 (O. Kharlampovich, A. Myasnikov, in: Knots, braids, and mapping class groups \u2014 papers dedicated to Joan S. Birman (New York, 1998), Amer. Math. Soc., Providence, RI, 2001, 77\u201383)."
-}

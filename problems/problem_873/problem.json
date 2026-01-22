@@ -1,5 +1,0 @@
-{
-  "page_number": 119,
-  "problem_number": "18.40",
-  "problem_text": "The commutator length cl(g) of g \u2208 [G, G] is the least number of commutators in G whose product is g, and the stable commutator length is scl(g) := lim n\u2192\u221e cl(g^n)/n.\nConjecture: Let G be a hyperbolic group. Then the stable commutator length takes on rational values on [G, G].\nD. Calegari"
-}

@@ -1,5 +1,0 @@
-{
-  "page_number": 178,
-  "problem_number": "21.113",
-  "problem_text": "Let G be a finite group and p be a prime. Let \u03a8p,G be the class function of G which vanishes on all p-singular elements of G and whose value at each p-regular element x of G is the number of p-elements of CG(x).\n(a) Is it true that \u03a8p,G is a character of G?\n(b) If yes, can \u03a8p,G be afforded by a projective RG-module, where R is a complete discrete valuation ring of characteristic zero such that the field of fractions of R is a splitting field for G and its subgroups, and the residue field R/J(R) is a splitting field of characteristic p for G and its subgroups?\nIt is known that \u03a8p,G is a character when G \u223c= Sn for any positive integer n and any prime p (T. Scharf, J. Algebra, 139, no. 2 (1991), 446\u2013457).\nG. Robinson"
-}

@@ -1,6 +1,0 @@
-{
-  "page_number": 273,
-  "problem_number": "17.77",
-  "problem_text": "Let k be a positive integer such that there is an insoluble finite group with exactly k conjugacy classes. Is it true that a finite group of maximal order with exactly k conjugacy classes is insoluble? R. Heffernan, D. MacHale",
-  "answer": "No, it is not; see Table 1 in (A. Vera-Lopez, J. Sangroniz, Math. Nachr., 280, no. 5\u20136 (2007), 676\u2013694)."
-}

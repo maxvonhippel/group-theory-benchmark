@@ -1,5 +1,0 @@
-{
-  "page_number": 160,
-  "problem_number": "20.113",
-  "problem_text": "Let H(q, c) = \u27e8a, b, c, d | [b, a] = [d, c], of exponent q, nilpotent of class c\u27e9.\na) Is it true that the Schur multiplier M(H(8, 12)) has exponent 32?\nb) Is it true that the Schur multiplier M(H(7, 13)) has exponent 49?\nThe difficulty is that these groups are too big to compute using current versions\nof the p-Quotient Algorithm, which use 32 bit arithmetic. So to tackle these groups\nit would help to have a version of the p-Quotient Algorithm using 64 bit arithmetic.\nM. R. Vaughan-Lee"
-}

@@ -1,5 +1,0 @@
-{
-  "page_number": 63,
-  "problem_number": "12.87",
-  "problem_text": "Let \u0393 be a connected undirected graph without loops or multiple edges and suppose that the automorphism group Aut(\u0393) acts transitively on the vertex set of \u0393.\nIs it true that at least one of the following assertions holds?\n1. The stabilizer of a vertex of \u0393 in Aut(\u0393) is finite.\n2. The group Aut(\u0393) as a permutation group on the vertex set of \u0393 admits an imprimitivity system \u03c3 with finite blocks for which the stabilizer of a vertex of the factor-graph \u0393/\u03c3 in Aut(\u0393/\u03c3) is finite.\n3. There exists a natural number n such that the graph obtained from \u0393 by adding edges joining distinct vertices the distance between which in \u0393 is at most n contains a regular tree of valency 3.\nV. I. Trofimov"
-}

@@ -1,5 +1,0 @@
-{
-  "page_number": 148,
-  "problem_number": "20.31",
-  "problem_text": "Let \u03c9(G) denote the set of element orders of a finite group G, and h(G) the number of pairwise nonisomorphic finite groups H with \u03c9(H) = \u03c9(G). Find h(L), where\na) L is the symmetric group of degree 10;\nb) L is the automorphism group of the simple sporadic Janko group J2;\nc) PSL(2, q) < L \u2a7d Aut(PSL(2, q)).\nSee the current status in (M. A. Grechkoseeva, V. D. Mazurov, W. J. Shi, A. V. Vasil\u2019ev, N. Yang, Commun. Math. Stat., 11, no. 2 (2023), 169\u2013194; Subsection 4.2).\nM. A. Grechkoseeva, A. V. Vasil\u2019ev"
-}

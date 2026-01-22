@@ -1,5 +1,0 @@
-{
-  "page_number": 139,
-  "problem_number": "19.83",
-  "problem_text": "19.83. An element g of a group G is almost Engel if there is a finite set E(g) such\nthat for every x \u2208 G all sufficiently long commutators [x, ng] belong to E(g), that is,\nfor every x \u2208 G there is a positive integer n(x, g) such that [x, ng] \u2208 E(g) whenever\nn \u2a7e n(x, g). By a linear group we understand a subgroup of GL(m, F) for some field\nF and a positive integer m.\nIs the set of almost Engel elements in a linear group always a subgroup?\nP. Shumyatsky"
-}

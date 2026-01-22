@@ -1,6 +1,0 @@
-{
-  "page_number": 225,
-  "problem_number": "8.20",
-  "problem_text": "What is the cardinality of the set of all varieties covering an abelian (nilpotent? Cross? hereditarily finitely based?) variety of groups? The question is related to 4.46 and 4.73.\nYu. G. Kleiman",
-  "answer": "There are continually many varieties covering the variety A of abelian groups, as well as the variety A^n of abelian groups of sufficiently large odd exponent n (P. A. Kozhevnikov, On varieties of groups of large odd exponent, Dep. 1612-V00, VINITI, Moscow, 2000 (Russian); S. V. Ivanov, A. M. Storozhev, Contemp. Math., 360 (2004), 55\u201362)."
-}

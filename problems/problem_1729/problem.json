@@ -1,6 +1,0 @@
-{
-  "page_number": 240,
-  "problem_number": "11.43.",
-  "problem_text": "For a finite group X, we denote by k(X) the number of its conjugacy classes. Is it true that k(AB) \u2a7d k(A)k(B)? L. S. Kazarin",
-  "answer": "No, it is not true in general: let G = \u27e8a, b | a^30 = b^2 = 1, ab = a\u22121\u27e9 \u223c= D60 be the dihedral group of order 60, and let A = \u27e8a^10, ba\u27e9 \u223c= D6 and B = \u27e8a^6, b\u27e9 \u223c= D10. Then G = AB, but G has 18 conjugacy classes and A and B only 3 and 4, respectively. From (P. Gallagher, Math. Z., 118 (1970), 175\u2013179) a positive answer follows if A or B is normal. The problem remains open in the case where A and B have coprime orders, see new problem 14.44. (J. Sangroniz, Letter of December, 17, 1998.)"
-}

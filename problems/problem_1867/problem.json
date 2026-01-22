@@ -1,6 +1,0 @@
-{
-  "page_number": 260,
-  "problem_number": "15.25",
-  "problem_text": "15.25. A finite group G is said to be rational if every irreducible character of G\ntakes only rational values. Are the Sylow 2-subgroups of the symmetric groups S2n\nrational?\nYa. G. Berkovich",
-  "answer": "Yes, they are. A Sylow 2-subgroup Tn of S2n is the wreath product of the one for\nS2n\u22121 with the group C of order 2. If Tn is rational, then the wreath product of Tn\nwith C is also rational by Corollary 70 in (D. Kletzing Structure and representations\nof Q-groups (Lecture Notes in Math., 1084), Springer, Berlin, 1984).\nThe result\nfollows by induction. (A. Mann, Letter of 1 October 2002)."
-}

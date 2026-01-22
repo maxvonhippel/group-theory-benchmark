@@ -1,5 +1,0 @@
-{
-  "page_number": 103,
-  "problem_number": "16.99",
-  "problem_text": "Suppose that G is a finite solvable group, A \u2a7d Aut G, CG(A) = 1, the orders of G and A are coprime, and let l(A) be the length of the longest chain of nested subgroups of A. Is the Fitting height of G bounded above by l(A)?\nFor A solvable the question coincides with 5.30. It is proved that for any finite group A, first, there exist G with h(G) = l(A) and, second, there is a finite set of primes \u03c0 (depending on A) such that if |G| is coprime to each prime in \u03c0, then h(G) \u2a7d l(A). See (A. Turull, Math. Z., 187 (1984), 491\u2013503).\nA. Turull"
-}

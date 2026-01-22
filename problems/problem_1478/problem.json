@@ -1,6 +1,0 @@
-{
-  "page_number": 206,
-  "problem_number": "4.22",
-  "problem_text": "(J. G. Thompson). Let G be a finite group, A a group of automorphisms of G such that |A| and |G| are coprime. Does there exist an A-invariant soluble subgroup H of G such that CA(H) = 1? G. Glauberman",
-  "answer": "Yes, it does (S. A. Syskin, Siberian Math. J., 32, no. 6 (1991), 1034\u20131037)."
-}

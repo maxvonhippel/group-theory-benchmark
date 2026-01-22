@@ -1,5 +1,0 @@
-{
-  "page_number": 121,
-  "problem_number": "18.51",
-  "problem_text": "18.51. Given a prime p and n \u2208 N, let fp(n) be the smallest number such that there is a group of order pfp(n) into which every group of order pn embeds. Is it true that fp(n) grows faster than polynomially but slower than exponentially when n tends to infinity?\nS. Kohl"
-}

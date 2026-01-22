@@ -1,6 +1,0 @@
-{
-  "page_number": 263,
-  "problem_number": "15.86",
-  "problem_text": "A group G is called discriminating if for any finite set of nontrivial elements of the direct square G\u00d7G there is a homomorphism G\u00d7G \u2192 G which does not annihilate any of them (G. Baumslag, A. G. Myasnikov, V. N. Remeslennikov). A group G is called squarelike if G is universally equivalent (in the sense of first order logic) to a discriminating group (B. Fine, A. M. Gaglione, A. G. Myasnikov, D. Spellman). Must every squarelike group be elementarily equivalent to a discriminating group? D. Spellman",
-  "answer": "Yes, it must (O. Belegradek, J. Group Theory, 7, no. 4 (2004), 521\u2013532; B. Fine, A. M. Gaglione, D. Spellman, Archiv Math., 83, no. 2 (2004), 106\u2013112)."
-}

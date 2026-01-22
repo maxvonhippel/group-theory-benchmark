@@ -1,5 +1,0 @@
-{
-  "page_number": 48,
-  "problem_number": "11.28",
-  "problem_text": "11.28. Suppose the prime graph of the finite group G is disconnected. (This means that the set of prime divisors of the order of G is the disjoint union of non-empty subsets \u03c0 and \u03c0\u2032 such that G contains no element of order pq where p \u2208 \u03c0, q \u2208 \u03c0\u2032.) Then P. A. Linnell (Proc. London Math. Soc., 47, no. 1 (1983), 83\u2013127) has proved mod CFSG that there is a decomposition of ZG-modules Z \u2295 ZG = A \u2295 B with A and B non-projective. Find a proof independent of CFSG.\nK. Gruenberg"
-}

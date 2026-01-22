@@ -1,6 +1,0 @@
-{
-  "page_number": 133,
-  "problem_number": "19.38",
-  "problem_text": "Suppose that H is a subgroup of a finite soluble group G that covers all Frattini chief factors of G and avoids all complemented chief factors of G. Is it true that there are elements x, y \u2208 G such that H \u2229 Hx \u2229 Hy = HG, where HG is the largest normal subgroup of G contained in H?\nThis is true if H is a prefrattini subgroup of G.\nS. F. Kamornikov",
-  "answer": "Yes, it is true (S. F. Kamornikov, O. L. Shemetkova, J. Algebra, 641 (2024), 1\u20138)."
-}

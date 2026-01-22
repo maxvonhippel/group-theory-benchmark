@@ -1,5 +1,0 @@
-{
-  "page_number": 87,
-  "problem_number": "15.46",
-  "problem_text": "Can the question 7.28 on conditions for admissibility of an elementary carpet A = {Ar | r \u2208 \u03a6} be reduced to Lie rank 1 if K is a field? A carpet A of type \u03a6 of additive subgroups of K is called addmissible if in the Chevalley group over K associated with the root system \u03a6 the subgroup \u27e8xr(Ar) | r \u2208 \u03a6\u27e9 intersects xr(K) in xr(Ar). More precisely, is it true that the carpet A is admissible if and only if the subcarpets {Ar, A\u2212r}, r \u2208 \u03a6, of rank 1 are admissible? The answer is known to be affirmative if the field K is locally finite (V. M. Levchuk, Algebra and Logic, 22, no. 5 (1983), 362\u2013371).\nV. M. Levchuk"
-}

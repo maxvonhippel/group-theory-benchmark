@@ -1,5 +1,0 @@
-{
-  "page_number": 165,
-  "problem_number": "21.19",
-  "problem_text": "Suppose that S and M are groups of finite Morley rank, S is an infinite group, and M is a non-trivial connected group definably and faithfully acting on S. This action is said to be irreducible if M does not leave invariant any definable non-trivial proper subgroup of S.\nProve that if S is a simple group such that every proper definable subgroup of S is nilpotent, and the action of M on S is irreducible, then this action is equivalent to the action of S on itself by conjugation.\nA. V. Borovik"
-}

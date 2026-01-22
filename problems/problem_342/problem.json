@@ -1,5 +1,0 @@
-{
-  "page_number": 49,
-  "problem_number": "11.36",
-  "problem_text": "11.36. Let G = B(m, n) be the free Burnside group of rank m and of odd exponent n \u226b1. Are the following statements true?\na) Every 2-generated subgroup of G is isomorphic to the Burnside n-product of two cyclic groups.\nb) Every automorphism \u03c6 of G such that \u03c6n = 1 and b\u03c6 \u00b7 b\u03c62 \u00b7 \u00b7 \u00b7 b\u03c6n = 1 for all b \u2208G is an inner automorphism (here m > 1).\nEditors\u2019 comment: for large prime n this follows from (E. A. Cherepanov, Int. J. Algebra Comput., 16 (2006), 839\u2013847), for prime n \u2a7e1009 from (V. S. Atabekyan, Izv. Math., 75, no. 2 (2011), 223\u2013237); this is also true for odd n \u2a7e1003 if in addition the order of \u03c6 is a prime power (V. S. Atabekyan, Math. Notes, 95, no. 5 (2014), 586\u2013589).\nc) The group G is Hopfian if m < \u221e.\nd) All retracts of G are free.\nS. V. Ivanov"
-}

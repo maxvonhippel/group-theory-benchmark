@@ -1,5 +1,0 @@
-{
-  "page_number": 174,
-  "problem_number": "21.86",
-  "problem_text": "21.86. (M. Gromov, B. Weiss). A group G is said to be sofic if for every finite set F \u2286 G containing 1 and every \u03b5 > 0 there exist n \u2208 N and a map \u03c6 : F \u2192 S_n such that \u03c6(1) = 1, d(\u03c6(gh), \u03c6(g)\u03c6(h)) < \u03b5 for all g, h such that gh \u2208 F, \u03c6(g) does not have fixed points for every g \u2208 F \\ {1}. Is every group sofic? A. Lubotzky"
-}

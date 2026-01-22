@@ -1,6 +1,0 @@
-{
-  "page_number": 210,
-  "problem_number": "4.71",
-  "problem_text": "Let A be a group of automorphisms of a finite group G which has a series of A-invariant subgroups G = G0 > \u00b7 \u00b7 \u00b7 > Gk = 1 such that every |Gi : Gi+1| is prime. Prove that A is supersoluble.\nL. A. Shemetkov",
-  "answer": "This was proved (L. A. Shemetkov, Math. USSR\u2013Sb., 23 (1974), 593\u2013611)."
-}

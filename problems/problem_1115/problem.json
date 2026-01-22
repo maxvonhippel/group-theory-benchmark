@@ -1,5 +1,0 @@
-{
-  "page_number": 155,
-  "problem_number": "20.83",
-  "problem_text": "Let X be a class of finite groups that is closed with respect to taking subgroups, homomorphic images, and extensions. A subgroup H of a finite group G is said to be X-submaximal if there exists an embedding of G into a group G* such that G is subnormal in G* and H coincides with the intersection of G and an X-maximal subgroup of G*. Suppose that all X-submaximal subgroups of a characteristic subgroup N of a finite group G are conjugate in N. Does it follow that HN/N is an X-submaximal subgroup of G/N for every X-submaximal subgroup H of G?\nFor normal subgroups N, this is not true even if N is an X-group or if N does not contain nontrivial X-subgroups. A positive answer is known in the case where N coincides with the F-radical of G for a Fitting class F.\nD. O. Revin, A. V. Zavarnitsine"
-}

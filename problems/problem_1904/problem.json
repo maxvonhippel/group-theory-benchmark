@@ -1,6 +1,0 @@
-{
-  "page_number": 265,
-  "problem_number": "16.54",
-  "problem_text": "We say that a group G acts freely on a group V if vg \u2260 v for any nontrivial elements g \u2208 G, v \u2208 V. Is it true that a group G that can act freely on a non-trivial abelian group is embeddable in the multiplicative group of some skew-field?\nV. D. Mazurov",
-  "answer": "No, it is not. For example, the group 2.A5.2 with a quaternion Sylow 2-subgroup can act freely on an elementary abelian group of order 7^4 but is not embeddable in the multiplicative group of any skew-field by Theorem 7 in (S. A. Amitsur, Trans. Amer. Math. Soc., 80, no. 2 (1955), 361\u2013386). (D. Nedrenko, Letter of 20 January 2014)."
-}

@@ -1,6 +1,0 @@
-{
-  "page_number": 276,
-  "problem_number": "18.86",
-  "problem_text": "18.86. Is the group G = \u27e8a, b | [[a, b], b] = 1\u27e9, which is isomorphic to the group of all unitriangular automorphisms of the free group of rank 3, linear?\nV. A. Roman\u2019kov",
-  "answer": "Yes, it is linear, since it embeds in the holomorph Hol F2 of the free group F2, which can be seen by adding a new generator c = [a, b], so that G = \u27e8a, b, c | ab = ac, cb = c\u27e9, while Hol F2 was shown to be linear in Corollary 3 in (V. G. Bardakov, O. V. Bryukhanov, Vestnik Novosibirsk Univ. Ser. Mat. Mekh. Inf., 7, no. 3 (2007), 45\u201358 (Russian)) (O. V. Bryukhanov, Letter of 27 January 2014). Another proof can be found in (V. A. Roman\u2019kov, J. Siberian Federal Univ. Math. Phys., 6, no. 4 (2013), 516\u2013520)."
-}

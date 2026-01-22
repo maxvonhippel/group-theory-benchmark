@@ -1,5 +1,0 @@
-{
-  "page_number": 44,
-  "problem_number": "10.75",
-  "problem_text": "10.75. Suppose that a group G contains an element a of prime order p such that the normalizer of every finite subgroup containing a has finite periodic part and all subgroups \u27e8a, ag\u27e9, g \u2208 G, are finite and almost all of them are soluble. Does G possess a periodic part if p > 2? It was proved in (V. P. Shunkov, Groups with involutions, Preprints no. 4, 5, 12 of the Comput. centre of SO AN SSSR, Krasnoyarsk, 1986 (Russian)) that if a is a point, then the answer is affirmative; on the other hand, a group with a point a of order 2 satisfying the given hypothesis, which has no periodic part, was exhibited in the same works. For the definition of a point see (V. I. Senashov, V. P. Shunkov, Algebra and Logic, 22, no. 1 (1983), 66\u201381).\nV. P. Shunkov"
-}

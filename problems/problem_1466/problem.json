@@ -1,6 +1,0 @@
-{
-  "page_number": 204,
-  "problem_number": "3.64",
-  "problem_text": "Describe the finite simple groups with a Sylow 2-subgroup of the following type: \u27e8a, t | a2n = t2 = 1, tat = a2n\u22121\u22121\u27e9, n > 2.\nV. P. Shunkov",
-  "answer": "This was done (J. L. Alperin, R. Brauer, D. Gorenstein, Trans. Amer. Math. Soc., 151 (1970), 1\u2013261)."
-}

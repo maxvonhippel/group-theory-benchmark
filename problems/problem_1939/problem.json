@@ -1,6 +1,0 @@
-{
-  "page_number": 270,
-  "problem_number": "17.35",
-  "problem_text": "Suppose we have a finite two-colourable triangulation of the sphere, with triangles each coloured either black or white so that no pair of triangles with the same colour share an edge. On each vertex we write a generator, and we assume the generators commute. We use these generators to generate an abelian group GW with relations stating that the generators around each white triangle add to zero. Doing the same thing with the black triangles, we generate a group GB.\nConjecture: GW is isomorphic to GB.\nI. M. Wanless, N. J. Cavenagh",
-  "answer": "Conjecture is proved (S. R. Blackburn, T. A. McCourt, Combinatorica, 34, no. 5 (2014), 527\u2013546)."
-}

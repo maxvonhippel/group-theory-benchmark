@@ -1,6 +1,0 @@
-{
-  "page_number": 233,
-  "problem_number": "9.73",
-  "problem_text": "Let F be any local formation of finite soluble groups containing all finite nilpotent groups. Prove that HFK = KHF for any two subnormal subgroups H and K of an arbitrary finite group G.\nL. A. Shemetkov",
-  "answer": "This has been proved, even without the hypothesis of solubility of F (S. F. Kamornikov, Dokl. Akad. Nauk BSSR, 33, no. 5 (1989), 396\u2013399 (Russian))."
-}

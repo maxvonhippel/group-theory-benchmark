@@ -1,6 +1,0 @@
-{
-  "page_number": 35,
-  "problem_number": "*9.66",
-  "problem_text": "\u22179.66. a) B. Jonsson\u2019s Conjecture: elementary equivalence is preserved under taking free products in the class of all groups, that is, if Th(G1) = Th(G2) and Th(H1) = Th(H2) for groups G1, G2, H1, H2, then Th(G1 \u2217H1) = Th(G2 \u2217H2).\n\nb) It may be interesting to consider also the following weakened conjecture: if Th(G1) = Th(G2) and Th(H1) = Th(H2) for countable groups G1, G2, H1, H2, then for any numerations of the groups Gi, Hi there are m-reducibility T1 \u2261m T2 and Turing reducibility T1 \u2261T T2, where Ti is the set of numbers of all theorems in Th(Gi \u2217Hi).\n\nA proof of this weakened conjecture would be a good illustration of application of the reducibility theory to solving concrete mathematical problems.\nA. D. Taimanov",
-  "answer": "The conjecture (also known as R. L. Vaught\u2019s conjecture) is proved (Z. Sela, Preprint, 2010, https://arxiv.org/pdf/1012.0044)."
-}

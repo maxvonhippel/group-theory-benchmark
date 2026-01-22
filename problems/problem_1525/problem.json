@@ -1,6 +1,0 @@
-{
-  "page_number": 211,
-  "problem_number": "5.11",
-  "problem_text": "Let G be a finite group and suppose that there exists a non-empty proper subset \u03c0 of the set of all primes dividing |G| such that the centralizer of every non-trivial \u03c0-element is a \u03c0-subgroup. Does it follow that G contains a subgroup U such that U^g \u2229 U = 1 or U for every g \u2208 G, and the centralizer of every non-trivial element of U is contained in U?\nK. W. Gruenberg",
-  "answer": "Yes, it does (mod CFSG) (J. S. Williams, J. Algebra, 69 (1981), 487\u2013513)."
-}

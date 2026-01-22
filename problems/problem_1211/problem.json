@@ -1,5 +1,0 @@
-{
-  "page_number": 169,
-  "problem_number": "21.53",
-  "problem_text": "In the notation of 21.52, let Aut_t(\u0393) be the set of permutations \u03c4 \u2208 S_D such that (a, b) \u223c (a^\u03c4, b^\u03c4) whenever |ab| = t for a, b \u2208 D. Clearly, Aut(\u0393) = \u22c2_t Aut_t(\u0393).\nIs it true that for every finite simple group G we have Aut(\u0393) = Aut_2(\u0393) \u2229 Aut_p(\u0393), where {2, p} are the two minimal prime divisors of |G|?\nI. B. Gorshkov"
-}

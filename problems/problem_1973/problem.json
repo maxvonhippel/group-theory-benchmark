@@ -1,6 +1,0 @@
-{
-  "page_number": 276,
-  "problem_number": "18.82",
-  "problem_text": "18.82. Is there a function f : N \u2192N such that for any prime p, if pf(n) divides the order of a finite group G, then pn divides the order of Aut G?\nR. M. Patne",
-  "answer": "Yes, there is. This was established in (J. A. Green, Proc. Roy. Soc. London Ser. A., 237 (1956), 574\u2013581), which improved a previous result with a function depending on p in (W. Ledermann, B. H. Neumann, Proc. Roy. Soc. London. Ser. A, 235 (1956), 235\u2013246)."
-}

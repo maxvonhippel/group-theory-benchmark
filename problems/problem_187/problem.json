@@ -1,5 +1,0 @@
-{
-  "page_number": 28,
-  "problem_number": "8.41",
-  "problem_text": "What finite groups G contain a normal set of involutions D which contains a non-empty proper subset T satisfying the following properties:\n1) C_D(a) \u2286 T for any a \u2208 T;\n2) if a, b \u2208 T and ab = ba \u2260 1, then C_D(ab) \u2286 T?\nA. A. Makhn\u00a8ev"
-}

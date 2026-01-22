@@ -1,6 +1,0 @@
-{
-  "page_number": 204,
-  "problem_number": "3.61",
-  "problem_text": "Let \u03c3 be an automorphism of prime order p of a finite group G, which has a Hall \u03c0-subgroup with cyclic Sylow subgroups. Suppose that p \u2208 \u03c0. Does the centralizer CG(\u03c3) have at least one Hall \u03c0-subgroup?\nL. A. Shemetkov",
-  "answer": "Yes, it does, mod CFSG (V. D. Mazurov, Algebra and Logic, 31, no. 6 (1992), 360\u2013366)."
-}

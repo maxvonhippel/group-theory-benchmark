@@ -1,6 +1,0 @@
-{
-  "page_number": 221,
-  "problem_number": "7.12",
-  "problem_text": "7.12. Find all groups with a Hall 2\u2032-subgroup.\nR. L. Griess",
-  "answer": "These are found mod CFSG (Z. Arad, M. B. Ward, J. Algebra, 77 (1982), 234\u2013246)."
-}

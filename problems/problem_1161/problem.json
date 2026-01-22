@@ -1,5 +1,0 @@
-{
-  "page_number": 162,
-  "problem_number": "21.3",
-  "problem_text": "Let G = An or Sn and let H, K be soluble subgroups of G. For all sufficiently large n, can we always find an element x \u2208 G such that H \u2229 Kx = 1? Does this hold for all n \u2a7e 21?\nNote that the conclusion is false when G = S20 and H = K = (S4 \u2240 S4) \u00d7 S4.\nM. Anagnostopoulou-Merkouri, T. C. Burness"
-}

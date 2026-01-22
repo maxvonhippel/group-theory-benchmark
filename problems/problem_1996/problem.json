@@ -1,6 +1,0 @@
-{
-  "page_number": 280,
-  "problem_number": "19.88",
-  "problem_text": "Suppose that for every Sylow subgroup P of a finite group G and every maximal subgroup V of P there is a \u03c3-nilpotent subgroup T such that V T = G. Is it true that then G is \u03c3-nilpotent? A. N. Skiba",
-  "answer": "Yes, it is true (A.-M. Liu, W. Guo, I. N. Safonova, A. N. Skiba, J. Algebra, 585 (2021), 280\u2013293); another solution using CFSG is in (S. F. Kamornikov, V. N. Tyutyanov, Trudy Inst. Mat. Mekh. UrO RAN, 27, no. 1 (2021), 98\u2013102 (Russian); X. Yi, S. F. Kamornikov, V. N. Tyutyanov, Probl. Physics, Math. Techn., 46, no. 1 (2021), 50\u201353)."
-}

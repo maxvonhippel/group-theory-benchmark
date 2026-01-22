@@ -1,6 +1,0 @@
-{
-  "page_number": 223,
-  "problem_number": "7.42",
-  "problem_text": "A group U is called an Fq-group (where q \u2208\u03c0(U)) if, for each finite subgroup K of U and for any two elements a, b of order q in T = NU(K)/K, there exists c \u2208T such that the group \u27e8a, bc\u27e9 is finite. A group U is called an F\u2217-group if each subgroup H of U is an Fq-group for every q \u2208\u03c0(H) (V. P. Shunkov, 1977).\n\na) Is every primary F\u2217-group satisfying the minimum condition for subgroups almost abelian?\n\nb) Does every F\u2217-group satisfying the minimum condition for (abelian) subgroups possess the radicable part?\n\nA. N. Ostylovski\u02d8\u0131",
-  "answer": "No. A counterexample to both questions is given by an infinite group all of whose subgroups are conjugate and have prime order (A. Yu. Olshanskii, Math. USSR\u2013Izv., 16 (1981), 279\u2013289)."
-}

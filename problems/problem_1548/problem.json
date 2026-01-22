@@ -1,6 +1,0 @@
-{
-  "page_number": 215,
-  "problem_number": "5.56",
-  "problem_text": "5.56. b) Does there exist a locally nilpotent group of prime exponent that coincides with its derived subgroup (and hence has no maximal subgroups)?\nJ. Wiegold",
-  "answer": "Yes, there does. Every non-soluble variety V contains a non-trivial group coinciding with the derived subgroup, the direct limit of the spectrum F \u03c6\u2192F \u03c6\u2192. . ., where F is the free group in V on the free generators x1, x2, . . . and \u03c6 is the homomorphism given by xi \u2192[x2i\u22121, x2i]. As shown in (Yu. P. Razmyslov, Algebra and Logic, 10 (1971), 21\u201329) the Kostrikin variety of locally nilpotent groups of prime exponent p \u2a7e5 is unsoluble. (E. I. Khukhro, I. V. L\u2019vov, Letter of June, 19, 1976.) The same was also proved in (Yu. A. Kolmakov, Math. Notes, 35, no. 5\u20136 (1984), 389\u2013391). An example answering the question was also produced in (M. R. Vaughan-Lee, J. Wiegold, Bull. London Math. Soc., 13, no. 1 (1981), 45\u201346)."
-}

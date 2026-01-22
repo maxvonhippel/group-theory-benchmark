@@ -1,6 +1,0 @@
-{
-  "page_number": 204,
-  "problem_number": "3.59",
-  "problem_text": "Let H be an insoluble minimal normal subgroup of a finite group G, and suppose that H has cyclic Sylow p-subgroups for every prime p dividing |G : H|. Prove that H has at least one complement in G.\nL. A. Shemetkov",
-  "answer": "This was proved (S. A. Syskin, Siberian Math. J., 12 (1971), 342\u2013344; L. A. Shemetkov, Soviet Math. Dokl., 11 (1970), 1436\u20131438)."
-}

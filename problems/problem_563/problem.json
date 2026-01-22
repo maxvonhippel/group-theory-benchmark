@@ -1,5 +1,0 @@
-{
-  "page_number": 78,
-  "problem_number": "14.67",
-  "problem_text": "Suppose that a is a non-trivial element of a finite group G such that |CG(a)| \u2a7e |CG(x)| for every non-trivial element x \u2208 G, and let H be a nilpotent subgroup of G which is normalized by CG(a). Is it true that H \u2a7d CG(a)? This is true if H is abelian, or if H is a p\u2032-group for some prime number p \u2208 \u03c0(Z(CG(a))). I. T. Mukhamet\u2019yanov, A. N. Fomin"
-}

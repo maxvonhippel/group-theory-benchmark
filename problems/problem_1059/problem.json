@@ -1,6 +1,0 @@
-{
-  "page_number": 147,
-  "problem_number": "*20.27",
-  "problem_text": "Let G be a finite group, p a prime number, and let |xG|p denote the maximum power of p that divides the class size of an element x \u2208 G. Suppose that there exists a p-element g \u2208 G such that |gG|p = maxx\u2208G |xG|p. Is it true that G has a normal p-complement?\nA partial answer is in (https://arxiv.org/abs/1812.03641).\nI. B. Gorshkov",
-  "answer": "No, not necessarily, a counterexample is given by SmallGroup(192,945) (B. Sambale, Letter of 16 February 2022)."
-}

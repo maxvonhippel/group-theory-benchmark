@@ -1,6 +1,0 @@
-{
-  "page_number": 191,
-  "problem_number": "2.16",
-  "problem_text": "A group G is called conjugacy separable if any two of its elements are conjugate in G if and only if their images are conjugate in every finite homomorphic image of G. Is G conjugacy separable in the following cases:\na) G is a polycyclic group,\nb) G is a free soluble group,\nc) G is a group of (all) integral matrices,\nd) G is a finitely generated group of matrices,\ne) G is a finitely generated metabelian group?\nM. I. Kargapolov",
-  "answer": "a) Yes (V. N. Remeslennikov, Algebra and Logic, 8 (1969), 404\u2013411); E. Formanek, J. Algebra, 42 (1976), 1\u201310).\nb) Yes (V. N. Remeslennikov, V. G. Sokolov, Algebra and Logic, 9 (1970), 342\u2013349).\nc), d) Not always (V. P. Platonov, G. V. Matveev, Dokl. Akad. Nauk BSSR, 14 (1970), 777\u2013779 (Russian); V. N. Remeslennikov, V. G. Sokolov, Algebra and Logic, 9 (1970), 342\u2013349; V. N. Remeslennikov, Siberian Math. J., 12 (1971), 783\u2013792).\ne) Not always."
-}

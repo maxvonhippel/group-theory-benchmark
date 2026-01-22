@@ -1,6 +1,0 @@
-{
-  "page_number": 30,
-  "problem_number": "8.75",
-  "problem_text": "(A known problem). Suppose G is a finite primitive permutation group on\n\u2126, and \u03b1, \u03b2 are distinct points of \u2126. Does there exist an element g \u2208G such that\n\u03b1g = \u03b2 and g fixes no point of \u2126?\nJ. G. Thompson",
-  "answer": "Not always (P. M\u00a8uller, Preprint, 2023, https://arxiv.org/pdf/2304.08459.pdf)."
-}

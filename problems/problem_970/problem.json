@@ -1,6 +1,0 @@
-{
-  "page_number": 133,
-  "problem_number": "19.31",
-  "problem_text": "Let \u03c9(G, S) be the exponential growth rate of a group G with a finite generating set S (see 14.7). Let MCG(\u03a3g) be the mapping class group of the orientable surface \u03a3g of genus g. Is there a constant C > 1 such that \u03c9(MCG(\u03a3g), S) \u2a7e C for every g > 0 and every finite generating set S of MCG(\u03a3g)?\nK. Fujiwara",
-  "answer": "No, there is no such constant that works for all genera; but if the genus g is fixed, then such a constant C = C(g) > 1 does exist (J. Mangahas, Geom. Funct. Anal. 19, no. 5 (2010), 1468\u20131480)."
-}

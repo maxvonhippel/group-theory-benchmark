@@ -1,6 +1,0 @@
-{
-  "page_number": 192,
-  "problem_number": "2.23",
-  "problem_text": "a) A subgroup H of a group G is called quasisubinvariant if there is a normal system of G passing through H. Let K be a class of groups that is closed with respect to taking homomorphic images. A group G is called an R0(K)-group if each of its non-trivial homomorphic images has a non-trivial quasisubinvariant K-subgroup. Do R0(K) and RN coincide when K is the class of all abelian groups? Sh. S. Kemkhadze",
-  "answer": "No, they do not (J. S. Wilson, Arch. Math., 25 (1974), 574\u2013577)."
-}

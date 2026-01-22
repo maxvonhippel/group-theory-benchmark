@@ -1,6 +1,0 @@
-{
-  "page_number": 88,
-  "problem_number": "15.53",
-  "problem_text": "Let S be the set of all prime numbers p for which there exists a finite simple group G and an absolutely irreducible G-module V over a field of characteristic p such that the order of any element in the natural semidirect product V G coincides with the order of some element in G. Is S finite or infinite?\nV. D. Mazurov",
-  "answer": "The set S is finite and consists of 2 and 3. This follows from the complete list of finite simple groups G with a module V in characteristic p satisfying those properties, which was determined in a number of papers, the last of which is (M. A. Grechkoseeva, S. V. Skresanov, Sibirsk. Elektron. Matem. Izv., 17 (2020), 585\u2013589). Then the group G must be either 3D4(2) with p = 2 (V. D. Mazurov, Algebra Logic, 52, no. 5 (2013), 400\u2013403), or U5(2) with p = 3 (A. V. Zavarnitsine, Siberian Math. J., 49, no. 2 (2008), 246\u2013256, and M. A. Grechkoseeva, J. Algebra, 339, no. 1 (2011), 304\u2013319), or U3(q), where q is a special Mersenne prime, with p = 2 (A. V. Zavarnitsine, Algebra Logic, 45, no. 2 (2006), 106\u2013116)."
-}

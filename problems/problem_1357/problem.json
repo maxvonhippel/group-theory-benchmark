@@ -1,6 +1,0 @@
-{
-  "page_number": 188,
-  "problem_number": "1.75",
-  "problem_text": "Classify the infinite simple periodic linear groups over a field of characteristic p > 0.\nV. P. Platonov",
-  "answer": "They are classified for every p mod CFSG (V. V. Belyaev, in: Investigations in Group Theory, Sverdlovsk, UNC AN SSSR, 1984, 39\u201350 (Russian); A. V. Borovik, Siberian Math. J., 24, no. 6 (1983), 843\u2013851; B. Hartley, G. Shute, Quart. J. Math. Oxford (2), 35 (1984), 49\u201371; S. Thomas, Arch. Math., 41 (1983), 103\u2013116). For p > 2 there is a proof without using the CFSG (A. V. Borovik, Siberian Math. J., 25, no. 2 (1984), 221\u2013235). For all p, without using CFSG, the classification also follows from the paper (M. J. Larsen, R. Pink, J. Amer. Math. Soc., 24 (2011), 1105\u20131158) also known as a preprint of 1998."
-}

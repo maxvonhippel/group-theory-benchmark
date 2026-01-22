@@ -1,5 +1,0 @@
-{
-  "page_number": 114,
-  "problem_number": "17.119",
-  "problem_text": "Suppose that a finite soluble group G admits a soluble group of automorphisms A of coprime order such that CG(A) has rank r. Let |A| be the product of l not necessarily distinct primes. Is there a linear function f such that G/Ff(l)(G) has (|A|, r)-bounded rank, where Ff(l)(G) is the f(l)-th Fitting subgroup?\nAn exponential function f with this property was found in (E. Khukhro, V. Mazurov, Groups St. Andrews 2005, vol. II, Cambridge Univ. Press, 2007, 564\u2013585). It is also known that |G/F2l+1(G)| is bounded in terms of |CG(A)| and |A| (Hartley\u2013Isaacs).\nE. I. Khukhro"
-}

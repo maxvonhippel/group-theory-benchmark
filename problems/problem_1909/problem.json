@@ -1,6 +1,0 @@
-{
-  "page_number": 266,
-  "problem_number": "16.61",
-  "problem_text": "A subgroup H of a group G is fully invariant if \u03d1(H) \u2a7dH for every endomorphism \u03d1 of G. Let G be a finite group such that G has a fully invariant subgroup of order d for every d dividing |G|. Must G be cyclic?\nD. MacHale",
-  "answer": "No: take G = Cp \u00d7 Cp2, where Cp, Cp2 are cyclic p-groups of orders p, p2 (A. Abdol-lahi, Letter of 4 March 2009)."
-}

@@ -1,6 +1,0 @@
-{
-  "page_number": 195,
-  "problem_number": "2.44",
-  "problem_text": "Let A and B be subvarieties of a variety of groups M; then (AB) \u2229M is\ncalled the M-product of A by B, where AB is the usual product. Does there exist\na non-abelian variety M with an infinite lattice of subvarieties and commutative M-\nmultiplication?\nA. I. Mal\u2019cev",
-  "answer": "Yes, there does; for example, M = ApAp, where Ap is the variety of all abelian groups\nof prime exponent p (Yu. M. Gorchakov, Talk of June 21, 1967, Krasnoyarsk)."
-}

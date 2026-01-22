@@ -1,6 +1,0 @@
-{
-  "page_number": 197,
-  "problem_number": "2.61",
-  "problem_text": "Let \u0393 be a Noetherian group of automorphisms of a vector space G such that every element of \u0393 is unipotent. Is \u0393 necessarily a stable group of automorphisms?\nB. I. Plotkin",
-  "answer": "Not if the field has non-zero characteristic (A. Yu. Olshanskii, The geometry of defining relations in groups, Kluwer, Dordrecht, 1991). This is true for fields of characteristic zero if the indices of unipotence are uniformly bounded (B. I. Plotkin, S. M. Vovsi, Varieties of group representations, Zinatne, Riga, 1983 (Russian))."
-}

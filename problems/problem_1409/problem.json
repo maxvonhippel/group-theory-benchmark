@@ -1,6 +1,0 @@
-{
-  "page_number": 197,
-  "problem_number": "2.58",
-  "problem_text": "Let G be a vector space and \u0393 a group of automorphisms of G. \u0393 is called locally finitely stable if, for any finitely generated subgroup \u2206 of \u0393, G has a finite series stable relative to \u2206. If the characteristic of the field is zero and \u0393 is locally finitely stable, then \u0393 is locally nilpotent and torsion-free. Is it true that every locally nilpotent torsion-free group can be realized in this way?\nB. I. Plotkin",
-  "answer": "No (L. A. Simonyan, Siberian Math. J., 12 (1971), 602\u2013606)."
-}

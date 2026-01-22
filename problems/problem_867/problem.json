@@ -1,5 +1,0 @@
-{
-  "page_number": 118,
-  "problem_number": "18.34",
-  "problem_text": "18.34. Let G be a topological group and S = G0 \u2a7d . . . \u2a7d Gn = G a subnormal series of closed subgroups. The infinite-length of S is the cardinality of the set of infinite factors Gi/Gi\u22121.\nThe virtual length of G is the supremum of the infinite lengths taken over all such series of G. It is known that if G is a pronilpotent group with finite virtual length then every closed subnormal subgroup is topologically finitely generated (N. Gavioli, V. Monti, C. M. Scoppola, J. Austral. Math. Soc., 95, no. 3 (2013), 343\u2013355). Let G be a pro-p group (or more generally a pronilpotent group). If every closed subnormal subgroup of G is tolopologically finitely generated, is it true that G has finite virtual length?\nN. Gavioli, V. Monti, C. M. Scoppola"
-}

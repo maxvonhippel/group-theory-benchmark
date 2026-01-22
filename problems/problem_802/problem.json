@@ -1,5 +1,0 @@
-{
-  "page_number": 111,
-  "problem_number": "17.84",
-  "problem_text": "17.84. An associative algebra A is said to be Calabi\u2013Yau of dimension d (for short, CYd) if there is a natural isomorphism of A-bimodules Extd\nA-bimod(A, A\u2297A) \u223c= A and\nExtn\nA-bimod(A, A \u2297A) = 0 for n \u0338= d. By Kontsevich\u2019s theorem, the complex group algebra CG of the fundamental group G of a 3-dimensional aspherical manifold is CY3. Is every group with CY3 complex group algebra residually finite? R. Mikhailov"
-}

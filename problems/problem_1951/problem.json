@@ -1,6 +1,0 @@
-{
-  "page_number": 272,
-  "problem_number": "17.74",
-  "problem_text": "Let G be a finite simple group of Lie type defined over a field of characteristic p whose Lie rank is at least three, and V an absolutely irreducible G-module over a field of characteristic that does not divide p. It is true that the split extension of V by G must contain an element whose order is distinct from the order of any element of G? The case of G = Un(pm) is of special interest.\nV. D. Mazurov",
-  "answer": "Yes, it is true: for linear groups (A. V. Zavarnitsine, Siberian Math. J., 49 (2008), 246\u2013256); for other classical groups (M. A. Grechkoseeva, J. Algebra, 339, no. 1 (2011), 304\u2013319); for exceptional gorups (M. A. Grechkoseeva, J. Algebra Appl., 14, no. 4 (2015), Article ID 1550056)."
-}

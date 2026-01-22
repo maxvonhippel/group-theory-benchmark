@@ -1,6 +1,0 @@
-{
-  "page_number": 253,
-  "problem_number": "13.58",
-  "problem_text": "Let \u03c6 be an automorphism of prime order p of a nilpotent (periodic) group G such that CG(\u03c6) is a group of finite sectional rank r. Does G possess a normal subgroup N which is nilpotent of class bounded by a function of p only and is such that G/N is a group of finite sectional rank bounded in terms of r and p? This was proved for p = 2 in (P. Shumyatsky, Arch. Math., 71 (1998), 425\u2013432).\nE. I. Khukhro",
-  "answer": "Yes, it does (E. I. Khukhro, J. London Math. Soc., 77 (2008), 130\u2013148)."
-}

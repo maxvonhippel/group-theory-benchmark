@@ -1,6 +1,0 @@
-{
-  "page_number": 225,
-  "problem_number": "8.13",
-  "problem_text": "Let G be a simple algebraic group over an algebraically closed field of characteristic p and G be the Lie algebra of G. Is the number of orbits of nilpotent elements of G under the adjoint action of G finite? This is known to be true if p is not too small (i. e. if p is not a \u201cbad prime\u201d for G).\nR. W. Carter",
-  "answer": "Yes, it is (D. F. Holt, N. Spaltenstein, J. Austral. Math. Soc. (A), 38 (1985), 330\u2013350)."
-}

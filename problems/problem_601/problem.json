@@ -1,5 +1,0 @@
-{
-  "page_number": 85,
-  "problem_number": "15.20",
-  "problem_text": "15.20. (B. Hartley). An infinite transitive permutation group is said to be barely transitive if each of its proper subgroups has only finite orbits. Can a locally finite barely transitive group coincide with its derived subgroup?\nNote that there are no simple locally finite barely transitive groups (B. Hartley, M. Kuzucuo\u02c7glu, Proc. Edinburgh Math. Soc., 40 (1997), 483\u2013490), any locally finite barely transitive group is a p-group for some prime p, and if the stabilizer of a point in a locally finite barely transitive group G is soluble of derived length d, then G is soluble of derived length bounded by a function of d (V. V. Belyaev, M. Kuzucuo\u02c7glu, Algebra and Logic, 42 (2003), 147\u2013152).\nV. V. Belyaev, M. Kuzucuo\u02c7glu"
-}

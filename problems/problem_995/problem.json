@@ -1,6 +1,0 @@
-{
-  "page_number": 136,
-  "problem_number": "19.63",
-  "problem_text": "\u221719.63. Let A = {Ar | r \u2208 \u03a6} be an elementary carpet of type \u03a6 over a commutative ring K (see 7.28) and let A^2_r = {t^2 | t \u2208 Ar}. Are the inclusions A^2_r A\u2212r \u2286 Ar, r \u2208 \u03a6, sufficient for the carpet A to be closed (admissible)?\nYa. N. Nuzhin",
-  "answer": "Yes, they are sufficient (Ya. N. Nuzhin, J. Siberian Fed. Univ. Ser. Math. Phys., 16, no. 6 (2023), 732\u2013737; Ya. N. Nuzhin, to appear in Siberian Math. J.)."
-}

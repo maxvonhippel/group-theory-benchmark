@@ -1,6 +1,0 @@
-{
-  "page_number": 271,
-  "problem_number": "17.46",
-  "problem_text": "Let G be a finite p-group in which every 2-generator subgroup has cyclic derived subgroup. Is the derived length of G bounded?\nIf p \u2260 2, then G^(2) = 1 (J. Alperin), but for p = 2 there are examples with G^(2) cyclic and elementary abelian of arbitrary order.\nB. M. Veretennikov",
-  "answer": "Yes, it is at most 4 (B. Wilkens, J. Group Theory, 17, no. 1 (2014), 151\u2013174)."
-}

@@ -1,6 +1,0 @@
-{
-  "page_number": 28,
-  "problem_number": "8.30",
-  "problem_text": "Let X, Y be Fitting classes of soluble groups which satisfy the Lockett condition, i. e. X \u2229 S\u2217 = X\u2217, Y \u2229 S\u2217 = Y\u2217 where S denotes the Fitting class of all soluble groups and the lower star the bottom group of the Lockett section determined by the given Fitting class. Does X \u2229 Y satisfy the Lockett condition?\nEditors\u2019 comment (2001): The answer is affirmative if X and Y are local (A. Grytczuk, N. T. Vorob\u2019ev, Tsukuba J. Math., 18, no. 1 (1994), 63\u201367).\nH. Lausch",
-  "answer": "The answer is affirmative if X and Y are local (A. Grytczuk, N. T. Vorob\u2019ev, Tsukuba J. Math., 18, no. 1 (1994), 63\u201367)."
-}

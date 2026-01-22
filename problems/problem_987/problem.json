@@ -1,5 +1,0 @@
-{
-  "page_number": 135,
-  "problem_number": "19.54",
-  "problem_text": "What are the chief factors of a finite group in which every 2-maximal subgroup is not m-maximal for any m \u2a7e 3?\nA subgroup H of a group G is said to be m-maximal if there is a chain of subgroups\nH = H0 < H1 < . . . < Hm\u22121 < Hm = G\nin which Hi is maximal in Hi+1 for every i.\nNote that for every m \u2a7e 3 there is a finite group in which some 2-maximal subgroup is m-maximal.\nV. S. Monakhov"
-}

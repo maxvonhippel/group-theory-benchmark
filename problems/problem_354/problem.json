@@ -1,5 +1,0 @@
-{
-  "page_number": 51,
-  "problem_number": "11.56",
-  "problem_text": "11.56. a) Does every infinite residually finite group contain an infinite abelian subgroup? This is equivalent to the following: does every infinite residually finite group contain a non-identity element with an infinite centralizer?\nBy a famous theorem of Shunkov a torsion group with an involution having a finite centralizer is a virtually soluble group. Therefore we may assume that in our group all elements have odd order. One should start, perhaps, with the following:\nb) Does every infinite residually p-group contain an infinite abelian subgroup?\nA. Mann"
-}

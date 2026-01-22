@@ -1,5 +1,0 @@
-{
-  "page_number": 179,
-  "problem_number": "21.125",
-  "problem_text": "(M. Bridson). Let Fm be a free group of rank m and let \u03d5 \u2208 Aut(Fm) be a polynomially growing automorphism of maximal degree m \u2212 1, which means that for some (equivalently, any) free basis {x1, . . . , xm} of Fm, the sequence maxi |\u03d5n(xi)| grows at the rate of n^{m\u22121}, where |g| denotes the minimal length of g in the xi and their inverses.\n a) Is the free-by-cyclic group Fm \u22ca\u03d5 Z virtually special?\n b) In particular, are the Hydra groups Gm = Fm \u22ca Z = \u27e8a1, . . . , am, t | t\u22121a1t = a1, t\u22121ait = aiai\u22121 for all i > 1\u27e9 virtually special?\nI. Soroko"
-}

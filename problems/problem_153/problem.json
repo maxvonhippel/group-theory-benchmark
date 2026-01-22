@@ -1,5 +1,0 @@
-{
-  "page_number": 24,
-  "problem_number": "7.39",
-  "problem_text": "7.39. Let G = \u27e8 a, b | a^p = (ab)^3 = b^2 = (a^\u03c3ba^{2/\u03c3}b)^2 = 1 \u27e9, where p is a prime, \u03c3 is an integer not divisible by p. The group PSL2(p) is a factor-group of G so that there is a short exact sequence 1 \u2192 N \u2192 G \u2192 PSL2(p) \u2192 1. For each p > 2 there is \u03c3 such that N = 1, for example, \u03c3 = 4. Let N^{ab} denote the factor-group of N by its commutator subgroup. It is known that for some p there is \u03c3 such that N^{ab} is infinite (for example, for p = 41 one can take \u03c3^2 \u2261 2 (mod 41)), whereas for some other p (for example, for p = 43) the group N^{ab} is finite for every \u03c3.\na) Is the set of primes p for which N^{ab} is finite for every \u03c3 infinite?\nb) Is there an arithmetic condition on \u03c3 which ensures that N^{ab} is finite?\nJ. Mennicke"
-}

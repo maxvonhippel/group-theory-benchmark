@@ -1,6 +1,0 @@
-{
-  "page_number": 223,
-  "problem_number": "7.53",
-  "problem_text": "Let p be a prime. The law x \u00b7 x\u03c6 \u00b7 \u00b7 \u00b7 x\u03c6p\u22121 = 1 from the definition of a splitting automorphism (see Archive, 1.10) gives rise to a variety of groups with operators \u27e8\u03c6\u27e9 consisting of all groups that admit a splitting automorphism of order p. Does the analogue of Kostrikin\u2019s theorem hold for this variety, that is, do the locally nilpotent groups in this variety form a subvariety?\n\nE. I. Khukhro",
-  "answer": "Yes, it does (E. I. Khukhro, Math. USSR\u2013Sb., 58 (1987), 119\u2013126)."
-}

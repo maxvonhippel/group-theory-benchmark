@@ -1,6 +1,0 @@
-{
-  "page_number": 205,
-  "problem_number": "4.16",
-  "problem_text": "Suppose that K is a class of groups meeting the following requirements: 1) subgroups and epimorphic images of K-groups are K-groups; 2) if the group G = UV is the product of K-subgroups U and V (neither of which need be normal), then G \u2208K. If \u03c0 is a set of primes, then the class of all finite \u03c0-groups meets these requirements. Are these the only classes K with these properties?\n\nR. Baer",
-  "answer": "No (S. A. Syskin, Siberian Math. J., 20 (1979), 475\u2013476)."
-}

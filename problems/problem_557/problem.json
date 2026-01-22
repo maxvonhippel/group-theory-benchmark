@@ -1,5 +1,0 @@
-{
-  "page_number": 77,
-  "problem_number": "14.57",
-  "problem_text": "Describe the hereditarily just infinite pro-p-groups of finite width.\nDefinitions: A pro-p-group G has finite width p^d if |\u03b3_i(G)/\u03b3_{i+1}(G)| \u2a7d p^d for all i,\nand G is hereditarily just infinite if G is infinite and each of its open subgroups has\nno closed normal subgroups of infinite index.\nC. R. Leedham-Green"
-}

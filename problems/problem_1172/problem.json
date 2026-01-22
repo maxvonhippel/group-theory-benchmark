@@ -1,5 +1,0 @@
-{
-  "page_number": 164,
-  "problem_number": "21.14",
-  "problem_text": "Suppose \u03b1 is an endomorphism of a group G such that for every group H and every homomorphism f : G \u2192 H, there exists an endomorphism \u03b2f of H such that \u03b2f f = f \u03b1. Must \u03b1 then be either an inner automorphism of G or the trivial endomorphism? This is Question 5 in (G. M. Bergman, Publ. Matem., 56 (2012), 91\u2013126). G. M. Bergman"
-}

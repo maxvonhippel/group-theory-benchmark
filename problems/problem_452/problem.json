@@ -1,5 +1,0 @@
-{
-  "page_number": 62,
-  "problem_number": "12.69",
-  "problem_text": "12.69. Let F be a countably infinite field and G a finite group of automorphisms of F. The group ring ZG acts on F in a natural way. Suppose that S is a subfield of F satisfying the following property: for any x \u2208 F there is a non-zero element f \u2208 ZG such that xf \u2208 S. Is it true that either F = S or the field extension F/S is purely inseparable? One can show that for an uncountable field an analogous question has an affirmative answer. K. N. Ponomar\u00a8ev"
-}

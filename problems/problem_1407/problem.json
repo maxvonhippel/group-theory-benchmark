@@ -1,6 +1,0 @@
-{
-  "page_number": 197,
-  "problem_number": "2.54",
-  "problem_text": "Can SL(n, k) have maximal subgroups that are not closed in the Zariski topology?\nV. P. Platonov",
-  "answer": "Yes, it can if k is either Q or an algebraically closed field of characteristic zero (N. S. Romanovski\u02d8\u0131, Algebra i Logika, 6, no. 4 (1967), 75\u201382; 7, no. 3 (1968), 123 (Russian))."
-}

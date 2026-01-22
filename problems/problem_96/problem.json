@@ -1,5 +1,0 @@
-{
-  "page_number": 16,
-  "problem_number": "5.33",
-  "problem_text": "(Y. Ihara). Consider the quaternion algebra Q with norm f = x^2 \u2212 \u03c4y^2 \u2212 \u03c1z^2 + \u03c1\u03c4u^2, \u03c1, \u03c4 \u2208 Z. Assume that f is indefinite and of Q-rank 0, i. e. f = 0 for x, y, z, u \u2208 Q implies x = y = z = u = 0. Consider Q as the algebra of the matrices X = ((x + \u221a\u03c4y, \u03c1(z + \u221a\u03c4u)); (z \u2212 \u221a\u03c4u, x \u2212 \u221a\u03c4y)) with x, y, z, u \u2208 Q. Let p be a prime, p \u2224 \u03c1\u03c4. Consider the group G of all X with x, y, z, u \u2208 Z(p), det X = 1, where Z(p) = {m/p^t | m, t \u2208 Z}. Conjecture: G has the congruence subgroup property, i. e. every non-central normal subgroup N of G contains a full congruence subgroup N(A) = {X \u2208 G | X \u2261 E (mod A)} for some A. Notice that the congruence subgroup property is independent of the matrix representation of Q. J. Mennicke"
-}

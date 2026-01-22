@@ -1,5 +1,0 @@
-{
-  "page_number": 14,
-  "problem_number": "4.65",
-  "problem_text": "Conjecture:\n(pq \u2212 1)/(p \u2212 1)\nnever divides\n(qp \u2212 1)/(q \u2212 1)\nif p, q are distinct primes.\nThe validity of this conjecture would simplify the proof of solvability of groups of odd order (W. Feit, J. G. Thompson, Pacific J. Math., 13, no. 3 (1963), 775\u20131029), rendering unnecessary the detailed use of generators and relations.\nJ. G. Thompson"
-}

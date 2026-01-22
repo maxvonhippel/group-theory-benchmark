@@ -1,5 +1,0 @@
-{
-  "page_number": 46,
-  "problem_number": "11.12",
-  "problem_text": "a) Suppose that G is a simple locally finite group in which the centralizer of some element is a linear group, that is, a group admitting a faithful matrix representation over a field. Is G itself a linear group?\n\nb) The same question with replacement of the word \u201clinear\u201d by \u201cfinitary linear\u201d. A group H is finitary linear if it admits a faithful representation on an infinite-dimensional vector space V such that the residue subspaces V (1 \u2212 h) have finite dimensions for all h \u2208 H.\nA. V. Borovik"
-}

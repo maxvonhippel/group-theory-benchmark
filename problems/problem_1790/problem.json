@@ -1,6 +1,0 @@
-{
-  "page_number": 248,
-  "problem_number": "12.80",
-  "problem_text": "(K. W. Roggenkamp). a) Is it true that the number of p-blocks of defect 0 of a finite group G is equal to the number of the conjugacy classes of elements g \u2208 G such that the number of solutions of the equation [x, y] = g in G is not divisible by p? b) The same question in the case of G being a simple group. S. P. Strunkov",
-  "answer": "a) No it is not true; for example, if p = 2 and G = Z3 \u00d7 S3 (L. Barker, Letter of May, 27, 1996.) b) No, not always. For example in the alternating group A5 for p = 2, the number of 2-blocks of defect 0 is 1, but there are 3 conjugacy classes of elements g such that the number of solutions [x, y] = g is odd, namley, g = (1, 2, 3), (1, 2, 3, 4, 5), and (1, 3, 5, 2, 4). (B. Sambale, Letter of 5 May 2021)."
-}

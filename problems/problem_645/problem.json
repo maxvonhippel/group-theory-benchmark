@@ -1,5 +1,0 @@
-{
-  "page_number": 91,
-  "problem_number": "15.76",
-  "problem_text": "15.76. b) If \u0398 is a variety of groups, then let \u03980 denote the category of all free groups of finite rank in \u0398. It is proved (G. Mashevitzky, B. Plotkin, E. Plotkin J. Algebra, 282 (2004), 490\u2013512) that if \u0398 is the variety of all groups, then every automorphism of the category \u03980 is an inner one. The same is true if \u0398 is the variety of all nilpotent groups of class \u2a7dd, for d \u2a7e2 (A. Tsurkov, Int.\nJ. Algebra Comput., 17 (2007),\n1273\u20131281). Is this true for the varieties of solvable groups? of metabelian groups?\nAn automorphism \u03c6 of a category is called inner if it is isomorphic to the identity automorphism. Let s : 1 \u2192\u03c6 be a function defining this isomorphism. Then for every object A we have an isomorphism sA : A \u2192\u03c6(A) and for any morphism of objects \u00b5 : A \u2192B we have \u03c6(\u00b5) = sB\u00b5s\u22121\nA .\nB. I. Plotkin"
-}

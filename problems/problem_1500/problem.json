@@ -1,6 +1,0 @@
-{
-  "page_number": 208,
-  "problem_number": "4.58",
-  "problem_text": "Let a finite group G be the product of two subgroups A and B, where A is abelian and B is nilpotent. Find the dependence of the derived length of G on the nilpotency class of B and the order of its derived subgroup.\nN. F. Sesekin",
-  "answer": "This was found (D. I. Zaitsev, Math. Notes, 33 (1983), 414\u2013419)."
-}

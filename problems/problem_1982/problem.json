@@ -1,6 +1,0 @@
-{
-  "page_number": 277,
-  "problem_number": "19.35",
-  "problem_text": "Let G be a finite group of order n. Is it true that for every factorization n = a1 \u00b7 \u00b7 \u00b7 ak there exist subsets A1, . . . , Ak such that |A1| = a1, . . . , |Ak| = ak and G = A1 \u00b7 \u00b7 \u00b7 Ak? M. H. Hooshmand",
-  "answer": "No, it is not true. A counterexample with k = 3 is given by the alternating group on 4 letters G = A4 and (a1, a2, a3) = (2, 3, 2) (G. M. Bergman, Letter of 19 December 2019, https://math.berkeley.edu/~gbergman/papers/gp_factzn.pdf)."
-}

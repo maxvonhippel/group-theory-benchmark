@@ -1,5 +1,0 @@
-{
-  "page_number": 159,
-  "problem_number": "20.110",
-  "problem_text": "Are there residually finite hereditarily just infinite groups that are\na) amenable but not solvable?\nb) amenable but not elementary amenable?\nc) of intermediate word growth?\nd) of intermediate subgroup growth?\nAll examples that we know are either linear (hence Tits Alternative applies), or have a quotient with property (T) (hence cannot be amenable).\nM. Vannacci"
-}

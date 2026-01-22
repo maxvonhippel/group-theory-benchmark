@@ -1,6 +1,0 @@
-{
-  "page_number": 242,
-  "problem_number": "11.94",
-  "problem_text": "Describe all simply reducible groups, that is, groups such that all their char-\nacters are real and the tensor product of any two irreducible representations contains\nno multiple components. This question is interesting for physicists. Is every finite\nsimply reducible group soluble?\nS. P. Strunkov",
-  "answer": "Yes, it is (L. S. Kazarin, E. I. Chankov, Sb. Math., 201, no. 5 (2010), 655\u2013668)."
-}

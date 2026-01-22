@@ -1,5 +1,0 @@
-{
-  "page_number": 48,
-  "problem_number": "11.29",
-  "problem_text": "11.29. Let F be a free group and f = ZF(F \u2212 1) the augmentation ideal of the integral group ring ZF.\nFor any normal subgroup R of F define the corresponding ideal r = ZF(R \u2212 1) = id(r \u2212 1 | r \u2208 R). One may identify, for instance, F \u2229 (1 + rf) = R\u2032, where F is naturally imbedded into ZF and 1 + rf = {1 + a | a \u2208 rf}.\nIdentify in an analogous way in terms of corresponding subgroups of F\na) F \u2229 (1 + r1r2 \u00b7 \u00b7 \u00b7 rn), where Ri are normal subgroups of F, i = 1, 2, . . . , n;\nb) F \u2229 (1 + r1r2r3);\nc) F \u2229 (1 + fs + fn), where F/S is finitely generated nilpotent;\nd) F \u2229 (1 + fsf + fn);\ne) F \u2229 (1 + r(k) + fn), n > k \u2a7e 2, where r(k) = rfk\u22121 + frfk\u22122 + \u00b7 \u00b7 \u00b7 + fk\u22121r.\nN. D. Gupta"
-}

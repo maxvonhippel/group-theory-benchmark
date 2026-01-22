@@ -1,5 +1,0 @@
-{
-  "page_number": 110,
-  "problem_number": "17.81",
-  "problem_text": "Given normal subgroups R1, . . . , Rn of a group G, let [[R1, . . . , Rn]] :=\nY h \\\n i\u2208I\n Ri,\n \\\n j\u2208J\n Rj\n i\n, where the product is over all I \u222aJ = {1, . . . , n}, I \u2229J = \u2205.\nLet G be a free group, and let Ri = \u27e8ri\u27e9G be the normal closures of elements ri \u2208G.\nIt is known (B. Hartley, Yu. Kuzmin, J. Pure Appl. Algebra, 74 (1991), 247\u2013256) that the quotient (R1 \u2229R2)/[R1, R2] is a free abelian group. On the other hand, the quotient (R1 \u2229\u00b7 \u00b7 \u00b7 \u2229Rn)/[[R1, . . . , Rn]] has, in general, non-trivial torsion for n \u2a7e4. Is this quotient always torsion-free for n = 3? This is known to be true if r1, r2, r3 are not proper powers in G.\nR. Mikhailov"
-}

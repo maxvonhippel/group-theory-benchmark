@@ -1,6 +1,0 @@
-{
-  "page_number": 116,
-  "problem_number": "*18.1",
-  "problem_text": "Given a group G of finite order n, does there necessarily exist a bijection f from G onto a cyclic group of order n such that for each element x \u2208 G, the order of x divides the order of f(x)? An affirmative answer in the case where G is solvable was given by F. Ladisch.\nI. M. Isaacs",
-  "answer": "Yes, it does (M. Amiri, J. Pure Applied Algebra, 228, no. 7 (2024), 107632)."
-}

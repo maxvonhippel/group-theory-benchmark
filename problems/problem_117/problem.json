@@ -1,5 +1,0 @@
-{
-  "page_number": 18,
-  "problem_number": "6.11",
-  "problem_text": "Let L be the class of locally compact groups with no small subgroups (see D. Montgomery, L. Zippin, Topological transformation groups, New York, 1955; V. M. Glushkov, Uspekhi Matem. Nauk, 12, no. 2 (1957), 3\u201341 (Russian)). Study extensions of groups in this class with the objective of giving a direct proof of the following: For each G \u2208 L there exists an H \u2208 L and a (continuous) homomorphism \u03d1 : G \u2192 H with a discrete kernel and an image Im \u03d1 satisfying Im \u03d1 \u2229 Z(H) = 1 (Z(H) is the center of H). This result follows from the Gleason\u2013Montgomery\u2013Zippin solution of Hilbert\u2019s 5th Problem (since L is the class of finite-dimensional Lie groups and the latter are locally linear). On the other hand a direct proof of this result would give a substantially shorter proof of the 5th Problem since the adjoint representation of H is faithful on Im \u03d1. J. D. Dixon"
-}

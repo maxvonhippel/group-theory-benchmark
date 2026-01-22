@@ -1,5 +1,0 @@
-{
-  "page_number": 145,
-  "problem_number": "20.12",
-  "problem_text": "20.12. Let us say that a group G has the unique n-fold product property (u.-n-p.) if for every n-tuple of finite nonempty subsets A1, . . . , An \u2286 G there exists g \u2208 G which can be written in one and only one way as g = a1 \u00b7 \u00b7 \u00b7 an with ai \u2208 Ai. It is easy to see that u.-n-p. implies u.-m-p. for n \u2a7e m (since some of the Ai can be {1}). Are the conditions u.-n-p. (n \u2a7e 2) all equivalent to u.-2-p., the usual unique product condition? G. M. Bergman"
-}

@@ -1,6 +1,0 @@
-{
-  "page_number": 161,
-  "problem_number": "20.123",
-  "problem_text": "A finite group is called a D\u03c0-group if any two of its maximal \u03c0-subgroups are conjugate.\n a) Is it true that for any finite D\u03c0-group G and a \u03c0-Hall subgroup H of G, there are elements x, y, z \u2208 G such that O\u03c0(G) = H \u2229 Hx \u2229 Hy \u2229 Hz?\n \u2217b) Suppose that G is a finite D\u03c0-group in which all simple non-abelian composition factors are sporadic or alternating groups, and let H be a Hall \u03c0-subgroup of G. Is it true that H \u2229 Hx \u2229 Hy = O\u03c0(G) for some x, y \u2208 G?\n \u2217c) Suppose that G is a finite D\u03c0-group with trivial soluble radical in which all simple non-abelian composition factors are sporadic groups, and let H be a Hall \u03c0-subgroup of G. Is it true that H \u2229 Hg = O\u03c0(G) for some g \u2208 G?\nV. I. Zenkov",
-  "answer": "\u2217b) Yes, it is true (I. N. Belousov, V. I. Zenkov, Preprint, 2025 (Russian), https://kourovkanotebookorg.wordpress.com/wp-content/uploads/2025/09/20.123b.pdf)\n\u2217c) Yes, it is true (I. N. Belousov, V. I. Zenkov, Trudy Inst. Mat. Mekh. Ural. Otdel. Ross. Akad. Nauk, 31, no. 1 (2025), 19\u201335 (Russian))."
-}

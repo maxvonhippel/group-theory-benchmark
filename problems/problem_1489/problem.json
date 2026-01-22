@@ -1,6 +1,0 @@
-{
-  "page_number": 207,
-  "problem_number": "4.39",
-  "problem_text": "A countable group U is said to be SQ-universal if every countable group is isomorphic to a subgroup of a quotient group of U. Let G be a group that has a presentation with r \u2a7e 2 generators and at most r \u2212 2 defining relations. Is G SQ-universal?\nA. M. Macbeath, P. M. Neumann",
-  "answer": "Yes, it is (B. Baumslag, S. J. Pride, J. London Math. Soc., 17 (1978), 425\u2013426)."
-}

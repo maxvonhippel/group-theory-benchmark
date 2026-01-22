@@ -1,5 +1,0 @@
-{
-  "page_number": 97,
-  "problem_number": "16.29",
-  "problem_text": "16.29. Which finite simple groups of Lie type G have the following property: for every semisimple abelian subgroup A and proper subgroup H of G there exists x \u2208 G such that Ax \u2229 H = 1?\nThis property holds when A is a cyclic subgroup (J. Siemons, A. Zalesskii, J. Algebra, 256 (2002), 611\u2013625), as well as when A is contained in some maximal torus and G = PSLn(q) (J. Siemons, A. Zalesskii, J. Algebra, 226 (2000), 451\u2013478). Note that if G = L2(5), A = 2\u00d72, and H = 5 : 2 (in Atlas notation), then Ax \u2229 H > 1 for every x \u2208 G (this example was communicated to the author by V. I. Zenkov).\nE. P. Vdovin"
-}

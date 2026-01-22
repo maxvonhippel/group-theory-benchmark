@@ -1,6 +1,0 @@
-{
-  "page_number": 237,
-  "problem_number": "11.8",
-  "problem_text": "a) For a finite group X, let \u03c71(X) denote the totality of the degrees of all irreducible complex characters of X with allowance for their multiplicities. Suppose that \u03c71(G) = \u03c71(H) for groups G and H. Clearly, then |G| = |H|. Is it true that H is simple if G is simple? Ya. G. Berkovich",
-  "answer": "a) Yes, it is (H. P. Tong-Viet, J. Algebra, 357 (2012), 61\u201368; Monatsh. Math., 166, no. 3\u20134 (2012), 559\u2013577; Algebr. Represent. Theory, 15, no. 2 (2012), 379\u2013389)."
-}

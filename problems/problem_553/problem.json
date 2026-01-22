@@ -1,5 +1,0 @@
-{
-  "page_number": 77,
-  "problem_number": "14.53",
-  "problem_text": "Conjecture: Let G be a profinite group such that the set of solutions of the\nequation x^n = 1 has positive Haar measure. Then G has an open subgroup H and\nan element t such that all elements of the coset tH have order dividing n.\nThis is true in the case n = 2. It would be interesting to see whether similar\nresults hold for profinite groups in which the set of solutions of some equation has\npositive measure.\nComment of 2021: This is also proved for n = 3 (A. Abdollahi, M. S. Malekan,\nAdv. Group Theory Appl., 13 (2022), 71\u201381). Comment of 2025: Significant progress\nwas obtained in (S. Kionke, N. Otmen, T. Toti, M. Vannacci, T. Weigel, Preprint, 2025,\nhttps://arxiv.org/pdf/2507.19086).\nL. Levai, L. Pyber"
-}

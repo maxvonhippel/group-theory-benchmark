@@ -1,5 +1,0 @@
-{
-  "page_number": 19,
-  "problem_number": "6.26",
-  "problem_text": "Let D be a normal set of involutions in a finite group G and let \u0393(D) be the graph with vertex set D and edge set {(a, b) | a, b \u2208 D, ab = ba \u0338= 1}. Describe the finite groups G with non-connected graph \u0393(D). A. A. Makhn\u00a8ev"
-}

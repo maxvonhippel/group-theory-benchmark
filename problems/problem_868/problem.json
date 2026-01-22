@@ -1,5 +1,0 @@
-{
-  "page_number": 118,
-  "problem_number": "18.35",
-  "problem_text": "18.35.\nA family F of group homomorphisms A \u2192 B is separating if for every nontrivial a \u2208 A there is f \u2208 F such that f(a) \u0338= 1, and discriminating if for any finitely many nontrivial elements a1, . . . , an \u2208 A there is f \u2208 F such that f(ai) \u0338= 1 for all i = 1, . . . , n. Let G be a relatively free group of rank 2 in the variety of metabelian groups. Let T be a metabelian group in which the centralizer of every nontrivial element is abelian.\nIf T admits a separating family of surjective homomorphisms T \u2192 G must it also admit a discriminating family of surjective homomorphisms T \u2192 G?\nA positive answer would give a metabelian analogue of a classical theorem of B. Baumslag.\nA. Gaglione, D. Spellman"
-}

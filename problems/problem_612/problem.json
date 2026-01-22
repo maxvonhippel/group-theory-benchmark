@@ -1,5 +1,0 @@
-{
-  "page_number": 86,
-  "problem_number": "15.37",
-  "problem_text": "Let G be a group satisfying the minimum condition for centralizers. Suppose that X is a normal subset of G such that [x, y, . . . , y] = 1 for any x, y \u2208 X with y repeated f(x, y) times. Does X generate a locally nilpotent (whence hypercentral) subgroup?\nIf the numbers f(x, y) can be bounded, the answer is affirmative (F. O. Wagner, J. Algebra, 217, no. 2 (1999), 448\u2013460).\nF. O. Wagner"
-}

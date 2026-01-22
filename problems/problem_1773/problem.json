@@ -1,6 +1,0 @@
-{
-  "page_number": 246,
-  "problem_number": "12.36",
-  "problem_text": "Let p be a prime, V an n-dimensional vector space over the field of p elements, and let G be a subgroup of GL(V ). Let S = S[V \u2217] be the symmetric algebra on V \u2217, the dual of V. Let T = SG be the ring of invariants and let bm be the dimension of the homogeneous component of degree m. Then the Poincar\u00e9 series \u2211_{m\u2a7e0} b_m t^m is a rational function with a Laurent power series expansion \u2211_{i\u2a7e\u2212n} a_i(1 \u2212 t)^i about t = 1 where a_{\u2212n} = 1/|G|.\nConjecture: a_{\u2212n+1} = r/(2|G|) where r = \u2211_W ((p \u2212 1)\u03b1_W + s_W \u2212 1), the sum is taken over all maximal subspaces W of V, and \u03b1_W, s_W are defined by |G_W| = p^{\u03b1_W} \u00b7 s_W where p \u2224 s_W and G_W denotes the pointwise stabilizer of W.\nD. Carlisle, P. H. Kropholler",
-  "answer": "The conjecture is proved (D. J. Benson, W. W. Crawley-Boevey, Bull. London Math. Soc., 27, no. 5 (1995), 435\u2013440); another proof based on the Grothendieck\u2013Riemann\u2013Roch Theorem was later obtained in (A. Neeman, Comment. Math. Helv., 70, no. 3 (1995), 339\u2013349)."
-}

@@ -1,5 +1,0 @@
-{
-  "page_number": 33,
-  "problem_number": "9.19",
-  "problem_text": "a) Let n(X) denote the minimum of the indices of proper subgroups of a group X. A subgroup A of a finite group G is called wide if A is a maximal element by inclusion of the set {X | X is a proper subgroup of G and n(X) = n(G)}. Find all wide subgroups in finite projective special linear, symplectic, orthogonal, and unitary groups.\nV. D. Mazurov"
-}

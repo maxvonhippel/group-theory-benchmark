@@ -1,5 +1,0 @@
-{
-  "page_number": 177,
-  "problem_number": "21.111",
-  "problem_text": "Let S be a finite simple nonabelian group that is not isomorphic to any group 2B2(q). A nonidentity automorphism x of S is called a \u03c4-automorphism if every two conjugates of x in \u27e8x, Inn(S)\u27e9generate a subgroup of order not divisible by 3. If S admits a \u03c4-automorphism, we call S a \u03c4-group.\n(a) List all \u03c4-groups up to isomorphism.\n(b) Do \u03c4-automorphisms of odd order exist?\nD. O. Revin, N. Y. Yang"
-}

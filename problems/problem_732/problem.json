@@ -1,5 +1,0 @@
-{
-  "page_number": 102,
-  "problem_number": "16.95",
-  "problem_text": "Conjecture: If F is a field and A is in GL(n, F), then there is a permutation matrix P such that AP is cyclic, that is, the minimal polynomial of AP is also its characteristic polynomial. J. G. Thompson"
-}

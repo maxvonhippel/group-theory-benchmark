@@ -1,6 +1,0 @@
-{
-  "page_number": 262,
-  "problem_number": "15.62",
-  "problem_text": "15.62. Given an ordinary irreducible character \u03c7 of a finite group G write ep(\u03c7) to denote the p-part of \u03c7(1) and put ep(G) = max{ep(\u03c7) | \u03c7 \u2208 Irr(G)}. Suppose that P is a Sylow p-subgroup of a group G. Is it true that ep(P) is bounded above by a function of ep(G)?\nComment of 2005: An affirmative answer in the case of solvable groups has been given in (A. Moret\u00b4o, T. R. Wolf, Adv. Math., 184 (2004), 18\u201336).\nA. Moret\u00b4o",
-  "answer": "Yes, it is true (Yong Yang, Guohua Qian, Adv. Math., 328 (2018), 356\u2013366)."
-}

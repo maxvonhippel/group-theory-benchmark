@@ -1,6 +1,0 @@
-{
-  "page_number": 262,
-  "problem_number": "15.76",
-  "problem_text": "15.76. a) If \u0398 is a variety of groups, then let \u03980 denote the category of all free groups of finite rank in \u0398. It is proved (G. Mashevitzky, B. Plotkin, E. Plotkin J. Algebra, 282 (2004), 490\u2013512) that if \u0398 is the variety of all groups, then every automorphism of the category \u03980 is an inner one. The same is true if \u0398 is the variety of all abelian groups. Is this true for the variety of nilpotent groups of class 2?\nAn automorphism \u03c6 of a category is called inner if it is isomorphic to the identity automorphism. Let s : 1 \u2192 \u03c6 be a function defining this isomorphism. Then for every object A we have an isomorphism sA : A \u2192 \u03c6(A) and for any morphism of objects \u00b5 : A \u2192 B we have \u03c6(\u00b5) = sB\u00b5s\u22121_A.\nB. I. Plotkin",
-  "answer": "Yes, it is, even for the variety of nilpotent groups of any class n (A. Tsurkov, Int. J. Algebra Comput., 17 (2007), 1273\u20131281)."
-}

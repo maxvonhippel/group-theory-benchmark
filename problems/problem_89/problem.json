@@ -1,5 +1,0 @@
-{
-  "page_number": 15,
-  "problem_number": "5.14",
-  "problem_text": "An intersection of some Sylow 2-subgroups is called a Sylow intersection and an intersection of a pair of Sylow 2-subgroups is called a paired Sylow intersection.\na) Describe the finite groups all of whose 2-local subgroups have odd indices.\nb) Describe the finite groups all of whose normalizers of Sylow intersections have odd indices.\nc) Describe the finite groups all of whose normalizers of paired Sylow intersections have odd indices.\nd) Describe the finite groups in which for any two Sylow 2-subgroups P and Q, the intersection P \u2229 Q is normal in some Sylow 2-subgroup of \u27e8P, Q\u27e9.\nV. V. Kabanov, A. A. Makhn\u00ebv, A. I. Starostin"
-}

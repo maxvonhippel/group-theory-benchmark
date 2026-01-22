@@ -1,5 +1,0 @@
-{
-  "page_number": 174,
-  "problem_number": "21.93",
-  "problem_text": "21.93. (M. Herzog, J. Sch\u00a8onheim). Let G be a group and let k \u2a7e 2. Let H1, . . . , Hk be subgroups of G, and g1, . . . , gk elements of G such that the cosets g1H1, . . . , gkHk form a partition of G. Is it true that |G : Hi| = |G : Hj| for some i \u0338= j? This is known to be true for groups with a Sylow tower (M. A. Berger, A. Felzenbaum, A. Fraenkel, Fund. Math., 128, no. 3 (1987), 139\u2013144). Also cf. 20.99. L. Margolis"
-}

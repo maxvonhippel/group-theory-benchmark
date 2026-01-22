@@ -1,6 +1,0 @@
-{
-  "page_number": 193,
-  "problem_number": "2.35",
-  "problem_text": "An inverse spectrum \u03be of abelian groups is said to be acyclic if lim\u2190(p) \u03be = 0 for p > 0. Here lim\u2190(p) denotes the right derived functor of the projective limit functor. Let \u03be be an acyclic spectrum of finitely generated groups. Is the spectrum L \u03be\u03b1 also acyclic, where each spectrum \u03be\u03b1 coincides with \u03be?\nV. I. Kuz\u2019minov",
-  "answer": "The answer depends on the axioms of Set Theory (A. A. Khusainov, Siberian Math. J., 37, no. 2 (1996), 405\u2013413)."
-}

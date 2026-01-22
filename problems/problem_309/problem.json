@@ -1,5 +1,0 @@
-{
-  "page_number": 43,
-  "problem_number": "10.65",
-  "problem_text": "Determine the structure of infinite 2-transitive permutation groups (G, \u2126) in which the stabilizer of a point \u03b1 \u2208 \u2126 has the form G\u03b1 = A \u00b7 G\u03b1\u03b2 where G\u03b1\u03b2 is the stabilizer of two points \u03b1, \u03b2, \u03b1 \u0338= \u03b2, such that G\u03b1\u03b2 contains an element inverting the subgroup A. Suppose, in particular, that A \\ {1} contains at most two conjugacy classes of G\u03b1; does G then possess a normal subgroup isomorphic to PSL2 over a field? A. N. Fomin"
-}

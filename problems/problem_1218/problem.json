@@ -1,5 +1,0 @@
-{
-  "page_number": 170,
-  "problem_number": "21.60",
-  "problem_text": "Let G be a finite group, Z(p) the localization at p, and Fp the field of p elements. Let X be the class of FpG-modules obtained by reduction of simple QG-modules. Is it true that Z(p)G is semiperfect if and only if each projective indecomposable FpG-module can be written as an N-linear combination of modules in X inside the Grothendieck group of FpG?\nThe \u201conly if\u201d direction is proved, and the affirmative answer is obtained if p does not divide |G| (D. Johnston, D. Rumynin, J. Algebra, 687, no. 1 (2026), 776\u2013791).\nD. Johnston, D. Rumynin"
-}

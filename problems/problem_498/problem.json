@@ -1,5 +1,0 @@
-{
-  "page_number": 68,
-  "problem_number": "13.44",
-  "problem_text": "13.44. For any partition of an arbitrary group G into finitely many subsets G =\nA1 \u222a \u00b7 \u00b7 \u00b7 \u222a An, there exists a subset of the partition Ai and a finite subset F \u2286 G, such\nthat G = A^{-1}_i AiF (I. V. Protasov, Siberian Math. J., 34, no. 5 (1993), 938\u2013952). Can\nthe subset F always be chosen so that |F| \u2a7d n? This is true for amenable groups.\nI. V. Protasov"
-}

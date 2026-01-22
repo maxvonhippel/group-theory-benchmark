@@ -1,6 +1,0 @@
-{
-  "page_number": 264,
-  "problem_number": "16.15",
-  "problem_text": "An element g of a group G is an Engel element if for every h \u2208 G there exists k such that [h, g, . . . , g] = 1, where g occurs k times; if there is such k independent of h, then g is said to be boundedly Engel.\na) (B. I. Plotkin). Does the set of boundedly Engel elements of a group form a subgroup?\nV. V. Bludov",
-  "answer": "a) No, not always (A. I. Sozutov, Siberian Math. J., 60, no. 6 (2019), 1099\u20131100)."
-}

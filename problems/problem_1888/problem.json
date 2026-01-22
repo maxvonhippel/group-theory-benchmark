@@ -1,6 +1,0 @@
-{
-  "page_number": 263,
-  "problem_number": "16.12",
-  "problem_text": "Given a finite p-group G, we define a \u03a6-extension of G as any finite p-group H containing a normal subgroup N of order p such that H/N \u223c= G and N \u2a7d \u03a6(H). Is it true that for every finite p-group G there exists an infinite sequence G = G1, G2, . . . such that Gi+1 is a \u03a6-extension of Gi for all i = 1, 2, . . .? Ya. G. Berkovich",
-  "answer": "Yes, it is (S. F. Kamornikov, Izv. Gomel\u2019 Univ., 5 (2008), 200\u2013201 (Russian))."
-}

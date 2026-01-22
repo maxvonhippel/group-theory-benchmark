@@ -1,5 +1,0 @@
-{
-  "page_number": 95,
-  "problem_number": "16.9",
-  "problem_text": "16.9. An element g of a free group Fn on the free generators x1, . . . , xn is called a palindrome with respect to these generators if the reduced word representing g is the same when read from left to right or from right to left. The palindromic length of an element w \u2208Fn is the smallest number of palindromes in Fn whose product is w. Is there an algorithm for finding the palindromic length of a given element of Fn?\nV. G. Bardakov, V. A. Tolstykh, V. E. Shpilrain"
-}

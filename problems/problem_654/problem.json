@@ -1,5 +1,0 @@
-{
-  "page_number": 92,
-  "problem_number": "15.88",
-  "problem_text": "Let A and N_c denote the varieties of abelian groups and nilpotent groups of class \u2a7d c, respectively. Let F_r = Fr(AN_c) be a free group of rank r in AN_c. An element of F_r is called primitive if it can be included in a basis of F_r. Does there exist an algorithm recognizing primitive elements in F_r?\nE. I. Timoshenko"
-}

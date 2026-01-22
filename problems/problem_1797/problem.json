@@ -1,6 +1,0 @@
-{
-  "page_number": 249,
-  "problem_number": "12.96",
-  "problem_text": "Find a non-empty Fitting class F and a non-soluble finite group G such that G has no F-injectors.\nL. A. Shemetkov",
-  "answer": "Found by E. Salomon (Mainz Univ., unpublished); his example is presented in \u00a7 7.1 of (A. Ballester-Bolinches, L. M. Ezquerro, Classes of finite groups, Springer, 2006)."
-}

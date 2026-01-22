@@ -1,6 +1,0 @@
-{
-  "page_number": 219,
-  "problem_number": "6.53",
-  "problem_text": "A group G of the form G = F \u22cbH is said to be a Frobenius group with kernel F and complement H if H \u2229Hg = 1 for any g \u2208G \\ H and F \\ {1} = G \\ S g\u2208G Hg. What can be said about the kernel and the complement of a Frobenius group? In particular, which groups can be kernels? complements?\nV. P. Shunkov",
-  "answer": "Every group can be embedded into the kernel of a Frobenius group, and every right-orderable group can be a complement in a Frobenius group (V. V. Bludov, Siberian Math. J., 38, no. 6 (1997), 1054\u20131056)"
-}

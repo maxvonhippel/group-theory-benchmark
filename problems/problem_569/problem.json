@@ -1,5 +1,0 @@
-{
-  "page_number": 79,
-  "problem_number": "14.74",
-  "problem_text": "Let k(G) denote the number of conjugacy classes of a finite group G. Is it\ntrue that k(G) \u2a7dk(P1) \u00b7 \u00b7 \u00b7 k(Ps), where P1, . . . , Ps are Sylow subgroups of G such\nthat |G| = |P1| \u00b7 \u00b7 \u00b7 |Ps|?\nL. Pyber"
-}

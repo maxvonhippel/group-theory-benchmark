@@ -1,6 +1,0 @@
-{
-  "page_number": 109,
-  "problem_number": "17.62",
-  "problem_text": "Given a free group Fn and a proper characteristic subgroup C, is it ever possible to generate the quotient Fn/C by fewer than n elements?\nJ. Conrad",
-  "answer": "Yes, it is possible; moreover, for all n \u2a7e 2, the free group Fn admits continuum many pairwise non-isomorphic infinite simple characteristic 2-generated quotients (R. Coulon, F. Fournier-Facio, https://arxiv.org/abs/2312.11684)."
-}

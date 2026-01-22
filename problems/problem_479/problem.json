@@ -1,5 +1,0 @@
-{
-  "page_number": 66,
-  "problem_number": "13.17",
-  "problem_text": "A representation of a group G on a vector space V is called a nil-representation if for every v in V and g in G there exists n = n(v, g) such that v(g \u22121)n = 0. Is it true that in zero characteristic every irreducible nil-representation is trivial? (In prime characteristic it is not true.)\nS. Vovsi"
-}

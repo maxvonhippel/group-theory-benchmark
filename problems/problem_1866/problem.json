@@ -1,6 +1,0 @@
-{
-  "page_number": 260,
-  "problem_number": "15.24",
-  "problem_text": "15.24. Suppose that a finite p-group G has a subgroup of exponent p and order pn.\nIs it true that if p is sufficiently large relative to n, then G contains a normal subgroup\nof exponent p and order pn?\nJ. L. Alperin and G. Glauberman (J. Algebra, 203, no. 2 (1998), 533\u2013566) proved\nthat if a finite p-group contains an elementary abelian subgroup of order pn, then\nit contains a normal elementary abelian subgroup of the same order provided p >\n4n\u22127, and the analogue for arbitrary abelian subgroups is proved in (G. Glauberman,\nJ. Algebra, 272 (2004), 128\u2013153).\nYa. G. Berkovich",
-  "answer": "Yes, it is true if p > n. By induction, G contains a subgroup H of exponent p and\norder pn which is normal in a maximal subgroup M of G. Then H \u2a7d\u03b6p\u22121(M). The\nelements of order p of \u03b6p\u22121(M) constitute a normal subgroup of G, which contains H.\n(A. Mann, Letter of 1 October 2002.)"
-}

@@ -1,5 +1,0 @@
-{
-  "page_number": 161,
-  "problem_number": "20.126",
-  "problem_text": "A brace (G; +, \u25e6) is non-empty set G with two binary operations +, \u25e6 such that (G, +) is an additively written abelian group, (G, \u25e6) is a multiplicatively written group, and a \u25e6 (b + c) + a = (a \u25e6 b) + (a \u25e6 c) for all a, b, c \u2208 G. Does there exist a brace with finitely generated group (G, +) such that\n a) the group (G, \u25e6) is non-solvable?\n b) the group (G, \u25e6) contains a non-abelian free group?\nV. G. Bardakov, M. V. Neshchadim, M. K. Yadav"
-}

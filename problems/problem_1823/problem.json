@@ -1,6 +1,0 @@
-{
-  "page_number": 253,
-  "problem_number": "13.62",
-  "problem_text": "Let U and V be non-cyclic subgroups of a free group. Does the inclusion [U, U] \u2a7d [V, V] imply that U \u2a7d V?\nV. P. Shaptala",
-  "answer": "No, it does not (M. J. Dunwoody, Arch. Math., 16 (1965), 153\u2013157)."
-}

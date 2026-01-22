@@ -1,5 +1,0 @@
-{
-  "page_number": 76,
-  "problem_number": "14.43",
-  "problem_text": "Suppose that a finite group G has the form G = AB, where A and B are nilpotent subgroups of classes \u03b1 and \u03b2 respectively; then G is soluble (O. H. Kegel, H. Wielandt, 1961). Although the derived length dl(G) of G need not be bounded by \u03b1 + \u03b2 (see Archive, 5.17), can one bound dl(G) by a (linear) function of \u03b1 and \u03b2?\nL. S. Kazarin"
-}

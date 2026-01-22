@@ -1,5 +1,0 @@
-{
-  "page_number": 171,
-  "problem_number": "21.66",
-  "problem_text": "21.66. Suppose that A is a nilpotent group of automorphisms of a finite soluble group G. Is the Fitting height of G bounded in terms of |A| and |CG(A)|?\nAn affirmative answer is known when (|G|, |A|) = 1 (J. G. Thompson, even for soluble A, with improved bounds in subsequent papers of H. Kurzweil, A. Turull, B. Hartley\u2013I. M. Isaacs), when A is cyclic (see 19.43), or when CG(A) = 1 (E. C. Dade).\nNote that for any non-nilpotent finite group A there are finite soluble groups G of unbounded Fitting height with CG(A) = 1 (S. D. Bell\u2013B. Hartley).\nE. I. Khukhro"
-}

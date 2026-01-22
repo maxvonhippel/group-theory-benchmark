@@ -1,6 +1,0 @@
-{
-  "page_number": 273,
-  "problem_number": "17.86",
-  "problem_text": "(Simplest questions related to the Whitehead asphericity conjecture). Let \u27e8x1, x2, x3 | r1, r2, r3\u27e9 be a presentation of the trivial group. b) Let F = F(x1, x2, x3) and Ri = \u27e8ri\u27e9F. Is it true that the group F/[R1, R2] is residually soluble? R. Mikhailov",
-  "answer": "b) No, not always (V. A. Roman\u2019kov, Siberian Math. J., 52, no. 2 (2011), 348\u2013351)."
-}

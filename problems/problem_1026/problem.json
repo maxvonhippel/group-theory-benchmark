@@ -1,6 +1,0 @@
-{
-  "page_number": 141,
-  "problem_number": "19.104",
-  "problem_text": "Is there an algorithm which decides whether a given subgroup of F is inert?\nAn algorithm to decide whether a given H is compressed is known.\nE. Ventura",
-  "answer": "Yes, there is (A. Jaikin-Zapirain, Preprint, 2024, https://arxiv.org/pdf/2403.09515)."
-}

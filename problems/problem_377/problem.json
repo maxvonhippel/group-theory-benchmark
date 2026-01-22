@@ -1,5 +1,0 @@
-{
-  "page_number": 54,
-  "problem_number": "11.86",
-  "problem_text": "Does every group G = \u27e8x1, . . . , xn | r1 = \u00b7 \u00b7 \u00b7 = rm = 1\u27e9 possess, in a natural way, a homomorphic image H = \u27e8x1, . . . , xn | s1 = \u00b7 \u00b7 \u00b7 = sm = 1\u27e9\n(a) such that H is a torsion-free group?\n(b) such that the integral group ring of H is embeddable in a skew field?\nIf the stronger assertion \u201cb\u201d is true, then this will give an explicit method of finding elements xi1, . . . , xin\u2212m which generate a free group in G. Such elements exist by N. S. Romanovski\u02d8\u0131\u2019s theorem (Algebra and Logic, 16, no. 1 (1977), 62\u201367).\nV. A. Roman\u2019kov"
-}

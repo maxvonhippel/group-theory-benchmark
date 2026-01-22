@@ -1,5 +1,0 @@
-{
-  "page_number": 131,
-  "problem_number": "19.19",
-  "problem_text": "19.19. A finite transitive permutation group G is said to have the road closure property if, given any orbit O of G on 2-sets, and any proper block of imprimitivity for G acting on O, the graph with edge set O \\ B is connected. Such a group must be primitive, and basic (not contained in a wreath product with the product action); it cannot have an imprimitive subgroup of index 2. In addition, such a group cannot be one of the permutation groups arising from triality (whose socle is D4(q) and intersects the point stabiliser in the parabolic subgroup corresponding to the three leaves in the Coxeter\u2013Dynkin diagram for D4).\nClassify the basic primitive groups G which do not have the road closure property. In particular, is it true that such a group either has a subgroup of index at most 3 or is almost simple?\nP. J. Cameron"
-}

@@ -1,5 +1,0 @@
-{
-  "page_number": 72,
-  "problem_number": "Well-known problem",
-  "problem_text": "14.9. (Well-known problem). Let W\u2217(Fk) denote the von Neumann algebra of the free group of rank k \u2208 {2, 3, . . . , \u21350}. Is W\u2217(Fk) isomorphic to W\u2217(Fl) for k \u2260 l?\nFor a group G, recall that W\u2217(G) is an appropriate completion of the group algebra CG (see e. g. S. Sakai, C\u2217-algebras and W\u2217-algebras, Springer, 1971, in particular Problem 4.4.44). It is known that either W\u2217(Fk) \u223c= W\u2217(Fl) for all k, l \u2208 {2, 3, . . . , \u21350}, or that the W\u2217(Fk) are pairwise non-isomorphic (F. Radulescu, Invent. Math., 115 (1994), 347\u2013389, Corollary 4.7).\nP. de la Harpe"
-}

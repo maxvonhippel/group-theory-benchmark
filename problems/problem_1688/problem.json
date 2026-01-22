@@ -1,6 +1,0 @@
-{
-  "page_number": 234,
-  "problem_number": "10.1",
-  "problem_text": "Let p be a prime number. Describe the groups of order p^9 of nilpotency class 2 which contain subgroups X and Y such that |X| = |Y| = p^3 and any non-identity elements x \u2208 X, y \u2208 Y do not commute. An answer to this question would yield a description of the semifields of order p^3.\nS. N. Adamov, A. N. Fomin",
-  "answer": "They are described (V. A. Antonov, Preprint, Chelyabinsk, 1999 (Russian))."
-}

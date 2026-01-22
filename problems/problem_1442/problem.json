@@ -1,6 +1,0 @@
-{
-  "page_number": 201,
-  "problem_number": "3.21",
-  "problem_text": "3.21. Let K be the class of one-based models of signature \u03c3, \u03d1 a property that makes sense for models in K, and K0 the class of two-based models whose first base is a set M taken from K and whose second base consists of all submodels of M with property \u03d1 and whose signature consists of the symbols in \u03c3 together with \u2208 and \u2286 in the usual set-theoretic sense. The elementary theory of K0 is called the element-\u03d1-submodel theory of K. Are either of the following theories decidable:\na) the element-pure-subgroup theory of abelian groups?\nb) the element-pure-subgroup theory of abelian torsion-free groups?\nc) the element-\u03d1-subgroup theory of abelian groups, when the set of \u03d1-subgroups is linearly ordered by inclusion?\nA. I. Kokorin",
-  "answer": "No, in all cases (for a), c): G. T. Kozlov, Algebra and Logic, 9 (1970), 104\u2013107, Algebra, no. 1, Irkutsk Univ., 1972, 21\u201323 (Russian); for b): \u00c9. I. Fridman, Algebra, no. 1, Irkutsk Univ., 1972, 97\u2013100 (Russian))."
-}

@@ -1,5 +1,0 @@
-{
-  "page_number": 105,
-  "problem_number": "17.26",
-  "problem_text": "17.26. Are the classes of right-orderable and right-ordered groups closed under taking solutions of equations w(a1, . . . , ak, x1, . . . , xn) = 1? (Here the closures are under group embeddings and order-preserving embeddings, respectively.) This is true for equations with a single constant, when k = 1 (J. Group Theory, 11 (2008), 623\u2013633).\nV. V. Bludov, A. M. W. Glass"
-}

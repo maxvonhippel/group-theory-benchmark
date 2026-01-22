@@ -1,6 +1,0 @@
-{
-  "page_number": 247,
-  "problem_number": "12.65",
-  "problem_text": "Let P = (P0, P1, P2) be a parabolic system in a finite group G, belonging to the C3 Coxeter diagram \u25e6\n1\n\u25e6\n2\n\u25e6\n3\nand let the Borel subgroup have index at least 3 in P0 and P1. It is known that, if we furthermore assume that the chamber system of P is geometric and that the projective planes arising as {0, 1}-residues from P are desarguesian, then either G(\u221e) is a Chevalley group of type C3 or B3 or G = A7. Can we obtain the same conclusion in general, without assuming the previous two hypothesis?\nA. Pasini",
-  "answer": "Yes, we can (S. Yoshiara, J. Algebraic Combin., 5, no. 3 (1996), 251\u2013284)."
-}

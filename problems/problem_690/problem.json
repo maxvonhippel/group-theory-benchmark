@@ -1,5 +1,0 @@
-{
-  "page_number": 97,
-  "problem_number": "16.28",
-  "problem_text": "16.28. Let G be a connected linear reductive algebraic group over a field of positive characteristic, X a closed subset of G, and let Xk = {x1 \u00b7 \u00b7 \u00b7 xk | xi \u2208 X}.\na) Is it true that there always exists a positive integer c = c(X) > 1 such that Xc is closed?\nb) If X is a conjugacy class of G such that X2 contains an open subset of G, then is X2 = G?\nE. P. Vdovin"
-}

@@ -1,5 +1,0 @@
-{
-  "page_number": 154,
-  "problem_number": "20.78",
-  "problem_text": "For an irreducible complex character \u03c7 of a finite group G, the codegree of \u03c7 is\ndefined by cod(\u03c7) = |G : ker \u03c7|/\u03c7(1). Let Cod(G) be the set of irreducible character\ncodegrees of G. Conjecture: If G has an element of order m, then m divides some\nmember of Cod(G).\nThe conjecture is proved when m is a prime power (G. Qian, Arch. Math., 97\n(2011), 99\u2013103); when m is square-free (I. M. Isaacs, Arch. Math., 97 (2011), 499\u2013\n501); or when G is solvable (G. Qian, Bull. London Math. Soc., 53 (2021) 820\u2013824); or\nwhen G is a symmetric or alternating group (E. Giannelli (J. Algebra Appl., 23, no. 9\n(2024), article ID 2450144); or when G is an almost simple group (S. Y. Madanha,\nCommun. Algebra, 51, no. 7 (2023), 3143\u20133151); or when F(G) = 1 (Z. Akhlaghi,\nE. Pacifici, L. Sanus, J. Algebra, 644 (2024), 428\u2013441).\nG. Qian"
-}

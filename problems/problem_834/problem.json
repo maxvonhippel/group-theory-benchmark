@@ -1,5 +1,0 @@
-{
-  "page_number": 115,
-  "problem_number": "17.121",
-  "problem_text": "Let G be a group whose set of elements is the real numbers and which is \u201cnicely definable\u201d (see below). Does G being \u2135\u03c9-free imply it being free if \u201cnicely definable\u201d means\na) being F\u03c3?\nb) being Borel?\nc) being analytic?\nd) being projective L[R]?\nSee https://arxiv.org/pdf/math/0212250.pdf for justification of the restrictions.\nS. Shelah"
-}

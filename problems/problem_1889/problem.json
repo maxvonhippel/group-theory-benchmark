@@ -1,6 +1,0 @@
-{
-  "page_number": 263,
-  "problem_number": "16.13",
-  "problem_text": "Does there exist a finite p-group G all of whose maximal subgroups H are special, that is, satisfy Z(H) = [H, H] = \u03a6(H)? Ya. G. Berkovich",
-  "answer": "Yes, for all primes there are groups of arbitrarily large size with this property (J. Cossey, Bull. Austral. Math. Soc., 89 (2014), 415\u2013419); an example for p = 2 given by a Sylow 2-subgroup of L3(4) was independently presented by V. I. Zenkov at Mal\u2019cev Meeting\u20132014, 10\u201314 November, 2014, Novosibirsk."
-}

@@ -1,6 +1,0 @@
-{
-  "page_number": 185,
-  "problem_number": "1.38",
-  "problem_text": "An N 0-group is a group in which every cyclic subgroup is a term of some\nnormal system of the group. Is every N 0-group an e\nN-group?\nSh. S. Kemkhadze",
-  "answer": "No. Every group G with a central system {Hi} is an N 0-group, since for any g \u2208G\nthe system {\u27e8g, Hi\u27e9} refined by the trivial subgroup and the intersections of all the\nsubsystems is a normal system of G containing \u27e8g\u27e9. Free groups have central systems\nbut are not e\nN-groups. (Yu. I. Merzlyakov, 1973.)"
-}

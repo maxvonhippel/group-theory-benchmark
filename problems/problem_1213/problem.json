@@ -1,5 +1,0 @@
-{
-  "page_number": 169,
-  "problem_number": "21.55",
-  "problem_text": "Let q be a power of a prime p, and let m_n(q) be the maximum p-length of p-solvable subgroups of GL(n, q). Is it true that lim_{n\u2192\u221e} m_n(q)/log_2 n = 1?\n\u0130. G\u00fcl\u043e\u011flu"
-}

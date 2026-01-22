@@ -1,5 +1,0 @@
-{
-  "page_number": 120,
-  "problem_number": "18.46",
-  "problem_text": "18.46. Every finite group G can be embedded in a group H in such a way that every element of G is a square of an element of H. The overgroup H can be chosen such that |H| \u27c22|G|2. Is this estimate sharp?\n It is known that the best possible estimate cannot be better than |H| \u27c2|G|2 (D. V. Baranov, Ant. A. Klyachko, Siber. Math. J., 53, no. 2 (2012), 201\u2013206).\n Ant. A. Klyachko"
-}

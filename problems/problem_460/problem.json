@@ -1,5 +1,0 @@
-{
-  "page_number": 63,
-  "problem_number": "12.88",
-  "problem_text": "An undirected graph is called a locally finite Cayley graph of a group G if its vertex set can be identified with the set of elements of G in such a way that, for some finite generating set X = X\u22121 of G not containing 1, two vertices g and h are adjacent if and only if g\u22121h \u2208 X. Do there exist two finitely generated groups with the same locally finite Cayley graph, one of which is periodic and the other is not periodic?\nV. I. Trofimov"
-}

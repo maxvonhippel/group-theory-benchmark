@@ -1,5 +1,0 @@
-{
-  "page_number": 140,
-  "problem_number": "19.91",
-  "problem_text": "19.91. Let G be a finite group with an abelian Sylow p-subgroup A. Suppose that B is a strongly closed elementary abelian subgroup of A. Without invoking the Classification Theorem for Finite Simple Groups (CFSG), prove that G has a normal subgroup N such that B = \u21261(A \u2229N).\nFor p = 2, this is a corollary of a theorem of Goldschmidt. For p odd, this has been proved by Flores and Foote (Adv. Math., 222 (2009), 453\u2013484), but their proof relies on CFSG. A CFSG-free proof in the special case when p = 3 and A has 3-rank 3 would already be quite interesting. This case arises in Aschbacher\u2019s treatment of the e(G) = 3 problem, and a proof would provide an alternative to part of his argument. (For this application, one could assume that all proper simple sections of G are known.)\nR. Solomon"
-}

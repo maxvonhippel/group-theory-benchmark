@@ -1,6 +1,0 @@
-{
-  "page_number": 239,
-  "problem_number": "11.27",
-  "problem_text": "What are the minimum numbers of generators for groups G satisfying S \u2a7d G \u2a7d Aut S where S is a finite simple non-abelian group?\nK. Gruenberg",
-  "answer": "The number d(G) is found (mod CFSG) for every such a group G. In particular, d(G) = max{2, d(G/S)} and d(G) \u2a7d 3 (F. Dalla Volta, A. Lucchini, J. Algebra, 178, no. 1 (1995), 194\u2013223)."
-}

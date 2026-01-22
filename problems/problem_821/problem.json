@@ -1,5 +1,0 @@
-{
-  "page_number": 113,
-  "problem_number": "17.104",
-  "problem_text": "Let \u0393 be a finite non-oriented graph on the set of vertices {x1, . . . , xn} and let S\u0393 = \u27e8x1, . . . , xn | xixj = xjxi \u21d4(xi, xj) \u2208\u0393; A2\u27e9be a presentation of a partially commutative metabelian group S\u0393 in the variety of all metabelian groups. Is the universal theory of the group S\u0393 decidable?\nV. N. Remeslennikov, E. I. Timoshenko"
-}

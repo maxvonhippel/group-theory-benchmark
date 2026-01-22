@@ -1,6 +1,0 @@
-{
-  "page_number": 252,
-  "problem_number": "13.40",
-  "problem_text": "13.40. A group G is said to be \u03c9-residually free if, for every finite set of non-trivial elements of G, there is a homomorphism of G into a free group such that the images of all these elements are non-trivial. Is every finitely-generated \u03c9-residually free group embeddable in a free Z[x]-group?\nA. G. Myasnikov, V. N. Remeslennikov",
-  "answer": "Yes, it is (O. Kharlampovich, A. Myasnikov, J. Algebra, 200 (1998), 472\u2013570)."
-}

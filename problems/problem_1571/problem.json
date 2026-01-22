@@ -1,6 +1,0 @@
-{
-  "page_number": 217,
-  "problem_number": "6.23",
-  "problem_text": "A braid K of the braid group Bn+1 is said to be smooth if removing any of the threads in K transforms K into a braid that is equal to 1 in Bn. It is known that smooth braids form a free subgroup. Describe generators of this subgroup. G. S. Makanin",
-  "answer": "They are described in (D. L. Johnson, Math. Proc. Camb. Philos. Soc., 92 (1982), 425\u2013427)."
-}

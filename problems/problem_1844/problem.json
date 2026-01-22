@@ -1,6 +1,0 @@
-{
-  "page_number": 256,
-  "problem_number": "14.71",
-  "problem_text": "Consider a free group F of finite rank and an arbitrary group G. Define the G-closure clG(T) of any subset T \u2286 F as the intersection of the kernels of all those homomorphisms \u00b5 : F \u2192 G of F into G that vanish on T:\nclG(T) = T {Ker \u00b5 | \u00b5 : F \u2192 G; T \u2286 Ker \u00b5}.\nGroups G and H are called geometrically equivalent if for every free group F and every subset T \u2282 F the G- and H-closures of T coincide:\nclG(T) = clH(T).\nIt is easy to see that if G and H are geometrically equivalent then they have the same quasiidentities. Is it true that if two groups have the same quasiidentities then they are geometrically equivalent? This is true for nilpotent groups.\nB. I. Plotkin",
-  "answer": "No, not always (V. V. Bludov, Abstracts of the 7th Int. Conf. Groups and Group Rings, Supras\u00b4l, Poland, 1999, p. 6; R. G\u00a8obel, S. Shelah, Proc. Amer. Math. Soc., 130 (2002), 673\u2013674 (electronic); A. G. Myasnikov, V. N. Remeslennikov, J. Algebra, 234, no. 1 (2000), 225\u2013276). The latter paper contains also necessary and sufficient conditions for geometrical equivalence."
-}

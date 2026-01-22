@@ -1,5 +1,0 @@
-{
-  "page_number": 100,
-  "problem_number": "16.66",
-  "problem_text": "For a group G, let Dn(G) denote the n-th dimension subgroup of G, and \u03b6n(G) the n-th term of its upper central series.\nFor a given integer n \u2a7e 1, let f(n) = max{m | \u2203a nilpotent group G of class n with Dm(G) \u0338= 1} and g(n) = max{m | \u2203a nilpotent group G of class n such that Dn(G) \u0338\u2286 \u03b6m(G)}.\na) What is f(3)?\nb) (B. I. Plotkin). Is it true that f(n) is finite for all n?\nc) Is the growth of f(n) and g(n) polynomial, exponential, or intermediary?\nIt is known that both f(n) \u2212 n and g(n) tend to infinity as n \u2192 \u221e (N. Gupta, Yu. V. Kuz\u2019min, J. Pure Appl. Algebra, 104 (1995), 191\u2013197).\nR. Mikhailov, I. B. S. Passi"
-}

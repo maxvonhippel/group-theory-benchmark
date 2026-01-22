@@ -1,5 +1,0 @@
-{
-  "page_number": 78,
-  "problem_number": "14.70",
-  "problem_text": "A group G is called n-Engel if it satisfies the identity [x, y, . . . , y] = 1, where y is taken n times. Are there non-nilpotent finitely generated n-Engel groups? Comment of 2017: For n = 2, 3, 4, finitely generated n-Engel groups are nilpotent. A course of lectures devoted to constructing non-nilpotent finitely generated n-Engel groups for sufficiently large n is given by E. Rips and is available on the Internet. B. I. Plotkin"
-}

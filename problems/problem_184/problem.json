@@ -1,5 +1,0 @@
-{
-  "page_number": 28,
-  "problem_number": "8.33",
-  "problem_text": "Let a, b be two elements of a group, a having infinite order. Find a necessary and sufficient condition for \\(\\bigcap_{n=1}^{\\infty} \\langle a^n, b \\rangle = \\langle b \\rangle\\).\nF. N. Liman"
-}

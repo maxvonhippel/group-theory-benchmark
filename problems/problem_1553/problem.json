@@ -1,6 +1,0 @@
-{
-  "page_number": 215,
-  "problem_number": "5.64",
-  "problem_text": "5.64. Suppose that a finite group G is the product of two subgroups A1 and A2. Prove that if Ai contains a nilpotent subgroup of index \u2a7d2 for i = 1, 2, then G is soluble.\nL. A. Shemetkov",
-  "answer": "This has been proved (L. S. Kazarin, Math. USSR\u2013Sb., 38 (1981), 47\u201359)."
-}

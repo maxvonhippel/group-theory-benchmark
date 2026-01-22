@@ -1,6 +1,0 @@
-{
-  "page_number": 229,
-  "problem_number": "9.3",
-  "problem_text": "Suppose that a countable locally finite group G contains no proper subgroups isomorphic to G itself and suppose that all Sylow subgroups of G are finite. Does G possess a non-trivial finite normal subgroup?\nV. V. Belyaev",
-  "answer": "Yes, it does (S. D. Bell, Locally finite groups with \u02c7Cernikov Sylow subgroups, (Ph. D. Thesis), University of Manchester, 1994)."
-}

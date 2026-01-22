@@ -1,6 +1,0 @@
-{
-  "page_number": 208,
-  "problem_number": "4.52",
-  "problem_text": "Let G be a finitely generated torsion-free group that is an extension of an abelian group by a nilpotent group. Then is G almost a residually finite p-group for almost all primes p?\nV. N. Remeslennikov",
-  "answer": "Yes, it is (G. A. Noskov, Algebra and Logic, 13 (1974), 388\u2013393; D. Segal, J. Algebra, 32 (1974), 389\u2013399)."
-}

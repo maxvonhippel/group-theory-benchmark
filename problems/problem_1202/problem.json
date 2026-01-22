@@ -1,5 +1,0 @@
-{
-  "page_number": 168,
-  "problem_number": "21.44",
-  "problem_text": "Let Wn = A5\u2240\u00b7 \u00b7 \u00b7\u2240A5 be the n-times iterated permutational wreath product of A5 in its natural action (so Wn acts on 5n points), and let W = lim\u2190\u2212Wn be the inverse limit (infinite iterated wreath product of A5). Does W contain a finitely generated dense subgroup of subexponential growth?\nS. Eberhard"
-}

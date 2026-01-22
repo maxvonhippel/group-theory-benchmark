@@ -1,5 +1,0 @@
-{
-  "page_number": 132,
-  "problem_number": "19.29",
-  "problem_text": "19.29. Let \u03a6 \u2208 Out G = Aut G/Inn G. Two automorphisms \u03c6, \u03c8 \u2208 \u03a6 are said to be isogradient if \u03c6 = \u011d\u22121\u03c8\u011d for some inner automorphism \u011d. The number of isogradiency classes in \u03a6 is denoted by S(\u03a6).\nConjecture: If a finitely generated residually finite group G has an outer automorphism \u03a6 such that S(\u03a6) is finite, then G has a soluble subgroup of finite index.\nA. L. Fel\u2019shtyn, E. V. Troitsky"
-}

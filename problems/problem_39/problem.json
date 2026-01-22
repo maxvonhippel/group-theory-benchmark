@@ -1,5 +1,0 @@
-{
-  "page_number": 9,
-  "problem_number": "2.81",
-  "problem_text": "a) Does there exist an axiomatizable class of lattices K such that the lattice of all subsemigroups of a semigroup S is isomorphic to some lattice in K if and only if S is a free group?\nb) The same question for free abelian groups.\nAnalogous questions have affirmative answers for torsion-free groups, for non-periodic groups, for abelian torsion-free groups, for abelian non-periodic groups, for orderable groups (the corresponding classes of lattices are even finitely axiomatizable). Thus, in posed questions one may assume from the outset that the semigroup S is a torsion-free group (respectively, a torsion-free abelian group).\nL. N. Shevrin"
-}

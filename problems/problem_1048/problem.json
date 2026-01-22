@@ -1,5 +1,0 @@
-{
-  "page_number": 146,
-  "problem_number": "20.16",
-  "problem_text": "By Hartley\u2019s theorem (based on CFSG), if a simple locally finite group does not contain a particular finite group as a section, then it is isomorphic to a group of Lie type over a locally finite field.\na) Is the same true for an infinite definably simple locally finite group? A group is said to be definably simple if it does not contain proper definable normal subgroups.\nb) The same question for an infinite definably simple locally finite group with bounded derived lengths of its solvable subgroups.\nA. V. Borovik"
-}

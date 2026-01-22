@@ -1,6 +1,0 @@
-{
-  "page_number": 231,
-  "problem_number": "9.41",
-  "problem_text": "a) Let \u03a9 be a countably infinite set. For k \u2a7e 2, we define a k-section of \u03a9 to be a partition of \u03a9 into a union of k infinite subsets. Then does there exist a transitive permutation group on \u03a9 that is transitive on k-sections but intransitive on ordered k-sections? P. M. Neumann",
-  "answer": "Yes, there does. Let U be a non-principal ultrafilter in P(\u03a9) and let G = {g \u2208 Sym(\u03a9) | Fix(g) \u2208 U}. It is not hard to prove that G is transitive on k-sections but not on ordered k-sections for any k in the range 2 \u2a7e k \u2a7e \u21350. (P. M. Neumann, Letter of October, 5, 1989.)"
-}

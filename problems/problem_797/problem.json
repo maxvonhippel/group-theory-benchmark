@@ -1,6 +1,0 @@
-{
-  "page_number": 110,
-  "problem_number": "*17.76",
-  "problem_text": "Does there exist a finite group G, with |G| > 2, such that there is exactly one element in G which is not a commutator?\nD. MacHale",
-  "answer": "Yes, such group do exist, and there are infinitely many examples (S. V. Skresanov, Preprint, 2025, https://arxiv.org/abs/2509.17587); two other examples are also found in (O. Hatem, D. Siniora, Int. J. Group Theory, 15, no. 3 (2026), 161\u2013167)."
-}

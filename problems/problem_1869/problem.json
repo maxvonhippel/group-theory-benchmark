@@ -1,6 +1,0 @@
-{
-  "page_number": 260,
-  "problem_number": "15.33",
-  "problem_text": "15.33. Suppose that all 2-generator subgroups of a finite 2-group G are metacyclic.\nIs the derived length of G bounded? This is true for finite p-groups if p \u0338= 2, see\n1.1.8 in (M. Suzuki, Structure of a group and the structure of its lattice of subgroups,\nSpringer, Berlin, 1956).\nYa. G. Berkovich",
-  "answer": "Yes, it is at most 2 (E. Crestani, F. Menegazzo, J. Group Theory, 15, no. 3 (2012),\n359\u2013383)."
-}

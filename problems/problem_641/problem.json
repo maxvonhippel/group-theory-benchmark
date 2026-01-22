@@ -1,5 +1,0 @@
-{
-  "page_number": 91,
-  "problem_number": "15.72",
-  "problem_text": "15.72. For a fixed prime p does there exist a sequence of groups Pn of order pn such that the number of conjugacy classes k(Pn) satisfies limn\u2192\u221elog k(Pn)/\u221an = 0?\nNote that J. M. Riedl (J. Algebra, 218 (1999), 190\u2013215) constructed p-groups for which the above limit is 2 log p.\nP. P. P\u00b4alfy"
-}

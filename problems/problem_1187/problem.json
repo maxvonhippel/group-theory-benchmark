@@ -1,5 +1,0 @@
-{
-  "page_number": 166,
-  "problem_number": "21.29",
-  "problem_text": "Let G \u2a7d Sym(\u2126) be a finite primitive permutation group with a regular suborbit (that is, G has a trivial 2-point stabiliser). Then is it true that for all \u03b1, \u03b2 \u2208 \u2126, there exists \u03b3 \u2208 \u2126 such that the 2-point stabilisers G\u03b1,\u03b3 and G\u03b2,\u03b3 are both trivial? T. C. Burness, M. Giudici"
-}

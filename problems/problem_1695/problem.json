@@ -1,6 +1,0 @@
-{
-  "page_number": 235,
-  "problem_number": "10.25",
-  "problem_text": "(Well-known problem). Does there exist an algorithm which decides for a given automorphism of a free group whether this automorphism has a non-trivial fixed point?\nG. S. Makanin",
-  "answer": "Yes, it does (O. Bogopolski, O. Maslakova, Int. J. Algebra Comput., 26, no. 1 (2016), 29\u201367)."
-}

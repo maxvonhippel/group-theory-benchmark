@@ -1,6 +1,0 @@
-{
-  "page_number": 232,
-  "problem_number": "9.50",
-  "problem_text": "Is every 4-Engel group\na) without elements of order 2 and 5 necessarily soluble?\nb) satisfying the identity x5 = 1 necessarily locally finite?\nc) (R. I. Grigorchuk) satisfying the identity x8 = 1 necessarily locally finite?\nYu. P. Razmyslov",
-  "answer": "a) Yes; this follows from the local nilpotency of 4-Engel groups (G. Traustason, Int. J. Algebra Comput., 15 (2005), 309\u2013316; G. Havas, M. R. Vaughan-Lee, Int. J. Algebra Comput. 15 (2005), 649\u2013682) and the affirmative answer for locally nilpotent groups in (A. Abdollahi, G. Traustason, Proc. Amer. Math. Soc., 130 (2002), 2827\u20132836).\nb) Yes, it is (M. R. Vaughan-Lee, Proc. London Math. Soc. (3), 74 (1997), 306\u2013334).\nc) Yes; moreover, every 4-Engel 2-group is locally finite (G. Traustason, J. Algebra, 178, no. 2 (1995), 414\u2013429)."
-}

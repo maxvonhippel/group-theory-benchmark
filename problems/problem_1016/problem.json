@@ -1,6 +1,0 @@
-{
-  "page_number": 140,
-  "problem_number": "19.92",
-  "problem_text": "\u221719.92. Let A be the algebra of 3\u00d73 skew-Hermitian matrices over the real octonions, where multiplication is given by bracket product. Determine Aut(A).\nThe question might be of interest for octonion algebras over a different base field or ring. The question was inspired by an observation of John Faulkner concerning a possible connection between A or a related algebra and the Dwyer\u2013Wilkerson 2-compact group BDI(4).\nR. Solomon",
-  "answer": "It is determined: Aut(A) \u223c= G2 \u00d7 SO(3), which follows from the result about derivations in (H. Petyt, Commun. Algebra, 47, no. 10 (2019), 4216\u20134223)."
-}

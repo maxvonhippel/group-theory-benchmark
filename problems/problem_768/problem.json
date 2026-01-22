@@ -1,5 +1,0 @@
-{
-  "page_number": 106,
-  "problem_number": "17.39",
-  "problem_text": "Is there a positive integer n such that the hypercenter of any finite soluble group coincides with the intersection of n system normalizers of that group? What is the least number with this property?\nComment of 2017:\nThis is proved for groups with trivial Frattini subgroup (A. Ballester-Bolinches, J. Cossey, S. F. Kamornikov, H. Meng, J. Algebra, 499 (2018), 438\u2013449).\nA. F. Vasil\u2019ev, L. A. Shemetkov"
-}

@@ -1,6 +1,0 @@
-{
-  "page_number": 244,
-  "problem_number": "11.112. b)",
-  "problem_text": "Let L = L(K(p)) be the associated Lie ring of a free countably generated group K(p) of the Kostrikin variety of locally finite groups of a given prime exponent p. Is it true that all identities of L follow from multilinear identities of L? E. I. Khukhro",
-  "answer": "No, there are two relations of weight 29 which hold in L(K(7)) (in two generators, of multiweights (14, 15) and (15, 14)) that are not consequences of multilinear relations (E. O\u2019Brien, M. R. Vaughan-Lee, Int. J. Algebra Comput., 12 (2002), 575\u2013592; M. F. Newman, M. R. Vaughan-Lee, Electron. Res. Announc. Amer. Math. Soc., 4, no. 1 (1998), 1\u20133)."
-}

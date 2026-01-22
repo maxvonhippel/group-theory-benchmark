@@ -1,5 +1,0 @@
-{
-  "page_number": 119,
-  "problem_number": "18.41",
-  "problem_text": "Let F be a free group of rank 2.\na) It is known that scl(g) = 0 only for g = 1, and scl(g) \u2a7e 1/2 for all 1 \u0338= g \u2208 [F, F]. Is 1/2 an isolated value?\nb) Are there any intervals J in R such that the set of values of scl on [F, F] is dense in J?\nc) Is there some T \u2208 R such that every rational number \u2a7e T is a value of scl(g) for g \u2208 [F, F]?\nD. Calegari"
-}

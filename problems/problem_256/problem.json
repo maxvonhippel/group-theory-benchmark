@@ -1,5 +1,0 @@
-{
-  "page_number": 36,
-  "problem_number": "9.72",
-  "problem_text": "Let G1 and G2 be Lie groups with the following property: each Gi contains a nilpotent simply connected normal Lie subgroup Bi such that Gi/Bi \u223c= SL2(K), where K = R or C. Assume that G1 and G2 are contained as closed subgroups in a topological group G, that G1 \u2229G2 \u2a7eB1B2, and that no non-identity Lie subgroup of B1 \u2229B2 is normal in G. Can it then be shown (perhaps by using the method of \u201camalgams\u201d from the theory of finite groups) that the nilpotency class and the dimension of B1B2 is bounded?\nA. L. Chermak"
-}

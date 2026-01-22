@@ -1,5 +1,0 @@
-{
-  "page_number": 65,
-  "problem_number": "13.5",
-  "problem_text": "Groups A and B are said to be locally equivalent if for every finitely generated subgroup X \u2a7d A there is a subgroup Y \u2a7d B isomorphic to X, and conversely, for every finitely generated subgroup Y \u2a7d B there is a subgroup X \u2a7d A, isomorphic to Y. We call a group G categorical if G is isomorphic to any group that is locally equivalent to G. Is it true that a periodic locally soluble group G is categorical if and only if G is hyperfinite with Chernikov Sylow subgroups? (A group is hyperfinite if it has a well ordered ascending normal series with finite factors.) V. V. Belyaev"
-}

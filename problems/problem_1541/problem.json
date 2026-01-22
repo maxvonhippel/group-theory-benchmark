@@ -1,6 +1,0 @@
-{
-  "page_number": 214,
-  "problem_number": "5.41",
-  "problem_text": "Does every non-trivial finite group, which is free in some variety, contain a non-trivial abelian normal subgroup?\nA. Yu. Olshanskii",
-  "answer": "Yes, it does (mod CFSG). Otherwise, if G is a counterexample, the centralizer of the product E of all minimal normal subgroups of G is trivial and there is an element of G/E whose order is m, where m is the maximum of the orders of 2-elements of G. By Theorem 1 in (M. Aschbacher, P. B. Kleidman, M. W. Liebeck, Math. Z., 208, no. 3 (1991), 401\u2013409), which is proved using CFSG, there is an element of order 2m in G, which contradicts the choice of m. (S. A. Syskin, Letter of August, 20, 1992.)"
-}

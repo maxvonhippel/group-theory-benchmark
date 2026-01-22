@@ -1,6 +1,0 @@
-{
-  "page_number": 99,
-  "problem_number": "*16.48",
-  "problem_text": "A group H is said to have generalized torsion if there exists an element h \u2260 1 such that h^{x1}h^{x2} \u00b7 \u00b7 \u00b7 h^{xn} = 1 for some n and some xi \u2208 H. Is every group without generalized torsion right-orderable? V. M. Kopytov, N. Ya. Medvedev",
-  "answer": "No, not every (T. W. Cai, A. Clay, Preprint, 2025, https://arxiv.org/abs/2504.08084)"
-}

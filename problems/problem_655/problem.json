@@ -1,5 +1,0 @@
-{
-  "page_number": 92,
-  "problem_number": "15.89",
-  "problem_text": "Let \u0393 be an infinite undirected connected vertex-symmetric graph of finite valency without loops or multiple edges. Is it true that every complex number is an eigenvalue of the adjacency matrix of \u0393 under its natural action as a linear operator on the complex vector space of all complex-valued functions on the vertex set of \u0393?\nV. I. Trofimov"
-}

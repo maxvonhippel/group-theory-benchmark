@@ -1,5 +1,0 @@
-{
-  "page_number": 162,
-  "problem_number": "21.1",
-  "problem_text": "Let n be a positive integer. For a finite group K and an automorphism \u03d5 of K of order dividing n, let Xn,\u03d5(K) := {x \u2208 K | xx\u03d5 \u00b7 \u00b7 \u00b7 x\u03d5n\u22121 = 1}. Let cn be the supremum of the ratios |Xn,\u03d5(H)|/|H| over all finite groups H and their automorphisms \u03d5 \u2208 Aut(H) such that \u03d5n = id and Xn,\u03d5(H) \u0338= H.\n(a) Let n > 1 be a positive integer such that cd < 1 for all prime power divisors d of n. Is it true that cn < 1?\n(b) For a finite group G and a positive integer n, the generalized Hughes\u2013Thompson subgroup is defined as Hn(G) = \u27e8x \u2208 G | xn \u0338= 1\u27e9. Suppose that n is a positive integer for which there is a positive integer kn depending only on n such that |G : Hn(G)| \u2a7d kn for all finite groups G with Hn(G) \u0338= 1. Is it true that then cn < 1? This question is open even when n \u2a7e 5 is prime.\nA. Abdollahi, M. S. Malekan"
-}

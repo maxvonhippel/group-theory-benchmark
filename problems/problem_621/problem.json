@@ -1,5 +1,0 @@
-{
-  "page_number": 88,
-  "problem_number": "15.50",
-  "problem_text": "Let G be a group of automorphisms of an abelian group of prime exponent. Suppose that there exists x \u2208 G such that x is regular of order 3 and the order of [x, g] is finite for every g \u2208 G. Is it true that \u27e8x^G\u27e9 is locally finite?\nV. D. Mazurov"
-}

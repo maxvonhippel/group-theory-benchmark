@@ -1,6 +1,0 @@
-{
-  "page_number": 108,
-  "problem_number": "*17.56",
-  "problem_text": "Suppose that a subgroup H of a finite group G is such that HM = MH for every minimal non-nilpotent subgroup M of G. Must H/HG be nilpotent, where HG is the largest normal subgroup of G contained in H? V. N. Knyagina, V. S. Monakhov",
-  "answer": "No, not always (A. Ballester-Bolinches, R. Esteban-Romero, S. F. Kamornikov, V. P\u00b4erez-Calabuig, J. Algebra, 608 (2022), 382\u2013387)."
-}

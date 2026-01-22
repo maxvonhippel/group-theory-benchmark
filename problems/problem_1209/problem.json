@@ -1,5 +1,0 @@
-{
-  "page_number": 169,
-  "problem_number": "21.51",
-  "problem_text": "Let p be a prime, and P a finite p-group.\n(a) Suppose that P has an abelian subgroup of order p^n. For which n does P necessarily have a normal abelian subgroup of order p^n?\n(b) Suppose that P has an elementary abelian subgroup of order p^n. For which n does P necessarily have a normal elementary abelian subgroup of order p^n?\nIt is easy to see that for p = 2, the answer to (b) is \u201cyes\u201d only for n = 1. The answer to both questions is \u201cyes\u201d for n < (p + 2)/2 (G. G. Glauberman, J. Algebra, 319, no. 2 (2008), 800\u2013805), as well as for n \u2a7d 5 when p \u2260 2 (M. Konvisser, D. Jonah, J. Algebra, 34 (1975), 309\u2013330). The answer to both questions is \u201cno\u201d for n \u2a7e (p + 9)/2 when p \u2a7e 5 (for p \u2a7e 7 due to G. Glauberman, Contemp. Math., 524 (2010), 61\u201365; for p = 3, 5 due to Ya. G. Berkovich, J. Algebra, 248, no. 2 (2002), 472\u2013553). Thus, the only open cases for p \u2a7e 5 are n = 6 for p = 5, and n = (p + 3)/2, (p + 5)/2, (p + 7)/2 for p > 5.\nG. Glauberman"
-}

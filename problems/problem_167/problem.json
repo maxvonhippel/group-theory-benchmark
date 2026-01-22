@@ -1,5 +1,0 @@
-{
-  "page_number": 26,
-  "problem_number": "8.3",
-  "problem_text": "Let m and n be positive integers and p a prime. Let Pn(Zpm) be the group of all n \u00d7 n matrices (aij) over the integers modulo pm such that aii \u2261 1 for all i and aij \u2261 0 (mod p) for all i > j. The group Pn(Zpm) is a finite p-group. For which m and n is it regular? Editors\u2019 comment (2001): The group Pn(Zpm) is known to be regular if mn < p (Yu. I. Merzlyakov, Algebra i Logika, 3, no. 4 (1964), 49\u201359 (Russian)). The case m = 1 is completely done by A. V. Yagzhev in (Math. Notes, 56, no. 5\u20136 (1995), 1283\u20131290), although this paper is erroneous for m > 1. The case m = 2 is completed in (S. G. Kolesnikov, Issledovaniya in analysis and algebra, no. 3, Tomsk Univ., Tomsk, 2001, 117\u2013125 (Russian)). Editors\u2019 comment (2009): The group Pn(Zpm) was shown to be regular for any m if n2 < p (S. G. Kolesnikov, Siberian Math. J., 47, no. 6 (2006), 1054\u20131059). B. A. F. Wehrfritz"
-}

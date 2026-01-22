@@ -1,6 +1,0 @@
-{
-  "page_number": 244,
-  "problem_number": "12.1. b)",
-  "problem_text": "(A. A. Bovdi). H. Bass (Topology, 4, no. 4 (1966), 391\u2013400) has constructed explicitly a proper subgroup of finite index in the group of units of the integer group ring of a finite cyclic group. Construct analogous subgroups for finite abelian non-cyclic groups.\nR. Zh. Aleev",
-  "answer": "They are constructed: for p-groups, p \u0338= 2, in (K. Hoechsmann, J. Ritter, J. Pure Appl. Algebra, 68, no. 3 (1990), 325\u2013333); for the general case of groups of central units of integral group rings of arbitrary (not necessarily abelian) finite groups in (R. Zh. Aleev, Mat. Tr. Novosibirsk Inst. Math., 3, no. 1 (2000), 3\u201337 (Russian))."
-}

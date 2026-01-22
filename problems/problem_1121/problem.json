@@ -1,5 +1,0 @@
-{
-  "page_number": 156,
-  "problem_number": "20.89",
-  "problem_text": "20.89. An element g of a group G is said to be almost Engel if there is a finite subset E(g) of G such that for every x \u2208 G all sufficiently long commutators [...[[x, g], g], . . . , g] belong to E(g), that is, there is a positive integer n(x, g) such that [...[[x, g], g], . . . , g] \u2208 E(g) if g is repeated \u2a7e n(x, g) times. An element g is Engel if we can take E(g) = {1}. The set of Engel elements of a linear group is a subgroup by a well-known result of Gruenberg (J. Algebra, 3 (1966), 291\u2013303). Is the set of almost Engel elements of a linear group a subgroup?\nA linear group in which all elements are almost Engel is finite-by-hypercentral (P. Shumyatsky, Monatsh. Math., 186 (2018), 711\u2013719).\nP. Shumyatsky"
-}

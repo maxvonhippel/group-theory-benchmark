@@ -1,5 +1,0 @@
-{
-  "page_number": 108,
-  "problem_number": "17.53",
-  "problem_text": "A finite group G is called simply reducible (SR-group) if every element of G is conjugate to its inverse, and the tensor product of any two irreducible representations of G decomposes into a sum of irreducible representations of G with coefficients 0 or 1.\na) Is it true that the nilpotent length of a soluble SR-group is at most 5?\nb) Is it true that the derived length of a soluble SR-group is bounded by some constant c?\nL. S. Kazarin"
-}

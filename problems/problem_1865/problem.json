@@ -1,6 +1,0 @@
-{
-  "page_number": 260,
-  "problem_number": "15.18",
-  "problem_text": "15.18.\nA group is hereditarily just infinite if it is residually finite and all of its\nnon-trivial normal subgroups are just infinite.\na) Do there exist finitely generated hereditarily just infinite torsion groups? (It is\nbelieved there are none.)\nb) Is every finitely generated hereditarily just infinite group necessarily linear?\nA positive answer to the question b) would imply a negative answer to a).\nL. Bartholdi, R. I. Grigorchuk, Z. \u02c7Suni\u00b4k",
-  "answer": "a) Yes, such groups exist (M. Ershov, A. Jaikin-Zapirain, J. Reine Angew. Math., 677 (2013), 71\u2013134).\nb) No, not every (M. Ershov, A. Jaikin-Zapirain, J. Reine Angew. Math., 677 (2013), 71\u2013134)."
-}

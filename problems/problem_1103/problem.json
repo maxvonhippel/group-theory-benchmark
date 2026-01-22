@@ -1,5 +1,0 @@
-{
-  "page_number": 153,
-  "problem_number": "20.71",
-  "problem_text": "20.71. (J. Lauri). A card of a finite simple undirected graph G of order n = |V (G)| is an induced subgraph of order n \u22121. Let k be 2, 3, 4. For a connected graph G with k isomorphism types of cards, can Aut(G) have more than k orbits on the vertex set V (G)?\nIf a graph G has k isomorphism types of cards, then the group Aut(G) of automorphisms of G has obviously at least k orbits on V (G). It is known that if all cards are mutually isomorphic, then Aut(G) is transitive on V (G). Examples are known of graphs G with 5 isomorphism types of cards for which Aut(G) has 6 orbits on V (G), and of graphs with 6 isomorphism types for which Aut(G) has 7 orbits on V (G).\nV. Pannone"
-}

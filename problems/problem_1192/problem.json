@@ -1,5 +1,0 @@
-{
-  "page_number": 166,
-  "problem_number": "21.34",
-  "problem_text": "(Well-known problem). A group G is a unique product group if, for any nonempty finite subsets A, B of G, there exists an element of G which can be written uniquely as ab with a \u2208 A and b \u2208 B. A group G is locally invariant orderable if G admits a partial order < such that for all g, h \u2208 G with h \u0338= 1, we have either gh > g or gh\u22121 > g. Does there exist a unique product group which is not locally invariant orderable? A. Clay"
-}

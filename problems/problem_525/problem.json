@@ -1,5 +1,0 @@
-{
-  "page_number": 73,
-  "problem_number": "14.16",
-  "problem_text": "Following Yu. I. Merzlyakov we define the width of a verbal subgroup V(G) of a group G with respect to the set of words V as the smallest m \u2208 N \u222a {\u221e} such that every element of V(G) can be written as a product of \u2a7d m values of words from V \u222a V\u22121. It is known that the width of any verbal subgroup of a finitely generated group of polynomial growth is finite. Is this statement true for finitely generated groups of intermediate growth? V. G. Bardakov"
-}

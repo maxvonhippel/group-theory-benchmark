@@ -1,6 +1,0 @@
-{
-  "page_number": 278,
-  "problem_number": "19.40",
-  "problem_text": "Does Thompson\u2019s group F (see 12.20) have the Howson property, that is, is the intersection of any two finitely generated subgroups of F finitely generated?\nI. Kapovich",
-  "answer": "No, it does not. Otherwise any subgroup of F would have this property. But the wreath product Z \u2240 Z, which does not have the Howson property (A. S. Kirkinski\u012d, Algebra Logic, 20, no. 1 (1981), 24\u201336), can be embedded in F (S. Cleary, Pacific J. Math., 228, no. 1 (2006), 53\u201361). (D. Robertson, Letter of 24 April 2018.)"
-}

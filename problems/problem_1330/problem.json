@@ -1,6 +1,0 @@
-{
-  "page_number": 185,
-  "problem_number": "1.36",
-  "problem_text": "If a group G is factorizable by p-subgroups, that is, G = AB, where A and B\nare p-subgroups, does it follows that G is itself a p-group?\nSh. S. Kemkhadze",
-  "answer": "Not always (Ya. P. Sysak, Products of infinite groups, Math.\nInst.\nAkad.\nNauk\nUkrain. SSR, Kiev, 1982 (Russian))."
-}

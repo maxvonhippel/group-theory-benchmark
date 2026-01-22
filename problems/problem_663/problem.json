@@ -1,5 +1,0 @@
-{
-  "page_number": 94,
-  "problem_number": "15.97",
-  "problem_text": "15.97. Let p be a prime. A group G satisfies the p-minimal condition if there are no infinite descending chains G1 > G2 > . . . of subgroups of G such that each difference Gi \\ Gi+1 contains a p-element (S. N. Chernikov). Suppose that a locally finite group G satisfies the p-minimal condition and has a subnormal series each of whose factors is finite or a p\u2032-group. Is it true that all p-elements of G generate a Chernikov subgroup?\nN. S. Chernikov"
-}

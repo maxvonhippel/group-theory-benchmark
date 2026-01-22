@@ -1,5 +1,0 @@
-{
-  "page_number": 27,
-  "problem_number": "*8.11",
-  "problem_text": "\u22178.11. Consider the group\nM = \u27e8x, y, z, t | [x, y] = [y, z] = [z, x] = (x, t) = (y, t) = (z, t) = 1\u27e9\nwhere [x, y] = x\u22121y\u22121xy and (x, t) = x\u22121t\u22121x\u22121txt. The subgroup H = \u27e8x, t, y\u27e9 is isomorphic to the braid group B4, and is normally complemented by N =\n\n(zx\u22121)M\n.\nIs N a free group (?) of countably infinite rank (?) on which H acts faithfully by conjugation?\nD. L. Johnson\n\u2217As pointed by Y. Antol\u00b4\u0131n, the group M is the Artin group of type D4; it is proved in (B. Perron, J. P. Vannier, Math. Ann., 306, no. 2 (1996), 231\u2013246) that N is a free group of rank 3 and H acts on N faithfully by conjugation."
-}

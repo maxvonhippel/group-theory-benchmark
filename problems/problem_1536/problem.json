@@ -1,6 +1,0 @@
-{
-  "page_number": 213,
-  "problem_number": "5.28",
-  "problem_text": "Let G be a group and H a torsion-free subgroup of G such that the augmentation ideal IG of the integral group-ring ZG can be decomposed as IG = IHZG \u2295M for some ZG-submodule M. Prove that G is a free product of the form G = H \u2217K.\nD. E. Cohen",
-  "answer": "This has been proved (W. Dicks, M. J. Dunwoody, Groups acting on graphs, Cambridge Univ. Press, Cambridge\u2013New York, 1989)."
-}

@@ -1,5 +1,0 @@
-{
-  "page_number": 175,
-  "problem_number": "21.100",
-  "problem_text": "21.100. Suppose that A and G are finite groups such that A acts coprimely on G by automorphisms. Let C = CG(A) be the fixed-point subgroup, and let C\u2032 denote its derived subgroup.\nIs it true that the number of A-invariant irreducible characters \u03c7 of G whose restriction \u03c7C is never zero is exactly |C/C\u2032|? This would follow if one could show that \u03c7C is never zero if and only if the Glauberman\u2013Isaacs correspondent \u03c7\u2217 of \u03c7 is linear.\nG. Navarro"
-}

@@ -1,5 +1,0 @@
-{
-  "page_number": 152,
-  "problem_number": "20.66",
-  "problem_text": "20.66. A Schmidt (p, q)-group is a finite non-nilpotent group all of whose proper subgroups are nilpotent and whose Sylow p-subgroup is normal. The N-critical graph \u0393Nc(G) of a finite group G is a directed graph on the vertex set of all prime divisors of |G| in which (p, q) is an edge of \u0393Nc(G) if and only if G has a Schmidt (p, q)-subgroup. Suppose that a finite group G is such that G = AB = AC = BC, where A, B, C are subgroups of G. Is \u0393Nc(G) = \u0393Nc(A) \u222a\u0393Nc(B) \u222a\u0393Nc(C)? This is true if A, B, C are soluble.\nV. I. Murashka, A. F. Vasil\u2019ev"
-}

@@ -1,6 +1,0 @@
-{
-  "page_number": 228,
-  "problem_number": "8.76",
-  "problem_text": "Give a realistic upper bound for the torsion-free rank of a finitely generated nilpotent group in terms of the ranks of its abelian subgroups. More precisely, for each integer n let f(n) be the largest integer h such that there is a finitely generated nilpotent group of torsion-free rank h with the property that all abelian subgroups have torsion-free rank at most n. It is easy to see that f(n) is bounded above by n(n + 1)/2. Describe the behavior of f(n) for large n. Is f(n) bounded below by a quadratic in n?\nJohn S. Wilson",
-  "answer": "Yes, it is (M. V. Milenteva, J. Group Theory, 7, no. 3 (2004), 403\u2013408)."
-}

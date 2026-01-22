@@ -1,6 +1,0 @@
-{
-  "page_number": 225,
-  "problem_number": "8.22",
-  "problem_text": "If G is a (non-abelian) finite group contained in a join A \u2228 B of two varieties A, B of groups, must there exist finite groups A \u2208 A, B \u2208 B such that G is a section of the direct product A \u00d7 B?\nL. G. Kov\u00b4acs",
-  "answer": "Not always (A. Storozhev, Bull. Austral. Math. Soc., 51, no. 2 (1995), 287\u2013290)."
-}

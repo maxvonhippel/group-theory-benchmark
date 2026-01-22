@@ -1,5 +1,0 @@
-{
-  "page_number": 171,
-  "problem_number": "21.67",
-  "problem_text": "21.67. Suppose that \u03c6 is an automorphism of a finite soluble group G, and let r be the (Pr\u00fcfer) rank of the fixed-point subgroup CG(\u03c6). Is the Fitting height of G bounded terms of |\u03c6| and r?\nThis is known to be true in the case where |\u03c6| is a product of at most two prime powers (B. Hartley, MIMS EPrint: 2014.52 http://eprints.ma.man.ac.uk/2188/01/covered/MIMS_ep2014_52.pdf). An affirmative answer to this question would imply an affirmative answer to 13.8(b).\nE. I. Khukhro"
-}

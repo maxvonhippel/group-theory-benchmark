@@ -1,6 +1,0 @@
-{
-  "page_number": 276,
-  "problem_number": "18.91",
-  "problem_text": "18.91. A subgroup H of a group G is said to be propermutable in G if there is a subgroup B \u2a7dG such that G = NG(H)B and H permutes with every subgroup of B.\na) Is there a finite group G with subgroups A \u2a7dB \u2a7dG such that A is proper-mutable in G but A is not propermutable in B?\nb) Let P be a non-abelian Sylow 2-subgroup of a finite group G with |P| = 2n. Suppose that there is an integer k such that 1 < k < n and every subgroup of P of order 2k is propermutable in G, and also, in the case of k = 1, every cyclic subgroup of P of order 4 is propermutable in G. Is it true that then G is 2-nilpotent?\nA. N. Skiba",
-  "answer": "a) Yes, there is (A. A. Pypka, D. Yu. Storozhenko, Dopov. Nac. Akad. Nauk Ukrain., 2017, no. 7, 18\u201320 (Ukrainian)).\nb) Yes, it is (Kh. A. Al-Sharo, Finite groups with given systems of weakly S-proper-mutable subgroups, J. Group Theory, 19, no. 5 (2016), 871\u2013887)."
-}

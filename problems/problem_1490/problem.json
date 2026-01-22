@@ -1,6 +1,0 @@
-{
-  "page_number": 207,
-  "problem_number": "4.41",
-  "problem_text": "A point z in the complex plane is called free if the matrices\n( 1  2 ; 0  1 )\nand\n( 1  0 ; z  1 )\ngenerate a free group. Are all points outside the rhombus with vertices \u00b12, \u00b1i free?\nYu. I. Merzlyakov",
-  "answer": "No (Yu. A. Ignatov, Math. USSR\u2013Sb., 35 (1979), 49\u201356; A. I. Shkuratski\u02d8\u0131, Math. Notes, 24 (1978), 720\u2013721)."
-}

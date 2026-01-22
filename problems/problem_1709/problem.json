@@ -1,6 +1,0 @@
-{
-  "page_number": 237,
-  "problem_number": "10.76",
-  "problem_text": "Suppose that G is a periodic group having an infinite Sylow 2-subgroup S which is either elementary abelian or a Suzuki 2-group, and suppose that the normalizer NG(S) is strongly embedded in G and is a Frobenius group (see 6.55) with locally cyclic complement. Must G be locally finite? V. P. Shunkov",
-  "answer": "Yes, it must (A. I. Sozutov, Algebra and Logic, 39, no. 5 (2000), 345\u2013353; A. I. Sozutov, N. M. Suchkov, Math. Notes, 68, no. 2 (2000), 237\u2013247)."
-}

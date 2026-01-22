@@ -1,5 +1,0 @@
-{
-  "page_number": 169,
-  "problem_number": "21.52",
-  "problem_text": "Let L be a finite non-abelian simple group, and let D be a conjugacy class of involutions in L. Consider the complete graph \u0393 with vertex set D. Define an equivalence relation \u223c (graph coloring) on the set of edges as follows: (a, b) \u223c (c, d) if and only if |ab| = |cd|. An automorphism of the coloured graph \u0393 is a permutation \u03c4 \u2208 S_D such that (a, b) \u223c (a^\u03c4, b^\u03c4) for every edge (a, b). Is it true that the automorphism group of \u0393 is a subgroup of Aut(L)?\nI. B. Gorshkov"
-}

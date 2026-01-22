@@ -1,5 +1,0 @@
-{
-  "page_number": 130,
-  "problem_number": "19.9",
-  "problem_text": "19.9. Let G be a finitely generated linear group.\na) Is it true that the non-abelian tensor square G \u2297G is a linear group?\nb) In particular, is this true for the braid group Bn for n > 3?\nIt is known that B3 \u2297B3 is linear, and there is a countable group G such that G \u2297G is not linear. See the definition of the non-abelian tensor square in (R. Brown, J.-L. Loday, Topology, 26, no. 3 (1987), 311\u2013335). V. G. Bardakov, M. V. Neshchadim"
-}

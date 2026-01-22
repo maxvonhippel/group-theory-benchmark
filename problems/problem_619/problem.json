@@ -1,5 +1,0 @@
-{
-  "page_number": 88,
-  "problem_number": "15.47",
-  "problem_text": "Let M < G \u2a7d Sym(\u2126), where \u2126 is finite, be such that M is transitive on \u2126 and there is a G-invariant partition P of \u2126 \u00d7 \u2126 \\ {(\u03b1, \u03b1) | \u03b1 \u2208 \u2126} such that G is transitive on the set of parts of P and M fixes each part of P setwise. (Here P can be identified with a decomposition of the complete directed graph with vertex set \u2126 into edge-disjoint isomorphic directed graphs.) If G induces a cyclic permutation group on P, then we showed (Trans. Amer. Math. Soc., 355, no. 2 (2003), 637\u2013653) that the numbers n = |\u2126| and k = |P| are such that the r-part n_r of n satisfies n_r \u2261 1 (mod k) for each prime r. Are there examples with G inducing a non-cyclic permutation group on P for any n, k not satisfying this congruence condition?\nC. H. Li, C. E. Praeger"
-}

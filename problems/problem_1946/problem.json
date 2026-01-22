@@ -1,6 +1,0 @@
-{
-  "page_number": 271,
-  "problem_number": "17.55",
-  "problem_text": "Does there exist an absolute constant k such that for any prefrattini subgroup H in any finite soluble group G there exist k conjugates of H whose intersection is \u03a6(G)?\nS. F. Kamornikov",
-  "answer": "Yes, such a constant exists and is equal to 3 (S. F. Kamornikov, Int. J. Group Theory, 6, no. 2 (2017), 1\u20135)."
-}

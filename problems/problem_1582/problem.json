@@ -1,6 +1,0 @@
-{
-  "page_number": 219,
-  "problem_number": "6.46",
-  "problem_text": "If G is d-generator group having no non-trivial finite homomorphic images (in particular, if G is an infinite simple d-generator group) for some integer d \u2a7e 2, must G \u00d7 G be a d-generator group?\nJohn S. Wilson",
-  "answer": "No, it need not (V. N. Obraztsov, Proc. Roy. Soc. Edinburgh, 123 (1993), 839\u2013855)."
-}

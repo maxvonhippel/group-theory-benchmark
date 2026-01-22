@@ -1,5 +1,0 @@
-{
-  "page_number": 42,
-  "problem_number": "10.50",
-  "problem_text": "Complex characters of a finite group G induced by linear characters of cyclic subgroups are called induced cyclic characters of G. Computer-aided computations (A. V. Rukolaine, Abstracts of the 10th All\u2013Union Sympos. on Group Theory, Gomel\u2019, 1986, p. 199 (Russian)) show that there exist groups (for example, S5, SL2(13), M11) all of whose irreducible complex characters are integral linear combinations of induced cyclic characters and the principal character of the group. Describe all finite groups with this property.\nA. V. Rukolaine"
-}

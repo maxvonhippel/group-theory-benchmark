@@ -1,5 +1,0 @@
-{
-  "page_number": 83,
-  "problem_number": "15.3",
-  "problem_text": "Let \u03b1 and \u03b2 be faithful non-linear irreducible characters of a finite group G. There are non-solvable groups G giving examples when the product \u03b1\u03b2 is again an irreducible character (for some of such \u03b1, \u03b2). One example is G = SL2(5) with two irreducible characters of degree 2. In (I. Zisser, Israel J. Math., 84, no. 1\u20132 (1993), 147\u2013151) it is proved that such an example exists in an alternating group An if and only if n is a square exceeding 4. But do solvable examples exist? Evidence (but no proof) that they do not is given in (I. M. Isaacs, J. Algebra, 223, no. 2 (2000), 630\u2013646).\n\nI. M. Isaacs"
-}

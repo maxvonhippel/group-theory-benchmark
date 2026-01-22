@@ -1,5 +1,0 @@
-{
-  "page_number": 174,
-  "problem_number": "21.89",
-  "problem_text": "21.89. For n > 39, is it true that the number of conjugacy classes in the symmetric group S_n of degree n is never a divisor of the order of S_n? In other words, is it true that, for n > 39, the number p(n) of integer partitions of n is never a divisor of n!? D. MacHale"
-}

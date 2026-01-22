@@ -1,6 +1,0 @@
-{
-  "page_number": 141,
-  "problem_number": "19.102",
-  "problem_text": "A subgroup H of a free group F is called inert if r(H \u2229K) \u2a7dr(K) for every K \u2a7dF; and compressed if r(H) \u2a7dr(K) for every H \u2a7dK \u2a7dF.\nIs it true that compressed subgroups are inert?\nE. Ventura",
-  "answer": "Yes, it is true (A. Jaikin-Zapirain, Preprint, 2024, https://arxiv.org/pdf/2403.09515)."
-}

@@ -1,5 +1,0 @@
-{
-  "page_number": 65,
-  "problem_number": "13.1",
-  "problem_text": "Let U(K) denote the group of units of a ring K. Let G be a finite group, ZG the integral group ring of G, and ZpG the group ring of G over the residues modulo a prime number p. Describe the homomorphism from U(ZG) into U(ZpG) induced by reducing the coefficients modulo p. More precisely, find the kernel and the image of this homomorphism and an explicit transversal over the kernel. R. Zh. Aleev"
-}

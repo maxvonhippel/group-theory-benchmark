@@ -1,5 +1,0 @@
-{
-  "page_number": 136,
-  "problem_number": "19.61",
-  "problem_text": "19.61. Let A = {Ar | r \u2208 \u03a6} be an elementary carpet of type \u03a6 over a commutative ring K (see 7.28), and let \u03a6(A) = \u27e8xr(Ar) | r \u2208 \u03a6\u27e9 be its carpet subgroup. Define the closure of the carpet A to be the set of additive subgroups A\u0304 = {A\u0304r | r \u2208 \u03a6}, where A\u0304r = {t \u2208 K | xr(t) \u2208 \u03a6(A)}. Is the closure A\u0304 of a carpet A always a carpet?\nAn affirmative answer is known if \u03a6 = Al, Dl, El.\nYa. N. Nuzhin"
-}

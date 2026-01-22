@@ -1,5 +1,0 @@
-{
-  "page_number": 77,
-  "problem_number": "14.54",
-  "problem_text": "Let k(G) denote the number of conjugacy classes of a finite group G. Is it\ntrue that k(G) \u2a7d |N| for some nilpotent subgroup N of G? This is true if G is simple;\nbesides, always k(G) \u2a7d |S| for some soluble subgroup S \u2a7d G.\nM. W. Liebeck, L. Pyber"
-}

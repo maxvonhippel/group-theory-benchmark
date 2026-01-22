@@ -1,5 +1,0 @@
-{
-  "page_number": 159,
-  "problem_number": "20.106",
-  "problem_text": "Let G be a residually finite 2-group and let x \u2208 G be a left 3-Engel element of order 2. Is \u27e8xG\u27e9 locally nilpotent?\nIt is known that in any group a 3-Engel element of odd order belongs to the locally nilpotent radical (E. Jabara, G. Traustason, Proc. Amer. Math. Soc., 147, no. 5 (2019), 1921\u20131927).\nComment of 2025: An element a \u2208 G is called a strong left 3-Engel element if \u27e8a, ag\u27e9 is nilpotent of class at most 2 and \u27e8a, ag, ah\u27e9 is nilpotent of class at most 3 for all g, h \u2208 G. (This is equivalent to a being left 3-Engel when a is of odd order.) It is proved that if a is a strong left 3-Engel element in an arbitrary group G, then \u27e8a\u27e9G is locally nilpotent (A. Hadjievangelou, G. Traustason, Proc. Amer. Math. Soc., 152, no. 4 (2024), 1467\u20131477).\nG. Traustason"
-}

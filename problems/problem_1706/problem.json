@@ -1,6 +1,0 @@
-{
-  "page_number": 237,
-  "problem_number": "10.68",
-  "problem_text": "Suppose that a finite p-group G admits an automorphism of order p with exactly pm fixed points. Is it true that G has a subgroup whose index is bounded by a function of p and m and whose nilpotency class is bounded by a function of m only? The results on p-groups of maximal class give an affirmative answer in the case m = 1. E. I. Khukhro",
-  "answer": "Yes, it is (Yu. Medvedev, J. London Math. Soc. (2), 59, no. 3 (1999), 787\u2013798)."
-}

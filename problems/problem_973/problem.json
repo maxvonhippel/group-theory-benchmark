@@ -1,5 +1,0 @@
-{
-  "page_number": 133,
-  "problem_number": "19.34",
-  "problem_text": "Let G be a finitely generated group such that for every element g \u2208 G the set of commutators {[x, g] | x \u2208 G} is a subgroup of G. Is it true that G is residually nilpotent?\nThe answer is affirmative if G is finite.\nD. Gon\u00e7alves, T. Nasybullov"
-}

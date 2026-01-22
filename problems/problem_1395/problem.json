@@ -1,6 +1,0 @@
-{
-  "page_number": 194,
-  "problem_number": "2.39",
-  "problem_text": "Does there exist a non-finitely-axiomatizable variety of\na) (H. Neumann) groups?\nb) of associative rings (the Specht problem)?\nc) Lie rings?\nA. I. Mal\u2019cev",
-  "answer": "a) Yes, there does (S. I. Adian, Math. USSR\u2013Izv., 4 (1970), 721\u2013739; A. Yu. Ol\u2019shanski\u012d, Math. USSR\u2013Izv., 4 (1970), 381\u2013389).\nb) Yes, there does (A. Ya. Belov, Fundam. Prikl. Mat., 5, no. 1 (1999), 47\u201366 (Russian), Sb. Math., 191, no. 3\u20134 (2000), 329\u2013340; A. V. Grishin, Fundam. Prikl. Mat., 5, no. 1 (1999), 101\u2013118 (Russian); V. V. Shchigolev, Fundam. Prikl. Mat., 5, no. 1 (1999), 307\u2013312 (Russian)). But every variety of associative algebras over a field of characteristic 0 has a finite basis of identities (A. R. Kemer, Algebra and Logic, 26, no. 5 (1987), 362\u2013397).\nc) Yes, there does (M. R. Vaughan-Lee, Quart. J. Math., 21 (1970), 297\u2013308)."
-}

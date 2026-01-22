@@ -1,5 +1,0 @@
-{
-  "page_number": 164,
-  "problem_number": "21.16",
-  "problem_text": "Let the width of a group (respectively, a monoid) H with respect to a generating set X mean the supremum over h \u2208 H of the least length of a group word (respectively, a monoid word) in elements of X expressing h. A group (or monoid) is said to have finite width if its width with respect to every generating set is finite. (A common finite bound for these widths is not required.) Do there exist groups G having finite width as groups, but not as monoids? This is Question 9 in (G. M. Bergman, Bull. London Math. Soc., 38 (2006), 429\u2013440). G. M. Bergman"
-}

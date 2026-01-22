@@ -1,5 +1,0 @@
-{
-  "page_number": 100,
-  "problem_number": "16.69",
-  "problem_text": "Let W be as above.\na) Must the range of the function Tr(W(x, y)) for x, y \u2208 GL(2, R) include the interval [\u22122, +\u221e)?\nb) For x, y being non-zero quaternions, must the range of the function Re(W(x, y)) include the interval [\u22125/27, 1]?\n(For some comments see ibid.)\nJ. Mycielski"
-}

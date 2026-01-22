@@ -1,6 +1,0 @@
-{
-  "page_number": 218,
-  "problem_number": "6.38",
-  "problem_text": "a) Let k be a (commutative) field. Find all irreducible subgroups G of GLn(k) having the property that G \u2229 C \u0338= \u2205 for every conjugacy class C of GLn(k). I conjecture that G = GLn(k) except in case n = char k = 2, the field k is quadratically closed, and G is conjugate to the group of all matrices of the form\n( \u03b1 0; 0 \u03b2 ), ( 0 \u03b1; \u03b2 0 )\nwhere \u03b1 \u0338= 0 and \u03b2 \u0338= 0.\nP. M. Neumann",
-  "answer": "a) The conjecture is refuted (S. A. Zyubin, Algebra and Logic, 45, no. 5 (2006), 296\u2013305)."
-}

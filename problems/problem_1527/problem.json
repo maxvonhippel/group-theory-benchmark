@@ -1,6 +1,0 @@
-{
-  "page_number": 212,
-  "problem_number": "5.13",
-  "problem_text": "Suppose that K and L are distinct conjugacy classes of involutions in a finite group G and \u27e8x, y\u27e9 is a 2-group for all x \u2208 K and y \u2208 L. Does it follow that G \u2260 [K, L]? V. V. Kabanov",
-  "answer": "Not always; for example, G = Sp4(2n), n \u2a7e 2, K, L being classes of involutions that have non-trivial intersections with the centres of NG(M)\u2032 and NG(N)\u2032, respectively, where M, N are distinct elementary abelian subgroups of order 8 in a Sylow 2-subgroup of G and the dash means taking the derived subgroup (A. A. Makhn\u00a8ev, Letter of October, 10, 1981)."
-}

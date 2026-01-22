@@ -1,6 +1,0 @@
-{
-  "page_number": 186,
-  "problem_number": "1.49",
-  "problem_text": "An automorphism \u03c6 of a linearly ordered group is called order preserving if x < y implies x\u03c6 < y\u03c6. Is it possible to order an abelian strictly isolated normal subgroup of an S-group (see Archive 1.47) in such a way that the order is preserved under the action of the inner automorphisms of the whole group?\nA. I. Kokorin",
-  "answer": "Not always (V. V. Bludov, Algebra and Logic, 11 (1972), 341\u2013349)."
-}

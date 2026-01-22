@@ -1,5 +1,0 @@
-{
-  "page_number": 109,
-  "problem_number": "17.64",
-  "problem_text": "Say that a group G is an n-approximation to the Nottingham group J = N(p) (as defined in Archive, 12.24) if G is an infinite pro-p group, and G/\u03b3n(G) is isomorphic to J/\u03b3n(J). Does there exist a function f(p) such that, if G is an f(p)-approximation to the Nottingham group, then \u03b3i(G)/\u03b3i+1(G) is isomorphic to \u03b3i(J)/\u03b3i+1(J) for all i? Cf. 14.56. Note that an affirmative solution to this problem trivially implies the now known fact that J is finitely presented as a pro-p group (if p > 2), see 14.55.\nC. R. Leedham-Green"
-}

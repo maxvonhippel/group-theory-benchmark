@@ -1,6 +1,0 @@
-{
-  "page_number": 187,
-  "problem_number": "1.66",
-  "problem_text": "Suppose that T is a periodic abelian group, and m an uncountable cardinal number. Does there always exist an abelian torsion-free group U(T, m) of cardinality m with the following property: for any abelian torsion-free group A of cardinality \u2a7dm, the equality Ext (A, T) = 0 holds if and only if A is embeddable in U(T, m)?\nL. Ya. Kulikov",
-  "answer": "No, not always. There is a model of ZFC in which for a certain class of cardinals m the answer is negative (S. Shelah, L. Str\u00a8ungmann, J. London Math. Soc., 67, no. 3 (2003), 626\u2013642). On the other hand, under the assumption of G\u00a8odel\u2019s constructivity hypothesis (V = L) the answer is affirmative for any cardinal if T has only finitely many non-trivial bounded p-components (L. Str\u00a8ungmann, Ill. J. Math., 46, no. 2 (2002), 477\u2013490)."
-}

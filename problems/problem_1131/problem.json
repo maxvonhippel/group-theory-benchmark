@@ -1,5 +1,0 @@
-{
-  "page_number": 158,
-  "problem_number": "20.99",
-  "problem_text": "Conjecture: Let a1G1, . . . , akGk, k > 1, be finitely many pairwise disjoint left cosets in a group G with [G : Gi] < \u221e for all i = 1, . . . , k. Then\n\ngcd([G : Gi], [G : Gj]) \u2a7e k\n\nfor some 1 \u2a7d i < j \u2a7d k.\nThe conjecture is known to hold for k = 2, 3, 4.\nZ.-W. Sun"
-}

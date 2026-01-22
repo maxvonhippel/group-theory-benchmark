@@ -1,5 +1,0 @@
-{
-  "page_number": 34,
-  "problem_number": "9.45",
-  "problem_text": "9.45. Let a be a vector in R^n with rational coordinates and set\nS(a) = {ka + b | k \u2208 Z, b \u2208 Z^n}.\nIt is obvious that S(a) is a discrete subgroup in R^n of rank n. Find necessary and sufficient conditions in terms of the coordinates of a for S(a) to have an orthogonal basis with respect to the standard scalar product in R^n.\nYu. D. Popov, I. V. Protasov"
-}

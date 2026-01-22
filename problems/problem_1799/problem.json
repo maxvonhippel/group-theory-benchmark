@@ -1,6 +1,0 @@
-{
-  "page_number": 250,
-  "problem_number": "12.98",
-  "problem_text": "Let F be a free group of finite rank, R its recursively defined normal subgroup.\nIs it true that\n a) the word problem for F/R is soluble if and only if it is soluble for F/[R, R]?\n b) the conjugacy problem for F/R is soluble if and only if it is soluble for F/[R, R]?\n c) the conjugacy problem for F/[R, R] is soluble if the word problem is soluble for F/[R, R]?\nV. E. Shpil\u2019rain",
-  "answer": "a) Yes, it is; b) No, it is not; c) No, it is not (M. I. Anokhin, Math. Notes, 61, no. 1\u20132 (1997), 3\u20138)."
-}

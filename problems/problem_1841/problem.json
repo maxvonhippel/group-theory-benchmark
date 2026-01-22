@@ -1,6 +1,0 @@
-{
-  "page_number": 256,
-  "problem_number": "14.62",
-  "problem_text": "Suppose that H is a non-soluble normal subgroup of a finite group G. Does there always exist a maximal soluble subgroup S of H such that G = H \u00b7 NG(S)?\nV. S. Monakhov",
-  "answer": "Yes, it always exists mod CFSG (V. I. Zenkov, V. S. Monakhov, D. O. Revin, Algebra and Logic, 43, no. 2 (2004), 102\u2013108)."
-}

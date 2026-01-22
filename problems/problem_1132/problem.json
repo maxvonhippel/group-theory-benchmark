@@ -1,5 +1,0 @@
-{
-  "page_number": 158,
-  "problem_number": "20.100",
-  "problem_text": "Conjecture: Let n be a positive integer, and let G be a group containing no elements of order among 2, . . . , n + 1. Then, for any A \u2286 G with |A| = n, we may write A = {a1, . . . , an} with a1, a2^2, . . . , an^n pairwise distinct.\nThe conjecture is known to hold for n \u2a7d 3.\nZ.-W. Sun"
-}

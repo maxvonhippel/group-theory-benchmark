@@ -1,5 +1,0 @@
-{
-  "page_number": 62,
-  "problem_number": "12.64",
-  "problem_text": "12.64. Is it true that for a given number k \u2a7e2 and for any (prime) number n, there exists a number N = N(k, n) such that every finite group with generators A = {a1, . . . , ak} has exponent \u2a7dn if (x1 \u00b7 \u00b7 \u00b7 xN)n = 1 for any x1, . . . , xN \u2208 A \u222a {1}? For given k and n, a negative answer implies, for example, the infiniteness of the free Burnside group B(k, n), and a positive answer, in the case of sufficiently large n, gives, for example, an opportunity to find a hyperbolic group which is not residually finite (and in this group a hyperbolic subgroup of finite index which has no proper subgroups of finite index). A. Yu. Olshanskii"
-}

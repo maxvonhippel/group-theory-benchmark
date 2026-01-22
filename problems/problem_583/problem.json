@@ -1,5 +1,0 @@
-{
-  "page_number": 81,
-  "problem_number": "14.95",
-  "problem_text": "(C. R. Leedham-Green, P. M. Neumann, J. Wiegold). For a finite p-group P, denote by c = c(P) its nilpotency class and by b = b(P) its breadth, that is, p^b is the maximum size of a conjugacy class in P. Class-Breadth Problem: Is it true that c \u2a7d b + 1 if p \u2260 2?\nSo far, the best known bound is c < (p/(p\u22121)) b + 1 (C. R. Leedham-Green, P. M. Neumann, J. Wiegold, J. London Math. Soc. (2), 1 (1969), 409\u2013420). For p = 2 for every n \u2208 N there exists a 2-group Tn such that c(Tn) \u2a7e b(Tn) + n (W. Felsch, J. Neub\u00a8user, W. Plesken, J. London Math. Soc. (2), 24 (1981), 113\u2013122).\nA. Jaikin-Zapirain"
-}

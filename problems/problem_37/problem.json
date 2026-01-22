@@ -1,5 +1,0 @@
-{
-  "page_number": 8,
-  "problem_number": "2.78",
-  "problem_text": "2.78.\nAny set of all subgroups of the same given order of a finite group G that\ncontains at least one non-normal subgroup is called an IE\u00afn-system of G. A positive\ninteger k is called a soluble (non-soluble; simple; composite; absolutely simple)\ngroup-theoretic number if every finite group having exactly k IE\u00afn-systems is soluble\n(respectively, if there is at least one non-soluble finite group having k IE\u00afn-systems;\nif there is at least one simple finite group having k IE\u00afn-systems; if there are no\nsimple finite groups having k IE\u00afn-systems; if there is at least one simple finite group\nhaving k IE\u00afn-systems and there are no non-soluble non-simple finite groups having\nk IE\u00afn-systems).\nAre the sets of all soluble and of all absolutely simple group-theoretic numbers\nfinite or infinite? Do there exist composite, but not soluble group-theoretic numbers?\nP. I. Trofimov"
-}

@@ -1,6 +1,0 @@
-{
-  "page_number": 184,
-  "problem_number": "1.19",
-  "problem_text": "(A. I. Mal\u2019cev). Which subgroups (subsets) are first order definable in a free group? Which subgroups are relatively elementarily definable in a free group? In particular, is the derived subgroup first order definable (relatively elementarily definable) in a free group?",
-  "answer": "All definable (and relatively elementarily definable) sets are described; in particular, a subgroup is relatively elementarily definable if and only if it is cyclic (O. Kharlampovich, A. Myasnikov, Int. J. Algebra Comput., 23, no. 1 (2013), 91\u2013110)."
-}

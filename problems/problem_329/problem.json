@@ -1,5 +1,0 @@
-{
-  "page_number": 47,
-  "problem_number": "11.17",
-  "problem_text": "Let G be a finite group and let d = d(G) be the least positive integer such that G satisfies a law [x, ry] = [x, r+dy] for some nonnegative integer r = r(G).\n(a) Let e = 1 if d(G) is even and e = 2 otherwise. Is it true that the exponent of G/F(G) divides e \u00b7 d(G)?\n(b) If G is a nonabelian simple group, does the exponent of G divide d(G)?\nPart a) is true for soluble groups (N. D. Gupta, H. Heineken, Math. Z., 95 (1967), 276\u2013287). I have checked part b) for An, PSL(2, q), and a number of sporadic groups.\nR. Brandl"
-}

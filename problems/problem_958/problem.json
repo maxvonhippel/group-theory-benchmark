@@ -1,5 +1,0 @@
-{
-  "page_number": 131,
-  "problem_number": "19.17",
-  "problem_text": "19.17. (Well-known problem). Suppose that G is a finitely presented group such that the set of first Betti numbers over all the finite index subgroups of G is unbounded above. (Here, the first Betti number is the maximum n for which there is a surjective homomorphism onto Zn.)\na) Must G have a finite index subgroup with a surjective homomorphism to a non-abelian free group?\nb) Can G even be soluble?\nJ. O. Button"
-}

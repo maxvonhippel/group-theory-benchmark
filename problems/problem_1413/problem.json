@@ -1,6 +1,0 @@
-{
-  "page_number": 197,
-  "problem_number": "2.63",
-  "problem_text": "Let G be a group of automorphisms of a vector space over a field of characteristic zero, and suppose that all elements of G are unipotent, with uniformly bounded unipotency indices. Must such a group be locally finitely stable?\nB. I. Plotkin",
-  "answer": "Yes, it must, which follows from (H. Heineken, Arch. Math. (Basel), 13 (1962), 29\u201337). Moreover, such a group is even finitely stable, as follows from (E. I. Zel\u2019manov, Math. USSR-Sb., 66, no. 1 (1990), 159\u2013168)."
-}

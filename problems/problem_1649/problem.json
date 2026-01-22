@@ -1,6 +1,0 @@
-{
-  "page_number": 229,
-  "problem_number": "8.87",
-  "problem_text": "Find all hereditary local formations F of finite groups satisfying the following condition: every finite minimal non-F-group is biprimary. A finite group is said to be biprimary if its order is divisible by precisely two distinct primes.\nL. A. Shemetkov",
-  "answer": "They are found (V. N. Semenchuk, Problems of Algebra: Proc. of the Gomel\u2019 State Univ., no. 1 (15) (1999), 92\u2013102 (Russian))."
-}

@@ -1,5 +1,0 @@
-{
-  "page_number": 39,
-  "problem_number": "10.27",
-  "problem_text": "a) Let t be an involution of a finite group G and suppose that the set D = tG \u222a {txty | x, y \u2208 G, |txty| = 2} does not intersect O2(G). Prove that if t \u2208 O2(C(d)) for any involution d from CD(t), then D = tG (and in this case the structure of the group \u27e8D\u27e9 is known).\nb) A significantly more general question. Let t be an involution of a finite group G and suppose that t \u2208 Z\u2217(N(X)) for every non-trivial subgroup X of odd order which is normalized, but not centralized, by t. What is the group\ntG ?\nA. A. Makhn\u00ebv"
-}

@@ -1,6 +1,0 @@
-{
-  "page_number": 275,
-  "problem_number": "18.49",
-  "problem_text": "Let n \u2208 N. Is it true that for any a, b, c \u2208 N satisfying 1 < a, b, c \u2a7d n \u2212 2 the symmetric group Sn has elements of order a and b whose product has order c?\nS. Kohl",
-  "answer": "Yes, it is (G. A. Miller, Amer. J. Math., 22, no. 2 (1900), 185\u2013190). Another solution is in (J. K\u00f6nig, Eur. J. Comb., 57 (2016), 50\u201356)."
-}

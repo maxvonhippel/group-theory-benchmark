@@ -1,5 +1,0 @@
-{
-  "page_number": 113,
-  "problem_number": "17.109",
-  "problem_text": "A non-trivial group word w is uniformly elliptic in a class C if there is a function f : N \u2192N such that the width of w in every d-generator C-group G is bounded by f(d) (i. e. every element of the verbal subgroup w(G) is equal to a product of f(d) values of w or their inverses). If C is a class of finite groups, this is equivalent to saying that in every finitely generated pro-C group G the verbal subgroup w(G) is closed. A. Jaikin-Zapirain (Revista Mat. Iberoamericana, 24 (2008), 617\u2013630) proved that w is uniformly elliptic in finite p-groups if and only if w /\u2208F \u2032\u2032(F \u2032)p, where F is the free group on the variables of w. Is it true that w is uniformly elliptic in C if and only if w /\u2208F \u2032\u2032(F \u2032)p for every prime p in the case where C is the class of all\n a) finite soluble groups?\n b) finite groups?\nSee also Ch. 4 of (D. Segal, Words: notes on verbal width in groups, LMS Lect. Note Series, 361, Cambridge Univ. Press, 2009.\nD. Segal"
-}

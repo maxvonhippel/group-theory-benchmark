@@ -1,6 +1,0 @@
-{
-  "page_number": 196,
-  "problem_number": "2.46",
-  "problem_text": "Find conditions under which a finitely-generated matrix group is almost residually a finite p-group for some prime p.\nYu. I. Merzlyakov",
-  "answer": "A finitely generated matrix group over a field of characteristic zero has a subgroup of finite index which is residually a finite p-group for almost all primes p (M. I. Kargapolov, Algebra i Logika, 6, no. 5 (1967), 17\u201320 (Russian); Yu. I. Merzlyakov, Soviet Math. Dokl., 8 (1967), 1538\u20131541; V. P. Platonov, Dokl. Akad. Nauk Belarus. SSR, 12, no. 6 (1968), 492\u2013494 (Russian)). A finitely generated matrix group over a field of characteristic p > 0 has a subgroup of finite index which is residually a finite p-group (V. P. Platonov, Dokl. Akad. Nauk Belarus. SSR, 12, no. 6 (1968), 492\u2013494 (Russian); A. I. Tokarenko, Proc. Riga Algebr. Sem., Latv. Univ., Riga, 1969, 280\u2013281 (Russian)). See also some generalizations in (V. N. Remeslennikov, Algebra i Logika, 7, no. 4 (1968), 106\u2013113 (Russian); B. A. F. Wehrfritz, Proc. London Math. Soc., 20, no. 1 (1970), 101\u2013122)."
-}

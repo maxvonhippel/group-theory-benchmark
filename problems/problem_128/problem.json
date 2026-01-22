@@ -1,5 +1,0 @@
-{
-  "page_number": 20,
-  "problem_number": "6.45",
-  "problem_text": "\u22176.45. Construct a characteristic subgroup N of a finitely generated free group F such that F/N is infinite and simple. If no such exists, it would follow that d(S2) = d(S) for every infinite finitely generated simple group S. There is reason to believe that this is false. J. Wiegold \u2217It is proved that for all n \u2a7e 2, the free group Fn admits continuum many pairwise non-isomorphic infinite simple characteristic quotients (R. Coulon, F. Fournier-Facio, https://arxiv.org/abs/2312.11684)."
-}

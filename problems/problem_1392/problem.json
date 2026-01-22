@@ -1,6 +1,0 @@
-{
-  "page_number": 194,
-  "problem_number": "2.36",
-  "problem_text": "(de Groot). Is the group of all continuous integer-valued functions on a compact space free abelian?\nV. I. Kuz\u2019minov",
-  "answer": "Yes, it is. By (G. N\u00f6beling, Invent. Math., 6 (1968) 41\u201355) the additive group of all bounded integer-valued functions on an arbitrary set is free. Hence the group of all continuous integer-valued functions on the Chech compactification of an arbitrary discrete space is also free. For any compact space X there exists a continuous mapping of the Chech compactification Y of a discrete space onto X. This induces an embedding of the group of continuous integer-valued functions on X into the free group of continuous integer-valued functions on Y. (V. I. Kuz\u2019minov, 1969.)"
-}

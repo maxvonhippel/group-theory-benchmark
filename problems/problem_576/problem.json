@@ -1,5 +1,0 @@
-{
-  "page_number": 80,
-  "problem_number": "14.84",
-  "problem_text": "An element g of a (relatively) free group Fr(M) of rank r of a variety M is said to be primitive if it can be included in a basis of Fr(M).\na) Do there exist a group Fr(M) and a non-primitive element h \u2208 Fr(M) such that for some monomorphism \u03b1 of Fr(M) the element \u03b1(h) is primitive?\nb) Do there exist a group Fr(M) and a non-primitive element h \u2208 Fr(M) such that for some n > r the element h is primitive in Fn(M)?\nE. I. Timoshenko"
-}

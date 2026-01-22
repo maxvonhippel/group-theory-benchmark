@@ -1,5 +1,0 @@
-{
-  "page_number": 103,
-  "problem_number": "16.110",
-  "problem_text": "(I. Kapovich, P. Schupp). Is there an algorithm which, when given two elements u, v of a free group Fn, decides whether or not the cyclic length of \u03d5(u) equals the cyclic length of \u03d5(v) for every automorphism \u03d5 of Fn?\nComment of 2009: The answer was shown to be positive for n = 2 in (D. Lee, J. Group Theory, 10 (2007), 561\u2013569).\nV. E. Shpilrain"
-}

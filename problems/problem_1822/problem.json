@@ -1,6 +1,0 @@
-{
-  "page_number": 253,
-  "problem_number": "13.61",
-  "problem_text": "We call a metric space narrow if it is quasiisometric to a subset of the real line, and wide otherwise. Let G be a group with the finite set of generators A, and let \u0393 = \u0393(G, A) be the Cayley graph of G with the natural metric. Suppose that, after deleting any narrow subset L from \u0393, at most two connected components of the graph \u0393\\L can be wide, and there exists at least one such a subset L yielding exactly two wide components in \u0393 \\ L. Is it true that \u0393 is quasiisometric to an Euclidean or a hyperbolic plane?\nV. A. Churkin",
-  "answer": "No, it is not true in general (O. V. Bogopol\u2019skii, Preprint, Novosibirsk, 1998 (Russian)). See also new problem 14.98."
-}

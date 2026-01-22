@@ -1,5 +1,0 @@
-{
-  "page_number": 15,
-  "problem_number": "5.26",
-  "problem_text": "Let G be a finite p-group with the minimal number of generators d, and let r1 (respectively, r2) be the minimal number of defining relations on d generators in the sense of representing G as a factor-group of a free discrete group (pro-p-group). It is well known that always r2 > d2/4. For each prime number p denote by c(p) the exact upper bound for the numbers b(p) with the property that r2 \u2a7e b(p)d2 for all finite p-groups.\na) It is obvious that r1 \u2a7e r2. Find a p-group with r1 > r2.\nb) Conjecture: lim_{p\u2192\u221e} c(p) = 1/4. It is proved (J. Wisliceny, Math. Nachr., 102 (1981), 57\u201378) that lim_{d\u2192\u221e} r2/d2 = 1/4.\nH. Koch"
-}

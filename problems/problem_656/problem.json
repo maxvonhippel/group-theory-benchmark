@@ -1,5 +1,0 @@
-{
-  "page_number": 93,
-  "problem_number": "15.90",
-  "problem_text": "Let \u0393 be an infinite directed graph, and \u0393 the underlying undirected graph. Suppose that the graph \u0393 admits a vertex-transitive group of automorphisms, and the graph \u0393 is connected and of finite valency. Does there exist a positive integer k (possibly depending on \u0393) such that for any positive integer n there is a directed path of length at most k \u00b7 n in the graph \u0393 whose initial and terminal vertices are at distance at least n in the graph \u0393?\nComment of 2005: It is proved that there exists a positive integer k\u2032 (depending only on the valency of \u0393) such that for any positive integer n there is a directed path of length at most k\u2032 \u00b7 n2 in the graph \u0393 whose initial and terminal vertices are at distance at least n in the graph \u0393 (V. I. Trofimov, Europ. J. Combinatorics, 27, no. 5 (2006), 690\u2013700).\nV. I. Trofimov"
-}

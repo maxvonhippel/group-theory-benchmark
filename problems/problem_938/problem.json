@@ -1,5 +1,0 @@
-{
-  "page_number": 128,
-  "problem_number": "18.117",
-  "problem_text": "Is every element of a nonabelian finite simple group a commutator of two elements of coprime orders?\nThe answer is known to be \u201cyes\u201d for the alternating groups (P. Shumyatsky, Forum Math., 27, no. 1 (2015), 575\u2013583) and for PSL(2, q) (M. A. Pellegrini, P. Shumyatsky, Arch. Math., 99 (2012), 501\u2013507).\nWithout the coprimeness condition, this is Ore\u2019s conjecture proved in (M. W. Liebeck, E. A. O\u2019Brien, A. Shalev, Pham Huu Tiep, J. Eur. Math. Soc., 12, no. 4 (2010), 939\u20131008).\nP. Shumyatsky"
-}

@@ -1,5 +1,0 @@
-{
-  "page_number": 46,
-  "problem_number": "11.10. (R. C. Lyndon)",
-  "problem_text": "a) Does there exist an algorithm that, given a group word w(a, x), recognizes whether a is equal to the identity element in the group \u27e8a, x | an = 1, w(a, x) = 1\u27e9?\nV. V. Bludov"
-}

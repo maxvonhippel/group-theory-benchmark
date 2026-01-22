@@ -1,5 +1,0 @@
-{
-  "page_number": 100,
-  "problem_number": "16.70",
-  "problem_text": "Suppose that a finitely generated group G acts freely on an A-tree, where A is an ordered abelian group. Is it true that G acts freely on a Z^n-tree for some n?\nComment of 2013: It was proved that every finitely presented group acting freely on an A-tree acts freely on some R^n-tree for a suitable n, where R has the lexicographical order (O. Kharlampovich, A. Myasnikov, D. Serbin, Int. J. Algebra Comput., 23 (2013), 325\u2013345).\nA. G. Myasnikov, V. N. Remeslennikov, O. G. Kharlampovich"
-}

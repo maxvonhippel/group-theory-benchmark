@@ -1,6 +1,0 @@
-{
-  "page_number": 212,
-  "problem_number": "5.17",
-  "problem_text": "If the finite group G has the form G = AB where A and B are nilpotent of classes \u03b1 and \u03b2, respectively, then G is soluble. Is G(\u03b1+\u03b2) = 1? One can show that G(\u03b1+\u03b2) is nilpotent (E. Pennington, 1973). One can ask the same question for infinite groups (or Lie algebras), but there is nothing known beyond Ito\u2019s theorem: A\u2032 = B\u2032 = 1 implies G(2) = 1. O. H. Kegel",
-  "answer": "Not always (J. Cossey, S. Stonehewer, Bull. London Math. Soc., 30, no. 144 (1998), 247\u2013250). See also new problem 14.43."
-}

@@ -1,5 +1,0 @@
-{
-  "page_number": 9,
-  "problem_number": "2.82",
-  "problem_text": "Can the class of groups with the nth Engel condition [x, y, . . . , y | {z } n ] = 1 be defined by identical relations of the form u = v, where u and v are words without negative powers of variables? This can be done for n = 1, 2, 3 (A. I. Shirshov, Algebra i Logika, 2, no. 5 (1963), 5\u201318 (Russian)).\nEditors\u2019 comment: This has also been done for n = 4 (G. Traustason, J. Group Theory, 2, no. 1 (1999), 39\u201346). As remarked by O. Macedo\u00b4nska, this is also true for the class of locally graded n-Engel groups because by (Y. Kim, A. Rhemtulla, in Groups\u2013Korea\u201994, de Gruyter, Berlin, 1995, 189\u2013197) such a group is locally nilpotent and then by (R. G. Burns, Yu. Medvedev, J. Austral. Math. Soc., 64 (1998), 92\u2013100) such a group is an extension of a nilpotent group of n-bounded class by a group of n-bounded exponent; then a classical result of Mal\u2019cev implies that such groups satisfy a positive law.\nA. I. Shirshov"
-}

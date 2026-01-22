@@ -1,5 +1,0 @@
-{
-  "page_number": 177,
-  "problem_number": "21.108",
-  "problem_text": "For a finite group G let Cod(G) denote the set of irreducible character codegrees of G (see 20.78). Define \u03c3(G) = max{|\u03c0(m)| : m \u2208Cod(G)}, where \u03c0(m) denotes the set of prime divisors of an integer m.\nIt is proved that there exists a constant k such that |\u03c0(G)| \u2a7dk \u00b7 \u03c3(G) for every finite group G (Y. Yang, G. Qian, J. Algebra, 478 (2017), 215\u2013219), but the estimate provided for k is very crude. Can the constant k be taken as 4?\nG. Qian"
-}

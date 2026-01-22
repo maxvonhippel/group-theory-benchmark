@@ -1,6 +1,0 @@
-{
-  "page_number": 196,
-  "problem_number": "2.52",
-  "problem_text": "(F. Bruhat, N. Iwahori, M. Matsumoto). Let G be a semisimple algebraic group over a locally compact, totally disconnected field. Do the maximal compact subgroups of G fall into finitely many conjugacy classes? If so, estimate this number.\nV. P. Platonov",
-  "answer": "Yes, they do, and a formula for this number is found (F. Bruhat, J. Tits, Publ. Math. IHES, 41 (1972), 5\u2013251)."
-}

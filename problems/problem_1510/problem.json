@@ -1,6 +1,0 @@
-{
-  "page_number": 209,
-  "problem_number": "4.70",
-  "problem_text": "Let k be a field of characteristic different from 2, and Gk the group of transformations A = (a, \u03b1) : x \u2192 ax + \u03b1 (a, \u03b1 \u2208 k, a \u2260 0). Extend Gk to the projective plane by adjoining the symbols (0, \u03b1) and a line at infinity. Then the lines are just the centralizers CG(A) of elements A \u2208 Gk and their cosets. Do there exist other groups G complementable to the projective plane such that the lines are just the cosets of the centralizers of elements of G?\nH. Schwerdtfeger",
-  "answer": "No (E. A. Kuznetsov, Dep. no. 7028-V89, VINITI, Moscow, 1989 (Russian))."
-}

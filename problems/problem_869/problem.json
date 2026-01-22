@@ -1,6 +1,0 @@
-{
-  "page_number": 119,
-  "problem_number": "18.36",
-  "problem_text": "There are groups of cardinality at most 2\u21350, even nilpotent of class 2, that cannot be embedded in S := Sym(N) (V. A. Churkin, Algebra and model theory (Novosibirsk State Tech. Univ.), 5 (2005), 39\u201343 (Russian)). One condition which might characterize subgroups of S is the following. Consider the metric d on S where for all x \u0338= y we define d(x, y) := 2\u2212k when k is the least element of the set N such that kx \u0338= ky. Then (S, d) is a separable topological group, and so each subgroup of S (not necessarily a closed subgroup of (S, d)) is a separable topological group under the induced metric. Is it true that every group G for which there is a metric d\u2032 such that (G, d\u2032) is a separable topological group is (abstractly) embeddable in S?\nNote that any such group G can be embedded as a section in S.\nJ. D. Dixon",
-  "answer": "No, there exists an uncountable connected Polish group whose every abstract homomorphism into S is trivial (C. Rosendal, S. Solecki, Israel J. Math., 162 (2007), 349\u2013371); see also (A. Ka\u00a8\u0131chouh, F. Le Ma\u02c6\u0131tre, Bull. London Math. Soc., 47 (2015), 996\u20131009). (S. Corson, Letter of 5 June 2024)."
-}

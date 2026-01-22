@@ -1,5 +1,0 @@
-{
-  "page_number": 105,
-  "problem_number": "17.15",
-  "problem_text": "17.15. Construct an algorithm which, for a given polynomial f \u2208 Z[x1, x2, . . . , xn], finds (explicitly, in terms of generators) the maximal subgroup Gf of the group Aut(Z[x1, x2, . . . , xn]) that leaves f fixed.\nThis question is related to description of the solution set of the Diophantine equation f = 0.\nV. G. Bardakov"
-}

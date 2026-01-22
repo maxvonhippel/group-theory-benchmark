@@ -1,5 +1,0 @@
-{
-  "page_number": 97,
-  "problem_number": "16.26",
-  "problem_text": "16.26. We say that the prime graphs of finite groups G and H coincide if the sets of primes dividing their orders are the same, \u03c0(G) = \u03c0(H), and for any distinct p, q \u2208 \u03c0(G) there is an element of order pq in G if and only if there is such an element in H. Does there exist a positive integer k such that there are no k pairwise non-isomorphic finite non-abelian simple groups with the same graphs of primes?\nConjecture: k = 5.\nA. V. Vasil\u2019ev"
-}

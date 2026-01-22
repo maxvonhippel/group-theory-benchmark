@@ -1,5 +1,0 @@
-{
-  "page_number": 74,
-  "problem_number": "14.22",
-  "problem_text": "Prove that any irreducible system of equations S(x1, . . . , xn) = 1 with\ncoefficients in a torsion-free linear group G is equivalent over G to a finite sys-\ntem T(x1, . . . , xn) = 1 satisfying an analogue of Hilbert\u2019s Nullstellensatz, i. e.\nRadG(T) =\n\u221a\nT. This is true if G is a free group (O. Kharlampovich, A. Myasnikov,\nJ. Algebra, 200 (1998), 472\u2013570).\nHere both S and T are regarded as subsets of G[X] = G \u2217F(X), a free prod-\nuct of G and a free group on X = {x1, . . . , xn}.\nBy definition, RadG(T) =\n{w(x1, . . . , xn) \u2208G[X] | w(g1, . . . , gn) = 1 for any solution g1, . . . , gn \u2208G of the\nsystem T(X) = 1}, and\n\u221a\nT is the minimal normal isolated subgroup of G[X] con-\ntaining T.\nG. Baumslag, A. G. Myasnikov, V. N. Remeslennikov"
-}

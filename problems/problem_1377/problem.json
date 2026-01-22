@@ -1,6 +1,0 @@
-{
-  "page_number": 191,
-  "problem_number": "2.15",
-  "problem_text": "Does there exist a torsion-free group such that the factor group by some term of its upper central series is nontrivial periodic, with a bound on the orders of the elements?\nG. A. Karas\u00a8ev",
-  "answer": "Yes, such groups do exist (S. I. Adian, Proc. Steklov Inst. Math., 112 (1971), 61\u201369)."
-}

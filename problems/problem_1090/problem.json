@@ -1,6 +1,0 @@
-{
-  "page_number": 151,
-  "problem_number": "20.58",
-  "problem_text": "Let \u03c9(G) denote the set of element orders of a finite group G. A finite group G is said to be recognizable (by spectrum) if every finite group H with \u03c9(H) = \u03c9(G) is isomorphic to G.\n\u2217a) Is it true that for every n there is a recognizable group that is the n-th direct power of a nonabelian simple group?\nb) Is it true that there is a nonabelian simple group L such that for every n there is a recognizable group whose socle is the k-th direct power of L for some k \u2a7e n?\nV. D. Mazurov, A. V. Vasil\u2019ev",
-  "answer": "\u2217a) Yes, it is true (N. Yang, I. Gorshkov, A. Staroletov, A. V. Vasil\u2019ev, Annali Matem. Pura Appl., 202 (2023), 2699\u20132714)."
-}

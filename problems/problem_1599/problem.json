@@ -1,6 +1,0 @@
-{
-  "page_number": 221,
-  "problem_number": "7.17",
-  "problem_text": "7.17. Is the number of maximal subgroups of the finite group G at most |G| \u22121?\nEditors\u2019 remarks: This is proved for G soluble (G. E. Wall, J. Austral.\nMath.\nSoc., 2 (1961\u201362), 35\u201359) and for symmetric groups Sn for sufficiently large n\n(M. Liebeck, A. Shalev, J. Combin. Theory, Ser. A, 75 (1996), 341\u2013352); it is also\nproved (M. W. Liebeck, L. Pyber, A. Shalev, J. Algebra, 317 (2007), 184\u2013197) that\nany finite group G has at most 2C|G|3/2 maximal subgroups, where C is an absolute\nconstant.\nR. Griess",
-  "answer": "No, not always (R. Guralnick, F. L\u00a8ubeck, L. Scott, T. Sprowl; see (C. P. Bendel,\nB. D. Boe, C. M. Drupieski, D. K. Nakano, B. J. Parshall, C. Pillen, C. B. Wright, in:\nDevelopments and retrospectives in Lie theory. Algebraic methods. Retrospective se-\nlected papers based on the presentations at the seminar \u201cLie groups, Lie algebras and\ntheir representations\u201d, 1991\u20132014, Springer, Cham, 2014, 51\u201369). Infinitely many\ncounterexamples were found in (F. L\u00a8ubeck, Trans. Amer. Math. Soc., 373, no. 4\n(2020), 2331\u20132347)."
-}

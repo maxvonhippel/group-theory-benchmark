@@ -1,5 +1,0 @@
-{
-  "page_number": 10,
-  "problem_number": "3.43",
-  "problem_text": "Let \u00b5 be an infinite cardinal number. A group G is said to be \u00b5-overnilpotent if every cyclic subgroup of G is a member of some ascending normal series of length less than \u00b5 reaching G. It is not difficult to show that the class of \u00b5-overnilpotent groups is a radical class. Is it true that if \u00b51 < \u00b52 for two infinite cardinal numbers \u00b51 and \u00b52, then there exists a group G which is \u00b52-overnilpotent and \u00b51-semisimple?\nRemark of 2001: In (S. Vovsi, Sov. Math. Dokl., 13 (1972), 408\u2013410) it was proved that for any two infinite cardinals \u00b51 < \u00b52 there exists a group that is \u00b52-overnilpotent but not \u00b51-overnilpotent.\nB. I. Plotkin"
-}

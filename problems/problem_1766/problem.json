@@ -1,6 +1,0 @@
-{
-  "page_number": 245,
-  "problem_number": "12.14",
-  "problem_text": "If T is a countable theory, does there exist a model A of T such that the theory of Aut (A) is undecidable? M. Giraudet, A. M. W. Glass",
-  "answer": "Yes, moreover, every first order theory having infinite models has a model whose automorphism group has undecidable existential theory (V. V. Bludov, M. Giraudet, A. M. W. Glass, G. Sabbagh, in Models, Modules and Abelian Groups, de Gruyter, Berlin, 2008, 325\u2013328)."
-}

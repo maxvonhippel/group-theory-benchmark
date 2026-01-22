@@ -1,5 +1,0 @@
-{
-  "page_number": 117,
-  "problem_number": "18.13",
-  "problem_text": "(D. B. A. Epstein). Is it true that the group H = (Z3 \u00d7 Z) \u2217(Z2 \u00d7 Z) = \u27e8x, y, z, t | x3 = z2 = [x, y] = [z, t] = 1\u27e9 cannot be defined by three relators in the generators x, y, z, t?\nIt is known that the relation module of the group H has rank 3 (K. W. Gruenberg, P. A. Linnell, J. Group Theory, 11, no. 5 (2008), 587\u2013608). An affirmative answer would give a solution of the relation gap problem. V. G. Bardakov, M. V. Neshchadim"
-}

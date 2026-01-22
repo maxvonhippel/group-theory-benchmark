@@ -1,6 +1,0 @@
-{
-  "page_number": 220,
-  "problem_number": "7.1",
-  "problem_text": "The free periodic groups B(m, p) of prime exponent p > 665 are known to\npossess many properties similar to those of absolutely free groups (see S. I. Adian,\nThe Burnside Problem and Identities in Groups, Springer, Berlin, 1979). Is it true\nthat all normal subgroups of B(m, p) are not free periodic groups?\nS. I. Adian",
-  "answer": "Yes, it is true for all sufficiently large p (A. Yu. Olshanskii, in: Groups, rings, Lie and\nHopf algebras, Int. Workshop, Canada, 2001, Dordrecht, Kluwer, 2003, 179\u2013187);\nthis is also proved for all primes p \u2a7e1003 (V. S. Atabekyan, Fund. Prikl. Mat., 15,\nno. 1 (2009), 3\u201321 (Russian))."
-}

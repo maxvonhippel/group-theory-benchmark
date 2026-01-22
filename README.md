@@ -18,6 +18,7 @@ This project was inspired by the paper [Disproof of the Mertens Conjecture](http
 
 | Problem | Artifact | Human Review |
 |---------|----------|-------------|
+| 15.26 | `problem.lean` (formalization only) | ❌ |
 | 18.59. | `problem.lean` (formalization only) | ❌ |
 
 ## Setup

@@ -1,6 +1,0 @@
-{
-  "page_number": 256,
-  "problem_number": "14.77",
-  "problem_text": "Let p be a prime number and X a finite set of powers of p containing 1. Is it true that X is the set of all lengths of the conjugacy classes of some finite p-group?\nJ. Sangroniz",
-  "answer": "Yes, it is (J. Cossey, T. Hawkes, Proc. Amer. Math. Soc., 128, no. 1 (2000), 49\u201351)."
-}

@@ -1,5 +1,0 @@
-{
-  "page_number": 168,
-  "problem_number": "21.50",
-  "problem_text": "Does every finite 3-group T have a nontrivial characteristic subgroup C such that if T is a Sylow 3-subgroup of a finite group G, then T \u2229 G\u2032 = T \u2229 H\u2032, where H = NG(C)?\nSuch a characteristic subgroup is known to exist in p-groups for p \u2a7e 5 (G. Glauberman, Math. Z., 117 (1970), 46\u201356), and for p = 3 there are two characteristic subgroups K1, K2 such that T \u2229 G\u2032 = (T \u2229 H\u20321)(S \u2229 H\u20322), where Hi = NG(Ki) (G. Glauberman, J. Algebra, 648 (2024), 62\u201386). The group S4 shows that no such characteristic subgroups can be found in some Sylow 2-subgroups.\nG. Glauberman"
-}

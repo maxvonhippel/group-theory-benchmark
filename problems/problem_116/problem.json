@@ -1,5 +1,0 @@
-{
-  "page_number": 18,
-  "problem_number": "6.10",
-  "problem_text": "Let p be a prime and n be an integer with p > 2n + 1. Let x, y be p-elements in GLn(C). If the subgroup \u27e8x, y\u27e9 is finite, then it is an abelian p-group (W. Feit, J. G. Thompson, Pacif. J. Math., 11, no. 4 (1961), 1257\u20131262). What can be said about \u27e8x, y\u27e9 in the case it is an infinite group? J. D. Dixon"
-}

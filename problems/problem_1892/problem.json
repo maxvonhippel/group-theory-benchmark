@@ -1,6 +1,0 @@
-{
-  "page_number": 264,
-  "problem_number": "16.24",
-  "problem_text": "The spectrum of a finite group is the set of orders of its elements. Does there exist a finite group G whose spectrum coincides with the spectrum of a finite simple exceptional group L of Lie type, but G is not isomorphic to L?\nA. V. Vasil\u2019ev",
-  "answer": "Yes, for example, for L = 3D4(2) (V. D. Mazurov, Algebra Logic, 52, no. 5 (2013), 400\u2013403). Further examples are given in M. A. Grechkoseeva, M. A. Zvezdina, J. Algebra Appl., 15, no. 9 (2016), Article ID 1650168, 13 pp.)."
-}

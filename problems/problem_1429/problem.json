@@ -1,6 +1,0 @@
-{
-  "page_number": 199,
-  "problem_number": "3.4",
-  "problem_text": "(Well-known problems). a) Is there an algorithm that decides, for any set of group words f1, . . . , fm (in a fixed set of variables x1, x2, . . .) and a separate word f, whether f = 1 is a consequence of f1 = 1, . . . , fm = 1?\nb) Given words f1, . . . , fm, is there an algorithm that decides, for any word f, whether f = 1 is a consequence of f1 = 1, . . . , fm = 1?\nL. A. Bokut\u2019",
-  "answer": "No, in both cases (Yu. G. Kleiman, Soviet Math. Dokl., 20 (1979), 115\u2013119)."
-}

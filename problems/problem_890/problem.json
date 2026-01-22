@@ -1,5 +1,0 @@
-{
-  "page_number": 121,
-  "problem_number": "18.60",
-  "problem_text": "18.60. Let V be an infinite countable elementary abelian additive 2-group. Does Aut V contain a subgroup G such that\n(a) G is transitive on the set of non-zero elements of V, and\n(b) if H is the stabilizer in G of a non-zero element v \u2208 V, then V = \u27e8v\u27e9 \u2295 Vv, where Vv is H-invariant, H is isomorphic to the multiplicative group P* of a locally finite field P of characteristic 2, and the action H on Vv is similar to the action of P* on P by multiplication?\nConjecture: such a group G does not exist. If so, then the group G in the previous problem does not exist too.\nD. V. Lytkina"
-}

@@ -1,5 +1,0 @@
-{
-  "page_number": 150,
-  "problem_number": "20.46",
-  "problem_text": "A group action on a compact space is said to be topologically free if the set of points with trivial stabilizer is dense. Let G be a locally compact group, and \u2202spG its Furstenberg boundary (the largest minimal and strongly proximal compact G-space). Let \u03931 and \u03932 be two lattices in G, both acting faithfully on \u2202spG.\na) Is it possible that the \u03931-action on \u2202spG is topologically free, but the \u03932-action on \u2202spG is not topologically free?\nb) If yes, can this also happen if \u2202spG = G/H is a homogeneous G-space?\nA. Le Boudec"
-}

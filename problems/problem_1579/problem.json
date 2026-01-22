@@ -1,6 +1,0 @@
-{
-  "page_number": 218,
-  "problem_number": "6.42",
-  "problem_text": "Let H be a strongly 3-embedded subgroup of a finite group G. Suppose that Z(H/O3\u2032(H)) contains an element of order 3. Does Z(G/O3\u2032(G)) necessarily contain an element of order 3?\nN. D. Podufalov",
-  "answer": "Yes, it does (mod CFSG) (W. Xiao, Sci. China (A), 33 (1990), 1172\u20131181)."
-}

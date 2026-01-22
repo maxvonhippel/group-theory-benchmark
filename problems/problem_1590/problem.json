@@ -1,6 +1,0 @@
-{
-  "page_number": 220,
-  "problem_number": "6.64",
-  "problem_text": "A group G is called a monster of the second kind if it has elements of order\n> 2 and if for any such element a and any proper subgroup H of G there exists an\ninfinite subset Ma,H consisting of conjugates of a by elements of G \\ H such that\n\u27e8a, c\u27e9= G for all c \u2208Ma,H. Do mixed monsters (that is, with elements of both finite\nand infinite orders) of the second kind exist? Do there exist torsion-free monsters of\nthe second kind?\nV. P. Shunkov",
-  "answer": "Yes, such monsters exist, in both cases (A. Yu. Olshanskii, The geometry of defining\nrelations in groups, Kluwer, Dordrecht, 1991)."
-}

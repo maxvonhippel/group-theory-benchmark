@@ -1,5 +1,0 @@
-{
-  "page_number": 155,
-  "problem_number": "20.81",
-  "problem_text": "Does there exist a class X of finite groups satisfying the following conditions:\n(1) X is closed with respect to taking subgroups and homomorphic images;\n(2) the product of two normal X-subgroups of an arbitrary group is always an X-group;\n(3) for every positive integer n, there exist a finite group and its conjugacy class D such that any n elements of D generate an X-subgroup, whereas \u27e8D\u27e9/\u2208X.\nIt is known that there are no classes X satisfying (1)\u2013(3) that are closed with respect to extensions (D. O. Revin, Algebra i Analiz, 37, no. 1 (2025), 141\u2013176 (Russian)).\nD. O. Revin"
-}

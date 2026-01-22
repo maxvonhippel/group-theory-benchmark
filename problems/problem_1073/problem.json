@@ -1,6 +1,0 @@
-{
-  "page_number": 149,
-  "problem_number": "\u221720.41",
-  "problem_text": "(L. Ciobanu, B. Fine, G. Rosenberger). Suppose that G is a non-cyclic residually finite group in which every subgroup of finite index (including the group itself) is defined by a single defining relation, while all infinite index subgroups are free. Is it true that G is either free or isomorphic to the fundamental group of a compact surface?\nSee Archive 7.36 for a negative solution of a similar question without the assumption on infinite index subgroups.\nD. Kielak",
-  "answer": "Yes, it is true (H. Wilton, Preprint, 2024, https://arxiv.org/abs/2406.02121)."
-}

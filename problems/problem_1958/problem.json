@@ -1,6 +1,0 @@
-{
-  "page_number": 273,
-  "problem_number": "17.111",
-  "problem_text": "Let G be a finite group, and p a prime divisor of |G|. Suppose that every maximal subgroup of a Sylow p-subgroup of G has a p-soluble supplement in G. Must G be p-soluble? A. N. Skiba",
-  "answer": "Yes, it must (GuoHua Qian, Science China Mathematics, 56, no. 5 (2013), 1015\u20131018)."
-}

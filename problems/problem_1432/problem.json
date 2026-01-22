@@ -1,6 +1,0 @@
-{
-  "page_number": 200,
-  "problem_number": "3.8",
-  "problem_text": "Let G be the free product of free groups A and B, and V the verbal subgroup of G corresponding to the equation x^4 = 1. Is it true that, if a \u2208 A \\ V and b \u2208 B \\ V, then (ab)^2 \u2209 V ?\nV. G. Vilyatser",
-  "answer": "No, it is not. If A and B are free groups with bases a1, a2 and b1, b2, respectively, then, for example, the commutators a = [[a1, a2, a2], [a1, a2]] and b = [[b1, b2, b2], [b1, b2]] do not belong to V, but (ab)^2 \u2208 V. Indeed, it follows from (C. R. B. Wright, Pacif. J. Math., 11, no. 1 (1961), 387\u2013394) that a^2 \u2208 V, b^2 \u2208 V, and [a, b] \u2208 V. (V. A. Roman\u2019kov, Talk at the seminar Algebra and Logic, March, 17, 1970.)"
-}

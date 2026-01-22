@@ -1,6 +1,0 @@
-{
-  "page_number": 270,
-  "problem_number": "17.21",
-  "problem_text": "a) If A, B, C are torsion-free abelian groups with A \u223c= A \u2295 B \u2295 C, must A \u223c= A \u2295 B?\nb) What if, furthermore, B \u223c= C?\nG. M. Bergman",
-  "answer": "No, not necessarily, even in case b). See (A. L. S. Corner, in Proc. Colloq. Abelian Groups (Tihany, 1963), Budapest, 1964, 43\u201348); I also have an example with B and C of rank 1 as torsion-free abelian groups. (G. M. Bergman, Letter of 20 February 2011.)"
-}

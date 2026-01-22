@@ -1,5 +1,0 @@
-{
-  "page_number": 90,
-  "problem_number": "15.67",
-  "problem_text": "15.67. Which adjoint Chevalley groups (of normal type) over the integers are gener-\nated by three involutions two of which commute?\nThe groups SLn(Z), n > 13, satisfy this condition (M. C. Tamburini, P. Zucca,\nJ. Algebra, 195, no. 2 (1997), 650\u2013661). The groups PSLn(Z) satisfy it if and only\nif n > 4 (N. Ya. Nuzhin, Vladikavkaz. Mat. Zh., 10, no. 1 (2008), 68\u201374 (Russian)).\nThe group PSp4(Z) does not satisfy it, which follows from the corresponding fact for\nPSp4(3), see Archive, 7.30. The group G2 satisfies it (I. A. Timofeenko, J. Siberian\nFed. Univ. Ser. Math. Phys., 8, no. 1 (2015), 104\u2013108. The group El satisfies it\n(I. A. Timofeenko, Sibrsk. `Electron. Mat. Izv., 14 (2017), 807\u2013820 (Russian)).\nYa. N. Nuzhin"
-}

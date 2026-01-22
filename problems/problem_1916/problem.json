@@ -1,6 +1,0 @@
-{
-  "page_number": 267,
-  "problem_number": "16.75",
-  "problem_text": "Can a non-abelian one-relator group be the group of all automorphisms of some group?\nM. V. Neshchadim",
-  "answer": "Yes, it can: in (D. J. Collins, Proc. London Math. Soc. (3), 36 (1978), no. 3, 480\u2013493) it was proved that for integers r, s such that (r, s) = 1, |r| \u0338= |s|, and r \u2212 s is even, the group G = \u27e8a, b | a\u22121bra = bs\u27e9 is isomorphic to Aut(Aut(G)) (V. A. Churkin, Letter of 5 April 2006)."
-}

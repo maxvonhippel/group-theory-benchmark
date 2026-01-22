@@ -1,200 +1,29 @@
 # Group Theory Benchmark
 
-Benchmark with 1237 open and 763 solved problems from the Kourovka Notebook. Includes [GAP](https://www.gap-system.org/) and [Lean 4](https://lean-lang.org/) MCP servers for computational/formal approaches.
+An AI agent benchmark for solving abstract algebra problems using GAP (Groups, Algorithms, Programming) and Lean 4 formal theorem proving.
 
-Inspired by [arXiv:2107.06982](https://arxiv.org/pdf/2107.06982) - computational approaches can solve mathematical research problems.
+## Inspiration
 
-## Structure
+This project was inspired by the paper [Disproof of the Mertens Conjecture](https://www.sciencedirect.com/science/article/pii/0022314X85900764) which showed how computational algebra systems like GAP can be used to solve longstanding mathematical conjectures by finding counterexamples.
 
-The structure of this project is organized as follows:
+## Tools
 
-```
-group-theory-benchmark/
-├── examples
-│   ├── demo_gap_mcp.py  # Demo script showing how to use the GAP MCP server tools.
-│   ├── test_mcp_real_problems.py  # Test the GAP MCP on real Kourovka Notebook problems.
-│   ├── test_mcp_server.py  # Test the MCP server directly via the protocol.
-│   └── test_query_agent.py  # Test the GAP query agent with diverse natural language queries.
-├── gap
-│   ├── doc
-│   ├── lib
-│   └── gap
-├── lean_scratch
-│   ├── LeanScratch
-│   │   └── Basic.lean
-│   ├── LeanScratch.lean
-│   ├── Main.lean
-│   ├── README.md
-│   ├── lake-manifest.json
-│   ├── lakefile.toml
-│   └── lean-toolchain
-├── lit
-│   └── 1401.0300.pdf
-├── make
-│   ├── ai.mk
-│   ├── docs.mk
-│   ├── extract_mcp_tools.py
-│   ├── generate_mcp_config.py
-│   ├── generate_problem_prompt.py
-│   ├── print_problems.py  # Print open or closed problems from the extraction.
-│   ├── tests.mk
-│   ├── tree_with_comments.py  # Generate a tree structure of the project with comments from Python files.
-│   └── watch.mk
-├── pkg
-├── src
-│   ├── baml_src
-│   │   ├── clients.baml
-│   │   ├── functions.baml
-│   │   ├── generators.baml
-│   │   └── types.baml
-│   ├── extraction
-│   │   ├── clean_json.py
-│   │   ├── extract.py
-│   │   └── extract_clean.py
-│   └── tools
-│       ├── gap.py  # Python interface to GAP (Groups, Algorithms, Programming) system.
-│       ├── gap_mcp_server.py  # GAP MCP Server - Model Context Protocol server for GAP (Groups, Algorithms, Programming).
-│       ├── gap_query_agent.py  # GAP Query Agent - Iteratively generates and executes GAP code from English queries.
-│       ├── lean_mcp_server.py  # Lean MCP Server - Model Context Protocol server for Lean 4 theorem prover.
-│       └── test_gap.py
-├── tests
-│   ├── test_gap.py  # Tests for GAP Python interface.
-│   ├── test_gap_mcp.py  # Tests for the GAP MCP server.
-│   └── test_lean_mcp.py  # Tests for the Lean MCP server.
-├── .cursorrules
-├── AGENTS.md
-├── CLAUDE.md
-├── Makefile
-├── README.md
-├── pyproject.toml
-└── tree_output.tmp
-```
+- **[GAP (Groups, Algorithms, Programming)](https://www.gap-system.org/)**: A system for computational discrete algebra, especially computational group theory
+- **[Lean 4](https://lean-lang.org/)**: An interactive theorem prover for formalizing and verifying mathematical proofs
 
-## Problems
-
-This project contains extracted math problems from the Kourovka Notebook:
-
-- **Open problems:** 1237
-- **Closed problems (with answers):** 763
-- **Total problems:** 2000
-
-### Viewing Problems
-
-Use `make open` to view open problems (no answer) or `make closed` to view closed problems (with answers).
-
-**Options:**
-
-- `num=N` - Limit output to N problems
-- `random=true` - Select problems randomly (requires num= to be specified)
-
-**Examples:**
+## Setup
 
 ```bash
-# View all open problems
-make open
-
-# View first 5 open problems
-make open num=5
-
-# View 3 random open problems
-make open num=3 random=true
-
-# View all closed problems (with answers)
-make closed
-
-# View 10 random closed problems
-make closed num=10 random=true
+make setup  # Install dependencies, build GAP, setup Lean
 ```
 
-## Using the MCP Server
-
-The GAP MCP (Model Context Protocol) server provides AI agents with tools to explore group theory computationally.
-
-### Starting the MCP Server
+## Usage
 
 ```bash
-uv run python src/tools/gap_mcp_server.py
+make watch-solve  # Launch Claude to solve a random problem
+make test         # Run test suite
 ```
 
-### Available MCP Tools
+## Problem Set
 
-1. **query_gap** - Natural language queries (no GAP knowledge required)
-   ```python
-   # Example: "What is the order of the center of S_4?"
-   # Example: "How many non-abelian groups of order 16 exist?"
-   ```
-
-2. **check_group_property** - Check if a group has a property
-   ```python
-   # Properties: abelian, cyclic, simple, solvable, nilpotent, perfect
-   ```
-
-3. **compute_group_invariants** - Get group invariants (order, center, etc.)
-
-4. **find_counterexample** - Search for groups violating a property
-
-5. **search_small_groups** - Filter groups by multiple criteria
-
-6. **compare_groups** - Check if two groups are isomorphic
-
-7. **evaluate_gap** - Execute raw GAP code (for advanced users)
-
-### Python Usage
-
-```python
-from src.tools.gap_query_agent import query_gap
-
-# Ask questions in natural language
-result = query_gap("Is the alternating group A_5 simple?")
-print(result.result_value)  # True
-print(result.final_code)    # IsSimple(AlternatingGroup(5));
-```
-
-See `examples/test_query_agent.py` and `examples/test_mcp_real_problems.py` for more examples.
-
-## Automated Problem Solving
-
-Watch Claude attempt to solve random Kourovka problems using the MCP tools:
-
-```bash
-make watch-solve
-```
-
-This will:
-1. Load GAP and Lean MCP servers
-2. Select a random open problem
-3. Launch Claude (Opus) to attempt solving it
-
-You can watch Claude use computational methods (GAP) and formal proofs (Lean) in real-time.
-
-**Helper commands:**
-- `make problem-prompt` - Preview a random problem prompt without launching Claude
-- `make mcp-config` - View the MCP server configuration
-
-## Available MCP Tools
-
-This project exposes computational tools via Model Context Protocol (MCP) servers.
-
-### Gap-Server MCP Server
-
-**Tools:** 8
-
-1. **`check_group_property`** - Check if a group satisfies a specific property.
-2. **`find_counterexample`** - Search for a counterexample to a conjecture about groups.
-3. **`compute_group_invariants`** - Compute important invariants and properties of a group.
-4. **`test_conjecture_on_small_groups`** - Test a conjecture on all groups of small order.
-5. **`search_small_groups`** - Search the SmallGroups library for groups matching specific criteria.
-6. **`compare_groups`** - Compare two groups by checking if they are isomorphic and listing their properties.
-7. **`evaluate_gap`** - Evaluate raw GAP code.
-8. **`query_gap`** - Answer questions about group theory in plain English.
-
-### Lean-Server MCP Server
-
-**Tools:** 4
-
-1. **`check_theorem`** - Check if a Lean theorem statement is valid and type-checks.
-2. **`verify_proof`** - Verify a complete Lean proof.
-3. **`get_proof_state`** - Get the current proof state (goals) at a specific point in a proof.
-4. **`evaluate_lean`** - Evaluate arbitrary Lean code.
-
-
+Problems are drawn from the [Kourovka Notebook](https://kourovka-notebook.org/), a collection of unsolved problems in group theory.

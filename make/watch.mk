@@ -25,20 +25,7 @@ watch-solve:
 	echo ""; \
 	claude --model opus --mcp-config /tmp/claude_mcp_config.json --dangerously-skip-permissions < /tmp/claude_problem_prompt.txt; \
 	echo ""; \
-	echo "========================================"; \
-	echo ""; \
-	echo "VALIDATING SOLUTION"; \
-	echo "========================================"; \
-	if [ -f "$$SOLUTION_FILE" ]; then \
-		echo "Solution file found: $$SOLUTION_FILE"; \
-		if uv run python make/validate_lean_solution.py "$$SOLUTION_FILE"; then \
-			echo "✓ SOLUTION VALIDATED SUCCESSFULLY"; \
-		else \
-			echo "✗ SOLUTION VALIDATION FAILED"; \
-		fi; \
-	else \
-		echo "✗ No solution file produced: $$SOLUTION_FILE"; \
-	fi
+	echo "========================================"
 
 # Just generate the prompt without launching
 .PHONY: problem-prompt

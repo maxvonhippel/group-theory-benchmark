@@ -76,61 +76,53 @@ def generate_prompt(problem):
     problem_num = problem.get('problem_number', 'unknown')
     problem_text = problem.get('problem_text', 'No problem text')
     project_root = Path(__file__).parent.parent
-    # Sanitize problem number for filename (replace dots with underscores, remove trailing periods)
-    safe_problem_num = str(problem_num).replace('.', '_').rstrip('_')
-    solution_file = f"scratch/solutions/problem_{safe_problem_num}.lean"
-    
+    problem_dir = f"problems/{problem_num}"
+
     # Get tool documentation
     tool_docs = generate_tool_documentation()
-    
+
     prompt = f"""You are solving Kourovka Notebook problem #{problem_num}.
 
 **Problem Statement:**
 {problem_text}
 
 **Your Goal:**
-Produce a VERIFIED formal proof in Lean 4 that solves this problem.
+Determine if this problem can be solved, and produce the appropriate artifact.
 
-**Success Criteria:**
-1. Write a complete Lean proof to: {solution_file}
-2. The proof must compile without errors
-3. No 'sorry', 'admit', or axioms allowed
-4. Must include actual theorem/lemma statements and proofs
+**Output Directory:**
+{problem_dir}/
 
-**For Open/Unsolvable Problems:**
-If this is an open research problem with no known solution:
-1. Declare it unsolvable and explain why
-2. Provide a formalization of the problem statement in Lean (definitions, types)
-3. Optionally include partial results or related lemmas
-4. The formalization must still compile without 'sorry'
+**Three Possible Outcomes:**
 
-**How Your Work Will Be Tested:**
-After you finish, the system will run:
-```bash
-lean {solution_file}
-```
-
-The solution is considered successful if:
-- The file compiles with exit code 0
-- Contains no 'sorry' or 'admit' 
-- Contains either: a complete proof OR a formalization with unsolvability declaration
-
-DO NOT EXIT until either:
-1. Your solution passes these tests, OR
-2. You explicitly declare you cannot solve the problem (with formalization)
+1. **Found a Counterexample (via GAP)**
+   - Write Python/GAP code to: {problem_dir}/disproof.py
+   - Must generate and verify a concrete counterexample
+   - Include comments explaining why it's a counterexample
+   
+2. **Proved the Theorem (via Lean)**
+   - Write Lean proof to: {problem_dir}/proof.lean
+   - Must compile without errors
+   - No 'sorry' or 'admit' allowed
+   
+3. **Formalized but Unsolved**
+   - Write formalization to: {problem_dir}/problem.lean
+   - Include definitions, types, and problem statement
+   - Use 'sorry' for unsolved parts
+   - Add comments explaining what you tried and why it's hard
 
 {tool_docs}
 
-**Required Workflow:**
-1. Use GAP tools to explore the problem computationally
-2. Use Lean tools to develop and verify your formal proof
-3. Iteratively refine until the proof compiles without errors
-4. Use `verify_proof` to confirm your solution before finishing
+**Workflow:**
+1. Use GAP tools to search for counterexamples first
+2. If no counterexample found, attempt Lean proof
+3. If proof is too difficult, provide formalization with sorry
 
-**Important:**
-- Natural language proofs DO NOT count - you must produce verified Lean code
-- Test your proof multiple times with `verify_proof` before declaring success
-- If you find a counterexample with GAP, formalize it in Lean as a counterexample proof
+**Success Criteria:**
+- Exactly ONE of: disproof.py, proof.lean, or problem.lean exists when done
+- File compiles/runs without errors (except sorry in problem.lean)
+- Clear explanation of your approach
+
+DO NOT EXIT until you have created one artifact file in {problem_dir}/
 
 Begin your investigation now. Use the tools actively."""
 

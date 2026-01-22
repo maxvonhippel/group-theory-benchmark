@@ -1,6 +1,6 @@
 # Group Theory Benchmark
 
-An AI agent benchmark for solving abstract algebra problems using GAP (Groups, Algorithms, Programming) and Lean 4 formal theorem proving.
+An AI agent benchmark for solving abstract algebra problems using GAP and Lean 4.
 
 ## Inspiration
 
@@ -10,6 +10,15 @@ This project was inspired by the paper [Disproof of the Mertens Conjecture](http
 
 - **[GAP (Groups, Algorithms, Programming)](https://www.gap-system.org/)**: A system for computational discrete algebra, especially computational group theory
 - **[Lean 4](https://lean-lang.org/)**: An interactive theorem prover for formalizing and verifying mathematical proofs
+
+
+## AI-Generated Solutions
+
+**⚠️ WARNING**: [No AI-generated proof should be trusted without human review, no matter how formal.] (https://www.lesswrong.com/posts/rhAPh3YzhPoBNpgHg/lies-damned-lies-and-proofs-formal-methods-are-not-slopless)
+
+| Problem | Artifact | Human Review |
+|---------|----------|-------------|
+| 18.59. | `problem.lean` (formalization only) | ❌ |
 
 ## Setup
 

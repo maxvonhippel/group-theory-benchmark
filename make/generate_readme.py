@@ -2,8 +2,6 @@
 """
 Generate README.md with automated solution tracking table.
 """
-
-import json
 from pathlib import Path
 
 
@@ -26,21 +24,25 @@ def scan_problem_solutions():
             'disproof': None,
             'proof': None,
             'formalization': None,
+            'attempt_summary': None,
             'review': None
         }
-        
+
         # Check for solution artifacts
         disproof_file = problem_dir / "disproof.py"
         proof_file = problem_dir / "proof.lean"
         formalization_file = problem_dir / "problem.lean"
+        attempt_summary_file = problem_dir / "formalization_attempt_summary.txt"
         review_file = problem_dir / "review.txt"
-        
+
         if disproof_file.exists():
             solution_info['disproof'] = 'disproof.py'
         if proof_file.exists():
             solution_info['proof'] = 'proof.lean'
         if formalization_file.exists():
             solution_info['formalization'] = 'problem.lean'
+        if attempt_summary_file.exists():
+            solution_info['attempt_summary'] = 'formalization_attempt_summary.txt'
         
         # Check for human review
         if review_file.exists():
@@ -51,7 +53,7 @@ def scan_problem_solutions():
                 solution_info['review'] = review_text
         
         # Only include if there's at least one artifact
-        if any([solution_info['disproof'], solution_info['proof'], solution_info['formalization']]):
+        if any([solution_info['disproof'], solution_info['proof'], solution_info['formalization'], solution_info['attempt_summary']]):
             solutions.append(solution_info)
     
     return solutions
@@ -63,11 +65,10 @@ def generate_solution_table(solutions):
         return ""
     
     table = "\n## AI-Generated Solutions\n\n"
-    table += "**⚠️ WARNING**: No AI-generated proof should be trusted without human review, no matter how formal. "
-    table += "Formal methods are not foolproof. See: [Lies, Damned Lies, and Proofs: Formal Methods Are Not Slopless]"
+    table += "**⚠️ WARNING**: [No AI-generated proof should be trusted without human review, no matter how formal.] "
     table += "(https://www.lesswrong.com/posts/rhAPh3YzhPoBNpgHg/lies-damned-lies-and-proofs-formal-methods-are-not-slopless)\n\n"
     
-    table += "| Problem | Solution | Human Review |\n"
+    table += "| Problem | Artifact | Human Review |\n"
     table += "|---------|----------|-------------|\n"
     
     for sol in solutions:
@@ -78,6 +79,8 @@ def generate_solution_table(solutions):
             solution = f"`{sol['proof']}` (Lean proof)"
         elif sol['formalization']:
             solution = f"`{sol['formalization']}` (formalization only)"
+        elif sol['attempt_summary']:
+            solution = f"`{sol['attempt_summary']}` (could not formalize)"
         else:
             solution = "N/A"
         
@@ -94,12 +97,11 @@ def generate_solution_table(solutions):
 
 def generate_readme():
     """Generate complete README.md content."""
-    project_root = Path(__file__).parent.parent
     
     # Read existing README sections (if any) - for now, start fresh
     readme = "# Group Theory Benchmark\n\n"
-    readme += "An AI agent benchmark for solving abstract algebra problems using GAP (Groups, Algorithms, Programming) "
-    readme += "and Lean 4 formal theorem proving.\n\n"
+    readme += "An AI agent benchmark for solving abstract algebra problems using GAP "
+    readme += "and Lean 4.\n\n"
     
     readme += "## Inspiration\n\n"
     readme += "This project was inspired by the paper [Disproof of the Mertens Conjecture]"

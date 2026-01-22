@@ -139,12 +139,38 @@ class Gap:
             >>> result = gap.eval('SymmetricGroup(4)')
         """
         # Ensure command ends with semicolon
-        if not command.rstrip().endswith(';'):
-            command = command.rstrip() + ';'
-        
-        # Execute command and print result
-        script = f"""
-_result_ := {command};
+        command = command.rstrip()
+        if not command.endswith(';'):
+            command = command + ';'
+
+        # Check if this is a multi-statement command (contains ; before the final one)
+        # If so, execute statements directly and capture the last result
+        if ';' in command[:-1]:
+            # Multi-statement: execute all statements, capture last value
+            statements = command.rstrip(';').split(';')
+            statements = [s.strip() for s in statements if s.strip()]
+            if statements:
+                # Execute all but the last statement, then assign last to _result_
+                setup_statements = ';\n'.join(statements[:-1]) + ';' if len(statements) > 1 else ''
+                last_stmt = statements[-1]
+                script = f"""
+{setup_statements}
+_result_ := {last_stmt};
+if IsBound(_result_) then
+    if IsInt(_result_) or IsBool(_result_) or IsString(_result_) then
+        Print(_result_);
+    else
+        Print(ViewString(_result_));
+    fi;
+fi;
+QUIT;
+"""
+            else:
+                script = "QUIT;"
+        else:
+            # Single statement: use original approach
+            script = f"""
+_result_ := {command}
 if IsBound(_result_) then
     if IsInt(_result_) or IsBool(_result_) or IsString(_result_) then
         Print(_result_);

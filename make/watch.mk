@@ -9,7 +9,14 @@ watch-solve:
 	@echo "Generating MCP configuration..."
 	@uv run python make/generate_mcp_config.py > /tmp/claude_mcp_config.json
 	@echo "Selecting random open problem..."
-	@uv run python make/generate_problem_prompt.py > /tmp/claude_problem_prompt.txt
+	@uv run python make/generate_problem_prompt.py > /tmp/claude_problem_prompt.txt; \
+	if grep -q '^ALREADY_SOLVED:' /tmp/claude_problem_prompt.txt; then \
+		SOLUTION_PATH=$$(cat /tmp/claude_problem_prompt.txt | sed 's/^ALREADY_SOLVED://'); \
+		echo ""; \
+		echo "Problem already has a solution at: $$SOLUTION_PATH"; \
+		echo "Skipping Claude invocation."; \
+		exit 0; \
+	fi
 	@PROBLEM_NUM=$$(grep -o 'problem #[0-9.]*' /tmp/claude_problem_prompt.txt | head -1 | sed 's/problem #//'); \
 	PROBLEM_DIR="problems/$$PROBLEM_NUM"; \
 	echo ""; \

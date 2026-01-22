@@ -17,9 +17,11 @@ watch-solve:
 	LOGFILE="logs/$${TIMESTAMP}_problem_$${SAFE_PROBLEM_NUM}.log"; \
 	echo ""; \
 	echo "Problem: #$$PROBLEM_NUM"; \
-	echo "Solution file: $$SOLUTION_FILE"; \
-	echo "Log file: $$LOGFILE"; \
+	PROBLEM_DIR="problems/$$PROBLEM_NUM"; \
+	echo "Problem directory: $$PROBLEM_DIR"; \
 	echo ""; \
+	echo "Creating problem directory..."; \
+	mkdir -p "$$PROBLEM_DIR"; \
 	echo "Launching Claude (Opus) with MCP tools..."; \
 	echo "========================================"; \
 	echo ""; \

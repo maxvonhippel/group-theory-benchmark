@@ -18,6 +18,7 @@ This project was inspired by the paper [Disproof of the Mertens Conjecture](http
 
 | Problem | Artifact | Status | Human Review |
 |---------|----------|--------|-------------|
+| problem_219 | `formalization_attempt_summary.txt` | Could not formalize | Pending |
 | problem_700 | `formalization_attempt_summary.txt` | Could not formalize | Pending |
 
 ## Setup

@@ -1,0 +1,70 @@
+STATUS: COULD_NOT_FORMALIZE
+CATEGORY: summary
+REFERENCE: Grigorchuk, R.I. "On the Gap Conjecture concerning group growth." Bull. Math. Sci. 4 (2014), 113-128. arXiv:1202.6044
+
+PROBLEM ANALYSIS
+================
+
+Kourovka Notebook Problem 9.9 (posed by R.I. Grigorchuk) asks:
+
+"Does there exist a finitely generated group which is not nilpotent-by-finite
+and whose growth function has as a majorant a function of the form c^sqrt(n)
+where c is a constant greater than 1?"
+
+This is the famous "Gap Conjecture" in geometric group theory. The conjecture
+is that the answer is NO - there is no such group, meaning there is a "gap"
+in possible growth rates between polynomial growth (characterizing virtually
+nilpotent groups) and e^{sqrt(n)}.
+
+PROBLEM STATUS: OPEN
+====================
+
+The Gap Conjecture remains one of the major open problems in geometric group
+theory. Key facts:
+
+1. Gromov's Theorem (1981): Polynomial growth iff virtually nilpotent
+
+2. Grigorchuk's Group (1984): First example of intermediate growth, with
+   growth ~e^{n^{0.767}} >> e^{sqrt(n)}
+
+3. All known intermediate growth groups have growth at least e^{sqrt(n)}
+
+4. Gap Conjecture verified for:
+   - Residually nilpotent groups
+   - Residually solvable groups
+   - Linear groups (polynomial/exponential dichotomy)
+   - Solvable groups (polynomial/exponential dichotomy)
+
+5. Full conjecture remains unproven
+
+WHY FORMALIZATION FAILED
+========================
+
+1. Mathlib lacks infrastructure for group growth functions:
+   - No word metric on finitely generated groups
+   - No growth function definitions
+   - No Cayley graph theory
+
+2. Geometric group theory is not developed in mathlib
+
+3. The Grigorchuk group construction (tree automorphisms, self-similar
+   groups) is not available in mathlib
+
+4. The problem is OPEN - there is no proof or counterexample to formalize
+
+GAP INVESTIGATION
+=================
+
+GAP cannot help with this problem because:
+- It concerns infinite finitely generated groups
+- Growth functions are asymptotic/analytical properties
+- The Grigorchuk group is not in the SmallGroups library
+- The automgrp package (for automaton groups) was not available
+
+CONCLUSION
+==========
+
+This problem cannot be resolved computationally or through formalization.
+It is a deep open problem in geometric group theory requiring new mathematical
+techniques for resolution. The answer is conjectured to be "No" (Gap
+Conjecture), but this remains unproven.

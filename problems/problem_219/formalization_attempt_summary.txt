@@ -1,0 +1,115 @@
+FORMALIZATION ATTEMPT SUMMARY
+Problem: Kourovka Notebook 9.9 (R.I. Grigorchuk)
+========================================================================
+
+PROBLEM STATEMENT:
+Does there exist a finitely generated group which is not nilpotent-by-finite
+and whose growth function has as a majorant a function of the form c^{sqrt(n)}
+where c is a constant greater than 1?
+
+TRANSLATION:
+The problem asks whether there exists a finitely generated group G such that:
+1. G does not have a nilpotent subgroup of finite index
+2. The growth function gamma_G(n) satisfies gamma_G(n) <= c^{sqrt(n)} for some c > 1
+
+This is equivalent to asking: Is there a "gap" between polynomial growth
+(characterizing virtually nilpotent groups by Gromov's theorem) and growth
+of order e^{sqrt(n)}?
+
+========================================================================
+WHY FORMALIZATION IS INFEASIBLE:
+========================================================================
+
+1. GROWTH FUNCTION INFRASTRUCTURE MISSING IN MATHLIB
+   - Mathlib does not have formalized definitions of word growth functions
+     for finitely generated groups
+   - The Cayley graph construction and ball counting are not available
+   - Asymptotic comparison of growth functions (big-O, little-o notation
+     for group growth) is not developed in the group theory context
+
+2. GEOMETRIC GROUP THEORY NOT DEVELOPED
+   - The problem lies squarely in geometric group theory
+   - Key concepts missing include:
+     * Word metrics on groups
+     * Growth functions gamma_G(n) = |B_S(n)| for generating set S
+     * Equivalence of growth functions under different generating sets
+     * The intermediate growth classification
+
+3. EXAMPLES REQUIRE INFINITE CONSTRUCTIONS
+   - The Grigorchuk group (the main example in this area) is an infinite
+     finitely generated group defined via automorphisms of a binary rooted tree
+   - Such constructions require substantial infrastructure not in mathlib:
+     * Self-similar groups
+     * Automaton groups
+     * Tree automorphism groups
+
+4. THE PROBLEM IS OPEN
+   - This is the famous "Gap Conjecture" in geometric group theory
+   - The conjecture states that no such group exists (answer is "No")
+   - It remains unproven in full generality
+   - Partial results exist for specific classes:
+     * Residually nilpotent groups: Gap conjecture holds (Grigorchuk)
+     * Residually solvable groups: Gap conjecture holds (recent work)
+     * Linear groups: Have polynomial or exponential growth (dichotomy)
+     * Solvable groups: Have polynomial or exponential growth (dichotomy)
+
+========================================================================
+MATHEMATICAL BACKGROUND:
+========================================================================
+
+KEY THEOREMS:
+- Gromov's Theorem (1981): A finitely generated group has polynomial growth
+  if and only if it is virtually nilpotent.
+
+- Grigorchuk (1984): There exist finitely generated groups of intermediate
+  growth (between polynomial and exponential).
+
+- The Grigorchuk group has growth ~e^{n^{0.767}} (Erschler-Zheng 2020),
+  which is much faster than e^{sqrt(n)} = e^{n^{0.5}}.
+
+THE GAP CONJECTURE:
+If a finitely generated group G satisfies gamma_G(n) < e^{sqrt(n)},
+then G is virtually nilpotent (has polynomial growth).
+
+Equivalently: There is no group with growth strictly between polynomial
+and e^{sqrt(n)}.
+
+CURRENT STATUS:
+- All known groups of intermediate growth have growth at least e^{sqrt(n)}
+- The gap conjecture has been verified for many important classes
+- The full conjecture remains open
+
+========================================================================
+WHAT WOULD BE NEEDED FOR FORMALIZATION:
+========================================================================
+
+1. Define: Finitely generated groups with explicit generating sets
+2. Define: Word length function and word metric
+3. Define: Growth function gamma(n) = number of elements of word length <= n
+4. Prove: Growth function class is independent of generating set
+5. Define: Nilpotent-by-finite (virtually nilpotent) groups
+6. Formalize: Gromov's theorem (polynomial growth iff virtually nilpotent)
+7. Define: The intermediate growth regime
+8. State: The Gap Conjecture as the negation of the existence statement
+
+This would require a substantial development project in geometric group
+theory, estimated at hundreds of lines of Lean code just for the basic
+infrastructure.
+
+========================================================================
+REFERENCES:
+========================================================================
+
+1. Grigorchuk, R.I. "Degrees of growth of finitely generated groups and
+   the theory of invariant means." Izv. Akad. Nauk SSSR Ser. Mat. 48 (1984).
+
+2. Grigorchuk, R.I. "On the Gap Conjecture concerning group growth."
+   Bull. Math. Sci. 4 (2014), 113-128. arXiv:1202.6044
+
+3. Erschler, A. and Zheng, T. "Growth of periodic Grigorchuk groups."
+   Invent. Math. 219 (2020), 1069-1155.
+
+4. de la Harpe, P. "Topics in Geometric Group Theory." U. Chicago Press (2000).
+
+5. Gromov, M. "Groups of polynomial growth and expanding maps."
+   Publ. Math. IHES 53 (1981), 53-73.

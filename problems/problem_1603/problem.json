@@ -1,0 +1,6 @@
+{
+  "page_number": 222,
+  "problem_number": "7.36",
+  "problem_text": "Is it true that every residually finite group in which every subgroup of finite index (including the group itself) is defined by a single defining relation is either free or isomorphic to the fundamental group of a compact surface?\nO. V. Mel\u2019nikov",
+  "answer": "No; for example, let Hn = \u27e8x, y | y\u22121xy = xn\u27e9, n = 2, 3, . . . ; then every subgroup of finite index in Hn is isomorphic to a group Hm for some m (V. A. Churkin, Abstracts of 8th All-USSR Symp. on Group Theory, Kiev, 1982, 139\u2013140 (Russian))."
+}

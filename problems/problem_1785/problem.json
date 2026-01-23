@@ -1,0 +1,6 @@
+{
+  "page_number": 248,
+  "problem_number": "12.74",
+  "problem_text": "Let F be a non-primary one-generator composition formation of finite groups. Is it true that if F = MH and the formations M and H are non-trivial, then M is a composition formation? A. N. Skiba",
+  "answer": "This is true if F \u0338= H (A. N. Skiba, Algebra of formations, Belaruskaja Navuka, Minsk, 1997, p. 144 (Russian)). In general the answer is negative (W. Guo, Commun. Algebra, 28, no. 10 (2000), 4767\u20134782)."
+}

@@ -1,0 +1,5 @@
+{
+  "page_number": 151,
+  "problem_number": "20.53",
+  "problem_text": "A nonisotropic unitary graph \u0393 is distance-regular with intersection array {q(q \u2212 1), (q + 1)(q \u2212 2), q + 1; 1, 1, q(q \u2212 2)} for some prime power q. The group G = Aut(\u0393) acts transitively on the vertex set and on the edge set of \u0393. It is known that \u0393 is distance-transitive if q = 3. Does there exist a distance-regular graph with such an intersection array if q is not a prime power?\nA. A. Makhnev"
+}

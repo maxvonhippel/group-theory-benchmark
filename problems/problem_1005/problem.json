@@ -1,0 +1,6 @@
+{
+  "page_number": 138,
+  "problem_number": "19.74",
+  "problem_text": "A subgroup H of a group G is called pronormal if H and Hg are conjugate in \u27e8H, Hg\u27e9 for every g \u2208 G. A subgroup H of a group G is called abnormal if g \u2208 \u27e8H, Hg\u27e9 for every g \u2208 G. Does there exist an infinite group that does not contain nontrivial proper pronormal subgroups? The question is equivalent to the following: does there exist an infinite simple group that does not contain proper abnormal subgroups? D. O. Revin",
+  "answer": "Yes, it does (S. Corson, Monatsh. Math. (2025) https://doi.org/10.1007/s00605-025-02116-8."
+}

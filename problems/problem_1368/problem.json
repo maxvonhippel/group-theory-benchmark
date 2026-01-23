@@ -1,0 +1,6 @@
+{
+  "page_number": 189,
+  "problem_number": "1.90",
+  "problem_text": "A subgroup H of a group G is called 2-infinitely isolated in G if, whenever the centralizer C_G(h) in G of some element h \u2260 1 of H contains at least one involution and intersects H in an infinite subgroup, it follows that C_G(h) \u2a7d H. Let G be an infinite simple locally finite group whose Sylow 2-subgroups are Chernikov groups, and suppose G has a proper 2-infinitely isolated subgroup H containing some Sylow 2-subgroup of G. Does it follow that G is isomorphic to a group of the type PSL2(k), where k is a field of odd characteristic?\nV. P. Shunkov",
+  "answer": "Yes, it does (V. P. Shunkov, Algebra and Logic, 11 (1972), 260\u2013272)."
+}

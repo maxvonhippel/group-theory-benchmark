@@ -1,0 +1,6 @@
+{
+  "page_number": 265,
+  "problem_number": "16.57",
+  "problem_text": "Suppose that \u03c9(G) = \u03c9(L2(7)) = {1, 2, 3, 4, 7}. Is G \u2245 L2(7)? This is true for finite G.\nV. D. Mazurov",
+  "answer": "Yes, it is (D. V. Lytkina, A. A. Kuznetsov, Siberian Electr. Math. Rep., 4 (2007), 136\u2013140; http://semr.math.nsc.ru)."
+}

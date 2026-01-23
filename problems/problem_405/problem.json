@@ -1,0 +1,5 @@
+{
+  "page_number": 56,
+  "problem_number": "11.125",
+  "problem_text": "Let G be a finite group admitting a regular elementary abelian group of automorphisms V of order pn. Is it true that the subgroup H = T_{v\u2208V \\{1\\}} [G, v] is nilpotent? In the case of an affirmative answer, does there exist a function depending only on p, n, and the derived length of G which bounds the nilpotency class of H?\nP. V. Shumyatski\u02d8\u0131"
+}

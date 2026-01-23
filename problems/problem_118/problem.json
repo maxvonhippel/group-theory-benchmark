@@ -1,0 +1,5 @@
+{
+  "page_number": 19,
+  "problem_number": "6.21",
+  "problem_text": "G. Higman proved that, for any prime number p, there exists a natural number \u03c7(p) such that the nilpotency class of any finite group G having an automorphism of order p without non-trivial fixed points does not exceed \u03c7(p). At the same time he showed that \u03c7(p) \u2a7e (p2 \u2212 1)/4 for any such Higman\u2019s function \u03c7. Find the best possible Higman\u2019s function. Is it the function defined by equalities \u03c7(p) = (p2 \u2212 1)/4 for p > 2 and \u03c7(2) = 1? This is known to be true for p \u2a7d 7. V. D. Mazurov"
+}

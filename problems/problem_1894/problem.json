@@ -1,0 +1,6 @@
+{
+  "page_number": 264,
+  "problem_number": "16.27",
+  "problem_text": "Suppose that a finite group G has the same spectrum as an alternating group. Is it true that G has at most one non-abelian composition factor?\nFor any finite simple group other than alternating the answer to the corresponding question is affirmative (mod CFSG).\nA. V. Vasil\u2019ev and V. D. Mazurov",
+  "answer": "Yes, it is (I. B. Gorshkov, Algebra and Logic, 52, no. 1 (2013), 41\u201345)."
+}

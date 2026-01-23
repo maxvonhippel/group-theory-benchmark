@@ -1,0 +1,6 @@
+{
+  "page_number": 271,
+  "problem_number": "17.44",
+  "problem_text": "Let \u03c0 be a set of primes. A finite group is called a C\u03c0-group if it possesses exactly one class of conjugate Hall \u03c0-subgroups. A finite group is called a D\u03c0-group if any two of its maximal \u03c0-subgroups are conjugate.\n(a) In a C\u03c0-group, is an overgroup of a Hall \u03c0-subgroup always a C\u03c0-group?\nAn affirmative answer in the case 2 \u2209 \u03c0 follows mod CFSG from (F. Gross, Bull. London Math. Soc., 19, no. 4 (1987), 311\u2013319).\n(b) In a D\u03c0-group, is an overgroup of a Hall \u03c0-subgroup always a D\u03c0-group?\nE. P. Vdovin, D. O. Revin",
+  "answer": "a) Yes, it is (E. P. Vdovin, D. O. Revin, Siberian Math. J., 54, no. 1 (2013), 22\u201328).\nb) Yes, it is (N. Ch. Manzaeva, https://arxiv.org/pdf/1504.03137.pdf) and (E. P. Vdovin, N. Ch. Manzaeva, D. O. Revin, Sb. Math., 211, no. 3 (2020), 309\u2013335)."
+}

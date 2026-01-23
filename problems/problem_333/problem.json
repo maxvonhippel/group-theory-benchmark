@@ -1,0 +1,5 @@
+{
+  "page_number": 47,
+  "problem_number": "11.23",
+  "problem_text": "An automorphism \u03c6 of a group G is called a nil-automorphism if, for every a \u2208G, there exists n such that [a, n\u03c6] = 1. Here [x, 1y] = [x, y] and [x, i+1y] = [[x, iy], y]. An automorphism \u03c6 is called an e-automorphism if, for any two \u03c6-invariant subgroups A and B such that A \u0338\u2286B, there exists a \u2208A \\ B such that [a, \u03c6] \u2208B. Is every e-automorphism of a group a nil-automorphism?\nV. G. Vilyatser"
+}

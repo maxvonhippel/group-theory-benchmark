@@ -1,0 +1,5 @@
+{
+  "page_number": 112,
+  "problem_number": "17.101",
+  "problem_text": "According to P. Hall, a group G is said to be homogeneous if every isomorphism of its finitely generated subgroups is induced by an automorphism of G. It is known (Higman\u2013Neumann\u2013Neumann) that every group is embeddable into a homogeneous one. Is the same true for the category of representations of groups?\nA representation (V, G) is finitely generated if G is a finitely generated group, and V a finitely generated module over the group algebra of G.\nB. I. Plotkin"
+}

@@ -1,0 +1,6 @@
+{
+  "page_number": 277,
+  "problem_number": "18.112",
+  "problem_text": "Is it true that the orders of all elements of a finite group G are powers of primes if, for every divisor d (d > 1) of |G| and for every subgroup H of G of order coprime to d, the order |H| divides the number of elements of G of order d? The converse is true (W. J. Shi, Math. Forum (Vladikavkaz), 6 (2012), 152\u2013154). W. J. Shi",
+  "answer": "Yes, it is true (A. A. Buturlakin, R. Shen, W. Shi, Siberian Math. J., 58, no. 3 (2017), 405\u2013407)."
+}

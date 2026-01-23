@@ -1,0 +1,5 @@
+{
+  "page_number": 90,
+  "problem_number": "15.64",
+  "problem_text": "15.64. For finite groups G, X define r(G; X) to be the number of inequivalent actions\nof G on X, that is, the number of equivalence classes of homomorphisms G \u2192 Aut X,\nwhere equivalence is defined by conjugation by an element of Aut X. Now define\nrG(n) := max{r(G; X) : |X| = n}.\nIs it true that rG(n) may be bounded as a function of \u03bb(n), the total number\n(counting multiplicities) of prime factors of n?\nP. M. Neumann"
+}

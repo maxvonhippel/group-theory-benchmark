@@ -17,8 +17,8 @@ watch-solve:
 		echo "Skipping Claude invocation."; \
 		exit 0; \
 	fi
-	@PROBLEM_NUM=$$(grep -o 'problem #[0-9.]*' /tmp/claude_problem_prompt.txt | head -1 | sed 's/problem #//'); \
-	PROBLEM_DIR="problems/$$PROBLEM_NUM"; \
+	@PROBLEM_INDEX=$$(grep -o 'stored as problem_[0-9]*' /tmp/claude_problem_prompt.txt | head -1 | sed 's/stored as problem_//'); \
+	PROBLEM_DIR="problems/problem_$$PROBLEM_INDEX"; \
 	AI_BACKEND="claude"; \
 	AI_MODEL="opus"; \
 	if echo "$(ARGS)" | grep -q -- '--codex'; then \
@@ -29,7 +29,7 @@ watch-solve:
 		AI_MODEL=""; \
 	fi; \
 	echo ""; \
-	echo "Problem: #$$PROBLEM_NUM"; \
+	echo "Problem index: $$PROBLEM_INDEX"; \
 	echo "Problem directory: $$PROBLEM_DIR"; \
 	echo "AI Backend: $$AI_BACKEND"; \
 	echo ""; \

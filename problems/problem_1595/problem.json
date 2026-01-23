@@ -1,0 +1,6 @@
+{
+  "page_number": 221,
+  "problem_number": "7.7",
+  "problem_text": "7.7. (Well-known problem). Is the group G =\n\na, b | a9 = 1, ab = b2a2\nfinite? This\ngroup contains F(2, 9), the only Fibonacci group for which it is not yet known whether\nit is finite or infinite.\nR. G. Burns",
+  "answer": "No, it is infinite, since F(2, 9) is infinite (M. F. Newman, Arch. Math., 54, no. 3 (1990),\n209\u2013212)."
+}

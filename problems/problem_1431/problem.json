@@ -1,0 +1,6 @@
+{
+  "page_number": 199,
+  "problem_number": "3.7",
+  "problem_text": "An automorphism \u03c3 of a group G is called algebraic if, for any g \u2208G, the minimal \u03c3-invariant subgroup of G containing g is finitely generated. An automorphism \u03c3 of G is called an e-automorphism if, for any \u03c3-invariant subgroups A and B, where A is a proper subgroup of B, A \\ B contains an element x such that [x, \u03c3] \u2208B . Is every e-automorphism algebraic?\nV. G. Vilyatser",
+  "answer": "Yes, it is (A. V. Yagzhev, Algebra and Logic, 28 (1989), 83\u201385)."
+}

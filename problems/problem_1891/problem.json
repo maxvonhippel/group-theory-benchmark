@@ -1,0 +1,6 @@
+{
+  "page_number": 264,
+  "problem_number": "16.17",
+  "problem_text": "Is it true that a non-abelian simple group cannot contain Engel elements other than the identity element?\nV. V. Bludov",
+  "answer": "No, it can: since an involution is an Engel element in any 2-group, counterexamples are provided by non-abelian simple 2-groups; see Archive, 4.74a). (V. V. Bludov, Letter of 30 March 2006.)"
+}

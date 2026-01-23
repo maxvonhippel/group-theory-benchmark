@@ -1,0 +1,5 @@
+{
+  "page_number": 152,
+  "problem_number": "20.67",
+  "problem_text": "20.67. Suppose that G is a finite group, p is a prime, and B is a Brauer p-block of G with defect group D. Let cd(B) be the set of degrees of the irreducible complex characters in B.\na) Is it true that the derived length of D is bounded by |cd(B)|?\nb) (A. Jaikin-Zapirain). Is is even true that |cd(D)| \u2a7d|cd(B)|?\nG. Navarro"
+}

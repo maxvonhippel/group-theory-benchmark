@@ -1,0 +1,6 @@
+{
+  "page_number": 210,
+  "problem_number": "4.77",
+  "problem_text": "In 1972, A. Rudvalis discovered a new simple group R of order 214\u00b733\u00b753\u00b77\u00b713\u00b729. He has shown that R possesses an involution i such that CR(i) = V \u00d7 F, where V is a 4-group (an elementary abelian group of order 4) and F \u223c= Sz(8).\na) Show that R is the only finite simple group G that possesses an involution i such that CG(i) = V \u00d7 F, where V is a 4-group and F \u223c= Sz(8).\nb) Let G be a non-abelian finite simple group that possesses an involution i such that CG(i) = V \u00d7 F, where V is an elementary abelian 2-group of order 2n, n \u2a7e1, and F \u223c= Sz(2m), m \u2a7e3. Show that n = 2 and m = 3.\nZ. Janko",
+  "answer": "a) This has been shown (V. D. Mazurov, Math. Notes, 31 (1982), 165\u2013173).\nb) This follows from the CFSG."
+}

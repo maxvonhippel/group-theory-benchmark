@@ -1,0 +1,6 @@
+{
+  "page_number": 197,
+  "problem_number": "2.62",
+  "problem_text": "If G is a finite-dimensional vector space over a field and \u0393 is a group of automorphisms of G in which every element is stable, then the whole of \u0393 is stable (E. Kolchin). Is Kolchin\u2019s theorem true for spaces over skew fields?\nB. I. Plotkin",
+  "answer": "Yes, it is, if the characteristic of the skew field is zero or sufficiently large compared to the dimension of the space (H. Y. Mochizuki, Canad. Math. Bull., 21 (1978), 249\u2013250)."
+}

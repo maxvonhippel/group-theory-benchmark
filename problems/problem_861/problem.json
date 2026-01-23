@@ -1,0 +1,5 @@
+{
+  "page_number": 118,
+  "problem_number": "18.24",
+  "problem_text": "18.24. For a group G, a function \u03d5 : G \u2192R is a quasimorphism if there is a least non-negative number D(\u03d5) (called the defect) such that |\u03d5(gh)\u2212\u03d5(g)\u2212\u03d5(h)| \u2a7d D(\u03d5) for all g, h \u2208 G.\nA quasimorphism is homogeneous if in addition \u03d5(gn) = n\u03d5(g) for all g \u2208 G. Let \u03d5 be a homogeneous quasimorphism of a free group F. For any quasimorphism \u03c8 of F (not required to be homogeneous) with |\u03d5 \u2212 \u03c8| < const, we must have D(\u03c8) \u2a7e D(\u03d5)/2. Is it true that there is some \u03c8 with D(\u03c8) = D(\u03d5)/2?\nM. Burger, D. Calegari"
+}

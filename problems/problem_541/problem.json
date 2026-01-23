@@ -1,0 +1,5 @@
+{
+  "page_number": 75,
+  "problem_number": "14.37",
+  "problem_text": "Let G(n) be one of the classical groups (special, orthogonal, or symplectic) of (n\u00d7n)-matrices over an infinite field K of non-zero characteristic, and M(n) the space of all (n \u00d7 n)-matrices over K. The group G(n) acts diagonally by conjugation on the space M(n)m = M(n) \u2295\u00b7 \u00b7 \u00b7 \u2295M(n) (m copies). Find generators of the algebra of invariants K[M(n)m]G(n).\nIn characteristic 0 they were found in (C. Procesi, Adv. Math., 19 (1976), 306\u2013381). Comment of 2001: in positive characteristic the problem is solved for all cases excepting the orthogonal groups in characteristic 2 and special orthogonal groups of even degree (A. N. Zubkov, Algebra and Logic, 38, no. 5 (1999), 299\u2013318). Comment of 2009: ...and for special orthogonal groups of even degree over (infinite) fields of odd characteristic (A. A. Lopatin, J. Algebra, 321 (2009), 1079\u20131106).\nA. N. Zubkov"
+}

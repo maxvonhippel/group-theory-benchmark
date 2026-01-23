@@ -1,0 +1,6 @@
+{
+  "page_number": 192,
+  "problem_number": "2.20",
+  "problem_text": "Is it true that the wreath products A\u2240B and A1 \u2240B1 are elementarily equivalent if and only if A, B are elementarily equivalent to A1, B1, respectively? M. I. Kargapolov",
+  "answer": "No, but if the word \u201celementarily\u201d is replaced by the word \u201cuniversally,\u201d then it is true (E. I. Timoshenko, Algebra and Logic, 7, no. 4 (1968), 273\u2013276)."
+}

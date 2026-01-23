@@ -1,0 +1,6 @@
+{
+  "page_number": 257,
+  "problem_number": "14.96",
+  "problem_text": "Suppose that a finite p-group P admits an automorphism of order pn having exactly pm fixed points. By (E. I. Khukhro, Russ. Acad. Sci. Sbornik Math., 80 (1995), 435\u2013444) then P has a subgroup of index bounded in terms of p, n and m which is soluble of derived length bounded in terms of pn. Is it true that P has also a subgroup of index bounded in terms of p, n and m which is soluble of derived length bounded in terms of m? There are positive answers in the cases of m = 1 (S. McKay, Quart. J. Math. Oxford, Ser. (2), 38 (1987), 489\u2013502; I. Kiming, Math. Scand., 62 (1988), 153\u2013172) and n = 1 (Yu. A. Medvedev, see Archive, 10.68).\nE. I. Khukhro",
+  "answer": "Yes, it is true (A. Jaikin-Zapirain, Adv. Math., 153, no. 2 (2000), 391\u2013402)."
+}

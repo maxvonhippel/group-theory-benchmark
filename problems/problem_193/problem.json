@@ -1,0 +1,6 @@
+{
+  "page_number": 29,
+  "problem_number": "8.51",
+  "problem_text": "\u22178.51. (J. McKay). If G is a finite group and p a prime let mp(G) denote the number of ordinary irreducible characters of G whose degree is not divisible by p. Let P be a Sylow p-subgroup of G. Is it true that mp(G) = mp(NG(P))? J. B. Olsson",
+  "answer": "Yes, it is true (M. Cabanes, B. Sp\u00a8ath, Preprint, 2024, https://arxiv.org/abs/2410.20392)"
+}

@@ -1,0 +1,5 @@
+{
+  "page_number": 69,
+  "problem_number": "13.57",
+  "problem_text": "13.57. Let \u03c6 be an automorphism of prime order p of a finite group G such that CG(\u03c6) \u2a7dZ(G).\na) Is G soluble if p = 3? V. D. Mazurov and T. L. Nedorezov proved in (Algebra and Logic, 35, no. 6 (1996), 392\u2013397) that the group G is soluble for p = 2, and there are examples of unsoluble G for all p > 3.\nb) If G is soluble, is the derived length of G bounded in terms of p?\nc) (V. K. Kharchenko). If G is a p-group, is the derived length of G bounded in terms of p? (V. V. Bludov produced a simple example showing that the nilpotency class cannot be bounded.)\nE. I. Khukhro"
+}

@@ -1,0 +1,6 @@
+{
+  "page_number": 259,
+  "problem_number": "15.8",
+  "problem_text": "a) (S. M. Ulam). Consider the usual compact group SO(3) of all rotations of a 3-dimensional Euclidean space, and let G denote this group viewed as a discrete group. Can G act non-trivially on a countable set? P. de la Harpe",
+  "answer": "Yes, it can (S. Thomas, J. Group Theory, 2 (1999), 401\u2013434); another proof is in (Yu. L. Ershov, V. A. Churkin, Dokl. Math., 70, no. 3 (2004), 896\u2013898)."
+}

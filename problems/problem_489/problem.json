@@ -1,0 +1,5 @@
+{
+  "page_number": 67,
+  "problem_number": "13.31",
+  "problem_text": "Let G be a permutation group on a set \u2126. A sequence of points of \u2126is a base for G if its pointwise stabilizer in G is the identity. The greedy algorithm for a base chooses each point in the sequence from an orbit of maximum size of the stabilizer of its predecessors. Is it true that there is a universal constant c with the property that, for any finite primitive permutation group, the greedy algorithm produces a base whose size is at most c times the minimal base size?\nP. J. Cameron"
+}

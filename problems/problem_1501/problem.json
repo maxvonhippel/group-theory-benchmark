@@ -1,0 +1,6 @@
+{
+  "page_number": 208,
+  "problem_number": "4.59",
+  "problem_text": "(P. Hall). Find the smallest positive integer n such that every countable group can be embedded in a simple group with n generators.\nD. M. Smirnov",
+  "answer": "It is proved that n = 2 (A. P. Goryushkin, Math. Notes, 16 (1974), 725\u2013727)."
+}

@@ -1,0 +1,5 @@
+{
+  "page_number": 171,
+  "problem_number": "21.70",
+  "problem_text": "21.70. A group G is called an orientable Poincar\u00e9 duality group of dimension n over a ring R if it is of type FP over R and Hi(G; RG) = 0 for i \u2260 n, while Hn(G; RG) = R as an RG-module, where the action on R is trivial. (Note that G is not required to be finitely presented.) If G is an orientable Poincar\u00e9 duality group of dimension n over all fields, is it an orientable Poincar\u00e9 duality group over the integers?\nD. Kielak"
+}

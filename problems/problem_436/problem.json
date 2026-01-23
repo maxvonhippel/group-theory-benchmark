@@ -1,0 +1,6 @@
+{
+  "page_number": 60,
+  "problem_number": "12.51",
+  "problem_text": "Does the free group F\u03b7 (1 < \u03b7 < \u221e) have a finite subset S for which there is a unique total order of F\u03b7 making all elements of S positive? Equivalently, does the free representable l-group of rank \u03b7 have a basic element? (The analogs for right orders of F\u03b7 and free l-groups have negative answers.)\nS. McCleary",
+  "answer": "No, it does not (S. Dovhyi, K. Muliarchyk, Groups Geom. Dyn., 17 (2023), 613\u2013632; K. Muliarchyk, Preprint, 2024, https://arxiv.org/abs/2403.14779)."
+}

@@ -1,0 +1,5 @@
+{
+  "page_number": 177,
+  "problem_number": "21.110",
+  "problem_text": "Let S be a nonabelian finite simple group, and x a nonidentity automorphism of S. Let \u03b1(x) be the smallest number of conjugates of x in G = \u27e8x, Inn S\u27e9 that generate G. The values of \u03b1(x) had been studied in (R. Guralnick, J. Saxl, J. Algebra, 268, no. 2 (2003), 519\u2013571).\n(a) (R. Guralnick, J. Saxl). Conjecture: If S is an exceptional group of Lie type, then \u03b1(x) \u2a7d5 for every nonidentity automorphism x of S.\n(b) For each exceptional group S of Lie type, find the largest value of \u03b1(x).\nD. O. Revin"
+}

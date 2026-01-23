@@ -1,0 +1,5 @@
+{
+  "page_number": 73,
+  "problem_number": "14.15",
+  "problem_text": "For the automorphism group An = Aut Fn of a free group Fn of rank n \u2a7e 3 find the supremum kn of the commutator lengths of the elements of A\u2032n. It is easy to show that k2 = \u221e. On the other hand, the commutator length of any element of the derived subgroup of lim \u2212\u2192 An is at most 2 (R. K. Dennis, L. N. Vaserstein, K-Theory, 2, N 6 (1989), 761\u2013767). V. G. Bardakov"
+}

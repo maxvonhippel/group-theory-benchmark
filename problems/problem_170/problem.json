@@ -1,0 +1,5 @@
+{
+  "page_number": 26,
+  "problem_number": "8.9",
+  "problem_text": "(C. Chou). We say that a group G has property P if for every finite subset F of G, there is a finite subset S \u2283 F and a subset X \u2282 G such that x1S \u2229 x2S is empty for any x1, x2 \u2208 X, x1 \u2260 x2, and G = \u22c3_{x\u2208X} Sx. Does every group have property P? R. I. Grigorchuk"
+}

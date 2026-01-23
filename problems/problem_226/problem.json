@@ -1,0 +1,5 @@
+{
+  "page_number": 33,
+  "problem_number": "9.23",
+  "problem_text": "Let G be a finite group, B a block of characters of G, D(B) its defect group and k(B) (respectively, k0(B)) the number of all irreducible complex characters (of height 0) lying in B. Conjectures:\na) (R. Brauer)\nk(B) \u2a7d|D(B)|; this has been proved for p-soluble groups (D. Gluck, K. Magaard, U. Riese, P. Schmid, J. Algebra, 279 (2004), 694\u2013719);\nb) (J. B. Olsson) k0(B) \u2a7d|D(B) : D(B)\u2032|, where D(B)\u2032 is the derived subgroup of D(B);\nc) (R. Brauer) D(B) is abelian if and only if k0(B) = k(B).\nV. D. Mazurov"
+}

@@ -1,0 +1,5 @@
+{
+  "page_number": 97,
+  "problem_number": "16.33",
+  "problem_text": "16.33. Suppose that a finite p-group G has an abelian subgroup A of order pn. Does G contain an abelian subgroup B of order pn that is normal in \u27e8BG\u27e9\na) if p = 3?\nb) if p = 2?\nc) If p = 3 and A is elementary abelian, does G contain an elementary abelian subgroup B of order 3n that is normal in \u27e8BG\u27e9?\nThe corresponding results have been proved for greater primes p, based on extensions of Thompson\u2019s Replacement Theorem (and the dihedral group of order 32 shows that the third question has negative answer for p = 2). See (G. Glauberman, J. Algebra, 196 (1997), 301\u2013338; J. Alperin, G. Glauberman, J. Algebra, 203 (1998), 533\u2013566; G. Glauberman, J. Algebra, 272 (2004), 128\u2013153).\nG. Glauberman"
+}

@@ -1,0 +1,5 @@
+{
+  "page_number": 112,
+  "problem_number": "17.95",
+  "problem_text": "Let G be a permutation group on the finite set \u2126. A partition \u03c1 of \u2126 is said to be G-regular if there exists a subset S of \u2126 such that Sg is a transversal of \u03c1 for all g \u2208 G. The group G is said to be synchronizing if |\u2126| > 2 and there are no non-trivial proper G-regular partitions on \u2126.\n\na) Are the following affine-type primitive groups synchronizing:\n2p.PSL(2, 2p + 1) where both p and 2p + 1 are prime, p \u2261 3 (mod 4) and p > 23?\n2101.He?\n\nb) For which finite simple groups S are the groups S \u00d7 S acting on S by (g, h) : x 7\u2192 g\u22121xh non-synchronizing?\n\nP. M. Neumann"
+}

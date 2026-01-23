@@ -1,0 +1,6 @@
+{
+  "page_number": 243,
+  "problem_number": "11.98",
+  "problem_text": "b) Let r be the number of conjugacy classes of elements in a finite (simple) group G. Is it true that |G| \u2a7d exp(r)?\nS. P. Strunkov",
+  "answer": "No, this is not true: the group M22 has order 443520 and contains 12 conjugacy classes (T. Plunkett, Letter of May, 9, 2000)."
+}

@@ -1,0 +1,5 @@
+{
+  "page_number": 42,
+  "problem_number": "10.49",
+  "problem_text": "Does there exist a group G satisfying the following four conditions:\n1) G is simple, moreover, there is an integer n such that G = Cn for any conjugacy class C,\n2) all maximal abelian subgroups of G are conjugate in G,\n3) every maximal abelian subgroup of G is self-normalizing and it is the centralizer of any of its nontrivial elements,\n4) there is an integer m such that if H is a maximal abelian subgroup of G and a \u2208G \\ H then every element in G is a product of m elements in aH?\nComment of 2005: There is a partial solution in (E. Jaligot, A. Ould Houcine, J. Algebra, 280 (2004), 772\u2013796).\nB. Poizat"
+}

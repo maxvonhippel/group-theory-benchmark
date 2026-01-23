@@ -1,0 +1,6 @@
+{
+  "page_number": 262,
+  "problem_number": "15.79",
+  "problem_text": "15.79. Does there exist a Hausdorff group topology on Z such that the sequence {2n + 3n} converges to zero?\nI. V. Protasov",
+  "answer": "Yes, there does, as follows from Theorem 3 in (I. Z. Ruzsa, Proc. Conf. Number theory (Budapest, 1987). Vol. I: Elementary and analytic, Colloq. Math. Soc. J\u00b4anos Bolyai, 51, North-Holland, Amsterdam, 1990, 473\u2013504). Another solution is in (S. V. Skresanov, Siberian Math. J., 61, no. 3 (2020), 542\u2013544)."
+}

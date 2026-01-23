@@ -1,0 +1,5 @@
+{
+  "page_number": 40,
+  "problem_number": "10.32",
+  "problem_text": "A group word is said to be universal on a group G if its values on G run over the whole of G. For an arbitrary constant c > 8/5, J. L. Brenner, R. J. Evans, and D. M. Silberger (Proc. Amer. Math. Soc., 96, no. 1 (1986), 23\u201328) proved that there exists a number N0 = N0(c) such that the word x^r y^s, rs \u2260 0, is universal on the alternating group A_n for any n \u2a7e max {N0, c \u00b7 log m(r, s)}, where m(r, s) is the product of all primes dividing rs if r, s \u2209 {\u22121, 1}, and m(r, s) = 1 if r, s \u2208 {\u22121, 1}. For example, one can take N0(5/2) = 5 and N0(2) = 29. Find an analogous bound for the degree of the symmetric group S_n under hypothesis that at least one of the r, s is odd: up to now, here only a more crude bound n \u2a7e max {6, 4m(r, s)\u22124} is known (M. Droste, Proc. Amer. Math. Soc., 96, no. 1 (1986), 18\u201322).\nYu. I. Merzlyakov"
+}

@@ -1,0 +1,6 @@
+{
+  "page_number": 277,
+  "problem_number": "19.23",
+  "problem_text": "For a group G, let Tor1(G) be the normal closure of all torsion elements of G, and then by induction let Tori+1(G) be the inverse image of Tor1(G/ Tori(G)). The torsion length of G is defined to be either the least positive integer l such that G/ Torl(G) is torsion-free, or \u03c9 if no such integer exists (since G/ \u22c3 Tori(G) is always torsion-free). Does there exists a finitely generated, or even finitely presented, soluble group with torsion length greater than 2? M. Chiodo, R. Vyas",
+  "answer": "Yes, such groups exist (I. J. Leary, A. Minasyan, J. Group Theory, 26, no. 4 (2023), 741\u2013750)."
+}

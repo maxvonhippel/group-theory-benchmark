@@ -1,0 +1,5 @@
+{
+  "page_number": 157,
+  "problem_number": "20.93",
+  "problem_text": "A group G is called a Shunkov group if for any finite subgroup H \u2a7d G any two conjugate elements of prime order in N_G(H)/H generate a finite subgroup. Are the following well-known results of the theory of finite groups true in the class of (periodic) Shunkov groups?\n\na) The Baer\u2013Suzuki theorem (see 11.11 in Archive).\n\nb) The Burnside\u2013Brauer\u2013Suzuki theorem on the existence of a normal section of order 2 in a group with a non-trivial Sylow 2-subgroup containing only one involution (see 4.75).\n\nc) Glauberman\u2019s Z\u2217-theorem (see 10.62 and Archive, 11.13).\n\nA. I. Sozutov"
+}

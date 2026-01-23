@@ -1,0 +1,6 @@
+{
+  "page_number": 219,
+  "problem_number": "6.57",
+  "problem_text": "A group G is said to be (conjugacy, p-conjugacy) biprimitively finite if, for any finite subgroup H, any two elements of prime order (any two conjugate elements of prime order, of prime order p) in NG(H)/H generate a finite subgroup. Do the elements of finite order in a (conjugacy) biprimitively finite group G form a subgroup (the periodic part of G)?\nV. P. Shunkov",
+  "answer": "Not always (A. A. Cherep, Algebra and Logic, 29 (1987), 311\u2013313)."
+}

@@ -1,0 +1,5 @@
+{
+  "page_number": 136,
+  "problem_number": "19.62",
+  "problem_text": "19.62. Let A = {Ar | r \u2208 \u03a6} be an elementary carpet of type \u03a6 of rank l \u2a7e 2 (see 7.28). For p \u2208 \u03a6, define a set of additive subgroups Bp = \u2211 Cij,rs Ai_r Aj_s, where the sum is taken over all natural numbers i, j and roots r, s \u2208 \u03a6 such that ir + js = p. It is known that the set B = {Bp | p \u2208 \u03a6} is a carpet called the derived carpet of A. It is also known that for \u03a6 = Al the set B is a closed (admissible) carpet, which means that its carpet subgroup does not contain new root elements. Is every derived carpet of type \u03a6 over a commutative ring closed (admissible)?\nComment of 2025: An affirmative answer was obtained for \u03a6 of type Bl, Cl, or F4 when GCD(p, 2) = 1, and for \u03a6 of type G2 when GCD(p, 6) = 1 (Ya. N. Nuzhin, J. Siberian Fed. Univ. Ser. Math. Phys., 16, no. 6 (2023), 732\u2013737).\nYa. N. Nuzhin"
+}

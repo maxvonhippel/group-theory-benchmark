@@ -1,0 +1,5 @@
+{
+  "page_number": 108,
+  "problem_number": "17.52",
+  "problem_text": "(N. Eggert). Let R be a commutative associative finite-dimensional nilpotent algebra over a finite field F of characteristic p. Let R(p) be the subalgebra of all elements of the form rp (r \u2208 R). Is it true that dim R \u2a7e p dim R(p)?\nAn affirmative answer gives a solution to 11.44 for the case where the factors A and B are abelian.\nL. S. Kazarin"
+}

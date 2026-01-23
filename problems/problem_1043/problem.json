@@ -1,0 +1,5 @@
+{
+  "page_number": 144,
+  "problem_number": "20.11",
+  "problem_text": "Let F \u2a7d H be free groups such that there exists a free group G of finite rank with F \u2a7d G \u2a7d H, and let r be the least of the ranks of such groups G. Which, if any, of the following statements must hold?\n\n(i) There is a largest G of rank r between F and H.\n\n(i\u2032) For any two G1, G2 of rank r between F and H, the subgroup \u27e8G1, G2\u27e9 has rank r.\n\n(ii) There is a smallest G of rank r between F and H.\n\n(ii\u2032) For any two G1, G2 of rank r between F and H, the subgroup G1 \u2229 G2 has rank r.\n\nIf (i) holds for all such F and H, then so does (i\u2032). If (ii) holds for all F, H, then so does (ii\u2032). The converse of the former implication holds because subgroups of a free group of any fixed finite rank satisfy ACC, but I don\u2019t see a way to get the converse of the other implication. G. M. Bergman"
+}

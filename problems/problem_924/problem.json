@@ -1,0 +1,5 @@
+{
+  "page_number": 126,
+  "problem_number": "18.100",
+  "problem_text": "For a given class of groups X, let (X, \u221e)^* denote the class of groups in which\nevery infinite subset contains two distinct elements x and y that satisfy \u27e8x, xy\u27e9 \u2208 X.\nLet G be a finitely generated soluble-by-finite group in the class (X, \u221e)^*, let m be a\npositive integer, and let F, E_m, E, N, and P denote the classes of finite groups, groups\nof exponent dividing m, groups of finite exponent, nilpotent groups, and polycyclic\ngroups, respectively.\na) If X = EN, then is G in EN?\nb) If X = E_mN, then is G in E_m(FN)?\nc) If X = N(PF), then is G in N(PF)?\nN. Trabelsi"
+}

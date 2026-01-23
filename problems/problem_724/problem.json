@@ -1,0 +1,5 @@
+{
+  "page_number": 101,
+  "problem_number": "16.87",
+  "problem_text": "Let M be a variety of groups and let G_r be a free r-generator group in M. A subset S \u2286 G_r is called a test set if every endomorphism of G_r identical on S is an automorphism. The minimum of the cardinalities of test sets is called the test rank of G_r. Suppose that the test rank of G_r is r for every r \u2a7e 1.\na) Is it true that M is an abelian variety?\nb) Suppose that M is not a periodic variety. Is it true that M is the variety of all abelian groups?\nE. I. Timoshenko"
+}

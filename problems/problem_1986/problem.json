@@ -1,0 +1,6 @@
+{
+  "page_number": 278,
+  "problem_number": "19.49",
+  "problem_text": "A skew brace is a set B equipped with two operations + and \u00b7 such that (B, +) is an additively written (but not necessarily abelian) group, (B, \u00b7) is a multiplicatively written group, and a \u00b7 (b + c) = ab \u2212 a + ac for any a, b, c \u2208 B.\nLet A be a skew brace with left-orderable multiplicative group. Is the additive group of A left-orderable?\nV. Lebed, L. Vendramin",
+  "answer": "No, not always (T. Nasybullov, J. Algebra, 540 (2019), 156\u2013167)."
+}

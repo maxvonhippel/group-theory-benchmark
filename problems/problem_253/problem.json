@@ -1,0 +1,6 @@
+{
+  "page_number": 36,
+  "problem_number": "9.69",
+  "problem_text": "(P. Cameron). Let G be a finite primitive permutation group and suppose that the stabilizer G\u03b1 of a point \u03b1 induces on some of its orbits \u2206\u0338= {\u03b1} a regular permutation group. Is it true that |G\u03b1| = |\u2206|?\nA. N. Fomin",
+  "answer": "No, not always (P. Spiga, J. Group Theory, 25, no. 1 (2022), 113\u2013126)."
+}

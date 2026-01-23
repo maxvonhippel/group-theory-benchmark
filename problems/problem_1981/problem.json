@@ -1,0 +1,6 @@
+{
+  "page_number": 277,
+  "problem_number": "19.24",
+  "problem_text": "For a group G, let Tor(G) be the normal closure of all torsion elements of G. Does there exist a finitely presented group G such that G/ Tor(G) is not finitely presented? Such a group must necessarily be non-hyperbolic. M. Chiodo, R. Vyas",
+  "answer": "Yes, such groups exist: one soluble example and another virtually torsion-free are constructed in (I. J. Leary, A. Minasyan, J. Group Theory, 26, no. 4 (2023), 741\u2013750)."
+}

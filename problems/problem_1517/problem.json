@@ -1,0 +1,6 @@
+{
+  "page_number": 210,
+  "problem_number": "5.2",
+  "problem_text": "Is it true that the growth function f of any infinite finitely generated group satisfies the inequality f(n) \u2a7d (f(n \u22121) + f(n + 1))/2 for all sufficiently large n (for a fixed finite system of generators)?\nV. V. Belyaev, N. F. Sesekin",
+  "answer": "No (P. de la Harpe, R. I. Grigorchuk, Algebra and Logic, 37, no. 6 (1998), 353\u2013356)."
+}

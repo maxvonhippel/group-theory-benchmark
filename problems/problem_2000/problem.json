@@ -1,0 +1,6 @@
+{
+  "page_number": 281,
+  "problem_number": "19.109",
+  "problem_text": "19.109. A subgroup H of a finite group G is called pronormal if for any g \u2208G the subgroups H and Hg are conjugate by an element of \u27e8H, Hg\u27e9. A maximal subgroup of a maximal subgroup is called second maximal. Is it true that in a non-abelian finite simple group G all maximal subgroups are Hall subgroups if and only if every second maximal subgroup of G is pronormal in G?\nV. I. Zenkov",
+  "answer": "No, not always, for example, in SL2(211) every second maximal subgroup is pronormal (V. N. Tyutyanov, Letter of 23 November 2018)."
+}

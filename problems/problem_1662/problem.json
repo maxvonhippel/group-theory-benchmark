@@ -1,0 +1,6 @@
+{
+  "page_number": 230,
+  "problem_number": "9.27",
+  "problem_text": "Let M be a subgroup of a finite group G, A an abelian 2-subgroup of M, and suppose that Ag is not contained in M for some g from G. Determine the structure of G under the hypothesis that \u27e8A, Ax\u27e9 = G whenever the subgroup Ax, x \u2208 G, is not contained in M.\nA. A. Makhn\u00a8ev",
+  "answer": "It is described mod CFSG (V. I. Zenkov, Algebra and Logic, 35, no. 3 (1996), 160\u2013163)."
+}

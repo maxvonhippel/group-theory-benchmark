@@ -1,0 +1,6 @@
+{
+  "page_number": 242,
+  "problem_number": "11.79",
+  "problem_text": "Let G be a finite group of automorphisms of an infinite field F of character-\nistic p. Taking integral powers of the elements of F and the action of G define the\naction of the group ring ZG of G on the multiplicative group of F. Is it true that any\nsubfield of F that contains the images of all elements of F under the action of some\nfixed element of ZG \\ pZG contains infinitely many G-invariant elements of F?\nK. N. Ponomar\u00a8ev",
+  "answer": "Yes (K. N. Ponomar\u00a8ev, Siber. Math. J., 33 (1992), 1094\u20131099)."
+}

@@ -1,0 +1,6 @@
+{
+  "page_number": 17,
+  "problem_number": "5.52",
+  "problem_text": "It is not hard to show that a finite perfect group is the normal closure of a single element. Is the same true for infinite finitely generated groups?\nJ. Wiegold",
+  "answer": "There exist finitely presented perfect groups that are not normal closures of a single element (L. Chen, Y. Lodha, Preprint, 2025, https://arxiv.org/abs/2510.26073)."
+}

@@ -1,0 +1,5 @@
+{
+  "page_number": 124,
+  "problem_number": "18.87",
+  "problem_text": "18.87. A system of equations with coefficients in a group G is said to be independent if the matrix composed of the sums of exponents of the unknowns has rank equal to the number of equations.\na) The Kervaire\u2013Laudenbach Conjecture (KLC): every independent system of equations with coefficients in an arbitrary group G has a solution in some over-group G\u0304. This is true for every locally residually finite group G (M. Gerstenhaber and O. S. Rothaus).\nb) KLC \u2014 nilpotent version: every independent system of equations with coefficients in an arbitrary nilpotent group G has a solution in some nilpotent overgroup G\u0304.\nc) KLC \u2014 solvable version: every independent system of equations with coefficients in an arbitrary solvable group G has a solution in some solvable overgroup G\u0304.\nV. A. Roman\u2019kov"
+}

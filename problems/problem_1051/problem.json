@@ -1,0 +1,5 @@
+{
+  "page_number": 146,
+  "problem_number": "20.19",
+  "problem_text": "A subgroup H of a group G is called commensurated if for all g \u2208 G, the index |H : H \u2229 gHg\u22121| is finite. Can a non-abelian free group (or a non-elementary hyperbolic group) contain two infinite commensurated subgroups A, B with a trivial intersection? The answer is negative if A or B is normal.\nP.-E. Caprace"
+}

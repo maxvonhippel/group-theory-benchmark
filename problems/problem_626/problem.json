@@ -1,0 +1,5 @@
+{
+  "page_number": 89,
+  "problem_number": "15.55",
+  "problem_text": "15.55. a) The Monster, M, is a 6-transposition group. Pairs of Fischer transpositions generate 9 M-classes of dihedral groups. The order of the product of a pair is the coefficient of the highest root of affine type E8. Similar properties hold for Baby B, and F \u203224 with respect to E7 and E6 when the product is read modulo centres (2.B, 3.F \u203224). Explain this.\nEditors\u2019 Comment of 2005: Some progress was made in (C. H. Lam, H. Yamada, H. Yamauchi, Trans. Amer. Math. Soc., 359, no. 9 (2007), 4107\u20134123).\nb) Note that the Schur multiplier of the sporadic simple groups M, B, F \u203224 is the fundamental group of type E8, E7, E6, respectively. Why?\nSee (J. McKay, in: Finite groups, Santa Cruz Conf. 1979 (Proc. Symp. Pure Math., 37), Amer. Math. Soc., Providence, RI, 1980, 183\u2013186) and (R. E. Borcherds, Doc. Math., J. DMV Extra Vol. ICM Berlin 1998, Vol. I (1998), 607\u2013616). J. McKay"
+}

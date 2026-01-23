@@ -1,0 +1,5 @@
+{
+  "page_number": 99,
+  "problem_number": "16.53",
+  "problem_text": "Let d(G) denote the smallest cardinality of a generating set of the group G. Suppose that G = \u27e8A, B\u27e9, where A and B are two d-generated finite groups of coprime orders. Is it true that d(G) \u2a7d d + 1? See Archive 12.71 and (A. Lucchini, J. Algebra, 245 (2001), 552\u2013561). Comment of 2021: the answer is yes if A and B have prime power order (E. Detomi, A. Lucchini, J. London Math. Soc. (2), 87, no. 3 (2013), 689\u2013706). A. Lucchini"
+}

@@ -1,0 +1,6 @@
+{
+  "page_number": 251,
+  "problem_number": "13.28",
+  "problem_text": "(D. M. Evans). A permutation group on an infinite set is cofinitary if its non-identity elements fix only finitely many points. Is it true that a closed cofinitary permutation group is locally compact (in the topology of pointwise convergence)? P. J. Cameron",
+  "answer": "No, not always (G. Hjorth, J. Algebra, 200, no. 2 (1998), 439\u2013448)."
+}

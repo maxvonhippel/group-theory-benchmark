@@ -4,12 +4,11 @@ Extract MCP tool information from server files for documentation.
 """
 
 import ast
-import json
 from pathlib import Path
-from typing import Dict, List
+from typing import Any
 
 
-def extract_tools_from_file(filepath: Path) -> Dict[str, List[Dict]]:
+def extract_tools_from_file(filepath: Path) -> dict[str, Any]:
     """
     Extract tool information from an MCP server file.
     Returns dict with server name and list of tools.
@@ -20,7 +19,7 @@ def extract_tools_from_file(filepath: Path) -> Dict[str, List[Dict]]:
     tree = ast.parse(content)
     
     # Find the Server initialization to get server name
-    server_name = None
+    server_name: str | None = None
     for node in ast.walk(tree):
         if isinstance(node, ast.Assign):
             for target in node.targets:
@@ -31,7 +30,7 @@ def extract_tools_from_file(filepath: Path) -> Dict[str, List[Dict]]:
                                 server_name = ast.literal_eval(node.value.args[0])
     
     # Find the list_tools function
-    tools = []
+    tools: list[dict[str, Any]] = []
     for node in ast.walk(tree):
         if isinstance(node, ast.AsyncFunctionDef) and node.name == 'list_tools':
             # Look for return statement with list of Tool objects
@@ -39,7 +38,7 @@ def extract_tools_from_file(filepath: Path) -> Dict[str, List[Dict]]:
                 if isinstance(stmt, ast.Return) and isinstance(stmt.value, ast.List):
                     for tool_call in stmt.value.elts:
                         if isinstance(tool_call, ast.Call):
-                            tool_info = {}
+                            tool_info: dict[str, Any] = {}
                             for keyword in tool_call.keywords:
                                 if keyword.arg == 'name':
                                     tool_info['name'] = ast.literal_eval(keyword.value)
@@ -55,7 +54,7 @@ def extract_tools_from_file(filepath: Path) -> Dict[str, List[Dict]]:
     }
 
 
-def format_tools_markdown(servers_info: List[Dict]) -> str:
+def format_tools_markdown(servers_info: list[dict[str, Any]]) -> str:
     """Format extracted tool information as markdown."""
     lines = []
     
@@ -89,11 +88,11 @@ def format_tools_markdown(servers_info: List[Dict]) -> str:
     return '\n'.join(lines)
 
 
-def main():
+def main() -> None:
     """Extract and print MCP tools documentation."""
     src_tools = Path(__file__).parent.parent / 'src' / 'tools'
     
-    servers = []
+    servers: list[dict[str, Any]] = []
     for mcp_file in sorted(src_tools.glob('*_mcp_server.py')):
         server_info = extract_tools_from_file(mcp_file)
         if server_info['tools']:

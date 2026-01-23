@@ -1,0 +1,5 @@
+{
+  "page_number": 143,
+  "problem_number": "20.1",
+  "problem_text": "For k \u2a7e 1, a group G is said to be totally k-closed if in each of its faithful permutation representations, say on a set \u2126, G is the largest subgroup of Sym(\u2126) which leaves invariant each of the G-orbits in the induced action on the set of ordered k-tuples \u2126k.\nAre there any finite insoluble totally 2-closed groups with nontrivial Fitting subgroup?\nThe finite totally 2-closed groups which are either soluble or have trivial Fitting subgroup are known.\nM. Arezoomand, M. A. Iranmanesh, C. E. Praeger, G. Tracey"
+}

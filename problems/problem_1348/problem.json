@@ -1,0 +1,6 @@
+{
+  "page_number": 187,
+  "problem_number": "1.63",
+  "problem_text": "A group G is called dense if it has no proper isolated subgroups other than its trivial subgroup.\na) Do there exist dense torsion-free groups that are not locally cyclic?\nb) Suppose that any two non-trivial elements x and y of a torsion-free group G satisfy the relation xk = yl, where k and l are non-zero integers depending on x and y. Does it follow that G is abelian?\nP. G. Kontorovich",
+  "answer": "a) Yes, such groups do exist; b) Not necessarily (S. I. Adian, Math. USSR\u2013Izv., 5 (1971), 475\u2013484)."
+}

@@ -1,0 +1,5 @@
+{
+  "page_number": 76,
+  "problem_number": "14.42",
+  "problem_text": "Is a free pro-p-group representable by matrices over an associative-commutative profinite ring with 1?\nA negative answer is equivalent to the fact that every linear pro-p-group satisfies a non-trivial pro-p-identity.\nThis is known to be true in dimension 2 for p \u0338= 2\n(A. N. Zubkov, Siberian Math. J., 28, no. 5 (1987), 742\u2013747). It is also proved that a 2-dimensional linear pro-2-group in characteristic 2 satisfies a non-trivial pro-2-identity\n(D. E.-C. Ben-Ezra, E. Zelmanov, Trans. Amer. Math. Soc., 374, no. 6 (2021), 4093\u20134128).\nA. N. Zubkov, V. N. Remeslennikov"
+}

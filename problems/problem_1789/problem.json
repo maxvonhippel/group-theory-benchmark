@@ -1,0 +1,6 @@
+{
+  "page_number": 248,
+  "problem_number": "12.79",
+  "problem_text": "Suppose that a and b are two elements of a finite group G such that the function \u03c6(g) = 1G(g) \u2212 1G\u27e8a\u27e9(g) \u2212 1G\u27e8b\u27e9(g) \u2212 1G\u27e8ab\u27e9(g) + 2 is a character of G. Is it true that G = \u27e8a, b\u27e9? The converse statement is true. S. P. Strunkov",
+  "answer": "No, not always: a counterexample is given by G = A4, a = b = (123). (S. V. Skresanov, Algebra Logic, 58, no. 3 (2019), 249\u2013253)."
+}

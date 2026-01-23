@@ -3,6 +3,7 @@
 Generate README.md with automated solution tracking table.
 """
 from pathlib import Path
+from typing import Any
 
 
 # Status values for notes.txt STATUS field
@@ -13,9 +14,9 @@ STATUS_FORMALIZED_UNSOLVED = "FORMALIZED_UNSOLVED"
 STATUS_COULD_NOT_FORMALIZE = "COULD_NOT_FORMALIZE"
 
 
-def parse_notes_file(notes_path: Path) -> dict:
+def parse_notes_file(notes_path: Path) -> dict[str, Any]:
     """Parse notes.txt file for metadata."""
-    info = {
+    info: dict[str, str | None] = {
         'status': None,
         'category': None,
         'reference': None,
@@ -39,10 +40,10 @@ def parse_notes_file(notes_path: Path) -> dict:
     return info
 
 
-def scan_problem_solutions():
+def scan_problem_solutions() -> list[dict[str, Any]]:
     """Scan problems/ directory for solution artifacts."""
     problems_dir = Path(__file__).parent.parent / "problems"
-    solutions = []
+    solutions: list[dict[str, Any]] = []
 
     # Get all problem directories
     if not problems_dir.exists():
@@ -105,7 +106,7 @@ def scan_problem_solutions():
     return solutions
 
 
-def get_status_display(sol: dict) -> str:
+def get_status_display(sol: dict[str, Any]) -> str:
     """Get display string for solution status."""
     status = sol.get('status')
 
@@ -132,7 +133,7 @@ def get_status_display(sol: dict) -> str:
         return "Unknown"
 
 
-def generate_solution_table(solutions):
+def generate_solution_table(solutions: list[dict[str, Any]]) -> str:
     """Generate markdown table for solutions."""
     if not solutions:
         return ""
@@ -172,13 +173,17 @@ def generate_solution_table(solutions):
     return table
 
 
-def generate_readme():
+def generate_readme() -> str:
     """Generate complete README.md content."""
     
     # Read existing README sections (if any) - for now, start fresh
     readme = "# Group Theory Benchmark\n\n"
-    readme += "An AI agent benchmark for solving abstract algebra problems using GAP "
-    readme += "and Lean 4.\n\n"
+    readme += "This benchmark, affectionately named [`budden-bench`]"
+    readme += "(https://x.com/maxvonhippel/status/2014475901384241286?s=20), "
+    readme += "measures the ability of models and agents to autonomously solve open and important problems "
+    readme += "in mathematics, specifically group theory. In contrast to other problem sets such as the "
+    readme += "[Erdős Problems](https://www.erdosproblems.com/), this benchmark contains exclusively problems which are "
+    readme += "not just unsolved but also the objects of ongoing mathematical attention, i.e., which are nontrivial.\n\n"
     
     readme += "## Inspiration\n\n"
     readme += "This project was inspired by the paper [Disproof of the Mertens Conjecture]"
@@ -217,7 +222,7 @@ def generate_readme():
     return readme
 
 
-def main():
+def main() -> None:
     """Generate and write README.md."""
     readme_content = generate_readme()
     

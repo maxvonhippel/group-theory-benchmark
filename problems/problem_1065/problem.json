@@ -1,0 +1,5 @@
+{
+  "page_number": 148,
+  "problem_number": "20.33",
+  "problem_text": "(A. Bauer). Does Higman\u2019s Embedding Theorem relativize in the following way? Is it the case that for every subset X \u2286 N, there is a finitely generated group G_X that has an X-computable presentation (that is, there is a finite generating set relative to which the set of relations is computably enumerable with an X oracle), and such that any finitely generated group has an X-computable presentation if and only if it can be embedded as a finitely generated subgroup of a quotient of a free product of finitely many copies of G_X by the normal closure of a finite subset?\nHigman\u2019s Embedding Theorem says that for computable X, one may take G_X = Z.\nJ. Grochow"
+}

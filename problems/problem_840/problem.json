@@ -1,0 +1,5 @@
+{
+  "page_number": 115,
+  "problem_number": "17.127",
+  "problem_text": "Suppose that a finite soluble group G of derived length d admits an elementary abelian p-group of automorphisms A of order pn such that CG(A) = 1. Must G have a normal series of n-bounded length with nilpotent factors of (p, n, d)-bounded nilpotency class?\nThis is true for p = 2. An affirmative answer would follow from an affirmative answer to 11.125.\nP. Shumyatsky"
+}

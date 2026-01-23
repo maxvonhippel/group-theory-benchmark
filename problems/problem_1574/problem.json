@@ -1,0 +1,6 @@
+{
+  "page_number": 218,
+  "problem_number": "6.34",
+  "problem_text": "Let o be an associative ring with identity. A system of its ideals A = {Aij | i, j \u2208 Z} is called a carpet of ideals if AikAkj \u2286 Aij for all i, j, k \u2208 Z. If o is commutative, then the set \u0393n(A) = {x \u2208 SLn(o) | xij \u2261 \u03b4ij (mod Aij)} is a group, the (special) congruenz-subgroup modulo the carpet A (the \u201ccarpet subgroup\u201d). Under quite general conditions, it was proved in (Yu. I. Merzlyakov, Algebra i Logika, 3, no. 4 (1964), 49\u201359 (Russian); see also M. I. Kargapolov, Yu. I. Merzlyakov, Fundamentals of the Theory of Groups, 3rd Ed., Moscow, Nauka, 1982, p. 145 (Russian)) that in the groups GLn and SLn the mutual commutator subgroup of the congruenz-subgroups modulo a carpet of ideals shifted by k and l steps is again the congruenz-subgroup modulo the same carpet shifted by k + l steps. Prove analogous theorems a) for orthogonal groups; b) for unitary groups.\nYu. I. Merzlyakov",
+  "answer": "These are proved (V. M. Levchuk, Sov. Math. Dokl., 42, no. 1 (1991), 82\u201386; Ukrain. Math. J., 44, no. 6 (1992), 710\u2013718)."
+}

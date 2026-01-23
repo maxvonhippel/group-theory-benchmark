@@ -1,0 +1,6 @@
+{
+  "page_number": 208,
+  "problem_number": "4.49",
+  "problem_text": "Let G and H be finitely generated torsion-free nilpotent groups such that Aut G \u223c= Aut H. Does it follow that G \u223c= H?\nV. N. Remeslennikov",
+  "answer": "No (G. A. Noskov, V. A. Roman\u2019kov, Algebra and Logic, 13 (1974), 306\u2013311)."
+}

@@ -1,0 +1,6 @@
+{
+  "page_number": 240,
+  "problem_number": "11.37. b)",
+  "problem_text": "Can the free Burnside group B(m, n), for any m and n = 2l \u226b 1, be given by defining relations of the form v^n = 1 such that for any natural divisor d of n distinct from n the element v^d is not trivial in B(m, n)? S. V. Ivanov",
+  "answer": "Yes, it can (S. V. Ivanov, Int. J. Algebra Comput., 4, no. 1\u20132 (1994), 1\u2013308)."
+}

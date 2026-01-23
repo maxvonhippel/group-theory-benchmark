@@ -1,0 +1,6 @@
+{
+  "page_number": 185,
+  "problem_number": "1.37",
+  "problem_text": "Is it true that every subgroup of a locally nilpotent group is quasi-invariant?\nSh. S. Kemkhadze",
+  "answer": "No, not always; for example, in the inductive limit of Sylow p-subgroups of symmetric\ngroups of degrees pi, i = 1, 2, . . . . (V. I. Sushchanski\u02d8\u0131, Abstracts of 15th All-USSR\nAlgebraic Conf., Krasnoyarsk, 1979, 154 (Russian))."
+}

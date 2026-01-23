@@ -1,0 +1,5 @@
+{
+  "page_number": 177,
+  "problem_number": "21.109",
+  "problem_text": "Conjecture: The derived length of a finite solvable group G does not exceed |Cod(G)| \u22121.\nThe Fitting height of G is known to be at most min{|Cod(G)|\u22121, |Cod(G)|/2+1} (G. Qian, Y. Zeng, J. Group Theory, to appear).\nG. Qian"
+}

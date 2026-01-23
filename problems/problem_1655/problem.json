@@ -1,0 +1,6 @@
+{
+  "page_number": 229,
+  "problem_number": "Well-known problem",
+  "problem_text": "The prime graph of a finite group G is the graph with vertex set \u03c0(G) and an edge joining p and q if and only if G has an element of order pq. Describe all finite Chevalley groups over a field of characteristic 2 whose prime graph is not connected and describe the connected components.\nA. S. Kondratiev",
+  "answer": "This was done in (A. S. Kondratiev, Math. USSR\u2013Sb., 67 (1990), 235\u2013247)."
+}

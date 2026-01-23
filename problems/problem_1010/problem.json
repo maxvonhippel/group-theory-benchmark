@@ -1,0 +1,5 @@
+{
+  "page_number": 139,
+  "problem_number": "19.82",
+  "problem_text": "19.82. Let h\u2217(G) denote the generalized Fitting height of a finite group G defined\nas the minimum number k such that F\u2217k(G) = G, where F\u22171(G) = F\u2217(G) is the\ngeneralized Fitting subgroup of G, and by induction F\u2217i+1(G) is the inverse image of\nF\u2217(G/F\u2217i(G)). If G is soluble, then h\u2217(G) = h(G) is the Fitting height of G.\nDoes every finite group G contain a soluble subgroup K such that h\u2217(G) = h(K)?\nP. Shumyatsky"
+}

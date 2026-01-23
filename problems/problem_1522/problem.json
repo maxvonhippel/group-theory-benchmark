@@ -1,0 +1,6 @@
+{
+  "page_number": 211,
+  "problem_number": "5.8",
+  "problem_text": "Let G be a torsion-free soluble group of finite cohomological dimension cd G. If hG denotes the Hirsch number of G, then it is known that hG \u2a7d cd G \u2a7d hG+1. Find a purely group-theoretic criterion for hG = cd G.\nK. W. Gruenberg",
+  "answer": "This has been found (P. H. Kropholler, J. Pure Appl. Algebra, 43 (1986), 281\u2013287)."
+}

@@ -1,0 +1,5 @@
+{
+  "page_number": 102,
+  "problem_number": "16.94",
+  "problem_text": "If G = [G, G], then the commutator width of the group G is its width relative to the set of commutators. Let V be an infinite-dimensional vector space over a division ring. It is known that the commutator width of GL(V) is finite. Is it true that the commutator width of GL(V) is one? V. Tolstykh"
+}

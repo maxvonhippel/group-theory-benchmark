@@ -1,0 +1,6 @@
+{
+  "page_number": 221,
+  "problem_number": "7.6",
+  "problem_text": "7.6. Describe the infinite simple locally finite groups with a Chernikov Sylow 2-sub-\ngroup. In particular, are such groups the Chevalley groups over locally finite fields of\nodd characteristic?\nV. V. Belyaev, N. F. Sesekin",
+  "answer": "No, as every countably infinite locally finite p-group can be embedded as a maximal\np-subgroup of the simple Hall\u2019s universal group U, the unique countable existentially\nclosed group in the class of all locally finite groups (K. Hickin, Proc. London Math.\nSoc. (3), 52, no. 1 (1986), 53\u201372). But if all Sylow 2-subgroups are Chernikov, then\nthis is true mod CFSG (O. H. Kegel, Math. Z., 95 (1967), 169\u2013195; V. V. Belyaev, in:\nInvestigations in Group Theory, Sverdlovsk, UNC AN SSSR, 1984, 39\u201350 (Russian);\nA. V. Borovik, Siberian Math. J., 24, no. 6 (1983), 843\u2013851;\nB. Hartley, G. Shute,\nQuart. J. Math. Oxford (2), 35 (1984), 49\u201371; S. Thomas, Arch. Math., 41 (1983),\n103\u2013116). When all Sylow 2-subgroups are Chernikov, the same result, without using\nCFSG, follows from (M. J. Larsen, R. Pink, J. Amer. Math. Soc., 24 (2011), 1105\u2013\n1158 (also known as a preprint of 1998))."
+}

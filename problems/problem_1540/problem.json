@@ -1,0 +1,6 @@
+{
+  "page_number": 213,
+  "problem_number": "5.40",
+  "problem_text": "Let G be a countable group acting on a set \u2126. Suppose that G is k-fold transitive for every finite k, and G contains no non-trivial permutations of finite support. Is it true that \u2126 can be identified with the rational line Q in such a way that G becomes a group of autohomeomorphisms?\nP. M. Neumann",
+  "answer": "Not always (A. H. Mekler, J. London Math. Soc., 33 (1986), 49\u201358)."
+}

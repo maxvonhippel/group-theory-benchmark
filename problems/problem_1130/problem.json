@@ -1,0 +1,6 @@
+{
+  "page_number": 158,
+  "problem_number": "20.98",
+  "problem_text": "Let G be a group of permutations of the set of positive integers N isomorphic to the additive group of rational numbers. Must there be an element g \u2208 G such that the set {a \u2212 ag | a \u2208 N} is infinite?\nN. M. Suchkov",
+  "answer": "Yes, it must (N. M. Suchkov, A. A. Shlepkin, D. A. Taysnyov, Siberian Math. J., 65 (2024), 1390\u20131394)."
+}

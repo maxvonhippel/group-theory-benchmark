@@ -1,0 +1,5 @@
+{
+  "page_number": 80,
+  "problem_number": "14.90",
+  "problem_text": "Let P be a finite p-group of abundance a and nilpotency class c. Does there exist an integer t = t(a) such that \u03b3_i(G) = \u03b6_{c\u2212i+1}(G) for i \u2a7e t? This holds for a = 0 with t = 1, since P has maximal class; it can be proved that for a = 1 one can take t = 3.\nG. Fern\u00b4andez\u2013Alcober"
+}

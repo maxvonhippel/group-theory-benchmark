@@ -1,0 +1,6 @@
+{
+  "page_number": 210,
+  "problem_number": "4.76",
+  "problem_text": "Let G be a locally finite group containing an element a of prime order such that the centralizer CG(a) is finite. Is G almost soluble?\nV. P. Shunkov",
+  "answer": "Yes, it is. P. Fong (Osaka J. Math., 13 (1976), 483\u2013489) has shown (mod CFSG) that G is almost locally soluble. Given this, B. Hartley and T. Meixner (Arch. Math., 36 (1981), 211\u2013213) have proved that G is almost locally nilpotent. Therefore G is almost soluble by (J. L. Alperin, Proc. Amer. Math. Soc., 13 (1962), 175\u2013180) and (G. Higman, J. London Math. Soc., 32 (1957), 321\u2013334). Moreover, by (E. I. Khukhro, Math. Notes, 38, no. 5-6 (1985), 867\u2013870; E. I. Khukhro, Math. USSR\u2013Sb., 71, no. 1 (1992), 51\u201363) then G is almost nilpotent."
+}

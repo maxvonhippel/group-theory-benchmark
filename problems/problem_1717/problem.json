@@ -1,0 +1,6 @@
+{
+  "page_number": 238,
+  "problem_number": "11.20",
+  "problem_text": "Suppose we have [a, b] = [c, d] in an absolutely free group, where a, b, [a, b] are basic commutators (in some fixed free generators). If c and d are arbitrary (proper) commutators, does it follow that a = c and b = d?\nA. Gaglione, D. Spellman",
+  "answer": "No, not always.\nFor example, if x1, x2, x3 are free generators,\nx1 < x2 < x3,\na = [[x2, x1], x3], b = [x2, x1], c = b\u22121, d = bx3b (V. G. Bardakov, Abstracts of the IIIrd Intern. Conf. on Algebra, Krasnoyarsk, 1993, p. 33 (Russian))."
+}

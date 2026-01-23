@@ -1,0 +1,5 @@
+{
+  "page_number": 125,
+  "problem_number": "18.93",
+  "problem_text": "Let M be a one-generated saturated formation, that is, the intersection of all saturated formations containing some fixed finite group. Let F be a subformation of M such that F \u0338= FF.\na) Is it true that then F can be written in the form F = F1 \u00b7 \u00b7 \u00b7 Ft, where Fi is a non-decomposable formation for every i = 1, . . . , t?\nb) Suppose that F = F1 \u00b7 \u00b7 \u00b7 Ft, where Fi is a non-decomposable formation for every i = 1, . . . , t. Is it true that then all factors Fi are uniquely determined?\nA. N. Skiba"
+}

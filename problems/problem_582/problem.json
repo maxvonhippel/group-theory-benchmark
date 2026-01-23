@@ -1,0 +1,5 @@
+{
+  "page_number": 81,
+  "problem_number": "14.94",
+  "problem_text": "For each positive integer r find the p-cohomological dimension cdp(Hr) where Hr is the closed subgroup of N(Z/pZ) consisting of the series x(1 + \\sum_{i=1}^{\\infty} a_i x^{p r i}), a_i \\in Z/pZ.\nI. B. Fesenko"
+}

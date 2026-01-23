@@ -1,0 +1,5 @@
+{
+  "page_number": 162,
+  "problem_number": "21.2",
+  "problem_text": "Let S be a finite simple group, and let G be a finite group for which there exists a bijection f : G \u2192 S such that |x| divides |f(x)| for all x \u2208 G. Must G necessarily be simple?\nM. Amiri"
+}

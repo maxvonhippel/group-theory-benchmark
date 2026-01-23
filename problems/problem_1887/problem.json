@@ -1,0 +1,6 @@
+{
+  "page_number": 263,
+  "problem_number": "16.8",
+  "problem_text": "The width w(G\u2032) of the derived subgroup G\u2032 of a finite non-abelian group G is the smallest positive integer m such that every element of G\u2032 is a product of \u2a7d m commutators. Is it true that the maximum value of the ratio w(G\u2032)/|G| is 1/6 (attained at the symmetric group S3)? V. G. Bardakov",
+  "answer": "Yes, it is (T. Bonner, J. Algebra, 320 (2008), 3165\u20133171)."
+}

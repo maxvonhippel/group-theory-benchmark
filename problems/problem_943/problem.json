@@ -1,0 +1,5 @@
+{
+  "page_number": 129,
+  "problem_number": "19.2",
+  "problem_text": "For a subgroup L of a group G, let L_G denote the largest normal subgroup of G contained in L. If M \u25c1 G, then we say that G nearly splits over M if there is a subgroup N \u2a7d G such that |G : N| = \u221e, |G : MN| < \u221e, and (M \u2229 N)_G = 1.\n\nLet G be any group, and H a normal subgroup of prime order. Is it true that \u03c8(G) \u2229 H = 1 if and only if G nearly splits over H?\n\nM. K. Azarian"
+}

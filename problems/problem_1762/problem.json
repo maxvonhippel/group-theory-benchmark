@@ -1,0 +1,6 @@
+{
+  "page_number": 244,
+  "problem_number": "12.2",
+  "problem_text": "Is it true that every non-discrete group topology (in an abelian group) can be strengthened up to a maximal complete group topology?\nV. I. Arnautov",
+  "answer": "No, not always, since under the assumption of the Continuum Hypothesis there exist non-complete maximal topologies (V. I. Arnautov, E. G. Zelenyuk, Ukrain. Math. J., 43, no. 1 (1991), 15\u201320)."
+}

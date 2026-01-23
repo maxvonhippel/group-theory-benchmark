@@ -1,0 +1,5 @@
+{
+  "page_number": 175,
+  "problem_number": "21.97",
+  "problem_text": "21.97. (M. T\u02d8arn\u02d8auceanu). Is it true that for every positive rational number r there exists a finite group G such that | Aut(G)|/|G| = r?\nA similar question is answered in the positive for graphs, monoids, partial groups, and posets (R. Molinier, Preprint, 2025, https://arxiv.org/abs/2504.21059). It is also known that the set {| Aut(G)|/|G| | G is a finite abelian group} is dense in [0, +\u221e) (M. T\u02d8arn\u02d8auceanu, Elemente Math. (2025), https://ems.press/journals/em/articles/14298544).\nR. Molinier"
+}

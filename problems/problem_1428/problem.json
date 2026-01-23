@@ -1,0 +1,6 @@
+{
+  "page_number": 199,
+  "problem_number": "3.2",
+  "problem_text": "Classify the faithful irreducible (infinite-dimensional) representations of the nilpotent group defined by generators a, b, c and relations [a, b] = c, ac = ca, bc = cb. (A condition for a representation to be monomial is given in (A. E. Zalesski\u02d8\u0131, Math. Notes, 9 (1971), 117\u2013123).)\nS. D. Berman, A. E. Zalesski\u02d8\u0131",
+  "answer": "Classification of these representations up to equivalence does not seem to be feasible. D. Segal (Math. Proc. Cambridge Phil. Soc., 81 (1977), 201\u2013208) proved that there exist primitive irreducible representations of this group (that is, representations that are not induced from a representation of any proper subgroup). There are results concerning classification of primitive ideals of the groups algebra of this group (over various fields). For instance, Zalesskii (ibid.) showed that every primitive ideal is maximal."
+}

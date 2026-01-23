@@ -1,0 +1,5 @@
+{
+  "page_number": 166,
+  "problem_number": "21.26",
+  "problem_text": "(F. Lisi, L. Sabatini). Let G be a non-trivial finite group and let p1, . . . , pk be the distinct prime divisors of |G|. For each i, let Hi be a Sylow pi-subgroup of G. Is it true that there exists an element x \u2208 G such that for all i the subgroup Hi \u2229 Hx_i is inclusion-minimal in {Hi \u2229 Hg_i : g \u2208 G}? T. C. Burness"
+}

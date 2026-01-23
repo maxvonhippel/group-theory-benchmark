@@ -1,0 +1,6 @@
+{
+  "page_number": 73,
+  "problem_number": "14.19",
+  "problem_text": "We say that a group G has the Noetherian Equation Property if every system of equations over G in finitely many variables is equivalent to some finite part of it. Does an arbitrary hyperbolic group have the Noetherian Equation Property? Comment of 2013: the conjecture holds for torsion-free hyperbolic groups (Z. Sela, Proc. London Math. Soc., 99, no. 1 (2009), 217\u2013273) and for the larger class of toral relatively hyperbolic groups (D. Groves, J. Geom. Topol., 9 (2005), 2319\u20132358). G. Baumslag, A. G. Myasnikov, V. N. Remeslennikov",
+  "answer": "Yes, it does (R. Weidmann, C. Reinfeldt, Ann. Math. Blaise Pascal, 26, no. 2 (2019), 125\u2013214)."
+}

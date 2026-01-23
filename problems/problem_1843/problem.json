@@ -1,0 +1,6 @@
+{
+  "page_number": 256,
+  "problem_number": "14.66",
+  "problem_text": "(Well-known problem). Let G be a finite soluble group, \u03c0(G) the set of primes dividing the order of G, and \u03bd(G) the maximum number of primes dividing the order of some element. Does there exist a linear bound for |\u03c0(G)| in terms of \u03bd(G)?\nA. Moret\u00b4o",
+  "answer": "Yes, it does (T. M. Keller, J. Algebra, 178, no. 2 (1995), 643\u2013652)."
+}

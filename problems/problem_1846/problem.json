@@ -1,0 +1,6 @@
+{
+  "page_number": 257,
+  "problem_number": "14.80",
+  "problem_text": "Is the lattice of all totally local formations of finite groups modular? The definition of a totally local formation see in (L. A. Shemetkov, A. N. Skiba, Formatsii algebraicheskikh system, Moscow, Nauka, 1989 (Russian)).\nA. N. Skiba, L. A. Shemetkov",
+  "answer": "Yes, even distributive (V. G. Safonov, Commun. Algebra, 35 (2007), 3495\u20133502)."
+}

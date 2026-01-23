@@ -1,0 +1,6 @@
+{
+  "page_number": 268,
+  "problem_number": "16.104",
+  "problem_text": "If G is a finite group, then every element a of the rational group algebra Q[G] has a unique Jordan decomposition a = as + an, where an \u2208 Q[G] is nilpotent, as \u2208 Q[G] is semisimple over Q, and asan = anas. The integral group ring Z[G] is said to have the additive Jordan decomposition property (AJD) if as, an \u2208 Z[G] for every a \u2208 Z[G]. If a \u2208 Q[G] is invertible, then as is also invertible and so a = asau with au = 1 + a\u22121s an unipotent and asau = auas. Such a decomposition is again unique. We say that Z[G] has multiplicative Jordan decomposition property (MJD) if as, au \u2208 Z[G] for every invertible a \u2208 Z[G]. See the survey (A. W. Hales, I. B. S. Passi, in: Algebra, Some Recent Advances, Birkh\u00a8auser, Basel, 1999, 75\u201387). Is it true that there are only finitely many isomorphism classes of finite 2-groups G such that Z[G] has MJD but not AJD? A. W. Hales, I. B. S. Passi",
+  "answer": "Yes, it is true (A. W. Hales, I. B. S. Passi, L. E. Wilson, J. Algebra, 316, no. 1 (2007), 109\u2013132; 371 (2012), 665\u2013666)."
+}

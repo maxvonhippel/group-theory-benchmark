@@ -1,0 +1,6 @@
+{
+  "page_number": 225,
+  "problem_number": "8.14",
+  "problem_text": "a) Assume a group G is existentially closed in the class LNp of all locally finite p-groups. Is it true that G is characteristically simple? This is true for G countable in LNp (Berthold Maier, Freiburg); in fact, up to isomorphism, there is only one such countable locally finite p-group.\nO. H. Kegel",
+  "answer": "Not always (S. R. Thomas, Arch. Math., 44 (1985), 98\u2013109)."
+}

@@ -1,0 +1,6 @@
+{
+  "page_number": 59,
+  "problem_number": "*12.37",
+  "problem_text": "(J. G. Thompson). For a finite group G and natural number n, set G(n) = {x \u2208 G | x^n = 1} and define the type of G to be the function whose value at n is the order of G(n). Is it true that a group is soluble if its type is the same as that of a soluble one?\nA. S. Kondratiev, W. J. Shi",
+  "answer": "No, not always (P. Piwek, Algebra Number Theory, 19, no. 8 (2025), 1663\u20131670)."
+}

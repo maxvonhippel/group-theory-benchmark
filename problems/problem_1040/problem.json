@@ -1,0 +1,5 @@
+{
+  "page_number": 144,
+  "problem_number": "20.8",
+  "problem_text": "Suppose K < H < F are free groups of finite rank such that rank(H) < rank(K), but all proper subgroups of H which contain K have ranks \u2a7erank(K). Then is the inclusion of H in F the only homomorphism H \u2192 F fixing all elements of K? G. M. Bergman"
+}

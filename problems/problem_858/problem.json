@@ -1,0 +1,5 @@
+{
+  "page_number": 117,
+  "problem_number": "18.20",
+  "problem_text": "Characters \u03c6 and \u03c8 of a finite group G are said to be semiproportional if they are not proportional and there is a normal subset M of G such that \u03c6|M is proportional to \u03c8|M and \u03c6|G\\M is proportional to \u03c8|G\\M.\nConjecture: If \u03c6 and \u03c8 are semiproportional irreducible characters of a finite group, then \u03c6(1) = \u03c8(1).\nV. A. Belonogov"
+}

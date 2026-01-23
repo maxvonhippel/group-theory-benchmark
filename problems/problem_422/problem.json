@@ -1,0 +1,5 @@
+{
+  "page_number": 58,
+  "problem_number": "12.23",
+  "problem_text": "12.23. The index of permutability of a group G is defined to be the minimal integer k \u2a7e 2 such that for each k-tuple x1, . . . , xk of elements in G there is a non-identity permutation \u03c3 on k symbols such that x1 \u00b7 \u00b7 \u00b7 xk = x\u03c3(1) \u00b7 \u00b7 \u00b7 x\u03c3(k). Determine the index of permutability of the symmetric group Sn.\nM. Gutsan"
+}

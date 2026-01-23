@@ -1,0 +1,5 @@
+{
+  "page_number": 96,
+  "problem_number": "16.20",
+  "problem_text": "16.20. Let M be a quasivariety of groups. The dominion domM\nA (H) of a subgroup\nH of a group A (in M) is the set of all elements a \u2208 A such that for any two\nhomomorphisms f, g : A \u2192 B \u2208 M, if f, g coincide on H, then f(a) = g(a). Suppose\nthat the set {domN\nA (H) | N is a quasivariety, N \u2286 M} forms a lattice with respect to\nset-theoretic inclusion. Can this lattice be modular and non-distributive? A. I. Budkin"
+}

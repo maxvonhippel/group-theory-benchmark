@@ -1,0 +1,6 @@
+{
+  "page_number": 273,
+  "problem_number": "17.116",
+  "problem_text": "Let n(G) be the maximum of positive integers n such that the n-th direct power of a finite simple group G is 2-generated. Is it true that n(G) \u2a7e p/|G|? A. Erfanian, J. Wiegold",
+  "answer": "Yes, it is, even with n(G) > 2 p/|G| (A. Mar\u00b4oti, M. C. Tamburini, Commun. Algebra, 41, no. 1 (2013), 34\u201349)."
+}

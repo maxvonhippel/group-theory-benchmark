@@ -1,0 +1,6 @@
+{
+  "page_number": 231,
+  "problem_number": "9.43",
+  "problem_text": "a) The group G described in the solution of 8.73 (Archive) enables us to construct a projective plane of order 3 in which the lines are the elements of any conjugacy class of subgroups of order 2 \u00b7 5 \u00b7 7 \u00b7 11 together with four lines added in a natural way. In a similar way, we can construct a projective plane of order p^n for any prime p and any positive integer n. Does the resulting projective plane have the Galois property? N. D. Podufalov",
+  "answer": "Not always. The answer is affirmative for n = 1. But for n > 1 the planes in question may not have the Galois property. For example, if there exists a near-field of p^n elements, then among the planes of order p^n indicated there will definitely be some non-Desarguesian planes. (N. D. Podufalov, Letter of November, 24, 1986.)"
+}

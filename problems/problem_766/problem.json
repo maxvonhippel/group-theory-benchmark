@@ -1,0 +1,6 @@
+{
+  "page_number": 106,
+  "problem_number": "17.37",
+  "problem_text": "Is there an integer n such that for all m > n the alternating group Am has no non-trivial Am-permutable subgroups? (See the definition in 17.112.)\nA. F. Vasil\u2019ev, A. N. Skiba",
+  "answer": "Yes, there is (N. Yang, A. Galt, Bull. Malays. Math. Sci. Soc. (2), 46, no. 5 (2023), Paper no. 177, 16 p.)."
+}

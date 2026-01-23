@@ -1,0 +1,6 @@
+{
+  "page_number": 222,
+  "problem_number": "7.37",
+  "problem_text": "We say that a profinite group is strictly complete if each of its subgroups of finite index is open. It is known (B. Hartley, Math. Z., 168, no. 1 (1979), 71\u201376) that finitely generated profinite groups having a finite series with pronilpotent factors are strictly complete. Is a profinite group strictly complete if it is\na) finitely generated?\nb) finitely generated and prosoluble?\nO. V. Mel\u2019nikov",
+  "answer": "a) Yes, it is (N. Nikolov, D. Segal, Ann. Math. (2), 165, no. 1 (2007), 171\u2013273).\nb) Yes, it is (D. Segal, Proc. London Math. Soc. (3), 81 (2000), 29\u201354)."
+}

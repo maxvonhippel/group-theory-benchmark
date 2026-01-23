@@ -1,0 +1,6 @@
+{
+  "page_number": 236,
+  "problem_number": "10.56",
+  "problem_text": "Is the lattice of formations of finite nilpotent groups of class \u2a7d 4 distributive?\n\nA. N. Skiba",
+  "answer": "No. The lattice L of all varieties of nilpotent 2-groups of class \u2a7d 4 is non-distributive (Yu. A. Belov, Algebra and Logic, 9, no. 6 (1970), 371-374; R. A. Bryce, Philos. Trans. Roy. Soc. London (A), 266 (1970), 281\u2013355, footnote on p. 335). The mapping V \u2192 V \u2229 F, where F is the class of all finite groups, is an embedding of L into the lattice of formations. (L. Kov\u00b4acs, Letter of May, 12, 1988.) See also (L. A. Shemetkov, A. N. Skiba, Formations of algebraic systems, Nauka, Moscow, 1989 (Russian))."
+}

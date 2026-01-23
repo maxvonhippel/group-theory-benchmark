@@ -1,0 +1,6 @@
+{
+  "page_number": 210,
+  "problem_number": "4.74",
+  "problem_text": "a) Is every 2-group of order greater than 2 non-simple?\nV. P. Shunkov",
+  "answer": "No, the existence of simple infinite 2-groups follows from the existence of finitely generated infinite groups of exponent 2n (S. V. Ivanov, Int. J. Algebra Comput., 4, no. 1\u20132 (1994), 1\u2013308; I. G. Lys\u00a8enok, Izv. Math., 60, no. 3 (1996), 453\u2013654) and from the positive solution to the Restricted Burnside Problem for groups of exponent 2n (E. I. Zel\u2019manov, Math. USSR\u2013Sb., 72 (1992), 543\u2013565)."
+}

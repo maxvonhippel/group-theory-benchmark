@@ -1,0 +1,5 @@
+{
+  "page_number": 154,
+  "problem_number": "20.79",
+  "problem_text": "Conjecture: Suppose that G is a non-abelian simple group and H is a finite\ngroup such that Cod(G) = Cod(H). Then G \u223c= H.\nComment of 2025: The conjecture is proved for G of type PSL(2, q) (A. Bahri,\nZ. Akhlaghi, B. Khosravi, Bull. Austral. Math. Soc., 104, no. 2 (2021), 278\u2013286);\nPSL(3, q) or PSU(3, q) (Y. Liu, Y. Yang, Results Math., 78, no. 1 (2023), article No. 7);\na sporadic simple group (M. Dolorfino, L. Martin, Z. Slonim, Y. Sun, Y. Yang, Bull.\nAustral. Math. Soc., 109, no. 1 (2024), 57\u201366); an alternating group (M. Dolorfino,\nL. Martin, Z. Slonim, Y. Sun, Y. Yang, Bull. Austral. Math. Soc., 110, no. 1 (2024),\n115\u2013120);\n2F4(q2) (Y. Yang, J. Group Theory, 27, no. 1 (2024), 141\u2013155); PSL(n, q)\nor a simple exceptional group of Lie type (H. P. Tong Viet, Math. Nachr., 298, no. 4\n(2025), 1356\u20131369).\nG. Qian"
+}

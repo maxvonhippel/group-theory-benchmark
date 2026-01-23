@@ -1,0 +1,6 @@
+{
+  "page_number": 269,
+  "problem_number": "16.107",
+  "problem_text": "Is it true that almost every alternating group An is uniquely determined in the class of finite groups by its set of element orders, i. e. that h(\u03c0e(An)) = 1 for all large enough n?\nW. J. Shi",
+  "answer": "Yes, it is (I. B. Gorshkov, Algebra and Logic, 52, no. 1 (2013), 41\u201345)."
+}

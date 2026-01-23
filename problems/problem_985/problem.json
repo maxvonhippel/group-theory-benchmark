@@ -1,0 +1,5 @@
+{
+  "page_number": 135,
+  "problem_number": "19.52",
+  "problem_text": "The Gruenberg\u2013Kegel graph (or the prime graph) GK(G) of a finite group G has vertex set consisting of all prime divisors of the order of G, and different vertices p and q are adjacent in GK(G) if and only if the number pq is an element order in G.\nIs there a finite non-solvable group G such that GK(G) does not contain 3-cocliques and is not isomorphic to the Gruenberg\u2013Kegel graph of any finite solvable group?\nIt is known that there are no examples of such groups G among almost simple groups.\nN. V. Maslova"
+}

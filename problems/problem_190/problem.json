@@ -1,0 +1,5 @@
+{
+  "page_number": 28,
+  "problem_number": "8.44",
+  "problem_text": "Prove or disprove that for all, but finitely many, primes p the group\n\\(G_p = \\langle a, b \\mid a^2 = b^p = (ab)^3 = (b^r a b^{-2r} a)^2 = 1 \\rangle\\),\nwhere \\(r^2 + 1 \\equiv 0 \\pmod p\\), is infinite. A solution of this problem would have interesting topological applications. It was proved with the aid of computer that \\(G_p\\) is finite for \\(p \\le 17\\).\nJ. Mennicke"
+}

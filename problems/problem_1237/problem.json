@@ -1,0 +1,5 @@
+{
+  "page_number": 173,
+  "problem_number": "21.79",
+  "problem_text": "Let G be a finitely generated group with a fixed finite generating set S and the corresponding word metric LS(\u2217). An element g is said to be distorted in G if LS(g^n)/n \u2192 0 as n \u2192 \u221e; this notion is independent of the choice of the generating set S. For any, not necessarily finitely generated, group H, an element g \u2208 H is said to be distorted if there is a finitely generated subgroup G of H containing g in which g is distorted. Do there exist finitely generated left-orderable groups in which every nontrivial element is distorted?\nNote that it is straightforward to construct countable (not finitely generated) left-orderable groups with this property using HNN-extensions and applying results of V. V. Bludov and A. M. W. Glass.\nY. Lodha, A. Navas"
+}

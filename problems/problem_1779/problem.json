@@ -1,0 +1,6 @@
+{
+  "page_number": 247,
+  "problem_number": "12.46",
+  "problem_text": "Let F be the nonabelian free group on two generators x, y. For a, b \u2208 C, |a| = |b| = 1, let \u03d1a,b be the automorphism of CF defined by \u03d1a,b(x) = ax, \u03d1a,b(y) = by. Given 0 \u0338= \u03b1 \u2208 CF, can we always find a, b \u2208 C \\ {1} with |a| = |b| = 1 such that \u03b1CF \u2229 \u03d1a,b(\u03b1)CF \u0338= 0?\nP. A. Linnell",
+  "answer": "No, not always (A. V. Tushev, Ukrain. Mat. J., 47, no. 4 (1995), 571\u2013572)."
+}

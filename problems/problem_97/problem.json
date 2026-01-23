@@ -1,0 +1,5 @@
+{
+  "page_number": 16,
+  "problem_number": "5.35",
+  "problem_text": "Let V be a vector space of dimension n over a field. A subgroup G of GL_n(V) is said to be rich in transvections if n \u2a7e 2 and for every hyperplane H \u2286 V and every line L \u2286 H there is at least one transvection in G with residual line L and fixed space H. Describe the automorphisms of the subgroups of GL_2(V) which are rich in transvections. Yu. I. Merzlyakov"
+}

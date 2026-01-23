@@ -1,0 +1,5 @@
+{
+  "page_number": 155,
+  "problem_number": "20.85",
+  "problem_text": "Let F be a free group. An element \u03c9 \u2208 F is said to be primitive if there is a minimal generating system of F that contains \u03c9, almost primitive if it is primitive in each finitely generated proper subgroup of F containing \u03c9, tame almost primitive if, whenever \u03c9^\u03b1 is contained in a subgroup H of F with \u03b1 \u2a7e 1 minimal, either \u03c9^\u03b1 is primitive in H or the index of H in F is just \u03b1.\nIn (B. Fine, A. Moldenhauer, G. Rosenberger, L. Wienke, Topics in Infinite Group Theory: Nielsen Methods, Covering Spaces, and Hyperbolic Groups, De Gruyter, Berlin, 2021) it is shown that u = [a1, b1][a2, b2] \u00b7 \u00b7 \u00b7 [ag, bg] is tame almost primitive in the free group on a1, b1, . . . , ag, bg with g \u2a7e 1, and v = c1^2 \u00b7 \u00b7 \u00b7 cp^2 is tame almost primitive in the free group on c1, . . . , cp with p \u2a7e 2.\nAre there tame almost primitive elements in free groups other than u, v, and their product uv in the free group on a1, b1, . . . , ag, bg, c1, . . . , cp?\nG. Rosenberger, L. Wienke"
+}

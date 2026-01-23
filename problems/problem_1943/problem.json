@@ -1,0 +1,6 @@
+{
+  "page_number": 271,
+  "problem_number": "17.45",
+  "problem_text": "A subgroup H of a group G is called pronormal if H and H^g are conjugate in \u27e8H, H^g\u27e9 for every g \u2208 G. We say that H is strongly pronormal if L^g is conjugate to a subgroup of H in \u27e8H, L^g\u27e9 for every L \u2a7d H and g \u2208 G.\n(a) In a finite simple group, are Hall subgroups always pronormal?\nAn affirmative answer is known modulo CFSG for Hall subgroups of odd order (F. Gross, Bull. London Math. Soc., 19, no. 4 (1987), 311\u2013319).\n(b) In a finite simple group, are Hall subgroups always strongly pronormal?\nNotice that there exist finite (non-simple) groups with a non-pronormal Hall subgroup. Hall subgroups with a Sylow tower are known to be pronormal.\nE. P. Vdovin, D. O. Revin",
+  "answer": "a) Yes, they are (E. P. Vdovin, D. O. Revin, Siberian Math. J., 53, no. 3 (2012), 419\u2013430).\nb) No, not always (M. N. Nesterov, Siberian Math. J., 58, no. 1 (2017), 128\u2013133)."
+}

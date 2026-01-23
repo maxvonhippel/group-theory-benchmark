@@ -1,0 +1,5 @@
+{
+  "page_number": 163,
+  "problem_number": "21.7. (Well-known problem)",
+  "problem_text": "A finite group G is called an IYB-group if it is isomorphic to the permutation group of a finite involutive non-degenerate set-theoretic solution of the Yang\u2013Baxter equation, or equivalently, G is isomorphic to the multiplicative group of a finite left brace. Assume that the Sylow subgroups of a finite soluble group G are IYB-groups. Is G an IYB-group?\nA. Ballester-Bolinches"
+}

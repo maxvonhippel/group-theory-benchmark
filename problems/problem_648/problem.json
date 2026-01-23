@@ -1,0 +1,6 @@
+{
+  "page_number": 92,
+  "problem_number": "15.80",
+  "problem_text": "A sequence {Fn} of pairwise disjoint finite subsets of a topological group is called expansive if for every open subset U there is a number m such that Fn \u2229 U \u2260 \u2205 for all n > m. Suppose that a group G can be partitioned into countably many dense subsets. Is it true that in G there exists an expansive sequence?\nI. V. Protasov",
+  "answer": "Not necessarily. One example is G = Q^N R under the box topology. It is well-known that G does not have a countable dense subset (hence has no expansive sequence). However, the topology on G has a basis having 2^{\u21350} elements, each element of the basis having 2^{\u21350} points, and one can partition G into countably many dense subsets (via a transfinite induction of length 2^{\u21350}). (Letter of S. Corson of 19 May 2025). Another example: any infinite abelian group G with finite set of elements of order 2 can be partitioned into countably many subsets dense in every non-discrete group topology on G according to Corollary 12.21 in (Y. Zelenyuk, Ultrafilters and topologies on groups, De Gruyter, 2011). (Letter of I. V. Protasov of 19 May 2025)."
+}

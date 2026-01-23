@@ -1,0 +1,5 @@
+{
+  "page_number": 156,
+  "problem_number": "20.91",
+  "problem_text": "20.91. A group G is said to be stable if for any first-order formula \u03d5(\u00afx, \u00afy) (in the first-order language of groups { \u00b7 , \u22121, 1}) there exists a natural number n such that whenever there exist sequences of tuples of G, (ai)i<m, (bi)i<m with G |= \u03d5(ai, bj) if and only if i < j, then m \u2a7d n. Sela proved that all torsion-free hyperbolic groups are stable.\na) Is there a non-stable hyperbolic group?\nb) Is there a non-stable virtually free group?\nc) Is SL2(Z) non-stable?\nR. Sklinos"
+}

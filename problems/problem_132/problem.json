@@ -1,0 +1,5 @@
+{
+  "page_number": 20,
+  "problem_number": "6.55",
+  "problem_text": "6.55. A group G of the form G = F \u22cb H is said to be a Frobenius group with kernel F and complement H if H \u2229 H^g = 1 for any g \u2208 G \\ H and F \\ {1} = G \\ \u22c3_{g\u2208G} H^g. Do there exist Frobenius p-groups? V. P. Shunkov"
+}

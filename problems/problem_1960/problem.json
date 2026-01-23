@@ -1,0 +1,6 @@
+{
+  "page_number": 274,
+  "problem_number": "18.9",
+  "problem_text": "Does there exist a subgroup-closed saturated formation F of finite groups properly contained in E\u03c0, where \u03c0 = char(F), satisfying the following property: if G \u2208 F, then there exists a prime p (depending on the group G) such that the wreath product C_p \u2240 G belongs to F, where C_p is the cyclic group of order p?\nA. Ballester-Bolinches",
+  "answer": "Yes, there does (S. F. Kamornikov, Trudy. Inst. Mat. (Minsk), 24, no. 1 (2016), 30\u201333)."
+}

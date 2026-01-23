@@ -1,0 +1,6 @@
+{
+  "page_number": 230,
+  "problem_number": "Well-known problem",
+  "problem_text": "A finite set of reductions ui \u2192 vi of words on a finite alphabet \u03a3 = \u03a3\u22121 is called a group set of reductions if length(ui) > length(vi) or length(ui) = length(vi) and ui > vi in the lexicographical ordering, and every word in \u03a3 can be reduced to the unique reduced form which does not depend on the sequence of reductions. Do there exist group sets of reductions satisfying the condition length(vi) \u2a7d 1 for all i, which are different from 1) sets of trivial reductions x\u2212\u03b5x\u03b5 \u2192 1, \u03b5 = \u00b11, 2) multiplication tables xy \u2192 z of finite groups, and 3) their finite unions?\nYu. I. Merzlyakov",
+  "answer": "Yes, there do (J. Avenhaus, K. Madlener, F. Otto, Trans. Amer. Math. Soc., 297 (1986), 427\u2013443)."
+}

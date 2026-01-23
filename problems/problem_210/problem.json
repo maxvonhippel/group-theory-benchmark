@@ -1,0 +1,5 @@
+{
+  "page_number": 30,
+  "problem_number": "8.82",
+  "problem_text": "Let H = C \u00d7 R = {(z, r) | z \u2208C, r > 0} be the three-dimensional Poincar\u00b4e\nspace which admits the following action of the group SL2(C):\n(z, r)\n\\left(\\begin{array}{cc} a \\\\ b \\\\ c \\\\ d \\end{array}\\right)\n=\n\\left(\n\\frac{(az + b)(cz + d) + acr2}{|cz + d|2 + |c|2r2}\n,\n\\frac{r}{|cz + d|2 + |c|2r2}\n\\right)\n.\nLet o be the ring of integers of the field K = Q(\u221aD), where D < 0, \u03c0 a prime such\nthat \u03c0\u03c0 is a prime in Z and let \u0393 =\n{\\left(\\begin{array}{cc} a \\\\ b \\\\ c \\\\ d \\end{array}\\right) \u2208SL2(o) | b \u22610 (mod \u03c0)}. Adding\nto the space \u0393 \\ H3 two vertices we get a three-dimensional compact space \u0393 \\ H3.\nCalculate r(\u03c0) = dim Q H1(\u0393 \\ H3, Q) = dim Q(\u0393ab \u2297Q).\nFor example, if D = \u22123 then r(\u03c0) is distinct from zero for the first time for \u03c0 | 73\n(then r(\u03c0) = 1), and if D = \u22124 then r(\u03c0) = 1 for \u03c0 | 137.\nH. Helling"
+}

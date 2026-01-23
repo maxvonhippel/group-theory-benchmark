@@ -1,0 +1,5 @@
+{
+  "page_number": 125,
+  "problem_number": "18.92",
+  "problem_text": "A non-empty set \u03b8 of formations is called a complete lattice of formations if the intersection of any set of formations in \u03b8 belongs to \u03b8 and \u03b8 has the largest element (with respect to inclusion). If L is a complete lattice, then an element a \u2208 L is said to be compact if a \u2a7d \u22c1X for any X \u2286 L implies that a \u2a7d \u22c1X1 for some finite X1 \u2282 X. A complete lattice is called algebraic if every element is the join of a (possibly infinite) set of compact elements.\na) Is there a non-algebraic complete lattice of formations of finite groups?\nb) Is there a non-modular complete lattice of formations of finite groups?\nA. N. Skiba"
+}

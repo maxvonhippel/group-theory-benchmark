@@ -1,0 +1,6 @@
+{
+  "page_number": 239,
+  "problem_number": "11.35",
+  "problem_text": "Suppose that H is a finite linear group over C and h is an element of H of prime order p which is not contained in any abelian normal subgroup. Is it true that h has at least (p \u2212 1)/2 different eigenvalues?\nA. E. Zalesskii",
+  "answer": "Yes, it is (G. R. Robinson, J. Algebra, 178, no. 2 (1995), 635\u2013642)."
+}

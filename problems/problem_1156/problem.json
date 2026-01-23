@@ -1,0 +1,5 @@
+{
+  "page_number": 161,
+  "problem_number": "20.124",
+  "problem_text": "A Rota\u2013Baxter operator on a group G is a mapping B : G \u2192 G such that B(g)B(h) = B(gB(g)hB(g)\u22121) for all g, h \u2208 G. Let F be a non-abelian free group. Is there a Rota\u2013Baxter operator on F such that its image is equal to the derived subgroup [F, F]? V. G. Bardakov"
+}

@@ -1,0 +1,6 @@
+{
+  "page_number": 273,
+  "problem_number": "17.108",
+  "problem_text": "Is the group \u27e8a, b, t | at = ab, bt = ba\u27e9 linear? If not, this would be an easy example of a non-linear hyperbolic group. M. Sapir",
+  "answer": "Yes, this group is linear. Indeed, as noticed by M. Sapir, this group is the mapping torus of an irreducible atoroidal self-monomorphism of a free group; thus it is virtually special, and hence Z-linear by Theorem B in (M. F. Hagen, D. T. Wise, Duke Math. J., 165, no. 9 (2016), 1753\u20131813). (M. F. Hagen, Letter of 6 August 2018.)"
+}

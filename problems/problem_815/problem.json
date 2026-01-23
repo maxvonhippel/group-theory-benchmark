@@ -1,0 +1,5 @@
+{
+  "page_number": 112,
+  "problem_number": "17.98",
+  "problem_text": "A variety of groups is said to be small if it contains only countably many non-isomorphic finitely generated groups.\n\na) Is it true that if G is a finitely generated group and the variety Var(G) it generates is small then G satisfies the maximal condition on normal subgroups?\n\nb) Is it true that a variety is small if and only if all its finitely generated groups have the Hopf property?\n\nP. M. Neumann"
+}

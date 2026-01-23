@@ -1,0 +1,5 @@
+{
+  "page_number": 180,
+  "problem_number": "21.134",
+  "problem_text": "For a finite group G, let the type of G be the function on positive integers whose value at n is the number of solutions of the equation x^n = 1 in G.\na) Is it true that a group having the same type as a group with trivial solvable radical must also have trivial solvable radical? Note that there are solvable and nonsolvable groups with the same type (see 12.37).\nb) Is it true that a group having the same type as an almost simple group must be isomorphic to it? This is true for a group having the same type as a simple group, as follows from the affirmative answer to 12.39 (in Archive).\nA. V. Vasil\u2019ev"
+}

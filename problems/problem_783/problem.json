@@ -1,0 +1,5 @@
+{
+  "page_number": 109,
+  "problem_number": "17.59",
+  "problem_text": "A permutation of Z is called residue-class-wise affine if there is a positive integer m such that its restrictions to the residue classes (mod m) are all affine. Is CT(Z) the group of all residue-class-wise affine permutations of Z which fix the nonnegative integers setwise?\nS. Kohl"
+}

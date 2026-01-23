@@ -1,0 +1,5 @@
+{
+  "page_number": 67,
+  "problem_number": "13.36",
+  "problem_text": "For a finitely generated pro-p-group G set an(G) = dim FpIn/In+1, where I is the augmentation ideal of the group ring Fp[[G]]. We define the growth of G to be the growth of the sequence {an(G)}n\u2208N.\na) If the growth of G is exponential, does it follow that G contains a free pro-p-subgroup of rank 2?\nc) Do there exist pro-p-groups of finite cohomological dimension which are not p-adic analytic, and whose growth is slower than an exponential one?\nO. V. Mel\u2019nikov"
+}

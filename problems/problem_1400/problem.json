@@ -1,0 +1,6 @@
+{
+  "page_number": 196,
+  "problem_number": "2.45",
+  "problem_text": "(P. Hall). Prove or refute the following conjectures:\na) If a word v takes only finitely many values in a group G, then the verbal subgroup vG is finite.\nc) If G satisfies the maximum condition and vG is finite, then v\u2217G has finite index in G.\nYu. I. Merzlyakov",
+  "answer": "These conjectures are refuted in:\na) (S. V. Ivanov, Soviet Math. (Izv. VUZ), 33, no. 6 (1989), 59\u201370;\nc) I. S. Ashmanov, A. Yu. Olshanskii, Soviet Math. (Izv. VUZ), 29, no. 11 (1985), 65\u201382)."
+}

@@ -1,0 +1,5 @@
+{
+  "page_number": 83,
+  "problem_number": "15.8.b",
+  "problem_text": "b) Let G be any Lie group (indeed, any separable continuous group) made discrete: can G act faithfully on a countable set?\n\nComment of 2021: an affirmative answer was obtained for the nilpotent case (N. Monod, J. Group Theory, 25, no. 5 (2022), 851\u2013865). Comment of 2025: this problem is reduced to the case of simple Lie groups; in particular, the solvable case is settled (A. Conversano, N. Monod, J. Algebra, 640 (2024), 106\u2013116). P. de la Harpe"
+}

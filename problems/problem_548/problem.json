@@ -1,0 +1,5 @@
+{
+  "page_number": 76,
+  "problem_number": "14.44",
+  "problem_text": "Let k(X) denote the number of conjugacy classes of a finite group X. Suppose that a finite group G = AB is a product of two subgroups A, B of coprime orders. Is it true that k(AB) \u2a7dk(A)k(B)?\nNote that one cannot drop the coprimeness condition and the answer is positive if one of the subgroups is normal, see Archive, 11.43.\nL. S. Kazarin, J. Sangroniz"
+}

@@ -1,0 +1,5 @@
+{
+  "page_number": 113,
+  "problem_number": "17.110",
+  "problem_text": "a) Is it true that for each word w, there is a function h : N \u00d7 N \u2192N such that the width of w in every finite p-group of Pr\u00a8ufer rank r is bounded by h(p, r)?\n b) If so, can h(p, r) be made independent of p?\nAn affirmative answer to a) would imply A. Jaikin-Zapirain\u2019s result (ibid.) that every word has finite width in each p-adic analytic pro-p group, since a pro-p group is p-adic analytic if and only if the Pr\u00a8ufer ranks of all its finite quotients are uniformly bounded.\nD. Segal"
+}

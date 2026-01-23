@@ -1,0 +1,5 @@
+{
+  "page_number": 148,
+  "problem_number": "20.29",
+  "problem_text": "Let S be a non-abelian finite simple group. Is it true that for any n \u2208 N, if the set of class sizes of a centreless finite group G is the same as the set of class sizes of the direct power S^n, then G \u2243 S^n?\nThis is proved for S = Alt_5 in (J. Algebra Appl., 21, no. 11 (2022), Article ID 2250226, 8 p.).\nI. B. Gorshkov"
+}

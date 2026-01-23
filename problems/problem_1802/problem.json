@@ -1,0 +1,6 @@
+{
+  "page_number": 250,
+  "problem_number": "13.11",
+  "problem_text": "Is a torsion-free group almost polycyclic if it has a finite set of generators a1, . . . , an such that every element of the group has a unique presentation in the form ak1_1 \u00b7 \u00b7 \u00b7 akn_n, where k1, . . . , kn \u2208 Z?\nV. V. Bludov",
+  "answer": "No, not always (A. Muranov, Trans. Amer. Math. Soc., 359 (2007), 3609\u20133645)."
+}

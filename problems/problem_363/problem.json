@@ -1,0 +1,6 @@
+{
+  "page_number": 52,
+  "problem_number": "11.67",
+  "problem_text": "Does there exist a torsion-free group with exactly 3 classes of conjugate elements such that no non-trivial conjugate class contains a pair of inverse elements?\nB. Neumann",
+  "answer": "Yes, there does (V. Bagayoko, https://arxiv.org/abs/2509.09186)."
+}

@@ -1,0 +1,6 @@
+{
+  "page_number": 263,
+  "problem_number": "16.1",
+  "problem_text": "a) Let G be a finite non-abelian group, and Z(G) its centre. One can associate a graph \u0393G with G as follows: take G\\Z(G) as vertices of \u0393G and join two vertices x and y if xy \u0338= yx. Let H be a finite non-abelian group such that \u0393G \u223c= \u0393H. If H is simple, is it true that G \u223c= H? Comment of 2009: This is true for groups with disconnected prime graphs (L. Wang, W. Shi, Commun. Algebra, 36 (2008), 523\u2013528). A. Abdollahi, S. Akbari, H. R. Maimani",
+  "answer": "a) Yes, it is mod CFSG (Ch. Khan\u2019, G. Ch`en\u2019, S. Go, Siberian Math. J., 49, no. 6 (2008), 1138\u20131146, for sporadic simple groups; A. Abdollahi, H. Shahverdi, J. Algebra, 357 (2012), 203\u2013207, for alternating groups; R. M. Solomon, A. J. Woldar, J. Group Theory, 16, no. 6 (2013), 793\u2013824, for simple groups of Lie type)."
+}

@@ -1,0 +1,5 @@
+{
+  "page_number": 83,
+  "problem_number": "15.1",
+  "problem_text": "(P. Longobardi, M. Maj, A. H. Rhemtulla). Let w = w(x1, . . . , xn) be a group word in n variables x1, . . . , xn, and V(w) the variety of groups defined by the law w = 1. Let V(w\u2217) (respectively, V(w#)) be the class of all groups G in which for every n infinite subsets S1, . . . , Sn there exist si \u2208 Si such that w(s1, . . . , sn) = 1 (respectively, \u27e8s1, . . . , sn\u27e9 \u2208 V(w)).\n\na) Is there some word w and an infinite group G such that G \u2208 V(w#) but G /\u2208 V(w)?\n\nb) Is there some word w and an infinite group G such that G \u2208 V(w\u2217) but G /\u2208 V(w#)?\n\nThe answer to both of these questions is likely to be \u201cyes\u201d. It is known that in a) w cannot be any of several words such as xn1, [x1, . . . , xn], [x1, x2]2, (x1x2)3x\u22123 2 x\u22123 1, and xa1 1 \u00b7 \u00b7 \u00b7 xan n for any non-zero integers a1, . . . , an.\n\nA. Abdollahi"
+}

@@ -1,0 +1,5 @@
+{
+  "page_number": 136,
+  "problem_number": "19.60",
+  "problem_text": "19.60. Let R be a principal ideal domain, let d be a positive integer, and let X1, . . . , Xm be members of SL(d, R) (or of GL(d, R)). Is it decidable whether or not these m matrices freely generate a free group? If it is, design an effective algorithm for computing the answer.\nP. M. Neumann"
+}

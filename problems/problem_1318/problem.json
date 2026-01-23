@@ -1,0 +1,6 @@
+{
+  "page_number": 184,
+  "problem_number": "1.18",
+  "problem_text": "(A. Tarski). a) Does there exist an algorithm for determining the solubility of equations in a free group?\nb) Describe the structure of all solutions of an equation when it has at least one solution.",
+  "answer": "a) Yes, there does (G. S. Makanin, Math. USSR\u2013Izv., 21 (1982), 546\u2013582; 25 (1985), 75\u201388).\nb) This was described (A. A. Razborov, Math. USSR\u2013Izv., 25 (1984), 115\u2013162)."
+}

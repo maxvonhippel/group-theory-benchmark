@@ -1,0 +1,6 @@
+{
+  "page_number": 257,
+  "problem_number": "14.88",
+  "problem_text": "We say that an element u of a group G is a test element if for any endomorphism \u03c6 of G the equality \u03c6(u) = u implies that \u03c6 is an automorphism of G. Does a free soluble group of rank 2 and derived length d > 2 have any test elements?\nB. Fine, V. Shpilrain",
+  "answer": "Yes, it does (E. I. Timoshenko, Algebra and Logic, 45, no. 4 (2006), 254\u2013260.)"
+}

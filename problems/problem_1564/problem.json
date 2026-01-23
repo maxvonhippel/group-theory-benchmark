@@ -1,0 +1,6 @@
+{
+  "page_number": 216,
+  "problem_number": "6.15",
+  "problem_text": "A variety is said to be pro-locally-finite if it is not locally finite while all of its proper subvarieties are locally finite. An example \u2014 the variety of abelian groups. How many pro-locally-finite varieties of groups are there? A. V. Kuznetsov",
+  "answer": "There are continuum of such varieties (P. A. Kozhevnikov, On varieties of groups of large odd exponent, Dep. 1612-V00, VINITI, Moscow, 2000 (Russian))."
+}

@@ -1,0 +1,6 @@
+{
+  "page_number": 273,
+  "problem_number": "17.79",
+  "problem_text": "Does there exist a finitely generated torsion group of unbounded exponent generating a proper variety? O. Macedo\u00b4nska",
+  "answer": "Yes, moreover, there is a continuum of such groups (V. S. Atabekyan, Infinite simple groups satisfying an identity, Dep. VINITI no. 5381-V86, Moscow, 1986 (Russian)). Another example was suggested by D. Osin in a letter of 31 August 2013: a free group G in the variety M defined by the law xny = yxn is a central extension of a free Burnside group of exponent n such that the centre of G is a free abelian group of countable rank (I. S. Ashmanov, A. Yu. Olshanskii, Izv. Vyssh. Uchebn. Zaved. Mat., 1985, no. 11 (1985), 48\u201360 (Russian)). Let x1, x2, . . . be a basis in Z(G). By adding to G the relations xii = 1 for all i we obtain a periodic group of unbounded exponent generating a proper variety (contained in M)."
+}

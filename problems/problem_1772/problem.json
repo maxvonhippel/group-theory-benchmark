@@ -1,0 +1,6 @@
+{
+  "page_number": 246,
+  "problem_number": "12.32",
+  "problem_text": "Prove an analogue of Higman\u2019s theorem for the Burnside variety Bn of groups of odd exponent n \u226b 1, that is, prove that every recursively presented group of exponent n can be embedded in a finitely presented (in Bn) group of exponent n.\nS. V. Ivanov",
+  "answer": "It is proved (A. Yu. Olshanskii, J. Algebra, 560 (2020), 960\u20131052)."
+}

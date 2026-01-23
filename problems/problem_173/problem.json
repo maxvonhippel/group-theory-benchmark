@@ -1,0 +1,5 @@
+{
+  "page_number": 27,
+  "problem_number": "8.14 b",
+  "problem_text": "8.14. b) Assume a group G is existentially closed in one of the classes LN+, LS\u03c0, LS+, LS of, respectively, all locally nilpotent torsion-free groups, all locally soluble \u03c0-groups, all locally soluble torsion-free groups, or all locally soluble groups. Is it true that G is characteristically simple?\nThe existential closedness of G is a local property, thus it seems difficult to obtain global properties of G from it. See also Archive, 8.14 a.\nO. H. Kegel"
+}

@@ -1,0 +1,6 @@
+{
+  "page_number": 198,
+  "problem_number": "2.69",
+  "problem_text": "Let a group G be the product of two subgroups A and B, each of which is nilpotent and satisfies the minimum condition. Prove or refute the following:\na) G is soluble; b) the divisible parts of A and B commute elementwise.\nN. F. Sesekin",
+  "answer": "Both parts are proved (N. S. Chernikov, Soviet Math. Dokl., 21 (1980), 701\u2013703)."
+}

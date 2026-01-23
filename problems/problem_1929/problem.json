@@ -1,0 +1,6 @@
+{
+  "page_number": 269,
+  "problem_number": "17.3",
+  "problem_text": "Let G be a group in which every 4-element subset contains two elements generating a nilpotent subgroup. Is it true that every 2-generated subgroup of G is nilpotent?\nA. Abdollahi",
+  "answer": "No, not always (A. I. Sozutov, Siberian Math. J., 60, no. 6 (2019), 1099\u20131100)."
+}

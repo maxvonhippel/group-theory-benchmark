@@ -1,0 +1,5 @@
+{
+  "page_number": 154,
+  "problem_number": "20.80",
+  "problem_text": "Let G be a finite group, and \u03c7 an irreducible complex character of G. We call\n\u03c7 a P-character if \u03c7 is a constituent of (1H)G for some maximal subgroup H of G;\nand \u03c7 is said to be monomial if \u03c7 is induced by a linear character of a subgroup of G.\nConjecture: G is solvable if and only if all its P-characters are monomial.\nThe necessity part of the conjecture is true (G. Qian, Y. Yang, Commun. Algebra,\n46, no. 1 (2018), 167\u2013175).\nG. Qian"
+}

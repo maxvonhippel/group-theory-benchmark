@@ -1,0 +1,6 @@
+{
+  "page_number": 240,
+  "problem_number": "11.36. e)",
+  "problem_text": "Let G = B(m, n) be the free Burnside group of rank m and of odd exponent n \u226b 1. Is it true that all zero divisors in the group ring ZG are trivial? which means that if ab = 0 then a = a1c, b = db1 where a1, c, b1, d \u2208 ZG, cd = 0, and the set supp c \u222a supp d is contained in a cyclic subgroup of G. S. V. Ivanov",
+  "answer": "No, there are nontrivial zero divisors (S. V. Ivanov, R. Mikhailov, Canad. Math. Bull., 57 (2014), 326\u2013334)."
+}

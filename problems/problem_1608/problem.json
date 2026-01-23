@@ -1,0 +1,6 @@
+{
+  "page_number": 223,
+  "problem_number": "7.48",
+  "problem_text": "(Well-known problem). Suppose that, in a finite group G, each two elements of the same order are conjugate. Is then |G| \u2a7d 6?\n\nS. A. Syskin",
+  "answer": "Yes, it is, mod CFSG (P. Fitzpatrick, Proc. Roy. Irish Acad. Sect. A, 85, no. 1 (1985), 53\u201358); see also (W. Feit, G. Seitz, Illinois J. Math., 33, no. 1 (1988), 103\u2013131) and (R. W. van der Waall, A. Bensa\u00a8\u0131d, Simon Stevin, 65 (1991), 361\u2013374)."
+}

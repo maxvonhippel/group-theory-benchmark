@@ -1,0 +1,5 @@
+{
+  "page_number": 52,
+  "problem_number": "11.71",
+  "problem_text": "Let A be a finite group with a normal subgroup H. A subgroup U of H is called an A-covering subgroup of H if \u222a_{a\u2208A} U^a = H. Is there a function f : N \u2192 N such that whenever U < H < A, where A is a finite group, H is a normal subgroup of A of index n, and U is an A-covering subgroup of H, the index |H : U| \u2a7d f(n)? (We have shown that the answer is \u201cyes\u201d if U is a maximal subgroup of H.)\nComments of 2025: The conjecture is proved in the case where H acts innately transitively on the coset space [H : U] (M. Fusari, A. Previtali, P. Spiga, J. Group Theory, 27 (2024), 929\u2013965); for n = 3 with |H : U| \u2a7d 10 (L. Gogniat, P. Spiga, Preprint, 2025, https://arxiv.org/abs/2502.01287); and if H = UL where L is a minimal A-invariant subgroup of H (M. Fusari, S. Harper, P. Spiga, Bull. Austral. Math. Soc., 2025, https://doi.org/10.1017/S0004972725000176).\nP. M. Neumann, C. E. Praeger"
+}

@@ -1,0 +1,5 @@
+{
+  "page_number": 100,
+  "problem_number": "16.64",
+  "problem_text": "A non-abelian variety in which all finite groups are abelian is called pseudo-abelian. A group variety is called a t-variety if for all groups in this variety the relation of being a normal subgroup is transitive. By (O. Macedo\u00b4nska, A. Storozhev, Commun. Algebra, 25, no. 5 (1997), 1589\u20131593) each non-abelian t-variety is pseudo-abelian, and the pseudo-abelian varieties constructed in (A. Yu. Olshanskii, Math. USSR\u2013Sb., 54 (1986), 57\u201380) are t-varieties. Is every pseudo-abelian variety a t-variety?\nO. Macedo\u00b4nska"
+}

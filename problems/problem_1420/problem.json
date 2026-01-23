@@ -1,0 +1,6 @@
+{
+  "page_number": 198,
+  "problem_number": "2.72",
+  "problem_text": "(G. Baumslag). Suppose that F is a finitely generated free group, N its normal subgroup and V a fully invariant subgroup of N. Is F/V necessarily Hopfian if F/N is Hopfian?\nD. M. Smirnov",
+  "answer": "No, not necessarily (S. V. Ivanov, A. M. Storozhev, Geom. Dedicata, 114 (2005), 209\u2013228)."
+}

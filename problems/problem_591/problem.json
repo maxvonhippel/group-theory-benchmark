@@ -1,0 +1,5 @@
+{
+  "page_number": 83,
+  "problem_number": "15.2",
+  "problem_text": "By a theorem of W. Burnside, if \u03c7 \u2208 Irr(G) and \u03c7(1) > 1, then there exists x \u2208 G such that \u03c7(x) = 0, that is, only the linear characters are \u201cnonvanishing\u201d. It is interesting to consider the dual notion of nonvanishing elements of a finite group G, that is, the elements x \u2208 G such that \u03c7(x) \u0338= 0 for all \u03c7 \u2208 Irr(G).\n\na) It is proved (I. M. Isaacs, G. Navarro, T. R. Wolf, J. Algebra, 222, no. 2 (1999), 413\u2013423) that if G is solvable and x \u2208 G is a nonvanishing element of odd order, then x belongs to the Fitting subgroup F(G). Is this true for elements of even order too? (M. Miyamoto showed in 2008 that every nontrivial abelian normal subgroup of a finite group contains a nonvanishing element.)\n\nb) Which nonabelian simple groups have nonidentity nonvanishing elements? (For example, A7 has.)\n\nI. M. Isaacs"
+}

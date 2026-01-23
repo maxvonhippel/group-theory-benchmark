@@ -1,0 +1,6 @@
+{
+  "page_number": 196,
+  "problem_number": "2.50",
+  "problem_text": "(A. Selberg). Let \u0393 be an irreducible discrete subgroup of a connected Lie group G such that the factor space G/\u0393 is non-compact but has finite volume in the Haar measure. Prove that \u0393 contains a non-trivial unipotent element.\nV. P. Platonov",
+  "answer": "This is proved (D. A. Kazhdan, G. A. Margulis, Math. USSR\u2013Sb., 4 (1968), 147\u2013152)."
+}

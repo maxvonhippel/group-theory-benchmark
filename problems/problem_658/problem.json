@@ -1,0 +1,5 @@
+{
+  "page_number": 93,
+  "problem_number": "15.92",
+  "problem_text": "A group \u27e8x, y | x^l = y^m = (xy)^n\u27e9 is called the triangle group with parameters (l, m, n). It is proved in (A. M. Brunner, R. G. Burns, J. Wiegold, Math. Scientist, 4 (1979), 93\u201398) that the triangle group (2, 3, 30) has uncountably many non-isomorphic homomorphic images that are residually finite alternating groups. Is the same true for the triangle group (2, 3, n) for all n > 6?\nJ. Wiegold"
+}

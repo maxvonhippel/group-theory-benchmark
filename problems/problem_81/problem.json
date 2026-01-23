@@ -1,0 +1,5 @@
+{
+  "page_number": 14,
+  "problem_number": "4.56",
+  "problem_text": "Let R be a commutative Noetherian ring with 1, and \u039b an R-algebra, which is finitely generated as R-module. Put T = {U \u2208 Mod \u039b | \u2203 an exact \u039b-sequence 0 \u2192 P \u2192 \u039b(n) \u2192 U \u2192 0 for some n, with Pm \u223c= \u039b(n)m for every maximal ideal m of R}.\nDenote by G(T) the Grothendieck group of T relative to short exact sequences.\na) Describe G(T), in particular, what does it mean: [U] = [V ] in G(T)?\nb) Conjecture: if dim(max(R)) = d < \u221e, and there are two epimorphisms \u03c6 : \u039b(n) \u2192 U, \u03c8: \u039b(n) \u2192 V , n > d, and [U] = [V ] in G(T), then Ker \u03c6 = Ker \u03c8.\nK. W. Roggenkamp"
+}

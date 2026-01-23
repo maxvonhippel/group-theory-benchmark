@@ -1,0 +1,5 @@
+{
+  "page_number": 176,
+  "problem_number": "21.104",
+  "problem_text": "21.104. For a group word w(x1, . . . , xn) on n letters, define e0(x1, . . . , xn) = x1 and\nek+1(x1, . . . , xn) = w(ek(x1, . . . , xn), . . . , xn) for all k \u2208N.\nA group G is said to\nsatisfy the Engel type iterated identity w if for all x1, . . . , xn \u2208G there exists m \u2208N\nsuch that em(x1, . . . , xn) = 1.\nConjecture: For every non-trivial word w, if a finitely generated branch group G\n(see 15.12) satisfies the iterated identity w, then G is a torsion group.\nThis is true in the case of the commutator word w = [x1, x2] (G. Fern\u00b4andez-\nAlcober, M. Noce, G. Tracey, J. Algebra, 554 (2020), 54\u201377).\nM. Petschick"
+}

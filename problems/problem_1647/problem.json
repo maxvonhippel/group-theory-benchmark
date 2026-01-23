@@ -1,0 +1,6 @@
+{
+  "page_number": 228,
+  "problem_number": "8.81",
+  "problem_text": "Let G be a finite p-group admitting an automorphism \u03b1 of prime order q with |CG(a)| \u2a7d n.\n a) If p = q, then does G have a nilpotent subgroup of class at most 2 and index bounded by a function of n?\n b) If p \u0338= q, then does G have a nilpotent subgroup of class bounded by a function of q and index bounded by a function of n (and, possibly, q)?\nB. Hartley",
+  "answer": "a) Not necessarily (E. I. Khukhro, Math. Notes, 38 (1985), 867\u2013870).\n b) Yes, it does (E. I. Khukhro, Math. USSR\u2013Sb., 71, no. 1 (1992), 51\u201363)."
+}

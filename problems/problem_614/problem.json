@@ -1,0 +1,5 @@
+{
+  "page_number": 86,
+  "problem_number": "15.41",
+  "problem_text": "Let R(m, p) denote the largest finite m-generator group of prime exponent p.\na) Can the nilpotency class of R(m, p) be bounded by a polynomial in m? (This is true for p = 2, 3, 5, 7.)\nb) Can the nilpotency class of R(m, p) be bounded by a linear function in m? (This is true for p = 2, 3, 5.)\nc) In particular, can the nilpotency class of R(m, 7) be bounded by a linear function in m?\nMy guess is \u201cno\u201d to the first two questions for general p, but \u201cyes\u201d to the third.\nBy contrast, a beautiful and simple argument of Mike Newman shows that if m \u2a7e 2 and k \u2a7e 2 (k \u2a7e 3 for p = 2), then the order of R(m, p^k) is at least p^{p^{...^{p^m}}}, with p appearing k times in the tower; see (M. Vaughan-Lee, E. I. Zelmanov, J. Austral. Math. Soc. (A), 67, no. 2 (1999), 261\u2013271).\nM. R. Vaughan-Lee"
+}

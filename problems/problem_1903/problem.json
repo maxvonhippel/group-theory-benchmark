@@ -1,0 +1,6 @@
+{
+  "page_number": 265,
+  "problem_number": "16.52",
+  "problem_text": "Is every finitely presented elementary amenable group solvable-by-finite?\nP. Linnell, T. Schick",
+  "answer": "No, not every. I. Belegradek and Y. Cornulier have pointed out that the groups in (C. H. Houghton, Arch. Math. (Basel), 31, no. 3 (1978/79), 254\u2013258) are finitely presented as shown in (K. S. Brown, J. Pure Appl. Algebra, 44, no. 1\u20133 (1987), 45\u201375) and elementary amenable, but not virtually solvable; http://mathoverflow.net/questions/107996."
+}

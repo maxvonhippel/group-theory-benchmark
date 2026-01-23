@@ -1,0 +1,6 @@
+{
+  "page_number": 204,
+  "problem_number": "Well-known problem",
+  "problem_text": "3.62. (Well-known problem). A finite group is said to be a D\u03c0-group if any two of its maximal \u03c0-subgroups are conjugate. Is an extension of a D\u03c0-group by a D\u03c0-group always a D\u03c0-group?\nL. A. Shemetkov",
+  "answer": "Yes, it is mod CFSG (E. P. Vdovin, D. O. Revin, Contemp. Math., 402 (2006), 229\u2013263)."
+}

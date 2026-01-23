@@ -1,0 +1,5 @@
+{
+  "page_number": 112,
+  "problem_number": "17.102",
+  "problem_text": "We say that two subsets A, B of an infinite group G are separated if there exists an infinite subset X of G such that 1 \u2208 X, X = X\u22121, and XAX \u2229 B = \u2205. Is it true that any two disjoint subsets A, B of an infinite group G satisfying |A| < |G|, |B| < |G| are separated? This is so if A, B are finite, or G is Abelian.\nI. V. Protasov"
+}

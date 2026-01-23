@@ -1,0 +1,5 @@
+{
+  "page_number": 113,
+  "problem_number": "17.105",
+  "problem_text": "An equation over a pro-p-group G is an expression v(x) = 1, where v(x) is an element of the free pro-p-product of G and a free pro-p-group with basis {x1, . . . , xn}; solutions are sought in the affine space Gn.\nIs it true that a free pro-p-group is equationally Noetherian, that is, for any n every system of equations in x1, . . . , xn over this group is equivalent to some finite subsystem of it?\nN. S. Romanovski\u02d8\u0131"
+}

@@ -1,0 +1,6 @@
+{
+  "page_number": 259,
+  "problem_number": "15.7",
+  "problem_text": "(Well-known problem). Is it true that the reduced C\u2217-algebra of a countable group without amenable normal subgroups distinct from {1} is always a simple C\u2217-algebra with unique trace? See (M. B. Bekka, P. de la Harpe, Expos. Math., 18, no. 3 (2000), 215\u2013230). Comment of 2009: This was proved for linear groups (T. Poznansky, https://arxiv.org/pdf/0812.2486.pdf). P. de la Harpe",
+  "answer": "Yes, it is true (E. Breuillard, M. Kalantar, M. Kennedy, N. Ozawa, Publ. Math. IH\u00c9S, 126, no. 1 (2017), 35\u201371). If \u0393 is assumed to be linear, then C\u2217red(\u0393) is simple if and only if it has a unique trace (Theorem 1.6 ibid., and also Poznansky\u2019s 2009 preprint). However, there are infinite countable groups \u0393 having the following two properties: the only amenable normal subgroup is {1}, and C\u2217red(\u0393) is not simple, as shown in (A. Le Boudec, Invent. Math., 209, no. 1 (2017), 159\u2013174)."
+}

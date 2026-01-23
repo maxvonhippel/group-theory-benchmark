@@ -4,8 +4,6 @@ Generate a tree structure of the project with comments from Python files.
 This script creates a visual tree representation of the directory structure,
 including docstrings from Python files as inline comments.
 """
-
-import os
 from pathlib import Path
 
 

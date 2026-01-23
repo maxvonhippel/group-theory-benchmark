@@ -1,0 +1,5 @@
+{
+  "page_number": 143,
+  "problem_number": "20.6",
+  "problem_text": "(W. Kimmerle). The prime graph (or Gruenberg\u2013Kegel graph) \u0393(X) of a group X has vertices labeled by primes appearing as orders of elements in X; two distinct primes p and q are adjacent in \u0393(X) if and only if X contains an element of order pq. Denote by V(ZG) the group of normalized units of the integral group ring of a group G. Is it true that for each finite group G the prime graphs of G and V(ZG) coincide?\nThis question has been reduced to almost simple groups (W. Kimmerle, A. Konovalov, Internat. J. Algebra Comput., 27 (2017), 619\u2013631).\nA. B\u00a8achle, L. Margolis"
+}

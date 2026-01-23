@@ -1,0 +1,6 @@
+{
+  "page_number": 241,
+  "problem_number": "11.70",
+  "problem_text": "b) Let F be an infinite field or a skew-field. What conditions on the subring R of F will ensure that PGL(d + 1, R) is flag-transitive on the projective d-space PG(d, F)?\nP. M. Neumann, C. E. Praeger",
+  "answer": "b) Such necessary and sufficient conditions are given in (S. A. Zyubin, Siberian Electron. Math. Rep., 11 (2014), 64\u201369 (Russian))."
+}

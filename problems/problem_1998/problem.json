@@ -1,0 +1,6 @@
+{
+  "page_number": 281,
+  "problem_number": "19.98",
+  "problem_text": "19.98. A connected graph \u03a3 is a symmetrical extension of a graph \u0393 by a graph \u2206if there exist a vertex-transitive group G of automorphisms of \u03a3 and an imprimitivity system \u03c3 of G on the set of vertices of \u03a3 such that the quotient graph \u03a3/\u03c3 is isomorphic to \u0393 and blocks of \u03c3 generate in \u03a3 subgraphs isomorphic to \u2206.\n(a) Let \u0393 be a locally finite Cayley graph of a finitely presented group, and \u2206 a finite graph. Are there only finitely many symmetrical extensions of \u0393 by \u2206?\n(b) Let \u0393 be a locally finite graph which has the property of k-contractibility for some positive integer k (see the definition in (V. I. Trofimov, Proc. Steklov Inst. Math., 279, suppl. 1 (2012), 107\u2013112); note that any \u0393 from (a) is such a graph) and let \u2206be a finite graph. Are there only finitely many symmetrical extensions of \u0393 by \u2206?\nV. I. Trofimov",
+  "answer": "(a) No, not always, as follows from the construction in the proof of Theorem H in (M. de la Salle, R. Tessera, J. Topology, 12 (2019), 705\u2013743).\n(b) No, not always as follows from the construction in the proof of Theorem H in (M. de la Salle, R. Tessera, J. Topology, 12 (2019), 705\u2013743)."
+}

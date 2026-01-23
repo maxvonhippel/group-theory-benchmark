@@ -1,0 +1,5 @@
+{
+  "page_number": 117,
+  "problem_number": "18.12",
+  "problem_text": "Let G be a finitely generated group of intermediate growth. Is it true that there is a positive integer m such that every element of the derived subgroup G\u2032 is a product of at most m commutators?\nThis assertion is valid for groups of polynomial growth, since they are almost nilpotent by Gromov\u2019s theorem. On the other hand, there are groups of exponential growth (for example, free groups) for which this assertion is not true. V. G. Bardakov"
+}

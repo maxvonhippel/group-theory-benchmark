@@ -1,0 +1,6 @@
+{
+  "page_number": 279,
+  "problem_number": "19.75",
+  "problem_text": "19.75. Let P be a finite 2-group of exponent 2e such that the rank of every abelian subgroup is at most r. Is it true that |P| \u2a7d 2^{r(e+1)}? This bound would be sharp (for a direct product of quaternion groups).\nB. Sambale",
+  "answer": "No, it is not true, as follows from the examples constructed in (A. Yu. Olshanskii, Math. Notes, 23 (1978), 183\u2013185). (A. Mann, Letter of 23 April 2018.)"
+}

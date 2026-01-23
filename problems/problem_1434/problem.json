@@ -1,0 +1,6 @@
+{
+  "page_number": 200,
+  "problem_number": "3.10",
+  "problem_text": "Need the number of finite non-abelian simple groups contained in a proper variety of groups be finite?\nYu. M. Gorchakov",
+  "answer": "Yes, mod CFSG; see, for example, (G. A. Jones, J. Austral. Math. Soc., 17 (1974), 162\u2013173)."
+}

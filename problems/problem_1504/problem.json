@@ -1,0 +1,6 @@
+{
+  "page_number": 209,
+  "problem_number": "4.62",
+  "problem_text": "Does there exist a finitely based variety of groups whose universal theory is undecidable?\nA. Tarski",
+  "answer": "Yes, there does; for example, A5. Indeed, it is shown in (V. N. Remeslennikov, Algebra and Logic, 12, no. 5 (1975), 327\u2013346) that there exists a finitely presented group\nG = \u27e8x1, . . . , xn | w1, . . . , wm, mod A5\u27e9\nin A5 with undecidable word problem. We put \u03a6w = (\u2200x1, . . . , xn)((w1 = 1) \u2227 . . . \u2227 (wm = 1) \u2192 (w = 1)), where w runs over all the words in x1, . . . , xn. Clearly, there is no algorithm to decide whether a formula \u03a6w is true in A5. (V. N. Remeslennikov, 1976.)"
+}

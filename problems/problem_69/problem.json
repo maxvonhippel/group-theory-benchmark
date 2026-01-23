@@ -1,0 +1,5 @@
+{
+  "page_number": 12,
+  "problem_number": "4.24",
+  "problem_text": "4.24. Suppose T is a non-abelian Sylow 2-subgroup of a finite simple group G.\na) Suppose T has nilpotency class n. The best possible bound for the exponent of\nthe center of T is 2n\u22121. This easily implies the bound 2n(n\u22121) for the exponent of T,\nhowever, this is almost certainly too crude. What is the best possible bound?\nd) Find a \u201csmall number\u201d of subgroups T1, . . . , Tn of T which depend only on the\nisomorphism class of T such that {NG(T1), . . . , NG(Tn)} together control fusion in T\nwith respect to G (in the sense of Alperin).\nD. M. Goldschmidt"
+}

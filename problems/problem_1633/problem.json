@@ -1,0 +1,6 @@
+{
+  "page_number": 226,
+  "problem_number": "8.48",
+  "problem_text": "If a finite group G can be written as the product of two soluble subgroups of odd index, then is G soluble?\nV. S. Monakhov",
+  "answer": "Yes, it is (mod CFSG) (L. S. Kazarin, Ukrain. Math. J., 43 (1991), 883\u2013886)."
+}

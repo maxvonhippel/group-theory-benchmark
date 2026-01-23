@@ -1,0 +1,6 @@
+{
+  "page_number": 201,
+  "problem_number": "3.18",
+  "problem_text": "3.18. (B. H. Neumann). A group U is called universal for a class K of groups if U contains an isomorphic image of every member of K. Does there exist a countable group that is universal for the class of countable orderable groups?\nA. I. Kokorin",
+  "answer": "No (M. I. Kargapolov, Algebra and Logic, 9 (1970), 257\u2013261; D. B. Smith, Pacific J. Math., 35 (1970), 499\u2013502)."
+}

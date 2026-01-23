@@ -1,0 +1,5 @@
+{
+  "page_number": 138,
+  "problem_number": "19.76",
+  "problem_text": "A semigroup presentation is called tree-like if all relations have the form a = bc where a, b, c are letters and no two relations share the left-hand side or the right-hand side. Is it decidable whether the semigroup given by a finite tree-like presentation contains an idempotent? This is equivalent to the question whether the closure of a finitely generated subgroup of R. Thompson\u2019s group F contains an isomorphic copy of F. M. Sapir"
+}

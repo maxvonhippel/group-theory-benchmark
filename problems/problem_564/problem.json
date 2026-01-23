@@ -1,0 +1,5 @@
+{
+  "page_number": 78,
+  "problem_number": "14.68",
+  "problem_text": "(Well-known problem). Suppose that F is an automorphism of order 2 of the polynomial ring Rn = C[x1, . . . , xn], n > 2. Does there exist an automorphism G of Rn such that G\u22121FG is a linear automorphism? This is true for n = 2. M. V. Neshchadim"
+}

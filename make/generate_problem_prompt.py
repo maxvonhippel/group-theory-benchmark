@@ -9,6 +9,8 @@ import random
 import sys
 from pathlib import Path
 
+from typing import Any
+
 
 # Solution artifact files - if any exists, problem is considered solved
 SOLUTION_ARTIFACTS = [
@@ -19,18 +21,28 @@ SOLUTION_ARTIFACTS = [
 ]
 
 
-def get_problem_dir(problem_num: str) -> Path:
-    """Get the directory path for a problem."""
-    return Path(__file__).parent.parent / "problems" / problem_num
+def get_problem_dir(problem_index: int) -> Path:
+    """Get the directory path for a problem by its index.
+    
+    Args:
+        problem_index: 1-based index into all_problems.json
+        
+    Returns:
+        Path to problem_<index> directory
+    """
+    return Path(__file__).parent.parent / "problems" / f"problem_{problem_index}"
 
 
-def is_problem_solved(problem_num: str) -> tuple[bool, str | None]:
+def is_problem_solved(problem_index: int) -> tuple[bool, str | None]:
     """Check if a problem already has a solution artifact.
+    
+    Args:
+        problem_index: 1-based index into all_problems.json
 
     Returns:
         (is_solved, artifact_path) - True and path if solved, False and None otherwise
     """
-    problem_dir = get_problem_dir(problem_num)
+    problem_dir = get_problem_dir(problem_index)
     for artifact in SOLUTION_ARTIFACTS:
         artifact_path = problem_dir / artifact
         if artifact_path.exists():
@@ -38,15 +50,20 @@ def is_problem_solved(problem_num: str) -> tuple[bool, str | None]:
     return False, None
 
 
-def load_open_problems():
-    """Load all open problems."""
+def load_open_problems() -> list[tuple[int, dict[str, Any]]]:
+    """Load all open problems with their indices.
+    
+    Returns:
+        List of tuples: (index, problem_dict) where index is 1-based
+    """
     problems_file = Path(__file__).parent.parent / "problems/all_problems.json"
     with open(problems_file) as f:
         data = json.load(f)
-    return [p for p in data if not p.get('answer')]
+    # Return (1-based index, problem) tuples for problems without answers
+    return [(i+1, p) for i, p in enumerate(data) if not p.get('answer')]
 
 
-def extract_gap_tool_docs(mcp_server_path):
+def extract_gap_tool_docs(mcp_server_path: Path) -> list[str]:
     """Extract tool documentation from the GAP MCP server file using AST."""
     with open(mcp_server_path) as f:
         content = f.read()
@@ -80,7 +97,7 @@ def extract_gap_tool_docs(mcp_server_path):
     return tools
 
 
-def generate_tool_documentation():
+def generate_tool_documentation() -> str:
     """Generate documentation for all available tools."""
     project_root = Path(__file__).parent.parent
 
@@ -113,17 +130,22 @@ def generate_tool_documentation():
     return doc
 
 
-def generate_prompt(problem):
-    """Generate a solving prompt for Claude."""
+def generate_prompt(problem_index: int, problem: dict[str, Any]) -> str:
+    """Generate a solving prompt for Claude.
+    
+    Args:
+        problem_index: 1-based index into all_problems.json
+        problem: The problem dictionary
+    """
     problem_num = problem.get('problem_number', 'unknown')
     problem_text = problem.get('problem_text', 'No problem text')
     project_root = Path(__file__).parent.parent
-    problem_dir = f"problems/{problem_num}"
+    problem_dir = f"problems/problem_{problem_index}"
 
     # Get tool documentation
     tool_docs = generate_tool_documentation()
 
-    prompt = f"""You are solving Kourovka Notebook problem #{problem_num}.
+    prompt = f"""You are solving Kourovka Notebook problem #{problem_num} (stored as problem_{problem_index}).
 
 **Problem Statement:**
 {problem_text}
@@ -205,7 +227,7 @@ Begin your investigation now. Use the tools actively."""
     return prompt
 
 
-def main():
+def main() -> None:
     """Generate and print prompt for a random open problem."""
     problems = load_open_problems()
     if not problems:
@@ -214,27 +236,25 @@ def main():
 
     # Filter out already-solved problems
     unsolved_problems = []
-    for p in problems:
-        problem_num = p.get('problem_number', 'unknown')
-        solved, _ = is_problem_solved(problem_num)
+    for problem_index, problem in problems:
+        solved, _ = is_problem_solved(problem_index)
         if not solved:
-            unsolved_problems.append(p)
+            unsolved_problems.append((problem_index, problem))
 
     if not unsolved_problems:
         print("All open problems have already been attempted!", file=sys.stderr)
         print(f"Total problems: {len(problems)}, all have solution artifacts.", file=sys.stderr)
         sys.exit(0)
 
-    problem = random.choice(unsolved_problems)
-    problem_num = problem.get('problem_number', 'unknown')
+    problem_index, problem = random.choice(unsolved_problems)
 
     # Double-check (in case of race condition or manual file creation)
-    solved, artifact_path = is_problem_solved(problem_num)
+    solved, artifact_path = is_problem_solved(problem_index)
     if solved:
         print(f"ALREADY_SOLVED:{artifact_path}", file=sys.stdout)
         sys.exit(0)
 
-    prompt = generate_prompt(problem)
+    prompt = generate_prompt(problem_index, problem)
     print(prompt)
 
 

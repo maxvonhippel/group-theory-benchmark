@@ -1,0 +1,5 @@
+{
+  "page_number": 133,
+  "problem_number": "19.33",
+  "problem_text": "Conjecture: Let G be a finite group, p a prime number, and P a Sylow p-subgroup of G. Suppose that an irreducible ordinary character \u03c7 of G has degree divisible by p. If the restriction \u03c7P of \u03c7 to P has a linear constituent, then \u03c7P has at least p different linear constituents.\nThis conjecture has been verified for symmetric, alternating, p-solvable, and sporadic simple groups.\nE. Giannelli"
+}

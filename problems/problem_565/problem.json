@@ -1,0 +1,5 @@
+{
+  "page_number": 78,
+  "problem_number": "14.69",
+  "problem_text": "For every finite simple group find the minimum of the number of generating involutions satisfying an additional condition, in each of the following cases. \u2217a) The product of the generating involutions equals 1. b) (Malle\u2013Saxl\u2013Weigel). All generating involutions are conjugate. c) (Malle\u2013Saxl\u2013Weigel). The conditions a) and b) are simultaneously satisfied. Editors\u2019 comment: partial progress was obtained in (J. Ward, PhD Thesis, QMW, 2009, http://www.maths.qmul.ac.uk/~raw/JWardPhD.pdf). d) All generating involutions are conjugate and two of them commute. Ya. N. Nuzhin \u2217a) These numbers are found (R. I. Gvozdev, Ya. N. Nuzhin, Siberian MAth. J., 64, no. 6 (2023), 1160\u20131171; M. A. Vsemirnov, R. I. Gvozdev, Ya. N. Nuzhin, Abstracts of Int. Conf. Mal\u2019cev Meeting 2023, Novosibirsk, 2023, p. 148)."
+}

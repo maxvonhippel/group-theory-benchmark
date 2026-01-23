@@ -1,0 +1,6 @@
+{
+  "page_number": 265,
+  "problem_number": "16.43",
+  "problem_text": "Is there a partition of the group L_{\u03c91}(Z/3Z) into three subsets whose complements do not contain cosets modulo infinite subgroups? (There is a partition into two such subsets.)\nE. G. Zelenyuk",
+  "answer": "Yes, moreover, every infinite abelian group with finitely many involutions can be partitioned into infinitely many subsets such that every coset modulo an infinite subgroup meets each subset of the partition (Y. Zelenyuk, J. Combin. Theory (A), 115 (2008), 331\u2013339)."
+}

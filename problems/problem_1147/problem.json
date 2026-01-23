@@ -1,0 +1,5 @@
+{
+  "page_number": 160,
+  "problem_number": "20.115",
+  "problem_text": "Let \u03c7 be a complex irreducible character of a finite group G. If \u03c7(x) \u0338= 0 for\nsome x \u2208G, must the order o(x) of x divide |G|/\u03c7(1)?\nThis is known to be true if G is solvable, and it is known that (o(x)\u03c7(1))4 divides\n|G|5 for arbitrary G.\nT. Wilde"
+}

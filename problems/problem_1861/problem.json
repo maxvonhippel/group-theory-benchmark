@@ -1,0 +1,6 @@
+{
+  "page_number": 259,
+  "problem_number": "15.10",
+  "problem_text": "(Yu. I. Merzlyakov). Is the group of all automorphisms of the free group Fn that act trivially on Fn/[Fn, Fn] linear for n \u2a7e 3? V. G. Bardakov",
+  "answer": "No, it is not: for n \u2a7e 5 (A. Pettet, Cohomology of some subgroups of the automorphism group of a free group, Ph.D. Thesis, 2006), and for n \u2a7e 3 (V. G. Bardakov, R. Mikhailov, Commun. Algebra, 36, no. 4 (2008), 1489\u20131499)."
+}

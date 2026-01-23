@@ -1,0 +1,6 @@
+{
+  "page_number": 212,
+  "problem_number": "5.21",
+  "problem_text": "Can every torsion-free group with solvable word problem be embedded in a group with solvable conjugacy problem? An example due to A. Macintyre shows that this question has a negative answer when the condition of torsion-freeness is omitted. D. J. Collins",
+  "answer": "No, not every (A. Darbinyan, Invent. Math., 224 (2021), 987\u2013997)."
+}

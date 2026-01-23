@@ -1,0 +1,6 @@
+{
+  "page_number": 216,
+  "problem_number": "6.16",
+  "problem_text": "A variety is called sparse if it has at most countably many subvarieties. How many sparse varieties of groups are there? A. V. Kuznetsov",
+  "answer": "There are continuum of such varieties (P. A. Kozhevnikov, On varieties of groups of large odd exponent, Dep. 1612-V00, VINITI, Moscow, 2000 (Russian); S. V. Ivanov, A. M. Storozhev, Contemp. Math., 360 (2004), 55\u201362)."
+}

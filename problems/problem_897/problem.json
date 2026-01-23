@@ -1,0 +1,5 @@
+{
+  "page_number": 122,
+  "problem_number": "18.67",
+  "problem_text": "Suppose that a finite group G admits a Frobenius group of automorphisms FH with kernel F and complement H such that C_G(F) = 1. Is the exponent of G bounded in terms of |F| and the exponent of C_G(H)?\nThis was proved when F is cyclic (E. I. Khukhro, N. Y. Makarenko, P. Shumyatsky, Forum Math., 26 (2014), 73\u2013112) and for FH \u223c= A4 when (|G|, 3) = 1 (P. Shumyatsky, J. Algebra, 331 (2011), 482\u2013489).\nN. Yu. Makarenko, E. I. Khukhro, P. Shumyatsky"
+}

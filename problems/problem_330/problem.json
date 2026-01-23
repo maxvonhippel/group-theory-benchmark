@@ -1,0 +1,5 @@
+{
+  "page_number": 47,
+  "problem_number": "11.18",
+  "problem_text": "Let G(a, b) = \u27e8x, y | x = [x, ay], y = [y, bx]\u27e9. Is G(a, b) finite?\nIt is easy to show that G(1, b) = 1 and one can show that G(2, 2) = 1. Nothing is known about G(2, 3). If one could show that every minimal simple group is a quotient of some G(a, b), then this would yield a very nice sequence of words in two variables to characterize soluble groups, see (R. Brandl, J. S. Wilson, J. Algebra, 116 (1988), 334\u2013341.)\nR. Brandl"
+}

@@ -1,0 +1,5 @@
+{
+  "page_number": 107,
+  "problem_number": "17.43",
+  "problem_text": "17.43. Let \u03c0 be a set of primes. Find all finite simple D\u03c0-groups (see Archive, 3.62) in which\n(a) every subgroup is a D\u03c0-group (H. Wielandt);\n(b) every subgroup possessing a Hall \u03c0-subgroup is a D\u03c0-group.\nAll finite simple D\u03c0-groups are known (D. O. Revin, Algebra Logic, 47, no. 3 (2008), 210\u2013227). Comment of 2013: Alternating and sporadic groups for both parts are found in (N. Ch. Manzaeva, Siberian Electron. Math. Rep., 9 (2012), 294\u2013305 (Russian)).\nComment of 2025: Simple groups of Lie type of rank 1 satisfying condition (a) are known (D. O. Revin, V. D. Shepelev, Siberian Math. J., 65, no. 5 (2024), 1187\u20131194, V. D. Shepelev, Siberian Math. J., 66, no. 4 (2025), 1049\u20131062).\nE. P. Vdovin, D. O. Revin"
+}

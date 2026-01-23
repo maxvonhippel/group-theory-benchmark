@@ -1,0 +1,6 @@
+{
+  "page_number": 212,
+  "problem_number": "5.19",
+  "problem_text": "a) Let G be an infinite locally finite simple group satisfying the minimum condition for 2-subgroups. Is G = PSL2(F), F some locally finite field of odd characteristic, if the centralizer of every involution of G is almost locally soluble?\n\nb) Can one characterize the simple locally finite groups with the min-2 condition containing a maximal radical non-trivial 2-subgroup of rank \u2a7d 2 as linear groups of small rank? O. H. Kegel",
+  "answer": "a) Yes, it is (N. S. Chernikov, Ukrain. Math. J., 35 (1983), 230\u2013231).\n\nb) Yes, one can (mod CFSG) by Theorem 4.8 of (O. H. Kegel, B. A. F. Wehrfritz, Locally finite groups, North Holland, Amsterdam, 1973)."
+}

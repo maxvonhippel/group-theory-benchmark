@@ -1,0 +1,5 @@
+{
+  "page_number": 14,
+  "problem_number": "4.66",
+  "problem_text": "Let P be a presentation of a finite group G on mp generators and rp relations. The deficiency def(G) is the maximum of mp \u2212 rp over all presentations P. Let G be a finite group such that G = G\u2032 \u2260 1 and the multiplicator M(G) = 1. Prove that def(Gn) \u2192 \u2212\u221e as n \u2192 \u221e, where Gn is the nth direct power of G.\nJ. Wiegold"
+}

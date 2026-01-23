@@ -1,0 +1,6 @@
+{
+  "page_number": 249,
+  "problem_number": "12.93",
+  "problem_text": "Let N \u21a3G \u21a0Q be an extension of nilpotent groups, with Q finitely generated, which splits at every prime. Does the extension split? This is known to be true if N is finite or commutative.\nP. Hilton",
+  "answer": "No, not always (K. Lorensen, Math. Proc. Cambridge Philos. Soc., 123, no. 2 (1998), 213\u2013215)."
+}

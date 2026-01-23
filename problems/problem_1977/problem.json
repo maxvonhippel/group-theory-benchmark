@@ -1,0 +1,6 @@
+{
+  "page_number": 277,
+  "problem_number": "18.95",
+  "problem_text": "Suppose that a group G = AB is a product of an abelian subgroup A and a locally quaternion group B (that is, B is a union of an increasing chain of finite generalized quaternion groups). Is G soluble? A. I. Sozutov",
+  "answer": "Yes, it is (B. Amberg, Ya. Sysak, On products of groups with abelian subgroups of small index, J. Group Theory, 20, no. 6 (2017), 1061\u20131072)."
+}

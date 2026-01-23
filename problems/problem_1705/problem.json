@@ -1,0 +1,6 @@
+{
+  "page_number": 236,
+  "problem_number": "10.66",
+  "problem_text": "Is a group G non-simple if it contains two non-trivial subgroups A and B such that AB \u0338= G and ABg = BgA for any g \u2208 G? This is true if G is finite (O. H. Kegel, Arch. Math., 12, no. 2 (1961), 90\u201393).\n\nA. N. Fomin, V. P. Shunkov",
+  "answer": "No; for example, for G being any simple linearly ordered group and A and B arbitrary proper convex subgroups of G (V. V. Bludov, Letter of February, 12, 1997)."
+}

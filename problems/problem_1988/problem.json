@@ -1,0 +1,6 @@
+{
+  "page_number": 279,
+  "problem_number": "19.55",
+  "problem_text": "19.55. Suppose that in a finite group G every maximal subgroup M is supersoluble whenever \u03c0(M) = \u03c0(G), where \u03c0(G) is the set of all prime divisors of the order of G.\na) What are the non-abelian composition factors of G?\nb) Determine the exact upper bounds for the nilpotency length, the rank, and the p-length of G if G is soluble.\nV. S. Monakhov",
+  "answer": "a) Every nonabelian finite simple group can occur as a composition factor of G (A. Moret\u00b4o, Monatsh. Math., 195, no. 3 (2021), 497\u2013500).\nb) There is not any bound for the nilpotency length or the rank, but the p-length is at most 1 for every prime p (A. Moret\u00b4o, Monatsh. Math., 195, no. 3 (2021), 497\u2013500)."
+}

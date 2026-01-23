@@ -1,0 +1,6 @@
+{
+  "page_number": 261,
+  "problem_number": "15.49",
+  "problem_text": "A group G is a unique product group if, for any finite nonempty subsets X, Y of G, there is an element of G which can be written in exactly one way in the form xy with x \u2208 X and y \u2208 Y. Does there exist a unique product group which is not left-orderable? P. Linnell",
+  "answer": "Yes, there does (N. Dunfield, Appendix B in S. Kionke, J. Raimbault, Doc. Math., 21 (2016), 873\u2013915)."
+}

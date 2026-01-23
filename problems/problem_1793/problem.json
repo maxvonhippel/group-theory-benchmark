@@ -1,0 +1,6 @@
+{
+  "page_number": 249,
+  "problem_number": "12.90",
+  "problem_text": "Let G be a finitely generated soluble minimax group and let H be a finitely generated residually finite group which has precisely the same finite images as G. Must H be a minimax group?\nJohn S. Wilson",
+  "answer": "Yes, it must (A. Mann, D. Segal, Proc. London Math. Soc. (3), 61 (1990), 529\u2013545; see also A. V. Tushev, Math. Notes, 56, no. 5 (1994), 1190\u20131192)."
+}

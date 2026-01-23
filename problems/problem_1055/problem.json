@@ -1,0 +1,6 @@
+{
+  "page_number": 147,
+  "problem_number": "*20.23",
+  "problem_text": "Is there a constant \u03b4 with 0 < \u03b4 < 1 and an integer N such that whenever A, B, and C are conjugacy classes in the alternating group Alt(n) each of size at least |Alt(n)|\u03b4 with n \u2a7e N, then ABC = Alt(n)?\nM. Garonzi, A. Mar\u00b4oti",
+  "answer": "Yes, there are (D. Dona, Preprint, 2025, https://arxiv.org/abs/2505.06012)."
+}

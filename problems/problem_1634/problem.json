@@ -1,0 +1,6 @@
+{
+  "page_number": 227,
+  "problem_number": "8.49",
+  "problem_text": "Let G be a p-group acting transitively as a permutation group on a set \u2126, let F be a field of characteristic p, and regard F\u2126 as an FG-module. Then do the descending and ascending Loewy series of F\u2126 coincide?\nP. M. Neumann",
+  "answer": "Yes, they do (J. L. Alperin, Quart. J. Math. Oxford (2), 39, no. 154 (1988), 129\u2013133)."
+}

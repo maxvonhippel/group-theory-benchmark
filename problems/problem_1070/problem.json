@@ -1,0 +1,5 @@
+{
+  "page_number": 149,
+  "problem_number": "20.38",
+  "problem_text": "Suppose that H is an almost simple group of Lie type and G is a finite group such that G and H have the same sets of degrees of irreducible complex characters. Must there exist an abelian normal subgroup A of G such that G/A is isomorphic to H?\nComment of 2025: The conjecture was confirmed for projective general linear and unitary groups of dimension 3 (F. Shirjian, A. Iranmanesh, Illinois J. Math., 64, no. 1 (2020), 49\u201369).\nA. Iranmanesh"
+}

@@ -1,0 +1,6 @@
+{
+  "page_number": 244,
+  "problem_number": "11.126",
+  "problem_text": "Do there exist a constant h and a function f with the following property: if a finite soluble group G admits an automorphism \u03c6 of order 4 such that |CG(\u03c6)| \u2a7d m, then G has a normal series 1 \u2a7d M \u2a7d N \u2a7d G such that the index |G : N| does not exceed f(m), the group N/M is nilpotent of class \u2a7d 2, and the group M is nilpotent of class \u2a7d h?\nP. V. Shumyatski\u02d8\u0131",
+  "answer": "Yes, there do (N. Yu. Makarenko, E. I. Khukhro, Algebra and Logic, 45 (2006), 326\u2013343)."
+}

@@ -1,0 +1,6 @@
+{
+  "page_number": 253,
+  "problem_number": "13.66",
+  "problem_text": "Let F be a\na) free;\nb) free metabelian\ngroup of finite rank. Let M denote the set of all endomorphisms of F with non-cyclic images. Can one choose two elements g, h \u2208 F such that, for every \u03c6, \u03c8 \u2208 M, equalities \u03c6(g) = \u03c8(g) and \u03c6(h) = \u03c8(h) imply that \u03c6 = \u03c8, that is, the endomorphisms in M are uniquely determined by their values at g and h?\nV. E. Shpil\u2019rain",
+  "answer": "a) Yes, one can (D. Lee, J. Algebra, 247 (2002), no. 2, 509\u2013540).\nb) No, not always (E. I. Timoshenko, Math. Notes, 62, no. 5\u20136 (1998), 767\u2013770)."
+}

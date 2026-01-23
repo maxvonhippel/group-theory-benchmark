@@ -1,0 +1,6 @@
+{
+  "page_number": 216,
+  "problem_number": "6.7",
+  "problem_text": "Suppose that P is a finite 2-group. Does there exist a characteristic subgroup L(P) of P such that L(P) is normal in H for every finite group H that satisfies the following conditions: 1) P is a Sylow 2-subgroup of H, 2) H is S4-free, and 3) CH(O2(H)) \u2a7d O2(H)? G. Glauberman",
+  "answer": "Yes, there does (B. Stellmacher, Israel J. Math., 94 (1996), 367\u2013379)."
+}

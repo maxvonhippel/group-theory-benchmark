@@ -1,0 +1,6 @@
+{
+  "page_number": 247,
+  "problem_number": "12.47",
+  "problem_text": "Let k be a field, let p be a prime, and let G be the Wreath product Zp \u2240 Z (so the base group has exponent p). Does kG have a classical quotient ring? (i. e. do the non-zero-divisors of kG form an Ore set?)\nP. A. Linnell",
+  "answer": "No, it does not (P. A. Linnell, W. L\u00a8uck, T. Schick, in: High-dimensional manifold topology. Proc. of the school, ICTP (Trieste, 2001), World Scientific, River Edge, NJ, 2003, 315\u2013321)."
+}

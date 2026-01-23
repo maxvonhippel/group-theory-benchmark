@@ -1,0 +1,5 @@
+{
+  "page_number": 18,
+  "problem_number": "6.1",
+  "problem_text": "A subgroup H of an arbitrary group G is said to be C-closed if H = C2(H) = C(C(H)), and weakly C-closed if C2(x) \u2a7d H for any element x of H. The structure of the finite groups all of whose proper subgroups are C-closed was studied by Gasch\u00fctz. Describe the structure of the locally finite groups all of whose proper subgroups are weakly C-closed. V. A. Antonov, N. F. Sesekin"
+}

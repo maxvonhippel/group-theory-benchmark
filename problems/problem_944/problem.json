@@ -1,0 +1,5 @@
+{
+  "page_number": 129,
+  "problem_number": "19.3",
+  "problem_text": "Let G = A \u2217_H B be the generalized free product of groups A and B with amalgamated subgroup H. Is \u03c8(G) = 1 in the following cases?\n\na) H is finite cyclic and H_G = 1.\n\nb) H is finite cyclic and either \u03bb(A) \u2229 H_G = 1 or \u03bb(B) \u2229 H_G = 1.\n\nc) H_G = 1 and H satisfies the minimum condition on subgroups.\n\nd) \u03bb(G) \u2229 H = 1.\n\ne) A and B are free groups, H is finitely generated and at least one of |A : H| or |B : H| is infinite.\n\nf) H is infinite cyclic and is a retract of A and B.\n\ng) G nearly splits over H, and H is a normal subgroup of G of prime order.\n\nM. K. Azarian"
+}

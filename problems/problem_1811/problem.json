@@ -1,0 +1,6 @@
+{
+  "page_number": 251,
+  "problem_number": "13.36(b)",
+  "problem_text": "b) (A. Lubotzky, A. Shalev). For a finitely generated pro-p-group G set a_n(G) = dim_{F_p} I^n/I^{n+1}, where I is the augmentation ideal of the group ring F_p[[G]]. We define the growth of G to be the growth of the sequence {a_n(G)}_{n\u2208N}. Is the growth of G exponential if G contains a finitely generated closed subgroup of exponential growth? O. V. Mel\u2019nikov",
+  "answer": "b) Not necessarily. Let G be the Nottingham group over F_p. The growth of c_n(G) := log_p |G : \u03c9_n(G)|, where {\u03c9_n(G)} is the Zassenhaus filtration, is linear, so by Quillen\u2019s theorem the growth of G is subexponential. But G has a 2-generator free pro-p subgroup (R. Camina, J. Algebra, 196 (1997), 101\u2013113) with exponential growth. (M. Ershov, Letter of 19.10.2009.)"
+}

@@ -1,0 +1,5 @@
+{
+  "page_number": 115,
+  "problem_number": "17.126",
+  "problem_text": "Suppose that G is a residually finite group satisfying the identity [x, y]n = 1. Must [G, G] be locally finite?\nAn equivalent question: let G be a finite soluble group satisfying the identity [x, y]n = 1; is the Fitting height of G bounded in terms of n? Cf. Archive, 13.34\nP. Shumyatsky"
+}

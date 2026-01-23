@@ -1,0 +1,6 @@
+{
+  "page_number": 234,
+  "problem_number": "10.6",
+  "problem_text": "Is it true that in an abelian group every non-discrete group topology can be strengthened up to a non-discrete group topology such that the group becomes a complete topological group?\nV. I. Arnautov",
+  "answer": "This is true for group topologies satisfying the first axiom of countability (E. I. Marin, in: Modules, Algebras, Topologies (Mat. Issledovaniya, 105), Kishinev, 1988, 105\u2013119 (Russian)), but this may not be true in general, see Archive, 12.2."
+}

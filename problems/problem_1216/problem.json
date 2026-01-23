@@ -1,0 +1,5 @@
+{
+  "page_number": 170,
+  "problem_number": "21.58",
+  "problem_text": "We say that a product XY = {xy | x \u2208 X, y \u2208 Y } of two subsets X, Y of a group G is direct if for every z \u2208 XY there are unique x \u2208 X, y \u2208 Y such that z = xy. Is there an infinite group G such that every subset A \u2286 G satisfies the following property: all the maximal subsets B for which the product AB is direct have the same cardinality?\nNote that for checking the property for a given infinite group G, it suffices to consider only those subsets A \u2286 G for which |A| = |G \\ A|. Indeed, the property is equivalent to A\u22121A \u2229 BB\u22121 = {1} and A\u22121AB = G, and these imply |G| = |A||B|, since G is infinite. Now, if |A| < |G \\ A|, then |A| < |G|, and so |B| = |G|; and if |A| > |G \\ A|, then A\u22121A = G, and so |B| = 1, for all B satisfying the property.\nM. H. Hooshmand"
+}

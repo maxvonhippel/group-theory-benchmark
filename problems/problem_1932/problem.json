@@ -1,0 +1,6 @@
+{
+  "page_number": 269,
+  "problem_number": "17.17",
+  "problem_text": "If a finitely generated group G has n < \u221emaximal subgroups, must G be finite? In particular, what if n = 3?\nG. M. Bergman",
+  "answer": "No, it need not. An example of an infinite group with 3 maximal subgroups is given by a 2-generated 2-LERF group in \u00a7 7 of (M. Ershov, A. Jaikin-Zapirain, J. Reine Angew. Math. 677 (2013), 71\u2013134) as its maximal subgroups have index 2."
+}

@@ -1,0 +1,6 @@
+{
+  "page_number": 205,
+  "problem_number": "4.8",
+  "problem_text": "Suppose G is a finitely generated free-by-cyclic group. Is G finitely presented?\n\nG. Baumslag",
+  "answer": "Yes, it is; moreover, every finitely generated subgroup is finitely presented. For infinite cyclic extensions this is proved in (M. Feighn, M. Handel, Ann. Math., 149, no. 3 (1999), 1061\u20131077), while another easier argument applies for finite cyclic extensions."
+}

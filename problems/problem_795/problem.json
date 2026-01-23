@@ -1,0 +1,5 @@
+{
+  "page_number": 110,
+  "problem_number": "17.72. b)",
+  "problem_text": "Let AB be a Frobenius group with kernel A and complement B. Suppose that AB acts on a finite group G so that GA is also a Frobenius group with kernel G and complement A. Is the exponent of G bounded in terms of |B| and the exponent of CG(B)?\nV. D. Mazurov"
+}

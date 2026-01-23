@@ -177,7 +177,7 @@ def generate_readme() -> str:
     """Generate complete README.md content."""
     
     # Read existing README sections (if any) - for now, start fresh
-    readme = "# Group Theory Benchmark\n\n"
+    readme = "# BuddenBench: a Benchmark of Open Nontrivial Group Theory Problems\n\n"
     readme += "This benchmark, affectionately named [`budden-bench`]"
     readme += "(https://x.com/maxvonhippel/status/2014475901384241286?s=20), "
     readme += "measures the ability of models and agents to autonomously solve open and important problems "

@@ -1,4 +1,4 @@
-# BuddenBench: a Benchmark of Open Nontrivial Group Theory Problems
+# 🔮 BuddenBench: a Benchmark of Open Nontrivial Group Theory Problems
 
 This benchmark, affectionately named [`budden-bench`](https://x.com/maxvonhippel/status/2014475901384241286?s=20), measures the ability of models and agents to autonomously solve open and important problems in mathematics, specifically group theory. In contrast to other problem sets such as the [Erdős Problems](https://www.erdosproblems.com/), this benchmark contains exclusively problems which are not just unsolved but also the objects of ongoing mathematical attention, i.e., which are nontrivial.
 

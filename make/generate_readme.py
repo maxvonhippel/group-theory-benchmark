@@ -182,8 +182,8 @@ def generate_readme() -> str:
     readme += "(https://x.com/maxvonhippel/status/2014475901384241286?s=20), "
     readme += "measures the ability of models and agents to autonomously solve open and important problems "
     readme += "in mathematics, specifically group theory. In contrast to other problem sets such as the "
-    readme += "[Erdős Problems](https://www.erdosproblems.com/), this benchmark contains exclusively problems which are "
-    readme += "not just unsolved but also the objects of ongoing mathematical attention, i.e., which are nontrivial.\n\n"
+    readme += "[Erdős Problems](https://www.erdosproblems.com/), this benchmark is intended to exclusively contain "
+    readme += "problems which are of ongoing research interest to working mathematicians.\n\n"
     
     readme += "## Inspiration\n\n"
     readme += "This project was inspired by the paper [Disproof of the Mertens Conjecture]"

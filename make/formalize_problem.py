@@ -77,19 +77,36 @@ Begin your formalization now."""
     return prompt
 
 def validate_lean_file(lean_file):
-    """Validate a Lean file compiles correctly."""
+    """Validate a Lean file compiles correctly using lake."""
+    # Move file to formalization project
+    formalization_dir = Path("formalization/Formalization")
+    formalization_dir.mkdir(parents=True, exist_ok=True)
+    target_file = formalization_dir / "Problem.lean"
+    
+    # Copy to formalization project
+    import shutil
+    shutil.copy(lean_file, target_file)
+    
     try:
         result = subprocess.run(
-            ['lean', str(lean_file)],
+            ['lake', 'build', 'Formalization.Problem'],
+            cwd="formalization",
             capture_output=True,
             text=True,
-            timeout=60
+            timeout=120
         )
-        return result.returncode == 0, result.stdout, result.stderr
+        success = result.returncode == 0
+        
+        # Clean up
+        target_file.unlink(missing_ok=True)
+        
+        return success, result.stdout, result.stderr
     except subprocess.TimeoutExpired:
+        target_file.unlink(missing_ok=True)
         return False, "", "Lean compilation timed out"
     except FileNotFoundError:
-        return False, "", "Lean not found. Run 'make setup' first."
+        target_file.unlink(missing_ok=True)
+        return False, "", "Lake not found. Run 'make setup' first."
 
 def run_claude_formalization(prompt):
     """Run Claude to generate formalization."""

@@ -1,0 +1,108 @@
+STATUS: COULD_NOT_FORMALIZE
+CATEGORY: summary
+REFERENCE: N/A (Open problem, no resolution known)
+
+================================================================================
+PROBLEM SUMMARY
+================================================================================
+
+Kourovka Notebook Problem (Well-known problem):
+"Is the group of collineations of a finite non-Desarguesian projective plane
+defined over a semifield soluble?"
+
+Posed by: N. D. Podufalov
+
+The problem asks whether the full automorphism group (collineation group) of
+any finite projective plane coordinatized by a proper semifield (not a field)
+is always a solvable group.
+
+Equivalent formulations:
+- Algebraic: If K is a finite semifield but not a field, is the autotopism
+  group of K always solvable?
+- Geometric: For any finite translation plane over a semifield, is the
+  collineation group solvable?
+
+================================================================================
+INVESTIGATION FINDINGS
+================================================================================
+
+1. PROBLEM STATUS: OPEN
+
+   This is a well-known open problem in finite geometry and group theory.
+   It appears in the Kourovka Notebook (a famous collection of unsolved
+   problems in group theory, published since 1965).
+
+2. PARTIAL RESULTS (all supporting the conjecture):
+
+   - p-primitive semifield planes of order q^4: solvable autotopism group
+   - Semifield planes of order p^4 (4|p-1): SL(2,5) cannot be a subgroup
+   - Goologlu-Kolsch commutative semifields: solvable autotopism group
+   - Commutative Dickson semifields: solvable autotopism group
+   - Planes admitting Q_8, S_3, or A_4 subgroups: extensively studied
+
+3. NO COUNTEREXAMPLE KNOWN
+
+   Despite decades of research, no semifield plane with a non-solvable
+   collineation group has been found.
+
+4. EVIDENCE ASSESSMENT
+
+   Recent literature (2025) notes: "There is not much evidence in favor of
+   this conjecture, outside of some explicit examples of semifields with
+   solvable autotopism group." However, no evidence against it exists either.
+
+================================================================================
+WHY FORMALIZATION FAILED
+================================================================================
+
+The problem cannot be formalized in Lean 4 / Mathlib due to missing
+infrastructure:
+
+1. Semifields (non-associative division rings) not defined in Mathlib
+2. Finite projective planes not formalized
+3. Coordinatization theory for projective planes unavailable
+4. Regular sets and translation planes not available
+5. Collineation groups require plane structure first
+
+Formalizing just the problem STATEMENT would require extensive foundational
+work (hundreds of definitions) for specialized geometric structures.
+
+================================================================================
+COMPUTATIONAL EXPLORATION (GAP)
+================================================================================
+
+Used GAP to explore relevant group theory:
+
+- GL(2,2): order 6, SOLVABLE
+- GL(2,3): order 48, SOLVABLE
+- GL(2,4): order 180, NOT SOLVABLE
+- GL(2,5): order 480, NOT SOLVABLE
+- GL(4,2): order 20160, NOT SOLVABLE (isomorphic to A_8)
+
+The autotopism group of a semifield plane is a subgroup of GL(n,p) x GL(n,p)
+with geometric constraints. Even though the ambient group may be non-solvable,
+all known semifield autotopism groups are solvable.
+
+GAP lacks built-in support for semifields or projective planes.
+
+================================================================================
+CONCLUSION
+================================================================================
+
+This is a genuine open problem that cannot be resolved computationally or
+formally with current tools. The problem requires:
+
+1. New mathematical techniques for the general case, OR
+2. Discovery of a counterexample semifield
+
+Neither GAP exploration nor Lean formalization can advance this problem
+without substantial new infrastructure or mathematical breakthroughs.
+
+================================================================================
+KEY REFERENCES
+================================================================================
+
+- Kourovka Notebook, editions 18-21, Institute of Mathematics SO RAN
+- Kravtsova, "Semifield Planes Admitting the Quaternion Group Q_8" (2020)
+- arXiv:2504.17057, "The autotopism group of commutative semifields" (2025)
+- Dembowski, "Finite Geometries" (1968)

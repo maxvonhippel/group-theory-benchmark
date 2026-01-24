@@ -64,3 +64,4 @@ test_problems.json
 
 # OS specific
 .DS_Store
+.env

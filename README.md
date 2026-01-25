@@ -18,7 +18,12 @@ This project was inspired by the paper [Disproof of the Mertens Conjecture](http
 
 | Problem | Artifact | Status | Human Review |
 |---------|----------|--------|-------------|
-| 19.73 | Lean formalization (JSON) | Unknown | Pending |
+| 1031 | `formalization_attempt_summary.txt` | Could not formalize | Pending |
+| 106 | `formalization_attempt_summary.txt` | Could not formalize | Pending |
+| 219 | `formalization_attempt_summary.txt` | Could not formalize | Pending |
+| 347 | `problem.lean` | Formalized (unsolved) | Pending |
+| 369 | `formalization_attempt_summary.txt` | Could not formalize | Pending |
+| 700 | `formalization_attempt_summary.txt` | Could not formalize | Pending |
 
 ## Setup
 

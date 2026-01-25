@@ -76,8 +76,13 @@ Begin your formalization now."""
     
     return prompt
 
-def validate_lean_file(lean_file):
-    """Validate a Lean file compiles correctly using lake."""
+def validate_lean_file(lean_file, problem_dir):
+    """Validate a Lean file compiles correctly using lake.
+    
+    Args:
+        lean_file: Path to the formalization.lean file to validate
+        problem_dir: Path to the problem directory for the formalization
+    """
     # Copy file to formalization project
     formalization_lib_dir = Path("formalization/Formalization")
     target_file = formalization_lib_dir / "Problem.lean"
@@ -156,6 +161,16 @@ def run_claude_formalization(prompt):
         print("\nFormalization interrupted by user")
         return False
 
+def get_problem_dir(problem_num):
+    """Get problem directory path for a given problem number."""
+    # Find the index in all_problems.json
+    problems = load_problems()
+    for i, p in enumerate(problems):
+        if str(p.get('problem_number')) == str(problem_num):
+            return Path(f"problems/problem_{i+1}")
+    return None
+
+
 def main():
     if len(sys.argv) != 2:
         print("Usage: python make/formalize_problem.py PROBLEM_NUM")
@@ -171,9 +186,19 @@ def main():
         print(f"Error: Problem #{problem_num} not found in all_problems.json")
         sys.exit(1)
     
+    # Get problem directory
+    problem_dir = get_problem_dir(problem_num)
+    if not problem_dir:
+        print(f"Error: Could not determine directory for problem #{problem_num}")
+        sys.exit(1)
+    
+    # Create problem directory if it doesn't exist
+    problem_dir.mkdir(parents=True, exist_ok=True)
+    
     # Check if already formalized
-    if 'lean_formalization' in problem and problem['lean_formalization']:
-        print(f"Problem #{problem_num} already has a Lean formalization.")
+    formalization_file = problem_dir / "formalization.lean"
+    if formalization_file.exists():
+        print(f"Problem #{problem_num} already has formalization at: {formalization_file}")
         print("Exiting (use --force to override in future)")
         sys.exit(0)
     
@@ -190,7 +215,7 @@ def main():
         print("\nClaude formalization process failed or was interrupted.")
         sys.exit(1)
     
-    # Check for formalization.lean in current directory
+    # Check for formalization.lean in current directory (Claude writes here)
     lean_file = Path("formalization.lean")
     if not lean_file.exists():
         print("\nError: No formalization.lean file was created.")
@@ -200,29 +225,24 @@ def main():
     # Validate the Lean code
     print("\n" + "=" * 60)
     print("Validating Lean formalization...")
-    valid, stdout, stderr = validate_lean_file(lean_file)
+    valid, stdout, stderr = validate_lean_file(lean_file, problem_dir)
     
     if not valid:
         print("\nValidation FAILED. Lean code does not compile perfectly.")
         print("\nStdout:", stdout)
         print("\nStderr:", stderr)
-        print("\nCannot add imperfect formalization to JSON.")
+        print("\nCannot save imperfect formalization.")
         lean_file.unlink()  # Clean up
         sys.exit(1)
     
-    # Read the formalization
-    lean_code = lean_file.read_text()
-    
-    # Update problem JSON
-    problem['lean_formalization'] = lean_code
-    save_problems(problems)
-    
-    # Clean up
-    lean_file.unlink()
+    # Move formalization to problem directory
+    import shutil
+    shutil.move(lean_file, formalization_file)
     
     print("\n" + "=" * 60)
-    print(f"SUCCESS: Problem #{problem_num} formalized and added to JSON")
-    print(f"Formalization: {len(lean_code)} characters")
+    print(f"SUCCESS: Problem #{problem_num} formalized")
+    print(f"Saved to: {formalization_file}")
+    print(f"Formalization: {formalization_file.stat().st_size} bytes")
     print("=" * 60)
 
 if __name__ == "__main__":

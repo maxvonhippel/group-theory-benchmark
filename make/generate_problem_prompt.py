@@ -142,55 +142,78 @@ def generate_prompt(problem_index: int, problem: dict[str, Any]) -> str:
     project_root = Path(__file__).parent.parent
     problem_dir = f"problems/problem_{problem_index}"
 
+    # Check for existing formalization
+    formalization_path = Path(problem_dir) / "formalization.lean"
+    existing_formalization = None
+    if formalization_path.exists():
+        existing_formalization = formalization_path.read_text()
+
     # Get tool documentation
     tool_docs = generate_tool_documentation()
+
+    # Build formalization context
+    formalization_context = ""
+    if existing_formalization:
+        formalization_context = f"""
+**IMPORTANT: Existing Formalization Available**
+
+A formalization already exists at {problem_dir}/formalization.lean:
+
+```lean
+{existing_formalization}
+```
+
+You should BUILD ON THIS FORMALIZATION to complete the proof.
+Do not create a new formalization from scratch - extend and complete this one.
+"""
 
     prompt = f"""You are solving Kourovka Notebook problem #{problem_num} (stored as problem_{problem_index}).
 
 **Problem Statement:**
 {problem_text}
-
+{formalization_context}
 **Your Goal:**
-Determine if this problem can be solved, and produce the appropriate artifact.
+Solve this problem using a systematic, phased approach.
 
 **Output Directory:**
 {problem_dir}/
 
-**Five Possible Outcomes:**
+**Systematic Solving Approach:**
 
-1. **Found a NEW Counterexample (via GAP)**
-   - Write Python/GAP code to: {problem_dir}/disproof.py
-   - Must generate and verify a concrete counterexample
-   - Include comments explaining why it's a counterexample
-   - Use STATUS: NEW_COUNTEREXAMPLE in notes.txt
+Follow these phases in order. Be creative and thorough at each step.
 
-2. **Verified a PRIOR Counterexample or Result**
-   - If you find the problem was already solved in published literature:
-   - Write verification code to: {problem_dir}/disproof.py (for counterexamples)
-     or {problem_dir}/proof.lean (for proofs)
-   - Cite the original source
-   - Use STATUS: PRIOR_RESULT_VERIFIED in notes.txt
+**PHASE 1: Research & Exploration (REQUIRED)**
+1. Search web/literature for existing results on this problem
+2. Use GAP to test the problem statement on small examples
+3. Look for patterns, counterexamples, or special cases
+4. Document your findings in comments/notes
 
-3. **Proved the Theorem (via Lean)**
-   - Write Lean proof to: {problem_dir}/proof.lean
-   - Must compile without errors
-   - No 'sorry' or 'admit' allowed
-   - Use STATUS: NEW_PROOF in notes.txt
+**PHASE 2: Proof Strategy (REQUIRED)**
+1. Based on Phase 1, create a proof sketch as comments
+2. Identify key lemmas you'll need
+3. Note which parts seem hardest
+4. Be creative - try multiple approaches if first doesn't work
 
-4. **Formalized but Unsolved**
-   - Write formalization to: {problem_dir}/problem.lean
-   - Include definitions, types, and problem statement
-   - Use 'sorry' for unsolved parts
-   - Add comments explaining what you tried and why it's hard
-   - Use STATUS: FORMALIZED_UNSOLVED in notes.txt
+**PHASE 3: Formalization (if attempting proof)**
+1. Write the theorem statement in Lean with proper types
+2. Break down into lemmas (use 'sorry' initially)
+3. Ensure it compiles: {problem_dir}/formalization.lean or {problem_dir}/proof.lean
+4. Use Lean 4 skills: /lean4-theorem-proving:build-lean to check compilation
 
-5. **Could Not Formalize**
-   - Write summary to: {problem_dir}/formalization_attempt_summary.txt
-   - Use this when the problem is too open-ended, vague, or requires
-     mathematical infrastructure beyond what's available in Lean
-   - Explain what aspects made formalization difficult
-   - Document any partial progress or insights gained
-   - Use STATUS: COULD_NOT_FORMALIZE in notes.txt
+**PHASE 4: Progressive Proof Filling**
+1. Fill sorries one at a time, easiest first
+2. Use /lean4-theorem-proving:fill-sorry for guidance
+3. Try different tactics if stuck
+4. Use /lean4-theorem-proving:search-mathlib to find relevant lemmas
+5. Be persistent - if one approach fails, try another!
+
+**Five Possible Final Outcomes:**
+
+1. **Found NEW Counterexample:** Write to {problem_dir}/disproof.py (STATUS: NEW_COUNTEREXAMPLE)
+2. **Verified PRIOR Result:** Write verification code (STATUS: PRIOR_RESULT_VERIFIED)  
+3. **Completed Proof:** Write complete proof to {problem_dir}/proof.lean (STATUS: NEW_PROOF)
+4. **Formalized but Unsolved:** Write to {problem_dir}/formalization.lean with sorries (STATUS: FORMALIZED_UNSOLVED)
+5. **Could Not Formalize:** Write to {problem_dir}/formalization_attempt_summary.txt (STATUS: COULD_NOT_FORMALIZE)
 
 **REQUIRED: Always create notes.txt**
 
@@ -206,23 +229,22 @@ REFERENCE: <citation if verifying prior work, otherwise "N/A">
 
 {tool_docs}
 
-**Workflow:**
-1. Search literature/web for existing results on this problem
-2. Use GAP tools to search for counterexamples
-3. If no counterexample found, attempt Lean proof
-4. If proof is too difficult, provide formalization with sorry
-5. If formalization itself is infeasible, write formalization_attempt_summary.txt
-6. ALWAYS write notes.txt with your findings
-
 **Success Criteria:**
-- Exactly ONE of: disproof.py, proof.lean, problem.lean, or formalization_attempt_summary.txt exists
-- notes.txt MUST exist with proper STATUS field
-- File compiles/runs without errors (except sorry in problem.lean)
-- Clear explanation of your approach in notes.txt
+- Exactly ONE of: disproof.py, proof.lean, formalization.lean, or formalization_attempt_summary.txt
+- notes.txt MUST exist with proper STATUS field  
+- Lean files must compile (use /lean4-theorem-proving:build-lean)
+- Clear documentation of your approach and attempts
+
+**Key Reminders:**
+- BE CREATIVE: Try different approaches if stuck
+- BE THOROUGH: Test small cases, search for patterns
+- BE PERSISTENT: Don't give up after first failed attempt
+- USE TOOLS: Lean 4 skills commands are your friends
+- DOCUMENT: Explain what you tried and why in notes.txt
 
 DO NOT EXIT until you have created BOTH an artifact file AND notes.txt in {problem_dir}/
 
-Begin your investigation now. Use the tools actively."""
+Begin Phase 1 (Research & Exploration) now. Use the tools actively and be creative!"""
 
     return prompt
 

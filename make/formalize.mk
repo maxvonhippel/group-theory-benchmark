@@ -20,10 +20,16 @@ formalize:
 			echo ""; \
 		done; \
 		echo "Batch formalization complete: $$COUNT problems processed."; \
+		echo "Updating README.md..."; \
+		$(MAKE) readme; \
 	elif [ -n "$(PROB)" ]; then \
 		echo "Formalizing problem $(PROB)..."; \
 		uv run python make/formalize_problem.py $(PROB); \
-	else \
+		if [ $$? -eq 0 ]; then \
+			echo "Updating README.md..."; \
+			$(MAKE) readme; \
+		fi; \
+	else
 		echo "Error: Either PROB or N must be set."; \
 		echo "Usage:"; \
 		echo "  make formalize PROB=19.73  # Formalize single problem"; \

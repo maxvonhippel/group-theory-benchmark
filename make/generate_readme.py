@@ -45,6 +45,18 @@ def scan_problem_solutions() -> list[dict[str, Any]]:
     problems_dir = Path(__file__).parent.parent / "problems"
     solutions: list[dict[str, Any]] = []
 
+    # Load all_problems.json to check for lean_formalization
+    all_problems_file = problems_dir / "all_problems.json"
+    lean_formalizations = {}
+    if all_problems_file.exists():
+        import json
+        with open(all_problems_file) as f:
+            problems = json.load(f)
+            for p in problems:
+                pnum = str(p.get('problem_number', ''))
+                if 'lean_formalization' in p and p['lean_formalization']:
+                    lean_formalizations[pnum] = p['lean_formalization']
+
     # Get all problem directories
     if not problems_dir.exists():
         return solutions
@@ -53,12 +65,13 @@ def scan_problem_solutions() -> list[dict[str, Any]]:
         if not problem_dir.is_dir() or problem_dir.name == "all_problems.json":
             continue
 
-        problem_num = problem_dir.name
+        problem_num = problem_dir.name.replace('problem_', '')
         solution_info = {
             'number': problem_num,
             'disproof': None,
             'proof': None,
             'formalization': None,
+            'lean_formalization_json': None,
             'attempt_summary': None,
             'review': None,
             'notes': None,
@@ -82,6 +95,10 @@ def scan_problem_solutions() -> list[dict[str, Any]]:
             solution_info['formalization'] = 'problem.lean'
         if attempt_summary_file.exists():
             solution_info['attempt_summary'] = 'formalization_attempt_summary.txt'
+        
+        # Check for lean_formalization in JSON
+        if problem_num in lean_formalizations:
+            solution_info['lean_formalization_json'] = True
 
         # Parse notes.txt for metadata
         if notes_file.exists():
@@ -100,7 +117,8 @@ def scan_problem_solutions() -> list[dict[str, Any]]:
 
         # Only include if there's at least one artifact
         if any([solution_info['disproof'], solution_info['proof'],
-                solution_info['formalization'], solution_info['attempt_summary']]):
+                solution_info['formalization'], solution_info['attempt_summary'],
+                solution_info['lean_formalization_json']]):
             solutions.append(solution_info)
 
     return solutions
@@ -154,6 +172,8 @@ def generate_solution_table(solutions: list[dict[str, Any]]) -> str:
             artifact = f"`{sol['proof']}`"
         elif sol['formalization']:
             artifact = f"`{sol['formalization']}`"
+        elif sol['lean_formalization_json']:
+            artifact = "Lean formalization (JSON)"
         elif sol['attempt_summary']:
             artifact = f"`{sol['attempt_summary']}`"
         else:

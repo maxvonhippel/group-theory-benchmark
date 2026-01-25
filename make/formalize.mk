@@ -29,7 +29,7 @@ formalize:
 			echo "Updating README.md..."; \
 			$(MAKE) readme; \
 		fi; \
-	else
+	else \
 		echo "Error: Either PROB or N must be set."; \
 		echo "Usage:"; \
 		echo "  make formalize PROB=19.73  # Formalize single problem"; \

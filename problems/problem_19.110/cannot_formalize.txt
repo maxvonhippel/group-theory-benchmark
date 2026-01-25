@@ -1,1 +1,4 @@
-===========
+This problem could not be formalized. Problem asks: (G. M. Bergman and A. Magidin). Do there exist varieties of groups in which the
+relatively free group of rank 2 is finite, and the relatively free group of rank 3
+is infinite?
+P. Zusmanovich...

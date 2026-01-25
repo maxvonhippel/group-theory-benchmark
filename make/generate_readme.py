@@ -104,11 +104,14 @@ def scan_problem_solutions() -> list[dict[str, Any]]:
         if formalization_file.exists() or problem_lean_file.exists():
             # Accept either formalization.lean or problem.lean
             solution_info['formalization'] = 'formalization.lean' if formalization_file.exists() else 'problem.lean'
+        # Prefer cannot_formalize.txt (new format) over formalization_attempt_summary.txt (legacy)
         if cannot_formalize_file.exists():
             solution_info['formalization_status'] = 'cannot_formalize'
             solution_info['formalization_reason'] = cannot_formalize_file.read_text().strip()
-        if attempt_summary_file.exists():
-            solution_info['attempt_summary'] = 'formalization_attempt_summary.txt'
+            solution_info['artifact'] = 'cannot_formalize.txt'
+        elif attempt_summary_file.exists():
+            solution_info['formalization_status'] = 'cannot_formalize'
+            solution_info['artifact'] = 'formalization_attempt_summary.txt'
         
         # Get formalization status from JSON
         if problem_num in formalization_status_map:
@@ -190,15 +193,15 @@ def generate_solution_table(solutions: list[dict[str, Any]]) -> str:
     table += "|---------|----------|--------|-------------|\n"
 
     for sol in solutions:
-        # Determine artifact type
-        if sol['disproof']:
+        # Determine artifact type (prefer new 'artifact' field over legacy fields)
+        if sol.get('artifact'):
+            artifact = f"`{sol['artifact']}`"
+        elif sol['disproof']:
             artifact = f"`{sol['disproof']}`"
         elif sol['proof']:
             artifact = f"`{sol['proof']}`"
         elif sol['formalization']:
             artifact = f"`{sol['formalization']}`"
-        elif sol['attempt_summary']:
-            artifact = f"`{sol['attempt_summary']}`"
         else:
             artifact = "N/A"
 

@@ -1,1 +1,3 @@
-Does there exist a finitely generated group which is not nilpotent-by-finite
+This problem could not be formalized. Problem asks: Does there exist a finitely generated group which is not nilpotent-by-finite
+and whose growth function has as a majorant a function of the form c^{sqrt(n)}
+where c is a constant greater than 1?...

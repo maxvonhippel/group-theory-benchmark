@@ -1,1 +1,5 @@
-Is there in ZFC a countable non-discrete topological group not containing
+This problem could not be formalized. Problem asks: Is there in ZFC a countable non-discrete topological group not containing
+discrete subsets with a single accumulation point? (Such a group is known
+to exist under Martin's Axiom.) -- E. G. Zelenyuk
+
+=...

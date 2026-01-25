@@ -75,9 +75,19 @@ def scan_problem_solutions() -> list[dict[str, Any]]:
         if not problem_dir.is_dir() or problem_dir.name == "all_problems.json":
             continue
 
-        dir_index = problem_dir.name.replace('problem_', '')
-        # Use actual problem number from JSON, fall back to directory index
-        problem_num = problem_index_to_number.get(dir_index, dir_index)
+        dir_name = problem_dir.name.replace('problem_', '')
+        
+        # Two cases:
+        # 1. Directory name contains underscore/period (e.g., "1_20" or "1.20") - it's the actual problem number
+        # 2. Directory name is pure number (e.g., "1", "27") - it's an index, look up actual number in JSON
+        if '_' in dir_name or '.' in dir_name:
+            # Already a problem number, just normalize
+            problem_num = dir_name.replace('_', '.')
+            dir_index = None  # No index mapping
+        else:
+            # It's an index, look up the actual problem number
+            dir_index = dir_name
+            problem_num = problem_index_to_number.get(dir_index, dir_index)
         
         solution_info = {
             'number': problem_num,
@@ -116,8 +126,8 @@ def scan_problem_solutions() -> list[dict[str, Any]]:
         if attempt_summary_file.exists():
             solution_info['attempt_summary'] = 'formalization_attempt_summary.txt'
         
-        # Get formalization status from JSON using directory index
-        if dir_index in formalization_status_map:
+        # Get formalization status from JSON using directory index (if we have one)
+        if dir_index and dir_index in formalization_status_map:
             json_status = formalization_status_map[dir_index]
             if json_status['status']:
                 solution_info['formalization_status'] = json_status['status']

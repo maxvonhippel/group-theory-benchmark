@@ -1,56 +1,54 @@
-#!/usr/bin/env python3
-"""
-Find problems that don't have formalization.lean yet.
-"""
+"""Find unformalized problems from all_problems.json."""
 
 import json
 import sys
 from pathlib import Path
 
-
-def find_unformalized_problems(max_count=None):
-    """Find problems without formalization.lean.
-    
-    Args:
-        max_count: Maximum number to return (None for all)
-        
-    Returns:
-        List of problem numbers (as strings)
-    """
-    problems_file = Path(__file__).parent.parent / "problems/all_problems.json"
-    if not problems_file.exists():
-        return []
-    
-    with open(problems_file) as f:
-        all_problems = json.load(f)
-    
-    unformalized = []
-    for i, problem in enumerate(all_problems):
-        problem_dir = Path(f"problems/problem_{i+1}")
-        formalization_file = problem_dir / "formalization.lean"
-        
-        if not formalization_file.exists():
-            problem_num = problem.get('problem_number', f'{i+1}')
-            unformalized.append(str(problem_num))
-            
-            if max_count and len(unformalized) >= max_count:
-                break
-    
-    return unformalized
-
-
 def main():
-    if len(sys.argv) < 2:
-        print("Usage: python make/find_unformalized.py [COUNT]")
+    if len(sys.argv) != 2:
+        print("Usage: python find_unformalized.py N", file=sys.stderr)
         sys.exit(1)
     
-    count = int(sys.argv[1]) if sys.argv[1] != "all" else None
-    problems = find_unformalized_problems(count)
+    try:
+        n = int(sys.argv[1])
+    except ValueError:
+        print(f"Error: N must be an integer, got '{sys.argv[1]}'", file=sys.stderr)
+        sys.exit(1)
     
-    # Print one per line for easy shell processing
-    for p in problems:
-        print(p)
+    # Load problems
+    problems_file = Path("problems/all_problems.json")
+    if not problems_file.exists():
+        print("Error: problems/all_problems.json not found", file=sys.stderr)
+        sys.exit(1)
+    
+    with open(problems_file) as f:
+        problems = json.load(f)
+    
+    # Find unformalized problems
+    unformalized = []
+    for i, problem in enumerate(problems, start=1):
+        problem_num = problem.get('problem_number')
+        if not problem_num:
+            continue
+        
+        # Check if already formalized
+        problem_dir = Path(f"problems/problem_{i}")
+        formalization_file = problem_dir / "formalization.lean"
+        cannot_formalize_file = problem_dir / "cannot_formalize.txt"
+        
+        # Skip if already processed
+        if formalization_file.exists() or cannot_formalize_file.exists():
+            continue
+        
+        unformalized.append(problem_num)
+        
+        # Stop when we have enough
+        if len(unformalized) >= n:
+            break
+    
+    # Output problem numbers, one per line
+    for prob in unformalized:
+        print(prob)
 
-
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

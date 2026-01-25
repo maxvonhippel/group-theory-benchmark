@@ -57,27 +57,30 @@ def scan_problem_solutions() -> list[dict[str, Any]]:
                 if 'lean_formalization' in p and p['lean_formalization']:
                     lean_formalizations[pnum] = p['lean_formalization']
 
+    # Track all problem numbers we've seen
+    seen_problems = set()
+    
     # Get all problem directories
-    if not problems_dir.exists():
-        return solutions
+    if problems_dir.exists():
+        for problem_dir in sorted(problems_dir.iterdir()):
+            if not problem_dir.is_dir() or problem_dir.name == "all_problems.json":
+                continue
 
-    for problem_dir in sorted(problems_dir.iterdir()):
-        if not problem_dir.is_dir() or problem_dir.name == "all_problems.json":
-            continue
-
-        problem_num = problem_dir.name.replace('problem_', '')
-        solution_info = {
-            'number': problem_num,
-            'disproof': None,
-            'proof': None,
-            'formalization': None,
-            'lean_formalization_json': None,
-            'attempt_summary': None,
-            'review': None,
-            'notes': None,
-            'status': None,
-            'reference': None
-        }
+            problem_num = problem_dir.name.replace('problem_', '')
+            seen_problems.add(problem_num)
+            
+            solution_info = {
+                'number': problem_num,
+                'disproof': None,
+                'proof': None,
+                'formalization': None,
+                'lean_formalization_json': None,
+                'attempt_summary': None,
+                'review': None,
+                'notes': None,
+                'status': None,
+                'reference': None
+            }
 
         # Check for solution artifacts
         disproof_file = problem_dir / "disproof.py"
@@ -115,10 +118,27 @@ def scan_problem_solutions() -> list[dict[str, Any]]:
             else:
                 solution_info['review'] = review_text
 
-        # Only include if there's at least one artifact
-        if any([solution_info['disproof'], solution_info['proof'],
-                solution_info['formalization'], solution_info['attempt_summary'],
-                solution_info['lean_formalization_json']]):
+            # Only include if there's at least one artifact
+            if any([solution_info['disproof'], solution_info['proof'],
+                    solution_info['formalization'], solution_info['attempt_summary'],
+                    solution_info['lean_formalization_json']]):
+                solutions.append(solution_info)
+    
+    # Add problems from JSON that only have lean_formalization (no directory)
+    for problem_num, formalization in lean_formalizations.items():
+        if problem_num not in seen_problems:
+            solution_info = {
+                'number': problem_num,
+                'disproof': None,
+                'proof': None,
+                'formalization': None,
+                'lean_formalization_json': True,
+                'attempt_summary': None,
+                'review': None,
+                'notes': None,
+                'status': None,
+                'reference': None
+            }
             solutions.append(solution_info)
 
     return solutions

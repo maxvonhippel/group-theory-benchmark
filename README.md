@@ -18,12 +18,21 @@ This project was inspired by the paper [Disproof of the Mertens Conjecture](http
 
 | Problem | Artifact | Status | Human Review |
 |---------|----------|--------|-------------|
-| 1031 | `formalization_attempt_summary.txt` | Could not formalize | Pending |
-| 106 | `formalization_attempt_summary.txt` | Could not formalize | Pending |
-| 219 | `formalization_attempt_summary.txt` | Could not formalize | Pending |
-| 347 | `problem.lean` | Formalized (unsolved) | Pending |
+| 1.20 | N/A | Cannot formalize | Pending |
+| 1.27 | N/A | Cannot formalize | Pending |
+| 1.28 | N/A | Cannot formalize | Pending |
+| 1.3 | `formalization.lean` | Cannot formalize | Pending |
+| 1.31 | `formalization.lean` | Formalized (unsolved) | Pending |
+| 1.33 | N/A | Cannot formalize | Pending |
+| 1.35 | `formalization.lean` | Formalized (unsolved) | Pending |
+| 1.5 | `formalization.lean` | Formalized (unsolved) | Pending |
+| 1.6 | `formalization.lean` | Formalized (unsolved) | Pending |
+| 11.44 | `problem.lean` | Formalized (unsolved) | Pending |
+| 16.44 | `formalization_attempt_summary.txt` | Could not formalize | Pending |
+| 19.110 | `formalization_attempt_summary.txt` | Could not formalize | Pending |
 | 369 | `formalization_attempt_summary.txt` | Could not formalize | Pending |
-| 700 | `formalization_attempt_summary.txt` | Could not formalize | Pending |
+| 5.54 | `formalization_attempt_summary.txt` | Could not formalize | Pending |
+| 9.9 | `formalization_attempt_summary.txt` | Could not formalize | Pending |
 
 ## Setup
 

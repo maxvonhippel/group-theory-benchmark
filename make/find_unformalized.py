@@ -26,13 +26,18 @@ def main():
     
     # Find unformalized problems
     unformalized = []
-    for i, problem in enumerate(problems, start=1):
+    for problem in problems:
         problem_num = problem.get('problem_number')
         if not problem_num:
             continue
         
+        # Directory uses Kourovka number: problem_1.3, problem_19.110, etc.
+        problem_dir = Path(f"problems/problem_{problem_num}")
+        
+        if not problem_dir.exists():
+            continue
+        
         # Check if already formalized
-        problem_dir = Path(f"problems/problem_{i}")
         formalization_file = problem_dir / "formalization.lean"
         cannot_formalize_file = problem_dir / "cannot_formalize.txt"
         

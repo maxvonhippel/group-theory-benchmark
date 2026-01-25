@@ -172,12 +172,8 @@ def run_claude_formalization(prompt):
 
 def get_problem_dir(problem_num):
     """Get problem directory path for a given problem number."""
-    # Find the index in all_problems.json
-    problems = load_problems()
-    for i, p in enumerate(problems):
-        if str(p.get('problem_number')) == str(problem_num):
-            return Path(f"problems/problem_{i+1}")
-    return None
+    # Directory now uses Kourovka number directly: problem_1.3, problem_19.110, etc.
+    return Path(f"problems/problem_{problem_num}")
 
 
 def main():

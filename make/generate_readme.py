@@ -49,17 +49,20 @@ def scan_problem_solutions() -> list[dict[str, Any]]:
     if not problems_dir.exists():
         return solutions
     
-    # Load all_problems.json to get formalization_status
+    # Load all_problems.json to get problem numbers and formalization_status
     import json
     all_problems_file = problems_dir / "all_problems.json"
+    problem_index_to_number = {}
     formalization_status_map = {}
     if all_problems_file.exists():
         try:
             with open(all_problems_file) as f:
                 all_problems = json.load(f)
                 for i, problem in enumerate(all_problems):
-                    problem_num = str(i + 1)
-                    formalization_status_map[problem_num] = {
+                    dir_index = str(i + 1)
+                    actual_problem_num = str(problem.get('problem_number', dir_index))
+                    problem_index_to_number[dir_index] = actual_problem_num
+                    formalization_status_map[dir_index] = {
                         'status': problem.get('formalization_status'),
                         'reason': problem.get('formalization_reason')
                     }
@@ -70,7 +73,9 @@ def scan_problem_solutions() -> list[dict[str, Any]]:
         if not problem_dir.is_dir() or problem_dir.name == "all_problems.json":
             continue
 
-        problem_num = problem_dir.name.replace('problem_', '')
+        dir_index = problem_dir.name.replace('problem_', '')
+        # Use actual problem number from JSON, fall back to directory index
+        problem_num = problem_index_to_number.get(dir_index, dir_index)
         
         solution_info = {
             'number': problem_num,
@@ -109,9 +114,9 @@ def scan_problem_solutions() -> list[dict[str, Any]]:
         if attempt_summary_file.exists():
             solution_info['attempt_summary'] = 'formalization_attempt_summary.txt'
         
-        # Get formalization status from JSON
-        if problem_num in formalization_status_map:
-            json_status = formalization_status_map[problem_num]
+        # Get formalization status from JSON using directory index
+        if dir_index in formalization_status_map:
+            json_status = formalization_status_map[dir_index]
             if json_status['status']:
                 solution_info['formalization_status'] = json_status['status']
             if json_status['reason']:

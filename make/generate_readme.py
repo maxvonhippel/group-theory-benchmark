@@ -61,6 +61,8 @@ def scan_problem_solutions() -> list[dict[str, Any]]:
                 for i, problem in enumerate(all_problems):
                     dir_index = str(i + 1)
                     actual_problem_num = str(problem.get('problem_number', dir_index))
+                    # Normalize problem numbers: replace underscores with dots
+                    actual_problem_num = actual_problem_num.replace('_', '.')
                     problem_index_to_number[dir_index] = actual_problem_num
                     formalization_status_map[dir_index] = {
                         'status': problem.get('formalization_status'),

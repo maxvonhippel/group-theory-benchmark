@@ -200,11 +200,20 @@ def main():
     # Create problem directory if it doesn't exist
     problem_dir.mkdir(parents=True, exist_ok=True)
     
-    # Check if already formalized
+    # Check if already processed (formalized OR determined unformalizable)
     formalization_file = problem_dir / "formalization.lean"
+    cannot_formalize_file = problem_dir / "cannot_formalize.txt"
+    
     if formalization_file.exists():
-        print(f"Problem #{problem_num} already has formalization at: {formalization_file}")
-        print("Exiting (use --force to override in future)")
+        print(f"✓ Problem #{problem_num} already formalized: {formalization_file}")
+        print("Skipping (already complete)")
+        sys.exit(0)
+    
+    if cannot_formalize_file.exists():
+        reason = cannot_formalize_file.read_text().strip()
+        print(f"✓ Problem #{problem_num} already determined to be unformalizable")
+        print(f"\nReason: {reason[:200]}{'...' if len(reason) > 200 else ''}")
+        print("\nSkipping (already processed)")
         sys.exit(0)
     
     print(f"Problem #{problem_num}: {problem.get('problem_text', '')[:100]}...")

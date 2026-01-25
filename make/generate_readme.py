@@ -48,6 +48,23 @@ def scan_problem_solutions() -> list[dict[str, Any]]:
     # Get all problem directories
     if not problems_dir.exists():
         return solutions
+    
+    # Load all_problems.json to get formalization_status
+    import json
+    all_problems_file = problems_dir / "all_problems.json"
+    formalization_status_map = {}
+    if all_problems_file.exists():
+        try:
+            with open(all_problems_file) as f:
+                all_problems = json.load(f)
+                for i, problem in enumerate(all_problems):
+                    problem_num = str(i + 1)
+                    formalization_status_map[problem_num] = {
+                        'status': problem.get('formalization_status'),
+                        'reason': problem.get('formalization_reason')
+                    }
+        except Exception:
+            pass
 
     for problem_dir in sorted(problems_dir.iterdir()):
         if not problem_dir.is_dir() or problem_dir.name == "all_problems.json":
@@ -64,7 +81,9 @@ def scan_problem_solutions() -> list[dict[str, Any]]:
             'review': None,
             'notes': None,
             'status': None,
-            'reference': None
+            'reference': None,
+            'formalization_status': None,
+            'formalization_reason': None
         }
 
         # Check for solution artifacts
@@ -72,6 +91,7 @@ def scan_problem_solutions() -> list[dict[str, Any]]:
         proof_file = problem_dir / "proof.lean"
         formalization_file = problem_dir / "formalization.lean"
         problem_lean_file = problem_dir / "problem.lean"
+        cannot_formalize_file = problem_dir / "cannot_formalize.txt"
         attempt_summary_file = problem_dir / "formalization_attempt_summary.txt"
         review_file = problem_dir / "review.txt"
         notes_file = problem_dir / "notes.txt"
@@ -83,8 +103,19 @@ def scan_problem_solutions() -> list[dict[str, Any]]:
         if formalization_file.exists() or problem_lean_file.exists():
             # Accept either formalization.lean or problem.lean
             solution_info['formalization'] = 'formalization.lean' if formalization_file.exists() else 'problem.lean'
+        if cannot_formalize_file.exists():
+            solution_info['formalization_status'] = 'cannot_formalize'
+            solution_info['formalization_reason'] = cannot_formalize_file.read_text().strip()
         if attempt_summary_file.exists():
             solution_info['attempt_summary'] = 'formalization_attempt_summary.txt'
+        
+        # Get formalization status from JSON
+        if problem_num in formalization_status_map:
+            json_status = formalization_status_map[problem_num]
+            if json_status['status']:
+                solution_info['formalization_status'] = json_status['status']
+            if json_status['reason']:
+                solution_info['formalization_reason'] = json_status['reason']
 
         # Parse notes.txt for metadata
         if notes_file.exists():
@@ -103,7 +134,8 @@ def scan_problem_solutions() -> list[dict[str, Any]]:
 
         # Only include if there's at least one artifact
         if any([solution_info['disproof'], solution_info['proof'],
-                solution_info['formalization'], solution_info['attempt_summary']]):
+                solution_info['formalization'], solution_info['attempt_summary'],
+                solution_info['formalization_status']]):
             solutions.append(solution_info)
 
     return solutions
@@ -112,6 +144,13 @@ def scan_problem_solutions() -> list[dict[str, Any]]:
 def get_status_display(sol: dict[str, Any]) -> str:
     """Get display string for solution status."""
     status = sol.get('status')
+    formalization_status = sol.get('formalization_status')
+
+    # Check formalization_status first
+    if formalization_status == 'formalized':
+        return "Formalized (unsolved)"
+    elif formalization_status == 'cannot_formalize':
+        return "Cannot formalize"
 
     if status == STATUS_NEW_COUNTEREXAMPLE:
         return "NEW counterexample"

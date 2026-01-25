@@ -78,12 +78,10 @@ Begin your formalization now."""
 
 def validate_lean_file(lean_file):
     """Validate a Lean file compiles correctly using lake."""
-    # Move file to formalization project
-    formalization_dir = Path("formalization/Formalization")
-    formalization_dir.mkdir(parents=True, exist_ok=True)
-    target_file = formalization_dir / "Problem.lean"
+    # Copy file to formalization project
+    formalization_lib_dir = Path("formalization/Formalization")
+    target_file = formalization_lib_dir / "Problem.lean"
     
-    # Copy to formalization project
     import shutil
     shutil.copy(lean_file, target_file)
     
@@ -93,7 +91,7 @@ def validate_lean_file(lean_file):
             cwd="formalization",
             capture_output=True,
             text=True,
-            timeout=120
+            timeout=600  # 10 minutes for first Mathlib build, much faster after caching
         )
         success = result.returncode == 0
         
@@ -148,7 +146,7 @@ def run_claude_formalization(prompt):
             stdin=open(prompt_file),
             capture_output=False,  # Let output stream
             text=True,
-            timeout=300
+            timeout=600  # 10 minutes for Mathlib builds
         )
         return result.returncode == 0
     except subprocess.TimeoutExpired:

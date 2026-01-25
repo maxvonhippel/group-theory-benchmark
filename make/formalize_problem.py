@@ -56,21 +56,30 @@ Create a PERFECT formalization of this problem in Lean 4 with sorry's for unsolv
 - Must be complete and accurate representation of the problem
 
 **If You Cannot Formalize:**
-Explain clearly why:
-- Problem too vague/ambiguous
-- Concept not expressible in Lean
-- Missing definitions/context
-- Other specific reasons
+Some problems cannot be properly formalized because they are:
+- Too vague or ambiguous
+- Open-ended (e.g., "classify all groups with property X")
+- Asking for examples/constructions rather than statements
+- Using concepts not expressible in current Lean/Mathlib
+- Missing critical context or definitions
+
+If you determine the problem CANNOT be properly formalized:
+1. Create a file: cannot_formalize.txt
+2. Write a clear explanation of why (2-3 sentences)
+3. DO NOT create formalization.lean
+4. Exit
 
 **Workflow:**
 1. Analyze the problem statement carefully
-2. Write the Lean formalization
-3. Test it with lean CLI
-4. If it compiles perfectly: SUCCESS
-5. If it doesn't compile or is incomplete: Explain why and STOP
+2. Determine if it CAN be formalized as a precise mathematical statement
+3. If NO: Write cannot_formalize.txt and exit
+4. If YES: Write the Lean formalization
+5. Test it with lean CLI
+6. If it compiles perfectly: SUCCESS
+7. If it doesn't compile: Explain in cannot_formalize.txt and exit
 
 DO NOT submit imperfect formalizations.
-Only output code that compiles perfectly.
+Only output code that compiles perfectly OR explain why formalization is impossible.
 
 Begin your formalization now."""
     
@@ -215,11 +224,32 @@ def main():
         print("\nClaude formalization process failed or was interrupted.")
         sys.exit(1)
     
-    # Check for formalization.lean in current directory (Claude writes here)
+    # Check for formalization.lean or cannot_formalize.txt
     lean_file = Path("formalization.lean")
+    cannot_formalize_file = Path("cannot_formalize.txt")
+    
+    if cannot_formalize_file.exists():
+        reason = cannot_formalize_file.read_text().strip()
+        print("\n" + "=" * 60)
+        print(f"Problem #{problem_num} CANNOT be formalized")
+        print(f"Reason: {reason}")
+        print("=" * 60)
+        
+        # Save the reason to problem directory
+        problem_cannot_file = problem_dir / "cannot_formalize.txt"
+        import shutil
+        shutil.move(cannot_formalize_file, problem_cannot_file)
+        
+        # Update JSON to mark as unformalizable
+        problem['formalization_status'] = 'cannot_formalize'
+        problem['formalization_reason'] = reason
+        save_problems(problems)
+        
+        sys.exit(0)  # Not an error - just can't be formalized
+    
     if not lean_file.exists():
-        print("\nError: No formalization.lean file was created.")
-        print("Claude may have determined the problem cannot be formalized.")
+        print("\nError: Neither formalization.lean nor cannot_formalize.txt was created.")
+        print("Claude may have failed to complete the task.")
         sys.exit(1)
     
     # Validate the Lean code
@@ -238,6 +268,10 @@ def main():
     # Move formalization to problem directory
     import shutil
     shutil.move(lean_file, formalization_file)
+    
+    # Update JSON to mark as successfully formalized
+    problem['formalization_status'] = 'formalized'
+    save_problems(problems)
     
     print("\n" + "=" * 60)
     print(f"SUCCESS: Problem #{problem_num} formalized")

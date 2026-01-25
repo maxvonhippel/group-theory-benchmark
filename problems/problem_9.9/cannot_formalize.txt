@@ -1,0 +1,1 @@
+Does there exist a finitely generated group which is not nilpotent-by-finite

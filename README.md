@@ -28,11 +28,11 @@ This project was inspired by the paper [Disproof of the Mertens Conjecture](http
 | 1.5 | `formalization.lean` | Formalized (unsolved) | Pending |
 | 1.6 | `formalization.lean` | Formalized (unsolved) | Pending |
 | 11.44 | `problem.lean` | Formalized (unsolved) | Pending |
-| 16.44 | `formalization_attempt_summary.txt` | Could not formalize | Pending |
-| 19.110 | `formalization_attempt_summary.txt` | Could not formalize | Pending |
-| 369 | `formalization_attempt_summary.txt` | Could not formalize | Pending |
-| 5.54 | `formalization_attempt_summary.txt` | Could not formalize | Pending |
-| 9.9 | `formalization_attempt_summary.txt` | Could not formalize | Pending |
+| 16.44 | `formalization_attempt_summary.txt` | Cannot formalize | Pending |
+| 19.110 | `formalization_attempt_summary.txt` | Cannot formalize | Pending |
+| 369 | `formalization_attempt_summary.txt` | Cannot formalize | Pending |
+| 5.54 | `formalization_attempt_summary.txt` | Cannot formalize | Pending |
+| 9.9 | `formalization_attempt_summary.txt` | Cannot formalize | Pending |
 
 ## Setup
 

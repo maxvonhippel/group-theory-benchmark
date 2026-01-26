@@ -17,7 +17,9 @@
   {
     "page_number": 5,
     "problem_number": "1.12",
-    "problem_text": "(W. Magnus). The problem of the isomorphism to the trivial group for all groups with n generators and n defining relations, where n > 2. M. D. Greendlinger"
+    "problem_text": "(W. Magnus). The problem of the isomorphism to the trivial group for all groups with n generators and n defining relations, where n > 2. M. D. Greendlinger",
+    "formalization_status": "cannot_formalize",
+    "formalization_reason": "Meta-mathematical decidability question"
   },
   {
     "page_number": 5,

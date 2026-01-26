@@ -41,6 +41,36 @@ Key features:
 Tests should be placed in `tests/` directory.
 Run tests with `make test` or `uv run pytest`.
 
+## Adding New Problem Sets
+
+When adding a new problem set from `lit/`:
+
+1. **Create BAML extraction logic** in `src/baml_src/functions.baml`:
+   - Add a new function like `ExtractXxxProblems` following the pattern of `ExtractKourovkaProblems` and `ExtractKleeProblems`
+   - Tailor the prompt to the specific problem numbering and format
+   - Test on 10-20 pages before full extraction
+
+2. **Update references.bib**:
+   - Add a proper BibTeX entry for the source paper/book
+   - Include URL if available online
+   - Use appropriate BibTeX type (@book, @article, @misc, etc.)
+
+3. **Update make/generate_readme.py**:
+   - Add the new problem set to the "Problem Sets" section
+   - Include title, author, and link (if available)
+   - Format: `- **[Title](url)** by Author: Description`
+
+4. **Extract problems**:
+   - Use `make extract-all-xxx` or create a new target in `make/extract.mk`
+   - Problems will be placed in `problems/{list_name}/`
+
+5. **Regenerate README**:
+   - Run `make readme` to update with new problem set
+   - Verify the Problem Sets section includes the new entry
+   - Verify references.bib is properly linked
+
+The README generation automatically handles multiple problem lists and will show a "List" column in the solutions table when multiple lists are present.
+
 ## Common Tasks
 
 - `make setup` - Initialize project (submodules, dependencies, GAP build)

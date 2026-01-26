@@ -16,19 +16,19 @@ This project was inspired by the paper [Disproof of the Mertens Conjecture](http
 
 **Warning**: [No AI-generated proof should be trusted without human review, no matter how formal.](https://www.lesswrong.com/posts/rhAPh3YzhPoBNpgHg/lies-damned-lies-and-proofs-formal-methods-are-not-slopless)
 
-| Problem | Artifact | Status | Human Review |
-|---------|----------|--------|-------------|
-| 1.3 | `formalization.lean` | Formalized (unsolved) | Pending |
-| 1.31 | `formalization.lean` | Formalized (unsolved) | Pending |
-| 1.35 | `formalization.lean` | Formalized (unsolved) | Pending |
-| 1.5 | `formalization.lean` | Formalized (unsolved) | Pending |
-| 1.6 | `formalization.lean` | Formalized (unsolved) | Pending |
-| 11.44 | `problem.lean` | Formalized (unsolved) | Pending |
-| 16.44 | `cannot_formalize.txt` | Cannot formalize | Pending |
-| 19.110 | `cannot_formalize.txt` | Cannot formalize | Pending |
-| 5.54 | `cannot_formalize.txt` | Cannot formalize | Pending |
-| 9.9 | `cannot_formalize.txt` | Cannot formalize | Pending |
-| Well-known problem | `cannot_formalize.txt` | Cannot formalize | Pending |
+| Problem | List | Artifact | Status | Human Review |
+|---------|------|----------|--------|-------------|
+| 1.3 | kourovka | `formalization.lean` | Formalized (unsolved) | Pending |
+| 1.31 | kourovka | `formalization.lean` | Formalized (unsolved) | Pending |
+| 1.35 | kourovka | `formalization.lean` | Formalized (unsolved) | Pending |
+| 1.5 | kourovka | `formalization.lean` | Formalized (unsolved) | Pending |
+| 1.6 | kourovka | `formalization.lean` | Formalized (unsolved) | Pending |
+| 11.44 | kourovka | `problem.lean` | Formalized (unsolved) | Pending |
+| 16.44 | kourovka | `cannot_formalize.txt` | Cannot formalize | Pending |
+| 19.110 | kourovka | `cannot_formalize.txt` | Cannot formalize | Pending |
+| 5.54 | kourovka | `cannot_formalize.txt` | Cannot formalize | Pending |
+| 9.9 | kourovka | `cannot_formalize.txt` | Cannot formalize | Pending |
+| Well-known problem | kourovka | `cannot_formalize.txt` | Cannot formalize | Pending |
 
 ## Setup
 
@@ -43,6 +43,28 @@ make watch-solve  # Launch Claude to solve a random problem
 make test         # Run test suite
 ```
 
-## Problem Set
+## Problem Sets
 
-Problems are drawn from the [Kourovka Notebook](https://kourovka-notebook.org/), a collection of unsolved problems in group theory.
+Problems are drawn from multiple sources:
+
+- **[Kourovka Notebook](https://kourovka-notebook.org/)**: A collection of unsolved problems in group theory
+- **Unsolved Problems in Intuitive Geometry** by Klee & Wagon: Open problems in computational and combinatorial geometry
+
+## Citation
+
+If you use this benchmark in your research, please cite:
+
+```bibtex
+@dataset{vonhippel2025budden,
+  author={von Hippel, Max},
+  title={{BuddenBench}: A Benchmark of Open Nontrivial Group Theory Problems},
+  year={2025},
+  publisher={GitHub},
+  howpublished={\url{https://github.com/maxvonhippel/budden-bench}},
+  note={AI benchmark for automated mathematics research in group theory and geometry}
+}
+```
+
+For citations to the source problem collections, see [references.bib](references.bib).
+
+*Last updated: 2026-01-26 16:54:41 UTC*

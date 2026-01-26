@@ -250,6 +250,7 @@ def generate_readme(list_name: Optional[str] = None) -> str:
     Args:
         list_name: Specific problem list to include, or None for all lists
     """
+    from datetime import datetime, timezone
     
     # Read existing README sections (if any) - for now, start fresh
     readme = "# 🔮 BuddenBench: a Benchmark of Open Nontrivial Group Theory Problems\n\n"
@@ -291,10 +292,32 @@ def generate_readme(list_name: Optional[str] = None) -> str:
     readme += "make test         # Run test suite\n"
     readme += "```\n\n"
     
-    readme += "## Problem Set\n\n"
-    readme += "Problems are drawn from the [Kourovka Notebook]"
-    readme += "(https://kourovka-notebook.org/), "
-    readme += "a collection of unsolved problems in group theory.\n"
+    readme += "## Problem Sets\n\n"
+    readme += "Problems are drawn from multiple sources:\n\n"
+    readme += "- **[Kourovka Notebook](https://kourovka-notebook.org/)**: "
+    readme += "A collection of unsolved problems in group theory\n"
+    readme += "- **Unsolved Problems in Intuitive Geometry** by Klee & Wagon: "
+    readme += "Open problems in computational and combinatorial geometry\n\n"
+    
+    # Add citation section
+    readme += "## Citation\n\n"
+    readme += "If you use this benchmark in your research, please cite:\n\n"
+    readme += "```bibtex\n"
+    readme += "@dataset{vonhippel2025budden,\n"
+    readme += "  author={von Hippel, Max},\n"
+    readme += "  title={{BuddenBench}: A Benchmark of Open Nontrivial Group Theory Problems},\n"
+    readme += "  year={2025},\n"
+    readme += "  publisher={GitHub},\n"
+    readme += "  howpublished={\\url{https://github.com/maxvonhippel/budden-bench}},\n"
+    readme += "  note={AI benchmark for automated mathematics research in group theory and geometry}\n"
+    readme += "}\n"
+    readme += "```\n\n"
+    
+    # Add last updated timestamp
+    now = datetime.now(timezone.utc)
+    timestamp = now.strftime("%Y-%m-%d %H:%M:%S UTC")
+    readme += f"For citations to the source problem collections, see [references.bib](references.bib).\n\n"
+    readme += f"*Last updated: {timestamp}*\n"
     
     return readme
 

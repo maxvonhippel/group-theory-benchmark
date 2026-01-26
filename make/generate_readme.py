@@ -214,15 +214,26 @@ def generate_solution_table(solutions: list[dict[str, Any]], show_list_column: b
         table += "|---------|----------|--------|-------------|\n"
 
     for sol in solutions:
-        # Determine artifact type (prefer new 'artifact' field over legacy fields)
+        # Determine artifact type and create link to actual file
+        artifact = None
+        artifact_filename = None
+        
         if sol.get('artifact'):
-            artifact = f"`{sol['artifact']}`"
+            artifact_filename = sol['artifact']
         elif sol['disproof']:
-            artifact = f"`{sol['disproof']}`"
+            artifact_filename = sol['disproof']
         elif sol['proof']:
-            artifact = f"`{sol['proof']}`"
+            artifact_filename = sol['proof']
         elif sol['formalization']:
-            artifact = f"`{sol['formalization']}`"
+            artifact_filename = sol['formalization']
+        
+        if artifact_filename:
+            # Construct path to the artifact file
+            list_name = sol.get('list', 'unknown')
+            problem_num = sol['number']
+            file_path = f"problems/{list_name}/problem_{problem_num}/{artifact_filename}"
+            # Create markdown link with code formatting
+            artifact = f"[`{artifact_filename}`]({file_path})"
         else:
             artifact = "N/A"
 

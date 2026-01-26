@@ -1,0 +1,5 @@
+{
+  "page_number": 25,
+  "problem_number": "54",
+  "problem_text": "Problem 54. Let K ⊂ R^N be a balanced compact set (that is, λK ⊂ K when |λ| ⩽ 1) and suppose that the normalised Gaussian measure γ∞(K) is at least 0.99. Does 10K (say) contain a compact convex set C with γ∞(C) ⩾ 0.01?\nComments. This question is raised by Talagrand [268]. He raised the question again in [269] and offered 1000 dollars for a solution. The answer is no if 10K is"
+}

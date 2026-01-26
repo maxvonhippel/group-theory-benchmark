@@ -1,0 +1,5 @@
+{
+  "page_number": 39,
+  "problem_number": "86",
+  "problem_text": "Problem 86. Let c > 0. Let A be a set of n (distinct) integers. Does there exist\nθ such that no interval of length 1\nn in R/Z contains more than nc of the numbers\nθa(mod 1), a ∈A?\nComments. This is only known for c > 1\n3; see [187]. The problem is raised as [209,\nProblem 17 (4)], where it is attributed to Komlós and Ruzsa. This problem feels\nnot unrelated to questions like Problem 43, but I do not know a direct connection."
+}

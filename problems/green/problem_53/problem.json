@@ -1,0 +1,5 @@
+{
+  "page_number": 25,
+  "problem_number": "53",
+  "problem_text": "Problem 53. Suppose that F^n_2 is partitioned in to sets A1, . . . , AK. Does 2Ai contain a coset of codimension O_K(1) for some i?\nComments. This would easily imply a positive solution to the previous problem. It does not seem to be known even for K = 3. Note that a Hamming ball B := {x : x1 + · · · + xn ⩽ n/2 − √n} has the property that 2B does not contain a coset of codimension O_K(1), and so a subcase of this problem is to show that three Hamming balls A1, A2, A3 (relative to different bases) cannot cover F^n_2.\nFor all I know, Problem 53 could again be true with O(log K) in place of O_K(1), which would again imply the polynomial Bogolyubov and Freiman–Ruzsa conjectures.\nAs with Problem 52, there are analogies with Katznelson’s question. Indeed, in [122, Question C2] it is shown that an equivalent form of that question is the following: If N is partitioned into sets A1, . . . , AK, does Ai − Ai contain a Bohr set?"
+}

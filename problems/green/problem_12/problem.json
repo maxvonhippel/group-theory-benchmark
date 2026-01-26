@@ -1,0 +1,5 @@
+{
+  "page_number": 8,
+  "problem_number": "12",
+  "problem_text": "Problem 12. Let G be an abelian group of size N, and suppose that A ⊂ G has density α. Are there at least α15N 10 tuples (x1, . . . , x5, y1, . . . , y5) ∈ G10 such that xi + yj ∈ A whenever j ∈ {i, i + 1, i + 2}?\nComments. This is very closely related to the Cayley graph case of simplest unknown instance of Sidorenko’s conjecture for graphs, that of the ‘Möbius ladder’ K5,5 \\ C10."
+}

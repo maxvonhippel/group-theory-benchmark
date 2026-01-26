@@ -1,0 +1,5 @@
+{
+  "page_number": 2,
+  "problem_number": "1",
+  "problem_text": "1. Sum-free sets, product-free sets\nProblem 1. Let A be a set of n positive integers. Does A contain a sum-free set\nof size at least n/3 + Ω(n), where Ω(n) →∞as n →∞?\nComments. This is a pretty old and increasingly notorious problem, first men-\n tioned over 50 years ago in [99] . The best known bounds are in Bourgain’s paper\n[39], where he shows that there is necessarily a sum-free set of size n+2\n3 . In fact, he\nshows that there is a sum-free set of size at least\nn\n3 +\nc\nlog n∥1A∥ˆℓ1,\nwhere\n∥1A∥ˆℓ1 :=\nZ 1\n0\n|\nX\na∈A\ne2πiaθ|dθ.\nThus a structural description of sets for which ∥1A∥ˆℓ1 ⩽K log n would be very\nrelevant (see Problem 83 below). In fact, Eberhard, Manners and I (unpublished)\n1Perhaps once a year or so"
+}

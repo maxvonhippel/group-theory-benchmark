@@ -1,0 +1,5 @@
+{
+  "page_number": 29,
+  "problem_number": "61",
+  "problem_text": "Problem 61. Suppose that A + A contains the first n squares. Is |A| ⩾ n1−o(1)?\nComments. Benny Sudakov reminded me of this question, which was considered by Erdős and Newman [104] . For some discussion, see [7, Theorem 1.6]. It seems that the best known results are the relatively simple observations in [104], where it is shown that necessarily |A| ⩾ n2/3−o(1), whilst in the other direction there do exist such A with |A| ≪C n/ logC n, for any C."
+}

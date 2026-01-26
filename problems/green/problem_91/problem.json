@@ -1,0 +1,5 @@
+{
+  "page_number": 41,
+  "problem_number": "91",
+  "problem_text": "Problem 91. (Solved) Take a random graph G(n, 1/2). Is there almost surely a bipartition of G into two sets of n/2 vertices with the property that 99% of vertices have more neighbours on their own side than on the other?\nComments. Told to me by Benny Sudakov, this question was apparently asked by Füredi in 1988.\nUpdate 2021. Ferber, Kwan, Narayanan, Sah and Sawhney [110] have shown that this is indeed true. However (personal communication) they believe it is possible that the result is true with 99 percent replaced by 100 percent. That is, is there almost surely a bipartition of G into two sets of n/2 vertices with the property that all vertices have more neighbours on their own side than on the other?\nUpdate 2023. Minzer, Sah and Sawhney [208] have comprehensively dispatched this problem, in fact finding a critical value of γ ≈ 0.17566 such that almost surely there is a bipartition in which every vertex has ⩾ (γ − o(1))√n more neighbours in its own part than in the other part."
+}

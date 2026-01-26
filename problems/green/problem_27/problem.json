@@ -1,0 +1,5 @@
+{
+  "page_number": 15,
+  "problem_number": "27",
+  "problem_text": "Problem 27. What is the size of the smallest set A ⊂ Z/pZ (with at least two elements) for which no element in the sumset A + A has a unique representation?\nComments. Both Andrew Granville (personal communication) and Swastik Kopparty (open problems session, Harvard 2017) asked me this question.\nUpdate 2023. Bedert [24] has made significant progress on this question, showing that the answer lies between ω(p) log p (for some function ω(p) tending to ∞ with p) and O(log2 p). This improves previous bounds of c log p and O(√p) respectively."
+}

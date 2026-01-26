@@ -1,0 +1,5 @@
+{
+  "page_number": 29,
+  "problem_number": "63",
+  "problem_text": "Problem 63. Let A be the smallest set containing 2 and 3 and such that a1a2−1 ∈ A if a1, a2 ∈ A. Does A have positive density?\nComments. Erdős [100] attributes this to Hofstadter. The answer is probably yes. A proof of this may have to involve some computation (as well as, presumably, theoretical arguments) since the statement fails if a = 2 and b = 3 are replaced by, say, a = 9 and b = 10, since the size of the ‘words’ of a given length (for example, a(ab −1) −1 has length 3) grows much more quickly than the number of them."
+}

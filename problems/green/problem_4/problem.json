@@ -1,0 +1,5 @@
+{
+  "page_number": 4,
+  "problem_number": "4",
+  "problem_text": "Problem 4. (Solved) What is the largest product-free set in the alternating group\nAn?\nComments. Over 20 years ago, Ed Crane pointed out to me that if one takes\nm ∼√n and considers the set S ⊂An of all permutations σ such that σ(1) ∈\n{2, . . . , m} and σ(2), . . . , σ(m) ∈{m + 1, . . . , n}.\nIt is clear that S is product-\nfree, and it is easily checked that the density of S in An is ∼n−1/2. In the other\ndirection, Eberhard [86] showed in a very nice paper that every subset of An of\ndensity > Cn−1/2(log n)7/2 does contain three elements x, y, z with xy = z. Thus\nthe remaining challenge is to remove the log term. Moreover, Eberhard’s work gives\nvery little information about the structure of the extremal sets. Update 2022. This\nquestion has been solved (together with a stability result characterising sets close\nto the extremum) by Keevash, Lifschiz and Minzer [178]."
+}

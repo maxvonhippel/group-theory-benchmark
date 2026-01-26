@@ -1,0 +1,5 @@
+{
+  "page_number": 19,
+  "problem_number": "40",
+  "problem_text": "Problem 40. Let r be a fixed positive integer, and let H(r) be the Hamming\nball of radius r in Fn\n2. Let f(r) be the smallest constant such that there exists an\ninfinite sequence of ns together with subspaces Vn ⩽Fn\n2 with Vn + H(r) = Fn\n2 and\n|Vn| = (f(r) + o(1))\n2n\n|H(r)|. Does f(r) →∞?\nComments. This is a very basic problem about linear covering codes, for which\n[67] (particularly Chapter 12) may be consulted.\nThe only value known is f(1) = 1. This follows from the existence of the Ham-\nming code: let n = 2m −1, and take Vn to be the kernel of the m × (2m −1) matrix\nin which the columns are the non-zero vectors in Fm\n2 . An easy exercise confirms"
+}

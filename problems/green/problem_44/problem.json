@@ -1,0 +1,5 @@
+{
+  "page_number": 21,
+  "problem_number": "44",
+  "problem_text": "Problem 44. Sieve [N] by removing half the residue classes mod pi, for primes 2 ⩽ p1 < p2 < · · · < p1000 < N^{9/10}. Does the remaining set have size at most (1/10)N?\nComments. This is raised in [101, Section 6, Problem 3]. Erdős remarks that the answer is affirmative if the primes are all less than N^{1/2}, by the large sieve. I must admit that I do not know anything about this problem other than what Erdős wrote nearly 40 years ago; this part of his paper does not appear to have been cited since. The same comment applies to the next problem."
+}

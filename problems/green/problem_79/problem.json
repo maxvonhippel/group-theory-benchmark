@@ -1,0 +1,5 @@
+{
+  "page_number": 36,
+  "problem_number": "79",
+  "problem_text": "Problem 79. Pick x1, . . . , xk ∈ An (the alternating group on n letters) at random. Is it true that, almost surely as n → ∞, the random walk on this set of generators and their inverses equidistributes in time O(n log n)?\nComments. The statement is one equivalent form of what it means to be an expanding set of generators. This may even be true for k = 2, although it is not known if this statement is true for any pair of elements in An.\nThe statement about equidistribution of the random walk is one of the known equivalent definitions of being an expanding set of generators. Thus an alternative formulation of the question is: do k random elements of An form an expanding set of generators?\nAt present this seems a pretty hopeless problem.\nIt would imply that (a.s. as n → ∞) the diameter of An with respect to the generating set x1, . . . , xk is O(n log n). By contrast, the best known upper bound for this is O(n2 logC n), due to Helfgott, Seress and Zuk [159]."
+}

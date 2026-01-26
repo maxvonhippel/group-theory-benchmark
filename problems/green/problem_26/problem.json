@@ -1,0 +1,5 @@
+{
+  "page_number": 14,
+  "problem_number": "26",
+  "problem_text": "Problem 26. Let A1, . . . , A100 be ‘cubes’ in F_3^n, that is to say images of {0, 1}^n under a linear automorphism of F_3^n. Is it true that A1 + · · · + A100 = F_3^n?"
+}

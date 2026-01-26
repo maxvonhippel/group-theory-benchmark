@@ -1,0 +1,5 @@
+{
+  "page_number": 17,
+  "problem_number": "34",
+  "problem_text": "Problem 34. Suppose that A ⊂ [N] is a set of size ⩾ c√N for which rA(n) ⩽ r\nfor all n. What can be said about the structure of A?\nComments. Whilst all known constructions are at least somewhat algebraic, even\nformulating a conjecture (even in the case c ≈ 1 and r = 1) seems hopeless. See"
+}

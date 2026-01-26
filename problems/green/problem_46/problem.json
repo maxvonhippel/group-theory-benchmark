@@ -1,0 +1,5 @@
+{
+  "page_number": 22,
+  "problem_number": "46",
+  "problem_text": "Problem 46. What is the largest y for which one may cover the interval [y] by residue classes ap(mod p), one for each prime p ⩽ x?\nComments. This is the Jacobsthal problem, and it is somewhat notorious. It is known [113] that y ≫ x log x log log log x / log log x, and any improvement upon this would lead to a better bound for the largest gap between consecutive primes. The best upper bound is y ≪ x2, due to Iwaniec [164]. It seems very likely that one must have y ≪ x1+o(1). A proof of this would not give a better upper bound on gaps between primes, merely on the capability of one method for producing them.\nErdős and Ruzsa [106] and Hildebrand [161] mention the following elegant problem of a similar type: can one cover [x] with residue classes a(p)(mod p), p ⩽ x, at most one for each prime p, and with P 1/p ⩽ K? Erdős and Ruzsa suggest that in fact the answer is no, and moreover that the uncovered set should have size at least c(K)x."
+}

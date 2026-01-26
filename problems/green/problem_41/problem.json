@@ -1,0 +1,5 @@
+{
+  "page_number": 20,
+  "problem_number": "41",
+  "problem_text": "Problem 41. How many rotated (about the origin) copies of the ‘pyjama set’\n{(x, y) ∈ R2 : dist(x, Z) ⩽ ε} are needed to cover R2?\nComments. Manners [202], solving the ‘pyjama problem’, proved that there is\nsome finite set of rotations with this property. His proof uses topological dynamics\nand is ineffective. I am not aware of any nontrivial lower bounds: in particular, is\nε−C rotations enough?"
+}

@@ -1,0 +1,5 @@
+{
+  "page_number": 34,
+  "problem_number": "74",
+  "problem_text": "Problem 74. What is the largest subset of [N]d with no 5 points on a 2-plane?\nComments. It was consideration of this problem which led me to Problem 73 above. I do not know if there can be such a set of size N^{d−100}. A more-or-less equivalent formulation is to find the largest subset of [N]d with no 5 points on a conic (since conics are planar, and though any 5 points in the plane there is a conic).\nQuestions of this type seem related to the following question asked by Bays and Breuillard [23]: do there exist arbitrarily large finite sets A ⊂ R^2 with |A + A| = |A|^{1+o(1)}, but which are in ‘general position’ in the sense that for every d, max_{C: deg C=d} |A ∩ C| is bounded? It is important to note that this is required for every d. If one just requires d = 1, for example then an example of Pach [215] suffices."
+}

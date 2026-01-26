@@ -1,0 +1,6 @@
+{
+  "page_number": 42,
+  "problem_number": "95",
+  "problem_text": "Problem 95. (Solved) Are a positive proportion of positive integers a sum of two palindromes?\nComments. Of course one must specify a base g (say g = 10) in which one is working.\nBaxter, Cilleruelo and Luca [22] have shown that in base g ⩾ 5, every positive integer is a sum of three palindromes. They also show that for g ⩾ 2 the number of n ⩽ X which are the sum of two palindromes is ⩾ Xe−cg√log X, and for g ⩾ 3 is at most (1 − cg)X, where cg > 0. They also raise the question of whether this set has positive density.\nThey remark that it would be interesting to extend their result on sums of three palindromes to the bases g = 2, 3, 4. They suggest that for g = 3, 4 the same result should hold, but when g = 2 they observe that 101100002 is not the sum of two or three palindromes. The arguably more interesting question of what can be said if one allows finitely many exceptions is not raised in the paper.\nUpdate 2024. D. Zakharov [285] has shown that the answer to Problem 95 is negative, showing that the number of n ⩽ X which are the sum of two base g",
+  "answer": "Update 2024. D. Zakharov [285] has shown that the answer to Problem 95 is negative."
+}

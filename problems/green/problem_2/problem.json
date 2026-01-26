@@ -1,0 +1,5 @@
+{
+  "page_number": 3,
+  "problem_number": "2",
+  "problem_text": "Problem 2. Let A ⊂ Z be a set of n integers. Is there a set S ⊂ A of size (log n)^{100} with S ˆ+ S disjoint from A?\n\nComments. Here S ˆ+ S denotes the restricted sumset {s1 + s2 : s1, s2 ∈ S, s1 ̸= s2}. Problems of this type are also at least 50 years old, being once again mentioned in [99] (and attributed to joint discussions of Erdős and Moser). It is known from very recent work of Sanders [251] that there is always such an S with |S| ⩾ (log n)^{1+c}. By contrast the best-known upper bound is due to Ruzsa [243], showing that one cannot in general hope to take |S| bigger than e^{C√log n}."
+}

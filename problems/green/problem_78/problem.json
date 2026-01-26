@@ -1,0 +1,5 @@
+{
+  "page_number": 35,
+  "problem_number": "78",
+  "problem_text": "Problem 78. (Solved) Let ε > 0. Suppose A ⊂SO(3) is open and has sufficiently small (in terms of ε) normalised Haar measure. Is µ(A · A) ⩾(4 −ε)µ(A)?\nComments. Nothing better is possible, as follows by considering small neighbourhoods of a 1-dimensional subgroup. This question arose in conversations with Emmanuel Breuillard.\nJing and Tran [166, Theorem 1.3] obtained the bound µ(A · A) ⩾(2 + η)µ(A), provided that µ(A) is sufficiently small, where η ∼10−12. This is already a highly nontrivial result.\nInterestingly, the question becomes easier in noncompact groups. For example, with SO(3) replaced by SL2(R), it is shown in [167] that µ(A · A) ⩾4µ(A). The feature of SL2(R) which makes this possible is the presence of the affine group Aff(R), which is solvable and sits in a short exact sequence 1 →R →Aff(R) → R →1. This allows one to bring in tools related to the Brunn-Minkowski theorem.\nUpdate 2023. The original question has been resolved positively by Jing, Tran and Zhang [168]. Their argument is very elaborate and makes heavy use of model"
+}

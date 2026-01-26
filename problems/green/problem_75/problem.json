@@ -1,0 +1,5 @@
+{
+  "page_number": 34,
+  "problem_number": "75",
+  "problem_text": "Problem 75. Let X ⊂ R^2 be a set of n points. Does there exist a line ℓ through at least two points of X such that the numbers of points on either side of ℓ differ by at most 100?\nComments. I read this in Alon [181, Problem 364], but Gil Kalai [171] has directed me to a blog post he prepared on this topic in 2010. In particular, that the answer to the question is affirmative both he and Pinchasi [224, Problem 7.1] refer to as the Kupitz-Perles conjecture. Pinchasi [224] has shown that it is true with 100 replaced by O(log log n); this is the best-known upper bound for the problem. Alon (see [224]) has given an example to show that it is not true with 100 replaced by 2.\nConlon and Lim [74] give a negative answer to a variant of this problem with ‘pseudolines’; their paper may be consulted for further references."
+}

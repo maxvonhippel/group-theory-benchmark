@@ -1,0 +1,5 @@
+{
+  "page_number": 15,
+  "problem_number": "30",
+  "problem_text": "Problem 30. Given a set A ⊂ Z with D(A) ⩽ K, find a large structured subset A′ which ‘obviously’ has D(A′) ⩽ K + ε (Here, D(A) := |A − A|/|A|).\nComments. To illustrate what is meant here, let me state a result of Eberhard, Manners and me [88, Section 6]: if |A − A| ⩽ (4 − ε)|A|, then there is a progression P of length ≫ε |A| on which A has density > 1/2. Then A′ := A ∩ P ‘obviously’ has D(A′) ⩽ 4. One can imagine a more general such result. One could also ask for bounds; in the proof of the result just stated for doubling close to 4, the constant in the ≫ε 1 is essentially ineffective."
+}

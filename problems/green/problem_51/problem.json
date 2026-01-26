@@ -1,0 +1,5 @@
+{
+  "page_number": 24,
+  "problem_number": "51",
+  "problem_text": "Problem 51. Suppose that A ⊂ F_2^n is a set of density α. What is the largest size of coset guaranteed to be contained in 2A?\nComments. Adding just two copies of a set, as opposed to three or more, leads to less structure. It is known that 2A must contain a coset of dimension ≫ α n, but need not contain one of dimension n − √n. See [133, Chapter 14] for a discussion of both directions. The behaviour as α → 1/2− is also interesting [248]: in that paper (Question 5.1) Sanders asks whether, if α ⩾ 1/2 − K/√n, then 2A must contain a coset of codimension O_K(1).\nAs with other problems in this section, Problem 51 has an analogue for subsets of [N], with ‘coset’ replaced by ‘arithmetic progression’. In this setting, the lower bound is ∼ e^{c(log N)^{1/2}} [132] and the upper bound ∼ e^{c(log N)^{2/3}} [238]."
+}

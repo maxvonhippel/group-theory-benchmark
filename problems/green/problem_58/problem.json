@@ -1,0 +1,5 @@
+{
+  "page_number": 27,
+  "problem_number": "58",
+  "problem_text": "Problem 58. Suppose that A, B ⊂{1, . . . , N} both have size N 0.49. Does A + B contain a composite number?\n\nComments. This is one of my favourite open questions. It arises from an old question of Ostmann, called the ‘inverse Goldbach problem’: do there exist infinite sets A, B such that A + B coincides with the primes from some point on? The answer to this question is surely no, and a positive answer to Problem (58) would imply this by work of Elsholtz [95]. Adam Harper and me [144] showed that a positive solution follows from a reasonable understanding of the inverse large sieve, which is Problem 47 above.\n\nAs a general point, one can ask many questions pertaining to sumsets of sets below the square-root threshold, and our understanding is close to negligible for all"
+}

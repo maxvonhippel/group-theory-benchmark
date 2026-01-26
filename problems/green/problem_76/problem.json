@@ -1,0 +1,5 @@
+{
+  "page_number": 35,
+  "problem_number": "76",
+  "problem_text": "Problem 76. Let A be a set of n points in the plane. Can one select a set A′ of n/2 points, with the property that any axis-parallel rectangle containing 1000 points of A contains at least one point of A′?\nComments. This problem was told to me by Nets Katz a number of years ago. I believe it is instance of a well-known problem in discrepancy theory, namely whether weak ε-nets for axis-parallel boxes of size O(1/ε) exist. Certainly a search for those terms will yield the relevant papers, of which [6] seems to be particularly pertinent; if I understand correctly (though I should caution that this is far from my expertise), they show that the answer is ‘yes’ if 1000 is replaced by C log log n. Noga Alon remarked to me that if A′ is required to be a subset of A then the answer is no. See Lemma 3.1 of [216]."
+}

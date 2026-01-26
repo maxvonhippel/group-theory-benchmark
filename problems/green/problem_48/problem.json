@@ -1,0 +1,5 @@
+{
+  "page_number": 22,
+  "problem_number": "48",
+  "problem_text": "Problem 48. Suppose that a small sieve process leaves a set of maximal size. What is the structure of that set?\nComments. It is not at all clear to me what a good formulation of this question, the inverse small sieve problem, should be. One could, for example, consider a linear sieve in which precisely one residue class a(p)(mod p) is removed from [X] for each prime p ⩽ √X (or even for somewhat larger primes as well), leaving a set S. The Selberg sieve or the Rosser–Iwaniec sieve yield a bound |S| ⩽ (2 + o(1))X/ log X. Selberg [255] observed that one cannot hope to beat such a bound"
+}

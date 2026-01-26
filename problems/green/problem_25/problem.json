@@ -1,0 +1,5 @@
+{
+  "page_number": 14,
+  "problem_number": "25",
+  "problem_text": "Problem 25. For which values of k is the following true: whenever we partition [N] = A1 ∪ · · · ∪ Ak, |⋃_{i=1}^k (Ai ˆ+ Ai)| ⩾ 1/10 N?\nComments. So far as I know, all that is known is the following: for k ≪ log log N, this is true, whilst for k ≫ N/ log N, it need not be. These results are contained in a 1989 paper of Erdős, Sárközy and Sós [107]. The truth of this statement even for constant k answered a question of Roth from at least 30 or so years earlier. Ruzsa [241] constructs partitions A1 ∪ · · · ∪ Ak of an N-element set, k = N/m, for which the union |⋃_{i=1}^k (Ai ˆ+ Ai)| is as small as about O_m(N^{1/2}). It ought to be possible to make these into partitions of [N] by a Freiman isomorphism/random covering argument. Ruzsa does not clarify the m-dependence in his article, though this should not be too hard to do if desired."
+}

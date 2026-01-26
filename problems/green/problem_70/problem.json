@@ -1,0 +1,5 @@
+{
+  "page_number": 32,
+  "problem_number": "70",
+  "problem_text": "Problem 70. Fix integers k, ℓ. Is it true that, given a set of n ⩾ n0(k, ℓ) points in R2, either some k of them lie on a line, or some ℓ of them are ‘mutually visible’, that is to say that line segment joining them contains no other point from the set?\nComments. This question was first raised in [172]. It is known for ℓ ⩽ 5, see [4]. The link to Problem 69 is that if A does not have ℓ mutually visible points then one may easily see that it has ≫ℓ n2 collinear triples."
+}

@@ -1,0 +1,5 @@
+{
+  "page_number": 33,
+  "problem_number": "73",
+  "problem_text": "Problem 73. Let Γ be a smooth codimension 2 surface in Rn. Must Γ intersect\nsome 2-dimensional plane in 5 points, if n is sufficiently large?\nComments. Obviously there is a more general problem here, where the codimen-\nsion of Γ is d and one wants to know that some d-dimension plane intersects Γ in\nf(n, d) points."
+}

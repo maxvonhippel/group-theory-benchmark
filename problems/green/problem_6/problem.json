@@ -1,0 +1,5 @@
+{
+  "page_number": 4,
+  "problem_number": "6",
+  "problem_text": "Problem 6. Fix an integer d. What is the largest sum-free subset of [N]d?\nComments. This problem was raised in an unpublished note of Peter Cameron\nfrom 2002 [53], as well as (in the case d = 2) in [54, Problem 424], where it is attrib-\nuted to Harut Aydinian. Writing fd(N) for the quantity in question, the most inter-\nesting part of the question seems to be determining cd := lim supN→∞N −dfd(N).\nIt is very well-known and easy that c1 = 1\n2. Elsholtz and Rackham [96] showed\nthat c2 = 3\n5, and gave lower bounds for larger d. In general, it seems to be believed\nthat a ‘slice’ {(x1, . . . , xd) : u ⩽x1 + · · · + xd < 2u} is optimal, where u is chosen\nto maximise the number of points in this set."
+}

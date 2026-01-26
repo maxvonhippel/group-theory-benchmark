@@ -1,0 +1,5 @@
+{
+  "page_number": 45,
+  "problem_number": "100",
+  "problem_text": "Problem 100. Is every group well-approximated by finite groups?\nComments. There are really two questions here, namely is every group sofic? and is every group hyperlinear? Here is a precise statement of the latter question.\nSuppose that G is a group.\nIs the following true?\nFor every finite set A ⊂ G containing the identity e_G and for every ε > 0, there is some unitary group U(n)"
+}

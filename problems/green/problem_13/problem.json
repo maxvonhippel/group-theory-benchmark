@@ -1,0 +1,5 @@
+{
+  "page_number": 8,
+  "problem_number": "13",
+  "problem_text": "Problem 13 (4-term APs in uniform sets.). Suppose that A ⊂ Z/NZ has density α and is Fourier uniform (that is, all Fourier coefficients of 1A − α are o(N)). Does A contain at least ≫ α100N 2 4-term arithmetic progressions?\nComments. Gowers [126] has shown that this is not true if 100 is replaced by 4.01. In view of the ‘arithmetic regularity lemma’ it is natural to consider sets A"
+}

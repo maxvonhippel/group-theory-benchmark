@@ -1,0 +1,5 @@
+{
+  "page_number": 16,
+  "problem_number": "31",
+  "problem_text": "Problem 31. Write F(N) for the largest Sidon subset of [N]. Improve, at least for infinitely many N, the bounds N^{1/2} + O(1) ⩽ F(N) ⩽ N^{1/2} + N^{1/4} + O(1).\nComments. Erdős stated this problem many times. The upper bound is due to Lindstrom from 1939. In my first paper [130] I gave an alternative (but equivalent) proof using Fourier analysis, which I was sure could be tweaked to at least give a small improvement, but I never managed this.\nUpdate 2021. Balogh, Füredi and Roy [15] obtained a small improvement, getting an upper bound of F(N) ⩽ N^{1/2} + 0.998N^{1/4} for large N. In 2023, the constant here was further improved to 0.98183 in [57]."
+}

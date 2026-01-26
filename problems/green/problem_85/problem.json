@@ -1,0 +1,5 @@
+{
+  "page_number": 38,
+  "problem_number": "85",
+  "problem_text": "Problem 85. Suppose that A is an open subset of [0, 1]2 with measure α. Are there four points in A determining an axis-parallel rectangle with area ⩾ cα2?\n\nComments. This is often known as ‘Carbery’s rectangle problem’, though it appears in a joint paper of Carbery, Christ and Wright. See [56, Section 6]. It is quite easy to show using Cauchy-Schwarz that there must be such a rectangle with area ≫ α2(log 1/α)−1. In the other direction, the example of a diagonal stripe of width ∼ α shows that one could not hope for better. A related discrete problem is"
+}

@@ -1,0 +1,5 @@
+{
+  "page_number": 11,
+  "problem_number": "18",
+  "problem_text": "Problem 18. Suppose that G is a finite group, and let A ⊂ G × G be a subset of density α. Is it true that there are ≫α |G|3 triples x, y, g such that (x, y), (gx, y), (x, gy) all lie in A?\nComments. This problem was raised by Tim Austin: see [13, Question 2]. Austin calls triples of the stated type naïve corners.\nAnother type of corner is the configuration {(x, y), (xg, y), (x, gy)}, which Austin calls a BMZ corner (after Bergelson, McCutcheon and Zhang). For these corners, Solymosi [263] has answered the corresponding question.\nOne may consider the situation in which G is quasirandom in the sense of Gowers [125], for example G = PSL2(Fp) for large p. It is natural to speculate that any subset of G×G of size |G|2−δ (for some sufficiently small δ > 0) contains a nontrivial corner of both types. Austin [13, Theorem B] proves this for naïve corners, but his bounds for BMZ corners [13, Theorem C] are weaker."
+}

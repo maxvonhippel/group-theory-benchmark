@@ -1,0 +1,5 @@
+{
+  "page_number": 15,
+  "problem_number": "28",
+  "problem_text": "Problem 28. Suppose that X, Y are two finitely-supported independent random variables taking integer values, and such that X + Y is uniformly distributed on its range. Are X and Y themselves uniformly distributed on their ranges?\nComments. This attractive question was asked by Emmanuel Amlot on Stackexchange, and then subsequently attracted some attention on Math Overflow [286]. There are certainly many examples of such X and Y, for example X could be uniformly distributed on {n, 2n, 3n, · · · , (n − 1)n} and Y on {0, 1, . . . , n − 1}."
+}

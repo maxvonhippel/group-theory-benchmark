@@ -1,0 +1,5 @@
+{
+  "page_number": 5,
+  "problem_number": "8",
+  "problem_text": "Problem 8. Suppose that A ⊂[N] has no more than εN 2 solutions to x + y = z.\nIt is known [134] that one may remove ε′N elements of A to leave a sum-free set,\nwhere ε′ →0 as ε →0. But is there a bound for ε′ in terms of ε which is at least\nvaguely reasonable?\nComments. This concerns the so-called arithmetic removal lemma. Until a few\nyears ago I would have said that one should first consider the model problem over\nFn\n2. However, Fox and L. M. Lovász [115] have used the Croot-Lev-Pach method to\nshow that in that case ε′ can be taken to be εC, and even obtain the optimal value\nof C. By contrast it is known that in [N] there cannot be a polynomial bound.\nAaronson [1] has shown, adapting the ideas of Fox and Lovász, that the problem\nis essentially equivalent to determining the size of the largest additive matching in\nZ/NZ, that is to say collection of triples (xi, yi, zi)i=1,...,t with xi + yj + zk = 0 iff\ni = j = k.\nIt would be remiss not to mention the better-known cousin of this problem, the\ntriangle-removal problem from graph theory. Suppose that a graph on N vertices"
+}

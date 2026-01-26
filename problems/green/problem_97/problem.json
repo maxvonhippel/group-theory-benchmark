@@ -1,0 +1,5 @@
+{
+  "page_number": 43,
+  "problem_number": "97",
+  "problem_text": "Problem 97. In how many ways (asymptotically) Q(n) may n non-attacking queens be placed on an n × n chessboard?\nComments. This is the n queens problem. Though very recreational in its statement, it certainly hides some interesting mathematics. This is most clearly seen for the ‘modular’ version of the problem, in which the chessboard is toroidal and one"
+}

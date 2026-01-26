@@ -1,0 +1,5 @@
+{
+  "page_number": 19,
+  "problem_number": "39",
+  "problem_text": "Problem 39. If A ⊂Z/pZ is random, |A| = √p, can we almost surely cover Z/pZ\nwith 100√p translates of A?\nComments. This is a problem I posed in Barbados in 2010. I do not know how to\nanswer this even with 100 replaced by 1.01. Similar questions are interesting with\n√p replaced by pθ for any θ ⩽1\n2. A problem in much the same vein, but possibly\nmore natural, is to take a group G and choose A ⊂G × G, |A| = |G| at random.\nFor references to related matters see [34]."
+}

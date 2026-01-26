@@ -1,0 +1,5 @@
+{
+  "page_number": 35,
+  "problem_number": "77",
+  "problem_text": "Problem 77. Given n points in the unit disc, must there be a triangle of area at most n−2+o(1) determined by them?\nComments. This is ‘Heilbronn’s triangle problem’ and it is rather notorious. Komlós, Pintz and Szemerédi [183] showed that the o(1)-term is necessary, and in the other direction [182] they showed that there must be a triangle of area at most n−8/7+o(1). I am not aware of any progress since then. It is worth remarking that the problem was a favourite of Klaus Roth [234].\nUpdate 2023. Cohen, Pohoata and Zakharov [66] have improved the bound to n−8/7−c for some c > 0 (they obtain c = 1/2000)."
+}

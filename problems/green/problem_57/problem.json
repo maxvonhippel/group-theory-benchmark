@@ -1,0 +1,5 @@
+{
+  "page_number": 27,
+  "problem_number": "57",
+  "problem_text": "Problem 57. Let G be an abelian group, and consider the space Φ(G) of all functions on G which are convex combinations of functions of the form\n\nϕ(g) := Ex1+x2+x3=gf1(x2, x3)f2(x1, x3)f3(x1, x2)\n\nwith ∥fi∥∞⩽1. Let Φ′(G) be the space of functions defined similarly, but with f3(x1, x2) now required to be a function of x1 + x2. Do Φ(G) and Φ′(G) coincide?\n\nComments. One would guess that the answer is probably ‘no’. The motivation for this problem is that both Φ(G) and Φ′(G) are notions of ‘quadratically structured function’ that have been considered in the literature; Φ(G) is a ‘generalised convolution algebra’ as considered by Conlon-Fox-Zhao [73, Section 5], whereas Φ′(G) consists of Tao’s so-called UAP2(G)-functions [270]. (This last equivalence is not obvious; I have some unpublished notes on it.)"
+}

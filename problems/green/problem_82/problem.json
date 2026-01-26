@@ -1,0 +1,5 @@
+{
+  "page_number": 37,
+  "problem_number": "82",
+  "problem_text": "Problem 82. Let A ⊂ Z be a set of size n. For how many θ ∈ R/Z must we have\n\n∑_{a∈A} cos(aθ) = 0?\n\nComments. This is [193, Problem 22]. He says ‘probably n−1, or not much less’. This is false (depending on how one defines ‘not much less’): there are examples with at most n^{5/6+o(1)} zeros, due to Borwein, Erdélyi, Ferguson and Lockhart [36]. This has recently been improved to O(n^{2/3} log^{2/3} n) by Juškevičius and Sahasrabudhe [169].\n\nIt is known (see [97, 245] that the number of zeros does tend to infinity with n, albeit very slowly (the bound (log log log n)^{1/2−o(1)} is obtained in [245])."
+}

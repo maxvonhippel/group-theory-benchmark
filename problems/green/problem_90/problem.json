@@ -1,0 +1,5 @@
+{
+  "page_number": 40,
+  "problem_number": "90",
+  "problem_text": "Problem 90. Suppose that A ⊂ Z/pZ is a set of density 1/2. Under what conditions on K can A be almost invariant under all maps ϕ(x) = ax + b, |a|, |b| ⩽ K?\n\nComments. This problem was considered by Eberhard, Mrazović and me (unpublished). By ‘almost invariant’ we mean |A △ ϕ(A)| = o(p). One can have K → ∞"
+}

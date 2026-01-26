@@ -1,0 +1,5 @@
+{
+  "page_number": 3,
+  "problem_number": "3",
+  "problem_text": "Problem 3. Suppose that A ⊂ [0, 1] is open and has measure greater than 1/3. Is there a solution to xy = z?\n\nComments. I do not have a reference for this problem; it was suggested during the work that led to [88]. For any θ, the set Aθ := {x : θ log x ∈ (1/3, 2/3) (mod 1)} is"
+}

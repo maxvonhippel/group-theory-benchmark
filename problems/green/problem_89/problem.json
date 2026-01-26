@@ -1,0 +1,5 @@
+{
+  "page_number": 40,
+  "problem_number": "89",
+  "problem_text": "Problem 89. Let A ⊂ F_2^n. If V is a subspace of F_2^n, write α(V ) for the density of A on V. Is there some V of moderately small codimension on which α is stable in the sense that |α(V ) − α(V ′)| ⩽ ε whenever V ′ is a codimension 1 subspace of V?\n\nComments. This is an arithmetic variant of an open question in graph theory raised by Conlon and Fox [72, Lemma 3.6]. In that lemma, they show that every graph G on n vertices contains an ε-regular subset on n′ vertices, where n′/n ⩾ 2^{−ε−(10/ε)^4}, and they go on to say ‘while our bound gives a double exponential dependence, we suspect that the truth is more likely to be a single exponential. We leave this as an open problem.’\n\nManners showed that one can have such a V of codimension exponential in 1/ε. In the other direction, there are examples to show that the codimension must grow like a power of 1/ε."
+}

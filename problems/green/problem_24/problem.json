@@ -1,0 +1,5 @@
+{
+  "page_number": 14,
+  "problem_number": "24",
+  "problem_text": "Problem 24. If A is a set of n integers, what is the maximum number of affine translates of the set {0, 1, 3} that can A contain?\nComments. This problem was apparently raised by Ganguly. I heard it from Robin Pemantle. It seems likely that the answer is (1/3 + o(1))n^2, but this is not known. Aaronson’s paper [2] should be consulted for more information."
+}

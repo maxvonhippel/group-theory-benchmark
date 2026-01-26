@@ -1,0 +1,5 @@
+{
+  "page_number": 19,
+  "problem_number": "38",
+  "problem_text": "Problem 38. What is the largest subset A ⊂Fn\n7 for which A −A intersects\n{−1, 0, 1}n only at 0?\nComments. This is a notorious open problem, that of the Shannon capacity of\nthe 7-cycle. I am mentioning it here to draw attention to the fact that it is an\nadditive combinatorics problem, not a graph theory problem. The current best\nbounds seem to be that (C1 −o(1))n ⩽|A| ⩽(C2 + o(1))n, where the lower bound\nC1 = (367)1/5 ≈3.2578 comes from examples (see [228, Section 9.1]) and the upper\nbound C2 = 7 cos(π/7)/(1 + cos(π/7)) ≈3.3177 is from Lovász’s celebrated paper\n[196, Corollary 5]."
+}

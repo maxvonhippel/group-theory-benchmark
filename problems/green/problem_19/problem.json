@@ -1,0 +1,6 @@
+{
+  "page_number": 11,
+  "problem_number": "19",
+  "problem_text": "Problem 19. (Solved) What is C, the infimum of all exponents c for which the following is true, uniformly for 0 < α < 1? Suppose that A ⊂ Fn2 is a set of density α. Write N := 2n. Then there is some d such that A contains ≫αcN 2 corners (x, y), (x, y + d), (x + d, y).\nComments. Mandache [201] showed that 3.13 ⩽ C ⩽ 4 (and so in particular C cannot be 3, a fact noted earlier by Qing Chu [63] in the ergodic-theoretic setting). Moreover he showed (essentially) that the problem is equivalent to the following one, which is a pure probability problem: determine the infimum of E(E(f|X, Y )E(f|Y, Z)E(f|X, Z)) over all f : [0, 1]3 → [0, 1] (piecewise constant, say) with mean α. Here, X, Y, Z ∼ U[0, 1] are independent random variables.\nUpdate 2019. This question has been resolved by Fox, Sah, Sawhney, Stoner, and Zhao [117], showing that C = 4. However, in their paper they mention that the corresponding question for squares (x, y), (x, y + d), (x + d, y), (x + d, y + d) is wide open (and here it is not even clear that C exists).",
+  "answer": "Update 2019. This question has been resolved by Fox, Sah, Sawhney, Stoner, and Zhao [117], showing that C = 4."
+}

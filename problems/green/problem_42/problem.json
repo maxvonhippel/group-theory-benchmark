@@ -1,0 +1,5 @@
+{
+  "page_number": 20,
+  "problem_number": "42",
+  "problem_text": "Problem 42. Can the Cohn–Elkies scheme be used to prove the optimal bound\nfor circle-packings?\nComments. Cohn and Elkies [69] put forward a general scheme for obtaining\nupper bounds on the density of sphere packings in Rd, and conjectured that it is\noptimal when d = 1, 2, 8, 24. They proved this when d = 1, and famously Viazovska\n[277] established the case d = 8 and, in joint work with Cohn, Kumar, Miller and\nRadchenko [70], this was adapted to d = 24.\nThe case d = 2 amounts to constructing a radial function f : R2 → R with\nf(x) ⩽ 0 for |x| ⩾ 2, f̂(t) ⩾ 0 for all t, f̂(0) > 0, and f(0)/f̂(0) = √3/6. Such a function\nmust vanish at the hexagonal lattice Λ (except at zero), and its Fourier transform\nmust vanish at the dual lattice Λ∗ (again, except at zero).\nSee [252] for some related discussion."
+}

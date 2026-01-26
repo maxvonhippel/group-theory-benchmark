@@ -1,0 +1,5 @@
+{
+  "page_number": 30,
+  "problem_number": "66",
+  "problem_text": "Problem 66. Is there always a sum of two squares between X − 1/10 X^{1/4} and X?\nComments. I am including this mainly because it is in Littlewood’s list [193] (Problem 2), Montgomery’s list [209] and the first problem paper of Erdős [98] (Problem 15), where he already describes it as ‘an old problem’. There is a well-known, almost trivial, argument showing a bound of O(X^{1/4}) on the left: subtract off the greatest square u^2 less than X, then subtract off the greatest square v^2 less than X − u^2. Sofia Lindqvist and I [145] have a somewhat different argument, giving a sum of two almost equal squares within O(X^{1/4}) of X."
+}

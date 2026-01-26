@@ -1,0 +1,5 @@
+{
+  "page_number": 26,
+  "problem_number": "55",
+  "problem_text": "Problem 55. Let p be an odd prime and suppose that f : F^n_p × F^n_p → C is a function bounded pointwise by 1.\nSuppose that E_h ∥∆(h,h)f∥^4_□ ⩾ δ.\nDoes f correlate with a function of the form a(x)b(y)c(x + y)(−1)^{q(x,y)}?\nComments. We could take q asymmetric by absorbing the symmetric part into the other terms. Here ∆(h,h)f(x, y) = f(x, y)f(x + h, y + h), and ∥·∥_□ is the box norm, thus this norm is counting configurations (x, y), (x + k, y), (x, y + ℓ), (x + k, y + ℓ), (x + h, y + h), (x + k + h, y + h), (x + h, y + ℓ + h), (x + k + h, y + ℓ + h). This appears to be the simplest ‘Gowers-type norm’ for which an inverse theorem is not known, and as such is relevant, though not directly, to Problem 20. For discussion, and a link to group cohomology, see [12, Example 1.6]."
+}

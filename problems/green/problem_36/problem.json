@@ -1,0 +1,5 @@
+{
+  "page_number": 18,
+  "problem_number": "36",
+  "problem_text": "Problem 36. Do the following exist, for arbitrarily large n? An abelian group H with |H| = n^{2+o(1)}, together with subsets A1, . . . , An, B1, . . . , Bn satisfying |Ai||Bi| ⩾ n^{2−o(1)} and |Ai + Bi| = |Ai||Bi|, such that the sets Ai + Bi are disjoint from the sets Aj + Bk (j ̸= k)?\nComments. This is [71, Problem 4.7]. If true, it would imply that the exponent of matrix multiplication is 2, that is to say two n × n matrices can be composed with n^{2+o(1)} multiplications. In [71] and other papers on the topic one may find other questions of this broad type, including in nonabelian groups."
+}

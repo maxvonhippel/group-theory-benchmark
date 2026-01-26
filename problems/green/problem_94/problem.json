@@ -1,0 +1,5 @@
+{
+  "page_number": 42,
+  "problem_number": "94",
+  "problem_text": "Problem 94. Let A ⊂ R be a set of positive measure. Does A contain an affine copy of {1, 1/2, 1/4, . . . }?\nComments. This is a special case of the Erdős similarity problem; see [267] for a survey."
+}

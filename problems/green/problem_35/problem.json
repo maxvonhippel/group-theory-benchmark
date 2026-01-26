@@ -1,0 +1,5 @@
+{
+  "page_number": 18,
+  "problem_number": "35",
+  "problem_text": "Problem 35. In this problem, we consider the class F of all integrable functions f : [0, 1] → R⩾0 with ∫ f = 1. Let 1 < p ⩽ ∞. Estimate cp := inf_{f∈F} ∥f ∗ f∥p.\nComments. The case p = 2 received attention in my first paper [130], where (in slightly different language) the bound c2 ⩾ 0.7559 . . . was obtained. Some remarks were made in that paper about the nature of the optimal functions f, which appear to be extremely regular.\nThe best-known lower bound for c∞ is 0.64, due to due Cloninger and Steiner-berger [65] (note that their c is 2c∞).\nThe best-known upper bound is c∞ ⩽ 0.75049 . . . and this appears in Matolcsi and Vinuesa [205]. By contrast to the case p = 2, the functions constructed here are highly pathological.\nNote that by Young’s inequality we have c∞ ⩾ c2/2."
+}

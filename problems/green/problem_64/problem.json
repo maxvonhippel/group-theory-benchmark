@@ -1,0 +1,5 @@
+{
+  "page_number": 29,
+  "problem_number": "64",
+  "problem_text": "Problem 64. Do there exist infinitely many primes for which p − 2 has an odd number of prime factors?\nComments. The same question may be asked with p − 1 (and this is probably more natural) but with p − 2 the question is a weak form of the twin prime conjecture. The set of integers S with an odd number of prime factors has density 1/2, so one is ‘only’ asking for infinitely many primes in a set (S + 1) of density 1/2."
+}

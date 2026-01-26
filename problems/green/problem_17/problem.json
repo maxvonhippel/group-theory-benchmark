@@ -1,0 +1,5 @@
+{
+  "page_number": 10,
+  "problem_number": "17",
+  "problem_text": "Problem 17. Suppose that A ⊂ F_3^n is a set of density α. Under what conditions on α is A guaranteed to contain a 3-term progression with nonzero common difference in {0, 1}^n? For fixed α, must A contain ≫ α^6 n such progressions?\nComments. My thanks go to Vsevelod Lev for reminding me of the first problem. It is known, as a consequence of the density Hales-Jewett Theorem, that if α →0 sufficiently slowly as n → ∞ then there must be such a progression. However, this may even by true with α = (1−c)^n for some c > 0. Regarding the second problem, a recent reference is [154], where it is shown that this is true for sets invariant under the permutation action of S_n on F_3^n. Other related problems are also considered in"
+}

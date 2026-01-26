@@ -1,0 +1,5 @@
+{
+  "page_number": 29,
+  "problem_number": "62",
+  "problem_text": "Problem 62. Let p be a large prime, and let A be the set of all primes less than p. Is every x ∈ {1, . . . , p − 1} congruent to some product a1a2?\nComments. This is a problem of Erdős, Odlyzko and Sárközy [105] from 1987. Walker [279] showed that the result if true if one instead considers 6-fold products a1a2 · · · a6. of at most 6 primes, and Shparlinski [260] has improved the 6 to a 5. If one wants products of exactly k primes then it seems that the best value of k known is 20, contained in the thesis of Walker.\nUpdate 2023. Matomäki and Teräväinen [206] have made significant progress on this question, reducing k to 3."
+}

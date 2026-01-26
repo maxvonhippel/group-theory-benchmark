@@ -1,0 +1,5 @@
+{
+  "page_number": 22,
+  "problem_number": "47",
+  "problem_text": "Problem 47. Suppose that a large sieve process leaves a set of quadratic size. Is that set quadratic?\nComments. Questions of this type are known as the inverse large sieve problem. There are many questions here, but the following very particular instance is probably the simplest. Suppose that A ⊂ N is a set with the property that |A(mod p)| ⩽ 1/2(p + 1) for all sufficiently large p. The large sieve then implies that |A ∩ [X]| ≪ X1/2, and this is clearly sharp because one could take A to be the set of squares or the image of Z under some other quadratic map ϕ : Q → Q. However, is it true that either |A ∩ [X]| ≪ X1/2 / log100 X, or A is contained in the image of Z under a quadratic map ϕ : Q → Q? For background on this question see [144, 160, 280, 281]."
+}

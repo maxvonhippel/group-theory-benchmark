@@ -1,0 +1,5 @@
+{
+  "page_number": 36,
+  "problem_number": "81",
+  "problem_text": "Problem 81. Let A be a set of size n integers. Is there some θ such that ∑_{a∈A} cos(aθ) ⩽ −c√n?\nComments. This is Chowla’s cosine problem. First posed explicitly in 1965 [62], it has its genesis in a question from 1948 asked by Ankeny and Chowla.\nThe best known result is due to Ruzsa [242], who showed that −e^{−c√log n} is attainable. Ruzsa remarked to me in 2001 that almost nothing is known for the more general sum of cosines λ1 cos r1t + · · · + λn cos rnt in which λ1, . . . , λn ∈ [0.99, 1.01] (say).\nThere is a corresponding problem for sines, but it is somewhat more obscure. The question here is whether there is some θ such that |∑_{a∈A} sin(aθ)| ⩾ n^{1/2+c}. Montgomery [209, Problem 54] attributes this question to Bohr. So far as I am aware, the best example known is of a set showing that we cannot take c ⩾ 1/6, due to Bourgain in a somewhat difficult to find paper [38]. By contrast, Konyagin [185] has shown that there is some θ such that |∑_{a∈A} sin(aθ)| ≫ n^{1/2} (log n/ log log n)^{1/2}."
+}

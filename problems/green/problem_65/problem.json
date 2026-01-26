@@ -1,0 +1,5 @@
+{
+  "page_number": 29,
+  "problem_number": "65",
+  "problem_text": "Problem 65. Is there c > 0 with the following property: whenever A ⊂ [N] is a set of size N 1−c, A − A contains a nonzero square? What about A − A containing a prime minus one?"
+}

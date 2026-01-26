@@ -1,0 +1,5 @@
+{
+  "page_number": 14,
+  "problem_number": "23",
+  "problem_text": "Problem 23. (Solved) Suppose that N is finitely coloured. Are there x, y of the same colour such that x^2 + y^2 is a square?\nComments. This is a weaker version of the famous question asking whether x^2 + y^2 = z^2 is partition-regular. (In that problem, z must also be the same colour.)\nUpdate 2023. This problem has now been resolved by Frantzikinakis, Klurman and Moreira [120]. The question of whether x^2 + y^2 = z^2 is partition regular remains wide open."
+}

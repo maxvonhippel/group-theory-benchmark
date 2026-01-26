@@ -1,0 +1,5 @@
+{
+  "page_number": 22,
+  "problem_number": "45",
+  "problem_text": "Problem 45. Can we pick residue classes ap(mod p), one for each prime p ⩽ N, such that every integer ⩽ N lies in at least 10 of them?\nComments. This is raised in [101, Section 6, Problem 6]. Erdős remarks that he does not know how to answer it with 10 replaced by 2."
+}

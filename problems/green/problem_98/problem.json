@@ -1,0 +1,5 @@
+{
+  "page_number": 44,
+  "problem_number": "98",
+  "problem_text": "Problem 98. Let d ⩾3 be an odd integer.\nGive bounds on ν(d) such that if n > ν(d) the following is true: given any homogeneous polynomial F(x) = F(x1, . . . , xn) ∈ Z[x1, . . . , xn] of degree d, there is some x ∈ Z^n \\ {0} such that F(x) = 0.\nComments. That ν(d) exists at all is highly nontrivial and is a famous result of Birch [29]. It was 40 years before Wooley [284] gave the first explicit values of ν(d), which have tower-type growth in d. So far as I am aware it is considered possible that ν(d) = d^2, but even the local variant of this (that is, finding solutions in Q_p rather than Q) is wide open (see, for instance, [157]).\nIt is known that ν(3) ⩽ 13 by work of Heath-Brown [156]."
+}

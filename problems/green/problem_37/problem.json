@@ -1,0 +1,5 @@
+{
+  "page_number": 19,
+  "problem_number": "37",
+  "problem_text": "Problem 37. What is the smallest subset of N containing, for each d = 1, . . . , N,\nan arithmetic progression of length k with common difference d?\nComments. Writing Fk(N) for this quantity, it is conjectured that Fk(N) ≫k\nN 1−ck, with ck →0 as k →∞. One should not expect this problem to be easy,\nas it was shown by Ruzsa and me [146] to be equivalent to the so-called arith-\nmetic Kakeya conjecture of Katz and Tao (which implies the Kakeya conjecture in\nEuclidean space)."
+}

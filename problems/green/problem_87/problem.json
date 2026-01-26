@@ -1,0 +1,5 @@
+{
+  "page_number": 39,
+  "problem_number": "87",
+  "problem_text": "Problem 87. Let p(k) be the limit as n →∞of the probability that a random\npermutation on [n] preserves some set of size k. Is p(k) a decreasing function of k?\nIs p(k) = (C + o(1))k−α(log k)−3/2 for some absolute constant C?\nComments. I first learned of this problem from a paper of Britnell and Wildon\n[50].\nIn a joint paper with Eberhard and Ford [87] it was proven that p(k) is\nbounded above and below by constant multiples of k−α(log k)−3/2, which of course\nmakes the second question very reasonable. This second question is a model for\nthe following natural question: how many distinct elements are there in the N × N\nmultiplication table?\nIt is quite easy to see, given known results about the Poisson behaviour of per-\nmutations, that\np(k) = 1 −\nX\n(a1,...,ak)∈Ωk\nk\nY\ni=1\ne−1/i (1/i)ai\nai!\n,\nwhere Ωk is the (finite) set of all tuples of non-negative integers for which a′\n1 +\n2a′\n2 + · · · + ka′\nk ̸= k whenever a′\ni ⩽ai. For example, Ω1 = {(0)}, so p(1) = 1 −1\ne."
+}

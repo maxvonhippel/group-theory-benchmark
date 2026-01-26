@@ -1,0 +1,5 @@
+{
+  "page_number": 13,
+  "problem_number": "22",
+  "problem_text": "Problem 22. If {1, . . . , N} is r-coloured then, for N ⩾ N0(r), there are integers x, y ⩾ 3 such that x + y, xy have the same colour. Find reasonable bounds for N0(r).\n\nComments. The existence of N0(r) was established only recently, in a celebrated paper of Moreira [210] (who in fact established that x can also be the same colour). The main proof in [210] gives no bound, since it uses topological dynamics. However, the ‘elementary proof’ given in Section 5 of Moreira’s paper does in principle give a bound, albeit an extremely weak one, not least because the known bounds for van der Waerden’s theorem are so weak.\n\nLet me also mention the famous question of Hindman: if N is finitely coloured, are there x, y, x + y, xy all of the same colour? (In fact, Hindman asked whether for any k there are x1, . . . , xk with all sums ∑_{i∈I} xi and all products ∏_{i∈I} xi the same colour for all nonempty I ⊆ [k], with the preceding question being the case k = 2.)"
+}

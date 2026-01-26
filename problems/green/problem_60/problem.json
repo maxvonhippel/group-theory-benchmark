@@ -1,0 +1,5 @@
+{
+  "page_number": 28,
+  "problem_number": "60",
+  "problem_text": "Problem 60. Is there an absolute constant c > 0 such that, if A ⊂ N is a set of squares of size at least 2, then |A + A| ⩾ |A|^{1+c}?\nComments. This is quite a well-known problem, and is strictly easier than a very old question of Hardy and Littlewood, which asks whether the squares are a Λ(p)-set for some 2 < p < 4. (Nowadays, however, the sumset question probably seems more basic to most readers.) It may even be that c can be taken arbitrarily close to 1, for sufficiently large sets A.\nA positive answer to Problem 60 obviously implies that if P is an arithmetic progression of length n then the number of squares in P is at most O(n^κ) for some κ < 1. Rudin [235] conjectured that in fact this is even true with κ = 1/2.\nWhilst the weaker statement with κ < 1 is known (see [33] with κ = 2/3 + o(1), and, [35] with κ = 3/5 + o(1)), all known proofs involve serious statements about the number of rational points on various curves. Thus one expects that Problem 60 must necessarily involve such ingredients as well. In particular, Solymosi [262] has"
+}

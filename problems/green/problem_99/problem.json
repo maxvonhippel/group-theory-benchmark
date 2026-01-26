@@ -1,0 +1,5 @@
+{
+  "page_number": 44,
+  "problem_number": "99",
+  "problem_text": "Problem 99. As Problem 98 illustrates, finding a single solution to a polynomial equation F(x1, . . . , xn) = C (say) can be very difficult, and asymptotically enumerating such solutions inside (say) a box [X]^n is still harder. Nonetheless, one may ask about going yet further, and pose the question of estimating the number of solutions with the x_i constrained to lie in some set A ⊂ [X]. In particular, what conditions on A ensure that the number of such solutions is roughly α^n times the number of solutions in [X], where α := |A|/X is the density of A in [X], imagining here that α ∈ (0, 1) is fixed and X is large?"
+}

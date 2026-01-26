@@ -1,0 +1,5 @@
+{
+  "page_number": 17,
+  "problem_number": "33",
+  "problem_text": "Problem 33. Are there infinitely many q for which there is a set A ⊂ Z/qZ,\n|A| = (√2 + o(1))q1/2, with A + A = Z/qZ?\nComments. Potentially yes, but I’m not sure I know how to construct such sets.\nOne could also ask the same question but with q = p restricted to be a prime. Then,\nthe set S = {(x, x2) : x ∈ A} ∪ { (1, 0) } determines a line in every direction. It is\neasy to see that no set of size smaller than (√2 + o(1))p1/2 can have this property.\nThe question of whether this bound is sharp was asked by Granville [77, Problem\n5.2] and, more recently, by Caprace and de la Harpe [55, Question 6.1]."
+}

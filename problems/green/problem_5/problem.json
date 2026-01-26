@@ -1,0 +1,5 @@
+{
+  "page_number": 4,
+  "problem_number": "5",
+  "problem_text": "Problem 5. Which finite groups have the smallest biggest product-free sets?\nComments. 20 years ago, Kedlaya [175] observed, refining some work of Babai and\nSós, that it follows from the classification of finite simple groups that every finite\ngroup G of order n has a product-free subset of size ≫n11/14. It may well be that\nthis exponent is sharp. To show this, it follows by inspection of Kedlaya’s paper that\none would need to show that the Ree groups 2G2(q), q = 32m+1, which have order\n∼q7, infinitely often have no product-free set of size ≫q11/2. Certainly working\nwith these groups in any direct way is likely to be very challenging, although the\ndimensions of their smallest representations are understood. A good model problem\nwould be to determine the largest product-free subsets of SL2(Fp), since explicit\ncomputation in this group and with its representations are quite tractable. For this\nproblem, I believe the best-known upper bound is O(n8/9), due to Gowers. For\nmore on these problems, see Kedlaya’s more recent survey [176]."
+}

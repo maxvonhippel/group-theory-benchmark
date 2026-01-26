@@ -1,0 +1,5 @@
+{
+  "page_number": 19,
+  "problem_number": "5.14",
+  "problem_text": "5.14. Subadditivity of the polyharmonic capacity\nLet cap_m(F) and R_{2m}(F) be the capacities defined by (5.11) and (5.12). By the classical potential theory, the Riesz capacity R_{2m} is upper subadditive. However, the following problem is open.\n\nProblem. Prove or disprove that the m-harmonic capacity cap_m is upper subadditive."
+}

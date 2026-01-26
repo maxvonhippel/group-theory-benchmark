@@ -1,0 +1,5 @@
+{
+  "page_number": 10,
+  "problem_number": "4.1",
+  "problem_text": "4. Integral operators\n4.1. A multi-dimensional integral equation which can be reduced to one-\ndimensional\nLet \u03d5 and \u03c8 be functions defined on a multi-dimensional domain \u2126.\nProblem. Develop a theory of solvability of the integral equation\n\n\u03bb u(x) \u2212 \u222b_\u2126 u(y) / (\u03d5(x) \u2212 \u03c8(y)) dy = f(x),\n(4.1)\n\nwhere f is a given function and \u03bb is a complex parameter.\nNote that (4.1) can be reduced to a certain one-dimensional integral\nequation by using the so-called coarea formula, see [69]."
+}

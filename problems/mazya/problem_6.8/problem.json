@@ -1,0 +1,5 @@
+{
+  "page_number": 28,
+  "problem_number": "6.8",
+  "problem_text": "6.8. Poisson type solutions of Riccati\u2019s equation with Dirichlet data\nLet \u2126 be a smooth, bounded planar domain and let the origin O be a point\nof \u2202\u2126. Consider the equation\n\u2206u + \u03b1 u2\nx + \u03b2 u2\ny = 0\nin\n\u2126,\nwhere \u03b1 and \u03b2 are smooth positive functions given on \u2126. We assume that\nthe solution u satisfies u = 0 on \u2202\u2126\\{O}.\nProblem. Prove that either u = 0 on \u2202\u2126, or u has a logarithmic singularity\nat O and depends upon an arbitrary constant.\nA formal asymptotic expansion of u near O can be found in [92], also\nfor more general equations."
+}

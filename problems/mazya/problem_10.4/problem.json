@@ -1,0 +1,5 @@
+{
+  "page_number": 37,
+  "problem_number": "10.4",
+  "problem_text": "10.4. Asymptotic optimization of multi-structures\nThe present section concerns boundary value problems for multi-structures,\ni.e. domains dependent on small parameters in such a way that the limit\nregion, as parameters tend to zero, consists of subsets of different space di-\nmensions. Asymptotic analysis of physical fields in multi-structures is devel-\noped in [31], [77] and elsewhere. Direct methods of variational calculus are\noften ineffective for solving problems of optimal control of multi-structures\nbecause of their complicated geometry. However, [77, Remark 4.4] suggests\nthe following promising\nProblem. Apply algebraic optimization methods to asymptotic approxima-\ntions of fields in 1D \u22123D multi-structures."
+}

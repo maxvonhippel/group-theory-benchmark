@@ -1,0 +1,5 @@
+{
+  "page_number": 27,
+  "problem_number": "6.6",
+  "problem_text": "6.6. Phragmen-Lindel\u00f6f principle for the p-Laplace equation\nBy [58], bounded solutions u(x) of the p-Laplace equation, 1 < p < n, with\nzero Dirichlet data in a \u03b4-neighborhood of a point O \u2208 \u2202\u03a9, admit the point-\nwise majorant\nC exp( \u2212c \u222b_{|x|}^{\u03b4} ( capp(B_\u03c1 \\ \u03a9) / capp(B_\u03c1) )^{1/(p\u22121)} d\u03c1/\u03c1 ),\nwhere\ncapp(F) = inf { \u2225\u2207u\u2225_p^p_{L^p(R^n)} : u \u2208 C_0^\u221e(R^n), u \u2265 1 on F }.\n(6.6)\nProblem. Prove the following conjecture. If the energy integral of u is diver-\ngent, then, for 2r < \u03b4,\n\u2225u\u2225_{L^p(B_\u03b4 \\ B_r)} \u2265 c(\u03b4)\n r^{(n\u2212p)/(p\u22121)} exp( c \u222b_{r}^{\u03b4} ( capp(B_\u03c1 \\ \u03a9) / capp(B_\u03c1) ) d\u03c1/\u03c1 ).\nThis assertion was established for the linear uniformly elliptic equation\n\u2212\u2202/\u2202x_i ( a_{ij}(x) \u2202u/\u2202x_j ) = 0\nwith measurable bounded coefficients in [55]."
+}

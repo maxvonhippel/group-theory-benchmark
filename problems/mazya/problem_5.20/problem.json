@@ -1,0 +1,5 @@
+{
+  "page_number": 23,
+  "problem_number": "5.20",
+  "problem_text": "5.20. Coercive weighted estimates for elliptic equations in domains with inner cusps\nConsider the Dirichlet problem for an arbitrary elliptic equation of order 2m in a domain \u2126 \u2282 R^n with inner cusp. Two-sided estimates for derivatives of order 2m of solutions were obtained in [32, Chapter 10] with n > 2m + 1.\nProblem. Obtain estimates of the same nature for n \u2264 2m + 1."
+}

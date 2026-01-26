@@ -1,0 +1,5 @@
+{
+  "page_number": 33,
+  "problem_number": "8.5",
+  "problem_text": "8.5. Non-uniqueness for the stationary Navier-Stokes system with Dirichlet\ndata\nLet \u2126 be a simply connected bounded domain in R3. It is well known [40] that\nthe Dirichlet problem for the stationary Navier-Stokes system has at most\none variational solution provided the Reynolds number is sufficiently small.\nIt seems probable that the uniqueness fails for large Reynolds numbers.\nProblem. Construct a counterexample showing that the just mentioned Dirich-\nlet problem may have more than one solution for small viscosity and big data.\nThis problem is classical but seems half-forgotten to me. Therefore,\nI include it in the present list."
+}

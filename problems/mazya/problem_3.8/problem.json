@@ -1,0 +1,5 @@
+{
+  "page_number": 8,
+  "problem_number": "3.8",
+  "problem_text": "3.8. Hardy inequality with capacitary distance to \u2202\u2126\nLet \u2126 be a domain in R\u207f, n > 2. As is well-known, the Hardy inequality\n\u222b_\u2126 (|u(x)|/d(x))\u00b2 dx \u2264 c \u222b_\u2126 |\u2207u|\u00b2 dx, (3.9)\nwhere u \u2208 C_0^\u221e(\u2126) and d(x) is the distance from x to \u2202\u2126, does not hold for any domain and conditions for its validity are known (see [69, p. 733\u2013735] for references).\nProblem. Prove that (3.9) holds for any domain \u2126 if d(x) is replaced by the capacitary distance defined by\n\nd_\u03b1(x) = inf { r > 0 : cap(B_r(x) \\ \u2126) \u2265 \u03b1 cap(B_r) },\n\nwhere \u03b1 is a positive parameter and cap denotes the Wiener capacity defined in the previous subsection."
+}

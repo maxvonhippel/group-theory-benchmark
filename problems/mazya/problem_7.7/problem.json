@@ -1,0 +1,5 @@
+{
+  "page_number": 31,
+  "problem_number": "7.7",
+  "problem_text": "7.7. Existence of a well-posed boundary value problem for for general dif-\nferential operators in Lp(\u2126)\nH\u00a8ormander (1955) showed the existence of a well-posed boundary value prob-\nlem for every di\ufb00erential operator with constant coe\ufb03cients in an arbitrary\nbounded domain. Equivalently, he proved the estimate\n\u2225u\u2225L2(\u2126) \u2264 C \u2225L(D) u\u2225L2(\u2126),\n(7.6)\nwhere u is an arbitrary function in C\u221e\n0 (\u2126).\nProblem. Does (7.6) hold with Lp(\u2126) instead of L2(\u2126)?"
+}

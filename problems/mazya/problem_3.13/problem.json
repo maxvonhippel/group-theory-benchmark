@@ -1,0 +1,5 @@
+{
+  "page_number": 10,
+  "problem_number": "3.13",
+  "problem_text": "3.13. Domains for which Ll,p(\u2126) \u2229L\u221e(\u2126) is a Banach algebra\nLet \u2126 be a domain in Rn. We may ask whether the space Ll,p(\u2126) \u2229L\u221e(\u2126) is\nan algebra with respect to pointwise multiplication. Clearly, this is the case\nfor l = 1. Since Stein\u2019s extension operator from a Lipschitz graph domain \u2126\nis continuous as an operator\nLl,p(\u2126) \u2229L\u221e(\u2126) \u2192 Ll,p(Rn) \u2229L\u221e(Rn),\nthe above question has the affirmative answer for the union of a finite number\nof Lipschitz graph domains. For example, \u2126 can be a bounded domain having\nthe cone property. However, by a counterexample proposed in [80] (see also\n[69, p. 120-121]), it turns out that the space Ll,p(\u2126) \u2229L\u221e(\u2126) is generally not\nan algebra.\nProblem. Find a necessary and sufficient condition on \u2126 \u2282 Rn ensuring that\nLl,p(\u2126) \u2229 L\u221e(\u2126) is a Banach algebra."
+}

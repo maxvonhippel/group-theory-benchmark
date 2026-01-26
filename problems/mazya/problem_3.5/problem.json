@@ -1,0 +1,5 @@
+{
+  "page_number": 7,
+  "problem_number": "3.5",
+  "problem_text": "3.5. An approximation problem in the theory of Sobolev spaces\nJ.L. Lewis [43] showed that C\u221e(\u2126) is dense in L1,p(\u2126) if \u2126 is an arbitrary Jordan domain in the plane, i.e. \u2202\u2126 is homeomorphic to \u2202B1. In [44] he asked if C\u221e(\u2126) is dense in Ll,p(\u2126) with l > 1 for every Jordan domain \u2126 \u2282 R2.\nIt is almost obvious that L\u221e(\u2126) \u2229 L1,p(\u2126) is dense in L1,p(\u2126) for every open set \u2126 \u2282 Rn. A direct extension of this property for Ll,p(\u2126) with l > 1 is impossible, as shown in [80]. A planar domain \u2126 in the counterexample proposed in [80] is not Jordan, which gives rise to the following\nProblem. Are bounded functions belonging to Ll,p(\u2126), l > 1, dense in Ll,p(\u2126) if \u2126 is an arbitrary Jordan domain?"
+}

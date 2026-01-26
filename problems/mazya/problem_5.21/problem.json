@@ -1,0 +1,5 @@
+{
+  "page_number": 23,
+  "problem_number": "5.21",
+  "problem_text": "5.21. Multiplicative inequality for the linear elasticity system in an arbitrary domain\nOne of the theorems obtained in [47] reads as follows:\nLet \u2126 be a three-dimensional domain and let L denote the Lam\u00e9 operator defined by\nLu = \u2212\u2206u \u2212 \u03b1 \u2207div u,\nwhere \u03b1 = 1/(1 \u2212 2\u03bd) > \u22121 and \u03bd is the Poisson\u2019s ratio. Let 1 < q < 3, p = q/(q \u2212 1) and let L^{1,q}_0(\u2126) stand for the completion of C^\u221e_0(\u2126) in the Sobolev space L^{1,q}(\u2126). By [47], the condition\n\u03b1 \u2208 (\u03b1_\u2212, \u03b1_+) \u2248 (\u22120.194, 1.524),\n(5.16)\nimplies the inequality\n\u2225u\u2225_{L^\u221e(\u2126)} \u2264 C \u2225Lu\u2225_{L^p(\u2126)}^{1/2} \u2225\u2207u\u2225_{L^q(\u2126)}^{1/2},\n(5.17)\nwhere C is an absolute constant depending only on \u03b1.\nProblem. Does (5.17) hold for an arbitrary domain \u2126 \u2282 R^3 without the assumption (5.16)?"
+}

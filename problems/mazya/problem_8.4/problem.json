@@ -1,0 +1,5 @@
+{
+  "page_number": 33,
+  "problem_number": "8.4",
+  "problem_text": "8.4. Resolvent Lp-estimates for the Dirichlet-Stokes operator\nLet R\u03bb be the resolvent operator of the Dirichlet problem\n\u2206v + \u2207p + \u03bb v = f\nin \u2126\ndiv v = 0\nin \u2126\nv = 0\non \u2202\u2126,\nwhere \u03bb \u2208 R1 and \u2126 is a bounded domain in Rn.\nProblem. 1. Justify the following conjecture. If \u2126 \u2282 Rn is convex, then, for\nall \u03bb \u2208 R1 \\ {0} and 1 < p < \u221e,\n\u2225R\u03bb\u2225Lp(\u2126)\u2192Lp(\u2126) \u2264 c\n|\u03bb|,\n(8.2)\nwhere c is a constant which does not depend on \u03bb.\n2. Let \u2126 be smooth outside of a smooth (n\u22122)-dimensional submanifold\nM without boundary. Assume that \u2202\u2126 has a reentrant dihedral angle with\nedge M and opening \u03b1 > \u03c0. Prove that (8.2) holds for all \u03bb \u2208 R1 \\ {0} if\n|1/p \u2212 1/2| < \u03c0/(2\u03b1).\nNote that for three-dimensional Lipschitz graph domains the question\nof validity of (8.2) for\n3/2 \u2212 \u03b5 < p < 3 + \u03b5\nwith certain \u03b5 > 0, was raised by M. Taylor [102] and answered affirmatively\nZ. Shen [100]."
+}

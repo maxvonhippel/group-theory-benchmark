@@ -1,0 +1,5 @@
+{
+  "page_number": 18,
+  "problem_number": "5.12",
+  "problem_text": "5.12. Boundedness of solutions to the polyharmonic equation in arbitrary domains\nLet \u2126 be an arbitrary bounded domain in Rn and suppose n > 2m + 2 if m > 2 and n \u2265 8 if m = 2.\n\nProblem. Prove or disprove that the variational solution of the equation\n\n\u2206m u = f,    f \u2208 C\u221e_0(\u2126),\n\nsubject to zero Dirichlet boundary conditions is in L\u221e(\u2126)."
+}

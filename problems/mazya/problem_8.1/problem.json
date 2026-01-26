@@ -1,0 +1,5 @@
+{
+  "page_number": 32,
+  "problem_number": "8.1",
+  "problem_text": "8. Stationary Stokes and Navier-Stokes systems\n8.1. H\u00f6lder regularity of solutions to the n-dimensional Dirichlet-Stokes problem\nConsider the Dirichlet problem for the Stokes system\n\n\u2212\u03bd \u2206v + \u2207p = f\nin \u2126\n\ndiv v = 0\nin \u2126\n\nv = g\non \u2202\u2126\n\nwhere \u2126 is a polyhedron in R^n, n \u2265 3, and v \u2208 L^{1,2}(\u2126).\n\nProblem. Assuming that g belongs to the H\u00f6lder space C^{0,\u03b1}(\u2202\u2126) for a certain \u03b1 \u2208 (0, 1), prove that there exists \u03b2 \u2208 (0, 1) such that v \u2208 C^{0,\u03b2}(\u2126).\n\nRemark. The starting point could be the following property obtained in [13]: for any solution of the form |x|^\u03bb \u03c8(x/|x|) with Re \u03bb > 1 \u2212 n/2 one has Re \u03bb > 0."
+}

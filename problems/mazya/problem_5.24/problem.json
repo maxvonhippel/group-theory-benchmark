@@ -1,0 +1,5 @@
+{
+  "page_number": 24,
+  "problem_number": "5.24",
+  "problem_text": "5.24. Boundedness of the displacement vector in the traction problem in\ndomains with non-Lipschitz graph conical vertices\nLet \u2126 be a domain in R3 with \u2202\u2126 smooth outside one point, the vertex of\na non-Lipschitz graph cone. Consider the Neumann problem for the linear\nelasticity system\n\u2202\u03c3i,j(u)\n\u2202xj\n= f\nin \u2126,\n\u03c3i,j(u) \u03bdj = 0\non \u2202\u2126,\n(5.20)\nwhere f \u2208 C\u221e0(\u2126), u is the displacement vector,\n\u03c3i,j = \u03bb\u03b8\u03b4i,j + 2\u00b5\u03b5i,j,\n\u03b8 = \u03b511 + \u03b522 + \u03b533,\n\u03b5i,j = 1/2 ( \u2202ui/\u2202xj + \u2202uj/\u2202xi ).\nProblem. Prove or disprove that the displacement vector is uniformly bounded.\nIn case of Lipschitz graph domains, the positive answer was given in\n[29], [12], and [11]."
+}

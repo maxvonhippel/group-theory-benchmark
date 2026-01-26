@@ -1,0 +1,5 @@
+{
+  "page_number": 36,
+  "problem_number": "10.1",
+  "problem_text": "10. Miscellaneous topics\n10.1. A modified Riemann\u2019s zeta function appearing in a non-local parabolic Cauchy problem\nLet C be a unit circle and let u denote a function defined on C. Consider the integral operator A:\n(Au)(x) = \n\\[\\int_C \\frac{u(x)-u(y)}{|x-y|}\\,|dy|.\\]\nThe spectrum of A is described in [79, Section 12.2.2].\nProblem. Show that the fundamental solution of the Cauchy problem for the operator\n(d/dt) + A,\n t > 0,\nwhich is reminiscent of the modified Riemann zeta function\n\\[f(z) = \\sum_{n\\ge 1} \\exp\\Bigl(-z \\sum_{1\\le k\\le n}\\frac{1}{k}\\Bigr),\\]\nadmits a meromorphic extension to the complex z = t + i\\,\\tau plane. Study properties of this extension."
+}

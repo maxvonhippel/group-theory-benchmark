@@ -1,0 +1,5 @@
+{
+  "page_number": 2,
+  "problem_number": "2",
+  "problem_text": "Problem 2: Does (5) imply\nu = v = 0 in D?\n(6)\n\nLet L and M be elliptic, second order, selfadjoint, strictly positive Dirichlet operators\nin a bounded domain D \u2282 R^n, n > 1, with a smooth connected boundary S, and the\ncoefficients of L and M be real-valued functions, so that all the functions below are\nreal-valued. Let a(x) and b(x) be strictly positive functions, smooth in the closure of D.\nLet\n\nLu + a(x)v = 0 in D,\n\u2212b(x)u + Mv = 0 in D,\nu = v = 0 on S,\n(5)\n\nIt is of no interest to give sufficient conditions for (6) to hold, such as, e.g., |b \u2212 a| is\nsmall, or L = M, or some other conditions.\nWhat is of interest is to answer the question as stated, without any additional as-\nsumptions, by either proving (6) or constructing a counterexample.\nIn the one-dimensional case the answer to the question (6) is yes (see [2])."
+}

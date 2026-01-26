@@ -1,0 +1,5 @@
+{
+  "page_number": 16,
+  "problem_number": "5.5",
+  "problem_text": "5.5. Fractal domains versus Lipschitz domains\nDuring the last \ufb01fty years considerable progress has been made in the study\nof elliptic boundary value problems on Lipschitz graph domains (see [27] for a\nsurvey of this development). In particular, classes of solvability and estimates\nof solutions received considerable attention in this area.\nA Lipschitz graph domain is locally given by\n{x = (x\u2032, xn) \u2208 R^n,\nxn > \u03d5(x\u2032)},\nwhere \u03d5 satis\ufb01es the Lipschitz condition. Replacing here Lipschitz condition\nby H\u00a8older condition, we arrive at the de\ufb01nition of a H\u00a8older graph domain.\nWith the existing rich theory of boundary value problems in Lipschitz\ngraph domains, the absence of similar results in H\u00a8older graph domains seems\nubiquitous.\nProblem. Address this issue."
+}

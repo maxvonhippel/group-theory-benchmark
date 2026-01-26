@@ -1,0 +1,5 @@
+{
+  "page_number": 8,
+  "problem_number": "3.9",
+  "problem_text": "3.9. Uncertainty principle for divergence-free fields\nThe inequality\n(\u222b_{R\u00b9} u\u00b2 dx)\u00b2 \u2264 4 (\u222b_{R\u00b9} x\u00b2 u\u00b2 dx)(\u222b_{R\u00b9} (u\u2032)\u00b2 dx)\nis the so-called uncertainty principle in quantum mechanics, and the constant 4 is sharp.\nProblem. What is the best constant C > 0 in the inequality\n(\u222b_{R\u207f} |u|\u00b2 dx)\u00b2 \u2264 C (\u222b_{R\u207f} |x|\u00b2 |u|\u00b2 dx)(\u222b_{R\u207f} |\u2207u|\u00b2 dx),\nwhere u = (u\u2081, . . . , u_n) is an arbitrary divergence-free vector field?\nAnswer the same question concerning the inequality\n(\u222b_{R\u207f} |u|^p dx)^p \u2264 C_p^p (\u222b_{R\u207f} (|x| |u|)^{p/(p\u22121)} dx)^{p\u22121} (\u222b_{R\u207f} |\u2207u|^p dx),\nwhere p \u2208 (1, \u221e) and div u = 0 in R\u207f."
+}

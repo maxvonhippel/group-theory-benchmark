@@ -315,7 +315,9 @@ def generate_readme(list_name: Optional[str] = None) -> str:
     readme += "- **[100 Open Problems](https://arxiv.org/abs/2404.07513)** by Ben Green: "
     readme += "Research-level problems in additive combinatorics and number theory\n"
     readme += "- **Some open problems in analysis** by A.G. Ramm: "
-    readme += "Open problems in Radon transforms, operator theory, and PDEs\n\n"
+    readme += "Open problems in Radon transforms, operator theory, and PDEs\n"
+    readme += "- **Seventy Five (Thousand) Unsolved Problems in Analysis and PDEs** by Vladimir Maz'ya: "
+    readme += "Comprehensive collection of open problems in analysis and partial differential equations\n\n"
     
     # Add citation section
     readme += "## Citation\n\n"

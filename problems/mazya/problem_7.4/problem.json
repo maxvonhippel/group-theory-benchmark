@@ -1,0 +1,5 @@
+{
+  "page_number": 30,
+  "problem_number": "7.4",
+  "problem_text": "7.4. Characteristic problem for nonlinear hyperbolic operators\nIn [106], the authors study the initial value problem for a hyperbolic linear equation of order 2m, when the initial surface has characteristic points on some compact set \u0393. It is proved that the problem is well posed if the set \u0393 is free from the last initial condition D^{2m\u22121}_t u = f. In the case m = 1 a similar result was later obtained in [22].\nProblem. Obtain a similar result without linearity assumption for the hyperbolic operator.\nThe only result in this direction known to me is in [6]. It concerns the global characteristic Cauchy problem (Goursat problem) for the nonlinear wave equation. The boundary data in [6] are prescribed on the light cone with two singularities representing both past and future."
+}

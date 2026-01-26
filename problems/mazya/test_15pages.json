@@ -1,0 +1,112 @@
+[
+  {
+    "page_number": 5,
+    "problem_number": "3.1",
+    "problem_text": "3.1. Isoperimetric problem for fractional perimeter\nLet Ω be a bounded domain with smooth boundary ∂Ω and α ∈ (0, 1). The\nfollowing set function was introduced in [68]:\n\nPα(Ω) =\n\\[ \\int_{\\Omega} \\int_{\\mathbb{R}^n\\setminus \\Omega} \\frac{dx\\,dy}{|x-y|^{n+\\alpha}}. \\]\n\nLater, Pα(Ω) was called the “fractional perimeter of Ω” and has attracted\na lot of attention since.\n\nBy [68, Section 6], (see also [71, Section 11.10]), the best constant C in\nthe isoperimetric inequality\n\nPα(Ω) ≤ C \\; H^{n−1}(∂Ω)^{\\frac{n−\\alpha}{n−1}}\n(3.1)\n\nis the same as the best constant C in the functional inequality\n\n\\( \\left( \\int_{\\mathbb{R}^n} \\int_{\\mathbb{R}^n} \\frac{|u(x)-u(y)|^q}{|x-y|^{n+\\alpha}}\\,dx\\,dy \\right)^{1/q} \\le 2^{1/q} C \\, \\|\\nabla u\\|_{L^1(\\mathbb{R}^n)}, \\)\n\nwhere q = n/(n − α) and u ∈ C∞0(ℝn).\n\nBy [68, p. 333],\n\nC ≤ n \\frac{v_{(n−1+\\alpha)/n}}{\\alpha(1−\\alpha)} \\left(H^{n−1}(∂B1)\\right)^{\\frac{n−\\alpha}{n−1}}.\n\nThe constant factor on the right, although explicit, is hardly best possible.\n\nProblem. Find the best value of the isoperimetric constant C in (3.1)."
+  },
+  {
+    "page_number": 6,
+    "problem_number": "3.2",
+    "problem_text": "PROBLEM. Find necessary and sufficient conditions, or only non-trivial sufficient conditions, on Ω guaranteeing inequality (3.5)."
+  },
+  {
+    "page_number": 6,
+    "problem_number": "3.3",
+    "problem_text": "3.3. Boundary traces of functions in a Sobolev space\nLet Ω be a bounded weakly Lipschitz domain and let ϕ : ∂Ω → R1.\nIt is well-known that ϕ is the trace of a function in L1,p(Ω), if and only if ϕ ∈ L1(∂Ω) for p = 1 and ϕ ∈ L1−1/p,p(∂Ω) for p > 1, where the Besov space Lα,p(∂Ω), 0 < α < 1, is supplied with the seminorm\n( ∫_{∂Ω} ∫_{∂Ω} |ϕ(x) − ϕ(y)|^p / |x − y|^{n+αp−2} ds_x ds_y )^{1/p}.\nThis fact fails if Ω is not weakly Lipschitz. Other characterizations of the trace are given for some classes of non-Lipschitz domains in [83, Chapter 6].\nProblem. Justify the following conjecture concerning an “extremal length” characterizatiion of traces for an arbitrary domain Ω: The function ϕ is the trace of a function in L1,p(Ω) if and only if there exists a function ρ ∈ C(Ω) ∩ Lp(Ω) such that for “quasi-every” pair of points x′ and x′′ on ∂Ω and for any locally rectifiable arc γ ⊂ Ω joining x′ and x′′ there holds the inequality\n|ϕ(x′) − ϕ(x′′)| ≤ ∫_γ ρ(x) |dx|.\nBy “quasi-everywhere” one means outside of a set of zero L1,p-capacity.\n1For the notion “extremal length” see [17]."
+  },
+  {
+    "page_number": 6,
+    "problem_number": "3.4",
+    "problem_text": "3.4. Embedding of a Sobolev space into the space of distributions\nLet Ω be an open set in R^n. By Ll,p_0(Ω, µ) we denote the completion of C∞_0(Ω) in the norm\n∥∇^l u∥_{Lp(Ω)} + ( ∫_Ω |u|^p dµ )^{1/p},\nwhere p ∈ [1, ∞] and µ is a measure.\nThe question of embedding Ll,p_0(Ω, 0) into the distribution space [C∞_0(Ω)]′ is completely solved in [23] for p = 2 and by [69, Theorem 15.2] for all values of p.\nProblem. Find necessary and sufficient conditions on the measure µ ensuring the embedding of Ll,p_0(Ω, µ) into [C∞_0(Ω)]′."
+  },
+  {
+    "page_number": 7,
+    "problem_number": "3.5",
+    "problem_text": "3.5. An approximation problem in the theory of Sobolev spaces\nJ.L. Lewis [43] showed that C∞(Ω) is dense in L1,p(Ω) if Ω is an arbitrary Jordan domain in the plane, i.e. ∂Ω is homeomorphic to ∂B1. In [44] he asked if C∞(Ω) is dense in Ll,p(Ω) with l > 1 for every Jordan domain Ω ⊂ R2.\nIt is almost obvious that L∞(Ω) ∩ L1,p(Ω) is dense in L1,p(Ω) for every open set Ω ⊂ Rn. A direct extension of this property for Ll,p(Ω) with l > 1 is impossible, as shown in [80]. A planar domain Ω in the counterexample proposed in [80] is not Jordan, which gives rise to the following\nProblem. Are bounded functions belonging to Ll,p(Ω), l > 1, dense in Ll,p(Ω) if Ω is an arbitrary Jordan domain?"
+  },
+  {
+    "page_number": 7,
+    "problem_number": "3.6",
+    "problem_text": "3.6. Extensions of Sobolev functions outside of an angle\nLet Aα denote the angle {z ∈ C : 0 < arg z < α}, 0 < α < 2π, and let Eα be the extension operator L1,2(Aα) → L1,2(R2) which has the least norm. Using the Radon transform, one can show that\n∥Eα∥ = max{ ( α/(2π − α) )1/2, ( (2π − α)/α )1/2 }.\nProblem. Find the least norm of the extension operator W1,2(Aα) → W1,2(R2), where\n∥u∥W1,2(Ω) = ( ∥∇u∥^2_{L2(Ω)} + ∥u∥^2_{L2(Ω)} )1/2."
+  },
+  {
+    "page_number": 8,
+    "problem_number": "3.8",
+    "problem_text": "3.8. Hardy inequality with capacitary distance to ∂Ω\nLet Ω be a domain in Rn, n > 2. As is well-known, the Hardy inequality\n∫_Ω (|u(x)|/d(x))^2 dx ≤ c ∫_Ω |∇u|^2 dx, (3.9)\nwhere u ∈ C^∞_0(Ω) and d(x) is the distance from x to ∂Ω, does not hold for any domain and conditions for its validity are known (see [69, p. 733–735] for references).\nProblem. Prove that (3.9) holds for any domain Ω if d(x) is replaced by the capacitary distance defined by\n\nd_α(x) = inf { r > 0 : cap(B_r(x) \\ Ω) ≥ α cap(B_r) },\n\nwhere α is a positive parameter and cap denotes the Wiener capacity defined in the previous subsection."
+  },
+  {
+    "page_number": 8,
+    "problem_number": "3.9",
+    "problem_text": "3.9. Uncertainty principle for divergence-free fields\nThe inequality\n(∫_{R^1} u^2 dx)^2 ≤ 4 (∫_{R^1} x^2 u^2 dx)(∫_{R^1} (u′)^2 dx)\nis the so-called uncertainty principle in quantum mechanics, and the constant 4 is sharp.\nProblem. What is the best constant C > 0 in the inequality\n(∫_{R^n} |u|^2 dx)^2 ≤ C (∫_{R^n} |x|^2 |u|^2 dx)(∫_{R^n} |∇u|^2 dx),\nwhere u = (u_1, . . . , u_n) is an arbitrary divergence-free vector field?\nAnswer the same question concerning the inequality\n(∫_{R^n} |u|^p dx)^p ≤ C_p (∫_{R^n} (|x| |u|)^{p/(p−1)} dx)^{p−1} (∫_{R^n} |∇u|^p dx),\nwhere p ∈ (1, ∞) and div u = 0 in R^n."
+  },
+  {
+    "page_number": 9,
+    "problem_number": "3.11",
+    "problem_text": "It is shown in [48] (see also [24]) that the space Ll,2(Rn) can be endowed\nwith the norm ∥Dl,2 u∥L2(Rn), where\n(Dl,2)u(x) = (\\int_{Rn} |u(x + z) − u(x)|^2 (\\sum_{i=1}^n |z_i|^{l_i})^{−\\delta} \\, dz)^{1/2}\nwith\n\\delta = 2 + \\sum_{i=1}^n l_i^{−1}.\nThis norm is useful in applications such as the description of multipliers in\nLl,2(Rn) and the theory of Dirichlet forms.\nProblem. For p ≠ 2 find an analog of the just mentioned representation of\nthe norm in Ll,p(Rn) involving the difference u(x + z) − u(x).\nRemark. Strichartz [101] supplied the space of isotropic Riesz potentials with\nthe norm ∥Sl u∥Lp(Rn), where\n(Sl u)(x) = (\\int_0^{\\infty} [\\int_{|z|<y} |u(x + z) − u(x)| \\, dz]^2 \\frac{dy}{y^{1+2(n+l)}})^{1/2}."
+  },
+  {
+    "page_number": 9,
+    "problem_number": "3.11",
+    "problem_text": "3.11. Two-weight Hardy inequality involving first and second derivatives\nLet p ≥ 1 and let γ ≠ 1 − 2/p. By ψ we denote a function in C^\\infty_0(R^2). In case\nγ < 1 − 2/p we require additionally that ∇ψ(0) = 0.\nProblem. Find the best constant in the inequality\n\\int_{R^2} |∇ψ|^p |x|^{p(γ−1)} dx ≤ C(p,γ) \\int_{R^2} (ψ_{x_1x_1}^2 + 2ψ_{x_1x_2}^2 + ψ_{x_2x_2}^2)^{p/2} |x|^{pγ} dx.\nIt is proved in [10] (see also [69, p. 229]) that when p = 2,\nC(2,γ) =\n\\begin{cases}\n\\frac{1 + (1 − γ)^2}{\\gamma^2(3 + (1 − γ)^2)} & \\text{for } \\gamma \\in [−\\sqrt{3} − 1,\\, \\sqrt{3} − 1],\\\\\n(\\gamma^2 + 1)^{−1} & \\text{otherwise.}\n\\end{cases}\nThe method used in the proof of this result cannot be applied to the\ncase p ≠ 2."
+  },
+  {
+    "page_number": 9,
+    "problem_number": "3.12",
+    "problem_text": "3.12. Trace inequality with a non-positive measure\nLet Ω be a bounded smooth domain in R^n and let σ be a real measure, not\nnecessarily positive, even a distribution, supported on ∂Ω.\nProblem. Let n > p > 1 and let u be any function in C^\\infty(Ω). Find necessary\nand sufficient condition on σ for the validity of the inequality\n\\inf_{c \\in R^1} \\int_{\\partial Ω} |u − c|^p \\, dσ ≤ C \\int_{Ω} |∇u(x)|^p \\, dx."
+  },
+  {
+    "page_number": 10,
+    "problem_number": "3.13",
+    "problem_text": "3.13. Domains for which Ll,p(Ω) ∩ L∞(Ω) is a Banach algebra\nLet Ω be a domain in Rn. We may ask whether the space Ll,p(Ω) ∩ L∞(Ω) is an\nalgebra with respect to pointwise multiplication. Clearly, this is the case\nfor l = 1. Since Stein’s extension operator from a Lipschitz graph domain Ω\nis continuous as an operator\nLl,p(Ω) ∩ L∞(Ω) → Ll,p(Rn) ∩ L∞(Rn),\nthe above question has the affirmative answer for the union of a finite number\nof Lipschitz graph domains. For example, Ω can be a bounded domain having\nthe cone property. However, by a counterexample proposed in [80] (see also\n[69, p. 120-121]), it turns out that the space Ll,p(Ω) ∩ L∞(Ω) is generally not\nan algebra.\nProblem. Find a necessary and sufficient condition on Ω ⊂ Rn ensuring that\nLl,p(Ω) ∩ L∞(Ω) is a Banach algebra."
+  },
+  {
+    "page_number": 10,
+    "problem_number": "4.1",
+    "problem_text": "4. Integral operators\n4.1. A multi-dimensional integral equation which can be reduced to one-dimensional\nLet ϕ and ψ be functions defined on a multi-dimensional domain Ω.\nProblem. Develop a theory of solvability of the integral equation\nλ u(x) − ∫_Ω u(y)/(ϕ(x) − ψ(y)) dy = f(x), (4.1)\nwhere f is a given function and λ is a complex parameter.\nNote that (4.1) can be reduced to a certain one-dimensional integral\nequation by using the so-called coarea formula, see [69]."
+  },
+  {
+    "page_number": 10,
+    "problem_number": "4.2",
+    "problem_text": "4.2. A singular integral operator in Lp(Rn)\nConsider the singular integral operator A with the symbol\n∂B1 ∋ ω → exp(i λ φ(ω)),\nwhere φ is a smooth real-valued function on ∂B1, and λ is a large real parameter.\nProblem. Prove or disprove the estimate\n∥A∥_{Lp(Rn)→Lp(Rn)} ≤ c |λ|^{(n−1)|1/2 − 1/p|},\nwhere 1 < p < ∞, c depends on n, p and the function φ."
+  },
+  {
+    "page_number": 11,
+    "problem_number": "4.3",
+    "problem_text": "4.3. Fredholm radius of the harmonic double layer potential\nConsidering the logarithmic harmonic potentials of the single and double\nlayer on curves of “bounded rotation”, J. Radon has introduced the notion of\nthe essential norm and the Fredholm radius of a bounded operator in 1919.\nThe essential norm ∥L∥ of a linear bounded operator L acting on a\nBanach space B is deﬁned as\n∥L∥ = inf_{K} ∥L − K∥_{B→B},\nwhere {K} is the set of all linear compact operators on B.\nThe Fredholm radius R(L) of the operator L is the radius of the largest\ncircle on the complex λ-plane centered at λ = 0 inside which I + λL is a\nFredholm operator.\nThe essential norm ∥L∥ is related to R(L) by the inequality\nR(L) ≥ ∥L∥^{-1}.\nIt was shown by I. Gohberg and A. Marcus [20] that the Fredholm radius\nof the operator L, acting on a Banach space B equipped with the norm ∥·∥_0,\nsatisﬁes\nR(L) = sup{ ∥L∥^{-1} : ∥·∥ ∈ N(∥·∥_0) },\nwhere ∥L∥ is calculated with respect to a norm ∥·∥ in the set N(∥·∥_0) of all\nnorms in B, equivalent to ∥·∥_0.\nKr´al [35] and Burago and Maz’ya [5] showed that for a n-dimensional\nbounded domain D with ﬁnite variation of the solid angle ω_D(p, E) (p ∈\n∂D, E ⊂ R^n) the essential norm of the harmonic double layer potential in\nthe Banach space C(∂D) is\n(2/(n v_n)) lim_{δ→0} sup_{p∈∂D} var ω_D(p, B_δ(p)).\nReferences to other results in the same area can be found in [36, Chapter 7].\nProblem. Find a geometrical representation for the Fredholm radius of the\nharmonic double layer potential as an operator in C(∂D)."
+  },
+  {
+    "page_number": 11,
+    "problem_number": "4.4",
+    "problem_text": "4.4. Potential theory for surfaces with cusps\nA detailed theory of boundary integral equations for harmonic and elastic\nsinge and double layer potentials on curves with exterior and interior cusps\nwas constructed in [93].\nProblem. Develop a theory of multidimensional boundary integral equations\nfor domains with inner and outer cusps.\nFirst results concerning the multidimensional case can be found in [84]-[86]."
+  },
+  {
+    "page_number": 12,
+    "problem_number": "4.5",
+    "problem_text": "4.5. Regularity of domains in the theory of boundary integral equations\nIn [90] (see also [88, Chapter 15]) a regularity theory of classical boundary\nintegral equations involving harmonic, elastic and hydrodynamic potentials\non nonsmooth surfaces is presented. A goal of this theory is to establish\nsolvability in fractional Besov spaces.\nProblem. Obtain results on the solvability of just mentioned equations in\nSobolev spaces Ll,p(∂Ω) with integer l under minimal requirements on ∂Ω."
+  },
+  {
+    "page_number": 12,
+    "problem_number": "4.6",
+    "problem_text": "4.6. Integral equations of potential theory under interaction of nearly touch-\ning particles\nThe following diﬃculty arises when using the boundary element method to\nstudy hydrodynamic interactions among particles in suspensions and other\nsimilar phenomena when the particles are nearly touching. Integration of ker-\nnels of integral operators on elements near the closest contact points destroys\nthe accuracy of the numerical procedure.\nProblem. Find asymptotic representation for densities of harmonic, elastic,\nand hydrodynamic potentials satisfying the boundary integral equations by\nusing the distance between particles as a small parameter."
+  },
+  {
+    "page_number": 12,
+    "problem_number": "4.7",
+    "problem_text": "4.7. Non-classical maximal operator\nLet the maximal operator M ♦be deﬁned by\n(M ♦f)(x) = sup_{r>0} \\left| \\fint_{B_r(x)} \\frac{y-x}{|y-x|} f(y)\\,dy \\right|,\nx ∈ R^n,\nwhere f is locally integrable in R^n and the barred integral stands for the\nmean value. It is obviously dominated by the Hardy-Littlewood maximal\noperator M. A simple property of M ♦is the sharp pointwise inequality for\nfunctions of one variable\n|u′(x)|^2 ≤ \\frac{8}{3} (M ♦u)(x) (M ♦u′′)(x),\nsee [71, formula (12.0.5)].\nClearly, M ♦is dominated by the sharp maximal operator M ♯deﬁned by\n(M ♯f)(x) = sup_{r>0} \\fint_{B_r(x)} |f(y) − f_{B_r(x)}|\\,dy,\nwhere f_{B_r(x)} stands for the mean value of f in the ball B_r(x).\nProblem. Does there exist a Banach space B such that one of the operators\nM ♯or M ♦is bounded in B whereas the other operator is not bounded?"
+  },
+  {
+    "page_number": 13,
+    "problem_number": "4",
+    "problem_text": "where p ∈[1, ∞], F is the Fourier transform and K is a compact set in Rn.\nIt is natural to call (4.2) the Fourier capacity of K. If p = 2, this capacity is\nequal to (mn K)1/2.\nProblem. Find upper and lower geometrical estimates of the Fourier p-capacity.\nDevelop a theory of Fourier p-potentials\nF−1(|F µ|1/(p−1)F µ),\nwhere µ is a measure, in spirit of [73]-[75]."
+  },
+  {
+    "page_number": 13,
+    "problem_number": "5.1",
+    "problem_text": "5. Linear elliptic operators\n5.1. Integral inequality for the integrable Laplacian\nIt is shown in [89] that the inequality\n|∫_{R2} ∑_{i,j=1}^2 ai,j uxi uxj dx| ≤ C (∫_{R2} |∆u| dx)^2,\nwhere ai,j are constants and u is an arbitrary complex-valued function in\nC∞_0(R2), holds if and only if a1,1 + a2,2 = 0.\nOther results of a similar nature are obtained in [70], where in particular\nit is proved that the inequality\n|∫_{Rn} ∑_{j=1}^n αj |∂u/∂xj| dx / |x| | ≤ C ∫_{Rn} |∆u| dx,\nwhere αj are real constants, holds for all real-valued functions u ∈ C∞_0(Rn)\nif and only if\n∑_{j=1}^n αj = 0.\nProblem. I conjecture that the inequality\n|∫_{Rn} Φ(∇u) dx|^{(n−1)/n} ≤ ∫_{Rn} |∆u| dx,\nwhere n > 1, Φ is a smooth function outside the origin and positive homogeneous of degree n/(n − 1), holds for all u ∈ C∞_0(Rn) if and only if\n∫_{∂B1} Φ(x) dωx = 0."
+  },
+  {
+    "page_number": 14,
+    "problem_number": "5",
+    "problem_text": "for all x ∈ Ω. Similarly, a function ϕ given on ∂Ω is called α-Hölder continuous at O if there is a limit ϕ(O) of ϕ(x) as x → O, x ∈ ∂Ω, and\n\n|ϕ(x) − ϕ(O)| ≤ C|x|^α  (5.1)\n\nBy u_ϕ we mean a bounded solution to the Dirichlet problem\n\nLu = 0  in Ω,\nu = ϕ  on ∂Ω,\n\nwhere ϕ is a bounded Borel function on ∂Ω and\n\n(Lu)(x) = div( A(x) ∇u(x) )\n\nis a uniformly elliptic operator with a measurable symmetric coefficient matrix A. Basic facts concerning solvability of this problem can be found in [45].\n\nWe introduce the L-harmonic measure H_L(x, B), where x ∈ Ω and B is a Borel subset of ∂Ω (see e.g. [45, Definition 1.2.6]).\n\nDefinition. The point O is called α-Hölder regular with respect to L if the α-Hölder continuity of ϕ at O implies the α-Hölder continuity of u_ϕ at O.\n\nDefinition. The point O is called Hölder regular with respect to L if there exists α > 0 such that O is α-Hölder regular.\n\nA necessary and sufficient condition for the Hölder regularity of O is contained in the following assertion proved in [72].\n\nTheorem. The point O ∈ ∂Ω is Hölder regular with respect to L if and only if, for some positive constants λ and C,\n\nH_L(x, ∂Ω \\ B_r) ≤ c (|x|/r)^λ  (5.2)\n\nfor all r > 0 and x ∈ Ω ∩ B_r.\n\nLet n > 2 and let cap denote the Wiener capacity defined in Section 3.7. The following condition, sufficient for the Hölder regularity of O and independent of L, was found in [52], [54] [55]:\n\nlim inf_{r→0} (1/|log r|) ∫_{r}^{1} cap(Ω \\ B_ρ) dρ / ρ^{n−1} > 0.  (5.3)\n\nUnder additional restrictions on the domain, this condition proves to be necessary for the Hölder regularity, see [54], [104].\n\nClearly, (5.3) fails or works simultaneously for all operators L. However, it is not necessary for the Hölder regularity in general, see the counterexample in [66, p. 509–510]. Although (5.2) formally depends on L, it is natural to formulate the\n\nProblem. Prove or disprove that the Hölder regularity of a point is independent of the operator L."
+  }
+]

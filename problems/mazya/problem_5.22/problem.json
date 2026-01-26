@@ -1,0 +1,5 @@
+{
+  "page_number": 23,
+  "problem_number": "5.22",
+  "problem_text": "5.22. L^p-dissipativity of the Lam\u00e9 operator\nConsider the Dirichlet problem with zero boundary condition for the Lam\u00e9 operator L defined in the previous section.\nWe say that L is L^p-dissipative if for all u \u2208 [C^\u221e_0(\u2126)]^n\n\u222b_\u2126 Lu \u00b7 |u|^{p\u22122} u dx \u2264 0,\nwhere 1 < p < \u221e.\nIn [9, Chapter 3], we prove that for n = 2 the operator L is L^p-dissipative if and only if\n( (1/2 \u2212 1/p)^2 ) \u2264 2(\u03bd \u2212 1)(2\u03bd \u2212 1) / (3 \u2212 4\u03bd)^2.\n(5.18)\nFor n = 3 this inequality is necessary for the L^p-dissipativity of L and there are some sufficient conditions. However, the following problem is unsolved.\nProblem. Prove or disprove that (5.18) is sufficient for the L^p-dissipativity of L in the three-dimensional case."
+}

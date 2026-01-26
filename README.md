@@ -51,6 +51,7 @@ Problems are drawn from multiple sources:
 - **[Unsolved Problems in Intuitive Geometry](https://sites.math.washington.edu//~reu/papers/2010/mark/Unsolved_Problems_In_Intuitive_Geometry.pdf)** by Klee & Wagon: Open problems in computational and combinatorial geometry
 - **[100 Open Problems](https://arxiv.org/abs/2404.07513)** by Ben Green: Research-level problems in additive combinatorics and number theory
 - **Some open problems in analysis** by A.G. Ramm: Open problems in Radon transforms, operator theory, and PDEs
+- **Seventy Five (Thousand) Unsolved Problems in Analysis and PDEs** by Vladimir Maz'ya: Comprehensive collection of open problems in analysis and partial differential equations
 
 ## Citation
 
@@ -69,4 +70,4 @@ If you use this benchmark in your research, please cite:
 
 For citations to the source problem collections, see [references.bib](references.bib).
 
-*Last updated: 2026-01-26 18:40:13 UTC*
+*Last updated: 2026-01-26 18:44:10 UTC*

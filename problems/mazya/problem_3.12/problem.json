@@ -1,0 +1,5 @@
+{
+  "page_number": 9,
+  "problem_number": "3.12",
+  "problem_text": "3.12. Trace inequality with a non-positive measure\nLet \u03a9 be a bounded smooth domain in R^n and let \u03c3 be a real measure, not\nnecessarily positive, even a distribution, supported on \u2202\u03a9.\nProblem. Let n > p > 1 and let u be any function in C^\u221e(\u03a9). Find necessary\nand sufficient condition on \u03c3 for the validity of the inequality\ninf_{c\u2208R^1} \u222b_{\u2202\u03a9} |u \u2212 c|^p d\u03c3 \u2264 C \u222b_{\u03a9} |\u2207u(x)|^p dx."
+}

@@ -1,0 +1,5 @@
+{
+  "page_number": 25,
+  "problem_number": "6.1",
+  "problem_text": "6.1. Nonlinear singularities at the vertex of a cone\nLet \u2206p be the p-Laplace operator\nu \u2192 div(|\u2207u|^{p\u22122} grad u).\nVariational solutions of the Dirichlet problem for the p-Laplace equation in a cone \u03a9 \u2282 R^n with vertex at the origin O \u2208 R^n:\n\u2206p u = 0 in \u03a9 near O,\nu = 0 on \u2202\u03a9 near O\nadmit the asymptotics\nu(x) \u223c C|x|^\u03bb \u03a8( x/|x| ),\n(6.1)\nsee [37] and [103].\nProblem. No analogue of (6.1) is known for higher order nonlinear equations\n\\[\n\\sum_{|\\alpha|\\le m} \\partial_\\alpha\\bigl(a_\\alpha(\\nabla^m u)\\bigr)=0,\n\\]\nwhere a_\u03b1 are positive homogeneous vector-valued functions. The same applies elliptic systems of the second order."
+}

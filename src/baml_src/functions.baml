@@ -226,6 +226,50 @@ function ExtractRammProblems(page_text: string, page_number: int) -> PageProblem
   "#
 }
 
+function ExtractMazyaProblems(page_text: string, page_number: int) -> PageProblems {
+  client GPT4o
+  prompt #"
+    Extract all problems from this page of "Seventy Five (Thousand) Unsolved Problems in Analysis and Partial Differential Equations" by Vladimir Maz'ya.
+    
+    Page number: {{ page_number }}
+    
+    IMPORTANT RULES:
+    1. Look for sections with headings like "3.1.", "3.5.", "4.1.", etc. followed by problem statements
+    2. The word "Problem." or "PROBLEM." (case-insensitive) indicates the problem statement
+    3. Extract the COMPLETE problem including all context before "Problem." in that section
+    4. For problem_number, use the section number (e.g., "3.1", "3.5", "3.8")
+    5. If a page has NO problems (e.g., title, contents, introduction), return an empty list
+    6. Include mathematical definitions and context that are part of the problem
+    7. Capture everything in the section until the next numbered section starts
+    8. Some sections may have multiple related questions - include all
+    
+    EXAMPLES OF VALID MAZYA PROBLEMS:
+    - problem_number: "3.1"
+      problem_text: "3.1. Isoperimetric problem for fractional perimeter\nLet Ω be a bounded domain with smooth boundary ∂Ω and α ∈ (0,1)...\nProblem. Find the best value of the isoperimetric constant C in (3.1)."
+      answer: null
+    
+    - problem_number: "3.8"
+      problem_text: "3.8. Hardy inequality with capacitary distance to ∂Ω\nLet Ω be a domain in Rⁿ, n > 2...\nProblem. Prove that (3.9) holds for any domain Ω if d(x) is replaced by the capacitary distance..."
+      answer: null
+    
+    - problem_number: "4.1"
+      problem_text: "4.1. A multi-dimensional integral equation\n...\nProblem. Find conditions on the kernel K for which..."
+      answer: null
+    
+    NOTE: These are research-level analysis/PDE problems that contain:
+    - Advanced mathematical notation (Sobolev spaces, operators, capacities)
+    - References to equations and theorems
+    - Technical definitions and background
+    - Multiple variants or related questions
+    - Section titles describing the problem area
+    
+    Make sure to capture the section title, background context, and the complete problem statement.
+    
+    Page text:
+    {{ page_text }}
+  "#
+}
+
 function FixGAPCode(
   original_code: string,
   error_message: string,

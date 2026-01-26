@@ -1,0 +1,5 @@
+{
+  "page_number": 21,
+  "problem_number": "5.17",
+  "problem_text": "5.17. Singularity of Green\u2019s function for second order elliptic equations with\nlower order terms\nIt is well-known that Green\u2019s function G(x, y) of the uniformly elliptic oper-\nator\nLu = \u2212\u2202\n\u2202xi\n(\n  aij(x) \u2202u\n  \u2202xj\n),\n\nn > 2,\nwith measurable bounded coe\ufb03cients is equivalent to |x \u2212y|2\u2212n near the\npoint y (see [99], [45]).\nProblem. Find necessary and su\ufb03cient conditions for the coe\ufb03cients b1, . . . , bn\nand c preserving the equivalence of |x\u2212y|2\u2212n and Green\u2019s function of the op-\nerator\nu \u2192Lu + bi(x) \u2202u\n\u2202xi\n+ c(x) u."
+}

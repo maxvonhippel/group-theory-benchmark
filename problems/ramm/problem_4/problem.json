@@ -1,0 +1,5 @@
+{
+  "page_number": 4,
+  "problem_number": "4",
+  "problem_text": "Problem 4: Do (8)-(10) imply that [s, Ns] = 0\n\u2200s \u2208S?\nConjecture: Assumptions (8) and (10) imply\n[s, Ns] = 0\n\u2200s \u2208S.\n(11)\nIt is pointed out in [4], p. 416, that if (11) holds, then S is a sphere.\nA proof of the above Conjecture implies a positive solution to the Pompeiu problem:\nsee [4], Chapter 11, and [5], [6]."
+}

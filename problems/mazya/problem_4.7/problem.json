@@ -1,0 +1,5 @@
+{
+  "page_number": 12,
+  "problem_number": "4.7",
+  "problem_text": "4.7. Non-classical maximal operator\nLet the maximal operator M\u2666 be defined by\n(M\u2666f)(x) = sup_{r>0} \\left| \\dashint_{B_r(x)} \\frac{y-x}{|y-x|} f(y)\\,dy \\right|, \\quad x \\in \\mathbb{R}^n,\nwhere f is locally integrable in \\mathbb{R}^n and the barred integral stands for the mean value. It is obviously dominated by the Hardy-Littlewood maximal operator M. A simple property of M\u2666 is the sharp pointwise inequality for functions of one variable\n|u\u2032(x)|^2 \\le \\frac{8}{3} (M\u2666u)(x)\\,(M\u2666u\u2032\u2032)(x),\nsee [71, formula (12.0.5)].\nClearly, M\u2666 is dominated by the sharp maximal operator M\u266f defined by\n(M\u266ff)(x) = sup_{r>0} \\dashint_{B_r(x)} |f(y) - f_{B_r(x)}|\\,dy,\nwhere f_{B_r(x)} stands for the mean value of f in the ball B_r(x).\nProblem. Does there exist a Banach space B such that one of the operators M\u266f or M\u2666 is bounded in B whereas the other operator is not bounded?"
+}

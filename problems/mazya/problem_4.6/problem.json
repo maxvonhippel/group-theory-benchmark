@@ -1,0 +1,5 @@
+{
+  "page_number": 12,
+  "problem_number": "4.6",
+  "problem_text": "4.6. Integral equations of potential theory under interaction of nearly touching particles\nThe following di\ufb03culty arises when using the boundary element method to study hydrodynamic interactions among particles in suspensions and other similar phenomena when the particles are nearly touching. Integration of kernels of integral operators on elements near the closest contact points destroys the accuracy of the numerical procedure.\nProblem. Find asymptotic representation for densities of harmonic, elastic, and hydrodynamic potentials satisfying the boundary integral equations by using the distance between particles as a small parameter."
+}

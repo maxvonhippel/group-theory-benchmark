@@ -1,0 +1,5 @@
+{
+  "page_number": 35,
+  "problem_number": "9.4",
+  "problem_text": "9.4. Sharp Hardy-Leray inequality for divergence-free \ufb01elds\nLet u denote a vector \ufb01eld in R^n with components in C^\u221e_0(R^n). The following n-dimensional generalization of the one-dimensional Hardy inequality [21]\n\n\u222b_{R^n} |u|^2/|x|^2 dx \u2264 4/(n \u2212 2)^2 \u222b_{R^n} |\u2207u|^2 dx  (9.5)\n\nappears for n = 3 in Leray\u2019s pioneering paper on the Navier-Stokes equations [42]. The constant factor on the right-hand side is sharp. Since one frequently deals with divergence-free \ufb01elds in hydrodynamics, it is natural to ask whether this restriction can improve the constant in (9.5).\n\nIt is shown in [10] that this is the case indeed if n > 2 and the vector \ufb01eld u is axisymmetric by proving that the aforementioned constant can be replaced by the (smaller) optimal value\n\n4/(n \u2212 2)^2 ( 1 \u2212 8/(n + 2)^2 )  (9.6)"
+}

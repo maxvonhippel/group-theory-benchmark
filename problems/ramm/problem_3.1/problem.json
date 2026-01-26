@@ -1,0 +1,5 @@
+{
+  "page_number": 3,
+  "problem_number": "3.1",
+  "problem_text": "Problem 3.1: Is it true that T is not a \ufb01nite-rank operator?\nIn other words, is it true that the dimension of the range of T is in\ufb01nite?\nRemark: The assumption that f(x) is in L2(D) is important: if, for example, f(x)\nis a delta-function, then the answer to the question of Problem 3.1 is no: the dimension\nof the range of T in this case is equal to 1 if the delta-function is supported at one point."
+}

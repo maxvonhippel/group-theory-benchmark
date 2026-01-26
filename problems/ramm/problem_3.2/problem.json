@@ -1,0 +1,5 @@
+{
+  "page_number": 3,
+  "problem_number": "3.2",
+  "problem_text": "Problem 3.2: Can one choose pm \u2208L2 such that the above set S of M functions is\nlinearly independent?\nIn other words, can one choose pm \u2208L2, m = 1, 2, . . . , M, such that the relation:\n\nM\nX\nm=1\ncmF(z + pm) = 0\n\u2200z \u2208L1\n(7)\n\nimplies cm = 0 for all m = 1, 2, . . . , M? Here cm are constants.\nThese questions arise in the study of Property C (see [4], p. 298)."
+}

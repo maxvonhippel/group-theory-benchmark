@@ -1,0 +1,5 @@
+{
+  "page_number": 10,
+  "problem_number": "4.2",
+  "problem_text": "4.2. A singular integral operator in Lp(Rn)\nConsider the singular integral operator A with the symbol\n\u2202B1 \u220b \u03c9 \u2192 exp(i \u03bb \u03c6(\u03c9)),\nwhere \u03c6 is a smooth real-valued function on \u2202B1, and \u03bb is a large real pa-\nrameter.\nProblem. Prove or disprove the estimate\n\n\u2225A\u2225_{Lp(Rn)\u2192Lp(Rn)} \u2264 c |\u03bb|^{(n\u22121)| 1/2 \u2212 1/p |},\n\nwhere 1 < p < \u221e, c depends on n, p and the function \u03c6."
+}

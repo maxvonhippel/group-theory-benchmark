@@ -1,0 +1,5 @@
+{
+  "page_number": 28,
+  "problem_number": "7.1",
+  "problem_text": "7.1. Behaviour at infinity of solutions to the Cauchy-Dirichlet problem for a\nsemi-linear parabolic equation\nConsider the equation\n\u2202u\n\u2202t \u2212\u2206u = \u2207u A(x) \u2207u,\nin the half-cylinder {(x, t) : x \u2208 \u2126, t > 0}, where A is a positive-definite\nmatrix and \u2126 is a bounded domain in Rn. Assume that\nu = 0\nfor\nx \u2208 \u2202\u2126, t > 0.\nIf A is the unit matrix, the replacement of u by log v with v > 0 shows\nthat at infinity either u vanishes exponentially, or u behaves as t at any\npositive distance from the boundary.\nProblem. Show that the same alternative holds if A is not the unit matrix.\nDescribe an asymptotic behaviour of unbounded solutions. What happens if\nA is not positive-definite?"
+}

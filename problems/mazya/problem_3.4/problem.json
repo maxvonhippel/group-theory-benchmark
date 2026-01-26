@@ -1,0 +1,5 @@
+{
+  "page_number": 6,
+  "problem_number": "3.4",
+  "problem_text": "3.4. Embedding of a Sobolev space into the space of distributions\nLet \u2126 be an open set in Rn. By Ll,p_0(\u2126, \u00b5) we denote the completion of C\u221e_0(\u2126)\nin the norm\n\u2225\u2207^l u\u2225_{Lp(\u2126)} + (\u222b_\u2126 |u|^p d\u00b5)^{1/p},\nwhere p \u2208 [1, \u221e] and \u00b5 is a measure.\nThe question of embedding Ll,p_0(\u2126, 0) into the distribution space [C\u221e_0(\u2126)]\u2032\nis completely solved in [23] for p = 2 and by [69, Theorem 15.2] for all values\nof p.\nProblem. Find necessary and sufficient conditions on the measure \u00b5 ensuring\nthe embedding of Ll,p_0(\u2126, \u00b5) into [C\u221e_0(\u2126)]\u2032."
+}

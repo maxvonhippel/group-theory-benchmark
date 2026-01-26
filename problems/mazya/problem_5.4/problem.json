@@ -1,0 +1,5 @@
+{
+  "page_number": 15,
+  "problem_number": "5.4",
+  "problem_text": "5.4. De Giorgi-Nash theorem for equations with complex-valued coefficients\nLet \u03a9 be a domain in R^n. By the classical De Giorgi-Nash theorem, an arbitrary weak solution of the uniformly elliptic equation\n\u2202/\u2202x_i ( a_{ij}(x) \u2202u/\u2202x_j ) = 0,   1 \u2264 i, j \u2264 n\nwith measurable bounded real-valued coefficients is locally H\u00f6lder continuous.\nIf the coefficients a_{ij} are complex-valued and\nRe(a_{ij}(x) \u03be_i \u03be_j) \u2265 C|\u03be|^2,\nfor all x \u2208 \u03a9 and \u03be \u2208 R^n, this assertion is not true for dimensions n > 4. See [95, p. 391\u2013393] for examples of equations whose weak solutions are even unbounded near an interior point of a domain.\nProblem. Prove or disprove that De Giorgi-Nash property holds for dimensions n = 3 and n = 4.\nThe H\u00f6lder continuity of u in the case n = 2 follows from [94]."
+}

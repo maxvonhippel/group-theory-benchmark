@@ -1,0 +1,5 @@
+{
+  "page_number": 16,
+  "problem_number": "5.6",
+  "problem_text": "5.6. Dirichlet problem in a planar Jordan domain\nLet u be a variational solution of the Dirichlet problem with zero boundary\ndata for the equation\nL_{2m}(D_x) u = f\n(5.6)\nin \u2126, where \u2126 is an arbitrary bounded Jordan domain in R^2 (see Section 3.5),\nf \u2208 C^\u221e_0(\u2126) and L_{2m} is a strongly elliptic operator with real constant coe\ufb03-\ncients.\nProblem. Prove that the solution satis\ufb01es\n\u222b_\u2126 |\u2207^m u|^{4\u2212\u03b5} dx < \u221e\n(5.7)\nfor every small \u03b5 > 0.\nThis problem is unsolved even for the case of the Laplace operator which\nis related to Brennan\u2019s conjecture [7].\nInequality (5.7) holds for an arbitrary piecewise smooth domain without\ncusps, see [33, Chapter 9] and [87, Chapter 4]."
+}

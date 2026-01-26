@@ -1,0 +1,5 @@
+{
+  "page_number": 24,
+  "problem_number": "5.23",
+  "problem_text": "5.23. Generalized maximum principle for the Lam\u00b4e system in a domain with\nnon-Lipschitz graph conical vertex\nLet \u2126 be a domain with compact closure and whose boundary \u2202\u2126 is smooth\noutside one point. We assume that near this point \u2202\u2126 coincides with a cone,\nnot necessarily a Lipschitz graph.\nWe consider the Dirichlet problem\n\u2206u + (1 \u2212 2\u03bd)\u22121\u2207div u = 0\nin \u2126,\nu = g\non \u2202\u2126,\nwhere \u03bd < 1. The case \u03bd = 1/2 corresponds to the Stokes system, when the\ncondition div u = 0 becomes explicit.\nBy [81] for n = 3 (see also [33, Sections 3.6 and 5.5]) and [13] for n \u2265 3,\nthe generalized maximum principle\n\u2225u\u2225C(\u2126) \u2264 C\u2225g\u2225C(\u2202\u2126)\n(5.19)\nholds provided \u03bd \u2264 1/2. The proof fails for \u03bd > 1/2, which gives rise to the\nfollowing\nProblem. Prove (5.19) under the assumption 1/2 < \u03bd < 1."
+}

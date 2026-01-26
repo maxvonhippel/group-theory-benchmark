@@ -1,0 +1,5 @@
+{
+  "page_number": 18,
+  "problem_number": "5.11",
+  "problem_text": "5.11. Pointwise estimates for polyharmonic Green\u2019s functions\nLet \u2126 be an arbitrary domain in Rn. Green\u2019s function of \u2206m is a solution of\n\n\u2206m_x Gm(x, y) = \u03b4(x \u2212 y),    x, y \u2208 \u2126,\n\nsubject to zero Dirichlet conditions for x \u2208 \u2202\u2126. Here \u03b4 is the Dirac function.\n\nProblem. Let n > 2m. Prove or disprove that\n\n|Gm(x, y)| \u2264 c(m, n) / |x \u2212 y|^{n\u22122m},    x, y \u2208 \u2126, x \u2260 y,\n\nwhere c(m, n) does not depend on \u2126.\n\nThis estimate is known for the dimensions n = 5, 6, 7 if m = 2 and n = 2m + 1, 2m + 2 if m > 2, see [67]."
+}

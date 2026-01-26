@@ -1,0 +1,5 @@
+{
+  "page_number": 30,
+  "problem_number": "7.5",
+  "problem_text": "7.5. Boundary traces of functions in the domain of a maximal di\ufb00erential operator with t-dependent coe\ufb03cients\nLet P(D_t, D_x) be an arbitrary di\ufb00erential operator acting on functions de\ufb01ned on the half-space R^n_+ = {(x, t) : x \u2208 R^n, t > 0} and let P_max be the corresponding maximal operator. The domain of P_max is the completion of the space of functions smooth on R^n_+ and vanishing at in\ufb01nity in the norm \u2225P u\u2225_{L^2(R^n_+)} + \u2225u\u2225_{L^2(R^n_+)}.\n(7.4)\nIn [18, Chapter 2], an algebraic characterization of boundary traces of functions in the domain of P_max was found.\nProblem. Describe traces on the hyperplane t = 0 of functions in the domain of P_max assuming that P is an arbitrary di\ufb00erential operator of the \ufb01rst order in t with coe\ufb03cients depending on t.\nThis is only an example which points to the possible development of the theory in [18] for di\ufb00erential operators with coe\ufb03cients depending only on t."
+}

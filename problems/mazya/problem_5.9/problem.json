@@ -1,0 +1,5 @@
+{
+  "page_number": 17,
+  "problem_number": "5.9",
+  "problem_text": "5.9. Self-adjointness of the Laplacian in a weighted L2-space\nLet \u03c1 \u2208 L1_loc(Rn), \u03c1 > 0, and let\nL2(\u03c1) = { u : \u222b_{Rn} |u(x)|^2 \u03c1(x) dx < \u221e }.\nIn 1990 Eidus [14] proved that for n \u2265 3 a necessary condition for the operator \u03c1^{-1}\u2206 in L2(\u03c1) to be self-adjoint is\n\u222b_{Rn} \u03c1(x) dx = \u221e. (5.8)\nOne can replace (5.8) by\n\u222b_{Rn \\ F} \u03c1(x) dx = \u221e (5.9)\nfor all closed sets F with finite harmonic capacity (see [71, Section 17.1]).\nProblem. Show that (5.9) is not sufficient and find a sharp sufficient condition for the self-adjointness of \u03c1^{-1}\u2206 in L2(\u03c1)."
+}

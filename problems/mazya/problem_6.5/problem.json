@@ -1,0 +1,5 @@
+{
+  "page_number": 27,
+  "problem_number": "6.5",
+  "problem_text": "6.5. Positive p-harmonic functions in a cone\nLet u denote a positive locally bounded solution of the equation \u2206pu = 0 in\na cone vanishing at the boundary.\nProblem. Prove that\nu(x) = C |x|^\u03bb \u03c8( x/|x| ),\n(6.5)\nwhere \u03bb > 0 and C is an arbitrary constant.\nThe existence of solutions appearing in the right-hand side of (6.5) was\nstudied in [37] and [103]. If the cone is the half-space {x : x_n > 0}, formula\n(6.5) becomes u(x) = C x_n."
+}

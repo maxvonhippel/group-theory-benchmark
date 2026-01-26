@@ -1,0 +1,5 @@
+{
+  "page_number": 35,
+  "problem_number": "9.3",
+  "problem_text": "9.3. Counterexample in the water-wave problem for a submerged body\nLet us use the geometrical assumptions made in Section 48. The boundary value problem of harmonic oscillations of the \ufb02uid induced by a submerged body is stated as follows. The function u satis\ufb01es (9.1), (9.3), while (9.2) is replaced by\n\n\u2202u/\u2202y \u2212 \u03bd u = 0  for y = 0\n\nand a radiation condition at in\ufb01nity is required (see [38]).\n\nIn [64] a class of domains is found for which the problem in question is uniquely solvable for all \u03bd > 0, see also [38, Chapter 1].\n\nProblem. Construct an example of a connected set \u2126 showing that some restrictions on \u2126 ensuring solvability are necessary."
+}

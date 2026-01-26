@@ -1,0 +1,5 @@
+{
+  "page_number": 37,
+  "problem_number": "10.3",
+  "problem_text": "10.3. Hybrid iterative methods for solving boundary value problems\nIn [34], a mathematical justification of certain new iterative schemes used\nin solving the Dirichlet and Neumann problems for the Laplace equation is\ngiven. These schemes are based on a combination of Green\u2019s formula and some\nnumerical methods, FEM, for example, which is applied to some auxiliary\nmixed boundary value problem on a subset of the original domain.\nThe proofs in [34] rely upon geometrical requirements on the boundary\nof the domain of strong convexity type which do not seem natural.\nProblem. Extend the class of domains with preservation of convergence of\nthe iterative procedures proposed in [34]."
+}

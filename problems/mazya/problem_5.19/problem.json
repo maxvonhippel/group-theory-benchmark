@@ -1,0 +1,5 @@
+{
+  "page_number": 22,
+  "problem_number": "5.19",
+  "problem_text": "5.19. Matrix generalization of the oblique derivative problem\nLet \u2126be a domain in Rn. Consider the Laplace equation \u2206u = 0 in \u2126, where\nu is a k-dimensional vector \ufb01eld, and add the condition\n\nn\nX\ni=1\nAi(x) \u2202u\n\u2202xi\n= \u03d5(x)\n\non \u2202\u2126,\nwhere {Ai}1\u2264i\u2264n is a collection of k \u00d7 k matrix function.\nProblem. Develop a theory of solvability of the boundary value problem above\nin the case when the corresponding pseudodi\ufb00erential operator on \u2202\u2126is not\nelliptic. An interesting particular case is the boundary condition\n(a + i b) \u00b7 \u2207u = \u03d5,\nwhere a and b are real vector \ufb01elds and u is a complex-valued scalar function."
+}

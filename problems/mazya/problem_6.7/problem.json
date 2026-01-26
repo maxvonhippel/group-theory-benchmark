@@ -1,0 +1,5 @@
+{
+  "page_number": 28,
+  "problem_number": "6.7",
+  "problem_text": "has the weak discontinuous solution\nu1 = cos log r,\nu2 = sin log r,\n(6.8)\nwhere r =\np\nx2 + y2 < e\u22122.\nProblem. Is the right-hand side of (6.8) the only possible isolated singularity\nof solutions to system (6.7) at the origin?"
+}

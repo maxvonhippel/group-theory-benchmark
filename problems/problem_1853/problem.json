@@ -1,6 +1,0 @@
-{
-  "page_number": 258,
-  "problem_number": "14.102",
-  "problem_text": "c) (V. Lin). Let Bn be the braid group on n strings, and let n > 4. Does Bn have proper non-abelian torsion-free factor-groups?\nComment of 2001: S. P. Humphries, (Int. J. Algebra Comput., 11, no. 3 (2001), 363\u2013373) has constructed a representation of Bn which is shown to provide torsion-free non-abelian factor groups of Bn as well as of [Bn, Bn] for n < 7. It is likely that the same representation should work for other values of n as well.\nV. Shpilrain",
-  "answer": "Yes, it does; moreover, every braid group Bn is residually torsion-free nilpotent-by-finite (P. Linnell, T. Schick, J. Amer. Math. Soc., 20, no. 4 (2007), 1003\u20131051)."
-}

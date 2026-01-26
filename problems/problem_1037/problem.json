@@ -1,6 +1,0 @@
-{
-  "page_number": 143,
-  "problem_number": "Well-known problem",
-  "problem_text": "Let G be a finite group, and V(ZG) the group of normalized units of the integral group ring of G. Do the spectra of G and V(ZG) coincide? That is, is it true that, for any integer n, there is an element of order n in V(ZG) if and only if there is an element of order n in G?\nThe answer is \u201cyes\u201d if G is solvable (M. Hertweck, Comm. Algebra 36 (2008), 3585\u20133588).\nA. B\u00a8achle, L. Margolis",
-  "answer": "The answer is \u201cyes\u201d if G is solvable (M. Hertweck, Comm. Algebra 36 (2008), 3585\u20133588)."
-}

@@ -1,6 +1,0 @@
-{
-  "page_number": 226,
-  "problem_number": "8.35",
-  "problem_text": "Determine the conjugacy classes of maximal subgroups in the sporadic simple groups\na) F\u203224;\nb) F2.\nV. D. Mazurov",
-  "answer": "a) They are determined mod CFSG (S. A. Linton, R. A. Wilson, Proc. London Math. Soc., 63, no. 1 (1991), 113\u2013164).\nb) They are determined mod CFSG (R. A. Wilson, J. Algebra, 211 (1999), 1\u201314)."
-}

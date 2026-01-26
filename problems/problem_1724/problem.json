@@ -1,6 +1,0 @@
-{
-  "page_number": 239,
-  "problem_number": "11.33",
-  "problem_text": "a) Let G(q) be a simple Chevalley group over a field of order q. Prove that there exists m such that the restriction of every non-one-dimensional complex representation of G(qm) to G(q) contains all irreducible representations of G(q) as composition factors.\nA. E. Zalesskii",
-  "answer": "This is proved in (D. Gluck, J. Algebra, 155, no. 2 (1993), 221\u2013237)."
-}

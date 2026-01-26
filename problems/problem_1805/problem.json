@@ -1,6 +1,0 @@
-{
-  "page_number": 250,
-  "problem_number": "13.21",
-  "problem_text": "a) Is there an infinite finitely generated residually finite p-group, in which the order |g| of an arbitrary element g does not exceed f(\u03b4(g)), where \u03b4(g) is the length of g with respect to a fixed set of generators and f(n) is a function growing at n \u2192 \u221e slower than any power function n^\u03bb, \u03bb > 0?\nR. I. Grigorchuk",
-  "answer": "Yes, there is (A. V. Rozhkov, Dokl. Math., 58, no. 2 (1998), 234\u2013237)."
-}

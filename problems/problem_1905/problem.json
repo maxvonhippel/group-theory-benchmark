@@ -1,6 +1,0 @@
-{
-  "page_number": 265,
-  "problem_number": "Well-known problem",
-  "problem_text": "Let V be a faithful absolutely irreducible module for a finite group G. Is it true that dim H^1(G, V) \u2264 2?\nV. D. Mazurov",
-  "answer": "No, it is not (L. L. Scott, J. Algebra, 260 (2003), 416\u2013425; see also J. N. Bray, R. A. Wilson, J. Group Theory, 11 (2008), 669\u2013673)."
-}

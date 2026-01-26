@@ -1,6 +1,0 @@
-{
-  "page_number": 192,
-  "problem_number": "2.22",
-  "problem_text": "b) An abstract group-theoretical property \u03a3 is called radical (in our sense) if, in any group G, the join \u03a3(G) of all normal \u03a3-subgroups is a \u03a3-subgroup. Is the property N^0 (see Archive, 1.38) radical? Sh. S. Kemkhadze",
-  "answer": "No.\nThe group SLn(Z) for sufficiently large n \u2a7e 3 contains a non-abelian finite simple group and therefore is not an N^0-group.\nOn the other hand, as shown in (M. I. Kargapolov, Yu. I. Merzlyakov, in: Itogi Nauki. Algebra. Topologiya. Geometriya, 1966, VINITI, Moscow, 1968, 57\u201390 (Russian)), it is the product of its congruence-subgroups mod 2 and mod 3, which have central systems and hence are N^0-groups (see Archive, 1.38). (Yu. I. Merzlyakov, 1973.)"
-}

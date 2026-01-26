@@ -1,6 +1,0 @@
-{
-  "page_number": 240,
-  "problem_number": "Well-known problem",
-  "problem_text": "A permutation group on a set \u2126 is called sharply doubly transitive if for any two pairs (\u03b1, \u03b2) and (\u03b3, \u03b4) of elements of \u2126 such that \u03b1 \u2260 \u03b2 and \u03b3 \u2260 \u03b4, there is exactly one element of the group taking \u03b1 to \u03b3 and \u03b2 to \u03b4. Does every sharply doubly transitive group possess a non-trivial abelian normal subgroup? A positive answer is well known for finite groups. V. D. Mazurov",
-  "answer": "No, not every (E. Rips, Y. Segev, K. Tent, J. Europ. Math. Soc., 19, no. 10 (2017), 2895\u20132910)."
-}

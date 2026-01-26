@@ -1,6 +1,0 @@
-{
-  "page_number": 217,
-  "problem_number": "6.31",
-  "problem_text": "a) Suppose that G is a finitely-generated residually-finite group, d(G) the minimal number of generators of G, and \u03b4(G) the minimal number of topological generators of the profinite completion of G. Is \u03b4(G) = d(G) always true? O. V. Mel\u2019nikov",
-  "answer": "Not always (G. A. Noskov, Math. Notes, 33 (1983), 249\u2013254)."
-}

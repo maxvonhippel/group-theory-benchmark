@@ -1,6 +1,0 @@
-{
-  "page_number": 230,
-  "problem_number": "9.19",
-  "problem_text": "b) Let n(X) denote the minimum of the indices of proper subgroups of a group X. A subgroup A of a finite group G is called wide if A is a maximal element by inclusion of the set {X | X is a proper subgroup of G and n(X) = n(G)}. Prove, without using CFSG, that n(F1) = |F1 : 2F2|, where F1 and F2 are the Fischer simple groups and 2F2 is an extension of a group of order 2 by F2.\nV. D. Mazurov",
-  "answer": "This was proved (S. V. Zharov, V. D. Mazurov, in: Matematicheskoye programmirovaniye i prilozheniya, Ekaterinburg, 1995, 96\u201397 (Russian))."
-}

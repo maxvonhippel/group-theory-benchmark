@@ -68,20 +68,20 @@ If you determine the problem CANNOT be properly formalized:
 1. Create a file: cannot_formalize.txt
 2. Write a clear explanation of why (2-3 sentences)
 3. DO NOT create formalization.lean
-4. Your session will end automatically after you complete the task
+4. Run: bash -c 'kill $PPID' to exit
 
 **Workflow:**
 1. Analyze the problem statement carefully
 2. Determine if it CAN be formalized as a precise mathematical statement
-3. If NO: Write cannot_formalize.txt and your session will end
+3. If NO: Write cannot_formalize.txt, then run: bash -c 'kill $PPID'
 4. If YES: Write the Lean formalization
 5. Test it with lean CLI
-6. If it compiles perfectly: Your session will end automatically
-7. If it doesn't compile: Write cannot_formalize.txt explaining why
+6. If it compiles perfectly: Run: bash -c 'kill $PPID' to exit
+7. If it doesn't compile: Write cannot_formalize.txt, then run: bash -c 'kill $PPID'
 
 **IMPORTANT:**
 - DO NOT submit imperfect formalizations
-- The session will end automatically when you finish your task
+- ALWAYS run bash -c 'kill $PPID' when you finish your task
 - If you determine it cannot be formalized, ACCEPT that decision
 - Only output code that compiles perfectly OR explain why formalization is impossible
 

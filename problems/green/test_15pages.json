@@ -1,0 +1,154 @@
+[
+  {
+    "page_number": 2,
+    "problem_number": "1",
+    "problem_text": "1. Sum-free sets, product-free sets\nProblem 1. Let A be a set of n positive integers. Does A contain a sum-free set\nof size at least n/3 + Ω(n), where Ω(n) →∞as n →∞?\nComments. This is a pretty old and increasingly notorious problem, first men-\ntioned over 50 years ago in [99] . The best known bounds are in Bourgain’s paper\n[39], where he shows that there is necessarily a sum-free set of size n+2\n3 . In fact, he\nshows that there is a sum-free set of size at least\nn\n3 +\nc\nlog n∥1A∥ˆℓ1,\nwhere\n∥1A∥ˆℓ1 :=\nZ 1\n0\n|\nX\na∈A\ne2πiaθ|dθ.\nThus a structural description of sets for which ∥1A∥ˆℓ1 ⩽K log n would be very\nrelevant (see Problem 83 below). In fact, Eberhard, Manners and I (unpublished)\n1Perhaps once a year or so"
+  },
+  {
+    "page_number": 3,
+    "problem_number": "2",
+    "problem_text": "Problem 2. Let A ⊂ Z be a set of n integers. Is there a set S ⊂ A of size (log n)^{100} with S ˆ+ S disjoint from A?\n\nComments. Here S ˆ+ S denotes the restricted sumset {s1 + s2 : s1, s2 ∈ S, s1 ≠ s2}. Problems of this type are also at least 50 years old, being once again mentioned in [99] (and attributed to joint discussions of Erdős and Moser). It is known from very recent work of Sanders [251] that there is always such an S with |S| ⩾ (log n)^{1+c}. By contrast the best-known upper bound is due to Ruzsa [243], showing that one cannot in general hope to take |S| bigger than e^{C√log n}."
+  },
+  {
+    "page_number": 3,
+    "problem_number": "3",
+    "problem_text": "Problem 3. Suppose that A ⊂ [0, 1] is open and has measure greater than 1/3. Is there a solution to xy = z?\n\nComments. I do not have a reference for this problem; it was suggested during the work that led to [88]. For any θ, the set Aθ := {x : θ log x ∈ (1/3, 2/3) (mod 1)} is"
+  },
+  {
+    "page_number": 4,
+    "problem_number": "4",
+    "problem_text": "Problem 4. (Solved) What is the largest product-free set in the alternating group An?\nComments. Over 20 years ago, Ed Crane pointed out to me that if one takes m ∼ √n and considers the set S ⊂ An of all permutations σ such that σ(1) ∈ {2, . . . , m} and σ(2), . . . , σ(m) ∈ {m + 1, . . . , n}. It is clear that S is product-free, and it is easily checked that the density of S in An is ∼ n−1/2. In the other direction, Eberhard [86] showed in a very nice paper that every subset of An of density > Cn−1/2(log n)7/2 does contain three elements x, y, z with xy = z. Thus the remaining challenge is to remove the log term. Moreover, Eberhard’s work gives very little information about the structure of the extremal sets. Update 2022. This question has been solved (together with a stability result characterising sets close to the extremum) by Keevash, Lifschiz and Minzer [178]."
+  },
+  {
+    "page_number": 4,
+    "problem_number": "5",
+    "problem_text": "Problem 5. Which finite groups have the smallest biggest product-free sets?\nComments. 20 years ago, Kedlaya [175] observed, refining some work of Babai and Sós, that it follows from the classification of finite simple groups that every finite group G of order n has a product-free subset of size ≫ n11/14. It may well be that this exponent is sharp. To show this, it follows by inspection of Kedlaya’s paper that one would need to show that the Ree groups 2G2(q), q = 32m+1, which have order ∼ q7, infinitely often have no product-free set of size ≫ q11/2. Certainly working with these groups in any direct way is likely to be very challenging, although the dimensions of their smallest representations are understood. A good model problem would be to determine the largest product-free subsets of SL2(Fp), since explicit computation in this group and with its representations are quite tractable. For this problem, I believe the best-known upper bound is O(n8/9), due to Gowers. For more on these problems, see Kedlaya’s more recent survey [176]."
+  },
+  {
+    "page_number": 4,
+    "problem_number": "6",
+    "problem_text": "Problem 6. Fix an integer d. What is the largest sum-free subset of [N]d?\nComments. This problem was raised in an unpublished note of Peter Cameron from 2002 [53], as well as (in the case d = 2) in [54, Problem 424], where it is attributed to Harut Aydinian. Writing fd(N) for the quantity in question, the most interesting part of the question seems to be determining cd := lim supN→∞ N−d fd(N). It is very well-known and easy that c1 = 1/2. Elsholtz and Rackham [96] showed that c2 = 3/5, and gave lower bounds for larger d. In general, it seems to be believed that a ‘slice’ {(x1, . . . , xd) : u ⩽ x1 + · · · + xd < 2u} is optimal, where u is chosen to maximise the number of points in this set."
+  },
+  {
+    "page_number": 5,
+    "problem_number": "7",
+    "problem_text": "Problem 7. Define Ulam’s sequence 1, 2, 3, 4, 6, 8, 11, 13, 16, 18, 26, 28, 36, . . . as follows: u1 = 1, u2 = 2, and un+1 is the smallest number expressible as a sum ui + uj, i < j ⩽ n, in a unique way. Does this sequence have positive density? Can one explain the curious Fourier properties of this sequence?\nComments. The first problem was asked by Ulam [276]. The second problem here refers to the observations of Steinerberger [265], where data is presented to suggest that there is a number α ≈ 2.5714474995 such that the sequence αun (mod 2π) has an interesting distribution function. Steinerberger’s paper may be consulted for more information.\nA (somewhat) related class of sequence may be defined as follows. Start with some ‘seed’ set of values u1 < · · · < um. For n ⩾ m, define un+1 to be the smallest integer greater than un not of the form ui + uj for i, j ⩽ n. This construction was considered by Dickson. A variant construction considered by Queneau is to define un+1 to be the smallest integer greater than un and not of the form ui + uj with i < j ⩽ n. For both variants, the following question appears to be open: is un+1 − un eventually periodic? For references and computations showing that periodicity (if present) can be very slow to appear, see [111, 152]."
+  },
+  {
+    "page_number": 5,
+    "problem_number": "8",
+    "problem_text": "Problem 8. Suppose that A ⊂ [N] has no more than εN^2 solutions to x + y = z. It is known [134] that one may remove ε′N elements of A to leave a sum-free set, where ε′ → 0 as ε → 0. But is there a bound for ε′ in terms of ε which is at least vaguely reasonable?\nComments. This concerns the so-called arithmetic removal lemma. Until a few years ago I would have said that one should first consider the model problem over F^n_2. However, Fox and L. M. Lovász [115] have used the Croot-Lev-Pach method to show that in that case ε′ can be taken to be ε^C, and even obtain the optimal value of C. By contrast it is known that in [N] there cannot be a polynomial bound. Aaronson [1] has shown, adapting the ideas of Fox and Lovász, that the problem is essentially equivalent to determining the size of the largest additive matching in Z/NZ, that is to say collection of triples (xi, yi, zi)i=1,...,t with xi + yj + zk = 0 iff i = j = k.\nIt would be remiss not to mention the better-known cousin of this problem, the triangle-removal problem from graph theory. Suppose that a graph on N vertices"
+  },
+  {
+    "page_number": 6,
+    "problem_number": "9",
+    "problem_text": "Problem 9. Problems about progressions.\n(i) (Solved) Is r3(N) ≪N(log N)−10?\n(ii) Is r5(N) ≪N(log N)−c?\n(iii) Is r4(Fn\n5) ≪N 1−c, where N = 5n?\nComments. Update 2024. In a remarkable breakthrough, Kelley and Meka [180]\nhave proved an upper bound of the shape r3(N) ≪Ne−c(log N)β, and Bloom and\nSisask [32] have shown that one can take β = 1\n9. Note that a classical example\nof Behrend [25] from 1946 gives a lower bound r3(N) ≫Ne−c(log N)1/2; in terms\nof the rough form of the bound this is still the best known, though in 2024 [91]\nElsholtz, Hunter, Proske and Sauermann gave a construction with a smaller value\nof c. Several commentators have remarked that the work of Kelley and Meka has\nessentially resolved the issue of how r3(N) behaves, but I respectfully disagree:\nto a certain extent the impact of their bound is enhanced by the numerology of\nthe problem, and over finite fields their methods still only give a bound r3(Fn\n3) ≪\n3ne−nc, which looks much further from the conjectured truth.\nIndeed, much stronger bounds of the form r3(Fn\n3) ≪(3 −ε)n are known in\nthe finite field setting due the breakthough of Croot-Lev-Pach [78] and Ellenberg-\nGijswijt [93].\nRegarding (ii), the trick of Green and Tao [151] which worked for r4 is not avail-\nable for 5-term progressions, and nor are sufficiently good bounds on the requisite\ninverse theorem for the Gowers U 4-norm. Therefore this seems extremely difficult.\nUpdate 2024. Leng, Sah and Sawhney [192] have established a bound rk(N) ≪\nNe−(log log N)ck for all k ⩾5 which, while not as strong as (ii), is a significant\nadvance over the bound rk(N) ≪N(log log N)−ck of Gowers, which had stood for\n25 years.\nFinally, (iii) evidently includes the Croot-Lev-Pach and Ellenberg-Gijswijt re-\nsults (over F5). However, is it possible to use their methods to prove such a result"
+  },
+  {
+    "page_number": 7,
+    "problem_number": "10",
+    "problem_text": "Problem 10. Let S ⊂ N be random. Under what conditions is Roth’s theorem for progressions of length 3 true with common differences in S?\n\nComments. Of course, one may also ask the question for longer progressions. A set S for which the conclusion of Szemerédi’s theorem for progressions of length k holds, but with the common difference of the progressions restricted to lie in S, is called a set of (k − 1)-recurrence. Thus Problem 10 is asking for conditions under which a random set is a set of 2-recurrence.\n\nThe most optimistic conjecture here, suggested in [119] and [118, Problem 31] is that if n is chosen to lie in S with probability ω(n)/n, where ω(n) → ∞, then S is almost surely a set of r-recurrence for all r ⩾ 1.\n\nThe best that is known is the result of Briët and Gopi [47], improving on earlier work of Christ and of Frantzikinakis–Lesigne–Wierdl, showing that if P(n ∈ S) ≫ (ω(n)/log n) · n^{−1/⌈k/2⌉} then Szemerédi’s theorem for progressions of length k holds (almost surely as n → ∞) with common differences in S.\n\nThe case k = 3 (Roth’s theorem with differences in S) is perhaps the most interesting in the first instance, and here the bound of Briët and Gopi is no stronger than the earlier results.\n\nA particular model problem would be to show that if P(n ∈ S) = n^{−0.51} then Roth’s theorem holds with common difference in S.\n\nUpdate 2023. Briët and Castro-Silva [46] have advanced the bounds for k odd, showing that if P(n ∈ S) ≫ n^{−2/k+o(1)} then Szemerédi’s theorem for progressions of length k holds (almost surely) with common differences in S. In particular, they resolve the model problem mentioned here.\n\nIt is a curious fact that, by the Bergelson–Leibman theorem, Roth’s theorem is known with common differences restricted to much sparser sets S, for example S = {13, 23, 33, 43, . . . }.\nHowever, the proof of that theorem seems to crucially exploit the fact that the derivatives of the sequence are eventually constant.\n\nThe conjecture in [118, 119] is motivated by the suggestion that the set of correlation functions of the form σ(d) := E_n 1_A(n)1_A(n + d)1_A(n + 2d) (where here we are taking k = 3 for simplicity) should have ‘low complexity’, since one expects σ(d) to be approximated in some sense by highly algebraic objects called nilsequences.\nHowever, recent examples of Briët-Labib [49] and Briët and me [48] show that the situation in that regard is more complicated than previously thought. Those examples do not, however, seem to impact on Problem 10 itself.\n\nFinally we remark that Altman [10] has also shown that in finite field models the random set S must be significantly larger for Roth’s theorem with common differences in S to hold."
+  },
+  {
+    "page_number": 8,
+    "problem_number": "11",
+    "problem_text": "Problem 11. (Mostly solved) Find reasonable bounds for the maximal density of a set A ⊂ {1, . . . , N} not containing:\n(i) A 3-term progression with common difference a square minus one;\n(ii) A 3-term progression with common difference a prime minus one.\nComments. Of course one may ask more general questions – for example, for reasonable bounds for the polynomial Szemerédi theorem of Bergelson and Leib-man in general. Peluse [217] has obtained the first quantitative bounds (of shape N(log log N)−c, c = c(p1, . . . , pk)) for configurations (x+p1(d), . . . , x+pk(d)) where the pi have distinct degrees. The case of configurations (x, x + d, x + d2) was previ-ously handled by Peluse and Prendiville [219]. In this case (and in the more general cases covered by Peluse’s work) it is in fact plausible that every set of size N 0.99 contains such a configuration – no counterexample to this appears to be known. However, this is not currently known even for the subconfiguration (x, x + d2), a problem discussed in more detail below (Problem 65).\nFinally let me remark that Prendiville [231] has obtained bounds for certain special cases. He showed that if A ⊂ [N] contains no x, x + d2, x + 2d2 then |A| ≪ N(log log N)−c.\nUpdate 2021. Concerning (ii), Tao and Teräväinen [272, Theorem 1.8] established an upper bound of Ne−(log log log N)c.\nUpdate 2023. Depending on one’s definition of ‘reasonable’, problem (i) has been resolved by Peluse, Sah and Sawhney [220], who obtain an upper bound N(logm N)−1 for this problem (where the notation means the m-fold iterated log-arithm, and their method gives m ∼ 200). They indicate that ‘plausible improve-ments in the quantitative aspects of the theory of nilsequences’ should yield the significantly better bound Ne−(log log N)c, which I would certainly concede is ‘rea-sonable’ in the context of these problems."
+  },
+  {
+    "page_number": 8,
+    "problem_number": "12",
+    "problem_text": "Problem 12. Let G be an abelian group of size N, and suppose that A ⊂ G has density α. Are there at least α15N 10 tuples (x1, . . . , x5, y1, . . . , y5) ∈ G10 such that xi + yj ∈ A whenever j ∈ {i, i + 1, i + 2}?\nComments. This is very closely related to the Cayley graph case of simplest unknown instance of Sidorenko’s conjecture for graphs, that of the ‘Möbius ladder’ K5,5 \\ C10."
+  },
+  {
+    "page_number": 8,
+    "problem_number": "13",
+    "problem_text": "Problem 13 (4-term APs in uniform sets.). Suppose that A ⊂ Z/NZ has density α and is Fourier uniform (that is, all Fourier coefficients of 1A − α are o(N)). Does A contain at least ≫ α100N 2 4-term arithmetic progressions?\nComments. Gowers [126] has shown that this is not true if 100 is replaced by 4.01. In view of the ‘arithmetic regularity lemma’ it is natural to consider sets A"
+  },
+  {
+    "page_number": 9,
+    "problem_number": "14",
+    "problem_text": "Problem 14. (Solved) Define the 2-colour van der Waerden numbers W(k, r) to be the least quantities such that if {1, . . . , W(k, r)} is coloured red and blue then there is either a red k-term progression or a blue r-term progression. Is W(k, r) a polynomial in r, for fixed k? Is W(3, r) ≪ r2?\nComments. I initially heard this question from Ron Graham, and I was certain that the answer should be no, for the following reason: Colour the points of a Behrend set in [n] of size ∼ ne−c√log n red, and the complement blue. One maybe expects this Behrend set to look in certain ways like a random set, in which case there should not be any blue progressions of length longer than ∼ ec√log n or so. However, this expectation is entirely wrong: the complement of any Behrend set in fact contains extremely long progressions, and I was not able to modify the construction (or any other construction) to get around this. I now believe that the answer to this question may be affirmative.\nFor numerical work on the problem, see [5]. Here, the exact value of W(3, r) is obtained for r ⩽ 19, and conjectured values are given for 20 ⩽ r ⩽ 30. It is observed that we do not have W(3, r) ⩽ r2, the first counterexample being r = 24. I am told that in forthcoming work of Aaronson, Even-Zohar, Fox, Peluse, Sauermann, Taczala and S. Walker it will be shown that W(3, r) ≫ r2.\nUpdate 2021. I [140] resolved this question in the negative by proving a lower bound of shape W(3, r) ≫ ec(log r)4/3−o(1). This was subsequently improved to W(3, r) ≫ ec(log r)2−o(1) by Hunter [163], a bound which is plausibly very close to the truth. Note that the work of Kelley and Meka [180] gives a corresponding upper bound W(3, r) ≪ eC(log r)C. It remains an interesting open problem to actually write down a colouring showing (say) W(3, r) ⩾ 2r2 for some r. One might think that simulations of the (probabilistic) approach in [140] or [163] would achieve this, but this does not seem computationally straightforward.",
+    "answer": "Resolved in the negative (Update 2021): Green [140] proved W(3, r) ≫ e^{c (\\log r)^{4/3} - o(1)}, later improved by Hunter [163] to W(3, r) ≫ e^{c (\\log r)^2 - o(1)}."
+  },
+  {
+    "page_number": 9,
+    "problem_number": "15",
+    "problem_text": "Problem 15. Does there exist a Lipschitz function f : N → Z whose graph Γ = {(n, f(n)) : n ∈ Z} ⊂ Z2 is free of 3-term progressions?"
+  },
+  {
+    "page_number": 10,
+    "problem_number": "16",
+    "problem_text": "Problem 16. What is the largest subset of [N] with no solution to x+3y = 2z+2w in distinct integers x, y, z, w?\n\nComments. This question was asked by Ruzsa [239, Section 9]. Writing f(N) for the number in question, so far as I know the best bounds known are N 1/2 ≪ f(N) ≪ Ne−c(log N)1/7, the lower bound being in Ruzsa’s paper and the upper bound being due to Schoen and Sisask [253] (see in particular Section 9 of their paper).\n\nIn a somewhat similar vein, Yufei Zhao (personal communication) asked me whether there is a subset of {1, . . . , N} of size N 1/3−o(1) with no nontrivial solutions to x + 2y + 3z = x′ + 2y′ + 3z′."
+  },
+  {
+    "page_number": 10,
+    "problem_number": "17",
+    "problem_text": "Problem 17. Suppose that A ⊂ Fn\n3 is a set of density α. Under what conditions on α is A guaranteed to contain a 3-term progression with nonzero common difference in {0, 1}n? For fixed α, must A contain ≫ α 6n such progressions?\n\nComments. My thanks go to Vsevelod Lev for reminding me of the first problem. It is known, as a consequence of the density Hales-Jewett Theorem, that if α → 0 sufficiently slowly as n → ∞ then there must be such a progression. However, this may even by true with α = (1−c)n for some c > 0. Regarding the second problem, a recent reference is [154], where it is shown that this is true for sets invariant under the permutation action of Sn on Fn\n3. Other related problems are also considered in"
+  },
+  {
+    "page_number": 11,
+    "problem_number": "18",
+    "problem_text": "Problem 18. Suppose that G is a finite group, and let A ⊂ G × G be a subset of density α. Is it true that there are ≫α |G|3 triples x, y, g such that (x, y), (gx, y), (x, gy) all lie in A?\n\nComments. This problem was raised by Tim Austin: see [13, Question 2]. Austin calls triples of the stated type naïve corners.\n\nAnother type of corner is the configuration {(x, y), (xg, y), (x, gy)}, which Austin calls a BMZ corner (after Bergelson, McCutcheon and Zhang). For these corners, Solymosi [263] has answered the corresponding question.\n\nOne may consider the situation in which G is quasirandom in the sense of Gowers [125], for example G = PSL2(Fp) for large p. It is natural to speculate that any subset of G×G of size |G|2−δ (for some sufficiently small δ > 0) contains a nontrivial corner of both types. Austin [13, Theorem B] proves this for naïve corners, but his bounds for BMZ corners [13, Theorem C] are weaker."
+  },
+  {
+    "page_number": 11,
+    "problem_number": "19",
+    "problem_text": "Problem 19. (Solved) What is C, the infimum of all exponents c for which the following is true, uniformly for 0 < α < 1? Suppose that A ⊂ F^n_2 is a set of density α. Write N := 2^n. Then there is some d such that A contains ≫α^c N^2 corners (x, y), (x, y + d), (x + d, y).\n\nComments. Mandache [201] showed that 3.13 ⩽ C ⩽ 4 (and so in particular C cannot be 3, a fact noted earlier by Qing Chu [63] in the ergodic-theoretic setting). Moreover he showed (essentially) that the problem is equivalent to the following one, which is a pure probability problem: determine the infimum of\n\nE(E(f|X, Y )E(f|Y, Z)E(f|X, Z))\n\nover all f : [0, 1]^3 → [0, 1] (piecewise constant, say) with mean α. Here, X, Y, Z ∼ U[0, 1] are independent random variables.\n\nUpdate 2019. This question has been resolved by Fox, Sah, Sawhney, Stoner, and Zhao [117], showing that C = 4. However, in their paper they mention that the corresponding question for squares (x, y), (x, y + d), (x + d, y), (x + d, y + d) is wide open (and here it is not even clear that C exists).",
+    "answer": "C = 4."
+  },
+  {
+    "page_number": 11,
+    "problem_number": "20",
+    "problem_text": "Problem 20. Find reasonable bounds for instances of the multidimensional Sze-merédi theorem."
+  },
+  {
+    "page_number": 13,
+    "problem_number": "21",
+    "problem_text": "Problem 21. Suppose that a1, . . . , ak are integers which do not satisfy Rado’s\ncondition: thus if ∑_{i∈I} ai = 0 then I = ∅. It then follows from Rado’s theorem\nthat the equation a1x1 + · · · + akxk is not partition regular. Write c(a1, . . . , ak)\nfor the least number of colours required in order to colour N so that there is no\nmonochromatic solution to a1x1 +· · ·+akxk = 0. Is c(a1, . . . , ak) bounded in terms\nof k only?\n\nComments. This problem, which is known as Rado’s boundedness conjecture,\ndates back to 1933 [232]. The answer was shown to be affirmative for k = 3 by\nFox and Kleitman [116], who showed that c(a1, a2, a3) ⩽ 24 (I am not sure this is\nsharp; it might be interesting to determine the sharp constant). It is open for all\nk ⩾ 4. Let me also highlight a question [116, Conjecture 5] of Fox and Kleitman,\nwhich they call a ‘modular analogue’ of Rado’s Boundedness Conjecture. Let p be\na prime, and suppose that a1, . . . , ak are integers with ∑_{i∈I} ai ≡ 0 (mod p) only\nwhen I = ∅. Does there exist an f(k)-colouring of (Z/pZ)∗ with no monochromatic\nsolution to a1x1 + · · · + akxk = 0? This seems to be open even when k = 3; I\nsuspect the answer may be negative.\n\nMilićević [94, Conjecture 11.1] conjectures the following 2-adic variant. For any\nk ∈ N, there exists K = K(k) such that the following is true. Let r be a positive\ninteger, and let a1, . . . , ak ∈ Z/2^r Z. Let d be the largest integer such that ∑_{i∈I} ai ≡\n0 (mod 2^d) for some non-empty subset I ⊂ [k].\nThen there is a K-colouring of\nZ/2^r Z such that all monochromatic solutions x = (x1, . . . , xk) to the equation\na1x1 + · · · + akxk = 0 satisfy xi ≡ 0 (mod 2^{r−d}) for all i = 1, . . . , k. Milićević\nremarks that, if true, this would imply the Rado boundedness conjecture by a\ncompactness argument."
+  },
+  {
+    "page_number": 13,
+    "problem_number": "22",
+    "problem_text": "Problem 22. If {1, . . . , N} is r-coloured then, for N ⩾ N0(r), there are integers\nx, y ⩾ 3 such that x + y, xy have the same colour. Find reasonable bounds for\nN0(r).\n\nComments. The existence of N0(r) was established only recently, in a celebrated\npaper of Moreira [210] (who in fact established that x can also be the same colour).\nThe main proof in [210] gives no bound, since it uses topological dynamics. How-\never, the ‘elementary proof’ given in Section 5 of Moreira’s paper does in principle\ngive a bound, albeit an extremely weak one, not least because the known bounds\nfor van der Waerden’s theorem are so weak.\n\nLet me also mention the famous question of Hindman: if N is finitely coloured,\nare there x, y, x + y, xy all of the same colour? (In fact, Hindman asked whether\nfor any k there are x1, . . . , xk with all sums ∑_{i∈I} xi and all products ∏_{i∈I} xi the\nsame colour for all nonempty I ⊆ [k], with the preceding question being the case\nk = 2.)"
+  },
+  {
+    "page_number": 14,
+    "problem_number": "23",
+    "problem_text": "Problem 23. (Solved) Suppose that N is finitely coloured. Are there x, y of the same colour such that x2 + y2 is a square?\nComments. This is a weaker version of the famous question asking whether x2 + y2 = z2 is partition-regular. (In that problem, z must also be the same colour.)\nUpdate 2023. This problem has now been resolved by Frantzikinakis, Klurman and Moreira [120]. The question of whether x2 + y2 = z2 is partition regular remains wide open."
+  },
+  {
+    "page_number": 14,
+    "problem_number": "24",
+    "problem_text": "Problem 24. If A is a set of n integers, what is the maximum number of affine translates of the set {0, 1, 3} that can A contain?\nComments. This problem was apparently raised by Ganguly. I heard it from Robin Pemantle. It seems likely that the answer is ( 1/3 + o(1))n2, but this is not known. Aaronson’s paper [2] should be consulted for more information."
+  },
+  {
+    "page_number": 14,
+    "problem_number": "25",
+    "problem_text": "Problem 25. For which values of k is the following true: whenever we partition [N] = A1 ∪· · · ∪Ak, |⋃_{i=1}^k (Ai ˆ+ Ai)| ⩾ 1/10 N?\nComments. So far as I know, all that is known is the following: for k ≪ log log N, this is true, whilst for k ≫ N/ log N, it need not be. These results are contained in a 1989 paper of Erdős, Sárközy and Sós [107]. The truth of this statement even for constant k answered a question of Roth from at least 30 or so years earlier.\nRuzsa [241] constructs partitions A1 ∪· · · ∪Ak of an N-element set, k = N/m, for which the union |⋃_{i=1}^k (Ai ˆ+ Ai)| is as small as about Om(N^{1/2}). It ought to be possible to make these into partitions of [N] by a Freiman isomorphism/random covering argument. Ruzsa does not clarify the m-dependence in his article, though this should not be too hard to do if desired."
+  },
+  {
+    "page_number": 14,
+    "problem_number": "26",
+    "problem_text": "Problem 26. Let A1, . . . , A100 be ‘cubes’ in F^n_3, that is to say images of {0, 1}^n under a linear automorphism of F^n_3. Is it true that A1 + · · · + A100 = F^n_3?"
+  },
+  {
+    "page_number": 15,
+    "problem_number": "27",
+    "problem_text": "Problem 27. What is the size of the smallest set A ⊂ Z/pZ (with at least two elements) for which no element in the sumset A + A has a unique representation?\nComments. Both Andrew Granville (personal communication) and Swastik Kop-party (open problems session, Harvard 2017) asked me this question.\nUpdate 2023. Bedert [24] has made significant progress on this question, showing that the answer lies between ω(p) log p (for some function ω(p) tending to ∞ with p) and O(log2 p). This improves previous bounds of c log p and O(√p) respectively."
+  },
+  {
+    "page_number": 15,
+    "problem_number": "28",
+    "problem_text": "Problem 28. Suppose that X, Y are two finitely-supported independent random variables taking integer values, and such that X + Y is uniformly distributed on its range. Are X and Y themselves uniformly distributed on their ranges?\nComments. This attractive question was asked by Emmanuel Amlot on Stackexchange, and then subsequently attracted some attention on Math Overflow [286]. There are certainly many examples of such X and Y, for example X could be uniformly distributed on {n, 2n, 3n, · · · , (n − 1)n} and Y on {0, 1, . . . , n − 1}."
+  },
+  {
+    "page_number": 15,
+    "problem_number": "29",
+    "problem_text": "Problem 29. Suppose that A is a K-approximate group (not necessarily abelian). Is there S ⊂ A, |S| ≫ K−O(1)|A|, with S8 ⊂ A4?\nComments. For the definition of K-approximate group, see for example [136]. Such a conclusion is known with |S| ≫K |A| (but not with a polynomial bound) by an argument of Sanders. See [44, Problem 6.5].\nShachar Lovett once mentioned to me the following vaguely related question: suppose that A ⊂ F2^n is a set of density 1/3. Is there a set B with 4B := B + B + B + B ⊂ A + A, and with 4B having density at least 1/100 in F2^n?"
+  },
+  {
+    "page_number": 15,
+    "problem_number": "30",
+    "problem_text": "Problem 30. Given a set A ⊂ Z with D(A) ⩽ K, find a large structured subset A′ which ‘obviously’ has D(A′) ⩽ K + ε (Here, D(A) := |A − A|/|A|).\nComments. To illustrate what is meant here, let me state a result of Eberhard, Manners and me [88, Section 6]: if |A − A| ⩽ (4 − ε)|A|, then there is a progression P of length ≫ε |A| on which A has density > 1/2. Then A′ := A ∩ P ‘obviously’ has D(A′) ⩽ 4. One can imagine a more general such result. One could also ask for bounds; in the proof of the result just stated for doubling close to 4, the constant in the ≫ε 1 is essentially ineffective."
+  }
+]

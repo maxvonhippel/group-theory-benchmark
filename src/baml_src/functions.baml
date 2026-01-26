@@ -100,9 +100,6 @@ function GenerateGAPCode(query: string) -> GAPCode {
 function ExtractKleeProblems(page_text: string, page_number: int) -> PageProblems {
   client GPT4o
   prompt #"
-    You are an expert at extracting mathematical problems from geometry texts.
-    
-    {{ _.role("user") }}
     Extract all geometry problems from this page of "Unsolved Problems in Intuitive Geometry" by Klee & Wagon.
     
     Page number: {{ page_number }}
@@ -122,7 +119,7 @@ function ExtractKleeProblems(page_text: string, page_number: int) -> PageProblem
       problem_text: "Does every finite set in E^d have a Steiner minimum tree?"
       answer: null
     
-    - problem_number: "K-5" 
+    - problem_number: "K-5"
       problem_text: "Given a finite set S in the plane, does there exist a connected graph G with vertex set S such that (a) G has minimum total edge length among all connected graphs with vertex set S, and (b) G has no cycle?"
       answer: null
     
@@ -137,6 +134,50 @@ function ExtractKleeProblems(page_text: string, page_number: int) -> PageProblem
     - Technical geometric terms (convex hull, Steiner tree, etc.)
     
     Make sure to capture all of these elements in the problem_text.
+    
+    Page text:
+    {{ page_text }}
+  "#
+}
+
+function ExtractGreenProblems(page_text: string, page_number: int) -> PageProblems {
+  client GPT4o
+  prompt #"
+    Extract all problems from this page of "100 Open Problems" by Ben Green.
+    
+    Page number: {{ page_number }}
+    
+    IMPORTANT RULES:
+    1. Look for problems with "Problem N" format where N is a number (e.g., "Problem 1", "Problem 18", "Problem 43")
+    2. Some problems are marked "(Solved)" - include this in the problem_text if present
+    3. Extract the COMPLETE problem statement including all mathematical notation and context
+    4. For problem_number, use just the number (e.g., "1", "18", "43")
+    5. If a page has NO problems (e.g., references, preface), return an empty list
+    6. Include "Comments" or "Update" sections that are part of the problem discussion
+    7. Capture the full problem text until the next "Problem N" appears or the page ends
+    8. Problems may have multiple questions or parts - include everything
+    
+    EXAMPLES OF VALID GREEN PROBLEMS:
+    - problem_number: "1"
+      problem_text: "Problem 1. (Solved) Is there a set A ⊆ {1,...,n} of size |A| = Ω(n) which does not contain three elements in arithmetic progression?..."
+      answer: null
+    
+    - problem_number: "18"
+      problem_text: "Problem 18. Suppose that G is a finite group, and let A ⊂ G × G be a subset of size |A| ≥ δ|G|²..."
+      answer: null
+    
+    - problem_number: "43"
+      problem_text: "Problem 43. Let N be a large integer. For each prime p with N^0.51 ≤ p < 2N^0.51, choose a random residue class ap (mod p)..."
+      answer: null
+    
+    NOTE: These are research-level mathematical problems that may contain:
+    - Advanced mathematical notation and symbols
+    - References to theorems, papers, and mathematicians
+    - Update sections with recent progress
+    - Multiple sub-questions or variants
+    - Technical definitions and background
+    
+    Make sure to capture the full context and all mathematical details.
     
     Page text:
     {{ page_text }}

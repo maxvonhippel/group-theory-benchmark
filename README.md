@@ -49,6 +49,7 @@ Problems are drawn from multiple sources:
 
 - **[Kourovka Notebook](https://kourovka-notebook.org/)**: A collection of unsolved problems in group theory
 - **[Unsolved Problems in Intuitive Geometry](https://sites.math.washington.edu//~reu/papers/2010/mark/Unsolved_Problems_In_Intuitive_Geometry.pdf)** by Klee & Wagon: Open problems in computational and combinatorial geometry
+- **[100 Open Problems](https://arxiv.org/abs/2404.07513)** by Ben Green: Research-level problems in additive combinatorics and number theory
 
 ## Citation
 
@@ -67,4 +68,4 @@ If you use this benchmark in your research, please cite:
 
 For citations to the source problem collections, see [references.bib](references.bib).
 
-*Last updated: 2026-01-26 18:12:14 UTC*
+*Last updated: 2026-01-26 18:21:39 UTC*

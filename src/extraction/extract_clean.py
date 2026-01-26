@@ -33,6 +33,8 @@ async def extract_problems_from_page(pdf_path: str, page_num: int, list_format: 
         result = await b.ExtractKleeProblems(page_text=page_text, page_number=page_num + 1)
     elif list_format == "green":
         result = await b.ExtractGreenProblems(page_text=page_text, page_number=page_num + 1)
+    elif list_format == "ramm":
+        result = await b.ExtractRammProblems(page_text=page_text, page_number=page_num + 1)
     else:  # default to kourovka
         result = await b.ExtractKourovkaProblems(page_text=page_text, page_number=page_num + 1)
     
@@ -58,7 +60,7 @@ async def main():
     parser.add_argument("start_page", type=int, nargs="?", default=1, help="Start page (1-indexed, default: 1)")
     parser.add_argument("end_page", type=int, nargs="?", help="End page (1-indexed, default: last page)")
     parser.add_argument("--list", dest="list_format", default="kourovka", 
-                       choices=["kourovka", "klee", "green"],
+                       choices=["kourovka", "klee", "green", "ramm"],
                        help="Problem list format (default: kourovka)")
     args = parser.parse_args()
     

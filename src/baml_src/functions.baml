@@ -181,8 +181,48 @@ function ExtractGreenProblems(page_text: string, page_number: int) -> PageProble
     
     Page text:
     {{ page_text }}
+  "#
+}
+
+function ExtractRammProblems(page_text: string, page_number: int) -> PageProblems {
+  client GPT4o
+  prompt #"
+    Extract all problems from this page of "Some open problems in analysis" by A.G. Ramm.
     
-    {{ ctx.output_format }}
+    Page number: {{ page_number }}
+    
+    IMPORTANT RULES:
+    1. Look for problems with "Problem N:" format where N can be a number or decimal (e.g., "Problem 1:", "Problem 3.1:", "Problem 3.2:")
+    2. Extract the COMPLETE problem statement including all mathematical notation and context
+    3. For problem_number, use the exact identifier (e.g., "1", "3.1", "3.2", "4")
+    4. If a page has NO problems (e.g., title, abstract), return an empty list
+    5. Include any explanatory text and mathematical notation that's part of the problem
+    6. Capture everything from "Problem N:" until the next section or problem starts
+    7. Problems span multiple paragraphs - capture all related content
+    
+    EXAMPLES OF VALID RAMM PROBLEMS:
+    - problem_number: "1"
+      problem_text: "Problem 1: Does it follow from the assumptions (2)-(4) that f = 0? Consider the Radon transform..."
+      answer: null
+    
+    - problem_number: "3.1"
+      problem_text: "Problem 3.1: Is it true that T is not a finite-rank operator? Let L and M be elliptic operators..."
+      answer: null
+    
+    - problem_number: "4"
+      problem_text: "Problem 4: Do (8)-(10) imply that [s, Ns] = 0..."
+      answer: null
+    
+    NOTE: These are analysis problems that contain:
+    - Advanced mathematical notation (integrals, operators, transforms)
+    - References to equations by number (e.g., "(2)-(4)")
+    - Technical definitions from earlier in the paper
+    - Multiple related questions or clarifications
+    
+    Make sure to capture all mathematical context and notation.
+    
+    Page text:
+    {{ page_text }}
   "#
 }
 

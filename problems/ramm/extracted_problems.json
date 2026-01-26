@@ -1,0 +1,27 @@
+[
+  {
+    "page_number": 1,
+    "problem_number": "1",
+    "problem_text": "Problem 1: Does it follow from the assumptions (2)-(4) that f = 0?"
+  },
+  {
+    "page_number": 2,
+    "problem_number": "2",
+    "problem_text": "Problem 2: Does (5) imply\nu = v = 0 in D?\n(6)\n\nLet L and M be elliptic, second order, selfadjoint, strictly positive Dirichlet operators\nin a bounded domain D ⊂ R^n, n > 1, with a smooth connected boundary S, and the\ncoefficients of L and M be real-valued functions, so that all the functions below are\nreal-valued. Let a(x) and b(x) be strictly positive functions, smooth in the closure of D.\nLet\n\nLu + a(x)v = 0 in D,\n−b(x)u + Mv = 0 in D,\nu = v = 0 on S,\n(5)\n\nIt is of no interest to give sufficient conditions for (6) to hold, such as, e.g., |b − a| is\nsmall, or L = M, or some other conditions.\nWhat is of interest is to answer the question as stated, without any additional as-\nsumptions, by either proving (6) or constructing a counterexample.\nIn the one-dimensional case the answer to the question (6) is yes (see [2])."
+  },
+  {
+    "page_number": 3,
+    "problem_number": "3.1",
+    "problem_text": "Problem 3.1: Is it true that T is not a ﬁnite-rank operator?\nIn other words, is it true that the dimension of the range of T is inﬁnite?\nRemark: The assumption that f(x) is in L2(D) is important: if, for example, f(x)\nis a delta-function, then the answer to the question of Problem 3.1 is no: the dimension\nof the range of T in this case is equal to 1 if the delta-function is supported at one point."
+  },
+  {
+    "page_number": 3,
+    "problem_number": "3.2",
+    "problem_text": "Problem 3.2: Can one choose pm ∈L2 such that the above set S of M functions is\nlinearly independent?\nIn other words, can one choose pm ∈L2, m = 1, 2, . . . , M, such that the relation:\n\nM\nX\nm=1\ncmF(z + pm) = 0\n∀z ∈L1\n(7)\n\nimplies cm = 0 for all m = 1, 2, . . . , M? Here cm are constants.\nThese questions arise in the study of Property C (see [4], p. 298)."
+  },
+  {
+    "page_number": 4,
+    "problem_number": "4",
+    "problem_text": "Problem 4: Do (8)-(10) imply that [s, Ns] = 0\n∀s ∈S?\nConjecture: Assumptions (8) and (10) imply\n[s, Ns] = 0\n∀s ∈S.\n(11)\nIt is pointed out in [4], p. 416, that if (11) holds, then S is a sphere.\nA proof of the above Conjecture implies a positive solution to the Pompeiu problem:\nsee [4], Chapter 11, and [5], [6]."
+  }
+]

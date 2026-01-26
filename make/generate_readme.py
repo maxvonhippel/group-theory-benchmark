@@ -313,7 +313,9 @@ def generate_readme(list_name: Optional[str] = None) -> str:
     readme += "- **[Unsolved Problems in Intuitive Geometry](https://sites.math.washington.edu//~reu/papers/2010/mark/Unsolved_Problems_In_Intuitive_Geometry.pdf)** by Klee & Wagon: "
     readme += "Open problems in computational and combinatorial geometry\n"
     readme += "- **[100 Open Problems](https://arxiv.org/abs/2404.07513)** by Ben Green: "
-    readme += "Research-level problems in additive combinatorics and number theory\n\n"
+    readme += "Research-level problems in additive combinatorics and number theory\n"
+    readme += "- **Some open problems in analysis** by A.G. Ramm: "
+    readme += "Open problems in Radon transforms, operator theory, and PDEs\n\n"
     
     # Add citation section
     readme += "## Citation\n\n"

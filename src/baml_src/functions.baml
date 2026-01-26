@@ -95,6 +95,56 @@ function GenerateGAPCode(query: string) -> GAPCode {
   "#
 }
 
+// Function to extract geometry problems from Klee & Wagon
+
+function ExtractKleeProblems(page_text: string, page_number: int) -> PageProblems {
+  client GPT4o
+  prompt #"
+    You are an expert at extracting mathematical problems from geometry texts.
+    
+    {{ _.role("user") }}
+    Extract all geometry problems from this page of "Unsolved Problems in Intuitive Geometry" by Klee & Wagon.
+    
+    Page number: {{ page_number }}
+    
+    IMPORTANT RULES:
+    1. Look for problems with K-prefix numbering (e.g., "K-1", "K-2", "K-23", etc.)
+    2. Problems may span multiple paragraphs with mathematical notation
+    3. Extract the COMPLETE problem statement including all parts (a), (b), etc.
+    4. For problem_number, use the exact K-identifier (e.g., "K-1", "K-23")
+    5. If a page has NO problems (e.g., title page, contents, preface), return an empty list
+    6. Include any diagrams descriptions, definitions, or context that are part of the problem
+    7. Capture everything until the next problem starts or the page ends
+    8. Some problems have multiple parts - include all parts in problem_text
+    
+    EXAMPLES OF VALID KLEE PROBLEMS:
+    - problem_number: "K-1"
+      problem_text: "Does every finite set in E^d have a Steiner minimum tree?"
+      answer: null
+    
+    - problem_number: "K-5" 
+      problem_text: "Given a finite set S in the plane, does there exist a connected graph G with vertex set S such that (a) G has minimum total edge length among all connected graphs with vertex set S, and (b) G has no cycle?"
+      answer: null
+    
+    - problem_number: "K-12"
+      problem_text: "Let P be a convex polygon in the plane. Can P always be partitioned into a minimum number of convex parts using only cuts along diagonals of P?"
+      answer: null
+    
+    NOTE: Geometry problems often contain:
+    - Set notation (E^d for d-dimensional Euclidean space)
+    - Multiple parts labeled (a), (b), (c)
+    - References to figures or diagrams
+    - Technical geometric terms (convex hull, Steiner tree, etc.)
+    
+    Make sure to capture all of these elements in the problem_text.
+    
+    Page text:
+    {{ page_text }}
+    
+    {{ ctx.output_format }}
+  "#
+}
+
 function FixGAPCode(
   original_code: string,
   error_message: string,
@@ -150,9 +200,9 @@ function FixGAPCode(
   "#
 }
 
-// Function to extract math problems from a PDF page
+// Function to extract math problems from Kourovka Notebook
 
-function ExtractProblems(page_text: string, page_number: int) -> PageProblems {
+function ExtractKourovkaProblems(page_text: string, page_number: int) -> PageProblems {
   client GPT4o
   prompt #"
     You are an expert at extracting mathematical problems from academic texts.

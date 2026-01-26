@@ -1,9 +1,11 @@
-#!/usr/bin/env python3
-"""PDF problem extractor that writes clean JSON to a file."""
+"""PDF problem extractor that writes clean JSON to a file.
+Supports multiple problem list formats (Kourovka, Klee geometry, etc.)
+"""
 import sys
 import json
 import asyncio
 import os
+import argparse
 from pathlib import Path
 import pymupdf
 
@@ -22,12 +24,15 @@ def extract_page_text(pdf_path: str, page_num: int) -> str:
     return text
 
 
-async def extract_problems_from_page(pdf_path: str, page_num: int) -> list[dict]:
-    """Extract all math problems from a specific page."""
+async def extract_problems_from_page(pdf_path: str, page_num: int, list_format: str = "kourovka") -> list[dict]:
+    """Extract all math problems from a specific page using the appropriate format."""
     page_text = extract_page_text(pdf_path, page_num)
     
-    # Use BAML to extract problems
-    result = await b.ExtractProblems(page_text=page_text, page_number=page_num + 1)
+    # Use BAML to extract problems based on format
+    if list_format == "klee":
+        result = await b.ExtractKleeProblems(page_text=page_text, page_number=page_num + 1)
+    else:  # default to kourovka
+        result = await b.ExtractKourovkaProblems(page_text=page_text, page_number=page_num + 1)
     
     # Convert to list of dicts with page number added
     problems = []
@@ -45,12 +50,19 @@ async def extract_problems_from_page(pdf_path: str, page_num: int) -> list[dict]
 
 
 async def main():
-    if len(sys.argv) < 3:
-        print("Usage: uv run src/extract_clean.py <pdf_path> <output_json> [start_page] [end_page]", file=sys.stderr)
-        sys.exit(1)
+    parser = argparse.ArgumentParser(description="Extract problems from PDF")
+    parser.add_argument("pdf_path", help="Path to PDF file")
+    parser.add_argument("output_json", help="Path to output JSON file")
+    parser.add_argument("start_page", type=int, nargs="?", default=1, help="Start page (1-indexed, default: 1)")
+    parser.add_argument("end_page", type=int, nargs="?", help="End page (1-indexed, default: last page)")
+    parser.add_argument("--list", dest="list_format", default="kourovka", 
+                       choices=["kourovka", "klee"],
+                       help="Problem list format (default: kourovka)")
+    args = parser.parse_args()
     
-    pdf_path = sys.argv[1]
-    output_path = sys.argv[2]
+    pdf_path = args.pdf_path
+    output_path = args.output_json
+    list_format = args.list_format
     
     # Open PDF to get page count
     doc = pymupdf.open(pdf_path)
@@ -58,10 +70,10 @@ async def main():
     doc.close()
     
     # Parse start and end pages (0-indexed internally, 1-indexed for user)
-    start_page = int(sys.argv[3]) - 1 if len(sys.argv) > 3 else 0
-    end_page = int(sys.argv[4]) - 1 if len(sys.argv) > 4 else total_pages - 1
+    start_page = args.start_page - 1
+    end_page = (args.end_page - 1) if args.end_page else (total_pages - 1)
     
-    print(f"Extracting problems from pages {start_page + 1} to {end_page + 1} of {total_pages}", file=sys.stderr)
+    print(f"Extracting {list_format} problems from pages {start_page + 1} to {end_page + 1} of {total_pages}", file=sys.stderr)
     
     # Process pages in parallel batches to avoid overwhelming the API
     batch_size = 20  # Process 20 pages at a time
@@ -72,7 +84,7 @@ async def main():
         print(f"Processing pages {batch_start + 1}-{batch_end}...", file=sys.stderr)
         
         # Process this batch in parallel
-        tasks = [extract_problems_from_page(pdf_path, page_num) 
+        tasks = [extract_problems_from_page(pdf_path, page_num, list_format) 
                  for page_num in range(batch_start, batch_end)]
         batch_results = await asyncio.gather(*tasks)
         
@@ -82,8 +94,10 @@ async def main():
         
         print(f"  Completed batch. Total problems so far: {len(all_problems)}", file=sys.stderr)
     
-    # Write JSON directly to file
-    with open(output_path, 'w') as f:
+    # Write JSON directly to file (ensure parent directory exists)
+    output_file = Path(output_path)
+    output_file.parent.mkdir(parents=True, exist_ok=True)
+    with open(output_file, 'w') as f:
         json.dump(all_problems, f, indent=2, ensure_ascii=False)
     
     print(f"\nExtraction complete: {len(all_problems)} problems written to {output_path}", file=sys.stderr)

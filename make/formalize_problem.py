@@ -6,19 +6,19 @@ import subprocess
 import tempfile
 from pathlib import Path
 
-def load_problems():
-    """Load all problems from JSON."""
-    problems_file = Path("problems/all_problems.json")
+def load_problems(list_name="kourovka"):
+    """Load all problems from JSON for a specific problem list."""
+    problems_file = Path(f"problems/{list_name}/all_problems.json")
     if not problems_file.exists():
-        print("Error: problems/all_problems.json not found")
+        print(f"Error: problems/{list_name}/all_problems.json not found")
         sys.exit(1)
     
     with open(problems_file) as f:
         return json.load(f)
 
-def save_problems(problems):
-    """Save problems back to JSON."""
-    problems_file = Path("problems/all_problems.json")
+def save_problems(problems, list_name="kourovka"):
+    """Save problems back to JSON for a specific problem list."""
+    problems_file = Path(f"problems/{list_name}/all_problems.json")
     with open(problems_file, 'w') as f:
         json.dump(problems, f, indent=2)
 
@@ -170,21 +170,25 @@ def run_claude_formalization(prompt):
         print("\nFormalization interrupted by user")
         return False
 
-def get_problem_dir(problem_num):
-    """Get problem directory path for a given problem number."""
-    # Directory now uses Kourovka number directly: problem_1.3, problem_19.110, etc.
-    return Path(f"problems/problem_{problem_num}")
+def get_problem_dir(problem_num, list_name="kourovka"):
+    """Get problem directory path for a given problem number in a specific list."""
+    # Directory uses problem number directly: problem_1.3, problem_K-5, etc.
+    return Path(f"problems/{list_name}/problem_{problem_num}")
 
 
 def main():
-    if len(sys.argv) != 2:
-        print("Usage: python make/formalize_problem.py PROBLEM_NUM")
-        sys.exit(1)
+    import argparse
+    parser = argparse.ArgumentParser(description="Formalize a problem using Claude")
+    parser.add_argument("problem_num", help="Problem number to formalize")
+    parser.add_argument("--list", dest="list_name", default="kourovka", 
+                       help="Problem list name (default: kourovka)")
+    args = parser.parse_args()
     
-    problem_num = sys.argv[1]
+    problem_num = args.problem_num
+    list_name = args.list_name
     
     # Load problems
-    problems = load_problems()
+    problems = load_problems(list_name)
     problem = find_problem(problems, problem_num)
     
     if not problem:
@@ -192,9 +196,9 @@ def main():
         sys.exit(1)
     
     # Get problem directory
-    problem_dir = get_problem_dir(problem_num)
+    problem_dir = get_problem_dir(problem_num, list_name)
     if not problem_dir:
-        print(f"Error: Could not determine directory for problem #{problem_num}")
+        print(f"Error: Could not determine directory for problem #{problem_num} in list '{list_name}'")
         sys.exit(1)
     
     # Create problem directory if it doesn't exist
@@ -248,7 +252,7 @@ def main():
         # Update JSON to mark as unformalizable
         problem['formalization_status'] = 'cannot_formalize'
         problem['formalization_reason'] = reason
-        save_problems(problems)
+        save_problems(problems, list_name)
         
         sys.exit(0)  # Not an error - just can't be formalized
     
@@ -276,7 +280,7 @@ def main():
     
     # Update JSON to mark as successfully formalized
     problem['formalization_status'] = 'formalized'
-    save_problems(problems)
+    save_problems(problems, list_name)
     
     print("\n" + "=" * 60)
     print(f"SUCCESS: Problem #{problem_num} formalized")

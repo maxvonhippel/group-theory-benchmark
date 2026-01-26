@@ -3,6 +3,11 @@
 # Update README.md with solution tracking
 .PHONY: readme
 readme:
-	@echo "Generating README.md with solution tracking..."
-	@uv run python make/generate_readme.py
-	@echo "README.md has been updated"
+	@echo "Generating README.md..."
+	@LIST=$${LIST:-}; \
+	if [ -n "$$LIST" ]; then \
+		uv run python make/generate_readme.py --list $$LIST; \
+	else \
+		uv run python make/generate_readme.py; \
+	fi
+	@echo "README.md updated"

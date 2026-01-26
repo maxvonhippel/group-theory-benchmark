@@ -5,20 +5,20 @@ import sys
 from pathlib import Path
 
 def main():
-    if len(sys.argv) != 2:
-        print("Usage: python find_unformalized.py N", file=sys.stderr)
-        sys.exit(1)
+    import argparse
+    parser = argparse.ArgumentParser(description="Find unformalized problems")
+    parser.add_argument("n", type=int, help="Number of problems to find")
+    parser.add_argument("--list", dest="list_name", default="kourovka",
+                       help="Problem list name (default: kourovka)")
+    args = parser.parse_args()
     
-    try:
-        n = int(sys.argv[1])
-    except ValueError:
-        print(f"Error: N must be an integer, got '{sys.argv[1]}'", file=sys.stderr)
-        sys.exit(1)
+    n = args.n
+    list_name = args.list_name
     
     # Load problems
-    problems_file = Path("problems/all_problems.json")
+    problems_file = Path(f"problems/{list_name}/all_problems.json")
     if not problems_file.exists():
-        print("Error: problems/all_problems.json not found", file=sys.stderr)
+        print(f"Error: problems/{list_name}/all_problems.json not found", file=sys.stderr)
         sys.exit(1)
     
     with open(problems_file) as f:
@@ -31,8 +31,8 @@ def main():
         if not problem_num:
             continue
         
-        # Directory uses Kourovka number: problem_1.3, problem_19.110, etc.
-        problem_dir = Path(f"problems/problem_{problem_num}")
+        # Directory uses problem number: problem_1.3, problem_K-5, etc.
+        problem_dir = Path(f"problems/{list_name}/problem_{problem_num}")
         
         if not problem_dir.exists():
             continue

@@ -1,9 +1,8 @@
-#!/usr/bin/env python3
 """
 Generate README.md with automated solution tracking table.
 """
 from pathlib import Path
-from typing import Any
+from typing import Any, Optional
 
 
 # Status values for notes.txt STATUS field
@@ -16,7 +15,7 @@ STATUS_COULD_NOT_FORMALIZE = "COULD_NOT_FORMALIZE"
 
 def parse_notes_file(notes_path: Path) -> dict[str, Any]:
     """Parse notes.txt file for metadata."""
-    info: dict[str, str | None] = {
+    info: dict[str, Optional[str]] = {
         'status': None,
         'category': None,
         'reference': None,
@@ -40,107 +39,125 @@ def parse_notes_file(notes_path: Path) -> dict[str, Any]:
     return info
 
 
-def scan_problem_solutions() -> list[dict[str, Any]]:
-    """Scan problems/ directory for solution artifacts."""
-    problems_dir = Path(__file__).parent.parent / "problems"
+def scan_problem_solutions(list_name: Optional[str] = None) -> list[dict[str, Any]]:
+    """Scan problems/ directory for solution artifacts.
+    
+    Args:
+        list_name: Specific problem list to scan (e.g., 'kourovka', 'klee'), or None for all lists
+    """
+    import json
+    problems_base_dir = Path(__file__).parent.parent / "problems"
     solutions: list[dict[str, Any]] = []
 
-    # Get all problem directories
-    if not problems_dir.exists():
+    if not problems_base_dir.exists():
         return solutions
     
-    # Load all_problems.json to get formalization_status
-    import json
-    all_problems_file = problems_dir / "all_problems.json"
-    formalization_status_map = {}
-    if all_problems_file.exists():
-        try:
-            with open(all_problems_file) as f:
-                all_problems = json.load(f)
-                for problem in all_problems:
-                    problem_num = str(problem.get('problem_number'))
-                    formalization_status_map[problem_num] = {
-                        'status': problem.get('formalization_status'),
-                        'reason': problem.get('formalization_reason')
-                    }
-        except Exception as e:
-            print(f"Warning: Could not load formalization status: {e}", file=sys.stderr)
-
-    for problem_dir in sorted(problems_dir.iterdir()):
-        if not problem_dir.is_dir() or problem_dir.name == "all_problems.json":
+    # Determine which lists to scan
+    if list_name:
+        list_dirs = [problems_base_dir / list_name]
+    else:
+        # Scan all subdirectories (each is a problem list)
+        list_dirs = [d for d in problems_base_dir.iterdir() if d.is_dir()]
+    
+    for list_dir in sorted(list_dirs):
+        if not list_dir.exists():
             continue
-
-        # All directories now consistently use problem_X.Y format (e.g., problem_1.3, problem_19.110)
-        problem_num = problem_dir.name.replace('problem_', '')
+            
+        current_list_name = list_dir.name
         
-        solution_info = {
-            'number': problem_num,
-            'disproof': None,
-            'proof': None,
-            'formalization': None,
-            'attempt_summary': None,
-            'review': None,
-            'notes': None,
-            'status': None,
-            'reference': None,
-            'formalization_status': None,
-            'formalization_reason': None
-        }
+        # Load all_problems.json to get formalization_status
+        all_problems_file = list_dir / "all_problems.json"
+        formalization_status_map = {}
+        if all_problems_file.exists():
+            try:
+                with open(all_problems_file) as f:
+                    all_problems = json.load(f)
+                    for problem in all_problems:
+                        problem_num = str(problem.get('problem_number'))
+                        formalization_status_map[problem_num] = {
+                            'status': problem.get('formalization_status'),
+                            'reason': problem.get('formalization_reason')
+                        }
+            except Exception as e:
+                import sys
+                print(f"Warning: Could not load formalization status for {current_list_name}: {e}", file=sys.stderr)
 
-        # Check for solution artifacts
-        disproof_file = problem_dir / "disproof.py"
-        proof_file = problem_dir / "proof.lean"
-        formalization_file = problem_dir / "formalization.lean"
-        problem_lean_file = problem_dir / "problem.lean"
-        cannot_formalize_file = problem_dir / "cannot_formalize.txt"
-        attempt_summary_file = problem_dir / "formalization_attempt_summary.txt"
-        review_file = problem_dir / "review.txt"
-        notes_file = problem_dir / "notes.txt"
+        for problem_dir in sorted(list_dir.iterdir()):
+            if not problem_dir.is_dir() or problem_dir.name == "all_problems.json":
+                continue
 
-        if disproof_file.exists():
-            solution_info['disproof'] = 'disproof.py'
-        if proof_file.exists():
-            solution_info['proof'] = 'proof.lean'
-        if formalization_file.exists() or problem_lean_file.exists():
-            # Accept either formalization.lean or problem.lean
-            solution_info['formalization'] = 'formalization.lean' if formalization_file.exists() else 'problem.lean'
-        # Prefer cannot_formalize.txt (new format) over formalization_attempt_summary.txt (legacy)
-        if cannot_formalize_file.exists():
-            solution_info['formalization_status'] = 'cannot_formalize'
-            solution_info['formalization_reason'] = cannot_formalize_file.read_text().strip()
-            solution_info['artifact'] = 'cannot_formalize.txt'
-        elif attempt_summary_file.exists():
-            solution_info['formalization_status'] = 'cannot_formalize'
-            solution_info['artifact'] = 'formalization_attempt_summary.txt'
-        
-        # Get formalization status from JSON
-        if problem_num in formalization_status_map:
-            json_status = formalization_status_map[problem_num]
-            if json_status['status']:
-                solution_info['formalization_status'] = json_status['status']
-            if json_status['reason']:
-                solution_info['formalization_reason'] = json_status['reason']
+            # All directories now consistently use problem_X.Y format (e.g., problem_1.3, problem_K-5)
+            problem_num = problem_dir.name.replace('problem_', '')
+            
+            solution_info = {
+                'number': problem_num,
+                'list': current_list_name,
+                'disproof': None,
+                'proof': None,
+                'formalization': None,
+                'attempt_summary': None,
+                'review': None,
+                'notes': None,
+                'status': None,
+                'reference': None,
+                'formalization_status': None,
+                'formalization_reason': None
+            }
 
-        # Parse notes.txt for metadata
-        if notes_file.exists():
-            solution_info['notes'] = 'notes.txt'
-            notes_info = parse_notes_file(notes_file)
-            solution_info['status'] = notes_info.get('status')
-            solution_info['reference'] = notes_info.get('reference')
+            # Check for solution artifacts
+            disproof_file = problem_dir / "disproof.py"
+            proof_file = problem_dir / "proof.lean"
+            formalization_file = problem_dir / "formalization.lean"
+            problem_lean_file = problem_dir / "problem.lean"
+            cannot_formalize_file = problem_dir / "cannot_formalize.txt"
+            attempt_summary_file = problem_dir / "formalization_attempt_summary.txt"
+            review_file = problem_dir / "review.txt"
+            notes_file = problem_dir / "notes.txt"
 
-        # Check for human review
-        if review_file.exists():
-            review_text = review_file.read_text().strip()
-            if len(review_text) > 10:
-                solution_info['review'] = review_text[:10].strip() + "..."
-            else:
-                solution_info['review'] = review_text
+            if disproof_file.exists():
+                solution_info['disproof'] = 'disproof.py'
+            if proof_file.exists():
+                solution_info['proof'] = 'proof.lean'
+            if formalization_file.exists() or problem_lean_file.exists():
+                # Accept either formalization.lean or problem.lean
+                solution_info['formalization'] = 'formalization.lean' if formalization_file.exists() else 'problem.lean'
+            # Prefer cannot_formalize.txt (new format) over formalization_attempt_summary.txt (legacy)
+            if cannot_formalize_file.exists():
+                solution_info['formalization_status'] = 'cannot_formalize'
+                solution_info['formalization_reason'] = cannot_formalize_file.read_text().strip()
+                solution_info['artifact'] = 'cannot_formalize.txt'
+            elif attempt_summary_file.exists():
+                solution_info['formalization_status'] = 'cannot_formalize'
+                solution_info['artifact'] = 'formalization_attempt_summary.txt'
+            
+            # Get formalization status from JSON
+            if problem_num in formalization_status_map:
+                json_status = formalization_status_map[problem_num]
+                if json_status['status']:
+                    solution_info['formalization_status'] = json_status['status']
+                if json_status['reason']:
+                    solution_info['formalization_reason'] = json_status['reason']
 
-        # Only include if there's at least one artifact
-        if any([solution_info['disproof'], solution_info['proof'],
-                solution_info['formalization'], solution_info['attempt_summary'],
-                solution_info['formalization_status']]):
-            solutions.append(solution_info)
+            # Parse notes.txt for metadata
+            if notes_file.exists():
+                solution_info['notes'] = 'notes.txt'
+                notes_info = parse_notes_file(notes_file)
+                solution_info['status'] = notes_info.get('status')
+                solution_info['reference'] = notes_info.get('reference')
+
+            # Check for human review
+            if review_file.exists():
+                review_text = review_file.read_text().strip()
+                if len(review_text) > 10:
+                    solution_info['review'] = review_text[:10].strip() + "..."
+                else:
+                    solution_info['review'] = review_text
+
+            # Only include if there's at least one artifact
+            if any([solution_info['disproof'], solution_info['proof'],
+                    solution_info['formalization'], solution_info['attempt_summary'],
+                    solution_info['formalization_status']]):
+                solutions.append(solution_info)
 
     return solutions
 
@@ -179,7 +196,7 @@ def get_status_display(sol: dict[str, Any]) -> str:
         return "Unknown"
 
 
-def generate_solution_table(solutions: list[dict[str, Any]]) -> str:
+def generate_solution_table(solutions: list[dict[str, Any]], show_list_column: bool = True) -> str:
     """Generate markdown table for solutions."""
     if not solutions:
         return ""
@@ -189,8 +206,12 @@ def generate_solution_table(solutions: list[dict[str, Any]]) -> str:
     table += "[No AI-generated proof should be trusted without human review, no matter how formal.]"
     table += "(https://www.lesswrong.com/posts/rhAPh3YzhPoBNpgHg/lies-damned-lies-and-proofs-formal-methods-are-not-slopless)\n\n"
 
-    table += "| Problem | Artifact | Status | Human Review |\n"
-    table += "|---------|----------|--------|-------------|\n"
+    if show_list_column:
+        table += "| Problem | List | Artifact | Status | Human Review |\n"
+        table += "|---------|------|----------|--------|-------------|\n"
+    else:
+        table += "| Problem | Artifact | Status | Human Review |\n"
+        table += "|---------|----------|--------|-------------|\n"
 
     for sol in solutions:
         # Determine artifact type (prefer new 'artifact' field over legacy fields)
@@ -214,13 +235,21 @@ def generate_solution_table(solutions: list[dict[str, Any]]) -> str:
         else:
             review = "Pending"
 
-        table += f"| {sol['number']} | {artifact} | {status} | {review} |\n"
+        if show_list_column:
+            list_name = sol.get('list', 'unknown')
+            table += f"| {sol['number']} | {list_name} | {artifact} | {status} | {review} |\n"
+        else:
+            table += f"| {sol['number']} | {artifact} | {status} | {review} |\n"
 
     return table
 
 
-def generate_readme() -> str:
-    """Generate complete README.md content."""
+def generate_readme(list_name: Optional[str] = None) -> str:
+    """Generate complete README.md content.
+    
+    Args:
+        list_name: Specific problem list to include, or None for all lists
+    """
     
     # Read existing README sections (if any) - for now, start fresh
     readme = "# 🔮 BuddenBench: a Benchmark of Open Nontrivial Group Theory Problems\n\n"
@@ -244,9 +273,11 @@ def generate_readme() -> str:
     readme += "formalizing and verifying mathematical proofs\n\n"
     
     # Add solution table
-    solutions = scan_problem_solutions()
+    solutions = scan_problem_solutions(list_name)
     if solutions:
-        readme += generate_solution_table(solutions)
+        # Show list column if scanning all lists
+        show_list_column = (list_name is None)
+        readme += generate_solution_table(solutions, show_list_column)
         readme += "\n"
     
     readme += "## Setup\n\n"
@@ -270,7 +301,13 @@ def generate_readme() -> str:
 
 def main() -> None:
     """Generate and write README.md."""
-    readme_content = generate_readme()
+    import argparse
+    parser = argparse.ArgumentParser(description="Generate README.md")
+    parser.add_argument("--list", dest="list_name", default=None,
+                       help="Problem list name (default: all lists)")
+    args = parser.parse_args()
+    
+    readme_content = generate_readme(args.list_name)
     
     project_root = Path(__file__).parent.parent
     readme_path = project_root / "README.md"

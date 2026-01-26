@@ -38,7 +38,9 @@
   {
     "page_number": 5,
     "problem_number": "1.28",
-    "problem_text": "Describe the universal theory of a free nilpotent group. M. I. Kargapolov"
+    "problem_text": "Describe the universal theory of a free nilpotent group. M. I. Kargapolov",
+    "formalization_status": "cannot_formalize",
+    "formalization_reason": "This problem asks to \"describe\" the universal theory of a free nilpotent group, which is an open-end..."
   },
   {
     "page_number": 5,

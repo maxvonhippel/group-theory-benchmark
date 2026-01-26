@@ -1,0 +1,7 @@
+{
+  "page_number": 7,
+  "problem_number": "K-2",
+  "problem_text": "Line Segments in the Boundary of a Convex Body\n\nPROBLEM:\nIs there a convex body C in E^n such that every direction in E^n is realized by some line segment in the boundary of C?\n\nLet S denote the unit sphere {x \u2208 E^n : ||x|| = 1}, and let D_C be the set of all s \u2208 S for which the segment [0, s] is parallel to some segment in the boundary of C. Then D_C is an F\u03c3 set in S. When n = 2, D_C is countable. It seems \u201cintuitively obvious\u201d that for arbitrary n, D_C must be of the \ufb01rst category in S, and the (n \u2212 1)-dimensional measure of D_C is equal to zero. For n = 3, this has been proved by McMinn [1].",
+  "answer": null,
+  "list": "klee"
+}

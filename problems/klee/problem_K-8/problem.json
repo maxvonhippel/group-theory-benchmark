@@ -1,0 +1,7 @@
+{
+  "page_number": 22,
+  "problem_number": "K-8",
+  "problem_text": "For each pair of integers n \u2265 2 and r \u2265 3, determine the smallest integer k(= h\u2032(n, r)) such that in each set of k points in general position^1 in E^n there is an r-pointed set X having each of its points as an extreme point of its convex hull (equivalently, no point of X is in the convex hull of the remaining points of X).",
+  "answer": null,
+  "list": "klee"
+}

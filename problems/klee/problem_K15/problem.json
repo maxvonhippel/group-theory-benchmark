@@ -1,0 +1,7 @@
+{
+  "page_number": 48,
+  "problem_number": "K15",
+  "problem_text": "K15\nSections of Concentric Convex Bodies\n\nPROBLEM:\nSuppose K\u2032 and K are n-dimensional convex bodies with a common center of symmetry p. Suppose further that for each hyperplane H through p, the (n \u2212 1)-dimensional area of the section K\u2032 \u2229 H is less than or equal to that of the section K \u2229 H. Must the n-dimensional volume of K\u2032 be less than or equal to that of K?",
+  "answer": null,
+  "list": "klee"
+}

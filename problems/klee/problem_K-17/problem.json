@@ -1,0 +1,7 @@
+{
+  "page_number": 52,
+  "problem_number": "K-17",
+  "problem_text": "Inscribed Squares\n\nPROBLEM:\nMust a Jordan curve contain the vertices of a square?\n\nA Jordan curve is a plane set which is a continuous biunique image of the circle. That is, a subset J of E^2 is a Jordan curve provided there exist continuous real functions x and y on [0, 1] such that: i) J is the set of all points (x(t), y(t)) for 0 \u2264 t \u2264 1; ii) if 0 \u2264 s < t \u2264 1, then (x(s), y(s)) = (x(t), y(t)) if and only if s = 0 and t = 1.\n\n(Further remarks by Gr\u00fcnbaum: It is an old result that every closed convex curve contains the vertices of an affine-regular hexagon. Is this true also of all Jordan curves? Must a centrally symmetric Jordan curve contain the vertices of an affine-regular octagon?)\n\nWe shall mention one [problem] which was proposed by S. Kakutani: Let S be a square plane region of unit side, B its boundary. Does there exist a positive number d < 1 such that\n\ni) for each continuous function f on S, the graph of f contains the vertices of a square of side d?\n\nii) for each continuous function f on S which vanishes everywhere on B, the graph of f contains the vertices of a square of side d which is parallel to the plane of S?\n\n(Intuitively: Is there a chair which is small enough to be \u201cuseful\u201d on every \u201clarge\u201d mountain?)",
+  "answer": null,
+  "list": "klee"
+}

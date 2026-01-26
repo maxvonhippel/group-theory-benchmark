@@ -1,0 +1,7 @@
+{
+  "page_number": 20,
+  "problem_number": "K7",
+  "problem_text": "PROBLEM:\nIf C is a convex body in E^n, must the boundary of C contain a sequence J1, J2, . . . , of closed sets satisfying the following condition:\nEach nonexposed extreme point p of C lies in some set Ji; further, for each Ji containing p there are exposed points arbitrarily close to p which lie outside Ji.",
+  "answer": null,
+  "list": "klee"
+}

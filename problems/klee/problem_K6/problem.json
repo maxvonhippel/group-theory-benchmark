@@ -1,0 +1,7 @@
+{
+  "page_number": 18,
+  "problem_number": "K6",
+  "problem_text": "K6\nGeneration of Convex Borel Sets\nPROBLEM:\nFor a family S of subsets of En, let S1 be the family of all sets expressible as the union\nof an increasing sequence of members of S, S2 the family of all sets expressible as the\nintersection of a decreasing sequence of members of S1, . . . , S2n+1 the family of all unions of\nincreasing sequences from S2n, S2n+2 the family of all intersections of decreasing sequences\nfrom S2n+1, . . . . Let F denote the family of all closed subsets of En, and K the family of all\nclosed convex subsets of En. Must each convex member of F2 be a member of K4? More\ngenerally, determine for each m and i the smallest integer t such that every m-dimensional\nconvex member of Fi is a member of Kt. If, for some m and i, such a t fails to exist, is it\nat least true that every m-dimensional convex member of Fi is a member of some Kj?\n\nThe above generation process may be extended by de\ufb01ning the family BS to be the smallest family\nof sets which contains S, includes the union of each increasing sequence of its members, and includes the\nintersection of each decreasing sequence of its members. (The family BF is the family of all Borelian\nsubsets of En.) It can be veri\ufb01ed that BK \u2282 BF and each member of BK is convex. Hence the additional\nproblem: Is every convex member of BF a member of BK?",
+  "answer": null,
+  "list": "klee"
+}

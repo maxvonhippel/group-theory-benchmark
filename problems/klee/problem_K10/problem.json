@@ -1,0 +1,7 @@
+{
+  "page_number": 28,
+  "problem_number": "K10",
+  "problem_text": "Equichordal Points of Convex Bodies\n\nPROBLEM:\n\u22c6Does there exist (for n \u2265 2) an n-dimensional convex body which has two equichordal points?\n\nIf the set C is star-shaped from its interior point p (i.e. C contains every segment joining p to another point of C), p is called an equichordal point of C provided all chords of C which pass through p are of the same length. (For example, the center of a spherical region is an equichordal point.)",
+  "answer": null,
+  "list": "klee"
+}

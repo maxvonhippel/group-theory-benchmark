@@ -1,0 +1,7 @@
+{
+  "page_number": 16,
+  "problem_number": "K5",
+  "problem_text": "Neighboring Families of Convex Polyhedra\n\nPROBLEM:\nFor each pair of integers k and n with k \u22121 \u2265 n \u2265 3, determine the maximum possible number F(k, n) of neighboring convex polyhedra in E^n, each having at most k vertices.\n\nTwo convex bodies in E^n are said to be neighboring provided their intersection is exactly (n \u2212 1)-dimensional; a family of convex bodies is said to be neighboring provided each two of its members are neighboring. By convex polyhedron having at most k vertices we mean a convex body which is the convex hull of k or fewer points.\n\nIt is known that a neighboring family of plane convex bodies has at most four members, and that F(k, 2) = 4 for all k \u2265 3; on the other hand, E^3 contains an infinite neighboring family of convex polyhedra. The problem above asks what bounds can be placed on the size of a neighboring family when the polyhedra are limited as to number of vertices. Bagemihl [1] proposed the problem of determining F(4, 3) \u2013 that is, the maximum possible neighboring tetrahedra in E^3. He proved that 8 \u2264 F(4, 3) \u2264 17, and conjectured that F(4, 3) = 8. An elaboration of his argument shows that F(k, n) is always finite.\n\nAnother unsolved problem is to determine for various convex polyhedra P the maximum possible number of neighboring affine images of P.",
+  "answer": null,
+  "list": "klee"
+}

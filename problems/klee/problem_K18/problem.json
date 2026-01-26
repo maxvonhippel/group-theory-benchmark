@@ -1,0 +1,7 @@
+{
+  "page_number": 54,
+  "problem_number": "K18",
+  "problem_text": "K18 Some Inequalities Connected with Simplexes\n\nPROBLEM:\nSuppose p is a point of an n-dimensional simplex S, and for 0 \u2264 i \u2264 n\u22121, let Di denote the sum of the distances from p to the various i-dimensional faces of S. What relations among the numbers Di must persist for all p and S as described? In particular, if n = 3 (so that S is a tetrahedron) is it true that\n\ni) D0 > \u221a(8D2) (D. K. Kazarinoff) ?\n\nii) D0 > D1 (A. Shields) ?\n\niii) D1 > 2D2 (N. D. Kazarinoff and A. Shields) ?",
+  "answer": null,
+  "list": "klee"
+}

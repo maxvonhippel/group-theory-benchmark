@@ -1,0 +1,7 @@
+{
+  "page_number": 56,
+  "problem_number": "K-19",
+  "problem_text": "Angular Diameter and Width of Plane Convex Bodies\n\nPROBLEM:\nStudy the class of plane convex bodies C in terms of the \u03b8-diameter D\u03b8(C) and the \u03b8-width W\u03b8(C). In particular, determine the greatest lower bound of the quotient D\u03c0/2/D0.\n\nWhen C is a plane convex body and 0 \u2264 \u03b8 < \u03c0, the \u03b8-diameter D\u03b8(C) (resp. the \u03b8-width W\u03b8(C)) is defined as the length of the longest (resp. the shortest) chord of C which joins two rays of support enclosing an angle of \u03b8. Thus D0 and W0 are the ordinary diameter and width, and C is of constant width if and only if D0(C) = W0(C). It would be interesting to study the sets of constant \u03b8-width \u2013 those for which D\u03b8 = W\u03b8.\n\nIn [1,3], J. W. Green has established some relationships among the functions D\u03c0/2, W\u03c0/2, D0, and W0, showing that\n\nD\u03c0/2 / D0 > (\u221a7 \u2212 1) / 3,\nD\u03c0/2 / W0 \u2265 1/\u221a2,\nW\u03c0/2 / D0 \u2264 1/\u221a2,\nand W\u03c0/2 / W0 < 1,\n\nwith equality in either case only for the circular disc. He shows further that each of the last three bounds is the best possible, but that the first is not. He conjectures in [3] that D\u03c0/2/D0 \u2265 1/2, but has informed us recently that a counterexample has been found by R. H. Sorgenfrey. It remains, then, to determine the greatest lower bound of the quotient D\u03c0/2/D0.",
+  "answer": null,
+  "list": "klee"
+}

@@ -1,0 +1,7 @@
+{
+  "page_number": 41,
+  "problem_number": "K-13",
+  "problem_text": "Suppose X is a compact subset of E^n such that each point of X lies in a unique minimal convex set of visibility. Must X include a point of visibility?\n\nWe say that a point x of X is visible (in X) from the point p of X provided X contains the entire segment [x, p]. The point p is a point of visibility of X provided each point of X is visible from p. (Alternatively, we say that X is starshaped from p.) A set of visibility is a subset V of X such that each point of X is visible from some point of V. If we denote by U_x the family of all convex sets of visibility which contain the point x, the above problem asks whether X must be starshaped from some point if for each point x of X there is a unique member of U_x which contains no other member of U_x.",
+  "answer": null,
+  "list": "klee"
+}

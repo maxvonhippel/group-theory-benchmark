@@ -1,0 +1,7 @@
+{
+  "page_number": 13,
+  "problem_number": "K-4",
+  "problem_text": "Farthest and Nearest Points in Hilbert Space\n\nSuppose X is a subset of Hilbert space H such that each point of H admits a unique farthest point in X. Must X consist of a single point?\n\nSuppose Y is a subset of Hilbert space H such that each point of H admits a unique nearest point in Y. Must Y be convex?",
+  "answer": null,
+  "list": "klee"
+}

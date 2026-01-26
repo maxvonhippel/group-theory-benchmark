@@ -1,0 +1,7 @@
+{
+  "page_number": 50,
+  "problem_number": "K-16",
+  "problem_text": "Suppose C is an n-dimensional centered convex body, and consider all pairs (S, p) such that p is a boundary point of C and S, among the central (n \u2212 1)-sections of C, is one which maximizes the volume of the cone from p over S. For each such p and S, let R_{p,S} denote the quotient A1/A2, where A2 is the (n \u2212 1)-dimensional area of S and A1 is the (n \u2212 1)-dimensional area of the image of C under the affine projection which maps C into the hyperplane containing S and p into the center of C. Then if R_{p,S} has the same value for all p and S as described, must C be an ellipsoid?",
+  "answer": null,
+  "list": "klee"
+}

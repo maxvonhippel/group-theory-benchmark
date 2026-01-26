@@ -28,7 +28,7 @@ This project was inspired by the paper [Disproof of the Mertens Conjecture](http
 | 19.110 | kourovka | [`cannot_formalize.txt`](problems/kourovka/problem_19.110/cannot_formalize.txt) | Cannot formalize | Pending |
 | 5.54 | kourovka | [`cannot_formalize.txt`](problems/kourovka/problem_5.54/cannot_formalize.txt) | Cannot formalize | Pending |
 | 9.9 | kourovka | [`cannot_formalize.txt`](problems/kourovka/problem_9.9/cannot_formalize.txt) | Cannot formalize | Pending |
-| Well-known problem | kourovka | [`cannot_formalize.txt`](problems/kourovka/problem_Well-known problem/cannot_formalize.txt) | Cannot formalize | Pending |
+| Well-known problem | kourovka | [`cannot_formalize.txt`](problems/kourovka/problem_Well-known%20problem/cannot_formalize.txt) | Cannot formalize | Pending |
 
 ## Setup
 
@@ -67,4 +67,4 @@ If you use this benchmark in your research, please cite:
 
 For citations to the source problem collections, see [references.bib](references.bib).
 
-*Last updated: 2026-01-26 17:41:18 UTC*
+*Last updated: 2026-01-26 17:42:20 UTC*

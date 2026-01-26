@@ -232,8 +232,11 @@ def generate_solution_table(solutions: list[dict[str, Any]], show_list_column: b
             list_name = sol.get('list', 'unknown')
             problem_num = sol['number']
             file_path = f"problems/{list_name}/problem_{problem_num}/{artifact_filename}"
+            # URL-encode the path for markdown links (handle spaces and special chars)
+            from urllib.parse import quote
+            encoded_path = quote(file_path, safe='/')
             # Create markdown link with code formatting
-            artifact = f"[`{artifact_filename}`]({file_path})"
+            artifact = f"[`{artifact_filename}`]({encoded_path})"
         else:
             artifact = "N/A"
 

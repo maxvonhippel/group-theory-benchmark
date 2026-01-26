@@ -32,6 +32,10 @@ setup:
 		elan default leanprover/lean4:stable || true; \
 		echo "Creating Lean scratch project..."; \
 		mkdir -p lean_scratch && cd lean_scratch && lake init LeanScratch 2>/dev/null || echo "Lean scratch project already exists"; \
+		echo "Building formalization project..."; \
+		cd ../formalization && lake build 2>/dev/null || echo "Formalization project dependencies building..."; \
+		echo "Downloading Mathlib cache (6.2GB, ~6 seconds)..."; \
+		cd ../formalization && lake exe cache get || echo "Cache download failed or already cached"; \
 	fi
 	@echo ""
 	@echo "Step 2b: Installing Lean 4 skills for Claude Code..."

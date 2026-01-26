@@ -29,12 +29,16 @@ def find_problem(problems, problem_num):
             return problem
     return None
 
-def generate_formalization_prompt(problem):
+def generate_formalization_prompt(problem, problem_dir):
     """Generate prompt for Claude to formalize the problem."""
     problem_num = problem.get('problem_number', 'unknown')
     problem_text = problem.get('problem_text', 'No problem text')
     
     prompt = f"""You are formalizing problem #{problem_num} in Lean 4.
+
+**IMPORTANT: Working Directory**
+You are working in: {problem_dir.absolute()}
+All files MUST be created in this directory.
 
 **Problem Statement:**
 {problem_text}
@@ -124,10 +128,20 @@ def validate_lean_file(lean_file, problem_dir):
         target_file.unlink(missing_ok=True)
         return False, "", "Lake not found. Run 'make setup' first."
 
-def run_claude_formalization(prompt):
-    """Run Claude to generate formalization."""
+def run_claude_formalization(prompt, problem_dir):
+    """Run Claude to generate formalization.
+    
+    Args:
+        prompt: The formalization prompt text
+        problem_dir: Path to the problem directory where outputs should be created
+    """
     prompt_file = Path("/tmp/formalize_prompt.txt")
     prompt_file.write_text(prompt)
+    
+    # Get absolute paths for MCP config (since we'll change directory)
+    project_root = Path.cwd()
+    gap_root = project_root / "gap"
+    lean_workspace = project_root / "lean_scratch"
     
     mcp_config_file = Path("/tmp/claude_mcp_config.json")
     mcp_config = {
@@ -136,14 +150,14 @@ def run_claude_formalization(prompt):
                 "command": "uv",
                 "args": ["run", "gap-mcp"],
                 "env": {
-                    "GAP_ROOT": str(Path.cwd() / "gap")
+                    "GAP_ROOT": str(gap_root)
                 }
             },
             "lean": {
                 "command": "uv",
-                "args": ["--directory", str(Path.cwd()), "run", "lean-lsp-mcp"],
+                "args": ["--directory", str(project_root), "run", "lean-lsp-mcp"],
                 "env": {
-                    "LEAN_WORKSPACE": str(Path.cwd() / "lean_scratch")
+                    "LEAN_WORKSPACE": str(lean_workspace)
                 }
             }
         }
@@ -154,6 +168,8 @@ def run_claude_formalization(prompt):
     print("=" * 60)
     
     try:
+        # Run Claude from within the problem directory
+        # This way "formalization.lean" is created in the correct location
         result = subprocess.run(
             [
                 'claude',
@@ -164,14 +180,15 @@ def run_claude_formalization(prompt):
             stdin=open(prompt_file),
             capture_output=False,  # Let output stream
             text=True,
-            timeout=600  # 10 minutes for Mathlib builds
+            timeout=600,  # 10 minutes for Mathlib builds
+            cwd=str(problem_dir)  # Run from problem directory
         )
         
-        # Check for output files FIRST (prioritize successful completion over exit code)
+        # Check for output files in problem directory
         # This handles cases where kill -9 terminates the process with signal exit code
         # but the formalization was completed successfully before termination
-        lean_file = Path("formalization.lean")
-        cannot_file = Path("cannot_formalize.txt")
+        lean_file = problem_dir / "formalization.lean"
+        cannot_file = problem_dir / "cannot_formalize.txt"
         
         if lean_file.exists() or cannot_file.exists():
             return True  # Task completed successfully (output files exist)
@@ -242,18 +259,18 @@ def main():
     print()
     
     # Generate prompt
-    prompt = generate_formalization_prompt(problem)
+    prompt = generate_formalization_prompt(problem, problem_dir)
     
-    # Run Claude
-    success = run_claude_formalization(prompt)
+    # Run Claude from problem directory
+    success = run_claude_formalization(prompt, problem_dir)
     
     if not success:
         print("\nClaude formalization process failed or was interrupted.")
         sys.exit(1)
     
-    # Check for formalization.lean or cannot_formalize.txt
-    lean_file = Path("formalization.lean")
-    cannot_formalize_file = Path("cannot_formalize.txt")
+    # Check for formalization.lean or cannot_formalize.txt in problem directory
+    lean_file = problem_dir / "formalization.lean"
+    cannot_formalize_file = problem_dir / "cannot_formalize.txt"
     
     if cannot_formalize_file.exists():
         reason = cannot_formalize_file.read_text().strip()
@@ -261,11 +278,6 @@ def main():
         print(f"Problem #{problem_num} CANNOT be formalized")
         print(f"Reason: {reason}")
         print("=" * 60)
-        
-        # Save the reason to problem directory
-        problem_cannot_file = problem_dir / "cannot_formalize.txt"
-        import shutil
-        shutil.move(cannot_formalize_file, problem_cannot_file)
         
         # Update JSON to mark as unformalizable
         problem['formalization_status'] = 'cannot_formalize'
@@ -292,9 +304,8 @@ def main():
         lean_file.unlink()  # Clean up
         sys.exit(1)
     
-    # Move formalization to problem directory
-    import shutil
-    shutil.move(lean_file, formalization_file)
+    # File is already in problem directory (no need to move)
+    print(f"Formalization saved to: {lean_file}")
     
     # Update JSON to mark as successfully formalized
     problem['formalization_status'] = 'formalized'

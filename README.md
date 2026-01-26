@@ -48,7 +48,7 @@ make test         # Run test suite
 Problems are drawn from multiple sources:
 
 - **[Kourovka Notebook](https://kourovka-notebook.org/)**: A collection of unsolved problems in group theory
-- **Unsolved Problems in Intuitive Geometry** by Klee & Wagon: Open problems in computational and combinatorial geometry
+- **[Unsolved Problems in Intuitive Geometry](https://sites.math.washington.edu//~reu/papers/2010/mark/Unsolved_Problems_In_Intuitive_Geometry.pdf)** by Klee & Wagon: Open problems in computational and combinatorial geometry
 
 ## Citation
 
@@ -67,4 +67,4 @@ If you use this benchmark in your research, please cite:
 
 For citations to the source problem collections, see [references.bib](references.bib).
 
-*Last updated: 2026-01-26 17:42:20 UTC*
+*Last updated: 2026-01-26 17:42:58 UTC*

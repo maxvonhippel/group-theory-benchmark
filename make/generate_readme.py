@@ -310,7 +310,7 @@ def generate_readme(list_name: Optional[str] = None) -> str:
     readme += "Problems are drawn from multiple sources:\n\n"
     readme += "- **[Kourovka Notebook](https://kourovka-notebook.org/)**: "
     readme += "A collection of unsolved problems in group theory\n"
-    readme += "- **Unsolved Problems in Intuitive Geometry** by Klee & Wagon: "
+    readme += "- **[Unsolved Problems in Intuitive Geometry](https://sites.math.washington.edu//~reu/papers/2010/mark/Unsolved_Problems_In_Intuitive_Geometry.pdf)** by Klee & Wagon: "
     readme += "Open problems in computational and combinatorial geometry\n\n"
     
     # Add citation section

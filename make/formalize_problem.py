@@ -166,7 +166,18 @@ def run_claude_formalization(prompt):
             text=True,
             timeout=600  # 10 minutes for Mathlib builds
         )
-        return result.returncode == 0
+        # Success if:
+        # - Normal exit (returncode == 0)
+        # - Killed by signal after completing task (negative returncode or 144)
+        #   In this case, check if output files exist
+        if result.returncode == 0:
+            return True
+        # Process was terminated (kill $PPID) - check if task completed
+        lean_file = Path("formalization.lean")
+        cannot_file = Path("cannot_formalize.txt")
+        if lean_file.exists() or cannot_file.exists():
+            return True  # Task completed before termination
+        return False  # Process failed without producing output
     except subprocess.TimeoutExpired:
         print("\nError: Claude formalization timed out")
         return False

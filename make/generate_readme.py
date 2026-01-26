@@ -253,11 +253,11 @@ def generate_readme(list_name: Optional[str] = None) -> str:
     from datetime import datetime, timezone
     
     # Read existing README sections (if any) - for now, start fresh
-    readme = "# 🔮 BuddenBench: a Benchmark of Open Nontrivial Group Theory Problems\n\n"
+    readme = "# 🔮 BuddenBench: A Benchmark of Open Nontrivial Mathematics Research Problems\n\n"
     readme += "This benchmark, affectionately named [`budden-bench`]"
     readme += "(https://x.com/maxvonhippel/status/2014475901384241286?s=20), "
     readme += "measures the ability of models and agents to autonomously solve open and important problems "
-    readme += "in mathematics, specifically group theory. In contrast to other problem sets such as the "
+    readme += "in mathematics research. In contrast to other problem sets such as the "
     readme += "[Erdős Problems](https://www.erdosproblems.com/), this benchmark is intended to exclusively contain "
     readme += "problems which are of ongoing research interest to working mathematicians.\n\n"
     
@@ -305,7 +305,7 @@ def generate_readme(list_name: Optional[str] = None) -> str:
     readme += "```bibtex\n"
     readme += "@dataset{vonhippel2025budden,\n"
     readme += "  author={von Hippel, Max},\n"
-    readme += "  title={{BuddenBench}: A Benchmark of Open Nontrivial Group Theory Problems},\n"
+    readme += "  title={{BuddenBench}: A Benchmark of Open Nontrivial Mathematics Research Problems},\n"
     readme += "  year={2025},\n"
     readme += "  publisher={GitHub},\n"
     readme += "  howpublished={\\url{https://github.com/maxvonhippel/budden-bench}},\n"

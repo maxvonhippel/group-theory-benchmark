@@ -1,6 +1,6 @@
-# 🔮 BuddenBench: a Benchmark of Open Nontrivial Group Theory Problems
+# 🔮 BuddenBench: A Benchmark of Open Nontrivial Mathematics Research Problems
 
-This benchmark, affectionately named [`budden-bench`](https://x.com/maxvonhippel/status/2014475901384241286?s=20), measures the ability of models and agents to autonomously solve open and important problems in mathematics, specifically group theory. In contrast to other problem sets such as the [Erdős Problems](https://www.erdosproblems.com/), this benchmark is intended to exclusively contain problems which are of ongoing research interest to working mathematicians.
+This benchmark, affectionately named [`budden-bench`](https://x.com/maxvonhippel/status/2014475901384241286?s=20), measures the ability of models and agents to autonomously solve open and important problems in mathematics research. In contrast to other problem sets such as the [Erdős Problems](https://www.erdosproblems.com/), this benchmark is intended to exclusively contain problems which are of ongoing research interest to working mathematicians.
 
 ## Inspiration
 
@@ -57,7 +57,7 @@ If you use this benchmark in your research, please cite:
 ```bibtex
 @dataset{vonhippel2025budden,
   author={von Hippel, Max},
-  title={{BuddenBench}: A Benchmark of Open Nontrivial Group Theory Problems},
+  title={{BuddenBench}: A Benchmark of Open Nontrivial Mathematics Research Problems},
   year={2025},
   publisher={GitHub},
   howpublished={\url{https://github.com/maxvonhippel/budden-bench}},
@@ -67,4 +67,4 @@ If you use this benchmark in your research, please cite:
 
 For citations to the source problem collections, see [references.bib](references.bib).
 
-*Last updated: 2026-01-26 16:54:41 UTC*
+*Last updated: 2026-01-26 16:56:30 UTC*

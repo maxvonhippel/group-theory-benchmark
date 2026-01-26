@@ -175,6 +175,7 @@ def run_claude_formalization(prompt, problem_dir):
     
     try:
         # Start Claude process with Popen for active monitoring
+        # Don't capture output so it streams to console and user can see progress
         process = subprocess.Popen(
             [
                 'claude',
@@ -183,9 +184,6 @@ def run_claude_formalization(prompt, problem_dir):
                 '--dangerously-skip-permissions'
             ],
             stdin=open(prompt_file),
-            stdout=subprocess.PIPE,
-            stderr=subprocess.PIPE,
-            text=True,
             cwd=str(problem_dir)  # Run from problem directory
         )
         

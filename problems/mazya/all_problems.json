@@ -1,0 +1,312 @@
+[
+  {
+    "page_number": 5,
+    "problem_number": "3.1",
+    "problem_text": "3. Sobolev spaces of integer and fractional orders\n3.1. Isoperimetric problem for fractional perimeter\nLet Ω be a bounded domain with smooth boundary ∂Ω and α ∈ (0, 1). The following set function was introduced in [68]:\n\nPα(Ω) =\n∫_{Ω} ∫_{Rn\\Ω} \\frac{dx\\,dy}{|x − y|^{n+α}}.\n\nLater, Pα(Ω) was called the “fractional perimeter of Ω” and has attracted a lot of attention since.\n\nBy [68, Section 6], (see also [71, Section 11.10]), the best constant C in the isoperimetric inequality\n\nPα(Ω) ≤ C \\; H^{n−1}(∂Ω)^{\\frac{n−α}{n−1}}  (3.1)\n\nis the same as the best constant C in the functional inequality\n\n\\Big(\\int_{Rn} \\int_{Rn} \\frac{|u(x) − u(y)|^{q}}{|x − y|^{n+α}}\\,dx\\,dy\\Big)^{1/q} ≤ 2^{1/q} C \\; \\|∇u\\|_{L^1(Rn)},\n\nwhere q = n/(n − α) and u ∈ C^∞_0(Rn).\n\nBy [68, p. 333],\n\nC ≤ \\frac{n\\, v(n−1+α)/n}{n\\, α(1 − α)} \\Big(H^{n−1}(∂B1)\\Big)^{\\frac{n−α}{n−1}}.\n\nThe constant factor on the right, although explicit, is hardly best possible.\n\nProblem. Find the best value of the isoperimetric constant C in (3.1)."
+  },
+  {
+    "page_number": 6,
+    "problem_number": "3.3",
+    "problem_text": "3.3. Boundary traces of functions in a Sobolev space\nLet Ω be a bounded weakly Lipschitz domain and let ϕ : ∂Ω → R1.\nIt is well-known that ϕ is the trace of a function in L1,p(Ω), if and only\nif ϕ ∈ L1(∂Ω) for p = 1 and ϕ ∈ L1−1/p,p(∂Ω) for p > 1, where the Besov\nspace Lα,p(∂Ω), 0 < α < 1, is supplied with the seminorm\n(∫_{∂Ω} ∫_{∂Ω} |ϕ(x) − ϕ(y)|^p / |x − y|^{n+αp−2} ds_x ds_y)^{1/p}.\nThis fact fails if Ω is not weakly Lipschitz. Other characterizations of the\ntrace are given for some classes of non-Lipschitz domains in [83, Chapter 6].\nProblem. Justify the following conjecture concerning an “extremal length”1\ncharacterization of traces for an arbitrary domain Ω: The function ϕ is the\ntrace of a function in L1,p(Ω) if and only if there exists a function ρ ∈ C(Ω) ∩\nLp(Ω) such that for “quasi-every” pair of points x′ and x′′ on ∂Ω and for\nany locally rectifiable arc γ ⊂ Ω joining x′ and x′′ there holds the inequality\n|ϕ(x′) − ϕ(x′′)| ≤ ∫_γ ρ(x) |dx|.\nBy “quasi-everywhere” one means outside of a set of zero L1,p-capacity.\n1For the notion “extremal length” see [17]."
+  },
+  {
+    "page_number": 6,
+    "problem_number": "3.4",
+    "problem_text": "3.4. Embedding of a Sobolev space into the space of distributions\nLet Ω be an open set in Rn. By Ll,p_0(Ω, µ) we denote the completion of C∞_0(Ω)\nin the norm\n∥∇^l u∥_{Lp(Ω)} + (∫_Ω |u|^p dµ)^{1/p},\nwhere p ∈ [1, ∞] and µ is a measure.\nThe question of embedding Ll,p_0(Ω, 0) into the distribution space [C∞_0(Ω)]′\nis completely solved in [23] for p = 2 and by [69, Theorem 15.2] for all values\nof p.\nProblem. Find necessary and sufficient conditions on the measure µ ensuring\nthe embedding of Ll,p_0(Ω, µ) into [C∞_0(Ω)]′."
+  },
+  {
+    "page_number": 7,
+    "problem_number": "3.5",
+    "problem_text": "3.5. An approximation problem in the theory of Sobolev spaces\nJ.L. Lewis [43] showed that C∞(Ω) is dense in L1,p(Ω) if Ω is an arbitrary Jordan domain in the plane, i.e. ∂Ω is homeomorphic to ∂B1. In [44] he asked if C∞(Ω) is dense in Ll,p(Ω) with l > 1 for every Jordan domain Ω ⊂ R2.\nIt is almost obvious that L∞(Ω) ∩ L1,p(Ω) is dense in L1,p(Ω) for every open set Ω ⊂ Rn. A direct extension of this property for Ll,p(Ω) with l > 1 is impossible, as shown in [80]. A planar domain Ω in the counterexample proposed in [80] is not Jordan, which gives rise to the following\nProblem. Are bounded functions belonging to Ll,p(Ω), l > 1, dense in Ll,p(Ω) if Ω is an arbitrary Jordan domain?"
+  },
+  {
+    "page_number": 7,
+    "problem_number": "3.6",
+    "problem_text": "3.6. Extensions of Sobolev functions outside of an angle\nLet Aα denote the angle {z ∈ C : 0 < arg z < α}, 0 < α < 2π, and let Eα be the extension operator L1,2(Aα) → L1,2(R2) which has the least norm. Using the Radon transform, one can show that\n∥Eα∥ = max { ( α / (2π − α) )1/2 , ( (2π − α) / α )1/2 }.\nProblem. Find the least norm of the extension operator W 1,2(Aα) → W 1,2(R2), where\n∥u∥W 1,2(Ω) = ( ∥∇u∥2L2(Ω) + ∥u∥2L2(Ω) )1/2."
+  },
+  {
+    "page_number": 8,
+    "problem_number": "3.8",
+    "problem_text": "3.8. Hardy inequality with capacitary distance to ∂Ω\nLet Ω be a domain in Rⁿ, n > 2. As is well-known, the Hardy inequality\n∫_Ω (|u(x)|/d(x))² dx ≤ c ∫_Ω |∇u|² dx, (3.9)\nwhere u ∈ C_0^∞(Ω) and d(x) is the distance from x to ∂Ω, does not hold for any domain and conditions for its validity are known (see [69, p. 733–735] for references).\nProblem. Prove that (3.9) holds for any domain Ω if d(x) is replaced by the capacitary distance defined by\n\nd_α(x) = inf { r > 0 : cap(B_r(x) \\ Ω) ≥ α cap(B_r) },\n\nwhere α is a positive parameter and cap denotes the Wiener capacity defined in the previous subsection."
+  },
+  {
+    "page_number": 8,
+    "problem_number": "3.9",
+    "problem_text": "3.9. Uncertainty principle for divergence-free fields\nThe inequality\n(∫_{R¹} u² dx)² ≤ 4 (∫_{R¹} x² u² dx)(∫_{R¹} (u′)² dx)\nis the so-called uncertainty principle in quantum mechanics, and the constant 4 is sharp.\nProblem. What is the best constant C > 0 in the inequality\n(∫_{Rⁿ} |u|² dx)² ≤ C (∫_{Rⁿ} |x|² |u|² dx)(∫_{Rⁿ} |∇u|² dx),\nwhere u = (u₁, . . . , u_n) is an arbitrary divergence-free vector field?\nAnswer the same question concerning the inequality\n(∫_{Rⁿ} |u|^p dx)^p ≤ C_p^p (∫_{Rⁿ} (|x| |u|)^{p/(p−1)} dx)^{p−1} (∫_{Rⁿ} |∇u|^p dx),\nwhere p ∈ (1, ∞) and div u = 0 in Rⁿ."
+  },
+  {
+    "page_number": 9,
+    "problem_number": "3.11",
+    "problem_text": "It is shown in [48] (see also [24]) that the space Ll,2(Rn) can be endowed\nwith the norm ∥Dl,2 u∥L2(Rn), where\n(Dl,2)u(x) = ( ∫_{Rn} |u(x + z) − u(x)|^2 ( ∑_{i=1}^n |zi|^{li} )^{−δ} dz )^{1/2}\nwith\nδ = 2 + ∑_{i=1}^n l_i^{−1}.\nThis norm is useful in applications such as the description of multipliers in\nLl,2(Rn) and the theory of Dirichlet forms.\nProblem. For p ≠ 2 find an analog of the just mentioned representation of\nthe norm in Ll,p(Rn) involving the difference u(x + z) − u(x).\nRemark. Strichartz [101] supplied the space of isotropic Riesz potentials with\nthe norm ∥Sl u∥Lp(Rn), where\n(Sl u)(x) = ( ∫_0^∞ [ ∫_{|z|<y} |u(x + z) − u(x)| dz ]^2 dy / y^{1+2(n+l)} )^{1/2}.\n\n3.11. Two-weight Hardy inequality involving first and second derivatives\nLet p ≥ 1 and let γ ≠ 1 − 2/p. By ψ we denote a function in C^∞_0(R^2). In case\nγ < 1 − 2/p we require additionally that ∇ψ(0) = 0.\nProblem. Find the best constant in the inequality\n∫_{R^2} |∇ψ|^p |x|^{p(γ−1)} dx ≤ C(p,γ) ∫_{R^2} ( ψ_{x1x1}^2 + 2ψ_{x1x2}^2 + ψ_{x2x2}^2 )^{p/2} |x|^{pγ} dx.\nIt is proved in [10] (see also [69, p. 229]) that when p = 2,\nC(2, γ) =\n{ [1 + (1−γ)^2] / [γ^2(3 + (1−γ)^2)]  for γ ∈ [−√3 − 1, √3 − 1],\n  (γ^2 + 1)^{−1} otherwise. }\nThe method used in the proof of this result cannot be applied to the\ncase p ≠ 2."
+  },
+  {
+    "page_number": 9,
+    "problem_number": "3.12",
+    "problem_text": "3.12. Trace inequality with a non-positive measure\nLet Ω be a bounded smooth domain in R^n and let σ be a real measure, not\nnecessarily positive, even a distribution, supported on ∂Ω.\nProblem. Let n > p > 1 and let u be any function in C^∞(Ω). Find necessary\nand sufficient condition on σ for the validity of the inequality\ninf_{c∈R^1} ∫_{∂Ω} |u − c|^p dσ ≤ C ∫_{Ω} |∇u(x)|^p dx."
+  },
+  {
+    "page_number": 10,
+    "problem_number": "3.13",
+    "problem_text": "3.13. Domains for which Ll,p(Ω) ∩L∞(Ω) is a Banach algebra\nLet Ω be a domain in Rn. We may ask whether the space Ll,p(Ω) ∩L∞(Ω) is\nan algebra with respect to pointwise multiplication. Clearly, this is the case\nfor l = 1. Since Stein’s extension operator from a Lipschitz graph domain Ω\nis continuous as an operator\nLl,p(Ω) ∩L∞(Ω) → Ll,p(Rn) ∩L∞(Rn),\nthe above question has the affirmative answer for the union of a finite number\nof Lipschitz graph domains. For example, Ω can be a bounded domain having\nthe cone property. However, by a counterexample proposed in [80] (see also\n[69, p. 120-121]), it turns out that the space Ll,p(Ω) ∩L∞(Ω) is generally not\nan algebra.\nProblem. Find a necessary and sufficient condition on Ω ⊂ Rn ensuring that\nLl,p(Ω) ∩ L∞(Ω) is a Banach algebra."
+  },
+  {
+    "page_number": 10,
+    "problem_number": "4.1",
+    "problem_text": "4. Integral operators\n4.1. A multi-dimensional integral equation which can be reduced to one-\ndimensional\nLet ϕ and ψ be functions defined on a multi-dimensional domain Ω.\nProblem. Develop a theory of solvability of the integral equation\n\nλ u(x) − ∫_Ω u(y) / (ϕ(x) − ψ(y)) dy = f(x),\n(4.1)\n\nwhere f is a given function and λ is a complex parameter.\nNote that (4.1) can be reduced to a certain one-dimensional integral\nequation by using the so-called coarea formula, see [69]."
+  },
+  {
+    "page_number": 10,
+    "problem_number": "4.2",
+    "problem_text": "4.2. A singular integral operator in Lp(Rn)\nConsider the singular integral operator A with the symbol\n∂B1 ∋ ω → exp(i λ φ(ω)),\nwhere φ is a smooth real-valued function on ∂B1, and λ is a large real pa-\nrameter.\nProblem. Prove or disprove the estimate\n\n∥A∥_{Lp(Rn)→Lp(Rn)} ≤ c |λ|^{(n−1)| 1/2 − 1/p |},\n\nwhere 1 < p < ∞, c depends on n, p and the function φ."
+  },
+  {
+    "page_number": 11,
+    "problem_number": "4.3",
+    "problem_text": "4.3. Fredholm radius of the harmonic double layer potential\nConsidering the logarithmic harmonic potentials of the single and double\nlayer on curves of “bounded rotation”, J. Radon has introduced the notion of\nthe essential norm and the Fredholm radius of a bounded operator in 1919.\nThe essential norm ∥L∥ of a linear bounded operator L acting on a\nBanach space B is defined as\n\n∥L∥ = inf_{ {K} } ∥L − K∥_{B→B},\n\nwhere {K} is the set of all linear compact operators on B.\nThe Fredholm radius R(L) of the operator L is the radius of the largest\ncircle on the complex λ-plane centered at λ = 0 inside which I + λL is a\nFredholm operator.\nThe essential norm ∥L∥ is related to R(L) by the inequality\n\nR(L) ≥ ∥L∥^{−1}.\n\nIt was shown by I. Gohberg and A. Marcus [20] that the Fredholm radius\nof the operator L, acting on a Banach space B equipped with the norm ∥·∥0,\nsatisfies\n\nR(L) = sup{ ∥L∥^{−1} : ∥·∥ ∈ N(∥·∥0) },\n\nwhere ∥L∥ is calculated with respect to a norm ∥·∥ in the set N(∥·∥0) of all\nnorms in B, equivalent to ∥·∥0.\nKrál [35] and Burago and Maz’ya [5] showed that for a n-dimensional\nbounded domain D with finite variation of the solid angle ω_D(p, E) (p ∈\n∂D, E ⊂ R^n) the essential norm of the harmonic double layer potential in\nthe Banach space C(∂D) is\n\n(2/(n v_n)) lim_{δ→0} sup_{p∈∂D} var ω_D(p, B_δ(p)).\n\nReferences to other results in the same area can be found in [36, Chapter 7].\nProblem. Find a geometrical representation for the Fredholm radius of the\nharmonic double layer potential as an operator in C(∂D)."
+  },
+  {
+    "page_number": 11,
+    "problem_number": "4.4",
+    "problem_text": "4.4. Potential theory for surfaces with cusps\nA detailed theory of boundary integral equations for harmonic and elastic\nsinge and double layer potentials on curves with exterior and interior cusps\nwas constructed in [93].\nProblem. Develop a theory of multidimensional boundary integral equations\nfor domains with inner and outer cusps.\nFirst results concerning the multidimensional case can be found in [84]-[86]."
+  },
+  {
+    "page_number": 12,
+    "problem_number": "4.5",
+    "problem_text": "4.5. Regularity of domains in the theory of boundary integral equations\nIn [90] (see also [88, Chapter 15]) a regularity theory of classical boundary integral equations involving harmonic, elastic and hydrodynamic potentials on nonsmooth surfaces is presented. A goal of this theory is to establish solvability in fractional Besov spaces.\nProblem. Obtain results on the solvability of just mentioned equations in Sobolev spaces Ll,p(∂Ω) with integer l under minimal requirements on ∂Ω."
+  },
+  {
+    "page_number": 12,
+    "problem_number": "4.6",
+    "problem_text": "4.6. Integral equations of potential theory under interaction of nearly touching particles\nThe following diﬃculty arises when using the boundary element method to study hydrodynamic interactions among particles in suspensions and other similar phenomena when the particles are nearly touching. Integration of kernels of integral operators on elements near the closest contact points destroys the accuracy of the numerical procedure.\nProblem. Find asymptotic representation for densities of harmonic, elastic, and hydrodynamic potentials satisfying the boundary integral equations by using the distance between particles as a small parameter."
+  },
+  {
+    "page_number": 12,
+    "problem_number": "4.7",
+    "problem_text": "4.7. Non-classical maximal operator\nLet the maximal operator M♦ be defined by\n(M♦f)(x) = sup_{r>0} \\left| \\dashint_{B_r(x)} \\frac{y-x}{|y-x|} f(y)\\,dy \\right|, \\quad x \\in \\mathbb{R}^n,\nwhere f is locally integrable in \\mathbb{R}^n and the barred integral stands for the mean value. It is obviously dominated by the Hardy-Littlewood maximal operator M. A simple property of M♦ is the sharp pointwise inequality for functions of one variable\n|u′(x)|^2 \\le \\frac{8}{3} (M♦u)(x)\\,(M♦u′′)(x),\nsee [71, formula (12.0.5)].\nClearly, M♦ is dominated by the sharp maximal operator M♯ defined by\n(M♯f)(x) = sup_{r>0} \\dashint_{B_r(x)} |f(y) - f_{B_r(x)}|\\,dy,\nwhere f_{B_r(x)} stands for the mean value of f in the ball B_r(x).\nProblem. Does there exist a Banach space B such that one of the operators M♯ or M♦ is bounded in B whereas the other operator is not bounded?"
+  },
+  {
+    "page_number": 13,
+    "problem_number": "5.1",
+    "problem_text": "5. Linear elliptic operators\n5.1. Integral inequality for the integrable Laplacian\nIt is shown in [89] that the inequality\n\\[\n\\left|\\!\\left|\\!\\left|\\int_{\\mathbb{R}^2}\\sum_{i,j=1}^{2} a_{i,j}\\,u_{x_i}\\,u_{x_j}\\,dx\\right|\\!\\right|\\!\\right|\\le C\\left(\\int_{\\mathbb{R}^2}|\\Delta u|\\,dx\\right)^2,\n\\]\nwhere \\(a_{i,j}\\) are constants and \\(u\\) is an arbitrary complex-valued function in \\(C^\\infty_0(\\mathbb{R}^2)\\), holds if and only if \\(a_{1,1}+a_{2,2}=0\\).\nOther results of a similar nature are obtained in [70], where in particular it is proved that the inequality\n\\[\n\\left|\\!\\left|\\!\\left|\\int_{\\mathbb{R}^n}\\sum_{j=1}^{n}\\alpha_j\\,\\frac{\\left|\\partial u/\\partial x_j\\right|}{|x|}\\,dx\\right|\\!\\right|\\!\\right|\\le C\\int_{\\mathbb{R}^n}|\\Delta u|\\,dx,\n\\]\nwhere \\(\\alpha_j\\) are real constants, holds for all real-valued functions \\(u\\in C^\\infty_0(\\mathbb{R}^n)\\) if and only if\n\\[\n\\sum_{j=1}^{n}\\alpha_j=0.\n\\]\nProblem. I conjecture that the inequality\n\\[\n\\left|\\!\\left|\\!\\left|\\int_{\\mathbb{R}^n}\\Phi(\\nabla u)\\,dx\\right|\\!\\right|\\!\\right|^{\\frac{n-1}{n}}\\le \\int_{\\mathbb{R}^n}|\\Delta u|\\,dx,\n\\]\nwhere \\(n>1\\), \\(\\Phi\\) is a smooth function outside the origin and positive homogeneous of degree \\(\\frac{n}{n-1}\\), holds for all \\(u\\in C^\\infty_0(\\mathbb{R}^n)\\) if and only if\n\\[\n\\int_{\\partial B_1}\\Phi(x)\\,d\\omega_x=0.\n\\]"
+  },
+  {
+    "page_number": 15,
+    "problem_number": "5.3",
+    "problem_text": "5.3. Uniqueness in the Cauchy problem for the Laplace equation\nLet R^{n+1}_+ = {(p, t) : p ∈ R^n, t > 0}. Suppose a function u ∈ C^1(R^{n+1}_+ ∪ R^n) is harmonic in R^{n+1}_+ and its Dirichlet data has zero of infinite order at the origin. Moreover, let the normal derivative satisfy\n|∂u/∂t (p)| ≤ h(|p|),   p ∈ R^n,  (5.4)\nwhere h is a function defined on [0, ∞) positive on (0, ∞) and such that h(r) ↓ 0 as r ↓ 0. One can ask for which h it is true that (5.4) implies u = 0. The following answer to this question was obtained in [76].\nSuppose h satisfies certain regularity conditions (not to be specified here), then (5.4) implies u = 0 if and only if\n∫_0^1 log h(r) dr = −∞.  (5.5)\nBy Kelvin’s transform, the criterion (5.5) can be stated for harmonic functions in a ball. However, the method of proof given in [76] does not provide an answer to the following question.\nProblem. Is it possible to replace R^{n+1}_+ in the above exposition by a smooth domain? Also, can one replace the Laplace operator by an arbitrary second order elliptic operator with smooth coefficients?\nIn this case, it is only known that the uniqueness follows from the estimate\n|∇u(x)| ≤ exp(−1/|x|^c)\nwith a certain positive c (see [39]) and with c = 2 + ε, ε > 0, (see [41])."
+  },
+  {
+    "page_number": 15,
+    "problem_number": "5.4",
+    "problem_text": "5.4. De Giorgi-Nash theorem for equations with complex-valued coefficients\nLet Ω be a domain in R^n. By the classical De Giorgi-Nash theorem, an arbitrary weak solution of the uniformly elliptic equation\n∂/∂x_i ( a_{ij}(x) ∂u/∂x_j ) = 0,   1 ≤ i, j ≤ n\nwith measurable bounded real-valued coefficients is locally Hölder continuous.\nIf the coefficients a_{ij} are complex-valued and\nRe(a_{ij}(x) ξ_i ξ_j) ≥ C|ξ|^2,\nfor all x ∈ Ω and ξ ∈ R^n, this assertion is not true for dimensions n > 4. See [95, p. 391–393] for examples of equations whose weak solutions are even unbounded near an interior point of a domain.\nProblem. Prove or disprove that De Giorgi-Nash property holds for dimensions n = 3 and n = 4.\nThe Hölder continuity of u in the case n = 2 follows from [94]."
+  },
+  {
+    "page_number": 16,
+    "problem_number": "5.5",
+    "problem_text": "5.5. Fractal domains versus Lipschitz domains\nDuring the last ﬁfty years considerable progress has been made in the study\nof elliptic boundary value problems on Lipschitz graph domains (see [27] for a\nsurvey of this development). In particular, classes of solvability and estimates\nof solutions received considerable attention in this area.\nA Lipschitz graph domain is locally given by\n{x = (x′, xn) ∈ R^n,\nxn > ϕ(x′)},\nwhere ϕ satisﬁes the Lipschitz condition. Replacing here Lipschitz condition\nby H¨older condition, we arrive at the deﬁnition of a H¨older graph domain.\nWith the existing rich theory of boundary value problems in Lipschitz\ngraph domains, the absence of similar results in H¨older graph domains seems\nubiquitous.\nProblem. Address this issue."
+  },
+  {
+    "page_number": 16,
+    "problem_number": "5.6",
+    "problem_text": "5.6. Dirichlet problem in a planar Jordan domain\nLet u be a variational solution of the Dirichlet problem with zero boundary\ndata for the equation\nL_{2m}(D_x) u = f\n(5.6)\nin Ω, where Ω is an arbitrary bounded Jordan domain in R^2 (see Section 3.5),\nf ∈ C^∞_0(Ω) and L_{2m} is a strongly elliptic operator with real constant coeﬃ-\ncients.\nProblem. Prove that the solution satisﬁes\n∫_Ω |∇^m u|^{4−ε} dx < ∞\n(5.7)\nfor every small ε > 0.\nThis problem is unsolved even for the case of the Laplace operator which\nis related to Brennan’s conjecture [7].\nInequality (5.7) holds for an arbitrary piecewise smooth domain without\ncusps, see [33, Chapter 9] and [87, Chapter 4]."
+  },
+  {
+    "page_number": 16,
+    "problem_number": "5.7",
+    "problem_text": "5.7. H¨older regularity of capacitary potential of n-dimensional cube\nIt can be easily proved by a barrier argument that the harmonic capacitary\npotential of the cube {x : 0 ≤ x_i ≤ 1, i = 1, . . . , n} belongs to a certain\nH¨older class C^{α(n)}, 0 < α(n) < 1, which gives rise to the following\nProblem. Describe the asymptotic behaviour of α(n) as n → ∞."
+  },
+  {
+    "page_number": 17,
+    "problem_number": "5.9",
+    "problem_text": "5.9. Self-adjointness of the Laplacian in a weighted L2-space\nLet ρ ∈ L1_loc(Rn), ρ > 0, and let\nL2(ρ) = { u : ∫_{Rn} |u(x)|^2 ρ(x) dx < ∞ }.\nIn 1990 Eidus [14] proved that for n ≥ 3 a necessary condition for the operator ρ^{-1}∆ in L2(ρ) to be self-adjoint is\n∫_{Rn} ρ(x) dx = ∞. (5.8)\nOne can replace (5.8) by\n∫_{Rn \\ F} ρ(x) dx = ∞ (5.9)\nfor all closed sets F with finite harmonic capacity (see [71, Section 17.1]).\nProblem. Show that (5.9) is not sufficient and find a sharp sufficient condition for the self-adjointness of ρ^{-1}∆ in L2(ρ)."
+  },
+  {
+    "page_number": 18,
+    "problem_number": "5.11",
+    "problem_text": "5.11. Pointwise estimates for polyharmonic Green’s functions\nLet Ω be an arbitrary domain in Rn. Green’s function of ∆m is a solution of\n\n∆m_x Gm(x, y) = δ(x − y),    x, y ∈ Ω,\n\nsubject to zero Dirichlet conditions for x ∈ ∂Ω. Here δ is the Dirac function.\n\nProblem. Let n > 2m. Prove or disprove that\n\n|Gm(x, y)| ≤ c(m, n) / |x − y|^{n−2m},    x, y ∈ Ω, x ≠ y,\n\nwhere c(m, n) does not depend on Ω.\n\nThis estimate is known for the dimensions n = 5, 6, 7 if m = 2 and n = 2m + 1, 2m + 2 if m > 2, see [67]."
+  },
+  {
+    "page_number": 18,
+    "problem_number": "5.12",
+    "problem_text": "5.12. Boundedness of solutions to the polyharmonic equation in arbitrary domains\nLet Ω be an arbitrary bounded domain in Rn and suppose n > 2m + 2 if m > 2 and n ≥ 8 if m = 2.\n\nProblem. Prove or disprove that the variational solution of the equation\n\n∆m u = f,    f ∈ C∞_0(Ω),\n\nsubject to zero Dirichlet boundary conditions is in L∞(Ω)."
+  },
+  {
+    "page_number": 19,
+    "problem_number": "5.13",
+    "problem_text": "5.13. Polyharmonic capacitary potentials\nLet m = 1, 2, . . .. The m-harmonic capacity of a compact set F in Rn is defined by\ncap_m(F) = inf {\n  \\sum_{|\\alpha|=m} \\frac{m!}{\\alpha!} \\|\\partial^\\alpha u\\|^2_{L_2(\\mathbb{R}^n)} : u \\in C_0^\\infty(\\Omega),\n  u = 1 in a neighborhood of F\n} \n(5.11)\nwas introduced in [50] (see also [53]) and proved to be useful in the theory of higher order elliptic equations. It is well-known that cap_m(F) = 0 for all compact sets F if 2m \\ge n.\n\nLet n > 2m. One of the definitions of the potential-theoretic Riesz capacity of order 2m is as follows:\nR_{2m}(F) = inf {\n  \\sum_{|\\alpha|=m} \\frac{m!}{\\alpha!} \\|\\partial^\\alpha u\\|^2_{L_2(\\mathbb{R}^n)} : u \\in C_0^\\infty(\\mathbb{R}^n),\\ u \\ge 1 \\text{ on } F\n}.\n(5.12)\nThe capacities cap_m(F) and R_{2m}(F) are equivalent, that is their ratio is bounded and separated from zero by positive constants depending only on n and m (see [57], [62] and [71, Section 13.3]).\n\nThe minimizer in R_{2m} is a Riesz potential of a measure whereas that in cap_m is a Riesz potential of a distribution. The last minimizer will be denoted by U_F. By [67], for the dimensions n = 5, 6, 7 if m = 2 and n = 2m+1, 2m+2 if m > 2, the inequalities\n0 < U_F(x) < 2\n(5.13)\nhold for all x \\in \\mathbb{R}^n \\setminus F. In general, the constant 2 cannot be replaced by 1.\n\nProblem. Is it possible to extend (5.13) for dimensions n \\ge 8 if m = 2, and n \\ge 2m + 3 for m > 2? Another question: is the constant 2 in (5.13) best possible?"
+  },
+  {
+    "page_number": 19,
+    "problem_number": "5.14",
+    "problem_text": "5.14. Subadditivity of the polyharmonic capacity\nLet cap_m(F) and R_{2m}(F) be the capacities defined by (5.11) and (5.12). By the classical potential theory, the Riesz capacity R_{2m} is upper subadditive. However, the following problem is open.\n\nProblem. Prove or disprove that the m-harmonic capacity cap_m is upper subadditive."
+  },
+  {
+    "page_number": 20,
+    "problem_number": "5.15",
+    "problem_text": "5.15. Normal derivative of a harmonic function at a boundary point\nLet a δ-neighborhood of the origin O ∈ ∂Ω be given by the inequality xn > ϕ(x′), where ϕ is a Lipschitz function of the variable x′ ∈ R^{n−1}, ϕ(0) = 0. We assume that the function\n\nω(r) = sup_{|x′|<r} |∇ϕ(x′)|\n\nsatisfies\n\n∫_0^δ ω^2(r)/r \\, dr < ∞.  (5.14)\n\nConsider also the condition\n\n∫_{|ξ|<δ} ϕ(ξ) \\, dξ / |ξ|^n < ∞,  (5.15)\n\nwhere the integral is improper.\n\nThe following property of harmonic functions appeared in mathematical literature at the end of the XIX century: if a harmonic function takes its minimum value at O, then its inner normal derivative at O is strictly positive.\n\nProblem. Prove that under the a priori requirement (5.14), the condition (5.15) is necessary and sufficient for the validity of the just formulated property of harmonic functions.\n\nNote that (5.15) is much weaker than the Dini condition\n\n∫_0^δ ω(r)/r \\, dr < ∞\n\nwhich previously appeared in the same context (see [2], where other references can be found).\n\nRemark. One possible approach is to use the asymptotic formula for harmonic functions near the Lipschitz boundary established in [30]."
+  },
+  {
+    "page_number": 20,
+    "problem_number": "5.16",
+    "problem_text": "5.16. Essential spectrum of a perturbed polyharmonic operator\nConsider the selfadjoint operator L in L^2(R^n) generated by the differential expression\n\n(−Δ)^m + q(x),\n\nwhere q is a locally integrable nonnegative function in R^n.\n\nProblem. Let m > 1 and 2m ≤ n. Is it true that either the essential spectrum of L coincides with the half-axis λ ≥ 0, or the point λ = 0 does not belong to the spectrum of L?\n\nThis “spectral alternative” was established by Putnam [98] for n = 1, m = 1, by Glazman [19] for n ≥ 1, m = 1, and by Yafaev [107] for 2m > n."
+  },
+  {
+    "page_number": 21,
+    "problem_number": "5.17",
+    "problem_text": "5.17. Singularity of Green’s function for second order elliptic equations with\nlower order terms\nIt is well-known that Green’s function G(x, y) of the uniformly elliptic oper-\nator\nLu = −∂\n∂xi\n(\n  aij(x) ∂u\n  ∂xj\n),\n\nn > 2,\nwith measurable bounded coeﬃcients is equivalent to |x −y|2−n near the\npoint y (see [99], [45]).\nProblem. Find necessary and suﬃcient conditions for the coeﬃcients b1, . . . , bn\nand c preserving the equivalence of |x−y|2−n and Green’s function of the op-\nerator\nu →Lu + bi(x) ∂u\n∂xi\n+ c(x) u."
+  },
+  {
+    "page_number": 22,
+    "problem_number": "5.18",
+    "problem_text": "In 1972 [59] I published a result related to the generic degeneration, still\nthe only known one. I assumed that there are smooth manifolds\n\nΓ0 ⊃Γ1 . . . ⊃Γs\n\nof dimensions n −2, n −3, . . . , n −2 −s such that l is tangent to Γj exactly\nat the points of Γj+1, whereas l is nowhere tangent to Γs. A local model of\nthis situation is given by the following:\n\nΩ= {x ∈Rn : x1 > 0},\nΓ = {x1 = 0},\nl = x2∂1 + x3∂2 + . . . + xk∂k−1 + ∂k,\nk ≤n,\nΓj = {x1 = x2 = . . . = x2+j = 0},\nj = 0, . . . , k −2.\n\nSome function spaces of the right-hand side and solutions ensuring the\nunique solvability of the problem are found in [59]. The success was achieved\nby a choice of weight functions in the derivation of a priori estimates for the\nsolution. Additionally, I proved that the inverse operator of the problem is\nalways compact on Lp(Γ), 1 < p ≤∞. It turned out that the tangent mani-\nfolds of codimension greater than one do not inﬂuence the correct statement\nof the problem, contrary to Arnold’s expectations.\n\nHowever, the following problem is still unsolved.\nProblem. Describe the asymptotic behaviour of solutions near the points of\ntangency of the ﬁeld l. In particular, it seems challenging to ﬁnd asymptotics\nnear the point of Γ1 whose neighbourhood contains both points of entrance\nand exit of the ﬁeld l with respect to Γ.\n\nMore generally, it would be interesting to obtain regularity results for\nstrong solutions of the generic degenerating problem."
+  },
+  {
+    "page_number": 22,
+    "problem_number": "5.19",
+    "problem_text": "5.19. Matrix generalization of the oblique derivative problem\nLet Ωbe a domain in Rn. Consider the Laplace equation ∆u = 0 in Ω, where\nu is a k-dimensional vector ﬁeld, and add the condition\n\nn\nX\ni=1\nAi(x) ∂u\n∂xi\n= ϕ(x)\n\non ∂Ω,\nwhere {Ai}1≤i≤n is a collection of k × k matrix function.\nProblem. Develop a theory of solvability of the boundary value problem above\nin the case when the corresponding pseudodiﬀerential operator on ∂Ωis not\nelliptic. An interesting particular case is the boundary condition\n(a + i b) · ∇u = ϕ,\nwhere a and b are real vector ﬁelds and u is a complex-valued scalar function."
+  },
+  {
+    "page_number": 23,
+    "problem_number": "5.20",
+    "problem_text": "5.20. Coercive weighted estimates for elliptic equations in domains with inner cusps\nConsider the Dirichlet problem for an arbitrary elliptic equation of order 2m in a domain Ω ⊂ R^n with inner cusp. Two-sided estimates for derivatives of order 2m of solutions were obtained in [32, Chapter 10] with n > 2m + 1.\nProblem. Obtain estimates of the same nature for n ≤ 2m + 1."
+  },
+  {
+    "page_number": 23,
+    "problem_number": "5.21",
+    "problem_text": "5.21. Multiplicative inequality for the linear elasticity system in an arbitrary domain\nOne of the theorems obtained in [47] reads as follows:\nLet Ω be a three-dimensional domain and let L denote the Lamé operator defined by\nLu = −∆u − α ∇div u,\nwhere α = 1/(1 − 2ν) > −1 and ν is the Poisson’s ratio. Let 1 < q < 3, p = q/(q − 1) and let L^{1,q}_0(Ω) stand for the completion of C^∞_0(Ω) in the Sobolev space L^{1,q}(Ω). By [47], the condition\nα ∈ (α_−, α_+) ≈ (−0.194, 1.524),\n(5.16)\nimplies the inequality\n∥u∥_{L^∞(Ω)} ≤ C ∥Lu∥_{L^p(Ω)}^{1/2} ∥∇u∥_{L^q(Ω)}^{1/2},\n(5.17)\nwhere C is an absolute constant depending only on α.\nProblem. Does (5.17) hold for an arbitrary domain Ω ⊂ R^3 without the assumption (5.16)?"
+  },
+  {
+    "page_number": 23,
+    "problem_number": "5.22",
+    "problem_text": "5.22. L^p-dissipativity of the Lamé operator\nConsider the Dirichlet problem with zero boundary condition for the Lamé operator L defined in the previous section.\nWe say that L is L^p-dissipative if for all u ∈ [C^∞_0(Ω)]^n\n∫_Ω Lu · |u|^{p−2} u dx ≤ 0,\nwhere 1 < p < ∞.\nIn [9, Chapter 3], we prove that for n = 2 the operator L is L^p-dissipative if and only if\n( (1/2 − 1/p)^2 ) ≤ 2(ν − 1)(2ν − 1) / (3 − 4ν)^2.\n(5.18)\nFor n = 3 this inequality is necessary for the L^p-dissipativity of L and there are some sufficient conditions. However, the following problem is unsolved.\nProblem. Prove or disprove that (5.18) is sufficient for the L^p-dissipativity of L in the three-dimensional case."
+  },
+  {
+    "page_number": 24,
+    "problem_number": "5.23",
+    "problem_text": "5.23. Generalized maximum principle for the Lam´e system in a domain with\nnon-Lipschitz graph conical vertex\nLet Ω be a domain with compact closure and whose boundary ∂Ω is smooth\noutside one point. We assume that near this point ∂Ω coincides with a cone,\nnot necessarily a Lipschitz graph.\nWe consider the Dirichlet problem\n∆u + (1 − 2ν)−1∇div u = 0\nin Ω,\nu = g\non ∂Ω,\nwhere ν < 1. The case ν = 1/2 corresponds to the Stokes system, when the\ncondition div u = 0 becomes explicit.\nBy [81] for n = 3 (see also [33, Sections 3.6 and 5.5]) and [13] for n ≥ 3,\nthe generalized maximum principle\n∥u∥C(Ω) ≤ C∥g∥C(∂Ω)\n(5.19)\nholds provided ν ≤ 1/2. The proof fails for ν > 1/2, which gives rise to the\nfollowing\nProblem. Prove (5.19) under the assumption 1/2 < ν < 1."
+  },
+  {
+    "page_number": 24,
+    "problem_number": "5.24",
+    "problem_text": "5.24. Boundedness of the displacement vector in the traction problem in\ndomains with non-Lipschitz graph conical vertices\nLet Ω be a domain in R3 with ∂Ω smooth outside one point, the vertex of\na non-Lipschitz graph cone. Consider the Neumann problem for the linear\nelasticity system\n∂σi,j(u)\n∂xj\n= f\nin Ω,\nσi,j(u) νj = 0\non ∂Ω,\n(5.20)\nwhere f ∈ C∞0(Ω), u is the displacement vector,\nσi,j = λθδi,j + 2µεi,j,\nθ = ε11 + ε22 + ε33,\nεi,j = 1/2 ( ∂ui/∂xj + ∂uj/∂xi ).\nProblem. Prove or disprove that the displacement vector is uniformly bounded.\nIn case of Lipschitz graph domains, the positive answer was given in\n[29], [12], and [11]."
+  },
+  {
+    "page_number": 25,
+    "problem_number": "6.1",
+    "problem_text": "6.1. Nonlinear singularities at the vertex of a cone\nLet ∆p be the p-Laplace operator\nu → div(|∇u|^{p−2} grad u).\nVariational solutions of the Dirichlet problem for the p-Laplace equation in a cone Ω ⊂ R^n with vertex at the origin O ∈ R^n:\n∆p u = 0 in Ω near O,\nu = 0 on ∂Ω near O\nadmit the asymptotics\nu(x) ∼ C|x|^λ Ψ( x/|x| ),\n(6.1)\nsee [37] and [103].\nProblem. No analogue of (6.1) is known for higher order nonlinear equations\n\\[\n\\sum_{|\\alpha|\\le m} \\partial_\\alpha\\bigl(a_\\alpha(\\nabla^m u)\\bigr)=0,\n\\]\nwhere a_α are positive homogeneous vector-valued functions. The same applies elliptic systems of the second order."
+  },
+  {
+    "page_number": 27,
+    "problem_number": "6.5",
+    "problem_text": "6.5. Positive p-harmonic functions in a cone\nLet u denote a positive locally bounded solution of the equation ∆pu = 0 in\na cone vanishing at the boundary.\nProblem. Prove that\nu(x) = C |x|^λ ψ( x/|x| ),\n(6.5)\nwhere λ > 0 and C is an arbitrary constant.\nThe existence of solutions appearing in the right-hand side of (6.5) was\nstudied in [37] and [103]. If the cone is the half-space {x : x_n > 0}, formula\n(6.5) becomes u(x) = C x_n."
+  },
+  {
+    "page_number": 27,
+    "problem_number": "6.6",
+    "problem_text": "6.6. Phragmen-Lindelöf principle for the p-Laplace equation\nBy [58], bounded solutions u(x) of the p-Laplace equation, 1 < p < n, with\nzero Dirichlet data in a δ-neighborhood of a point O ∈ ∂Ω, admit the point-\nwise majorant\nC exp( −c ∫_{|x|}^{δ} ( capp(B_ρ \\ Ω) / capp(B_ρ) )^{1/(p−1)} dρ/ρ ),\nwhere\ncapp(F) = inf { ∥∇u∥_p^p_{L^p(R^n)} : u ∈ C_0^∞(R^n), u ≥ 1 on F }.\n(6.6)\nProblem. Prove the following conjecture. If the energy integral of u is diver-\ngent, then, for 2r < δ,\n∥u∥_{L^p(B_δ \\ B_r)} ≥ c(δ)\n r^{(n−p)/(p−1)} exp( c ∫_{r}^{δ} ( capp(B_ρ \\ Ω) / capp(B_ρ) ) dρ/ρ ).\nThis assertion was established for the linear uniformly elliptic equation\n−∂/∂x_i ( a_{ij}(x) ∂u/∂x_j ) = 0\nwith measurable bounded coefficients in [55]."
+  },
+  {
+    "page_number": 28,
+    "problem_number": "6.7",
+    "problem_text": "has the weak discontinuous solution\nu1 = cos log r,\nu2 = sin log r,\n(6.8)\nwhere r =\np\nx2 + y2 < e−2.\nProblem. Is the right-hand side of (6.8) the only possible isolated singularity\nof solutions to system (6.7) at the origin?"
+  },
+  {
+    "page_number": 28,
+    "problem_number": "6.8",
+    "problem_text": "6.8. Poisson type solutions of Riccati’s equation with Dirichlet data\nLet Ω be a smooth, bounded planar domain and let the origin O be a point\nof ∂Ω. Consider the equation\n∆u + α u2\nx + β u2\ny = 0\nin\nΩ,\nwhere α and β are smooth positive functions given on Ω. We assume that\nthe solution u satisfies u = 0 on ∂Ω\\{O}.\nProblem. Prove that either u = 0 on ∂Ω, or u has a logarithmic singularity\nat O and depends upon an arbitrary constant.\nA formal asymptotic expansion of u near O can be found in [92], also\nfor more general equations."
+  },
+  {
+    "page_number": 28,
+    "problem_number": "7.1",
+    "problem_text": "7.1. Behaviour at infinity of solutions to the Cauchy-Dirichlet problem for a\nsemi-linear parabolic equation\nConsider the equation\n∂u\n∂t −∆u = ∇u A(x) ∇u,\nin the half-cylinder {(x, t) : x ∈ Ω, t > 0}, where A is a positive-definite\nmatrix and Ω is a bounded domain in Rn. Assume that\nu = 0\nfor\nx ∈ ∂Ω, t > 0.\nIf A is the unit matrix, the replacement of u by log v with v > 0 shows\nthat at infinity either u vanishes exponentially, or u behaves as t at any\npositive distance from the boundary.\nProblem. Show that the same alternative holds if A is not the unit matrix.\nDescribe an asymptotic behaviour of unbounded solutions. What happens if\nA is not positive-definite?"
+  },
+  {
+    "page_number": 29,
+    "problem_number": "7.2",
+    "problem_text": "7.2. Two inequalities related to the heat equation\nLet Ω be an open subset of R^n. By [49] and [71, Section 2.5.2], the inequality\n\n∫_Ω |u|^2 dµ ≤ C ∫_Ω |∇u|^2 dx,  (7.1)\n\nwhere µ is a non-negative measure in Ω, holds for all u ∈ C_0^∞(Ω) if and only if\n\nsup_F  µ(F) / cap(F, Ω) < ∞.  (7.2)\n\nHere cap(F, Ω) is the relative harmonic capacity of a compact subset F of Ω with respect to Ω\n\ncap(F, Ω) = inf { ∫_Ω |∇v|^2 dx : v ∈ C^{0,1}(Ω), v ≥ 1 on F }.\n\nInequality (7.1) is important in particular in the theory of the Schrödinger operator ∆ + µ, see [49] and [71, Section 2.5].\n\nThe following inequality finds applications in the theory of the Cauchy-Dirichlet problem for the operator\n\nu ↦ ∂u/∂t − ∆u − µ u\n\nin the cylinder Ω × (0, T), where µ is a measure defined on this cylinder:\n\n∫_{Ω×[0,T)} u^2 dµ(x,t) ≤ C ( ∫_{Ω×[0,T)} |∇_x u|^2 dx dt + sup_{t∈[0,T)} ∫_Ω (u(x,t))^2 dx ).  (7.3)\n\nProblem. Give a complete characterization of the measure µ subject to the inequality (7.3) for all smooth functions u given on Ω × [0, T) and vanishing near ∂Ω × [0, T].\n\nAnswer the same question for the inequality\n\n∫_{Ω×[0,T)} u^2 dµ(x,t) ≤ C ( ∫_{Ω×[0,T)} |∇_x u|^2 dx dt + ∫_0^T || ∂u/∂t ||^2_{L^{-1,2}(Ω)} dt ),\n\nwhere L^{-1,2}(Ω) is the dual space of L^{1,2}_0(Ω).\n\nA necessary condition of type (7.2) obviously holds with the parabolic capacity studied in [97]. Most probably, it is also sufficient."
+  },
+  {
+    "page_number": 29,
+    "problem_number": "7.3",
+    "problem_text": "7.3. Trace space for the maximal operator generated by the wave operator\nLet Ω be a domain in R^1 × R^n and let □_{x,t} = ∂^2/∂t^2 − ∆_x. By □ denote the maximal operator generated by □_{x,t}, i.e. the closure of □_{x,t} defined on C^∞(Ω) in the norm\n\n( ||□_{x,t}u||^2_{L^2(Ω)} + ||u||^2_{L^2(Ω)})^{1/2}.\n\nProblem. Describe the space of boundary traces for functions in the domain of □.\n\nRemark. If Ω = R^{n+1}_+ = { (x,t) : x ∈ R^n, t > 0 }, then by [18, Corollary 4.6.2] the traces in question make up the Besov space B^{1/2,2}(R^n)."
+  },
+  {
+    "page_number": 30,
+    "problem_number": "7.4",
+    "problem_text": "7.4. Characteristic problem for nonlinear hyperbolic operators\nIn [106], the authors study the initial value problem for a hyperbolic linear equation of order 2m, when the initial surface has characteristic points on some compact set Γ. It is proved that the problem is well posed if the set Γ is free from the last initial condition D^{2m−1}_t u = f. In the case m = 1 a similar result was later obtained in [22].\nProblem. Obtain a similar result without linearity assumption for the hyperbolic operator.\nThe only result in this direction known to me is in [6]. It concerns the global characteristic Cauchy problem (Goursat problem) for the nonlinear wave equation. The boundary data in [6] are prescribed on the light cone with two singularities representing both past and future."
+  },
+  {
+    "page_number": 30,
+    "problem_number": "7.5",
+    "problem_text": "7.5. Boundary traces of functions in the domain of a maximal diﬀerential operator with t-dependent coeﬃcients\nLet P(D_t, D_x) be an arbitrary diﬀerential operator acting on functions deﬁned on the half-space R^n_+ = {(x, t) : x ∈ R^n, t > 0} and let P_max be the corresponding maximal operator. The domain of P_max is the completion of the space of functions smooth on R^n_+ and vanishing at inﬁnity in the norm ∥P u∥_{L^2(R^n_+)} + ∥u∥_{L^2(R^n_+)}.\n(7.4)\nIn [18, Chapter 2], an algebraic characterization of boundary traces of functions in the domain of P_max was found.\nProblem. Describe traces on the hyperplane t = 0 of functions in the domain of P_max assuming that P is an arbitrary diﬀerential operator of the ﬁrst order in t with coeﬃcients depending on t.\nThis is only an example which points to the possible development of the theory in [18] for diﬀerential operators with coeﬃcients depending only on t."
+  },
+  {
+    "page_number": 31,
+    "problem_number": "7.7",
+    "problem_text": "7.7. Existence of a well-posed boundary value problem for for general dif-\nferential operators in Lp(Ω)\nH¨ormander (1955) showed the existence of a well-posed boundary value prob-\nlem for every diﬀerential operator with constant coeﬃcients in an arbitrary\nbounded domain. Equivalently, he proved the estimate\n∥u∥L2(Ω) ≤ C ∥L(D) u∥L2(Ω),\n(7.6)\nwhere u is an arbitrary function in C∞\n0 (Ω).\nProblem. Does (7.6) hold with Lp(Ω) instead of L2(Ω)?"
+  },
+  {
+    "page_number": 31,
+    "problem_number": "7.8",
+    "problem_text": "7.8. Existence of a well-posed boundary value problem for unbounded do-\nmains\nEstimate (7.6) fails for some unbounded domains which gives rise to\nProblem. Let L(D) be a diﬀerential operator in Rn with constant coeﬃcients.\nCharacterise the domains satisfying (7.6).\n\nExample. For L(D) = ∆−1, any domain is admissible whereas for L(D) = ∆,\nn = 3, inequality (7.6) holds if and only if Ω does not contain balls with\narbitrary radii. For n ≥ 4, one needs the notion of biharmonic capacity to\nformulate a necessary and suﬃcient condition in terms of a capacitary inner\nradius (see [71, Chapter 16]).\n\nOne can even ask the same question for special operators. For instance,\nit seems interesting to characterize unbounded domains for which the in-\nequalities\n∥u∥Lp(Ω) ≤ C ∥∆u + u∥Lp(Ω),\n∥u∥Lp(Ω) ≤ C ∥□u∥Lp(Ω),\n∥u∥Lp(Ω) ≤ C ∥∂xn u − ∆x′ u∥Lp(Ω)\nhold for all u ∈ C∞\n0 (Ω). Here □ and ∂xn − ∆x′ are the wave and heat operators."
+  },
+  {
+    "page_number": 32,
+    "problem_number": "8.1",
+    "problem_text": "8. Stationary Stokes and Navier-Stokes systems\n8.1. Hölder regularity of solutions to the n-dimensional Dirichlet-Stokes problem\nConsider the Dirichlet problem for the Stokes system\n\n−ν ∆v + ∇p = f\nin Ω\n\ndiv v = 0\nin Ω\n\nv = g\non ∂Ω\n\nwhere Ω is a polyhedron in R^n, n ≥ 3, and v ∈ L^{1,2}(Ω).\n\nProblem. Assuming that g belongs to the Hölder space C^{0,α}(∂Ω) for a certain α ∈ (0, 1), prove that there exists β ∈ (0, 1) such that v ∈ C^{0,β}(Ω).\n\nRemark. The starting point could be the following property obtained in [13]: for any solution of the form |x|^λ ψ(x/|x|) with Re λ > 1 − n/2 one has Re λ > 0."
+  },
+  {
+    "page_number": 32,
+    "problem_number": "8.2",
+    "problem_text": "8. Stationary Stokes and Navier-Stokes systems\n8.2. Differentiability of solutions to the Dirichlet problem for the equations of hydrodynamics in convex domains\nConsider the Dirichlet problem for the Stokes system\n\n−ν ∆v + ∇p = f\nin Ω\n\ndiv v = 0\nin Ω\n\nv = g\non ∂Ω\n\n(8.1)\n\nThe following result is obtained in [30, Section 6.3].\nLet Ω be a bounded convex two-dimensional domain and let f ∈ L^q(Ω), for some q > 2. Then v ∈ C^{0,1}(Ω), i.e. v is Lipschitz and\n\n∥v∥_{C^{0,1}(Ω)} ≤ C ∥f∥_{L^q(Ω)},\n\nwhere C depends only on Ω.\n\nThe following similar result for the Navier-Stokes system was also established in [30, Section 6.3].\nLet L^{1,2}_0 be the space introduced in Section 3.4. Suppose that (v, p) ∈ L^{1,2}_0(Ω) × L^2(Ω) satisfy the Dirichlet problem\n\n−ν ∆v + ∇p + \n∑_{1≤k≤2} v_k ∂_{x_k} v = f\nin Ω\n\ndiv v = 0\nin Ω\n\nv = 0\non ∂Ω\n\nwhere Ω is a bounded convex two-dimensional domain and f ∈ L^q(Ω) for some q > 2. Then v ∈ C^{0,1}(Ω).\n\nProblem. Show that the above two facts hold with q > 2 replaced by q > 3 for the three-dimensional case."
+  },
+  {
+    "page_number": 33,
+    "problem_number": "8.3",
+    "problem_text": "8.3. Boundedness of solutions to the Dirichlet problem for the Stokes system\nin arbitrary 3D domains\nLet Ω be an arbitrary bounded three-dimensional domain. Consider the\nDirichlet problem (8.1).\nProblem. Prove or disprove that the variational solutions are uniformly bounded\nin Ω."
+  },
+  {
+    "page_number": 33,
+    "problem_number": "8.4",
+    "problem_text": "8.4. Resolvent Lp-estimates for the Dirichlet-Stokes operator\nLet Rλ be the resolvent operator of the Dirichlet problem\n∆v + ∇p + λ v = f\nin Ω\ndiv v = 0\nin Ω\nv = 0\non ∂Ω,\nwhere λ ∈ R1 and Ω is a bounded domain in Rn.\nProblem. 1. Justify the following conjecture. If Ω ⊂ Rn is convex, then, for\nall λ ∈ R1 \\ {0} and 1 < p < ∞,\n∥Rλ∥Lp(Ω)→Lp(Ω) ≤ c\n|λ|,\n(8.2)\nwhere c is a constant which does not depend on λ.\n2. Let Ω be smooth outside of a smooth (n−2)-dimensional submanifold\nM without boundary. Assume that ∂Ω has a reentrant dihedral angle with\nedge M and opening α > π. Prove that (8.2) holds for all λ ∈ R1 \\ {0} if\n|1/p − 1/2| < π/(2α).\nNote that for three-dimensional Lipschitz graph domains the question\nof validity of (8.2) for\n3/2 − ε < p < 3 + ε\nwith certain ε > 0, was raised by M. Taylor [102] and answered affirmatively\nZ. Shen [100]."
+  },
+  {
+    "page_number": 33,
+    "problem_number": "8.5",
+    "problem_text": "8.5. Non-uniqueness for the stationary Navier-Stokes system with Dirichlet\ndata\nLet Ω be a simply connected bounded domain in R3. It is well known [40] that\nthe Dirichlet problem for the stationary Navier-Stokes system has at most\none variational solution provided the Reynolds number is sufficiently small.\nIt seems probable that the uniqueness fails for large Reynolds numbers.\nProblem. Construct a counterexample showing that the just mentioned Dirich-\nlet problem may have more than one solution for small viscosity and big data.\nThis problem is classical but seems half-forgotten to me. Therefore,\nI include it in the present list."
+  },
+  {
+    "page_number": 34,
+    "problem_number": "9.1",
+    "problem_text": "9. Theory of surface waves\n9.1. Well-posed Neumann-Kelvin problem for a surface-piercing body\nWhen solving the seakeeping problem with forward speed which is called Neumann-Kelvin problem, one looks for a velocity potential u(x, y, z) defined on a lower half-space outside the wetted part S of a body moving in the x-direction. The normal derivative of u is prescribed on S and the condition\n\n∂²u/∂x² + ν ∂u/∂z = 0,\nν = const > 0,\n\nshould be satisfied on the flat surface F outside the body (see [38, Chapter 8]). This classical boundary value problem is in an unsatisfactory state both from theoretical and numerical points of view.\n\nProblem. Verify the following conjecture. The Neumann-Kelvin problem becomes Fredholm if the above formulation is completed by prescribing the elevation of the free surface on a part of the water line L, to be more precise, by adding the values of ∂u/∂x at those points of L where the angle between the exterior normal to L and the x-axis is not greater than π/2.\n\nNote that the asymptotics of u near the curve L is not known. However, the existence of ∂u/∂x is suggested by the asymptotic formula (8.8) in [38] obtained for the two-dimensional case."
+  },
+  {
+    "page_number": 35,
+    "problem_number": "9.3",
+    "problem_text": "9.3. Counterexample in the water-wave problem for a submerged body\nLet us use the geometrical assumptions made in Section 48. The boundary value problem of harmonic oscillations of the ﬂuid induced by a submerged body is stated as follows. The function u satisﬁes (9.1), (9.3), while (9.2) is replaced by\n\n∂u/∂y − ν u = 0  for y = 0\n\nand a radiation condition at inﬁnity is required (see [38]).\n\nIn [64] a class of domains is found for which the problem in question is uniquely solvable for all ν > 0, see also [38, Chapter 1].\n\nProblem. Construct an example of a connected set Ω showing that some restrictions on Ω ensuring solvability are necessary."
+  },
+  {
+    "page_number": 35,
+    "problem_number": "9.4",
+    "problem_text": "9.4. Sharp Hardy-Leray inequality for divergence-free ﬁelds\nLet u denote a vector ﬁeld in R^n with components in C^∞_0(R^n). The following n-dimensional generalization of the one-dimensional Hardy inequality [21]\n\n∫_{R^n} |u|^2/|x|^2 dx ≤ 4/(n − 2)^2 ∫_{R^n} |∇u|^2 dx  (9.5)\n\nappears for n = 3 in Leray’s pioneering paper on the Navier-Stokes equations [42]. The constant factor on the right-hand side is sharp. Since one frequently deals with divergence-free ﬁelds in hydrodynamics, it is natural to ask whether this restriction can improve the constant in (9.5).\n\nIt is shown in [10] that this is the case indeed if n > 2 and the vector ﬁeld u is axisymmetric by proving that the aforementioned constant can be replaced by the (smaller) optimal value\n\n4/(n − 2)^2 ( 1 − 8/(n + 2)^2 )  (9.6)"
+  },
+  {
+    "page_number": 36,
+    "problem_number": "10.1",
+    "problem_text": "10. Miscellaneous topics\n10.1. A modified Riemann’s zeta function appearing in a non-local parabolic Cauchy problem\nLet C be a unit circle and let u denote a function defined on C. Consider the integral operator A:\n(Au)(x) = \n\\[\\int_C \\frac{u(x)-u(y)}{|x-y|}\\,|dy|.\\]\nThe spectrum of A is described in [79, Section 12.2.2].\nProblem. Show that the fundamental solution of the Cauchy problem for the operator\n(d/dt) + A,\n t > 0,\nwhich is reminiscent of the modified Riemann zeta function\n\\[f(z) = \\sum_{n\\ge 1} \\exp\\Bigl(-z \\sum_{1\\le k\\le n}\\frac{1}{k}\\Bigr),\\]\nadmits a meromorphic extension to the complex z = t + i\\,\\tau plane. Study properties of this extension."
+  },
+  {
+    "page_number": 37,
+    "problem_number": "10.2",
+    "problem_text": "However, the following problem is still open.\nProblem. Give a complete characterization of the uniqueness sets for analytic\nfunctions in the class A1,p(U)."
+  },
+  {
+    "page_number": 37,
+    "problem_number": "10.3",
+    "problem_text": "10.3. Hybrid iterative methods for solving boundary value problems\nIn [34], a mathematical justification of certain new iterative schemes used\nin solving the Dirichlet and Neumann problems for the Laplace equation is\ngiven. These schemes are based on a combination of Green’s formula and some\nnumerical methods, FEM, for example, which is applied to some auxiliary\nmixed boundary value problem on a subset of the original domain.\nThe proofs in [34] rely upon geometrical requirements on the boundary\nof the domain of strong convexity type which do not seem natural.\nProblem. Extend the class of domains with preservation of convergence of\nthe iterative procedures proposed in [34]."
+  },
+  {
+    "page_number": 37,
+    "problem_number": "10.4",
+    "problem_text": "10.4. Asymptotic optimization of multi-structures\nThe present section concerns boundary value problems for multi-structures,\ni.e. domains dependent on small parameters in such a way that the limit\nregion, as parameters tend to zero, consists of subsets of different space di-\nmensions. Asymptotic analysis of physical fields in multi-structures is devel-\noped in [31], [77] and elsewhere. Direct methods of variational calculus are\noften ineffective for solving problems of optimal control of multi-structures\nbecause of their complicated geometry. However, [77, Remark 4.4] suggests\nthe following promising\nProblem. Apply algebraic optimization methods to asymptotic approxima-\ntions of fields in 1D −3D multi-structures."
+  }
+]

@@ -50,7 +50,7 @@ test_artifacts/
 src/baml_client/
 
 # Generated files
-all_problems.json
+# all_problems.json - Now tracked for formalization workflow
 test_problems.json
 
 # GAP build artifacts in root (allow gap/ submodule directory)

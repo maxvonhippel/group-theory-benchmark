@@ -34,7 +34,7 @@ def generate_formalization_prompt(problem):
     problem_num = problem.get('problem_number', 'unknown')
     problem_text = problem.get('problem_text', 'No problem text')
     
-    prompt = f"""You are formalizing Kourovka Notebook problem #{problem_num} in Lean 4.
+    prompt = f"""You are formalizing problem #{problem_num} in Lean 4.
 
 **Problem Statement:**
 {problem_text}
@@ -59,6 +59,7 @@ Create a PERFECT formalization of this problem in Lean 4 with sorry's for unsolv
 Some problems cannot be properly formalized because they are:
 - Too vague or ambiguous
 - Open-ended (e.g., "classify all groups with property X")
+- Meta-mathematical questions about decidability/computability
 - Asking for examples/constructions rather than statements
 - Using concepts not expressible in current Lean/Mathlib
 - Missing critical context or definitions
@@ -67,19 +68,23 @@ If you determine the problem CANNOT be properly formalized:
 1. Create a file: cannot_formalize.txt
 2. Write a clear explanation of why (2-3 sentences)
 3. DO NOT create formalization.lean
-4. Exit
+4. Type /quit and press ENTER to exit immediately
 
 **Workflow:**
 1. Analyze the problem statement carefully
 2. Determine if it CAN be formalized as a precise mathematical statement
-3. If NO: Write cannot_formalize.txt and exit
+3. If NO: Write cannot_formalize.txt, type /quit, press ENTER, and exit
 4. If YES: Write the Lean formalization
 5. Test it with lean CLI
-6. If it compiles perfectly: SUCCESS
-7. If it doesn't compile: Explain in cannot_formalize.txt and exit
+6. If it compiles perfectly: Type /quit and press ENTER to exit
+7. If it doesn't compile: Write cannot_formalize.txt explaining why, type /quit, press ENTER, and exit
 
-DO NOT submit imperfect formalizations.
-Only output code that compiles perfectly OR explain why formalization is impossible.
+**IMPORTANT:**
+- DO NOT submit imperfect formalizations
+- DO NOT wait for user input after completing your task
+- ALWAYS type /quit and press ENTER when you're done
+- If you determine it cannot be formalized, ACCEPT that decision and exit
+- Only output code that compiles perfectly OR explain why formalization is impossible
 
 Begin your formalization now."""
     

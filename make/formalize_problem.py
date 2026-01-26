@@ -129,12 +129,18 @@ def validate_lean_file(lean_file, problem_dir):
         return False, "", "Lake not found. Run 'make setup' first."
 
 def run_claude_formalization(prompt, problem_dir):
-    """Run Claude to generate formalization.
+    """Run Claude to generate formalization with active monitoring.
+    
+    Uses subprocess.Popen() with active file monitoring to detect when output
+    files are created and immediately terminate Claude process, avoiding
+    10-minute timeout waits.
     
     Args:
         prompt: The formalization prompt text
         problem_dir: Path to the problem directory where outputs should be created
     """
+    import time
+    
     prompt_file = Path("/tmp/formalize_prompt.txt")
     prompt_file.write_text(prompt)
     
@@ -168,9 +174,8 @@ def run_claude_formalization(prompt, problem_dir):
     print("=" * 60)
     
     try:
-        # Run Claude from within the problem directory
-        # This way "formalization.lean" is created in the correct location
-        result = subprocess.run(
+        # Start Claude process with Popen for active monitoring
+        process = subprocess.Popen(
             [
                 'claude',
                 '--model', 'opus',
@@ -178,31 +183,68 @@ def run_claude_formalization(prompt, problem_dir):
                 '--dangerously-skip-permissions'
             ],
             stdin=open(prompt_file),
-            capture_output=False,  # Let output stream
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
             text=True,
-            timeout=600,  # 10 minutes for Mathlib builds
             cwd=str(problem_dir)  # Run from problem directory
         )
         
-        # Check for output files in problem directory
-        # This handles cases where kill -9 terminates the process with signal exit code
-        # but the formalization was completed successfully before termination
+        # Track output files
         lean_file = problem_dir / "formalization.lean"
         cannot_file = problem_dir / "cannot_formalize.txt"
         
+        # Poll for completion with active monitoring
+        start_time = time.time()
+        max_timeout = 600  # 10 minutes max
+        check_interval = 1  # Check every second
+        
+        while process.poll() is None:
+            # Check if output files exist
+            if lean_file.exists() or cannot_file.exists():
+                print("\nOutput file detected - terminating Claude process...")
+                process.terminate()
+                try:
+                    process.wait(timeout=5)
+                except subprocess.TimeoutExpired:
+                    print("Force killing Claude process...")
+                    process.kill()
+                    process.wait()
+                break
+            
+            # Check timeout
+            elapsed = time.time() - start_time
+            if elapsed > max_timeout:
+                print(f"\nTimeout reached ({max_timeout}s) - terminating Claude process...")
+                process.terminate()
+                try:
+                    process.wait(timeout=5)
+                except subprocess.TimeoutExpired:
+                    process.kill()
+                    process.wait()
+                break
+            
+            # Sleep briefly before next check
+            time.sleep(check_interval)
+        
+        # Check for output files in problem directory
         if lean_file.exists() or cannot_file.exists():
             return True  # Task completed successfully (output files exist)
         
-        # No output files exist - check if normal exit
-        if result.returncode == 0:
+        # No output files exist - check exit code
+        if process.returncode == 0:
             return False  # Normal exit but no outputs = failure
         
         return False  # Process failed without producing output
-    except subprocess.TimeoutExpired:
-        print("\nError: Claude formalization timed out")
-        return False
+        
     except KeyboardInterrupt:
         print("\nFormalization interrupted by user")
+        if process.poll() is None:
+            process.terminate()
+            try:
+                process.wait(timeout=5)
+            except subprocess.TimeoutExpired:
+                process.kill()
+                process.wait()
         return False
 
 def get_problem_dir(problem_num, list_name="kourovka"):

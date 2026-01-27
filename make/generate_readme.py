@@ -163,37 +163,37 @@ def scan_problem_solutions(list_name: Optional[str] = None) -> list[dict[str, An
 
 
 def get_status_display(sol: dict[str, Any]) -> str:
-    """Get display string for solution status with HTML color styling."""
+    """Get display string for solution status with colored circle indicators."""
     status = sol.get('status')
     formalization_status = sol.get('formalization_status')
 
     # Check formalization_status first
     if formalization_status == 'formalized':
-        return '<span style="color: green">✓ Formalized (unsolved)</span>'
+        return "🟢 Formalized (unsolved)"
     elif formalization_status == 'cannot_formalize':
-        return '<span style="color: red">✗ Cannot formalize</span>'
+        return "🔴 Cannot formalize"
 
     if status == STATUS_NEW_COUNTEREXAMPLE:
-        return '<span style="color: purple">★ NEW counterexample</span>'
+        return "🟣 NEW counterexample"
     elif status == STATUS_NEW_PROOF:
-        return '<span style="color: purple">★ NEW proof</span>'
+        return "🟣 NEW proof"
     elif status == STATUS_PRIOR_RESULT_VERIFIED:
-        return '<span style="color: green">✓ Prior result verified</span>'
+        return "🟢 Prior result verified"
     elif status == STATUS_FORMALIZED_UNSOLVED:
-        return '<span style="color: green">✓ Formalized (unsolved)</span>'
+        return "🟢 Formalized (unsolved)"
     elif status == STATUS_COULD_NOT_FORMALIZE:
-        return '<span style="color: red">✗ Could not formalize</span>'
+        return "🔴 Could not formalize"
     else:
         # Infer from artifacts if no explicit status
         if sol['disproof']:
-            return '<span style="color: orange">⚠ Counterexample (unverified)</span>'
+            return "🟡 Counterexample (unverified)"
         elif sol['proof']:
-            return '<span style="color: orange">⚠ Proof (unverified)</span>'
+            return "🟡 Proof (unverified)"
         elif sol['formalization']:
-            return '<span style="color: green">✓ Formalized (unsolved)</span>'
+            return "🟢 Formalized (unsolved)"
         elif sol['attempt_summary']:
-            return '<span style="color: red">✗ Could not formalize</span>'
-        return '<span style="color: gray">? Unknown</span>'
+            return "🔴 Could not formalize"
+        return "⚪ Unknown"
 
 
 def generate_solution_table(solutions: list[dict[str, Any]], show_list_column: bool = True) -> str:
@@ -206,13 +206,13 @@ def generate_solution_table(solutions: list[dict[str, Any]], show_list_column: b
     table += "[No AI-generated proof should be trusted without human review, no matter how formal.]"
     table += "(https://www.lesswrong.com/posts/rhAPh3YzhPoBNpgHg/lies-damned-lies-and-proofs-formal-methods-are-not-slopless)\n\n"
     
-    # Add legend for status indicators with HTML colors
+    # Add legend for status indicators
     table += "**Legend**: "
-    table += '<span style="color: green">✓ Success</span> | '
-    table += '<span style="color: red">✗ Cannot formalize</span> | '
-    table += '<span style="color: orange">⚠ Unverified</span> | '
-    table += '<span style="color: purple">★ New result</span> | '
-    table += '<span style="color: gray">? Unknown</span>\n\n'
+    table += "🟢 Success | "
+    table += "🔴 Cannot formalize | "
+    table += "🟡 Unverified | "
+    table += "🟣 New result | "
+    table += "⚪ Unknown\n\n"
 
     if show_list_column:
         table += "| Problem | List | Artifact | Status | Human Review |\n"
@@ -322,9 +322,9 @@ def generate_readme(list_name: Optional[str] = None) -> str:
     readme += "Open problems in computational and combinatorial geometry\n"
     readme += "- **[100 Open Problems](https://arxiv.org/abs/2404.07513)** by Ben Green: "
     readme += "Research-level problems in additive combinatorics and number theory\n"
-    readme += "- **Some open problems in analysis** by A.G. Ramm: "
+    readme += "- **[Some open problems in analysis](https://www.math.ksu.edu/~ramm/papers/547.pdf)** by A.G. Ramm: "
     readme += "Open problems in Radon transforms, operator theory, and PDEs\n"
-    readme += "- **Seventy Five (Thousand) Unsolved Problems in Analysis and PDEs** by Vladimir Maz'ya: "
+    readme += "- **[Seventy Five (Thousand) Unsolved Problems in Analysis and PDEs](https://users.mai.liu.se/vlama82/pdf/Problems2018l_0312.pdf)** by Vladimir Maz'ya: "
     readme += "Comprehensive collection of open problems in analysis and partial differential equations\n\n"
     
     # Add citation section

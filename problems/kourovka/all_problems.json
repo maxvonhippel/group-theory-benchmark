@@ -50,7 +50,9 @@
   {
     "page_number": 5,
     "problem_number": "1.33",
-    "problem_text": "(A. I. Mal\u2019cev). Describe the automorphism group of a free solvable group. M. I. Kargapolov"
+    "problem_text": "(A. I. Mal\u2019cev). Describe the automorphism group of a free solvable group. M. I. Kargapolov",
+    "formalization_status": "cannot_formalize",
+    "formalization_reason": "This problem cannot be formalized because it asks to \"describe\" the automorphism group of a free solvable group, which is an open-ended characterization request rather than a precise mathematical statement to verify. A formalization would require knowing the specific structural theorem being asked for (e.g., \"Aut(F_n^(c)) is isomorphic to X\"), but the problem statement leaves this open. Different valid descriptions exist at different levels of detail, and \"describe\" is not a formalizable predicate."
   },
   {
     "page_number": 5,
@@ -70,17 +72,23 @@
   {
     "page_number": 5,
     "problem_number": "1.51",
-    "problem_text": "What conditions ensure a matrix group over a field (of complex numbers) to be orderable? A. I. Kokorin"
+    "problem_text": "What conditions ensure a matrix group over a field (of complex numbers) to be orderable? A. I. Kokorin",
+    "formalization_status": "cannot_formalize",
+    "formalization_reason": "This problem cannot be formalized because it is an open-ended research question asking \"what conditions ensure...\" rather than stating a specific conjecture or theorem. The problem asks to identify or characterize the conditions that make a matrix group over the complex numbers orderable, which requires discovering the answer rather than proving a given statement. A formalization would require knowing the specific conditions to state as hypotheses, but the problem itself is asking what those conditions should be."
   },
   {
     "page_number": 5,
     "problem_number": "1.54",
-    "problem_text": "Describe all linear orderings of a free metabelian group with a finite number of generators. A. I. Kokorin"
+    "problem_text": "Describe all linear orderings of a free metabelian group with a finite number of generators. A. I. Kokorin",
+    "formalization_status": "cannot_formalize",
+    "formalization_reason": "This problem asks to \"describe all linear orderings\" of free metabelian groups, which is an open-ended classification problem rather than a precise theorem statement. Formalizing such a problem would require already knowing the complete answer (the classification) and then stating that this classification is correct. Without the specific characterization being provided, there is no definite mathematical statement to formalize - the problem is asking for the description itself, not asking to verify a given description."
   },
   {
     "page_number": 5,
     "problem_number": "1.55",
-    "problem_text": "Give an elementary classification of linearly ordered free groups with a fixed number of generators. A. I. Kokorin"
+    "problem_text": "Give an elementary classification of linearly ordered free groups with a fixed number of generators. A. I. Kokorin",
+    "formalization_status": "cannot_formalize",
+    "formalization_reason": "This problem asks for a \"classification\" of linearly ordered free groups with a fixed number of generators. This is an open-ended research problem requesting a description/enumeration of mathematical structures, not a theorem that can be stated as a single logical proposition. A formalization would require knowing the answer to the classification problem itself, which would then need to be expressed as something like \"the set of all linear orders on F_n compatible with the group operation is in bijection with X\" - but determining what X should be is precisely the mathematical content being requested."
   },
   {
     "page_number": 6,
@@ -90,22 +98,30 @@
   {
     "page_number": 6,
     "problem_number": "1.67",
-    "problem_text": "1.67. Suppose that G is a finitely presented group, F a free group whose rank is equal to the minimal number of generators of G, with a fixed homomorphism of F onto G with kernel N. Find a complete system of invariants of the factor-group of N by the commutator subgroup [F, N].\nL. Ya. Kulikov"
+    "problem_text": "1.67. Suppose that G is a finitely presented group, F a free group whose rank is equal to the minimal number of generators of G, with a fixed homomorphism of F onto G with kernel N. Find a complete system of invariants of the factor-group of N by the commutator subgroup [F, N].\nL. Ya. Kulikov",
+    "formalization_status": "cannot_formalize",
+    "formalization_reason": "This problem cannot be formalized because it asks to \"find a complete system of invariants\" for a quotient group. This is an open-ended classification/characterization problem requesting mathematical discovery, not a theorem statement that can be proven true or false. A formalization would require knowing the answer first (what the invariants are), which is precisely what the problem is asking to discover."
   },
   {
     "page_number": 6,
     "problem_number": "1.74",
-    "problem_text": "1.74. Describe all minimal topological groups, that is, non-discrete groups all of whose closed subgroups are discrete. The minimal locally compact groups can be described without much effort. At the same time, the problem is probably complicated in the general case.\nV. P. Platonov"
+    "problem_text": "1.74. Describe all minimal topological groups, that is, non-discrete groups all of whose closed subgroups are discrete. The minimal locally compact groups can be described without much effort. At the same time, the problem is probably complicated in the general case.\nV. P. Platonov",
+    "formalization_status": "cannot_formalize",
+    "formalization_reason": "This problem asks to \"Describe all minimal topological groups\" - a classification/characterization request rather than a theorem to prove. While the definition of a minimal topological group (a non-discrete topological group whose closed subgroups are all discrete) can be formalized, the problem itself is open-ended and asks for an unknown answer rather than verification of a specific conjecture. There is no theorem statement to formalize; the \"theorem\" would be the classification itself, which is what the problem is asking to discover."
   },
   {
     "page_number": 6,
     "problem_number": "1.86",
-    "problem_text": "1.86. Is it true that the identical relations of a polycyclic group have a finite basis?\nA. L. Shmel\u2019kin"
+    "problem_text": "1.86. Is it true that the identical relations of a polycyclic group have a finite basis?\nA. L. Shmel\u2019kin",
+    "formalization_status": "cannot_formalize",
+    "formalization_reason": "This problem asks whether the \"identical relations\" (laws/identities) of a polycyclic group have a finite basis. This is a question about varieties of groups and finitely based equational theories from universal algebra. Mathlib lacks the necessary framework: neither polycyclic groups, nor the concept of group identities (elements of a free group that evaluate to 1 under all substitutions), nor the notion of a variety being \"finitely based\" are available. Formalizing this would require building substantial universal algebra infrastructure beyond what currently exists."
   },
   {
     "page_number": 6,
     "problem_number": "1.87",
-    "problem_text": "1.87. The same question for matrix groups (at least over a field of characteristic 0).\nA. L. Shmel\u2019kin"
+    "problem_text": "1.87. The same question for matrix groups (at least over a field of characteristic 0).\nA. L. Shmel\u2019kin",
+    "formalization_status": "cannot_formalize",
+    "formalization_reason": "This problem asks \"the same question\" as 1.86 (whether identical relations have a finite basis) but for matrix groups over fields of characteristic 0. It requires formalizing: (1) group identities/laws (elements of a free group that evaluate to 1 under all substitutions), (2) the notion of a set of identities being \"finitely based\" (generated as a fully invariant subgroup by finitely many identities), and (3) the variety generated by matrix groups. Mathlib lacks the necessary universal algebra infrastructure for group identities and finitely based equational theories, making formalization impossible with current tools."
   },
   {
     "page_number": 7,
@@ -115,17 +131,23 @@
   {
     "page_number": 7,
     "problem_number": "2.6",
-    "problem_text": "In an NR-group, the set of generalized central elements coincides with the nil-kernel.\nIs the converse true, that is, must a group be an NR-group if the set of generalized central elements coincides with the nil-kernel?\nV. G. Vilyatser"
+    "problem_text": "In an NR-group, the set of generalized central elements coincides with the nil-kernel.\nIs the converse true, that is, must a group be an NR-group if the set of generalized central elements coincides with the nil-kernel?\nV. G. Vilyatser",
+    "formalization_status": "cannot_formalize",
+    "formalization_reason": "This problem cannot be formalized because it uses specialized concepts from 1960s Soviet group theory that have no standard definitions in modern mathematical literature or Mathlib: \"NR-groups\" (groups where nil-elements coincide with the locally nilpotent radical), \"generalized central elements,\" and \"nil-kernel.\" These concepts would require substantial foundational development to define properly, and without precise, universally agreed-upon definitions available, any formalization would be speculative rather than accurate."
   },
   {
     "page_number": 7,
     "problem_number": "2.9",
-    "problem_text": "Do there exist regular associative operations on the class of groups satisfying the weakened Mal\u2019cev condition (that is, monomorphisms of the factors of an arbitrary product can be glued together, generally speaking, into a homomorphism of the whole product), but not satisfying the analogous condition for epimorphisms of the factors?\nO. N. Golovin"
+    "problem_text": "Do there exist regular associative operations on the class of groups satisfying the weakened Mal\u2019cev condition (that is, monomorphisms of the factors of an arbitrary product can be glued together, generally speaking, into a homomorphism of the whole product), but not satisfying the analogous condition for epimorphisms of the factors?\nO. N. Golovin",
+    "formalization_status": "cannot_formalize",
+    "formalization_reason": "This problem cannot be formalized because it involves meta-mathematical concepts from universal algebra that are not expressible in current Lean/Mathlib: specifically, \"regular associative operations on the class of groups\" and \"Mal'cev conditions\" which require reasoning about proper classes of algebraic structures and properties of variety-theoretic operations. The problem asks for the existence of abstract categorical constructions with specific properties, which is a question about the landscape of possible algebraic theories rather than a concrete mathematical statement amenable to type-theoretic formalization."
   },
   {
     "page_number": 7,
     "problem_number": "2.22",
-    "problem_text": "a) An abstract group-theoretic property \u03a3 is said to be radical (in our sense) if, in any group G, the subgroup \u03a3(G) generated by all normal \u03a3-subgroups is a \u03a3-subgroup itself (called the \u03a3-radical of G). A radical property \u03a3 is said to be strongly radical if, for any group G, the factor-group G/\u03a3(G) contains no non-trivial normal \u03a3-subgroups. Is the property RN radical? strongly radical?\nSh. S. Kemkhadze"
+    "problem_text": "a) An abstract group-theoretic property \u03a3 is said to be radical (in our sense) if, in any group G, the subgroup \u03a3(G) generated by all normal \u03a3-subgroups is a \u03a3-subgroup itself (called the \u03a3-radical of G). A radical property \u03a3 is said to be strongly radical if, for any group G, the factor-group G/\u03a3(G) contains no non-trivial normal \u03a3-subgroups. Is the property RN radical? strongly radical?\nSh. S. Kemkhadze",
+    "formalization_status": "cannot_formalize",
+    "formalization_reason": "The problem references \"the property RN\" without defining what RN means. This term appears throughout the Kourovka Notebook (problems 1.69, 1.70, 2.22, 2.23, 2.71, 8.17) but is never explicitly defined in any available problem text. While \"RN\" likely refers to \"residually nilpotent\" based on common group theory conventions, the problem statement relies on an undefined external reference, making a precise formalization impossible without assuming the definition."
   },
   {
     "page_number": 7,

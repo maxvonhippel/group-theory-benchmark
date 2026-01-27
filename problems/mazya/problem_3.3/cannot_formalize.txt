@@ -1,0 +1,7 @@
+This problem cannot be formalized in Lean 4 for several reasons:
+
+1. It is an open conjecture asking for justification/proof, not a precise theorem statement.
+
+2. The required mathematical infrastructure is not available in Mathlib: Sobolev spaces W^{1,p}(Ω), trace operators on boundaries, Besov spaces L^{α,p}(∂Ω), L^{1,p}-capacity, "quasi-everywhere" statements, weakly Lipschitz domains, and locally rectifiable arcs with path integrals.
+
+3. The statement relies on external references [83, Chapter 6] and [17] for key definitions (e.g., "extremal length"), making it not self-contained.

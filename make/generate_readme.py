@@ -163,37 +163,37 @@ def scan_problem_solutions(list_name: Optional[str] = None) -> list[dict[str, An
 
 
 def get_status_display(sol: dict[str, Any]) -> str:
-    """Get display string for solution status."""
+    """Get display string for solution status with HTML color styling."""
     status = sol.get('status')
     formalization_status = sol.get('formalization_status')
 
     # Check formalization_status first
     if formalization_status == 'formalized':
-        return "Formalized (unsolved)"
+        return '<span style="color: green">✓ Formalized (unsolved)</span>'
     elif formalization_status == 'cannot_formalize':
-        return "Cannot formalize"
+        return '<span style="color: red">✗ Cannot formalize</span>'
 
     if status == STATUS_NEW_COUNTEREXAMPLE:
-        return "NEW counterexample"
+        return '<span style="color: purple">★ NEW counterexample</span>'
     elif status == STATUS_NEW_PROOF:
-        return "NEW proof"
+        return '<span style="color: purple">★ NEW proof</span>'
     elif status == STATUS_PRIOR_RESULT_VERIFIED:
-        return "Prior result verified"
+        return '<span style="color: green">✓ Prior result verified</span>'
     elif status == STATUS_FORMALIZED_UNSOLVED:
-        return "Formalized (unsolved)"
+        return '<span style="color: green">✓ Formalized (unsolved)</span>'
     elif status == STATUS_COULD_NOT_FORMALIZE:
-        return "Could not formalize"
+        return '<span style="color: red">✗ Could not formalize</span>'
     else:
         # Infer from artifacts if no explicit status
         if sol['disproof']:
-            return "Counterexample (unverified)"
+            return '<span style="color: orange">⚠ Counterexample (unverified)</span>'
         elif sol['proof']:
-            return "Proof (unverified)"
+            return '<span style="color: orange">⚠ Proof (unverified)</span>'
         elif sol['formalization']:
-            return "Formalized (unsolved)"
+            return '<span style="color: green">✓ Formalized (unsolved)</span>'
         elif sol['attempt_summary']:
-            return "Could not formalize"
-        return "Unknown"
+            return '<span style="color: red">✗ Could not formalize</span>'
+        return '<span style="color: gray">? Unknown</span>'
 
 
 def generate_solution_table(solutions: list[dict[str, Any]], show_list_column: bool = True) -> str:
@@ -205,6 +205,14 @@ def generate_solution_table(solutions: list[dict[str, Any]], show_list_column: b
     table += "**Warning**: "
     table += "[No AI-generated proof should be trusted without human review, no matter how formal.]"
     table += "(https://www.lesswrong.com/posts/rhAPh3YzhPoBNpgHg/lies-damned-lies-and-proofs-formal-methods-are-not-slopless)\n\n"
+    
+    # Add legend for status indicators with HTML colors
+    table += "**Legend**: "
+    table += '<span style="color: green">✓ Success</span> | '
+    table += '<span style="color: red">✗ Cannot formalize</span> | '
+    table += '<span style="color: orange">⚠ Unverified</span> | '
+    table += '<span style="color: purple">★ New result</span> | '
+    table += '<span style="color: gray">? Unknown</span>\n\n'
 
     if show_list_column:
         table += "| Problem | List | Artifact | Status | Human Review |\n"

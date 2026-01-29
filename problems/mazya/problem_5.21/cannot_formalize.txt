@@ -1,0 +1,7 @@
+This problem cannot be properly formalized in Lean 4/Mathlib for several reasons:
+
+1. **Open-ended question**: The problem asks "Does (5.17) hold...?" which is a yes/no question rather than a precise theorem statement. To formalize it, we would need to know whether to state the positive (the inequality holds) or negative (there exists a counterexample) direction, but this is precisely what the open problem is asking.
+
+2. **Missing infrastructure**: The formalization requires Sobolev spaces L^{1,q}_0(Ω) on arbitrary (possibly irregular) domains in R³, the Lamé operator from linear elasticity, and multiplicative inequalities involving mixed Sobolev and L^∞ norms. These concepts are not available in current Mathlib and would require substantial development to formalize properly.
+
+3. **Technical subtlety of "arbitrary domain"**: The problem specifically asks about domains without regularity assumptions, which makes even defining the relevant function spaces and differential operators mathematically delicate and well beyond current formalization capabilities.

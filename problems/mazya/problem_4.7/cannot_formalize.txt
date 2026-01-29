@@ -1,0 +1,7 @@
+This problem cannot be properly formalized in Lean 4 / Mathlib for several reasons:
+
+1. **Missing definitions**: Neither the sharp maximal operator M♯ nor the non-classical maximal operator M♦ are defined in Mathlib. Defining these properly would require substantial development of harmonic analysis infrastructure including: spherical averages, mean value integrals over balls, and suprema over continuous parameters.
+
+2. **Ambiguous quantification over function spaces**: The problem asks for the existence of a "Banach space B" where these operators have different boundedness properties. However, the operators act on locally integrable functions f: ℝⁿ → ℝ, so "Banach space B" implicitly means a Banach space of functions on ℝⁿ (like Lp spaces, Sobolev spaces, BMO, etc.). Formalizing "a Banach space that is a subspace of locally integrable functions with compatible norm" is non-trivial and not standardized in Mathlib.
+
+3. **Open research question**: This is an open problem asking whether a specific mathematical object exists. Such existence questions cannot be captured as a single theorem statement with a sorry - we would need to formalize the negation (non-existence) as well, and the problem is precisely asking which one is true.

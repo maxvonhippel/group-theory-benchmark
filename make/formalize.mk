@@ -38,3 +38,25 @@ formalize:
 		echo "  make formalize N=10 [LIST=kourovka]        # Formalize first 10 unformalized problems"; \
 		exit 1; \
 	fi
+
+.PHONY: formalize-parallel
+formalize-parallel:
+	@if [ -z "$(N)" ]; then \
+		echo "Error: N must be set for parallel formalization."; \
+		echo "Usage:"; \
+		echo "  make formalize-parallel N=50 [BATCH=10] [LIST=kourovka]"; \
+		echo ""; \
+		echo "  N:     Number of problems to formalize (required)"; \
+		echo "  BATCH: Number of parallel Claude instances (default: 10)"; \
+		echo "  LIST:  Problem list name (default: kourovka)"; \
+		exit 1; \
+	fi
+	@LIST=$${LIST:-kourovka}; \
+	BATCH=$${BATCH:-10}; \
+	echo "Parallel formalization: $(N) problems from $$LIST (batch size: $$BATCH)"; \
+	uv run python make/formalize_parallel.py --n $(N) --batch $$BATCH --list $$LIST; \
+	if [ $$? -eq 0 ]; then \
+		echo ""; \
+		echo "Updating README.md..."; \
+		$(MAKE) readme; \
+	fi

@@ -1,0 +1,5 @@
+This problem cannot be properly formalized in Lean 4 for two fundamental reasons:
+
+1. **Open "prove or disprove" structure**: The problem asks to prove OR disprove that variational solutions are in L^∞(Ω). Since the truth value is unknown, we cannot state it as either a theorem or its negation without prejudging the answer.
+
+2. **Missing mathematical infrastructure**: Mathlib lacks the necessary PDE theory for variational solutions of polyharmonic equations. Specifically, it does not have: Sobolev spaces H^m_0(Ω) for general order m with zero Dirichlet boundary conditions, the weak/variational formulation of the iterated Laplacian Δ^m u = f, or the connection between weak solutions and L^∞ bounds. These are sophisticated concepts from PDE theory that would require substantial development before this problem could be stated formally.

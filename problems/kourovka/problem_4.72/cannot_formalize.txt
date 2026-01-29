@@ -1,0 +1,7 @@
+This problem cannot be formalized in Lean 4 with current Mathlib because:
+
+1. The problem involves "varieties of groups" in the universal algebra sense (classes of groups defined by identities/equational laws, i.e., Birkhoff varieties). Mathlib does not have infrastructure for varieties of algebraic structures in this sense.
+
+2. The concept of "residually nilpotent" groups (groups where the intersection of all terms of the lower central series is trivial) is not defined in Mathlib - the existing nilpotent group theory covers nilpotent groups but not residual properties.
+
+3. The problem asks a classification question about which varieties have certain properties, requiring the ability to quantify over all varieties of groups, which would need substantial universal algebra infrastructure not present in Mathlib.

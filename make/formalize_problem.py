@@ -128,16 +128,16 @@ def validate_lean_file(lean_file, problem_dir):
         target_file.unlink(missing_ok=True)
         return False, "", "Lake not found. Run 'make setup' first."
 
-def run_claude_formalization(prompt, problem_dir):
-    """Run Claude to generate formalization with active monitoring.
+def run_claude_formalization(prompt, problem_dir, timeout_minutes=5):
+    """Run Claude to generate formalization.
     
-    Uses subprocess.Popen() with active file monitoring to detect when output
-    files are created and immediately terminate Claude process, avoiding
-    10-minute timeout waits.
+    Gives Claude full autonomy to compile, see errors, fix, and iterate
+    within the timeout period. After timeout, checks if output files exist.
     
     Args:
         prompt: The formalization prompt text
         problem_dir: Path to the problem directory where outputs should be created
+        timeout_minutes: Maximum time to let Claude work (default: 5 minutes)
     """
     import time
     
@@ -171,11 +171,12 @@ def run_claude_formalization(prompt, problem_dir):
     mcp_config_file.write_text(json.dumps(mcp_config, indent=2))
     
     print("Launching Claude to formalize problem...")
+    print(f"Timeout: {timeout_minutes} minutes")
     print("=" * 60)
     
     try:
-        # Start Claude process with Popen for active monitoring
-        # Don't capture output so it streams to console and user can see progress
+        # Start Claude process
+        # Don't capture output so it streams to console
         process = subprocess.Popen(
             [
                 'claude',
@@ -187,52 +188,28 @@ def run_claude_formalization(prompt, problem_dir):
             cwd=str(problem_dir)  # Run from problem directory
         )
         
-        # Track output files
+        # Let Claude cook for the timeout period
+        timeout_seconds = timeout_minutes * 60
+        try:
+            process.wait(timeout=timeout_seconds)
+        except subprocess.TimeoutExpired:
+            print(f"\nTimeout reached ({timeout_minutes}min) - checking results...")
+            process.terminate()
+            try:
+                process.wait(timeout=5)
+            except subprocess.TimeoutExpired:
+                print("Force killing Claude process...")
+                process.kill()
+                process.wait()
+        
+        # Check for output files
         lean_file = problem_dir / "formalization.lean"
         cannot_file = problem_dir / "cannot_formalize.txt"
         
-        # Poll for completion with active monitoring
-        start_time = time.time()
-        max_timeout = 600  # 10 minutes max
-        check_interval = 1  # Check every second
-        
-        while process.poll() is None:
-            # Check if output files exist
-            if lean_file.exists() or cannot_file.exists():
-                print("\nOutput file detected - terminating Claude process...")
-                process.terminate()
-                try:
-                    process.wait(timeout=5)
-                except subprocess.TimeoutExpired:
-                    print("Force killing Claude process...")
-                    process.kill()
-                    process.wait()
-                break
-            
-            # Check timeout
-            elapsed = time.time() - start_time
-            if elapsed > max_timeout:
-                print(f"\nTimeout reached ({max_timeout}s) - terminating Claude process...")
-                process.terminate()
-                try:
-                    process.wait(timeout=5)
-                except subprocess.TimeoutExpired:
-                    process.kill()
-                    process.wait()
-                break
-            
-            # Sleep briefly before next check
-            time.sleep(check_interval)
-        
-        # Check for output files in problem directory
         if lean_file.exists() or cannot_file.exists():
-            return True  # Task completed successfully (output files exist)
+            return True
         
-        # No output files exist - check exit code
-        if process.returncode == 0:
-            return False  # Normal exit but no outputs = failure
-        
-        return False  # Process failed without producing output
+        return False
         
     except KeyboardInterrupt:
         print("\nFormalization interrupted by user")

@@ -1,0 +1,7 @@
+This problem cannot be formalized in Lean 4/Mathlib for several reasons:
+
+1. **Construction request, not theorem statement**: The problem asks to "construct a counterexample" - this is a request for an explicit construction demonstrating non-uniqueness, not a theorem to prove. Formalizing would require providing the actual counterexample (specific domain, boundary data, viscosity, etc.), which is the open research problem itself.
+
+2. **Missing mathematical infrastructure**: The stationary Navier-Stokes equations, Reynolds numbers, variational solutions for incompressible fluid systems, and the required Sobolev space infrastructure are not available in Mathlib.
+
+3. **Open problem nature**: Finding such a counterexample is an unsolved classical problem in mathematical fluid dynamics - the problem explicitly states it "seems half-forgotten" and is being included precisely because it remains open.

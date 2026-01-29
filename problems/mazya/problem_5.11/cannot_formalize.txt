@@ -1,0 +1,7 @@
+This problem cannot be formalized in Lean 4 for multiple reasons:
+
+1. It is an open "prove or disprove" problem, meaning the truth value is unknown - we cannot state it as a theorem without knowing the answer.
+
+2. The mathematical objects involved (polyharmonic Green's functions with Dirichlet boundary conditions on arbitrary domains, the Dirac delta distribution as a fundamental solution) are not available in Mathlib. There is no theory of Green's functions for elliptic PDEs, no polyharmonic operator, and no framework for boundary value problems on domains.
+
+3. The statement requires showing a bound that is uniform over ALL domains in R^n, which is a sophisticated result in PDE theory well beyond current Mathlib capabilities.
